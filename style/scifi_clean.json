@@ -1,0 +1,33 @@
+{
+  "style_id": "scifi_clean",
+  "palette": {
+    "dominant": [
+      "#0B1F2A",
+      "#D7E3EA",
+      "#E06A24"
+    ],
+    "forbidden": [
+      "organic clutter"
+    ]
+  },
+  "grade": "cold key with warm practicals, clean geometry, high dynamic range",
+  "grain": "minimal",
+  "lens_set": [
+    "ultrawide",
+    "wide",
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "studio_neutral",
+    "practical_only",
+    "volumetric_shafts",
+    "blue_hour"
+  ],
+  "texture_language": "brushed metal, glass, composite panel, vapour",
+  "forbidden": [
+    "period costume",
+    "hand-drawn texture"
+  ]
+}

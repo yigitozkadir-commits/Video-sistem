@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/finding.schema.json",
+  "title": "QA Finding",
+  "description": "A finding without evidence is void (M12 §7).",
+  "type": "object",
+  "properties": {
+    "finding_id": {
+      "type": "string",
+      "pattern": "^FND-\\d{6}$"
+    },
+    "axis": {
+      "type": "string",
+      "enum": [
+        "NAR",
+        "VIS",
+        "TEC",
+        "SYN",
+        "AUD",
+        "CMP",
+        "EMO",
+        "LEG",
+        "MOT",
+        "IDN"
+      ]
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "trivial",
+        "minor",
+        "major",
+        "blocking"
+      ]
+    },
+    "observation": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "frame": {
+          "type": "integer"
+        },
+        "timecode": {
+          "type": "string"
+        },
+        "word": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      }
+    },
+    "suggested_fix": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "needs_human": {
+      "type": "boolean"
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "axis",
+    "severity",
+    "observation",
+    "evidence"
+  ],
+  "additionalProperties": true
+}

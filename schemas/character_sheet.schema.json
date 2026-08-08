@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/character_sheet.schema.json",
+  "title": "Character Sheet",
+  "description": "Immutable identity canon. Changing a locked sheet requires a human approval object. M15 §9.1.",
+  "type": "object",
+  "properties": {
+    "character_id": {
+      "type": "string",
+      "pattern": "^CHR-\\d{3}$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "canonical_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^REF-(CHR|ENV|OBJ|PAL)-\\d{3}$"
+      }
+    },
+    "identity_tokens": {
+      "type": "string"
+    },
+    "wardrobe": {
+      "type": "object",
+      "properties": {
+        "default": {
+          "type": "string"
+        },
+        "variants": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "default"
+      ]
+    },
+    "age_range": {
+      "type": "string"
+    },
+    "height_build": {
+      "type": "string"
+    },
+    "voice_id": {
+      "type": "string",
+      "pattern": "^VOI-\\d{3}$"
+    },
+    "locked": {
+      "type": "boolean"
+    },
+    "lock_approval_ref": {
+      "type": "string",
+      "pattern": "^APR-\\d{4}$"
+    }
+  },
+  "required": [
+    "character_id",
+    "name",
+    "identity_tokens",
+    "canonical_refs",
+    "locked"
+  ],
+  "additionalProperties": true
+}

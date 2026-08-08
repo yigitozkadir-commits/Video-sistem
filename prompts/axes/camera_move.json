@@ -1,0 +1,67 @@
+{
+  "axis": "camera_move",
+  "values": [
+    {
+      "token": "static",
+      "duration_floor_s": 2.0,
+      "use": "reflection, dialogue, dread"
+    },
+    {
+      "token": "push_in.slow",
+      "duration_floor_s": 3.0,
+      "use": "realisation, rising tension"
+    },
+    {
+      "token": "pull_out.slow",
+      "duration_floor_s": 3.0,
+      "use": "isolation, reveal of scale"
+    },
+    {
+      "token": "pan.left",
+      "duration_floor_s": 3.0,
+      "use": "geography, following movement"
+    },
+    {
+      "token": "pan.right",
+      "duration_floor_s": 3.0,
+      "use": "geography, following movement"
+    },
+    {
+      "token": "tilt.up",
+      "duration_floor_s": 2.5,
+      "use": "awe, scale, power"
+    },
+    {
+      "token": "tilt.down",
+      "duration_floor_s": 2.5,
+      "use": "judgement, submission"
+    },
+    {
+      "token": "tracking",
+      "duration_floor_s": 4.0,
+      "use": "journey, urgency",
+      "risk": "high"
+    },
+    {
+      "token": "orbit.slow",
+      "duration_floor_s": 4.0,
+      "use": "object of significance",
+      "budget": "once per act"
+    },
+    {
+      "token": "crane",
+      "duration_floor_s": 4.0,
+      "use": "establishing, epic geography"
+    },
+    {
+      "token": "drone",
+      "duration_floor_s": 4.0,
+      "use": "landscape scale"
+    },
+    {
+      "token": "handheld.subtle",
+      "duration_floor_s": 2.0,
+      "use": "danger, intimacy"
+    }
+  ]
+}

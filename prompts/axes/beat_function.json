@@ -1,0 +1,16 @@
+{
+  "axis": "beat_function",
+  "values": [
+    "setup",
+    "inciting",
+    "complication",
+    "reversal",
+    "revelation",
+    "decision",
+    "confrontation",
+    "consequence",
+    "resolution",
+    "transition",
+    "breath"
+  ]
+}

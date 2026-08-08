@@ -1,0 +1,24 @@
+{
+  "prompt_id": "PV-0140",
+  "family": "eleven.music.cue.restrained_tension",
+  "tool": "eleven",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "instrumentation",
+    "tempo",
+    "key"
+  ],
+  "template": "Sparse, slow, unresolved. {instrumentation}. {tempo} BPM, {key}, no percussion, no melody in the 200-2000 Hz vocal band. Intensity begins 0.2, rises to 0.5 by two-thirds, falls to 0.15 before the end. 3s fade in, 4s tail out. Loopable middle section.",
+  "constraints": {},
+  "negative_base": "cymbal swells, orchestral hits, resolution to major",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

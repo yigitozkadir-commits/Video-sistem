@@ -1,0 +1,73 @@
+{
+  "template_id": "TPL-dark-fantasy",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 7.0,
+      "range": [
+        5,
+        9
+      ]
+    },
+    "still_video_ratio": 0.55,
+    "motion_ceiling": 2,
+    "silence_per_act": 2,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "tilt.down",
+      "handheld.subtle"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/dark_fantasy_low_key.json",
+    "palette": {
+      "dominant": [
+        "desaturated",
+        "one accent hue",
+        "crushed shadow"
+      ],
+      "forbidden": [
+        "bright pastel"
+      ]
+    },
+    "lens_set": [
+      "normal",
+      "portrait",
+      "tele"
+    ],
+    "lighting": [
+      "moonlight_cool",
+      "candlelight_intimate",
+      "backlit_silhouette",
+      "practical_only"
+    ],
+    "forbidden": [
+      "explicit gore",
+      "bright comedy palette"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.5,
+      "style": 0.25,
+      "speed": 1.0,
+      "wpm": 125
+    },
+    "music": {
+      "density": "low",
+      "instruments": "drone, sub-bass, bowed metal",
+      "loudness_under_speech_db": -22
+    },
+    "ambience": "sparse, cold, close",
+    "silence_max_s": 2.5
+  },
+  "qa_overrides": {
+    "audience_rating": "teen"
+  },
+  "budget_profile": {
+    "credits_per_minute": 250
+  }
+}

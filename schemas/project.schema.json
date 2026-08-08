@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/project.schema.json",
+  "title": "Project",
+  "description": "Root contract. Single source of truth for one production. M13 §12.3.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bible_version": {
+      "type": "string"
+    },
+    "template_ref": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "pages": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "file",
+        "sha256"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "properties": {
+        "source_basis": {
+          "type": "string",
+          "enum": [
+            "public_domain",
+            "licensed",
+            "owned",
+            "unknown"
+          ]
+        },
+        "evidence_ref": {
+          "type": "string"
+        },
+        "likeness_clearance": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "source_basis"
+      ]
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "aspect_ratio": {
+          "type": "string",
+          "enum": [
+            "9:16",
+            "16:9",
+            "1:1",
+            "4:5"
+          ]
+        },
+        "resolution": {
+          "type": "string"
+        },
+        "fps": {
+          "type": "integer",
+          "enum": [
+            24,
+            25,
+            30,
+            60
+          ]
+        },
+        "target_duration_s": {
+          "type": "number"
+        },
+        "loudness_lufs": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "aspect_ratio",
+        "resolution",
+        "fps"
+      ]
+    },
+    "language": {
+      "type": "object",
+      "properties": {
+        "narration": {
+          "type": "string"
+        },
+        "captions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prompts": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "narration",
+        "prompts"
+      ]
+    },
+    "style_profile_ref": {
+      "type": "string"
+    },
+    "audience_rating": {
+      "type": "string",
+      "enum": [
+        "children",
+        "general",
+        "teen",
+        "adult"
+      ]
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "currency": {
+          "type": "string"
+        },
+        "total": {
+          "type": "number"
+        },
+        "alert_at": {
+          "type": "number"
+        },
+        "hard_stop_at": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "total",
+        "hard_stop_at"
+      ]
+    },
+    "determinism": {
+      "type": "object",
+      "properties": {
+        "global_seed": {
+          "type": "integer"
+        },
+        "pin_models": {
+          "type": "boolean"
+        }
+      }
+    },
+    "approval_policy": {
+      "type": "object",
+      "properties": {
+        "first_scene": {
+          "type": "string",
+          "enum": [
+            "required",
+            "optional"
+          ]
+        },
+        "master_export": {
+          "type": "string",
+          "enum": [
+            "required",
+            "optional"
+          ]
+        },
+        "approval_sla_hours": {
+          "type": "integer"
+        },
+        "on_timeout": {
+          "type": "string",
+          "enum": [
+            "hold",
+            "proceed_p3",
+            "abort"
+          ]
+        }
+      }
+    },
+    "production_phase": {
+      "type": "string",
+      "enum": [
+        "reference_only",
+        "scaffolded",
+        "assets_in_progress",
+        "assets_complete",
+        "narration_complete",
+        "rendering",
+        "rendered",
+        "delivered"
+      ],
+      "description": "Single-glance answer to 'where is this project right now', set by whichever agent last changed the project's state. Not a replacement for decisions_log (which carries the why) - this is the what, for fast resume without re-deriving it from scenes/state on every session. reference_only is for asset-library projects with no scene timeline (e.g. PRJ-fetih-1453)."
+    }
+  },
+  "required": [
+    "project_id",
+    "title",
+    "bible_version",
+    "source",
+    "rights",
+    "output",
+    "language",
+    "budget"
+  ],
+  "additionalProperties": true
+}

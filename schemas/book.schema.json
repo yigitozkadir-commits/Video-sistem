@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/book.schema.json",
+  "title": "Book",
+  "description": "Document intelligence output. M14 §3.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "language_detected": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "integer"
+    },
+    "has_toc": {
+      "type": "boolean"
+    },
+    "structure": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "chapter": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "page_start": {
+            "type": "integer"
+          },
+          "page_end": {
+            "type": "integer"
+          },
+          "word_count": {
+            "type": "integer"
+          },
+          "illustration_count": {
+            "type": "integer"
+          },
+          "confidence": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "chapter",
+          "page_start",
+          "page_end"
+        ]
+      }
+    },
+    "front_matter_pages": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "back_matter_pages": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "footnotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer"
+          },
+          "marker": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "native",
+            "ocr",
+            "hybrid",
+            "structural"
+          ]
+        },
+        "ocr_fallback_pages": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "avg_confidence": {
+          "type": "number"
+        },
+        "tool_versions": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "method",
+        "avg_confidence"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "pages",
+    "structure",
+    "extraction"
+  ],
+  "additionalProperties": true
+}

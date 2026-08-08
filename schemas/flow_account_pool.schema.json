@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/flow_account_pool.schema.json",
+  "title": "Flow Account Pool",
+  "description": "Ücretsiz Google Flow hesap havuzunun günlük kota durumu. M13 §19 Resource Allocation ve M15 §12 Cost Discipline'ı somutlaştırır.",
+  "type": "object",
+  "properties": {
+    "pool_id": {
+      "type": "string",
+      "pattern": "^POOL-flow-\\d{2}$",
+      "description": "Unique pool identifier"
+    },
+    "accounts": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "properties": {
+          "account_id": {
+            "type": "string",
+            "pattern": "^FLWACC-\\d{2}$"
+          },
+          "email": {
+            "type": "string",
+            "format": "email"
+          },
+          "tier": {
+            "type": "string",
+            "enum": ["free"]
+          },
+          "daily_video_cap": {
+            "type": "integer",
+            "const": 3,
+            "description": "Maximum videos per day for this account"
+          },
+          "max_clip_seconds": {
+            "type": "integer",
+            "const": 10,
+            "description": "Maximum seconds per video clip"
+          },
+          "videos_used_today": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3
+          },
+          "seconds_reserved_today": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Total seconds reserved (not necessarily used/completed)"
+          },
+          "images_used_today": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Still images generated (unlimited)"
+          },
+          "state": {
+            "type": "string",
+            "enum": ["ACTIVE", "EXHAUSTED", "COOLDOWN", "QUARANTINED"],
+            "description": "Current state of this account"
+          },
+          "reset_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When daily quota resets (24h cycle)"
+          },
+          "last_used_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Last time this account was used"
+          },
+          "quarantine_reason": {
+            "type": ["string", "null"],
+            "description": "Reason for quarantine if applicable (rate limit, error pattern, etc.)"
+          }
+        },
+        "required": [
+          "account_id",
+          "tier",
+          "daily_video_cap",
+          "max_clip_seconds",
+          "videos_used_today",
+          "state",
+          "reset_at"
+        ]
+      }
+    },
+    "pool_totals": {
+      "type": "object",
+      "properties": {
+        "total_accounts": {
+          "type": "integer",
+          "const": 10,
+          "description": "Total number of accounts in pool"
+        },
+        "daily_video_seconds_cap": {
+          "type": "integer",
+          "const": 300,
+          "description": "Total daily capacity: 10 accounts × 3 videos × 10s = 300s"
+        },
+        "seconds_reserved_today": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300,
+          "description": "Total seconds reserved across all accounts"
+        },
+        "seconds_remaining_today": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 300,
+          "description": "Remaining seconds available for reservation today"
+        },
+        "images_unlimited": {
+          "type": "boolean",
+          "const": true,
+          "description": "Still image generation is unlimited"
+        },
+        "active_accounts": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Number of accounts currently ACTIVE (not exhausted/quarantined)"
+        }
+      },
+      "required": [
+        "daily_video_seconds_cap",
+        "seconds_remaining_today",
+        "images_unlimited"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["pool_id", "accounts", "pool_totals"],
+  "additionalProperties": true
+}

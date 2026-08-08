@@ -1,0 +1,65 @@
+{
+  "bible_version": "2.0",
+  "concurrency": {
+    "q.ingest": 2,
+    "q.ocr": 4,
+    "q.analysis": 2,
+    "q.prompt": 4,
+    "q.visual": 3,
+    "q.voice": 3,
+    "q.music": 1,
+    "q.assemble": 2,
+    "q.render": 1,
+    "q.qa": 6
+  },
+  "providers": {
+    "visual": "flow",
+    "audio": "elevenlabs",
+    "llm_plan": "claude",
+    "llm_review": "claude"
+  },
+  "budget": {
+    "alert_at": 0.8,
+    "hard_stop_at": 1.0
+  },
+  "human": {
+    "approval_sla_hours": 24,
+    "on_timeout": "hold",
+    "notify": [
+      "producer@studio"
+    ]
+  },
+  "determinism": {
+    "pin_models": true,
+    "record_seeds": true
+  },
+  "safety": {
+    "block_on_legal_findings": true,
+    "children_mode_auto": true
+  },
+  "retry": {
+    "transient_max": 3,
+    "generation_max": 5,
+    "validation_max": 2,
+    "compliance_max": 0,
+    "backoff_base_s": 5,
+    "backoff_cap_s": 600,
+    "jitter": 0.2
+  },
+  "flow_account_pool": {
+    "total_accounts": 10,
+    "daily_video_seconds_cap": 300,
+    "max_concurrency": 3,
+    "between_accounts_delay_s": 2,
+    "fallback_to_still": true,
+    "report_exhaustion": true
+  },
+  "gemini_key_pool": {
+    "enabled": false,
+    "total_keys": 3,
+    "rotation_policy": "round_robin_least_recently_used",
+    "max_concurrent_analysis": 3,
+    "channel_format_cache_days": 30
+  }
+}
+

@@ -1,0 +1,44 @@
+{
+  "style_id": "archaeological_abstract_documentary",
+  "source_note": "Calibrated directly from PRJ-avrasya-bozkir-kusagi's own source report, EK 5 (Görsel Yönerge) - the report's author already wrote 3 example prompts in this exact register; this profile generalizes their language rather than inventing a new one.",
+  "palette": {
+    "dominant": [
+      "#8A7A5C",
+      "#6B7568",
+      "#B8AC94"
+    ],
+    "forbidden": [
+      "saturated colour",
+      "warm romantic grade",
+      "neon",
+      "pastel"
+    ]
+  },
+  "grade": "muted earth tones, desaturated, overcast diffused light, quiet and unsentimental",
+  "grain": "clean documentary/scientific photography, no stylised grain",
+  "lens_set": [
+    "wide",
+    "macro",
+    "top-down flat lay"
+  ],
+  "motion_ceiling": 1,
+  "lighting_vocabulary": [
+    "overcast_diffused",
+    "even_museum_lighting",
+    "laboratory_documentation"
+  ],
+  "texture_language": "ice crystal lattice, dry salt crust, cracked semi-desert clay, compressed sediment layers, cross-sectional landscape bands, real unretouched surfaces",
+  "forbidden": [
+    "human figures",
+    "weapons",
+    "horses",
+    "flags",
+    "any reenactment or dramatization of a historical scene",
+    "text or symbols baked into the image",
+    "ethnic/costume symbolism",
+    "heroic or romantic framing",
+    "modern objects"
+  ],
+  "required_prompt_suffix": "no people, no animals, no structures, documentary/scientific documentation aesthetic --style raw",
+  "ai_generated_disclosure": "Every AI-generated image used in the published video must carry the on-screen label \"üretilmiş görsel — belgesel değildir\" per the report's own EK 5 rule #3 - this is a hard requirement, not a style choice."
+}

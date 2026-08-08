@@ -1,0 +1,78 @@
+{
+  "template_id": "TPL-scifi",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 5.5,
+      "range": [
+        4,
+        7
+      ]
+    },
+    "still_video_ratio": 0.45,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down",
+      "crane",
+      "orbit.slow"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/scifi_clean.json",
+    "palette": {
+      "dominant": [
+        "cold key",
+        "warm practicals",
+        "scale contrast"
+      ],
+      "forbidden": [
+        "organic clutter"
+      ]
+    },
+    "lens_set": [
+      "ultrawide",
+      "wide",
+      "normal",
+      "portrait"
+    ],
+    "lighting": [
+      "studio_neutral",
+      "practical_only",
+      "volumetric_shafts",
+      "blue_hour"
+    ],
+    "forbidden": [
+      "period costume",
+      "hand-drawn texture"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.2,
+      "speed": 1.0,
+      "wpm": 145
+    },
+    "music": {
+      "density": "medium",
+      "instruments": "textural pads, low pulse",
+      "loudness_under_speech_db": -21
+    },
+    "ambience": "hum, ventilation, distant machinery",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 260
+  }
+}

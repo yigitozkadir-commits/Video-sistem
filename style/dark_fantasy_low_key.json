@@ -1,0 +1,31 @@
+{
+  "style_id": "dark_fantasy_low_key",
+  "palette": {
+    "dominant": [
+      "#1A1A1E",
+      "#3B2F2F",
+      "#7A1F1F"
+    ],
+    "forbidden": [
+      "bright pastel"
+    ]
+  },
+  "grade": "low key, crushed shadows, single accent hue",
+  "grain": "heavy grain",
+  "lens_set": [
+    "normal",
+    "portrait",
+    "tele"
+  ],
+  "motion_ceiling": 2,
+  "lighting_vocabulary": [
+    "moonlight_cool",
+    "candlelight_intimate",
+    "backlit_silhouette"
+  ],
+  "texture_language": "damp stone, rusted iron, wet cloth, breath",
+  "forbidden": [
+    "explicit gore",
+    "bright comedy palette"
+  ]
+}

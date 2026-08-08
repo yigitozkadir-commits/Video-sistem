@@ -1,0 +1,33 @@
+{
+  "style_id": "fantasy_luminous",
+  "palette": {
+    "dominant": [
+      "#1F3A5F",
+      "#C9A227",
+      "#3E6B4F"
+    ],
+    "forbidden": [
+      "fluorescent green"
+    ]
+  },
+  "grade": "rich jewel tones, atmospheric depth, glowing highlights",
+  "grain": "subtle",
+  "lens_set": [
+    "ultrawide",
+    "wide",
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "volumetric_shafts",
+    "moonlight_cool",
+    "firelight_warm",
+    "golden_hour"
+  ],
+  "texture_language": "stone, moss, worn metal, mist",
+  "forbidden": [
+    "modern objects",
+    "cartoon proportions"
+  ]
+}

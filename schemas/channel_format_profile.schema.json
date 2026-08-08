@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/channel_format_profile.schema.json",
+  "title": "Channel Format Profile",
+  "description": "Yapısal/format düzeyinde kalıp çıkarımı. İçerik reprodüksiyonu içermez. Bölüm C (Modul 21).",
+  "type": "object",
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "pattern": "^CFP-\\d{4}$"
+    },
+    "channel_ref": {
+      "type": "string",
+      "description": "YouTube channel URL or identifier"
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "sample_size": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of videos analyzed"
+    },
+    "hook_pattern": {
+      "type": "object",
+      "properties": {
+        "duration_s": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 30,
+          "description": "Average hook/opening length in seconds"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "question",
+            "shock_statement",
+            "in_media_res",
+            "visual_promise",
+            "countdown",
+            "narrative_setup",
+            "other"
+          ]
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "avg_scene_length_s": {
+      "type": "number",
+      "minimum": 0.5,
+      "description": "Average duration of individual scenes/shots"
+    },
+    "cut_frequency_per_min": {
+      "type": "number",
+      "minimum": 0.5,
+      "description": "Average number of cuts/transitions per minute"
+    },
+    "narration_pace_wpm": {
+      "type": "number",
+      "minimum": 80,
+      "maximum": 200,
+      "description": "Words per minute in narration/dialogue"
+    },
+    "music_density": {
+      "type": "string",
+      "enum": ["sparse", "moderate", "dense", "continuous"],
+      "description": "How much of the video has background music/sound"
+    },
+    "title_pattern": {
+      "type": "string",
+      "description": "Common title structure/keywords (format only, not exact text)"
+    },
+    "thumbnail_pattern": {
+      "type": "string",
+      "description": "Thumbnail design patterns (faces, text, colors, composition)"
+    },
+    "pacing_distribution": {
+      "type": "object",
+      "properties": {
+        "fast_scenes_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "medium_scenes_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "slow_scenes_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "narrative_structure": {
+      "type": "string",
+      "enum": [
+        "three_act",
+        "hero_journey",
+        "problem_solution",
+        "storytelling",
+        "educational",
+        "vlog",
+        "other"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Confidence level of analysis (based on sample size and consistency)"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "SHA256 hash of analysis input/config"
+    },
+    "disclaimer": {
+      "type": "string",
+      "const": "Structural/format analysis only. No content reproduction."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional observations (non-content, format-focused)"
+    }
+  },
+  "required": [
+    "profile_id",
+    "channel_ref",
+    "sample_size",
+    "generated_at",
+    "disclaimer"
+  ],
+  "additionalProperties": false
+}

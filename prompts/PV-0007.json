@@ -1,0 +1,28 @@
+{
+  "prompt_id": "PV-0007",
+  "family": "flow.reference.character.sheet",
+  "tool": "flow",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "identity_tokens",
+    "wardrobe",
+    "age_range",
+    "distinguishing_features"
+  ],
+  "template": "Character reference sheet: {identity_tokens}, {wardrobe}, {age_range}. Neutral expression, even studio lighting, plain neutral background. Three views in one image: front, three-quarter, profile. Head and shoulders. Consistent proportions across views. High detail on {distinguishing_features}.",
+  "constraints": {
+    "candidates": 4,
+    "must_lock": true
+  },
+  "negative_base": "dramatic lighting, background scenery, props, motion blur, text, multiple people",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

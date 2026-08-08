@@ -1,0 +1,31 @@
+{
+  "style_id": "family_animation",
+  "palette": {
+    "dominant": [
+      "#FFD79A",
+      "#6EC1E4",
+      "#F58F8F"
+    ],
+    "forbidden": [
+      "crushed black"
+    ]
+  },
+  "grade": "bright high-key, saturated but soft",
+  "grain": "none",
+  "lens_set": [
+    "wide",
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "golden_hour",
+    "single_window_soft",
+    "studio_neutral"
+  ],
+  "texture_language": "rounded forms, expressive faces, clean surfaces",
+  "forbidden": [
+    "gore",
+    "dread lighting"
+  ]
+}

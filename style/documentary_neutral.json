@@ -1,0 +1,31 @@
+{
+  "style_id": "documentary_neutral",
+  "palette": {
+    "dominant": [
+      "#8A8A8A",
+      "#5C6670",
+      "#C4B9A6"
+    ],
+    "forbidden": [
+      "stylised teal-orange"
+    ]
+  },
+  "grade": "neutral grade, accurate skin tones, mild contrast",
+  "grain": "clean digital",
+  "lens_set": [
+    "wide",
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 2,
+  "lighting_vocabulary": [
+    "overcast_soft",
+    "practical_only",
+    "studio_neutral"
+  ],
+  "texture_language": "real materials, unretouched surfaces",
+  "forbidden": [
+    "fantasy elements",
+    "heavy grade"
+  ]
+}

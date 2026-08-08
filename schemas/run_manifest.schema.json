@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/run_manifest.schema.json",
+  "title": "Run Manifest",
+  "description": "Everything needed to replay the run (M13 §22).",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "bible_version": {
+      "type": "string"
+    },
+    "schema_versions": {
+      "type": "object"
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "role",
+          "model",
+          "version"
+        ]
+      }
+    },
+    "global_seed": {
+      "type": "integer"
+    },
+    "prompt_versions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^PV-\\d{4}$"
+      }
+    },
+    "reference_hashes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "reference_id": {
+            "type": "string",
+            "pattern": "^REF-(CHR|ENV|OBJ|PAL)-\\d{3}$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "font_pack_version": {
+      "type": "string"
+    },
+    "lut_version": {
+      "type": "string"
+    },
+    "container_image": {
+      "type": "string"
+    },
+    "replay_broken": {
+      "type": "boolean"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "halted",
+        "aborted",
+        "exported_provisional"
+      ]
+    }
+  },
+  "required": [
+    "run_id",
+    "project_id",
+    "started_at",
+    "bible_version",
+    "models",
+    "global_seed"
+  ],
+  "additionalProperties": true
+}

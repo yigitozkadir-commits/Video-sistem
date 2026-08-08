@@ -1,0 +1,24 @@
+{
+  "prompt_id": "PV-0601",
+  "family": "remotion.caption.style",
+  "tool": "remotion",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "timing_map",
+    "aspect_ratio",
+    "word_highlighting"
+  ],
+  "template": "Generate caption cues from the word-level timing map. Never re-type narration.\nMax 42 characters per line, max 2 lines, CPS <= 17. Break on clause boundaries.\nFor 9:16: 3-5 words per line, lower third, inside the safe area.\nHighlight the emphasised word from the acting metadata if word highlighting is enabled.\nOutput SRT and ASS.",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

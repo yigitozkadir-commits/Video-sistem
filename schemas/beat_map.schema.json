@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/beat_map.schema.json",
+  "title": "Beat Map",
+  "description": "M17 §4. At most 20% of beats may exceed weight 0.8.",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beat_id": {
+            "type": "string",
+            "pattern": "^BEAT-\\d{3}-\\d{2}$"
+          },
+          "function": {
+            "type": "string",
+            "enum": [
+              "setup",
+              "inciting",
+              "complication",
+              "reversal",
+              "revelation",
+              "decision",
+              "confrontation",
+              "consequence",
+              "resolution",
+              "transition",
+              "breath"
+            ]
+          },
+          "emotion": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string"
+              },
+              "to": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "from",
+              "to"
+            ]
+          },
+          "stakes": {
+            "type": "string"
+          },
+          "information_delivered": {
+            "type": "string"
+          },
+          "attention_target": {
+            "type": "string",
+            "enum": [
+              "face",
+              "two_people",
+              "place",
+              "object",
+              "movement"
+            ]
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "beat_id",
+          "function",
+          "emotion",
+          "attention_target",
+          "weight"
+        ]
+      }
+    }
+  },
+  "required": [
+    "scene_id",
+    "beats"
+  ],
+  "additionalProperties": true
+}

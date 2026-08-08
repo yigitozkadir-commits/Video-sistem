@@ -1,0 +1,35 @@
+{
+  "style_id": "historical_epic_steppe",
+  "palette": {
+    "dominant": [
+      "#6B4A2F",
+      "#8C1F1F",
+      "#C8B18A"
+    ],
+    "forbidden": [
+      "neon",
+      "pastel"
+    ]
+  },
+  "grade": "desaturated warm shadows, cool highlights, film curve",
+  "grain": "fine 35mm",
+  "lens_set": [
+    "wide",
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "single_window_soft",
+    "firelight_warm",
+    "overcast_soft",
+    "golden_hour"
+  ],
+  "texture_language": "felt, leather, brass, wool, breath in cold air",
+  "forbidden": [
+    "modern objects",
+    "plastic sheen",
+    "anime stylisation",
+    "lens flare"
+  ]
+}

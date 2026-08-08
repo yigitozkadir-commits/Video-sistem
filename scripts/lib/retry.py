@@ -1,0 +1,103 @@
+"""
+Retry-with-backoff, reading the retry contract that studio.config.json
+already defines (retry.transient_max, backoff_base_s, backoff_cap_s,
+jitter) but that nothing in the codebase actually implemented until now.
+
+CLAUDE.md law #6 ("Cost is a constraint — budget exhaustion halts
+production") means quota/budget errors must NOT be retried - retrying a
+401 quota_exceeded just wastes more calls against a wall that won't move.
+Only genuinely transient failures (network errors, 5xx, timeouts) should
+back off and retry. Callers mark which category applies by raising
+`NonRetryable` for anything that retrying can't fix.
+"""
+from __future__ import annotations
+
+import json
+import random
+import time
+from pathlib import Path
+from typing import Callable, TypeVar
+
+T = TypeVar("T")
+
+_CONFIG_PATH = Path(__file__).parent.parent.parent / "studio.config.json"
+
+
+class NonRetryable(Exception):
+    """Raise this (or a subclass) from inside a retried function to signal
+    the failure is not transient - e.g. quota exhaustion, validation
+    failure, auth error. with_retry() will not retry these; it re-raises
+    immediately."""
+
+
+def _retry_config() -> dict:
+    if _CONFIG_PATH.exists():
+        return json.loads(_CONFIG_PATH.read_text()).get("retry", {})
+    return {}
+
+
+def with_retry(
+    fn: Callable[[], T],
+    category: str = "transient",
+    on_retry: Callable[[int, Exception], None] | None = None,
+    error_context: dict | None = None,
+) -> T:
+    """Call fn() with exponential backoff + jitter on transient failure.
+
+    category selects the max-attempts key from studio.config.json's retry
+    block: "transient" -> transient_max, "generation" -> generation_max,
+    "validation" -> validation_max, "compliance" -> compliance_max (0 by
+    design - compliance failures never auto-retry).
+
+    error_context, if given, is a dict with "project_state_dir" plus two
+    codes (E-<CLASS>-nnn strings per schemas/error.schema.json): "code" for
+    the "attempts exhausted, still transient" case and "nonretryable_code"
+    for the NonRetryable case (they're usually different classes - e.g.
+    E-GEN-001 for exhausted network retries vs E-BUD-001 for a quota wall).
+    "task_ref" and "escalate_to" are optional. When the call ultimately
+    fails, a schema-compliant error record is appended to state/errors.jsonl
+    before the exception propagates. Omit error_context to keep the old
+    fire-and-forget behavior unchanged.
+    """
+    cfg = _retry_config()
+    max_attempts = cfg.get(f"{category}_max", 3)
+    base = cfg.get("backoff_base_s", 5)
+    cap = cfg.get("backoff_cap_s", 600)
+    jitter = cfg.get("jitter", 0.2)
+
+    attempt = 0
+    while True:
+        attempt += 1
+        try:
+            return fn()
+        except NonRetryable as e:
+            if error_context:
+                _log_final_error(error_context, e, attempt, retryable=False,
+                                  code=error_context.get("nonretryable_code", error_context.get("code")))
+            raise
+        except Exception as e:
+            if attempt >= max_attempts:
+                if error_context:
+                    _log_final_error(error_context, e, attempt, retryable=True,
+                                      code=error_context.get("code"))
+                raise
+            delay = min(cap, base * (2 ** (attempt - 1)))
+            delay *= 1 + random.uniform(-jitter, jitter)
+            if on_retry:
+                on_retry(attempt, e)
+            time.sleep(max(0, delay))
+
+
+def _log_final_error(error_context: dict, exc: Exception, attempt: int, retryable: bool, code: str) -> None:
+    from errors import log_error  # local import: avoids a hard dependency for callers that never pass error_context
+
+    log_error(
+        project_state_dir=error_context["project_state_dir"],
+        code=code,
+        message=str(exc),
+        retryable=retryable,
+        task_ref=error_context.get("task_ref"),
+        attempt=attempt,
+        escalate_to=error_context.get("escalate_to", "human" if not retryable else "director"),
+        suggested_strategy=error_context.get("suggested_strategy"),
+    )

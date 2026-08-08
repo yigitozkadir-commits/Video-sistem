@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/worker.schema.json",
+  "title": "Worker",
+  "description": "Worker registration and lease state. M13 §5.",
+  "type": "object",
+  "properties": {
+    "worker_id": {
+      "type": "string",
+      "pattern": "^WRK-[a-z]+-\\d{2}$"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "technical",
+        "visual",
+        "audio",
+        "orchestrator",
+        "director",
+        "review",
+        "render"
+      ]
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "BOOT",
+        "IDLE",
+        "CLAIM",
+        "RUNNING",
+        "REPORTING",
+        "QUARANTINED",
+        "OFFLINE"
+      ]
+    },
+    "current_task": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^TSK-\\d{6}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "lease_expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "heartbeat_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "consumed": {
+      "type": "object",
+      "properties": {
+        "credits": {
+          "type": "number"
+        },
+        "tasks": {
+          "type": "integer"
+        },
+        "failures": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "worker_id",
+    "role",
+    "capabilities",
+    "state"
+  ],
+  "additionalProperties": true
+}

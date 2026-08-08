@@ -1,0 +1,71 @@
+{
+  "template_id": "TPL-baskurtlar-hybrid",
+  "extends": null,
+  "benchmark_ref": ["CFP-0002", "CFP-0001"],
+  "composition_note": "Blends TPL-historical-epic's visual/tonal base (accuracy-first, no invented content) with TPL-mystery-discovery's hook craft, pacing energy, and music design (K1-K3, K19-K23). Deliberately drops K4 (build doubt on a proven fact) and K9 (frame gaps as suppressed truth) - the source report is already evidence-based; adding manufactured doubt is both unnecessary and risky given a real factual error (false UNESCO claims) was already caught and corrected in this project's research pass.",
+  "director": {
+    "pace": {
+      "avg_shot_s": 5.0,
+      "range": [4, 7]
+    },
+    "still_video_ratio": 0.6,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/historical_epic_steppe.json",
+    "palette": {
+      "dominant": ["earth", "ochre", "deep red", "cold grey"],
+      "forbidden": ["neon", "pastel"]
+    },
+    "lens_set": ["wide", "normal", "portrait"],
+    "lighting": ["golden_hour", "firelight_warm", "overcast_soft", "single_window_soft"],
+    "forbidden": ["modern objects", "plastic sheen", "lens flare", "anime stylisation"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.25,
+      "speed": 1.0,
+      "wpm": 145
+    },
+    "music": {
+      "density": "dense",
+      "instruments": "low-frequency drone, sub-bass, neoclassical/orchestral strings for historical passages, cymbal swells at reveals - never vocals (K19-K22)",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "wind, cloth, distant animals",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "period_accuracy_check": true
+  },
+  "budget_profile": {
+    "credits_per_minute": 220
+  },
+  "content_rules_adopted": {
+    "source": "subset of templates/TPL-mystery-discovery.json's content_rules, user-approved for this project via AskUserQuestion",
+    "rules": [
+      "K1 Question-driven hook: pose a real, specific question the video will answer in the first ~60s (e.g. 'a Turkic people of 1.5 million people, with their own epic and their own script tradition - why have you never heard of them?'), not a generic greeting.",
+      "K2 Academic grounding, kept as-is: every claim ties to a named source, author, or archive - this project already does this by construction (report's own 52-source bibliography, extended this pass).",
+      "K3 adapted (not 'differentiation', 'source transparency'): state plainly that a claim in the original report could not be verified when that happens (see the UNESCO correction), rather than smoothing over it - honesty about sourcing IS the differentiator here, not attacking other creators.",
+      "K19-K23 music rules adopted as-is: no vocals ever, low-frequency drone bed, cinematic suspense swells timed to reveals, neoclassical/orchestral for historical passages, music synced to the narrator's breath/pauses."
+    ],
+    "rules_explicitly_not_adopted": [
+      "K4 (build doubt on a proven fact) - not used: nothing in this project needs manufactured mystery.",
+      "K9 ('hidden truth' framing for data gaps) - not used: a documented gap is presented as a documented gap, not suppression.",
+      "K18's 'never declare the truth, keep it an open puzzle' closing move - not used: where research gives a clear answer (e.g. the UNESCO correction), the video states it plainly."
+    ]
+  }
+}

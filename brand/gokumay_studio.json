@@ -1,0 +1,57 @@
+{
+  "_note": "Not a schema-bound contract (no schemas/brand.schema.json - kept lightweight on purpose). A reference file so narration-voice and palette choices don't get re-decided from scratch on every new project, the way SC-generate_avrasya_narration.py's voice pick (Rachel -> 402 error -> Daniel) had to be worked out live this session. Scripts MAY read this; nothing currently enforces it - a project's own template_ref/style_profile_ref stays authoritative when they conflict with a preset below.",
+  "narrator_voice_presets": {
+    "restrained_documentary": {
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "voice_name": "Daniel - Steady Broadcaster",
+      "stability": 0.7,
+      "style": 0.05,
+      "used_by": ["PRJ-avrasya-bozkir-kusagi"],
+      "matches_templates": ["TPL-archaeological-documentary"],
+      "note": "Evidence-presenting register, low affect. First choice attempted was ElevenLabs' library voice 'Rachel' (21m00Tcm4TlvDq8ikWAM) - 402'd, free tier can't use library voices via API. Daniel is in this account's own premade voice list. TPL-ryskulov-hybrid also cites this style profile's restrained tone as a baseline, but PRJ-ryskulov-mektubu itself was produced with dark_dramatic (below) per an explicit user request for a darker register - see that preset's note."
+    },
+    "dark_dramatic": {
+      "voice_id": "pNInz6obpgDQGcFmaJgB",
+      "voice_name": "Adam - Dominant, Firm",
+      "stability": 0.45,
+      "style": 0.35,
+      "used_by": ["PRJ-ryskulov-mektubu"],
+      "matches_templates": ["TPL-ryskulov-hybrid"],
+      "note": "User asked explicitly for a darker, more dramatic tone than restrained_documentary/warm_storyteller for a grave historical subject (the Kazak famine letter to Stalin). Adam's low, firm register fits without tipping into overacting (rejected 'Harry - Fierce Warrior' for that reason). Delivery tuned more expressive than restrained_documentary's defaults (stability 0.7/style 0.05): lower stability (0.45) for natural weight/variation, higher style (0.35) for emotional engagement. This is a TTS delivery-parameter choice only, never a rewrite of source_text - narration wording stays exactly as sourced from the cited research report."
+    },
+    "warm_storyteller": {
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "voice_name": "George - Warm, Captivating Storyteller",
+      "stability": 0.55,
+      "style": 0.25,
+      "used_by": ["PRJ-baskurtlar-arastirma"],
+      "matches_templates": ["TPL-baskurtlar-hybrid", "TPL-historical-epic"],
+      "note": "Narrative-history register with a human-story throughline (Salavat Yulayev etc.) - warmer than restrained_documentary."
+    },
+    "bright_playful": {
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "voice_name": "Jessica - Playful, Bright, Warm",
+      "stability": 0.80,
+      "style": 0.28,
+      "used_by": ["PRJ-daglar-uyuyan-devleri"],
+      "matches_templates": [],
+      "note": "Children's fairytale register. This is the .env ELEVENLABS_VOICE_ID default - correct for that project, wrong for anything documentary/historical (confirmed the hard way when it was still the default going into Avrasya's narration work)."
+    }
+  },
+  "palette_accents": {
+    "archival_restrained": {
+      "dominant": ["#8A7A5C", "#6B7568", "#B8AC94"],
+      "forbidden": ["saturated colour", "warm romantic grade", "neon", "pastel"],
+      "used_by": ["style/archaeological_abstract_documentary.json", "style/archival_restrained_documentary.json"]
+    },
+    "historical_epic_steppe": {
+      "note": "See style/historical_epic_steppe.json directly for the full palette - not duplicated here, this file only exists to help PICK a register, not to override the style profile that's already the single source of truth once a project commits to one."
+    }
+  },
+  "signature_outro": {
+    "file": "brand/GOKUMAY_signature_outro.mp4",
+    "spec": "1176x784 @24fps, 7.04s",
+    "apply_via": "scripts/append_studio_outro.py <master.mp4> <output.mp4>",
+    "note": "CLAUDE.md §11 - always the last production step, after any content fixes. Carries a small baked-in 'KlingAI 3.0' watermark from its own generation tool, flagged to the human, not something this file changes."
+  }
+}

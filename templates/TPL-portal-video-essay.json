@@ -1,0 +1,85 @@
+{
+  "template_id": "TPL-portal-video-essay",
+  "extends": null,
+  "benchmark_ref": ["CFP-0004"],
+  "composition_note": "Built from reports/channel_format_profile_portal.json (CFP-0004)'s 50-madde deep-dive of the 'Portal' channel. Unlike TPL-baskurtlar-hybrid and TPL-ryskulov-hybrid (which excluded 1-2 specific rules - K4, K9 - from an otherwise-adopted rule set), this template excludes a LARGER, more central portion of the source material: the source frames nihilism/depression as a superior-rational response rather than a condition, positions the channel as a substitute 'digital therapy room', and names building 'cult' devotion to an anonymous, infallible-seeming narrator as a scored success metric - all as the format's central thesis, not a peripheral rule. Only the source's legitimate CRAFT elements (hook structure, faceless-narrator audio/visual design, B-roll sync, philosophical curation technique, pacing/silence, dialectic narrative structure, measured closing) were adopted. See content_rules.rules_explicitly_not_adopted below for the excluded material and reasoning, and reports/channel_format_profile_portal.json's EDITORIAL FLAG for full detail.",
+  "director": {
+    "pace": {
+      "avg_shot_s": 7.0,
+      "range": [5, 10]
+    },
+    "still_video_ratio": 0.25,
+    "motion_ceiling": 2,
+    "silence_per_act": 3,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/portal_faceless_essay.json",
+    "palette": {
+      "dominant": ["desaturated grey", "dark brown", "near-black"],
+      "forbidden": ["bright reds", "bright yellows", "entertainment palette", "neon", "pastel"]
+    },
+    "lens_set": ["normal", "tele", "wide"],
+    "lighting": ["overcast_diffused", "rain_window_light", "single_desk_lamp", "night_street_ambient"],
+    "forbidden": ["on-camera presenter face", "exploding YouTuber typography", "corpses or self-harm depiction", "anything that could read as instructive/glorifying toward self-harm"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.8,
+      "style": 0.1,
+      "speed": 0.9,
+      "wpm": 120
+    },
+    "music": {
+      "density": "continuous",
+      "instruments": "ambient/lofi, reverb-heavy slowed piano, low synth pads - never rhythmic/epic, never vocals",
+      "loudness_under_speech_db": -22
+    },
+    "ambience": "rain/window/quiet-street ambience, sparse",
+    "silence_max_s": 4.0
+  },
+  "qa_overrides": {
+    "audience_rating": "teen",
+    "sensitivity_review_required": true
+  },
+  "budget_profile": {
+    "credits_per_minute": 190
+  },
+  "narrator_persona": {
+    "name": "Sessiz Rehber (Silent Guide) - Portal tuning",
+    "shared_with": "TPL-mystery-discovery, TPL-boutique-intellectual (same archetype family per the source's own cross-channel analytical vocabulary, tuned differently here)",
+    "source": "user-supplied analysis, not Claude-authored",
+    "voice_tone": "Deliberately monotone/near-flat - the source names this explicitly as an intentional pacing device, not a delivery flaw. Slightly tired/melancholic register, never energetic or YouTuber-enthusiastic. Slows further, never speeds up, at emotionally heavy lines.",
+    "word_choice": "Complex philosophical concepts translated into everyday, concrete language (e.g. 'Amor Fati' rendered as embracing a missed bus or a boss's criticism) - never left as unexplained jargon.",
+    "viewer_contract": "Speaks as a fellow sufferer sharing an observation, never as a lecturer or a flawless authority. Uses 'we/us' language throughout ('Ortak Acıda Buluşma').",
+    "context_discipline": "Film/TV clips used ONLY to illustrate the argument, never allowed to become their own mini-review or plot summary (source's own rule: 'Ana Fikirden Sapmama'). A single visual metaphor set up at the opening is called back at points throughout for narrative unity, then resolved at the close."
+  },
+  "content_rules": {
+    "source": "user-supplied 50-madde structural analysis of the 'Portal' channel, not Claude-authored - preserved here per Module 21's structural-only boundary (bible/Module_21_Channel_Format_Intelligence.md §2). A DELIBERATE, PARTIAL adoption - see rules_explicitly_not_adopted below, this is not the full rule set.",
+    "rules": [
+      "P1 Pop-culture hook (Trojan Horse): open inside a well-known film/show scene or character crisis, not a summary - the audience arrives for a film analysis and receives a philosophical argument.",
+      "P2 Personal-life bridge: within the first minute, connect the on-screen character's pain to an ordinary, concrete detail of the viewer's own daily life (commute, job, screen time) - never left abstract.",
+      "P3 Faceless authority via voice+B-roll: no on-camera presenter - all authority is carried by narration voice, music, and film-clip/stock B-roll synced emotionally to the text.",
+      "P4 Concept-translation curation: name real thinkers/texts (Schopenhauer, Camus, Jung, etc.) but always translate their ideas into a concrete, applicable 'mental tool' for daily life - never leave a concept as unexplained jargon or a museum-piece history lesson.",
+      "P5 Grounded sociological critique: social commentary (consumer culture, social media validation-seeking, burnout) is always tied to a named thinker/text (Guy Debord, Byung-Chul Han), not free-floating opinion.",
+      "P6 Synchronized silence: a 3-4 second deliberate pause follows a heavy line, during which music and a single B-roll shot land together - this is a designed pacing beat, not a cutting error.",
+      "P7 Slow-content discipline: explicitly rejects algorithmic fast-cut/dopamine pacing in favor of a long-form, cinema-like viewing register.",
+      "P8 Dialectic structure: thesis (a popular belief/success narrative) -> antithesis (its philosophical critique) -> synthesis (a constructive, individual takeaway) - never left at pure critique without a synthesis beat.",
+      "P9 Narrative loop with metaphor callback: the opening scene/question is explicitly resolved at the close; a single visual metaphor set up early is referenced again at key points for cohesion.",
+      "P10 Measured closing, no algorithm CTA: ends on a philosophical line or quiet fade rather than a 'subscribe/like/bell' call-to-action; if any CTA exists, it is philosophically framed (an invitation to reflect/comment), never ad-copy."
+    ],
+    "rules_explicitly_not_adopted": [
+      "Nihilism/depression framed as a superior-rational response rather than a condition (source Madde 32-33, 'Terapötik Etki (Acının Meşruiyeti)', 'Teselli Edici Nihilizm') - NOT adopted. A production made from this template may explore existentialist/absurdist ideas as PHILOSOPHY CONTENT, but must never imply that a viewer's depressive/nihilistic feelings are more rational or intelligent than the alternative, and must never substitute for encouraging real mental-health support when relevant.",
+      "'Digital therapy room' / 'Safe Space' self-positioning (Madde 35) - NOT adopted. This template's output is philosophy/culture commentary, not a substitute for therapy, and must not be marketed or framed as one.",
+      "Cult-building language: naming audience devotion a 'kült', elevating the anonymous narrator to a 'mitolojik, bilge gölge mentor' status 'arınmış dünyevi egolardan' (purified of earthly flaws) (Madde 41, 43, 45) - NOT adopted. The persona (narrator_persona above) is deliberately written as 'a fellow sufferer', not an infallible authority - facelessness is a production choice (P3), not a device for building unaccountable parasocial mystique.",
+      "Using real thinkers' documented suicides/institutionalization/mental illness as a 'yenilgi paydası' (shared-defeat bonding device) (Madde 34) - NOT adopted. Any factual biographical detail about a cited thinker must be handled with the same respect/accuracy standard as any other historical fact, never instrumentalized as a persuasion technique.",
+      "Monetization-through-parasocial-bond framing ('fanatikçe destekleyen bir patrona dönüştürüyor', Madde 44) - NOT adopted as a design goal; any support/membership mechanism, if used at all, should be a normal content-support option, not something engineered via the excluded techniques above."
+    ]
+  },
+  "editorial_note": "This template has NOT been applied to any existing project in this repo. It adopts only the source channel's structural/craft elements (hook, pacing, visual/audio design, curation technique, narrative architecture) and explicitly excludes the source's nihilism-as-therapy framing and cult-building language - a larger and more central exclusion than the K4/K9 exclusions in TPL-baskurtlar-hybrid.json and TPL-ryskulov-hybrid.json, because in this source the excluded material is the format's stated central thesis, not a peripheral rule. Selecting and using this template for a specific project is a creative/editorial decision outside Technical Production Director authority (CLAUDE.md §3) and needs an explicit human choice, with particular attention to qa_overrides.sensitivity_review_required (set true here deliberately) given the subject matter's proximity to mental-health topics."
+}

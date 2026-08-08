@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/production_state.schema.json",
+  "title": "Production State",
+  "description": "Single source of runtime truth. Written ONLY by the kernel, atomically (M13 §2.3).",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+    },
+    "state_version": {
+      "type": "integer"
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "INIT",
+        "INGEST",
+        "ANALYZE",
+        "PLAN",
+        "GENERATE",
+        "ASSEMBLE",
+        "QA",
+        "EXPORT",
+        "ARCHIVE",
+        "COMPLETE",
+        "HALTED",
+        "ABORTED"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_by": {
+      "const": "kernel"
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "pending": {
+          "type": "integer"
+        },
+        "ready": {
+          "type": "integer"
+        },
+        "running": {
+          "type": "integer"
+        },
+        "review": {
+          "type": "integer"
+        },
+        "completed": {
+          "type": "integer"
+        },
+        "failed": {
+          "type": "integer"
+        },
+        "blocked": {
+          "type": "integer"
+        }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "number"
+        },
+        "reserved": {
+          "type": "number"
+        },
+        "spent": {
+          "type": "number"
+        },
+        "waste_ratio": {
+          "type": "number"
+        }
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "pattern": "^TSK-\\d{6}$"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "since": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "last_checkpoint": {
+      "type": "string"
+    },
+    "halt_reason": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "project_id",
+    "run_id",
+    "state",
+    "state_version",
+    "updated_at"
+  ],
+  "additionalProperties": true
+}

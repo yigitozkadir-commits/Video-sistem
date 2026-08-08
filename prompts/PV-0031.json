@@ -1,0 +1,35 @@
+{
+  "prompt_id": "PV-0031",
+  "family": "flow.shot.closeup.realisation",
+  "tool": "flow",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "identity_tokens",
+    "wardrobe",
+    "micro_action",
+    "environment",
+    "lighting",
+    "ambient_element",
+    "grade",
+    "grain",
+    "palette",
+    "aspect_ratio",
+    "duration"
+  ],
+  "template": "{identity_tokens}, {wardrobe}. {micro_action}. {environment}. {lighting}. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: {ambient_element} only. {grade}, {grain}, {palette}. {aspect_ratio}, {duration}s, stable framing.",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true
+  },
+  "negative_base": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": "Front-loading identity tokens raises IDN. Do not exceed motion 2 on faces."
+}

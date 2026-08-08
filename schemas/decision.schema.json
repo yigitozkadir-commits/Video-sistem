@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/decision.schema.json",
+  "title": "Director Decision",
+  "description": "A decision without a reason and a rejected alternative is invalid (M17 §3).",
+  "type": "object",
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "pattern": "^DEC-\\d{4}$"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "scene",
+            "shot",
+            "beat",
+            "act",
+            "project"
+          ]
+        },
+        "target_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "target_id"
+      ]
+    },
+    "question": {
+      "type": "string",
+      "enum": [
+        "scene_length",
+        "camera_choice",
+        "video_or_still",
+        "music_in",
+        "music_out",
+        "silence_placement",
+        "cut_point",
+        "shot_order",
+        "motif",
+        "format_grammar"
+      ]
+    },
+    "choice": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "beat_ref": {
+      "type": "string"
+    },
+    "alternatives_rejected": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "choice": {
+            "type": "string"
+          },
+          "why_not": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "choice",
+          "why_not"
+        ]
+      }
+    },
+    "cost_delta_credits": {
+      "type": "number"
+    },
+    "precedent_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^DEC-\\d{4}$"
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reversible": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "decision_id",
+    "scope",
+    "question",
+    "choice",
+    "reason",
+    "alternatives_rejected"
+  ],
+  "additionalProperties": true
+}

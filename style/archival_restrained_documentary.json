@@ -1,0 +1,51 @@
+{
+  "style_id": "archival_restrained_documentary",
+  "source_note": "Calibrated from PRJ-ryskulov-mektubu's own uploaded scene plan (Görsel ve ton ilkesi / Prodüksiyon Notları): archive-document facsimiles, abstract data visualization, period-document texture, empty/silent geography - no reenactment, no human bodies, no depiction of death or violence. Extends style/archaeological_abstract_documentary.json's forbidden-list/disclosure mechanism for a mass-death historical subject.",
+  "palette": {
+    "dominant": [
+      "#2E2A26",
+      "#5C5548",
+      "#8A8272",
+      "#B0A488"
+    ],
+    "forbidden": [
+      "saturated colour",
+      "warm golden-hour grade",
+      "celebratory or triumphant lighting",
+      "horror-genre darkness",
+      "neon",
+      "pastel"
+    ]
+  },
+  "grade": "cool grey and faded sepia, low saturation, measured and heavy but not horror-dark - restrained gravitas, not dramatized dread",
+  "grain": "period paper/photograph texture where appropriate (foxing, faint creases), otherwise clean and unstylised",
+  "lens_set": [
+    "wide",
+    "top-down flat lay",
+    "macro (paper/seal/typewriter texture only)"
+  ],
+  "motion_ceiling": 1,
+  "lighting_vocabulary": [
+    "overcast_diffused",
+    "low_winter_light",
+    "single_desk_lamp",
+    "even_archive_lighting"
+  ],
+  "texture_language": "typewriter type on aged paper (illegible/abstract glyphs, never real invented text), official seal or carbon-copy texture, manila archive-folder paper, faded watermark, empty steppe/road/flat horizon photography with no human figure in frame",
+  "forbidden": [
+    "human figures",
+    "corpses",
+    "starving or emaciated human bodies",
+    "execution scenes",
+    "any graphic depiction of death or violence",
+    "weapons",
+    "reenactment or dramatization of a historical scene",
+    "heroic or romantic framing",
+    "readable chart labels, readable numbers, data tables, infographic text, axis labels, or any invented legible text baked into the image",
+    "modern objects out of period",
+    "ethnic/costume symbolism"
+  ],
+  "required_prompt_suffix": "no people, no corpses, no readable text, no chart labels, no numbers, documentary archival aesthetic, muted and restrained, not sensationalized --style raw",
+  "ai_generated_disclosure": "Every AI-generated image used in the published video must carry the on-screen label \"üretilmiş görsel — belgesel değildir\" - hard requirement per the same disclosure principle used in style/archaeological_abstract_documentary.json, applied here given the sensitivity of the subject matter even though this project's own source PDF was not confirmed (in this session) to state the rule verbatim.",
+  "sensitivity_rationale": "Subject is a real, documented mass-death event (Kazakh famine / Aşarşılık, 1930-1933, genocide-adjacent). Source material's own 'Hassasiyet uyarısı' explicitly bans any depiction of corpses/starvation bodies/execution and mandates data/document-focused restraint over dramatization - this style profile is the direct code-level encoding of that rule."
+}

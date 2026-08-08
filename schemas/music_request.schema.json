@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/music_request.schema.json",
+  "title": "Music Request",
+  "description": "Music cue specification. M16 §10.",
+  "type": "object",
+  "properties": {
+    "task_ref": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "mood": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "tempo_bpm": {
+      "type": "integer"
+    },
+    "key_center": {
+      "type": "string"
+    },
+    "duration_s": {
+      "type": "number"
+    },
+    "intensity_curve": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "t": {
+            "type": "number"
+          },
+          "v": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "t",
+          "v"
+        ]
+      }
+    },
+    "entry": {
+      "type": "string"
+    },
+    "exit": {
+      "type": "string"
+    },
+    "must_not": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prompt_version": {
+      "type": "string",
+      "pattern": "^PV-\\d{4}$"
+    }
+  },
+  "required": [
+    "task_ref",
+    "scene_id",
+    "mood",
+    "duration_s",
+    "intensity_curve"
+  ],
+  "additionalProperties": true
+}

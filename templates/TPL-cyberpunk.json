@@ -1,0 +1,78 @@
+{
+  "template_id": "TPL-cyberpunk",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 4.0,
+      "range": [
+        3,
+        5
+      ]
+    },
+    "still_video_ratio": 0.4,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down",
+      "tracking",
+      "handheld.subtle"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/cyberpunk_neon.json",
+    "palette": {
+      "dominant": [
+        "cyan",
+        "magenta",
+        "one warm break"
+      ],
+      "forbidden": [
+        "daylight naturalism"
+      ]
+    },
+    "lens_set": [
+      "ultrawide",
+      "wide",
+      "normal",
+      "tele"
+    ],
+    "lighting": [
+      "practical_only",
+      "backlit_silhouette",
+      "volumetric_shafts",
+      "blue_hour"
+    ],
+    "forbidden": [
+      "historical costume",
+      "pastoral nature"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.45,
+      "style": 0.3,
+      "speed": 1.0,
+      "wpm": 150
+    },
+    "music": {
+      "density": "medium",
+      "instruments": "pulse synth, sub bass, arpeggio",
+      "loudness_under_speech_db": -19
+    },
+    "ambience": "rain, traffic, machine hum",
+    "silence_max_s": 1.5
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 260
+  }
+}

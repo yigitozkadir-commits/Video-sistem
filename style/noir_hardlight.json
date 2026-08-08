@@ -1,0 +1,30 @@
+{
+  "style_id": "noir_hardlight",
+  "palette": {
+    "dominant": [
+      "#0D0D0D",
+      "#B8B8B8",
+      "#5A5A5A"
+    ],
+    "forbidden": [
+      "saturated colour"
+    ]
+  },
+  "grade": "monochrome or near-monochrome, hard key, deep shadow",
+  "grain": "35mm",
+  "lens_set": [
+    "normal",
+    "portrait"
+  ],
+  "motion_ceiling": 1,
+  "lighting_vocabulary": [
+    "single_window_soft",
+    "backlit_silhouette",
+    "practical_only"
+  ],
+  "texture_language": "smoke, venetian blinds, wet street, cigarette",
+  "forbidden": [
+    "fantasy elements",
+    "bright comedy"
+  ]
+}

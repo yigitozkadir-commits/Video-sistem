@@ -1,0 +1,33 @@
+{
+  "prompt_id": "PV-0102",
+  "family": "eleven.narration.beat.revelation",
+  "tool": "eleven",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "beat_text",
+    "key_word"
+  ],
+  "template": "{beat_text}",
+  "constraints": {
+    "intent": "the truth lands; restrained, not theatrical",
+    "delivery": {
+      "stability": 0.5,
+      "style": 0.3,
+      "speed": 0.93
+    },
+    "pause_before_ms": 800,
+    "pause_after_ms": 1400,
+    "breath_before": true
+  },
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": "The pause after carries the meaning. Next beat must not start under it."
+}

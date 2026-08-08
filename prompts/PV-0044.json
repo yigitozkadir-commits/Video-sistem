@@ -1,0 +1,34 @@
+{
+  "prompt_id": "PV-0044",
+  "family": "flow.shot.wide.establishing",
+  "tool": "flow",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "environment_subject",
+    "figure_for_scale",
+    "air_and_weather",
+    "lighting",
+    "camera",
+    "ambient_element",
+    "grade",
+    "grain",
+    "palette",
+    "aspect_ratio",
+    "duration"
+  ],
+  "template": "{environment_subject}. {figure_for_scale}. {air_and_weather}. {lighting}. {camera}. 28mm equivalent, deep focus. Motion: environmental only — {ambient_element}. {grade}, {grain}, {palette}. {aspect_ratio}, {duration}s.",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "negative_base": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

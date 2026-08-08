@@ -1,0 +1,61 @@
+{
+  "template_id": "TPL-archaeological-documentary",
+  "extends": "TPL-documentary",
+  "director": {
+    "pace": {
+      "avg_shot_s": 3.5,
+      "range": [2.5, 5.5]
+    },
+    "still_video_ratio": 0.90,
+    "motion_ceiling": 1,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "top_down.static"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/archaeological_abstract_documentary.json",
+    "palette": {
+      "dominant": ["#8A7A5C", "#6B7568", "#B8AC94"],
+      "forbidden": ["saturated colour", "warm romantic grade", "neon", "pastel"]
+    },
+    "lens_set": ["wide", "macro", "top-down flat lay"],
+    "lighting": ["overcast_diffused", "even_museum_lighting", "laboratory_documentation"],
+    "forbidden": [
+      "human figures", "weapons", "horses", "flags",
+      "any reenactment or dramatization of a historical scene",
+      "text or symbols baked into the image", "ethnic/costume symbolism",
+      "heroic or romantic framing", "modern objects"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.7,
+      "style": 0.05,
+      "speed": 1.0,
+      "wpm": 115
+    },
+    "music": {
+      "density": "sparse",
+      "instruments": "drone, muted cello, minimal piano",
+      "loudness_under_speech_db": -24
+    },
+    "ambience": "none",
+    "silence_max_s": 1.5
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "weights": {
+      "NAR": 0.35,
+      "EMO": 0.0
+    }
+  },
+  "budget_profile": {
+    "credits_per_minute": 150
+  },
+  "source_note": "Rate/tempo calibrated for the Avrasya Bozkır Kuşağı project: fast infographic pace confirmed by user (avg_shot_s well below TPL-documentary's 6s), wpm=115 (this studio's measured DELIVERED_WPM constant, not TPL-documentary's generic 145), motion_ceiling=1 and full forbidden-list inherited directly from style/archaeological_abstract_documentary.json since this content type bans reenactment entirely (no historical-epic dramatization, unlike TPL-historical-epic)."
+}

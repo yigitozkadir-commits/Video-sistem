@@ -1,0 +1,45 @@
+{
+  "style_id": "portal_faceless_essay",
+  "source_note": "Calibrated from reports/channel_format_profile_portal.json (CFP-0004)'s 50-madde deep-dive source, Bölüm 2 (Görsel Estetik ve Sinematik Hikayeleştirme). Different base from style/archaeological_abstract_documentary.json or style/dark_fantasy_low_key.json - this is film-clip/stock-footage B-roll driven, not photographic/macro/archival-texture driven; the persona is faceless (no on-camera presenter, no reenactment of a face) by design, not by restriction.",
+  "palette": {
+    "dominant": [
+      "#2A2A2E",
+      "#4A4238",
+      "#1C1C1C"
+    ],
+    "forbidden": [
+      "bright reds",
+      "bright yellows",
+      "entertainment/comedy colour grade",
+      "saturated colour",
+      "neon",
+      "pastel"
+    ]
+  },
+  "grade": "desaturated, grey/black-dominant, melancholic - film-still/cinematic B-roll grading, not documentary-flat",
+  "grain": "light film grain acceptable (cinematic register), not scientific/clean documentary photography",
+  "lens_set": [
+    "normal",
+    "tele",
+    "wide"
+  ],
+  "motion_ceiling": 2,
+  "lighting_vocabulary": [
+    "overcast_diffused",
+    "rain_window_light",
+    "single_desk_lamp",
+    "night_street_ambient"
+  ],
+  "texture_language": "stock/film B-roll synced emotionally to narration (a character kneeling in rain paired with a line about helplessness), abstract visual metaphors for philosophical concepts (an office worker under paperwork for a Sisyphus reference), minimalist serif/elegant sans-serif text fade-ins reserved for a philosopher's name or key term only, empty urban/interior scenes conveying isolation",
+  "forbidden": [
+    "on-camera presenter face",
+    "bright/comedy palette",
+    "exploding colourful YouTuber-style typography",
+    "text or symbols baked into the image",
+    "corpses, self-harm, or graphic depictions of death",
+    "any depiction that could read as instructive/glorifying toward self-harm"
+  ],
+  "required_prompt_suffix": "no on-camera face, no bright entertainment colours, no exploding text graphics, cinematic desaturated grade, melancholic restraint --style raw",
+  "ai_generated_disclosure": "Every AI-generated image used in a published video must carry an on-screen disclosure label if the video makes any factual/documentary claim - same disclosure principle as style/archaeological_abstract_documentary.json and style/archival_restrained_documentary.json. Less critical for pure film-essay B-roll (no factual claim being illustrated), but still required whenever a shot could be mistaken for real licensed film footage rather than an AI-generated stand-in.",
+  "editorial_note": "This style profile covers ONLY visual/palette/lighting craft - it carries no opinion on the underlying content's psychological framing. See reports/channel_format_profile_portal.json's EDITORIAL FLAG and templates/TPL-portal-video-essay.json's content_rules.rules_explicitly_not_adopted for the separate, more important editorial decision about which of the source channel's CONTENT rules (not visual style) were deliberately excluded."
+}

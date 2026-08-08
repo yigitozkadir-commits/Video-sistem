@@ -1,0 +1,107 @@
+{
+  "template_id": "TPL-mystery-discovery",
+  "extends": null,
+  "benchmark_ref": "CFP-0002",
+  "director": {
+    "pace": {
+      "avg_shot_s": 4.5,
+      "range": [3, 6]
+    },
+    "still_video_ratio": 0.5,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.down",
+      "handheld.subtle"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/dark_fantasy_low_key.json",
+    "palette": {
+      "dominant": ["golden yellow", "dark brown", "black"],
+      "forbidden": ["bright pastel", "clean studio look"],
+      "note": "Refined 2026-08-08 from the 50-madde deep-dive source (independently confirms the palette rather than replacing it - prior 'near-black/damp stone grey/one warm accent' was a coarser approximation of the same gold/earth/dark register, e.g. sandstorm and massive-stone-structure imagery)."
+    },
+    "lens_set": ["normal", "portrait", "tele"],
+    "lighting": ["moonlight_cool", "candlelight_intimate", "backlit_silhouette"],
+    "forbidden": ["explicit gore", "modern objects out of period", "bright comedy palette"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.3,
+      "speed": 1.0,
+      "wpm": 150
+    },
+    "music": {
+      "density": "continuous",
+      "instruments": "low-frequency drone, sub-bass, neoclassical/orchestral strings for historical passages, cymbal swells at reveals - never vocals",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "sparse, cold, close",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 260
+  },
+  "narrator_persona": {
+    "name": "Sessiz Rehber (Silent Guide)",
+    "shared_with": "TPL-boutique-intellectual",
+    "source": "user-supplied analysis, not Claude-authored",
+    "voice_tone": "Never monotone - lowers and slows for mysterious passages, lightly emphasizes surprising facts. Uses strategic pauses between sentences to build suspense.",
+    "word_choice": "Simple and striking, not academic/ornate. Reduces complex esoteric ideas to everyday equivalents. Every paragraph ends on a question that pulls the viewer forward.",
+    "viewer_contract": "Speaks as an insider sharing privileged knowledge, almost 'whispered'. Uses humility/skepticism rather than absolute authority ('I wouldn't be surprised if...'). Uses 'we/together/our journey' language to make the viewer feel part of a tribe.",
+    "context_discipline": "Never breaks the story for unrelated personal tangents. Always closes the loop the opening hook opened. Skeptical of institutional authorities but grounds that skepticism rationally, and always follows a worldview-shaking claim with a 'safe exit' line ('everyone is free to believe what they choose') so the viewer doesn't leave defensively."
+  },
+  "content_rules": {
+    "source": "user-supplied analysis of the 'Gerçeği Bul' channel, not Claude-authored - preserved here per Module 21's structural-only boundary (bible/Module_21_Channel_Format_Intelligence.md §2), which cannot hold prose rules like these",
+    "act_1_0_10min": [
+      "K1 Question-driven hook: pose the audience's biggest/most uncomfortable question in the first ~60s, promise a payoff, spread the resolution across the whole video.",
+      "K1a Selamlama İptali (added 2026-08-08): no channel-intro/welcome boilerplate - the viewer drops directly into the question/mystery at 00:01, confirmed as an explicit rule in the 50-madde source (Bölüm 1, Madde 3).",
+      "K2 Academic grounding: tie every claim to a written source, known author, historical text, or archaeological find - deliver a 'research file' feel, not a conspiracy vibe.",
+      "K3 Differentiation: contrast against shallow competitor content ('we focus on the documents themselves') to read as researcher, not creator.",
+      "K4 Doubt built on fact: state a proven, uncontested fact first, then ask 'how was this possible?' to plant doubt on solid ground.",
+      "K5 Conflict-driven storytelling: frame events as problem-conflict-resolution rather than encyclopedic narration."
+    ],
+    "act_2_10_20min": [
+      "K6 Decode modern concepts: map everyday unquestioned rituals/symbols onto the ancient story being told.",
+      "K7 Sociological analogy: explain seemingly irrational ancient behavior via psychology or documented recent sociological events, not mystery for its own sake.",
+      "K8 Cross-cultural pattern: line up matching mythic motifs from isolated, unconnected civilizations as evidence of a shared pattern.",
+      "K9 'Hidden truth' framing: fill historical gaps with the suggestion they were deliberately suppressed, not simply lost."
+    ],
+    "act_3_20_30min": [
+      "K10 Universal numeric/hierarchical patterns across belief systems (triads, twelves).",
+      "K11 Cross-reading sacred texts: lay a modern religious narrative beat-for-beat against a much older mythological one.",
+      "K12 Decode symbolic language as physical/operational process, not miracle.",
+      "K13 Humanize authority: surface human flaws/emotions hidden in texts about 'perfect' figures."
+    ],
+    "act_4_30min_close": [
+      "K14 Etymology dig: trace sacred/ordinary terms to their concrete, mundane historical roots.",
+      "K15 Evolution of ritual: frame present-day spiritual/moral practice as evolved versions of concrete acts to please/survive past authorities.",
+      "K16 Present-day anchor: in the final third, connect the historical mystery to current politics/pop culture/institutions.",
+      "K17 Philosophical safe exit: after a worldview-shaking claim, explicitly frame the goal as widening perspective, not attacking belief - defuses defensiveness.",
+      "K18 'Big puzzle' close: never declare 'this is the truth' - frame it as a shared puzzle, invite comments completing the picture, CTA to join the research community.",
+      "K18a Format B bridge (added 2026-08-08): closing builds an explicit psychological bridge toward the channel's second, slower format (TPL-boutique-intellectual) - part of the user's stated two-format funnel strategy (50-madde source, Bölüm 9, Madde 44), not just a generic CTA."
+    ],
+    "forbidden": [
+      "Unfounded/baseless claims with no traceable source (e.g. 'aliens visited my house yesterday') - named in the 50-madde source as 'Format A'nın en büyük tuzağı' (Format A's biggest trap, Bölüm 10 Madde 47); every claim must trace to a document, dig, or etymological root (K2)."
+    ],
+    "music": [
+      "K19 No vocals, ever - the track must support the narrator, never compete for the same cognitive channel.",
+      "K20 Low-frequency drone as atmospheric weight - signals 'something serious/ancient' is being discussed.",
+      "K21 Cinematic suspense, not dread - rhythm rises slightly (cymbal swells) at a claim/reveal, flattens again once explained.",
+      "K22 Neoclassical/orchestral for historical passages (Scott Buckley-adjacent) - modern electronic beats undercut the sense of depth.",
+      "K23 Pacing synced to the narrator's breath - music steps forward to fill a strategic pause, turning silence into 'a moment to think', not dead air."
+    ]
+  },
+  "editorial_note": "This template encodes a mystery/conspiracy-adjacent narrative strategy (K4, K9: build doubt, frame gaps as suppressed truth). It has NOT been applied to any existing project in this repo as-is (PRJ-baskurtlar-arastirma and PRJ-ryskulov-mektubu both use hybrid templates that explicitly ADOPT this template's hook/pacing/music craft, K1-K3/K19-K23, while explicitly REJECTING K4/K9 - see templates/TPL-baskurtlar-hybrid.json and TPL-ryskulov-hybrid.json for the precedent this establishes). Selecting this template AS-IS for a specific project is a creative/editorial decision outside Technical Production Director authority (CLAUDE.md §3) and needs an explicit human choice. Update 2026-08-08: a 50-madde independent deep-dive source (reports/source_docs/gercegi_bul_50madde/) SHARPENS rather than softens this characterization - the doubt-engine is named by the source's own analysis as the format's literal driving mechanism, targets named real institutions (CIA, Vatican, Smithsonian) with 'lab-rat' suspicion, and pairs worldview-shaking claims with a deliberately-engineered 'trauma management' safe-exit layer. This reinforces rather than revises the original K4/K9-exclusion decision for hybrid templates."
+}

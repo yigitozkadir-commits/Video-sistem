@@ -1,0 +1,14 @@
+{
+  "axis": "shot_type",
+  "values": [
+    "extreme_wide",
+    "wide",
+    "medium_wide",
+    "medium",
+    "medium_close",
+    "close_up",
+    "extreme_close",
+    "insert",
+    "over_shoulder"
+  ]
+}

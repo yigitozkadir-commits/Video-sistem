@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/template.schema.json",
+  "title": "Production Template",
+  "description": "M18 §1. qa_overrides may only tighten gates.",
+  "type": "object",
+  "properties": {
+    "template_id": {
+      "type": "string",
+      "pattern": "^TPL-[a-z0-9\\-]+$"
+    },
+    "extends": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "director": {
+      "type": "object"
+    },
+    "visual": {
+      "type": "object"
+    },
+    "audio": {
+      "type": "object"
+    },
+    "qa_overrides": {
+      "type": "object"
+    },
+    "budget_profile": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "template_id",
+    "director",
+    "visual",
+    "audio"
+  ],
+  "additionalProperties": true
+}

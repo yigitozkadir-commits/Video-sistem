@@ -1,0 +1,7 @@
+node_modules/
+public/still/*
+public/video/*
+public/audio/*
+!public/still/.gitkeep
+!public/video/.gitkeep
+!public/audio/.gitkeep

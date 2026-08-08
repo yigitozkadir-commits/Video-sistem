@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/shot.schema.json",
+  "title": "Shot",
+  "description": "Executable shot specification. Consumed by M15. Every field is a decision, not a hint.",
+  "type": "object",
+  "properties": {
+    "shot_id": {
+      "type": "string",
+      "pattern": "^SH-\\d{3}-\\d{2}$"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "beat_ref": {
+      "type": "string",
+      "pattern": "^BEAT-\\d{3}-\\d{2}$"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "video",
+        "still",
+        "still_with_motion",
+        "archive_image"
+      ]
+    },
+    "duration_s": {
+      "type": "number"
+    },
+    "duration_frames": {
+      "type": "integer"
+    },
+    "camera": {
+      "type": "string",
+      "enum": [
+        "static",
+        "push_in.slow",
+        "pull_out.slow",
+        "pan.left",
+        "pan.right",
+        "tilt.up",
+        "tilt.down",
+        "tracking",
+        "orbit.slow",
+        "crane",
+        "drone",
+        "handheld.subtle",
+        "parallax"
+      ]
+    },
+    "lens": {
+      "type": "string",
+      "enum": [
+        "ultrawide",
+        "wide",
+        "normal",
+        "portrait",
+        "tele",
+        "macro"
+      ]
+    },
+    "framing": {
+      "type": "string",
+      "enum": [
+        "extreme_wide",
+        "wide",
+        "medium_wide",
+        "medium",
+        "medium_close",
+        "close_up",
+        "extreme_close",
+        "insert"
+      ]
+    },
+    "lighting": {
+      "type": "string"
+    },
+    "motion_level": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "subject": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "string"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^REF-(CHR|ENV|OBJ|PAL)-\\d{3}$"
+      }
+    },
+    "prompt_version": {
+      "type": "string",
+      "pattern": "^PV-\\d{4}$"
+    },
+    "seed": {
+      "type": "integer"
+    },
+    "decision_ref": {
+      "type": "string",
+      "pattern": "^DEC-\\d{4}$"
+    },
+    "importance": {
+      "type": "string",
+      "enum": [
+        "hero",
+        "standard",
+        "filler"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+      }
+    },
+    "qa_report_ref": {
+      "type": "string",
+      "pattern": "^QAR-\\d{4}$"
+    }
+  },
+  "required": [
+    "shot_id",
+    "scene_id",
+    "kind",
+    "duration_s",
+    "camera",
+    "lens",
+    "motion_level"
+  ],
+  "additionalProperties": true
+}

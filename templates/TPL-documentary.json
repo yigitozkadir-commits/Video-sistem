@@ -1,0 +1,77 @@
+{
+  "template_id": "TPL-documentary",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 6.0,
+      "range": [
+        5,
+        8
+      ]
+    },
+    "still_video_ratio": 0.65,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/documentary_neutral.json",
+    "palette": {
+      "dominant": [
+        "neutral",
+        "desaturated"
+      ],
+      "forbidden": [
+        "stylised grade"
+      ]
+    },
+    "lens_set": [
+      "wide",
+      "normal",
+      "portrait"
+    ],
+    "lighting": [
+      "overcast_soft",
+      "practical_only",
+      "studio_neutral"
+    ],
+    "forbidden": [
+      "dramatic colour grade",
+      "fantasy elements"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.65,
+      "style": 0.1,
+      "speed": 1.0,
+      "wpm": 145
+    },
+    "music": {
+      "density": "sparse",
+      "instruments": "muted piano, low strings",
+      "loudness_under_speech_db": -22
+    },
+    "ambience": "location-accurate",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "weights": {
+      "NAR": 0.3,
+      "EMO": 0.03
+    }
+  },
+  "budget_profile": {
+    "credits_per_minute": 180
+  }
+}

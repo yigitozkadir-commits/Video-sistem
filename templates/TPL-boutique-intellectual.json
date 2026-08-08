@@ -1,0 +1,83 @@
+{
+  "template_id": "TPL-boutique-intellectual",
+  "extends": null,
+  "benchmark_ref": "CFP-0003",
+  "director": {
+    "pace": {
+      "avg_shot_s": 8.0,
+      "range": [6, 12]
+    },
+    "still_video_ratio": 0.7,
+    "motion_ceiling": 1,
+    "silence_per_act": 2,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/documentary_neutral.json",
+    "palette": {
+      "dominant": ["neutral", "warm paper white", "muted wood tones"],
+      "forbidden": ["stylised grade", "dark/mysterious lighting"]
+    },
+    "lens_set": ["normal", "portrait"],
+    "lighting": ["studio_neutral", "single_window_soft"],
+    "forbidden": ["dramatic colour grade", "fantasy elements", "horror/mystery visual language"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.6,
+      "style": 0.15,
+      "speed": 0.95,
+      "wpm": 130
+    },
+    "music": {
+      "density": "sparse",
+      "instruments": "muted piano, low strings, minimal texture - never vocals",
+      "loudness_under_speech_db": -24
+    },
+    "ambience": "quiet, close, room tone only",
+    "silence_max_s": 3.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 180
+  },
+  "narrator_persona": {
+    "name": "Sessiz Rehber (Silent Guide)",
+    "shared_with": "TPL-mystery-discovery",
+    "source": "user-supplied analysis, not Claude-authored",
+    "voice_tone": "Never monotone - lowers and slows for reflective passages, lightly emphasizes surprising ideas. Uses strategic pauses to let a thought land.",
+    "word_choice": "Simple and striking, not academic/ornate. Every paragraph ends on a question that pulls the viewer forward.",
+    "viewer_contract": "Speaks as an insider sharing privileged perspective, humbly rather than as absolute authority. Uses 'we/together' language.",
+    "context_discipline": "Never breaks the piece for unrelated tangents. Closes whatever loop the opening opened. Follows a worldview-shaking claim with a 'safe exit' line so the viewer doesn't leave defensive."
+  },
+  "content_rules": {
+    "source": "user-supplied analysis of 'Nida Yıldırım' - Boutique Intellectual strategy, not Claude-authored - preserved here per Module 21's structural-only boundary (bible/Module_21_Channel_Format_Intelligence.md §2), which cannot hold prose rules like these",
+    "rules": [
+      "K1 Curation over chronology: draw from thinkers and ideas (Lao Tzu, Simone Weil) rather than events. Package information as a life philosophy/mental tool, not a fact to memorize.",
+      "K2 Authority aesthetic: clean, bright, 'study/intellectual library' visual language - the opposite of a dark mystery aesthetic. Reads as calm/lucid, not conspiratorial.",
+      "K3 Personal-transformation hook: open on the viewer's actual problem (exhaustion, meaninglessness, searching) with an imperative call to action, not a mystery question.",
+      "K4 Slow content discipline: deliberately resist fast-paced algorithm bait. Go deep, don't rush - trades faster growth for audience loyalty and retention.",
+      "K5 Personal brand trust: the presenter's own perspective is the product ('you could find the facts on Google, but you want to hear it through my lens') - never separate the presenter's stance from the information.",
+      "K6 Mental-tool packaging (added 2026-08-08, 50-madde source Bölüm 3): information is never delivered as an isolated 'hap bilgi' (info-pill) - it's packaged as a portable 'zihinsel araç' (mental tool) the viewer can apply to their own life, and every idea is grounded in a named thinker/text, not left floating.",
+      "K7 Anti-jump-cut discipline (added 2026-08-08, Bölüm 4): explicit rejection of YouTube-algorithm jump-cut/dopamine-chasing editing rhythm - a topic stays on screen long enough to be worked through fully rather than sliced for retention tricks.",
+      "K8 Measured safe-exit (added 2026-08-08, Bölüm 8): after surfacing a hard truth, the format humanizes the cited thinkers via their own real flaws/struggles and frames the viewer's dissatisfaction as a normal structural part of being human - NOT as a pathology, but also notably NOT as evidence the viewer's response is superior/more rational than others' (contrast with CFP-0004/Portal's stronger nihilism-as-therapy framing, which this template deliberately does not adopt)."
+    ]
+  },
+  "hybrid_model_note": {
+    "source": "user-supplied 'İki Formatlı Strateji Matrisi' (doc15) describing how one channel runs both TPL-mystery-discovery (Format A: Keşif) and TPL-boutique-intellectual (Format B: Derinleşme) together",
+    "rules": [
+      "Consistency: intro music, color palette, and sound design stay identical across both formats so the channel is recognizable regardless of which format a given video uses - the narrator's voice never changes, only the pacing/visual register does.",
+      "Bridge strategy: Format A videos end with a soft transition line into a Format B topic, psychologically preparing the viewer for the shift.",
+      "Tribe framing: rally viewers around the presenter's point of view, not the topic - so both formats reinforce the same audience relationship instead of splitting it.",
+      "Algorithmic balance: Format A (3x/month) is the 'brochure' that pulls in traffic via the algorithm; Format B (1x/month) is the 'proof of quality' that converts viewers into loyal subscribers."
+    ]
+  },
+  "editorial_note": "Not applied to any existing project in this repo. Selecting this template for a specific project is a creative/editorial decision outside Technical Production Director authority (CLAUDE.md §3) and needs an explicit human choice."
+}

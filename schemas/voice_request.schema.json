@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/voice_request.schema.json",
+  "title": "Voice Request",
+  "description": "One narration or dialogue beat. Max 45 s of text (M16 §4.1).",
+  "type": "object",
+  "properties": {
+    "task_ref": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "segment_id": {
+      "type": "string",
+      "pattern": "^(NAR|DLG)-\\d{3}-\\d{2}$"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "speaker": {
+      "type": "object",
+      "properties": {
+        "voice_id": {
+          "type": "string",
+          "pattern": "^VOI-\\d{3}$"
+        },
+        "character_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "voice_id"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "emphasis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pause_before_ms": {
+      "type": "integer"
+    },
+    "pause_after_ms": {
+      "type": "integer"
+    },
+    "breath_before": {
+      "type": "boolean"
+    },
+    "delivery": {
+      "type": "object",
+      "properties": {
+        "stability": {
+          "type": "number"
+        },
+        "similarity": {
+          "type": "number"
+        },
+        "style": {
+          "type": "number"
+        },
+        "speed": {
+          "type": "number"
+        }
+      }
+    },
+    "pronunciation_overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "word": {
+            "type": "string"
+          },
+          "ipa": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "prompt_version": {
+      "type": "string",
+      "pattern": "^PV-\\d{4}$"
+    },
+    "model": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "task_ref",
+    "segment_id",
+    "text",
+    "locale",
+    "speaker",
+    "delivery"
+  ],
+  "additionalProperties": true
+}

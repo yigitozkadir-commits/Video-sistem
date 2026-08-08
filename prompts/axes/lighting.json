@@ -1,0 +1,17 @@
+{
+  "axis": "lighting",
+  "values": [
+    "golden_hour",
+    "blue_hour",
+    "harsh_noon",
+    "overcast_soft",
+    "moonlight_cool",
+    "firelight_warm",
+    "candlelight_intimate",
+    "single_window_soft",
+    "volumetric_shafts",
+    "backlit_silhouette",
+    "practical_only",
+    "studio_neutral"
+  ]
+}

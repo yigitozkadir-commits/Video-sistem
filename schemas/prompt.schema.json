@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/prompt.schema.json",
+  "title": "Prompt Object",
+  "description": "M19 §2. Never edited in place.",
+  "type": "object",
+  "properties": {
+    "prompt_id": {
+      "type": "string",
+      "pattern": "^PV-\\d{4}$"
+    },
+    "family": {
+      "type": "string"
+    },
+    "tool": {
+      "type": "string",
+      "enum": [
+        "flow",
+        "eleven",
+        "claude",
+        "orchestrator",
+        "director",
+        "review",
+        "remotion",
+        "ffmpeg"
+      ]
+    },
+    "version": {
+      "type": "integer"
+    },
+    "supersedes": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^PV-\\d{4}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "language": {
+      "type": "string"
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "template": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "object"
+    },
+    "negative_base": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "uses": {
+          "type": "integer"
+        },
+        "avg_score": {
+          "type": "number"
+        },
+        "first_pass_yield": {
+          "type": "number"
+        },
+        "avg_cost": {
+          "type": "number"
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "deprecated",
+        "retired"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "prompt_id",
+    "family",
+    "tool",
+    "version",
+    "template",
+    "status"
+  ],
+  "additionalProperties": true
+}

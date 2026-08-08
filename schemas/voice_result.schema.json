@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/voice_result.schema.json",
+  "title": "Voice Result",
+  "description": "Word-level timing map is mandatory — it drives the entire timeline (M16 §8).",
+  "type": "object",
+  "properties": {
+    "task_ref": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "segment_id": {
+      "type": "string"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+    },
+    "path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "duration_s": {
+      "type": "number"
+    },
+    "sample_rate": {
+      "type": "integer"
+    },
+    "peak_dbtp": {
+      "type": "number"
+    },
+    "lufs_i": {
+      "type": "number"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "w": {
+            "type": "string"
+          },
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "w",
+          "start",
+          "end"
+        ]
+      }
+    },
+    "silences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "number"
+          },
+          "end": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "segment_id",
+    "asset_id",
+    "path",
+    "duration_s",
+    "words",
+    "model_version"
+  ],
+  "additionalProperties": true
+}

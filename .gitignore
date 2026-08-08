@@ -1,0 +1,22 @@
+.env
+node_modules/
+__pycache__/
+output/*.mp4
+
+# Regenerable copies of projects/<id>/assets/{still,video,audio} - Remotion
+# needs these physically under public/ to render (symlinks across the
+# public/ boundary are blocked by its dev server), but the bytes are
+# already tracked once under the canonical projects/<id>/assets/ path.
+# Re-create with scripts/sync_remotion_public.py after a fresh clone, ONLY
+# for projects whose public/ filenames map 1:1 to their asset filenames
+# (verify by sha256 first - see that script's docstring). Add one entry
+# per project you create, e.g.:
+# remotion_myproject/public/still/
+# remotion_myproject/public/video/
+# remotion_myproject/public/audio/
+
+# Large standalone source files archived off-repo (see
+# scripts/archive_to_kaggle.py) - pointer + sha256 recorded in
+# projects/<id>/state/kaggle_archive.jsonl, file stays on local disk, just
+# untracked. Add one entry per archived source file, e.g.:
+# projects/PRJ-myproject/input/large_source.pdf

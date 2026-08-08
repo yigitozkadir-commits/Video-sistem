@@ -374,3 +374,69 @@ Files touched, for a quick diff-against-checklist:
 python3 scripts/validate.py                    # expect: 0 errors
 python3 -m unittest discover -s tests           # expect: all passing
 ```
+
+---
+
+## 6. Addendum — `historical-research-pipeline` skill (added after Section 4)
+
+After the OpenMontage work above landed, the user supplied a second,
+separate improvement proposal: a zipped Claude Skill (`SKILL.md` + 5 phase
+files + a shared schema reference) implementing a 29-module "historical
+research pipeline" concept, condensed to 5 phases. This was integrated
+into this repo too, in the same session, for the same sync reason as
+everything above — the receiving account should implement this as well.
+
+**What it does:** Discovery & Concept → Deep Research → Verification &
+Analysis → Synthesis & Audit (a hard quality gate) → Production Package.
+Given a historical topic/question, it produces a fully source-cited
+research dossier (claims, evidence, sources, chronology, historiography,
+unknowns, contradictions, confidence levels) — and stops. It never writes
+narration or scenes; that stays this studio's own job (M05/M17),
+downstream of this module's output.
+
+**Why it matters for this studio specifically:** every project so far
+(`PRJ-avrasya-bozkir-kusagi`, `PRJ-ryskulov-mektubu`,
+`PRJ-baskurtlar-arastirma`, `PRJ-ninniler-atlasi`) started from a
+`.docx`/`.pdf` the human had already researched and handed over
+(`project.json.source.file`). This pipeline lets Claude originate that
+document instead, under the studio's own 8 laws (see below) — a genuinely
+new capability, not a refinement of an existing one.
+
+**What was implemented (verbatim file list):**
+- `.claude/skills/historical-research-pipeline/` — the skill itself
+  (`SKILL.md`, `phases/faz-{a,b,c,d,e}-*.md`, `reference/sema.md`),
+  adapted from the original Claude.ai-specific tool names
+  (`web_search`/`web_fetch`/`ask_user_input_v0`/`create_file`/
+  `present_files`, `/mnt/user-data/outputs`) to this environment's real
+  tools (`WebSearch`/`WebFetch`/`AskUserQuestion`/`Write`/`SendUserFile`)
+  and this repo's own directory conventions (`research/<slug>/`, a new
+  top-level directory sibling to `projects/`).
+- `schemas/research_package.schema.json` — formalizes the pipeline's
+  Phase E "Handoff Contract" (its own internally-documented list of
+  fields a delivered package must never omit) as a real JSON Schema.
+  Validated against a full constructed sample via `jsonschema.validate()`.
+- `bible/Module_23_Historical_Research_Pipeline.md` — new role module:
+  authority (may decide sourcing/confidence/angle-selection, may never
+  decide narration/shot design), the 8 laws applied specifically to this
+  pipeline, and **the bridge**: how a finished package becomes a new
+  project's `project.json.source` (`rights.source_basis: "owned"`,
+  `rights.evidence_ref` pointing at the package's `bibliography` —
+  same pattern `PRJ-ninniler-atlasi` used for its own academic
+  compilation).
+- `scripts/validate.py` — module range check extended `1-22` → `1-23`.
+- `CLAUDE.md` §1 — M23 added to the role-module list.
+
+**MCP / API keys — none required.** The pipeline runs entirely on
+Claude Code's built-in `WebSearch`, `WebFetch`, and `AskUserQuestion` —
+all already available, no setup needed. One optional, non-blocking
+upgrade exists: a free **Semantic Scholar API key**
+(https://www.semanticscholar.org/product/api) would raise the academic-
+literature search rate limit in Phase B, but the pipeline works
+correctly without it (falls back to `WebSearch`-based scholarly queries,
+e.g. `site:scholar.google.com`). No other key, connector, or MCP server
+is a dependency of this skill as implemented.
+
+**Verification:** `python3 scripts/validate.py` → 0 errors (38 schemas,
+23 bible modules, up from 37/22). `python3 -m unittest discover -s tests`
+→ 131/131 (unchanged — this addition is bible/schema/skill content, no
+new Python logic to unit-test).

@@ -18,7 +18,14 @@ def load(path):
 
 def main():
     # 1. every JSON parses
-    files = glob.glob(f"{ROOT}/**/*.json", recursive=True)
+    # node_modules/.git excluded - a real bug found by actually running
+    # `npm install` inside a remotion_<project>/ app under this repo: the
+    # unfiltered glob picked up every vendored package.json (hundreds),
+    # inflating "schemas: N" to a meaningless number and slowing every run.
+    files = [
+        f for f in glob.glob(f"{ROOT}/**/*.json", recursive=True)
+        if "/node_modules/" not in f and "/.git/" not in f
+    ]
     objs = {f: load(f) for f in files}
     print(f"parsed {len(files)} JSON files")
 

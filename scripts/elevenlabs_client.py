@@ -25,6 +25,10 @@ logger = logging.getLogger(__name__)
 # ElevenLabs free-tier default; overridable per key via env if a paid plan is in use.
 ELEVENLABS_FREE_TIER_CHAR_QUOTA = int(os.getenv("ELEVENLABS_QUOTA_CHARS", "10000"))
 
+# Music v2 (mid-2026) is the current model as of this writing; overridable
+# in case an older/newer model_id is preferred for a given project.
+ELEVENLABS_MUSIC_MODEL_ID = os.getenv("ELEVENLABS_MUSIC_MODEL_ID", "music_v2")
+
 
 def _project_state_dir(output_path: Path) -> Path:
     """projects/<id>/assets/audio/x.wav -> projects/<id>/state/"""
@@ -123,7 +127,7 @@ class ElevenLabsStudio:
             }
 
         char_count = len(text)
-        if ledger.would_exceed_quota("elevenlabs", char_count):
+        if ledger.would_exceed_quota("elevenlabs", char_count, operation_prefix="tts_"):
             used = ledger.units_used("elevenlabs")
             msg = (
                 f"Skipping API call: {used:.0f}/{ELEVENLABS_FREE_TIER_CHAR_QUOTA} chars already "
@@ -209,41 +213,122 @@ class ElevenLabsStudio:
         prompt: str,
         scene_id: str,
         output_path: Path,
-        duration_s: int = 12
+        duration_s: int = 12,
+        force_instrumental: bool = True,
     ) -> Dict:
         """
-        Generate music for a scene (if Music API available)
+        Generate music via ElevenLabs' Music API (POST /v1/music, exposed
+        as client.music.compose in the SDK - verified present in the
+        elevenlabs>=1.0 pin requirements.txt already carries, currently
+        2.x). This used to be a manual-generation stub because the Music
+        API didn't exist yet when it was written; it does now (Music v2).
+        Mirrors text_to_speech()'s cache/retry/cost-ledger pattern exactly.
+
+        force_instrumental defaults True: this studio's use case is
+        background/score music under narration, not song lyrics competing
+        with the narrator (CLAUDE.md law #3 - narration is the clock,
+        music serves it, never the reverse).
 
         Args:
             prompt: Music description/mood
             scene_id: Scene identifier
-            output_path: Where to save WAV
-            duration_s: Duration in seconds
+            output_path: Where to save the generated audio
+            duration_s: Target duration in seconds
+            force_instrumental: No vocals (default - see above)
 
         Returns:
-            Metadata dict
+            Metadata dict, same shape family as text_to_speech()'s.
         """
+        state_dir = _project_state_dir(output_path)
+        cache = ArtifactCache(state_dir, index_name="music_cache_index.json")
+        # No known_quota_units: ElevenLabs' music-generation quota (billed
+        # separately from the character quota text_to_speech() tracks)
+        # isn't a number this repo has verified from a real account, so
+        # would_exceed_quota() intentionally never blocks here (see
+        # production_ledger.py - a provider absent from known_quota_units
+        # always returns False) rather than enforcing a made-up cap. The
+        # API itself still rejects an exhausted/unpaid account below.
+        ledger = CostLedger(state_dir)
+        fp = ArtifactCache.fingerprint(
+            prompt=prompt, model_id=ELEVENLABS_MUSIC_MODEL_ID,
+            duration_s=duration_s, force_instrumental=force_instrumental,
+        )
 
-        logger.warning(f"Music generation requires ElevenLabs Music API")
-        logger.info(f"Prompt: {prompt}")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        skip_cache = is_enabled("skip_cache", default=False)
+        if skip_cache:
+            logger.info("  FLAG_SKIP_CACHE set - forcing regeneration even if cached")
+        if not skip_cache and cache.reuse(fp, output_path):
+            logger.info(f"✓ Cache hit, reused existing music: {scene_id}")
+            ledger.log("elevenlabs", "music_cache_hit", units=0, unit_cost=0, accepted=True, scene_id=scene_id)
+            return {
+                "scene_id": scene_id, "file": str(output_path), "type": "music",
+                "prompt": prompt, "model": ELEVENLABS_MUSIC_MODEL_ID,
+                "duration_s": duration_s, "status": "completed_from_cache",
+            }
 
-        # This would call the music API if available
-        # For now, return metadata structure
-        metadata = {
-            "scene_id": scene_id,
-            "file": str(output_path),
-            "type": "music",
-            "prompt": prompt,
-            "duration_s": duration_s,
-            "status": "pending_manual_generation",
-            "note": "Use ElevenLabs web interface for music generation"
-        }
+        logger.info(f"Generating music: {scene_id}")
+        logger.info(f"  Prompt: {prompt[:100]}...")
+        logger.info(f"  Duration: {duration_s}s, instrumental={force_instrumental}")
 
-        logger.info(f"→ Please generate music manually in ElevenLabs dashboard")
-        logger.info(f"  Prompt: {prompt}")
-        logger.info(f"  Duration: {duration_s}s")
+        def _call_api():
+            try:
+                audio_generator = self.client.music.compose(
+                    prompt=prompt,
+                    music_length_ms=duration_s * 1000,
+                    model_id=ELEVENLABS_MUSIC_MODEL_ID,
+                    force_instrumental=force_instrumental,
+                )
+                with open(output_path, "wb") as f:
+                    for chunk in audio_generator:
+                        f.write(chunk)
+            except Exception as e:
+                body = str(getattr(e, "body", "")) + str(e)
+                if "quota_exceeded" in body or "payment_required" in body:
+                    # Not transient - retrying burns another request against
+                    # the same wall. Fail fast per CLAUDE.md law #6.
+                    raise NonRetryable(e) from e
+                raise
 
-        return metadata
+        def _log_retry(attempt: int, exc: Exception) -> None:
+            logger.warning(f"  transient failure (attempt {attempt}), retrying: {exc}")
+
+        call_started = time.monotonic()
+        try:
+            with_retry(
+                _call_api, category="generation", on_retry=_log_retry,
+                error_context={
+                    "project_state_dir": state_dir,
+                    "code": "E-GEN-001",
+                    "nonretryable_code": "E-BUD-001",
+                    "escalate_to": "human",
+                    "suggested_strategy": "check ElevenLabs Music quota/plan, then retry this scene",
+                },
+            )
+            gen_duration_s = time.monotonic() - call_started
+            logger.info(f"✓ Saved: {output_path} ({gen_duration_s:.1f}s)")
+            cache.put(fp, output_path, scene_id=scene_id, prompt=prompt, duration_s=duration_s)
+            # units=duration_s (seconds), NOT characters - operation_prefix
+            # "music_" keeps this out of text_to_speech()'s "tts_"-filtered
+            # character-quota sum (see production_ledger.py / B-06 note).
+            # unit_cost intentionally 0: real per-second dollar cost isn't
+            # a verified number here - recording a guessed price would be
+            # worse than an honest gap (CLAUDE.md law #4, no silent
+            # degradation - the gap is visible in the ledger, not hidden
+            # behind a plausible-looking wrong number).
+            ledger.log("elevenlabs", "music_generate", units=duration_s, unit_cost=0,
+                       accepted=True, duration_s=gen_duration_s, scene_id=scene_id)
+
+            return {
+                "scene_id": scene_id, "file": str(output_path), "type": "music",
+                "prompt": prompt, "model": ELEVENLABS_MUSIC_MODEL_ID,
+                "duration_s": duration_s, "status": "completed",
+            }
+        except Exception as e:
+            logger.error(f"✗ Music generation failed: {e}")
+            ledger.log("elevenlabs", "music_generate", units=duration_s, unit_cost=0,
+                       accepted=False, duration_s=time.monotonic() - call_started, scene_id=scene_id)
+            raise
 
     def list_voices(self) -> List[Dict]:
         """Get available voices"""

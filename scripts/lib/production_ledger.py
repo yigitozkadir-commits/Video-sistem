@@ -115,24 +115,34 @@ class CostLedger:
         # Purely local bookkeeping; the real limit lives at the provider.
         self.known_quota_units = known_quota_units or {}
 
-    def units_used(self, provider: str) -> float:
+    def units_used(self, provider: str, operation_prefix: Optional[str] = None) -> float:
+        """operation_prefix narrows the sum to operations starting with it
+        (e.g. "tts_") - schemas/cost_ledger.schema.json's provider enum has
+        no "elevenlabs_music" vs "elevenlabs_tts" distinction, only 5
+        generic providers, so two cost types sharing "elevenlabs" (chars
+        for narration vs seconds for music) would otherwise sum into one
+        meaningless total and corrupt each other's quota check. Omit for
+        the old whole-provider behavior."""
         if not self.ledger_path.exists():
             return 0.0
         total = 0.0
         for line in self.ledger_path.read_text().splitlines():
             row = json.loads(line)
-            if row.get("provider") == provider and row.get("accepted"):
-                total += row.get("units", 0) or 0
+            if row.get("provider") != provider or not row.get("accepted"):
+                continue
+            if operation_prefix and not row.get("operation", "").startswith(operation_prefix):
+                continue
+            total += row.get("units", 0) or 0
         return total
 
-    def would_exceed_quota(self, provider: str, additional_units: float) -> bool:
+    def would_exceed_quota(self, provider: str, additional_units: float, operation_prefix: Optional[str] = None) -> bool:
         """Also use this for a whole batch up front: sum the units every
         item in the batch will need and call this once before looping,
         rather than discovering the wall on item 5 of 9."""
         cap = self.known_quota_units.get(provider)
         if cap is None:
             return False
-        return self.units_used(provider) + additional_units > cap
+        return self.units_used(provider, operation_prefix=operation_prefix) + additional_units > cap
 
     def log(self, provider: str, operation: str, units: float, unit_cost: float,
             accepted: bool, scene_id: str | None = None, duration_s: float | None = None) -> None:

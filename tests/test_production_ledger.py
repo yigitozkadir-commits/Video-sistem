@@ -113,6 +113,31 @@ class TestWouldExceedQuota(unittest.TestCase):
             self.assertTrue(ledger.would_exceed_quota("elevenlabs", 1))
             self.assertFalse(ledger.would_exceed_quota("gemini", 50))
 
+    def test_operation_prefix_keeps_tts_and_music_quota_separate(self):
+        # schemas/cost_ledger.schema.json's provider enum has no distinct
+        # "elevenlabs_music" value, so both narration (character units) and
+        # music (second units) log under provider="elevenlabs". Without
+        # operation_prefix filtering, music's seconds would inflate the
+        # narration character-quota check (and vice versa) - this is the
+        # cross-contamination the B-06 generate_music() wiring introduced
+        # and had to guard against.
+        with tempfile.TemporaryDirectory() as td:
+            ledger = CostLedger(Path(td) / "state", known_quota_units={"elevenlabs": 10000})
+            ledger.log("elevenlabs", "music_generate", units=9000, unit_cost=0.0, accepted=True)
+            # 9000 "seconds" logged under music must not count against a
+            # tts-only quota check for another 5000 characters.
+            self.assertFalse(ledger.would_exceed_quota("elevenlabs", 5000, operation_prefix="tts_"))
+            # but an unfiltered check still sees the combined total (the
+            # pre-fix, whole-provider behavior remains available on purpose).
+            self.assertTrue(ledger.would_exceed_quota("elevenlabs", 5000))
+
+    def test_operation_prefix_matches_multiple_operations_with_same_prefix(self):
+        with tempfile.TemporaryDirectory() as td:
+            ledger = CostLedger(Path(td) / "state", known_quota_units={"elevenlabs": 100})
+            ledger.log("elevenlabs", "tts_generate", units=40, unit_cost=0.0, accepted=True)
+            ledger.log("elevenlabs", "tts_cache_hit", units=0, unit_cost=0.0, accepted=True)
+            self.assertEqual(ledger.units_used("elevenlabs", operation_prefix="tts_"), 40)
+
 
 if __name__ == "__main__":
     unittest.main()

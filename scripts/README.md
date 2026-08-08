@@ -145,3 +145,52 @@ existing `flow.shot.wide.establishing` (PV-0044) / `flow.shot.closeup.realisatio
 plan artifacts (prompts to hand to Flow) - no image/video generation
 happens here, since this repo has no Flow API client (Flow generation is
 external, same as the fairytale project's workflow).
+
+## 9. Unit tests for the pure logic (`tests/`)
+
+Schema validation (`scripts/validate.py`) checks contracts, not logic. The
+deterministic-replay-critical functions that don't touch the filesystem or
+a network - `ArtifactCache.fingerprint()`, `CostLedger.would_exceed_quota()`,
+`retry.with_retry()`'s backoff/jitter math and `NonRetryable` short-circuit,
+`checklist_common.long_compound_number_findings()`, and the
+`lib/id_counter.py` lock (including an actual multi-process concurrency
+test) - have stdlib `unittest` coverage in `tests/`. No pytest dependency;
+run with:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
+Run this after touching anything in `scripts/lib/` - it's seconds, not a
+45-60 minute render, so there's no excuse to skip it (same "plan more,
+render less" logic as CLAUDE.md section 10's pre-render checklist).
+
+## 10. Flow account pool bookkeeping (`scripts/lib/flow_pool.py`)
+
+`schemas/flow_account_pool.schema.json` defines the free-tier Google Flow
+pool's quota shape (10 accounts × 3 videos/day × 10s/clip = 300s/day) but
+had no reader/writer anywhere in the repo. This is bookkeeping only, not
+automation - there's still no Flow API client here (section 8 above),
+Flow generation stays a human pasting Claude-Code-written prompts into the
+Flow web UI. What it replaces is tracking "which account, how much quota
+left" by memory.
+
+```python
+from lib.flow_pool import FlowAccountPool
+
+pool = FlowAccountPool(project_state_dir)
+pool.init_new([                      # once per project, your real accounts
+    {"account_id": "FLWACC-01", "email": "you1@example.com"},
+    {"account_id": "FLWACC-02", "email": "you2@example.com"},
+])
+
+pool.reset_if_new_day()              # call before picking, clears yesterday's daily caps
+account = pool.next_available_account()   # None -> fall back to still (studio.config.json fallback_to_still)
+# ... paste the prompt into Flow web UI using `account`, get a clip back ...
+pool.record_usage(account["account_id"], video_seconds=8)
+```
+
+Never invents an account roster - `init_new()` raises on an empty list.
+Quarantine a banned/rate-limited account with `pool.quarantine(account_id,
+reason)`; quarantined accounts stay out of rotation across day resets
+until a human clears them.

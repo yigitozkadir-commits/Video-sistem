@@ -9,6 +9,8 @@
 //
 // audioFile may be null (e.g. a silent title card) - StudioComposition
 // below already handles that case.
+import type { Caption } from "@remotion/captions";
+
 export interface SceneVisual {
   type: "video" | "still";
   file: string;
@@ -21,6 +23,14 @@ export interface SceneData {
   visuals: SceneVisual[];
   startFrame: number;
   durationFrames: number;
+  // Optional, opt-in (review finding B-05): per-scene word timing from
+  // scripts/generate_captions.py's caption_track.schema.json output,
+  // already shaped as @remotion/captions' own Caption[] type - no
+  // transformation needed between the JSON file and this field. A scene
+  // with no captions (undefined, or omitted entirely) renders exactly as
+  // before - StudioComposition only renders the caption overlay when this
+  // is present and non-empty.
+  captions?: Caption[];
 }
 
 export const FPS = 30;

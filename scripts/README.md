@@ -194,3 +194,34 @@ Never invents an account roster - `init_new()` raises on an empty list.
 Quarantine a banned/rate-limited account with `pool.quarantine(account_id,
 reason)`; quarantined accounts stay out of rotation across day resets
 until a human clears them.
+
+## 11. Captions (`scripts/generate_captions.py`)
+
+`@remotion/captions` sat in `remotion_template/package.json` unused (review
+finding B-05) - there was no per-word timing data to feed it. This script
+transcribes a scene's narration with faster-whisper's word-level
+timestamps and writes `schemas/caption_track.schema.json`-shaped JSON,
+already field-for-field identical to `@remotion/captions`' own `Caption`
+type (verified against remotion-dev/remotion's source, not guessed) - no
+transformation needed to hand it to `StudioComposition.tsx`'s
+`CaptionsOverlay` (see `remotion_template/README.md`'s Captions section).
+
+```bash
+python3 scripts/generate_captions.py SC-001 \
+  projects/PRJ-x/assets/audio/NAR-SC-001.wav \
+  projects/PRJ-x/state/captions/SC-001.json \
+  --model base --language tr
+```
+
+Requires `faster-whisper` (optional dependency, see `requirements.txt`) -
+raises a clear pip-install message rather than a bare traceback if it's
+missing. Re-running with the same audio file + model + language is a
+no-op: the output's `inputs_fingerprint` is checked *before* invoking the
+transcription, not after, so re-running a whole project's caption
+generation after one scene's audio changes doesn't re-transcribe
+everything. `--force` bypasses the cache.
+
+The same transcription that feeds captions can back CLAUDE.md section 10's
+faster-whisper listen-check (long-compound-number findings) - no reason to
+transcribe a scene's narration twice for two different QA/production
+purposes.

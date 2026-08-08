@@ -33,3 +33,27 @@ Before a full render, always run this project's own pre-render checklist
 (adapt `scripts/pre_render_checklist_ryskulov.py`'s pattern) — see
 `CLAUDE.md` section 10. A defect caught in `scenesData.ts` costs nothing to
 fix; the same defect caught in a finished `.mp4` costs a full re-render.
+
+## Captions (optional, opt-in per scene)
+
+`SceneData.captions?: Caption[]` (in `src/scenesData.ts`) renders a
+restrained, centered subtitle bar via `StudioComposition.tsx`'s
+`CaptionsOverlay` — nothing changes for a scene that doesn't set it.
+Populate it with `scripts/generate_captions.py`'s output (faster-whisper
+word timing, already shaped as `@remotion/captions`' own `Caption[]`
+type — no transformation needed):
+
+```bash
+python3 scripts/generate_captions.py SC-001 \
+  projects/PRJ-x/assets/audio/NAR-SC-001.wav \
+  projects/PRJ-x/state/captions/SC-001.json
+```
+
+Then have your project's `generate_<project>_scenes_data.py` read that
+JSON's `"captions"` array into the matching scene's `captions` field when
+writing `scenesData.ts`. Default rendering groups words into ~1.5s
+readable phrases (not word-by-word flash) to match this studio's
+documentary tone; swap `CaptionsOverlay` for a word-highlight style if a
+`TPL-vertical-short` deliverable wants one — `createTikTokStyleCaptions()`
+already returns per-word timing inside each page (`activePage.tokens`),
+this component just doesn't render them individually by default.

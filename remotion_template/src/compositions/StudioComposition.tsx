@@ -1,5 +1,6 @@
-import React from "react";
-import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, useCurrentFrame } from "remotion";
+import React, { useMemo } from "react";
+import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
+import { createTikTokStyleCaptions, type Caption } from "@remotion/captions";
 import { SCENES, SceneVisual } from "../scenesData";
 
 // Studio-standard composition pattern, distilled from remotion_avrasya /
@@ -10,9 +11,22 @@ import { SCENES, SceneVisual } from "../scenesData";
 // per-style-profile concern, add them per project if the style profile
 // calls for them (see style/archival_restrained_documentary.json's
 // ai_generated_disclosure / citation_card fields).
+//
+// Captions (review finding B-05) are opt-in per scene via SceneData's
+// optional `captions` field (scripts/generate_captions.py's output,
+// already @remotion/captions-shaped) - a scene without it renders
+// identically to before this was added. Default style is a restrained,
+// centered subtitle bar (readable phrase-length chunks, not word-by-word
+// flash) to match this studio's documentary tone; a project that wants
+// TikTok-style word-highlight for a TPL-vertical-short deliverable can
+// swap CaptionsOverlay's rendering without touching the data pipeline -
+// createTikTokStyleCaptions() already produces per-word timing within
+// each page (see activePage.tokens), this component just doesn't
+// highlight them individually by default.
 
 const FADE_FRAMES = 15; // 0.5s at 30fps
 const KEN_BURNS_SCALE = 1.03; // restrained - matches motion_ceiling: 1 in most style profiles
+const CAPTION_PAGE_MS = 1500; // group words into ~1.5s reading chunks, not per-word flashes
 
 const VisualSlide: React.FC<{
   visual: SceneVisual;
@@ -95,12 +109,64 @@ const VisualSlide: React.FC<{
   );
 };
 
+const CaptionsOverlay: React.FC<{ captions: Caption[] }> = ({ captions }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const currentMs = (frame / fps) * 1000;
+
+  // captions are relative to this scene's own audio start (0 = scene
+  // start) - useCurrentFrame() here is already Sequence-relative (this
+  // component only ever renders inside a scene's own <Sequence>), so no
+  // extra offset math is needed.
+  const { pages } = useMemo(
+    () => createTikTokStyleCaptions({ captions, combineTokensWithinMilliseconds: CAPTION_PAGE_MS }),
+    [captions]
+  );
+
+  const activePage = pages.find(
+    (page) => currentMs >= page.startMs && currentMs < page.startMs + page.durationMs
+  );
+
+  if (!activePage) {
+    return null;
+  }
+
+  return (
+    <AbsoluteFill
+      style={{
+        justifyContent: "flex-end",
+        alignItems: "center",
+        padding: "0 8% 120px 8%",
+        pointerEvents: "none",
+      }}
+    >
+      <div
+        style={{
+          fontFamily: "Georgia, 'Times New Roman', serif",
+          fontSize: 34,
+          fontWeight: 600,
+          color: "#f2efe6",
+          textAlign: "center",
+          lineHeight: 1.35,
+          textShadow: "0 2px 12px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.9)",
+          background: "rgba(10, 9, 8, 0.55)",
+          padding: "10px 22px",
+          borderRadius: 6,
+        }}
+      >
+        {activePage.text}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const SceneLayer: React.FC<{
   title: string;
   audioFile: string | null;
   visuals: SceneVisual[];
   durationFrames: number;
-}> = ({ title, audioFile, visuals, durationFrames }) => {
+  captions?: Caption[];
+}> = ({ title, audioFile, visuals, durationFrames, captions }) => {
   const frame = useCurrentFrame();
 
   const fade = Math.max(1, Math.min(FADE_FRAMES, Math.floor(durationFrames / 2) - 1));
@@ -123,6 +189,9 @@ const SceneLayer: React.FC<{
   // audioFile is null for silent scenes (e.g. a title card) - by design,
   // not an error. Never fall back to a different audio source here.
   const audioEl = audioFile ? <Audio src={audioFile} volume={audioOpacity} /> : null;
+  // Opt-in (B-05): only rendered when this scene actually has caption
+  // data - see the file-header comment and SceneData.captions' docstring.
+  const captionsEl = captions && captions.length > 0 ? <CaptionsOverlay captions={captions} /> : null;
 
   if (visuals.length === 0) {
     return (
@@ -133,6 +202,7 @@ const SceneLayer: React.FC<{
             [{title} - no visual yet]
           </div>
         </AbsoluteFill>
+        {captionsEl}
       </>
     );
   }
@@ -181,6 +251,7 @@ const SceneLayer: React.FC<{
           {title}
         </div>
       </AbsoluteFill>
+      {captionsEl}
       </AbsoluteFill>
     </>
   );
@@ -196,6 +267,7 @@ export const StudioComposition: React.FC = () => {
             audioFile={scene.audioFile}
             visuals={scene.visuals}
             durationFrames={scene.durationFrames}
+            captions={scene.captions}
           />
         </Sequence>
       ))}

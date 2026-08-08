@@ -1,5 +1,5 @@
 # MODULE 23 — HISTORICAL RESEARCH PIPELINE
-**Version 1.0 · Layer 0 (Pre-production) · Role: Research Director**
+**Version 1.1 · Layer 0 (Pre-production) · Role: Research Director**
 
 > Every other project so far has started from a `.docx`/`.pdf` the human
 > already researched and handed over. This module is what happens when
@@ -136,6 +136,64 @@ already available in this environment.
   present — check `SearchMcpRegistry` if this becomes worth adding later,
   not a current dependency of this module.
 
+## 6b. HARDENED VERIFICATION TECHNIQUES (v1.1)
+
+The condensed 5-phase version (v1.0) was itself distilled from a raw,
+29-module first-draft concept document (uploaded separately, unstructured
+— see CHANGELOG). That draft's short-stub modules (11-29) added little
+beyond what v1.0 already captured; its ten long-form modules (01-10)
+contained genuinely new, specific techniques, selectively folded into the
+phase files below rather than summarized here in full (this module stays
+an overview; mechanics live in `phases/faz-{b,c,d}-*.md`):
+
+- **Phase B** — Adaptive Research Depth (5 levels, scaled to epistemic
+  risk, not applied uniformly), a Citation Hallucination Detector
+  (verify an academic citation actually exists before using it), and a
+  Context Boundary rule for when to stop expanding background research.
+- **Phase C** — reframed as **"Red Team Mode"**: named detectors for
+  False Precision (an estimate presented as an exact figure — the same
+  defect class `pre_render_checklist*.py`'s long-compound-number check
+  catches downstream in narration, now caught upstream in research),
+  Anachronism (concrete checklist: institutions/titles/borders/identities
+  retrojected onto a period before they existed), Cherry-Picking, Circular
+  Evidence (`APPARENT` vs `INDEPENDENT` evidence count), Claim Mutation,
+  Evidence Inflation, and a 4-axis causal-claim decomposition
+  (temporal/correlation/mechanism/causal-evidence) plus a counterfactual
+  stress-test. The `perspective_diversity` check (v1.0) is now backed by
+  a named bias-type vocabulary (national/political/ideological/colonial/
+  postcolonial/class/institutional/source-availability/language) and an
+  explicit coverage log of which languages/archives were and weren't
+  searched — directly relevant to this studio's own contested-history
+  project line (`PRJ-ryskulov-mektubu`, `PRJ-avrasya-bozkir-kusagi`).
+- **Phase D** — causal links use a 9-value type vocabulary
+  (DIRECT_CAUSE/TRIGGER/ENABLING_CONDITION/etc.) instead of a
+  precondition/direct-cause binary, plus a 3-tier precondition split and
+  a date-certainty + calendar-normalization vocabulary (Hijri/regnal-year/
+  Julian → Gregorian, with a `conversion_confidence` field) — directly
+  applicable to this studio's Ottoman/Turkic/Islamic-history subject
+  matter.
+- **`reference/sema.md`** gained a Chronology record and a Causal Link
+  record (§7-8), plus additive fields on Evidence (`alignment_strength`,
+  three new evidence types for demographic/genetic/paleoclimatic
+  questions — relevant to steppe-migration topics) and Source
+  (`document_status`, `transmission_integrity`, `earliest_attestation`).
+  All additive — nothing from v1.0's shapes was renamed or removed.
+
+**Deliberately NOT adopted from the raw draft:**
+- A literal "Content Opportunity Formula" (weighted arithmetic over
+  scoring axes) — presenting invented weights as if calibrated would
+  violate this studio's own discipline against dressing up a guess as a
+  measurement (CLAUDE.md law #4; same reasoning as
+  `TPL-archival-documentary`'s `source_note` being explicit about its
+  estimate being unmeasured). Phase A's opportunity scoring stays
+  qualitative (high/medium/low per axis), not a fake precise score.
+- A full dedicated "Object Record" schema for physical/archaeological
+  evidence — folded into Evidence's existing `object_provenance` free-text
+  field instead. A rigid nested schema for a case that comes up only in
+  some projects would be premature structure for a need not yet
+  demonstrated at volume (same judgment call as M11 §5b's scene-type
+  scoping decision).
+
 ## 7. FAILURE MODES
 
 | Symptom | Cause | First move |
@@ -157,12 +215,24 @@ already available in this environment.
   label and the claim type must not contradict each other.
 - If the §4 bridge was used, the resulting project's `rights.evidence_ref`
   actually resolves to the package's `bibliography`, not left generic.
+- Any Phase C1 Red Team flag (`CITATION_UNVERIFIED`,
+  `ESTIMATE_PRESENTED_AS_EXACT`, `ANACHRONISM`, `EVIDENCE_INFLATION`) on a
+  `core` claim is resolved or explicitly carried into Phase D's
+  completeness audit — never silently dropped between phases.
 
 **NEXT MODULE:** none yet — this is the newest module. Its natural
 successor, if built, is a scaffold script that consumes
 `faz-e-package.json` structurally (see §4 point 5).
 
 **CHANGELOG**
+- v1.1 — Hardened §6b's verification/analysis techniques from the raw,
+  unstructured 29-module first draft the condensed v1.0 skill was itself
+  distilled from (uploaded separately, after v1.0 already shipped):
+  Red Team Mode detectors in Phase C, adaptive research depth and
+  citation verification in Phase B, richer causal-link/date-certainty
+  vocabulary in Phase D, additive schema fields throughout. Selectively
+  adopted, not a wholesale merge — see §6b for what was deliberately left
+  out and why.
 - v1.0 — Module created: adapted from an uploaded 29-module concept
   document (packaged as a Claude skill) into this studio's 5-phase
   pipeline, schema (`schemas/research_package.schema.json`), and the

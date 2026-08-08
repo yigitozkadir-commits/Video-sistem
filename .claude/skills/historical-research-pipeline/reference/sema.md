@@ -73,12 +73,26 @@ STRONGLY_SUPPORTED'dan PROBABLE'a düştü" sorusunun cevabı kaybolmaz.
   "claim_id": "C-0001",
   "description": "Kanıtın ne olduğu",
   "source_id": "SRC-0001",
-  "evidence_type": "primary | near-contemporary | secondary | tertiary | derivative | oral_tradition | archaeological | material | epigraphic | numismatic | administrative",
+  "evidence_type": "primary | near-contemporary | secondary | tertiary | derivative | oral_tradition | archaeological | material | epigraphic | numismatic | administrative | demographic | genetic | paleoclimatic",
   "supports_or_contradicts": "supports | contradicts | qualifies",
+  "alignment_strength": "DIRECTLY_SUPPORTS | PARTIALLY_SUPPORTS | INDIRECTLY_SUPPORTS | CONTEXT_ONLY | DOES_NOT_SUPPORT | CONTRADICTS",
   "strength": "strong | moderate | weak",
+  "object_provenance": "yalnızca evidence_type archaeological/material/numismatic/epigraphic ise doldurulur — repository, kazı/edinim geçmişi, atıf/otantiklik notu (opsiyonel, serbest metin)",
   "notes": ""
 }
 ```
+
+`alignment_strength` opsiyoneldir — `supports_or_contradicts`'in hızlı
+3-değerli halini geçersiz kılmaz, onu **inceltir** (ör. bir kanıt
+`supports` ama gerçekte sadece `CONTEXT_ONLY` ise, bunu ayrı ayrı
+görebilmek claim'in gerçek gücünü daha doğru yansıtır — Modül 04'ten
+uyarlanmıştır).
+
+`demographic | genetic | paleoclimatic` evidence tipleri özellikle göçebe/
+bozkır tarihi konularında (nüfus hareketleri, genetik köken çalışmaları,
+iklim-göç korelasyonu) devreye girer — her konu için zorunlu değil, sadece
+soru gerektiriyorsa kullanılır (Modül 06'nın "yalnızca soruyu cevaplıyorsa
+ekle, tamlık için ekleme" ilkesi).
 
 ## 4. Source (Kaynak) kaydı
 
@@ -97,9 +111,17 @@ STRONGLY_SUPPORTED'dan PROBABLE'a düştü" sorusunun cevabı kaybolmaz.
   "translation_risk": "none | low | medium | high",
   "authenticity_risk": "none | low | medium | high",
   "reliability": "high | medium | low | unverified",
-  "linked_claims": ["C-0001"]
+  "linked_claims": ["C-0001"],
+  "document_status": "KNOWN | MISSING | FRAGMENTARY | DISPUTED | UNLOCATED",
+  "transmission_integrity": "yalnızca elyazması/kronik zinciri kaynaklarda doldurulur — interpolasyon riski, ilk atıf tarihi, nüsha/fragman karşılaştırması notu (opsiyonel, serbest metin)",
+  "earliest_attestation": "bu bilginin izlenebildiği en eski kaynak/tarih (zincirin başı — Faz B3'ün kaynak-zinciri çözümü ile aynı disiplin, burada ayrı bir alan olarak kaydedilir)"
 }
 ```
+
+`document_status`, `SOURCE_GAP` (erişilemeyen ama var olduğu bilinen
+kaynak) ile karıştırılmaz — bu alan kaynağın **kendi varlık durumunu**
+tanımlar (bir kronik parça halinde mi kaldı, kayboldu mu, ihtilaflı mı),
+`SOURCE_GAP` ise **bizim ona erişimimizin** durumunu (bkz. §1, Modül 10).
 
 ## 5. Unknown / Anomaly kaydı
 
@@ -141,7 +163,51 @@ STRONGLY_SUPPORTED'dan PROBABLE'a düştü" sorusunun cevabı kaybolmaz.
 }
 ```
 
-## 7. ID kuralları
+## 7. Chronology (Zaman Çizelgesi) kaydı — yalnızca Faz D3+
+
+```json
+{
+  "event": "",
+  "date_or_period": "",
+  "date_certainty": "EXACT | YEAR_ONLY | MONTH_RANGE | YEAR_RANGE | BEFORE | AFTER | CIRCA | UNKNOWN",
+  "calendar_system": "gregorian | julian | hijri | regnal_year | other",
+  "conversion_confidence": "high | medium | low — takvim dönüşümü (ör. Hicri→Miladi, saltanat yılı→Miladi) yapıldıysa doldurulur, dönüşüm gerekmiyorsa boş bırakılır",
+  "certainty": "olayın kendisinin gerçekleştiğine dair güven (tarihinden ayrı bir eksen)",
+  "linked_claims": ["C-0001"]
+}
+```
+
+## 8. Causal Link (Nedensellik Bağlantısı) kaydı — yalnızca Faz D3+
+
+```json
+{
+  "cause_event": "",
+  "effect_event": "",
+  "link_type": "DIRECT_CAUSE | INDIRECT_CAUSE | CONTRIBUTING_FACTOR | ENABLING_CONDITION | TRIGGER | AMPLIFIER | CONSTRAINT | MEDIATOR | CONSEQUENCE",
+  "precondition_tier": "structural | enabling | trigger — yalnızca link_type bir ön-koşul niteliğindeyse (ENABLING_CONDITION/TRIGGER gibi) doldurulur",
+  "causal_reasoning": {
+    "temporal_relationship": "cause_event gerçekten effect_event'ten önce mi — ayrı doğrulanır, sadece sıralama varsayılmaz",
+    "correlation": "iki olay birlikte mi gözlemleniyor",
+    "mechanism": "nasıl bir mekanizma A'yı B'ye bağlıyor — mekanizma yoksa 'UNKNOWN_MECHANISM'",
+    "causal_evidence": "nedenselliğin kendisine dair doğrudan kanıt var mı, yoksa yalnızca sıralama+korelasyondan mı çıkarsanıyor"
+  },
+  "counterfactual_test": "HIGH | MEDIUM | LOW | UNKNOWN — 'cause_event olmasaydı, effect_event yine de olur muydu' sorusuna verilen cevabın güven düzeyi (bağımlılık derecesi, alt-tarih senaryosu yazmak için değil, nedensellik iddiasını stres testine tabi tutmak için)",
+  "evidence_for_causation": "",
+  "confidence": "aynı epistemik sözlük",
+  "note": "kronoloji≠nedensellik uyarısı gerekiyorsa, veya bu bağlantı bir claim yeniden-değerlendirmesini tetiklediyse (Faz D3→D2 geri-besleme) buraya"
+}
+```
+
+**Nedensellik disiplini (Modül 08'den):** İki olay arasında nedensellik
+iddia etmeden önce yukarıdaki dört `causal_reasoning` eksenini AYRI AYRI
+değerlendir — sadece "B, A'dan sonra oldu" (temporal_relationship) yeterli
+gerekçe değildir. **Bilgi Kısıtı ilkesi**: bir aktörün kararını
+değerlendirirken yalnızca **o an bildiklerine** göre değerlendir, sonradan
+öğrenilenlere göre değil (retrospektif önyargıyı bastırmak için — bu,
+Faz C1'in "nedensellik ters kurulmuş olabilir mi?" sorusunun altında yatan
+somut ilke).
+
+## 9. ID kuralları
 
 - Claim: `C-000n`
 - Evidence: `EV-000n`

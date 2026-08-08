@@ -127,12 +127,63 @@
         "properties": {
           "event": { "type": "string" },
           "date_or_period": { "type": "string" },
+          "date_certainty": {
+            "type": "string",
+            "enum": ["EXACT", "YEAR_ONLY", "MONTH_RANGE", "YEAR_RANGE", "BEFORE", "AFTER", "CIRCA", "UNKNOWN"]
+          },
+          "calendar_system": {
+            "type": "string",
+            "enum": ["gregorian", "julian", "hijri", "regnal_year", "other"]
+          },
+          "conversion_confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
           "certainty": { "type": "string" },
           "linked_claims": {
             "type": "array",
             "items": { "type": "string", "pattern": "^C-\\d{4}$" }
           }
         }
+      }
+    },
+    "causal_links": {
+      "type": "array",
+      "description": "Optional - only present when the research question involves causal claims (M23 addendum, from the raw draft's Module 08).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cause_event": { "type": "string" },
+          "effect_event": { "type": "string" },
+          "link_type": {
+            "type": "string",
+            "enum": [
+              "DIRECT_CAUSE", "INDIRECT_CAUSE", "CONTRIBUTING_FACTOR", "ENABLING_CONDITION",
+              "TRIGGER", "AMPLIFIER", "CONSTRAINT", "MEDIATOR", "CONSEQUENCE"
+            ]
+          },
+          "precondition_tier": {
+            "type": "string",
+            "enum": ["structural", "enabling", "trigger"]
+          },
+          "causal_reasoning": {
+            "type": "object",
+            "properties": {
+              "temporal_relationship": { "type": "string" },
+              "correlation": { "type": "string" },
+              "mechanism": { "type": "string" },
+              "causal_evidence": { "type": "string" }
+            }
+          },
+          "counterfactual_test": {
+            "type": "string",
+            "enum": ["HIGH", "MEDIUM", "LOW", "UNKNOWN"]
+          },
+          "evidence_for_causation": { "type": "string" },
+          "confidence": { "$ref": "#/$defs/confidence_level" },
+          "note": { "type": "string" }
+        },
+        "required": ["cause_event", "effect_event", "link_type"]
       }
     },
     "historiography": {
@@ -214,6 +265,30 @@
       "type": "array",
       "items": {
         "type": "string"
+      }
+    },
+    "rejected_evidence": {
+      "type": "array",
+      "description": "E4 archive requirement (M23 addendum): evidence considered and discarded, with why - so a later session doesn't re-discover and re-reject the same dead end.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": { "type": "string" },
+          "why_rejected": { "type": "string" }
+        },
+        "required": ["description", "why_rejected"]
+      }
+    },
+    "rejected_hypotheses": {
+      "type": "array",
+      "description": "E4 archive requirement (M23 addendum): explanations/hypotheses considered and discarded, with why.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hypothesis": { "type": "string" },
+          "why_rejected": { "type": "string" }
+        },
+        "required": ["hypothesis", "why_rejected"]
       }
     },
     "version_state": {
@@ -346,16 +421,28 @@
           "enum": [
             "primary", "near-contemporary", "secondary", "tertiary", "derivative",
             "oral_tradition", "archaeological", "material", "epigraphic",
-            "numismatic", "administrative"
+            "numismatic", "administrative", "demographic", "genetic", "paleoclimatic"
           ]
         },
         "supports_or_contradicts": {
           "type": "string",
           "enum": ["supports", "contradicts", "qualifies"]
         },
+        "alignment_strength": {
+          "type": "string",
+          "description": "Optional finer-grained read of supports_or_contradicts (M23 addendum).",
+          "enum": [
+            "DIRECTLY_SUPPORTS", "PARTIALLY_SUPPORTS", "INDIRECTLY_SUPPORTS",
+            "CONTEXT_ONLY", "DOES_NOT_SUPPORT", "CONTRADICTS"
+          ]
+        },
         "strength": {
           "type": "string",
           "enum": ["strong", "moderate", "weak"]
+        },
+        "object_provenance": {
+          "type": "string",
+          "description": "Set only when evidence_type is archaeological/material/numismatic/epigraphic: repository, excavation/acquisition history, authenticity note."
         },
         "notes": { "type": "string" }
       },
@@ -406,6 +493,19 @@
           "type": "array",
           "description": "Set when this source was a SOURCE_GAP - which of B3b's fallback steps (Wayback/Google Books/citing-source/catalog-DOI) were tried, so a later session doesn't retry the same dead ends from scratch.",
           "items": { "type": "string" }
+        },
+        "document_status": {
+          "type": "string",
+          "description": "The record's own existence status (distinct from SOURCE_GAP, which is about OUR access to it) - M23 addendum.",
+          "enum": ["KNOWN", "MISSING", "FRAGMENTARY", "DISPUTED", "UNLOCATED"]
+        },
+        "transmission_integrity": {
+          "type": "string",
+          "description": "Set only for manuscript/chronicle-chain sources: interpolation risk, edition/fragment comparison notes."
+        },
+        "earliest_attestation": {
+          "type": "string",
+          "description": "The earliest source/date this piece of information can be traced to - the head of the B3.3 source chain, recorded as its own field."
         }
       },
       "required": ["source_id", "title", "type", "reliability"]

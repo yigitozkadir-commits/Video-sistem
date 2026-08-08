@@ -44,13 +44,33 @@ Her claim paketi şunları içermeli:
 **Kritik ilke: Kronoloji ≠ nedensellik.** Bir olayın diğerinden sonra
 gerçekleşmesi, ona sebep olduğu anlamına gelmez.
 
-1. Olayları zaman çizelgesine yerleştir (Timeline).
+1. Olayları zaman çizelgesine yerleştir (Timeline —
+   `reference/sema.md § 7`). Her olayın tarihine bir **kesinlik**
+   etiketi ekle: `EXACT | YEAR_ONLY | MONTH_RANGE | YEAR_RANGE |
+   BEFORE | AFTER | CIRCA | UNKNOWN`. Takvim dönüşümü gerekiyorsa
+   (Hicri, saltanat yılı, vb. → Miladi) `calendar_system` ve
+   `conversion_confidence` alanlarını doldur — dönüştürülmüş bir
+   tarihi hiç dönüştürülmemiş gibi sunma.
 2. Ayrı bir katmanda: hangi olayın hangi olaya **neden olduğu**
-   iddiasını, bunu destekleyen kanıtla birlikte işaretle.
+   iddiasını, `reference/sema.md § 8`'in **9 nedensellik-bağlantısı
+   tipiyle** işaretle (basit "önce/sonra" ikiliğinden çok daha
+   ayrıntılı): `DIRECT_CAUSE | INDIRECT_CAUSE | CONTRIBUTING_FACTOR |
+   ENABLING_CONDITION | TRIGGER | AMPLIFIER | CONSTRAINT | MEDIATOR |
+   CONSEQUENCE`. Faz C1'de zaten yapılmış olan nedensellik
+   4-eksen-ayrıştırması (`causal_reasoning`) ve karşı-olgusal test
+   (`counterfactual_test`) sonuçlarını buraya taşı.
 3. Paralel/eşzamanlı olayları ayrıca not et (yanlış nedensellik riski
    taşırlar).
-4. Ön koşul (precondition) ile doğrudan neden (direct cause) ayrımını
-   koru.
+4. Ön koşul (precondition) tek bir kategori değil, üç kademeye
+   ayrılır (`precondition_tier`): **structural** (uzun vadeli, yapısal
+   ön-koşul — ör. bir ekonomik sistem), **enabling** (belirli bir anda
+   imkan tanıyan koşul), **trigger** (doğrudan tetikleyici olay). Bu
+   üçünü doğrudan nedenle (`DIRECT_CAUSE`) karıştırma.
+5. **Kronoloji↔Claim geri-besleme döngüsü:** Bu adımda bir zamansal
+   çelişki bulursan (ör. bir claim'in iddia ettiği olay sırası, timeline
+   ile çelişiyorsa), bu **D2'ye (Claim Packaging) geri dön ve o
+   claim'i yeniden değerlendir** anlamına gelir — pipeline'ın tek
+   doğrusal istisnası budur, sessizce görmezden gelme.
 
 ## D4 — Completeness Audit (Modül 19)
 
@@ -73,6 +93,15 @@ kanıt:
 - [ ] Kaynak zinciri (Faz B3) geriye doğru izlenebiliyor mu?
 - [ ] Çözülmemiş çelişkiler (Faz C4) açıkça işaretli mi?
 - [ ] Research gaps (aşağıda D-gaps) raporlandı mı?
+- [ ] **False Completion kontrolü** — "yeterince kaynak bulundu"
+      izlenimi, altı ayrı eksende (claim kapsamı, kanıt kalitesi,
+      kaynak bağımsızlığı, birincil kaynak kapsamı, karşı-argüman
+      kapsamı, boşluk kapsamı) gerçekten doğrulandı mı, yoksa sadece
+      kaynak SAYISINA mı bakıldı (bkz. Faz B4)?
+- [ ] Faz C1'in Red Team bayrakları (`CITATION_UNVERIFIED`,
+      `ESTIMATE_PRESENTED_AS_EXACT`, `ANACHRONISM`,
+      `EVIDENCE_INFLATION`) çözüldü mü, yoksa çözülmemiş olarak mı
+      paketleniyor (paketlenebilir, ama sessizce değil)?
 
 Her ihlal `severity`: `CRITICAL | HIGH | MEDIUM | LOW | INFO` ile
 kaydedilir.
@@ -121,12 +150,8 @@ evidence_potential × originality`).
 {
   "phase": "D",
   "master_claims": [ /* reference/sema.md § 2, final güncellenmiş */ ],
-  "timeline": [
-    {"event": "", "date_or_period": "", "certainty": "", "linked_claims": ["C-0001"]}
-  ],
-  "causal_links": [
-    {"cause_event": "", "effect_event": "", "evidence_for_causation": "", "confidence": "", "note": "kronoloji≠nedensellik uyarısı gerekiyorsa buraya"}
-  ],
+  "timeline": [ /* reference/sema.md § 7 */ ],
+  "causal_links": [ /* reference/sema.md § 8 */ ],
   "content_opportunities_preview": ["Faz E'ye aktarılacak ham gözlemler"],
   "research_gaps": [
     {"gap_id": "G-01", "type": "", "question": "", "priority": "high|medium|low"}

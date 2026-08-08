@@ -20,3 +20,13 @@ output/*.mp4
 # projects/<id>/state/kaggle_archive.jsonl, file stays on local disk, just
 # untracked. Add one entry per archived source file, e.g.:
 # projects/PRJ-myproject/input/large_source.pdf
+
+# PRJ-ninniler-atlasi: assets/still (239M) already lives on Kaggle
+# (mehmetkync16/ninniler-iin-grsel-envanter + ninniler-part2 - see
+# projects/PRJ-ninniler-atlasi/state/kaggle_archive.jsonl for the pointer)
+# and render/ output (~110MB/video x 10) is a regenerable, still-placeholder-
+# timed draft (no music yet) - neither belongs in git history, same
+# large-bytes reasoning as CLAUDE.md section 9.
+projects/PRJ-ninniler-atlasi/assets/still/
+projects/PRJ-ninniler-atlasi/render/
+remotion_ninniler_atlasi/public/still/

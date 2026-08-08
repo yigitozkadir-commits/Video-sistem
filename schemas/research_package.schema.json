@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/research_package.schema.json",
+  "title": "Research Production Package",
+  "description": "The historical-research-pipeline skill's Phase E deliverable (faz-e-package.json). Formalizes that phase's own 'Handoff Contract' (.claude/skills/historical-research-pipeline/phases/faz-e-uretim-paketi.md) as a real schema per CLAUDE.md law #1 (contract over prose): a package that doesn't validate against this is not ready to hand off, whether to a human or to becoming a new project's project.json.source (M23 §4).",
+  "type": "object",
+  "properties": {
+    "phase": {
+      "type": "string",
+      "const": "E"
+    },
+    "project_title": {
+      "type": "string"
+    },
+    "research_question": {
+      "type": "string"
+    },
+    "winning_angle": {
+      "type": "object",
+      "properties": {
+        "angle_id": {
+          "type": "string",
+          "pattern": "^A-\\d{2}$"
+        },
+        "central_question": {
+          "type": "string"
+        },
+        "core_tension": {
+          "type": "string"
+        },
+        "evidence_anchor": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^C-\\d{4}$"
+          }
+        },
+        "originality": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "scholarly_strength": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "uncertainty": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        }
+      },
+      "required": ["angle_id", "central_question"]
+    },
+    "rejected_angles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "angle_id": { "type": "string" },
+          "reason": { "type": "string" }
+        },
+        "required": ["angle_id", "reason"]
+      }
+    },
+    "hook_candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "hook_id": {
+            "type": "string",
+            "pattern": "^H-\\d{2}$"
+          },
+          "question": { "type": "string" },
+          "supporting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^C-\\d{4}$"
+            }
+          },
+          "curiosity_mechanism": {
+            "type": "string",
+            "enum": ["contradiction", "mystery", "reversal", "reveal", "stakes"]
+          },
+          "risk_of_exaggeration": {
+            "type": "string",
+            "enum": ["none", "low", "medium", "high"]
+          },
+          "confidence": {
+            "$ref": "#/$defs/confidence_level"
+          }
+        },
+        "required": ["hook_id", "question", "supporting_evidence"]
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "sources": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        },
+        "secondary": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/source" }
+        }
+      },
+      "required": ["primary", "secondary"]
+    },
+    "chronology": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "event": { "type": "string" },
+          "date_or_period": { "type": "string" },
+          "certainty": { "type": "string" },
+          "linked_claims": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^C-\\d{4}$" }
+          }
+        }
+      }
+    },
+    "historiography": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": { "type": "string" },
+          "interpretations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "scholar_or_school": { "type": "string" },
+                "position": { "type": "string" },
+                "based_on": { "type": "string" },
+                "status": {
+                  "type": "string",
+                  "enum": ["consensus", "debate", "minority_view"]
+                }
+              }
+            }
+          },
+          "perspective_diversity": {
+            "type": "string",
+            "enum": ["balanced", "skewed", "single_perspective_only"]
+          },
+          "perspective_diversity_notes": { "type": "string" }
+        }
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unknown"
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence_map": {
+      "type": "object",
+      "description": "claim_id -> confidence_level, e.g. {\"C-0001\": \"ESTABLISHED\"}",
+      "additionalProperties": {
+        "$ref": "#/$defs/confidence_level"
+      }
+    },
+    "research_gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "gap_id": {
+            "type": "string",
+            "pattern": "^G-\\d{2}$"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "missing_primary_source", "missing_archive", "unsearched_language",
+              "understudied_region", "chronological_gap", "attribution_gap",
+              "causal_gap", "methodological_gap", "historiographical_gap",
+              "translation_gap"
+            ]
+          },
+          "question": { "type": "string" },
+          "priority": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          }
+        },
+        "required": ["gap_id", "question"]
+      }
+    },
+    "bibliography": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "version_state": {
+      "type": "string",
+      "enum": [
+        "DRAFT", "RESEARCHING", "VERIFIED", "AUDITED", "READY",
+        "CONDITIONAL", "SUPERSEDED", "ARCHIVED"
+      ]
+    },
+    "readiness_summary": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "type": "string",
+          "enum": ["BLOCKED", "CONDITIONAL", "READY", "HIGH_CONFIDENCE_READY"]
+        },
+        "blockers": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["state", "blockers"]
+    }
+  },
+  "required": [
+    "phase",
+    "research_question",
+    "winning_angle",
+    "hook_candidates",
+    "claims",
+    "sources",
+    "contradictions",
+    "unknowns",
+    "bibliography",
+    "readiness_summary"
+  ],
+  "additionalProperties": true,
+  "$defs": {
+    "confidence_level": {
+      "type": "string",
+      "enum": [
+        "ESTABLISHED", "STRONGLY_SUPPORTED", "PROBABLE", "PLAUSIBLE",
+        "CONTESTED", "UNKNOWN", "UNSUPPORTED", "REJECTED"
+      ]
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "pattern": "^C-\\d{4}$"
+        },
+        "text": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["fact", "inference", "interpretation", "speculation"]
+        },
+        "importance": {
+          "type": "string",
+          "enum": ["core", "supporting", "peripheral"]
+        },
+        "supporting_evidence": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^EV-\\d{4}$" }
+        },
+        "counter_evidence": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^EV-\\d{4}$" }
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^SRC-\\d{4}$" }
+        },
+        "independent_sources_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "primary_evidence_used": { "type": "boolean" },
+        "historiographical_status": {
+          "type": "string",
+          "enum": ["consensus", "debate", "minority_view"]
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence_level"
+        },
+        "verification_status": {
+          "type": "string",
+          "enum": ["unverified", "pending", "confirmed", "contested", "rejected"]
+        },
+        "confidence_history": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "phase": {
+                "type": "string",
+                "enum": ["B", "C", "D"]
+              },
+              "value": {
+                "$ref": "#/$defs/confidence_level"
+              },
+              "reason": { "type": "string" }
+            },
+            "required": ["phase", "value", "reason"]
+          }
+        },
+        "notes": { "type": "string" }
+      },
+      "required": ["claim_id", "text", "type", "importance", "confidence", "confidence_history", "sources"]
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "pattern": "^EV-\\d{4}$"
+        },
+        "claim_id": {
+          "type": "string",
+          "pattern": "^C-\\d{4}$"
+        },
+        "description": { "type": "string" },
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-\\d{4}$"
+        },
+        "evidence_type": {
+          "type": "string",
+          "enum": [
+            "primary", "near-contemporary", "secondary", "tertiary", "derivative",
+            "oral_tradition", "archaeological", "material", "epigraphic",
+            "numismatic", "administrative"
+          ]
+        },
+        "supports_or_contradicts": {
+          "type": "string",
+          "enum": ["supports", "contradicts", "qualifies"]
+        },
+        "strength": {
+          "type": "string",
+          "enum": ["strong", "moderate", "weak"]
+        },
+        "notes": { "type": "string" }
+      },
+      "required": ["evidence_id", "claim_id", "description", "source_id", "evidence_type", "supports_or_contradicts"]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-\\d{4}$"
+        },
+        "title": { "type": "string" },
+        "author_or_creator": { "type": "string" },
+        "date": { "type": "string" },
+        "language": { "type": "string" },
+        "url_or_locator": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["primary", "secondary", "tertiary", "archival", "academic", "web", "material"]
+        },
+        "temporal_proximity": {
+          "type": "string",
+          "enum": ["contemporary", "near-contemporary", "later", "modern"]
+        },
+        "independence_group": { "type": "string" },
+        "bias_indicators": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "translation_risk": {
+          "type": "string",
+          "enum": ["none", "low", "medium", "high"]
+        },
+        "authenticity_risk": {
+          "type": "string",
+          "enum": ["none", "low", "medium", "high"]
+        },
+        "reliability": {
+          "type": "string",
+          "enum": ["high", "medium", "low", "unverified"]
+        },
+        "linked_claims": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^C-\\d{4}$" }
+        },
+        "attempted_access_methods": {
+          "type": "array",
+          "description": "Set when this source was a SOURCE_GAP - which of B3b's fallback steps (Wayback/Google Books/citing-source/catalog-DOI) were tried, so a later session doesn't retry the same dead ends from scratch.",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["source_id", "title", "type", "reliability"]
+    },
+    "unknown": {
+      "type": "object",
+      "properties": {
+        "unknown_id": {
+          "type": "string",
+          "pattern": "^U-\\d{4}$"
+        },
+        "question": { "type": "string" },
+        "known": { "type": "string" },
+        "unknown": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "KNOWN", "SUPPORTED_INFERENCE", "OPEN_QUESTION", "GENUINE_MYSTERY",
+            "SOURCE_GAP", "CONTROVERSY", "HYPOTHESIS", "SPECULATION", "MYTH",
+            "FALSE_MYSTERY"
+          ]
+        },
+        "competing_explanations": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "researchability": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        }
+      },
+      "required": ["unknown_id", "question", "category"]
+    }
+  }
+}

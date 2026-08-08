@@ -41,7 +41,7 @@ def main():
     mods = sorted(glob.glob(f"{ROOT}/bible/Module_*.md"))
     print(f"bible modules: {len(mods)}")
     nums = {int(os.path.basename(m).split("_")[1]) for m in mods}
-    for n in range(1, 23):
+    for n in range(1, 24):
         if n not in nums:
             errors.append(f"missing bible module {n:02d}")
 

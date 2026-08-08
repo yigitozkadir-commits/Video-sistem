@@ -9,7 +9,8 @@ Loading the whole bible causes instruction drift and is a defect. For any task l
 
 1. `bible/Module_13_AI_Production_Operating_System.md` — the kernel (always)
 2. `bible/Module_12_AI_Quality_Assurance_Bible.md` — what "good" means (always)
-3. **Your role module only**: M14 (technical) · M15 (visual) · M16 (audio) · M17 (director)
+3. **Your role module only**: M14 (technical) · M15 (visual) · M16 (audio) · M17 (director) ·
+   M23 (research, pre-production only — invoked as the `historical-research-pipeline` skill)
 4. The task spec + the referenced `prompts/PV-*.json`
 5. At most the last 3 QA findings on the same target
 

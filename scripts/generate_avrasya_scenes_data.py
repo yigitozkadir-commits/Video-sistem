@@ -19,26 +19,16 @@ Usage:
     python3 scripts/generate_avrasya_scenes_data.py
 """
 import json
-import subprocess
+import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from lib.checklist_common import probe_duration  # noqa: E402
+
 PROJECT_DIR = REPO_ROOT / "projects" / "PRJ-avrasya-bozkir-kusagi"
 REMOTION_DIR = REPO_ROOT / "remotion_avrasya"
 FPS = 30
-
-
-def probe_duration(path: Path) -> float:
-    out = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-show_entries", "format=duration",
-            "-of", "default=noprint_wrappers=1:nokey=1",
-            str(path),
-        ],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    return float(out)
 
 
 def visuals_for(scene: dict, public_dir: Path) -> list[dict]:

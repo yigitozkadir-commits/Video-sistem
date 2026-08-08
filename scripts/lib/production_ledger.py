@@ -25,10 +25,14 @@ from __future__ import annotations
 import hashlib
 import json
 import shutil
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from lib.id_counter import next_id  # noqa: E402
 
 
 def _run_id() -> str:
@@ -37,11 +41,7 @@ def _run_id() -> str:
 
 def _task_id(project_state_dir: Path) -> str:
     """Monotonic per-project task counter, formatted TSK-NNNNNN."""
-    counter_file = project_state_dir / ".task_counter"
-    n = 1
-    if counter_file.exists():
-        n = int(counter_file.read_text().strip()) + 1
-    counter_file.write_text(str(n))
+    n = next_id(project_state_dir / ".task_counter")
     return f"TSK-{n:06d}"
 
 

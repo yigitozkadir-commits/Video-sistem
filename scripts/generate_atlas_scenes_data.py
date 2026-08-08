@@ -9,8 +9,11 @@ Usage: generate_atlas_scenes_data.py <video_number>
 Edit VIDEOS below to add/adjust a video's figure list, display names, and subtitle.
 """
 import json
-import subprocess
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.checklist_common import probe_duration  # noqa: E402
 
 FPS = 30
 REPO_ROOT = "/home/user/Sesli-kitap-st-dyosu"
@@ -104,15 +107,6 @@ VIDEOS = {
         ],
     },
 }
-
-
-def probe_duration(path: str) -> float:
-    out = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "default=noprint_wrappers=1:nokey=1", path],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    return float(out)
 
 
 def main():

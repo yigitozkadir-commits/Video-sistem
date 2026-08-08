@@ -14,17 +14,17 @@ re-reading logs.
 from __future__ import annotations
 
 import json
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from lib.id_counter import next_id  # noqa: E402
+
 
 def _error_id(state_dir: Path) -> str:
-    counter_file = state_dir / ".error_counter"
-    n = 1
-    if counter_file.exists():
-        n = int(counter_file.read_text().strip()) + 1
-    counter_file.write_text(str(n))
+    n = next_id(state_dir / ".error_counter")
     return f"ERR-{n:05d}"
 
 

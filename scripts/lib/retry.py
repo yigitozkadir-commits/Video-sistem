@@ -89,7 +89,11 @@ def with_retry(
 
 
 def _log_final_error(error_context: dict, exc: Exception, attempt: int, retryable: bool, code: str) -> None:
-    from errors import log_error  # local import: avoids a hard dependency for callers that never pass error_context
+    # local import: avoids a hard dependency for callers that never pass
+    # error_context. Uses the lib.<module> convention (scripts/ on
+    # sys.path) - relies on whatever imported lib.retry having already
+    # added scripts/ to sys.path, same as every other lib.* import here.
+    from lib.errors import log_error
 
     log_error(
         project_state_dir=error_context["project_state_dir"],

@@ -18,11 +18,14 @@ Re-run whenever assets/audio/NAR-SC-*.wav or the scene visual assignment
 changes.
 """
 import json
-import subprocess
+import sys
 from pathlib import Path
 
-FPS = 30
 REPO_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from lib.checklist_common import probe_duration  # noqa: E402
+
+FPS = 30
 PROJECT_DIR = REPO_ROOT / "projects" / "PRJ-baskurtlar-arastirma"
 OUT_PATH = REPO_ROOT / "remotion_baskurtlar" / "src" / "scenesData.ts"
 
@@ -30,19 +33,6 @@ OUT_PATH = REPO_ROOT / "remotion_baskurtlar" / "src" / "scenesData.ts"
 # than a still. All four also have a still (dual-prompt rule, CLAUDE.md
 # §5b) which is what gets used if another scene reuses them.
 VIDEO_SCENE_IDS = {"SC-001", "SC-005", "SC-007", "SC-011"}
-
-
-def probe_duration(path: Path) -> float:
-    out = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-show_entries", "format=duration",
-            "-of", "default=noprint_wrappers=1:nokey=1",
-            str(path),
-        ],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    return float(out)
 
 
 def insert_shots(sid: str) -> list[str]:

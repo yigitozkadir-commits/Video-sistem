@@ -9,24 +9,15 @@ assumed. Seconds are converted to frames once, at this timeline boundary
 
 Re-run this whenever assets/audio/NAR-SC-*.wav changes.
 """
-import subprocess
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.checklist_common import probe_duration  # noqa: E402
 
 FPS = 30
 VIDEO_SCENES = {1, 8, 15, 25, 35, 45}
 REPO_ROOT = "/home/user/Sesli-kitap-st-dyosu"
-
-
-def probe_duration(path: str) -> float:
-    out = subprocess.run(
-        [
-            "ffprobe", "-v", "error",
-            "-show_entries", "format=duration",
-            "-of", "default=noprint_wrappers=1:nokey=1",
-            path,
-        ],
-        capture_output=True, text=True, check=True,
-    ).stdout.strip()
-    return float(out)
 
 
 def main():

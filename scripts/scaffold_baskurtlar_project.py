@@ -35,8 +35,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
-from production_ledger import _task_id  # noqa: E402
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from lib.production_ledger import _task_id  # noqa: E402
 
 PROJECT_ID = "PRJ-baskurtlar-arastirma"
 PROJECT_DIR = REPO_ROOT / "projects" / PROJECT_ID

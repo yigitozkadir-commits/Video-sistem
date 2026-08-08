@@ -26,8 +26,8 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(REPO_ROOT / "scripts" / "lib"))
-from production_ledger import ArtifactCache  # noqa: E402
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from lib.production_ledger import ArtifactCache  # noqa: E402
 
 
 def sha256_file(path: Path) -> str:

@@ -74,6 +74,42 @@ allowed — deviating *without noticing* is not.
 
 ---
 
+## 3b. MULTI-AXIS SCORING (when the alternatives are implementations, not readings)
+
+`decision.schema.json`'s optional `scoring.axes` object (OpenMontage-inspired,
+see HANDOFF_OPENMONTAGE_PROPOSAL.md item 1.5) formalizes `alternatives_rejected`'s
+reasoning for the specific case where the choice is among genuine
+**implementation** alternatives — which provider, which sourcing path — not
+a creative reading of a beat. Six axes, each **0-1 where 1.0 is always the
+more favorable end** (a `cost` score of 1.0 means cheapest, not "high cost" —
+direction is fixed so scores can be compared/summed without per-axis sign
+confusion):
+
+| Axis | 1.0 means | 0.0 means |
+|------|-----------|-----------|
+| `cost` | cheapest option | most expensive |
+| `quota_risk` | lowest exhaustion risk | highest risk of hitting a wall |
+| `quality_for_style_profile` | best match to this project's style profile | worst match |
+| `rights_basis_strength` | strongest, most defensible basis (verified PD/CC0) | weakest (unknown/inferred) |
+| `determinism_replay_cost` | cheapest/easiest to reproduce exactly (M13 §22) | hardest to replay |
+| `latency` | fastest | slowest |
+
+Not every axis applies to every comparison — set only the ones that mattered,
+via `additionalProperties: true`. `axes_source` says whether scores are
+`"measured"` (real metered numbers) or `"estimated"` (a planning guess —
+must say so explicitly, law #4 forbids a guess dressed as a measurement).
+
+This is additive, not a new gate: most decisions never set `scoring` at
+all, and `question`'s fixed enum still has no "provider_choice" value — a
+provider comparison whose reasoning doesn't fit an existing `question`
+still uses the `decisions/*.md` free-form note escape hatch (same pattern
+as `decisions/0001_rights_basis.md`/`0002_remaining12_image_reuse.md`);
+`scoring` is the shape to reach for once that comparison is attached to
+an actual `decision.schema.json` instance, or once a future `question`
+value exists for it.
+
+---
+
 ## 4. STORY → BEAT MODEL
 
 The Director works on beats, not paragraphs.

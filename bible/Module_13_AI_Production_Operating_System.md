@@ -337,6 +337,26 @@ compliance errors 0. Exhaustion → `FAILED` → M12 §10 escalation.
 (c) budget headroom ≥ 3× the current task's estimate.
 Record the escalation in `retry_strategy_log`; never escalate silently.
 
+**Wall-clock ceiling (distinct from the attempt-count budget above).**
+Attempt-count and dollar budget (§21) bound *how many times* and *how much*,
+but neither bounds *how long* a retry loop is allowed to keep sleeping and
+retrying. `studio.config.json`'s `timeouts` block (same `q.*` keys as
+`concurrency`) gives each queue a wall-clock ceiling in minutes;
+`scripts/lib/retry.py`'s `with_retry(..., queue="q.visual")` checks
+cumulative loop time (attempts + backoff, not a single call's duration)
+against it on every iteration and raises `WallClockExceeded` — logged as
+`E-SYS-221` — before attempts would otherwise exhaust naturally. This does
+**not** interrupt a single hung call mid-flight (e.g. a subprocess with no
+timeout of its own); that needs its own timeout at the call site. `queue`
+is optional — omitting it keeps the old attempt-count-only behavior.
+
+**D3's approval wait is a different clock** — not a retry loop, a human
+waiting. `scripts/check_stale_human_gates.py` scans every project's
+`state/approvals.jsonl` for `decision: "pending"` records older than
+`human.approval_sla_hours` and reports which ones need the `on_timeout`
+policy applied (advisory only — it does not itself hold/abort a project,
+per §3's "you may never decide gate verdicts").
+
 ---
 
 ## 11. IDENTIFIER REGISTRY
@@ -566,8 +586,16 @@ point, and the exact human decision required. Only a human approval object can
 clear a HALT.
 
 **Degrade instead of halt** when: quota exhausted on one provider (switch or
-queue), one shot fails permanently (fallback to still + Ken Burns, log finding),
+queue — e.g. ElevenLabs quota exhaustion falling back to Piper per M16 §1b,
+`quality_gate: "draft_only"` attached, never silently promoted to master),
+one shot fails permanently (fallback to still + Ken Burns, log finding),
 music generation fails (proceed with ambience only, flag in report).
+
+A stale D3 approval wait (§9/§10) is deliberately **not** in the HALT list
+above — `scripts/check_stale_human_gates.py` reports it as a finding to
+review, it does not autonomously HALT a project. Escalating a stale-gate
+finding to an actual HALT (e.g. under `on_timeout: "abort"`) is a human or
+orchestrator decision, not this detector's.
 
 ---
 

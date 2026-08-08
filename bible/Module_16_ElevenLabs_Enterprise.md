@@ -16,6 +16,30 @@ speaks, voice identity assignment, emotional intent of a beat.
 
 ---
 
+## 1b. LOCAL FALLBACK (Piper, draft-only)
+
+ElevenLabs quota exhaustion mid-batch is a confirmed real failure mode for
+this studio (three separate occurrences — `scripts/lib/production_ledger.py`'s
+own docstring), and this studio has run with zero API keys configured before.
+`scripts/piper_client.py` (local, free, no network) is the fallback,
+selected via `scripts/lib/tts_providers.py`'s `select_tts_provider()` only
+when `studio.config.json`'s `narration.fallback.enabled` is true AND
+ElevenLabs itself failed to initialize — never a silent, unconditional
+substitution.
+
+Every Piper-produced take carries `quality_gate: "draft_only"` in its
+metadata. This is not advisory text — nothing in this module may accept a
+`draft_only` take as a scene's final narration; it exists to keep pacing/
+timing iteration moving while a key is swapped in, never to ship. Voice
+identity discipline (§1's "may not decide") still applies: Piper is a
+different technical path to the SAME assigned voice slot, not a license to
+improvise a new one. `voice_request.schema.json`'s free-text `model` field
+carries `"piper:<model-stem>"` without any schema change, so deterministic
+replay (LAW-5) is preserved across whichever provider actually produced a
+given take.
+
+---
+
 ## 2. AUDIO HIERARCHY
 
 ```

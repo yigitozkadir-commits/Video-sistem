@@ -98,6 +98,17 @@ floor (40), the gate fails regardless of the weighted total. `LEG` fails at
 Any T1 failure = `E-TEC-*` error, retry allowed, never human-escalated on first
 occurrence.
 
+**Slideshow risk (advisory, style-relative — not a T1 gate).**
+`scripts/lib/slideshow_risk.py` scores visual-slot pacing, back-to-back
+same-asset repetition, and a style's `motion_ceiling` against what the
+render actually delivers — all measured relative to the project's OWN
+`templates/*.json` pace/`style/*.json` motion_ceiling, never an absolute
+"this looks static" threshold, since several templates (e.g.
+TPL-childrens-book) are intentional slideshows by design. Wired into each
+project's `pre_render_checklist_*.py` the same way as the other checks in
+this section; findings are reviewed and consciously handled, never a T1
+block (law #4).
+
 ## 7. MODEL REVIEW (T2) — how the reviewer must behave
 
 The reviewer agent receives: the artifact, the **intent** (shot spec + story

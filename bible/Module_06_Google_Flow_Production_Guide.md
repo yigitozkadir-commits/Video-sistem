@@ -6,6 +6,13 @@
 Practical operation of Flow. The DSL, consistency system and retry ladder live in
 M15; this module is the operator's baseline.
 
+Flow is not the only visual-sourcing path: for documentary/historical content,
+try `scripts/find_reference_images.py` (real archival footage from Wikimedia
+Commons / NASA Images / Archive.org, license-gated) before generating a Flow
+prompt for a scene — see M09 §8b. Flow remains the right (often only) choice
+for anything requiring a specific character/mythological figure or a locked
+visual continuity a photograph can't provide.
+
 ## 2. WHAT FLOW IS GOOD AT / BAD AT
 
 | Reliable | Unreliable |

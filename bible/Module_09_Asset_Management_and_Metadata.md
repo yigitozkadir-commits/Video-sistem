@@ -48,6 +48,38 @@ Immutable. Used for character, environment, object and palette consistency.
 Regeneration produces a new `REF-` id; existing shots keep the old one, so
 history stays reproducible.
 
+## 8b. SOURCED ARCHIVAL ASSETS (distinct from §8's generation references)
+
+§8's `REF-` reference assets are **generated** (Flow output, locked for
+character/environment/palette consistency). A second, separate asset class
+exists: **sourced** archival material pulled from real-world public/open
+archives (Wikimedia Commons, NASA Images, Archive.org) instead of AI
+generation. `scripts/find_reference_images.py` implements this today
+(originally Wikimedia-only; extended to also query NASA Images and
+Archive.org — see the script's own docstring for the per-provider license
+rules). Do not conflate the two classes: a sourced archival asset is never
+`immutable: true` the way a `REF-` asset is (there is no "regeneration" of a
+photograph), and it carries a `license` + `source_url` a `REF-` asset never
+has.
+
+Record shape: `schemas/archival_asset.schema.json`. Only
+Public-Domain/CC0/CC-BY/CC-BY-SA results are ever downloaded — anything
+non-commercial, no-derivatives, or with an unclear/missing license is
+rejected outright (never "probably fine," per law #4 of CLAUDE.md — an
+unclear license is treated as a hard no, not a judgment call). When a scene
+ends up using a sourced archival asset, that asset's `source_url` is the
+right citation for `project.json`'s `rights.evidence_ref` — this is the one
+asset-sourcing path in the whole studio that can make
+`rights.source_basis: "public_domain"` a real, evidenced claim instead of an
+inference (compare to Flow-generated stills, whose rights basis is always
+`licensed`/`owned`, never `public_domain`, by construction).
+
+Value concentration: the documentary/historical project line (real
+archival photographs of a real historical subject are often *better*
+than an AI illustration of one, not just cheaper) — not the
+illustrated/fairytale/lullaby project line, whose whole visual identity
+is the AI-illustration style itself.
+
 ## 9. DEPENDENCY TRACING
 
 Every asset records its inputs. `studio why <asset>` walks: asset → task →

@@ -37,6 +37,19 @@
     "block_on_legal_findings": true,
     "children_mode_auto": true
   },
+  "timeouts": {
+    "_comment": "Wall-clock ceiling in minutes, per queue (same q.* keys as concurrency, a confirmed gap this repo had: only retry-attempt-count (retry block below) and dollar-budget (project.json budget.hard_stop_at) limits existed before this. Bounds CUMULATIVE with_retry() loop time across attempts+backoff for operations passed a queue= argument - it does NOT interrupt a single hung call mid-flight (e.g. a subprocess with no timeout of its own); that needs its own timeout at the call site. q.render's 90min sits comfortably above CLAUDE.md section 10's documented legitimate 45-60min range so it catches genuine runaways, not normal-but-slow renders.",
+    "q.ingest": 10,
+    "q.ocr": 15,
+    "q.analysis": 10,
+    "q.prompt": 5,
+    "q.visual": 20,
+    "q.voice": 15,
+    "q.music": 15,
+    "q.assemble": 10,
+    "q.render": 90,
+    "q.qa": 10
+  },
   "retry": {
     "transient_max": 3,
     "generation_max": 5,
@@ -45,6 +58,14 @@
     "backoff_base_s": 5,
     "backoff_cap_s": 600,
     "jitter": 0.2
+  },
+  "narration": {
+    "fallback": {
+      "enabled": true,
+      "local_tts_quality_gate": "draft_only",
+      "_comment": "Piper (scripts/piper_client.py) as a local, free, no-network TTS path when ElevenLabs (scripts/elevenlabs_client.py) can't initialize (missing ELEVENLABS_API_KEY) or exhausts quota mid-batch (a confirmed real occurrence three times per production_ledger.py's own docstring). scripts/lib/tts_providers.py's select_tts_provider() only falls back when this is true, and only ever returns Piper with quality_gate='draft_only' attached to every result it produces - law #4 (no silent degradation): a robotic local voice must never quietly become the delivered master. Same fallback_to_still shape as flow_account_pool below, mirrored for the audio provider.",
+      "same_pattern_as": "flow_account_pool.fallback_to_still"
+    }
   },
   "flow_account_pool": {
     "total_accounts": 10,

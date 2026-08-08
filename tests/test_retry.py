@@ -11,7 +11,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
-from lib.retry import NonRetryable, with_retry
+from lib.retry import NonRetryable, WallClockExceeded, with_retry
 
 
 class TestWithRetry(unittest.TestCase):
@@ -129,6 +129,122 @@ class TestWithRetry(unittest.TestCase):
                 with_retry(flaky, category="transient", on_retry=on_retry)
 
         self.assertEqual(seen, [(1, "fail-0"), (2, "fail-1")])
+
+    def test_no_queue_means_no_wall_clock_check(self):
+        # queue=None (the default) must preserve the old attempts-only
+        # behavior exactly - no _timeout_config lookup, no WallClockExceeded.
+        def always_fails():
+            raise ConnectionError("down")
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 2, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config") as mock_timeout_cfg:
+                with patch("lib.retry.time.sleep"):
+                    with self.assertRaises(ConnectionError):
+                        with_retry(always_fails, category="transient")
+        mock_timeout_cfg.assert_not_called()
+
+    def test_unknown_queue_means_no_wall_clock_check(self):
+        # queue given but absent from the timeouts config -> no ceiling applied.
+        def always_fails():
+            raise ConnectionError("down")
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 2, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config", return_value={}):
+                with patch("lib.retry.time.sleep"):
+                    with self.assertRaises(ConnectionError):
+                        with_retry(always_fails, category="transient", queue="q.unknown")
+
+    def test_wall_clock_exceeded_raises_before_max_attempts(self):
+        # A generous attempts budget (transient_max=100) but a tiny
+        # wall-clock ceiling: time.monotonic() is mocked to jump far past
+        # the ceiling on the second read, so the loop must stop on
+        # WallClockExceeded long before attempts are exhausted.
+        def always_fails():
+            raise ConnectionError("down")
+
+        monotonic_values = iter([0.0, 1000.0, 1000.0, 1000.0, 1000.0])
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 100, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config", return_value={"q.prompt": 5}):  # 5 min = 300s
+                with patch("lib.retry.time.monotonic", side_effect=lambda: next(monotonic_values)):
+                    with patch("lib.retry.time.sleep"):
+                        with self.assertRaises(WallClockExceeded):
+                            with_retry(always_fails, category="transient", queue="q.prompt")
+
+    def test_wall_clock_not_exceeded_within_ceiling(self):
+        # Elapsed time stays under the ceiling for every check - behaves
+        # exactly like the no-queue case (raises the underlying exception
+        # once attempts are exhausted, not WallClockExceeded).
+        def always_fails():
+            raise ConnectionError("down")
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 3, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config", return_value={"q.prompt": 5}):
+                with patch("lib.retry.time.monotonic", return_value=0.0):
+                    with patch("lib.retry.time.sleep"):
+                        with self.assertRaises(ConnectionError):
+                            with_retry(always_fails, category="transient", queue="q.prompt")
+
+    def test_wall_clock_exceeded_logs_with_timeout_code(self):
+        logged = {}
+
+        def fake_log_error(**kwargs):
+            logged.update(kwargs)
+
+        def always_fails():
+            raise ConnectionError("down")
+
+        monotonic_values = iter([0.0, 1000.0, 1000.0, 1000.0])
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 100, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config", return_value={"q.prompt": 5}):
+                with patch("lib.retry.time.monotonic", side_effect=lambda: next(monotonic_values)):
+                    with patch("lib.retry.time.sleep"):
+                        with patch("lib.errors.log_error", side_effect=fake_log_error):
+                            with self.assertRaises(WallClockExceeded):
+                                with_retry(
+                                    always_fails, category="transient", queue="q.prompt",
+                                    error_context={"project_state_dir": "/tmp/x", "code": "E-GEN-001"},
+                                )
+
+        self.assertEqual(logged["code"], "E-SYS-221")
+        self.assertFalse(logged["retryable"])
+
+    def test_wall_clock_exceeded_honors_custom_timeout_code(self):
+        logged = {}
+
+        def fake_log_error(**kwargs):
+            logged.update(kwargs)
+
+        def always_fails():
+            raise ConnectionError("down")
+
+        monotonic_values = iter([0.0, 1000.0, 1000.0, 1000.0])
+
+        with patch("lib.retry._retry_config", return_value={"transient_max": 100, "backoff_base_s": 0.01}):
+            with patch("lib.retry._timeout_config", return_value={"q.prompt": 5}):
+                with patch("lib.retry.time.monotonic", side_effect=lambda: next(monotonic_values)):
+                    with patch("lib.retry.time.sleep"):
+                        with patch("lib.errors.log_error", side_effect=fake_log_error):
+                            with self.assertRaises(WallClockExceeded):
+                                with_retry(
+                                    always_fails, category="transient", queue="q.prompt",
+                                    error_context={"project_state_dir": "/tmp/x", "timeout_code": "E-SYS-299"},
+                                )
+
+        self.assertEqual(logged["code"], "E-SYS-299")
+
+
+class TestTimeoutConfig(unittest.TestCase):
+    def test_strips_comment_key(self):
+        from lib.retry import _timeout_config
+        fake_json = '{"timeouts": {"_comment": "explanatory text", "q.render": 90}}'
+        with patch("lib.retry._CONFIG_PATH") as mock_path:
+            mock_path.exists.return_value = True
+            mock_path.read_text.return_value = fake_json
+            cfg = _timeout_config()
+        self.assertNotIn("_comment", cfg)
+        self.assertEqual(cfg["q.render"], 90)
 
 
 if __name__ == "__main__":

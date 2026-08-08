@@ -31,6 +31,24 @@ Ken Burns, push, pull, pan, tilt, parallax, fade, cross dissolve. These apply to
 **stills**; video shots arrive with their motion baked in from M15. Movement must
 support the narration and obey the shot's `decision_ref`.
 
+## 5b. SCENE-TYPE VOCABULARY (scope, not oversight)
+
+`StudioComposition.tsx`'s scene vocabulary is deliberately still/video
+crossfade + Ken-Burns + title card + captions (M16). Data-visualization
+scene types (bar/line/pie charts, KPI grids) and UI-simulation scene types
+(terminal/screenshot recreations) — real categories in comparable
+frameworks like OpenMontage's `remotion-composer/SCENE_TYPES.md`, see
+HANDOFF_OPENMONTAGE_PROPOSAL.md item 1.6 — are **not implemented here**.
+This is a scoping decision, not a gap found late: no current or planned
+project in this studio is an explainer/data-driven video (the pipeline
+produces narrated documentary/historical/lullaby content, not dashboards
+or product-UI walkthroughs). Building a `SceneVisual` variant plus the
+underlying chart/UI-recreation React work for zero consumers would be
+speculative engineering (this repo's own standing rule against building
+for hypothetical requirements). Revisit if a project actually needs one —
+until then, this is the deliberately deferred extension point, not an
+overlooked one.
+
 ## 6. CAPTIONS
 
 Generated from the word-level timing map, never re-typed. Limits: ≤ 42 chars per

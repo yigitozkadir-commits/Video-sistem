@@ -42,10 +42,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from lib.checklist_common import probe_duration, NUMBER_WORDS, LONG_NUMBER_WORD_THRESHOLD  # noqa: E402
+from lib.slideshow_risk import slideshow_risk_findings  # noqa: E402
 
 PROJECT_DIR = REPO_ROOT / "projects" / "PRJ-baskurtlar-arastirma"
 REMOTION_DIR = REPO_ROOT / "remotion_baskurtlar"
 SCENES_DATA = REMOTION_DIR / "src" / "scenesData.ts"
+PROJECT_JSON = PROJECT_DIR / "project.json"
+COMPOSITION_TSX = REMOTION_DIR / "src" / "compositions" / "StudioComposition.tsx"
 
 LOOP_RATIO_THRESHOLD = 3.0
 # check_long_compound_numbers() below stays project-local (file-based scene
@@ -131,6 +134,10 @@ def main():
     else:
         print(f"WARN: {SCENES_DATA} not found, skipping loop-ratio check", file=sys.stderr)
     all_findings += check_long_compound_numbers()
+    if SCENES_DATA.exists() and PROJECT_JSON.exists():
+        all_findings += slideshow_risk_findings(PROJECT_JSON, SCENES_DATA, COMPOSITION_TSX)
+    else:
+        print(f"WARN: {SCENES_DATA} or {PROJECT_JSON} not found, skipping slideshow-risk check", file=sys.stderr)
 
     if not all_findings:
         print("Pre-render checklist: clean. 0 findings.")

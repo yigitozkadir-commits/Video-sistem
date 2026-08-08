@@ -34,6 +34,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from lib.checklist_common import probe_duration, long_compound_number_findings  # noqa: E402
+from lib.slideshow_risk import slideshow_risk_findings  # noqa: E402
 
 PROJECT_DIR = REPO_ROOT / "projects" / "PRJ-ryskulov-mektubu"
 REMOTION_DIR = REPO_ROOT / "remotion_ryskulov"
@@ -42,6 +43,8 @@ ASSETS_STILL = PROJECT_DIR / "assets" / "still"
 PROMPTS_DIR = PROJECT_DIR / "prompts_used"
 STYLE_PATH = REPO_ROOT / "style" / "archival_restrained_documentary.json"
 NUMERIC_FIDELITY_PATH = PROJECT_DIR / "state" / "numeric_fidelity_check.json"
+PROJECT_JSON = PROJECT_DIR / "project.json"
+COMPOSITION_TSX = REMOTION_DIR / "src" / "compositions" / "StudioComposition.tsx"
 
 LOOP_RATIO_THRESHOLD = 3.0
 
@@ -181,6 +184,10 @@ def main():
     all_findings += long_compound_number_findings(scenes)
     all_findings += check_forbidden_content_negatives()
     all_findings += check_numeric_fidelity()
+    if SCENES_DATA.exists() and PROJECT_JSON.exists():
+        all_findings += slideshow_risk_findings(PROJECT_JSON, SCENES_DATA, COMPOSITION_TSX)
+    else:
+        all_findings.append(f"NOTE: {SCENES_DATA} or {PROJECT_JSON} not found, skipping slideshow-risk check")
 
     real_findings = [f for f in all_findings if not f.startswith("NOTE:")]
     notes = [f for f in all_findings if f.startswith("NOTE:")]

@@ -1,0 +1,65 @@
+{
+  "template_id": "TPL-archival-documentary",
+  "extends": "TPL-documentary",
+  "director": {
+    "pace": {
+      "avg_shot_s": 6.0,
+      "range": [5, 8]
+    },
+    "still_video_ratio": 0.65,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/documentary_neutral.json",
+    "palette": {
+      "dominant": ["neutral", "desaturated"],
+      "forbidden": ["stylised grade"]
+    },
+    "lens_set": ["wide", "normal", "portrait"],
+    "lighting": ["overcast_soft", "practical_only", "studio_neutral"],
+    "forbidden": ["dramatic colour grade", "fantasy elements"]
+  },
+  "asset_sourcing": {
+    "priority": ["archival", "flow"],
+    "note": "Try scripts/find_reference_images.py (Wikimedia Commons / NASA Images / Archive.org, PD/CC0/CC-BY/CC-BY-SA only - M09 §8b) BEFORE generating a Flow prompt for a scene. A real archival photograph/footage clip of the actual historical subject is not just cheaper than an AI illustration of it, it's a stronger claim for rights.source_basis: \"public_domain\" - an evidenced fact from source_url, not an inference. Flow generation remains the fallback for any scene find_reference_images.py can't resolve (no reusably-licensed candidate found), same fallback_to_still pattern already used for flow_account_pool exhaustion. This field has no dedicated schema slot in template.schema.json - additionalProperties: true carries it; promote to a real schema field if a second template needs the same shape.",
+    "min_width_px": 1000,
+    "allowed_licenses": ["public_domain", "cc0", "cc_by", "cc_by_sa"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.65,
+      "style": 0.1,
+      "speed": 1.0,
+      "wpm": 145
+    },
+    "music": {
+      "density": "sparse",
+      "instruments": "muted piano, low strings",
+      "loudness_under_speech_db": -22
+    },
+    "ambience": "location-accurate",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "weights": {
+      "NAR": 0.3,
+      "EMO": 0.03
+    }
+  },
+  "budget_profile": {
+    "credits_per_minute": 90
+  },
+  "source_note": "Identical director/visual/audio to TPL-documentary (its parent) - the only real difference this template encodes is asset_sourcing.priority putting archival footage before Flow generation. budget_profile.credits_per_minute is roughly halved (180 -> 90) versus TPL-documentary as a planning estimate, not a measured constant (unlike TPL-archaeological-documentary's wpm=115, which IS a measured value from a delivered project) - a scene resolved via find_reference_images.py costs a curl download, not a Flow generation credit, so a project leaning heavily on archival sourcing should spend markedly less per minute than one that doesn't; recalibrate this number once a real project using this template has delivered footage to measure against, same discipline TPL-archaeological-documentary's own source_note follows."
+}

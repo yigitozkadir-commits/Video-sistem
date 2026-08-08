@@ -94,6 +94,56 @@
     "created_at": {
       "type": "string",
       "format": "date-time"
+    },
+    "scoring": {
+      "type": "object",
+      "description": "Optional multi-axis rubric backing 'choice' when it was picked among genuine implementation alternatives (e.g. which provider/approach to use) rather than a pure creative call. Every axis is 0-1 where 1.0 is always the MORE FAVORABLE end (M17 §3b) - 'cost' scores cost-efficiency (1.0 = cheapest), not raw spend. Most decisions never set this field.",
+      "properties": {
+        "axes": {
+          "type": "object",
+          "properties": {
+            "cost": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "quota_risk": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "quality_for_style_profile": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "rights_basis_strength": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "determinism_replay_cost": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "latency": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "additionalProperties": true
+        },
+        "axes_source": {
+          "type": "string",
+          "description": "How the scores were derived, e.g. 'measured' (real metered data), 'estimated' (planning guess - must say so, law #4), or a decisions/*.md note id this scoring elaborates on."
+        }
+      },
+      "required": [
+        "axes"
+      ],
+      "additionalProperties": true
     }
   },
   "required": [

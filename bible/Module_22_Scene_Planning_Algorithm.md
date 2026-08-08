@@ -1,6 +1,6 @@
 # MODULE 22 — SCENE PLANNING ALGORITHM (SAHNE PLANLAMA ALGORİTMASI)
 
-**Versiyon 0.2 — TASLAK** · **Katman 6 (Intelligence)** · **Rol:** PDF/rapor girdisinden
+**Versiyon 0.3 — TASLAK** · **Katman 6 (Intelligence)** · **Rol:** PDF/rapor girdisinden
 sahne sayısı, süre ve görsel/video karışımını **otonom** olarak belirlemek.
 
 > Kullanıcı talebi (2026-08-07): "sana bir PDF attığımda kaç sahne yapacağını
@@ -210,6 +210,42 @@ idi; yeni hedef ~1.8× daha sık. `image_count_target`, toplam sahne süresine
 comprehension_margin mantığıyla çakışmaz, sadece "kaç tane" sorusuna cevap
 verir, "hangi anda" sorusuna M17 hâlâ kendi karar ağacıyla cevap verir.
 
+## 6c1. TEK GÖRSEL AZAMİ EKRANDA KALMA SÜRESİ — SERT KURAL (v0.3, kullanıcı talebi 2026-08-08)
+
+`image_count_target` (§6c) bir PROJE-GENELİ toplam hedefti — tek başına bir
+sahnenin içinde görselin ne kadar sık değişeceğini garanti etmiyordu. Kullanıcı
+açık bir sert kural istedi: **hiçbir still görsel 12 saniyeden uzun ekranda
+kalamaz.**
+
+```
+MAX_IMAGE_HOLD_S = 12
+
+min_images_per_scene(scene_still_duration_s) = ceil(scene_still_duration_s / MAX_IMAGE_HOLD_S)
+```
+
+`scene_still_duration_s`, sahnenin TOPLAM süresinden o sahnedeki video-tipi
+shot'ların süresini çıkarır (bir video shot kendi süresince zaten hareket
+halindedir, still-tekdüzeliği riski taşımaz — bkz. §6b'nin `ai_video_count_target`'ı,
+video shot'lar ayrı sayılır).
+
+**Bu, §6c'nin `image_count_target`'ının ALT SINIRINI belirler, üst sınırını
+değil** — `image_count_target` bu alt sınırların toplamından DÜŞÜKSE (ör.
+kullanıcı belirli bir sayı istediyse ve bu sayı sahne-bazlı asgari toplamdan
+azsa), `image_count_target` sessizce uygulanmaz — asgari toplam kazanır, ve
+bu fark `reasoning` alanında AÇIKÇA belirtilir (CLAUDE.md law #4 — bir sayı
+diğerini geçersiz kılıyorsa bu gizlenmez). Görsel dağılımı hâlâ **asimetrik**
+olmalı: her sahne yalnızca kendi asgari sayısını değil, sahnenin süresine VE
+`importance` alanına (bkz. `scene.schema.json`) orantılı ekstra görsel de
+alabilir — önemli/uzun sahneler daha sık kesim (görsel başına daha kısa süre),
+geçiş/bağlam sahneleri 12 saniyelik tavana daha yakın durabilir.
+
+**QA karşılığı:** Bu kural `scripts/lib/slideshow_risk.py`'nin
+`slot_duration_findings()` fonksiyonunun kontrol ettiği eşiğin AYNI ailesinden
+ama farklı bir eşik — `slot_duration_findings` template'in `pace.range` üst
+sınırına göre stil-göreceli bir risk skoru üretir (advisory), bu MAX_IMAGE_HOLD_S
+ise mutlak, proje-genelinde geçerli bir SERT üst sınırdır (planlama aşamasında
+uygulanır, render öncesi tekrar kontrol edilir).
+
 ## 6d. PDF-İÇİ-GÖRSEL KAYNAK DALI (v0.2)
 
 Bazı kaynak PDF'ler (kullanıcının verdiği örnek: `PRJ-gok-umay-atlasi`'nin
@@ -377,10 +413,21 @@ bildirilir (CLAUDE.md law #4 "no silent degradation").
 - `ai_video_count_target`/`image_count_target` kullanan her çıktı, bu sayıların
   §7b'de "doğrulanmadı" işaretli kullanıcı-verilen hedeflerden geldiğini
   gizlemez — ilk gerçek render sonrası §7b satırları §7'ye taşınır.
+- Hiçbir sahnenin ortalama görsel-başına-süresi (still portion / o sahnenin
+  görsel sayısı) 12 saniyeyi (MAX_IMAGE_HOLD_S, §6c1) aşmaz; aşıyorsa çıktı bu
+  ihlali `reasoning` içinde açıkça belirtir, `image_count_target`'ı sessizce
+  yok saymaz.
+- Görsel dağılımı asimetriktir — `scene_plan.json`'ın sahne-bazlı dökümü, tüm
+  sahnelere eşit görsel sayısı ATAMAZ; dağılım sahne süresi VE `importance`
+  alanına göre ağırlıklıdır.
 
 **SONRAKİ MODÜL:** yok (bu, en yeni modül)
 
 **CHANGELOG**
+- v0.3 (2026-08-08) — Kullanıcı talebi: §6c1 eklendi - hiçbir still görsel 12
+  saniyeden uzun ekranda kalamaz (MAX_IMAGE_HOLD_S), bu `image_count_target`'ın
+  (§6c) alt sınırını belirler; görsel dağılımı sahne süresi + `importance`
+  alanına göre asimetrik olmalı, tüm sahnelere eşit pay verilmez.
 - v0.2 (2026-08-07) — Kullanıcı somut, süre-bazlı çapa noktaları verdi (60dk→20
   AI-video, 30dk→10-15, 10-15dk→5; 15dk→100 görsel). §6b/§6c eklendi:
   `ai_video_count_target`/`image_count_target` artık sahne-sayısından bağımsız,

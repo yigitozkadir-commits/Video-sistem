@@ -1,0 +1,29 @@
+{
+  "shot_id": "SH-012-03",
+  "scene_id": "SC-012",
+  "variant": "image",
+  "role": "insert",
+  "prompt_ref": "PV-0044",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.wide.establishing",
+  "variables_resolved": {
+    "environment_subject": "A single set of old camel-track impressions in dried earth, slowly being erased by blown dust, implying the passage of centuries",
+    "figure_for_scale": "the tracks themselves provide scale",
+    "air_and_weather": "still, fine dust drifting",
+    "lighting": "golden_hour, low raking light",
+    "camera": "close static, top-down angle",
+    "ambient_element": "fine windblown dust"
+  },
+  "resolved_text": "A single set of old camel-track impressions in dried earth, slowly being erased by blown dust, implying the passage of centuries. the tracks themselves provide scale. still, fine dust drifting. golden_hour, low raking light. close static, top-down angle. 28mm equivalent, deep focus. Motion: environmental only — fine windblown dust. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "reference_set": [],
+  "reference_set_status": "Reference set not yet generated (manual Flow step) except where a real downloaded archival asset is listed - see state/archival_reference_candidates.jsonl.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow (not yet generated)",
+  "seed": null,
+  "status": "not_yet_generated",
+  "created_at": "2026-08-08T23:05:11.325620+00:00"
+}

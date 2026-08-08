@@ -1,0 +1,30 @@
+{
+  "shot_id": "SH-002-04",
+  "scene_id": "SC-002",
+  "variant": "image",
+  "role": "insert",
+  "prompt_ref": "PV-0031",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.closeup.realisation",
+  "variables_resolved": {
+    "identity_tokens": "a Mongol scribe writing a formal letter by hand, focused expression",
+    "wardrobe": "simple dark wool robe, no ornamentation",
+    "micro_action": "sealing a folded letter with wax",
+    "environment": "a sparse felt tent interior, low light",
+    "lighting": "firelight_warm, single source",
+    "ambient_element": "smoke curling from a small brazier"
+  },
+  "resolved_text": "a Mongol scribe writing a formal letter by hand, focused expression, simple dark wool robe, no ornamentation. sealing a folded letter with wax. a sparse felt tent interior, low light. firelight_warm, single source. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: smoke curling from a small brazier only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true
+  },
+  "reference_set": [],
+  "reference_set_status": "Reference set not yet generated (manual Flow step) except where a real downloaded archival asset is listed - see state/archival_reference_candidates.jsonl.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow (not yet generated)",
+  "seed": null,
+  "status": "not_yet_generated",
+  "created_at": "2026-08-08T23:05:11.325620+00:00"
+}

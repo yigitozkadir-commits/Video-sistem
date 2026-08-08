@@ -18,6 +18,8 @@
   "continuity_from": "SC-004",
   "qa_status": "pending",
   "shots": [
-    "SH-005-01"
+    "SH-005-01",
+    "SH-005-02",
+    "SH-005-03"
   ]
 }

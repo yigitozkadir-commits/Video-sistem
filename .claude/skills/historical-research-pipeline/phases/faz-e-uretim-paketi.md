@@ -193,3 +193,24 @@ raporu olarak da üret (bu, kullanıcının doğrudan okuyacağı dosyadır):
    bağla. Bundan sonrası bu stüdyonun normal proje scaffold akışıdır
    (`scripts/scaffold_<proje>_project.py` deseni) — bu skill'in
    kapsamı dışında.
+6. **Arşiv görsel taraması (kullanıcı talebi 2026-08-08).** Köprü
+   uygulanıp sahne planı çıkarıldıktan sonra, konuyla doğrudan ilgili
+   gerçek görseller için `scripts/find_reference_images.py`'nin
+   sağlayıcılarını (Wikimedia Commons/NASA/Archive.org, M09 §8b) tara
+   — paketin `bibliography`/`sources` alanlarındaki özel isimler,
+   coğrafi konumlar ve dönem terimleriyle sorgu üret (ör. konu +
+   "portrait painting", konu + "historical map", olayın geçtiği yer +
+   modern fotoğraf). İki kullanım biçimi var, ikisi de meşru:
+   (a) **doğrudan arşiv still** — bulunan görsel gerçekten konuyu
+   (kişiyi/yeri/dönemi) doğru temsil ediyorsa, `disposition:
+   REFERENCE_ONLY` ile doğrudan bir sahnenin görseli olabilir;
+   (b) **Flow referansı** — görsel konuyla yalnızca DOKU/FORM açısından
+   ilgiliyse (ör. "gerçek develer" ama yanlış coğrafya), doğrudan
+   kullanılmaz, ama ilgili `prompts_used/<shot>/image.json`'ın
+   `reference_set` alanına eklenerek Flow üretimini gerçek görsel
+   verisiyle zeminler — bu iki kullanımı KARIŞTIRMA, hangisi olduğunu
+   her kayıtta açıkça belirt (M09 §8b'nin generated-reference vs.
+   sourced-archival-asset ayrımı burada da geçerli). Bulunamayan
+   sorgular için "bulunamadı" diye dürüstçe işaretle, uydurma - bu
+   arama tamamlayıcıdır, zorunlu değil (birçok 13.yy'a özgü konuda
+   lisanslı görsel bulunamayabilir, bu bir başarısızlık değildir).

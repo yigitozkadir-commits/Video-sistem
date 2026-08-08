@@ -1,5 +1,5 @@
 # MODULE 23 — HISTORICAL RESEARCH PIPELINE
-**Version 1.1 · Layer 0 (Pre-production) · Role: Research Director**
+**Version 1.2 · Layer 0 (Pre-production) · Role: Research Director**
 
 > Every other project so far has started from a `.docx`/`.pdf` the human
 > already researched and handed over. This module is what happens when
@@ -101,6 +101,26 @@ final orchestration note):
    gone through this bridge once, deliberately not built speculatively
    ahead of a real use (same discipline as M11 §5b's documented scope
    decision).
+6. Once a scene plan exists, run an archival-image pass
+   (`.claude/skills/historical-research-pipeline/phases/faz-e-uretim-paketi.md`'s
+   orchestration note point 6): query `scripts/find_reference_images.py`'s
+   providers (Wikimedia Commons/NASA/Archive.org, M09 §8b) using the
+   package's named people/places/period terms. A genuinely on-topic hit
+   becomes a `REFERENCE_ONLY` archival still; an only-loosely-related hit
+   (right texture, wrong geography/period) is never used directly — it's
+   added to that shot's `prompts_used/<shot>/image.json` `reference_set`
+   instead, to ground the Flow generation, and labelled as such so nobody
+   downstream mistakes it for an archival claim about the actual subject.
+
+## 4b. IMAGE PACING (M22 §6c1, user request 2026-08-08)
+
+Once M22's `scripts/plan_scene_count.py` produces `state/scene_plan.json`
+for the bridged project, its hard rule applies here too: no still image
+holds longer than `MAX_IMAGE_HOLD_S` (12s), and per-scene image counts are
+asymmetric — weighted by each scene's duration and `importance`, not
+divided evenly. See M22 §6c1 for the full formula; this module doesn't
+duplicate it, only confirms it is inherited unchanged by any project this
+bridge produces.
 
 ## 5. THE 5 PHASES (summary — full instructions in phase files)
 
@@ -225,6 +245,11 @@ successor, if built, is a scaffold script that consumes
 `faz-e-package.json` structurally (see §4 point 5).
 
 **CHANGELOG**
+- v1.2 — §4 bridge gained an archival-image pass (point 6, reusing
+  `scripts/find_reference_images.py` / M09 §8b) and a new §4b cross-reference
+  to M22 §6c1's 12s-per-image / asymmetric-density rule, both from the same
+  user request that produced the first real PRJ-otrar-faciasi run of this
+  pipeline.
 - v1.1 — Hardened §6b's verification/analysis techniques from the raw,
   unstructured 29-module first draft the condensed v1.0 skill was itself
   distilled from (uploaded separately, after v1.0 already shipped):

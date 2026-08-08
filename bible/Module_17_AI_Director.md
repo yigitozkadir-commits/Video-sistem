@@ -1,5 +1,5 @@
 # MODULE 17 — AI DIRECTOR
-**Version 2.0 · Layer 6 (Intelligence) · Role: Creative Decision Authority**
+**Version 2.1 · Layer 6 (Intelligence) · Role: Creative Decision Authority**
 
 > Every other module executes. This one *decides*, and — more importantly —
 > **records why**. A decision without a recorded reason is not a decision, it is
@@ -211,6 +211,24 @@ Target mix for a healthy episode: **40–60 % stills**. Below 25 % stills, cost 
 failure rate rise without a corresponding rise in QA scores — this ratio is
 tracked in the run report.
 
+### 7b. NO REPEAT DIRECTLY AFTER A VIDEO SHOT (rule, user request 2026-08-08)
+
+When a video-type shot ends, the next visual slot must be a **new** asset —
+never the same still frame the video came from, never an asset already shown
+earlier in the scene. A video shot is the highest-attention moment in a
+sequence; cutting from it back to something the viewer already saw reads as a
+stutter/loop, not a cut. Concretely: the slot immediately following any
+`type: "video"` entry in a scene's visual sequence must not share a sha256
+with any earlier slot in that same scene.
+
+This is not a new mechanism — `scripts/lib/slideshow_risk.py`'s
+`repeated_adjacent_asset_findings()` (M12 §6) already flags any back-to-back
+identical asset generically, video-adjacent or not; this rule just names the
+video-adjacent case explicitly as the one that matters most (a repeat right
+after the scene's most expensive, most attention-grabbing shot is the worst
+place for it) and makes it a hard planning constraint, not only a post-hoc
+advisory finding.
+
 ---
 
 ## 8. QUESTION 4 — WHY DOES MUSIC START HERE?
@@ -390,5 +408,7 @@ plan/silence_plan.json
 **NEXT MODULE:** Module 18 — Production Templates
 
 **CHANGELOG**
+- v2.1 — §3b (multi-axis scoring) and §7b (no repeat directly after a video
+  shot) added, both from concrete user requests during the same session.
 - v2.0 — Module created at OS level: authority ladder, decision objects, the six
   director questions as executable trees, format-aware grammar, self-review loop.

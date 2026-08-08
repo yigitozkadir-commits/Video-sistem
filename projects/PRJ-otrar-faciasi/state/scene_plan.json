@@ -1,0 +1,18 @@
+{
+  "content_type": "narrative_history",
+  "source_word_count": 814,
+  "narration_word_target": 920,
+  "target_duration_s": 480,
+  "avg_scene_length_s": 40,
+  "scene_count": 12,
+  "video_ratio_target": null,
+  "video_scene_target": 3,
+  "still_scene_target": 9,
+  "ai_video_count_target": 3,
+  "image_count_target": 53,
+  "source_has_embedded_images": false,
+  "embedded_image_count": 0,
+  "reasoning": "content_type narrative_history olarak sınıflandırıldı (kronolojik olay anlatımı, gerçek tarihi kişiler, kurgu değil - M22 §2 tanımına birebir uyuyor). target_duration_s KULLANICI TARAFINDAN VERİLDİ (~8 dakika/480s) - normal akışın tersine (M22 genelde kaynak kelime sayısından süreyi türetir), burada süre birincil girdi olduğu için narration_word_target SÜREDEN türetildi: 480s x (DELIVERED_WPM=115/60) ≈ 920 kelime (M22 §4'ün ölçülmüş 114.6-120 wpm aralığından, muhafazakar 115 kullanıldı). avg_scene_length_s narrative_history aralığının (30-45s) ortası olan 40s alındı -> scene_count = round(480/40) = 12. ai_video_count_target M22 §6b'nin ANCHORS enterpolasyonuyla hesaplandı: 8dk < 12.5dk çapa noktası, oran=5/12.5=0.4 video/dk, 8*0.4=3.2 -> 3 (taban 1 üstünde). image_count_target M22 §6c'nin IMAGE_DENSITY=6.667/dk sabitiyle: 8*6.667=53.3 -> 53. video_ratio_target narrative_history için §6b'nin mutlak-hedef modeli tarafından ELE GEÇİRİLDİ (superseded), bu yüzden null - video_scene_target/still_scene_target doğrudan ai_video_count_target'tan (3) türetildi.",
+  "calibration_anchor": "PRJ-baskurtlar-arastirma (DELIVERED_WPM=114.6 -> 115 yuvarlandı), M22 §6b/§6c kullanıcı-verilen hedefler (henüz bu stüdyoda render-doğrulanmamış, §7b)",
+  "duration_derivation_note": "M22'nin standart akışının TERSİ uygulandı: normalde source_words -> narration_word_target -> target_duration_s. Burada kullanıcı target_duration_s'yi (480s, ~8dk) doğrudan verdi, bu yüzden narration_word_target GERİYE DOĞRU türetildi. Bu, M22'nin taslak-statüsü notuyla (kör kural değil, başlangıç noktası) tutarlı - beklenmedik bir yön değişikliği, ama M22 §5'in 8-90s sahne sınırları hâlâ kontrol edildi (40s bu aralıkta, ihlal yok)."
+}

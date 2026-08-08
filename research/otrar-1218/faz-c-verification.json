@@ -1,0 +1,194 @@
+{
+  "phase": "C",
+  "claims_verified": [
+    {
+      "claim_id": "C-0001",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "yok - olayın temel gerçekleşmesi tartışmasız",
+      "independent_confirmation": true,
+      "alternative_explanation": "yok",
+      "remaining_weakness": "Cüveyni ve Gizli Tarih'e yalnızca ikincil kaynaklar üzerinden erişildi (CITATION_UNVERIFIED - kaynağın varlığı/kimliği kesin, ama içerik ikinci elden)",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2}
+    },
+    {
+      "claim_id": "C-0001",
+      "verdict": "false_precision_check",
+      "strongest_counter_evidence": "N/A - bu bir düzeltme kaydı",
+      "independent_confirmation": true,
+      "alternative_explanation": "N/A",
+      "remaining_weakness": "N/A",
+      "updated_confidence": "N/A",
+      "red_team_flags": [],
+      "notes": "False Precision Detector uygulandı: '450 vs 500' İLK BAKIŞTA bir sayısal tutarsızlık (ESTIMATE_PRESENTED_AS_EXACT riski) olarak değerlendirildi. Doğrulama araması sonucu bunun gerçek bir tutarsızlık OLMADIĞI, iki farklı birimin (450 tüccar, 500 deve) karıştırılması olduğu anlaşıldı. EVIDENCE_INFLATION'ın tersi bir düzeltme - kayıt şeffaflık için tutuluyor."
+    },
+    {
+      "claim_id": "C-0002",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "yok bulunamadı",
+      "independent_confirmation": false,
+      "alternative_explanation": "yok",
+      "remaining_weakness": "Tek kaynak grubundan (wiki-secondary-cluster) - Faz B'de ikinci bağımsız doğrulama aranmadı, research_gap olarak kalıyor",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["CITATION_UNVERIFIED"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0003",
+      "verdict": "unresolved",
+      "strongest_counter_evidence": "N/A - claim zaten 'bilinmiyor' önermesi, çürütülecek tek bir pozisyon yok",
+      "independent_confirmation": false,
+      "alternative_explanation": "Üç açıklama da (casusluk/hakaret/açgözlülük) birbiriyle DIŞLAYICI değil - hepsi aynı anda kısmen doğru olabilir (İnalcık'ın gerçek psikolojisine dair kanıt yetersiz)",
+      "remaining_weakness": "Kaynağın kendisi belirsiz - bu, kanıt eksikliğinden kaynaklanan dürüst bir UNKNOWN, çözülmesi beklenen bir 'zayıflık' değil",
+      "updated_confidence": "UNKNOWN",
+      "red_team_flags": [],
+      "notes": "Bilgi Kısıtı ilkesi burada uygulanabilir değil (İnalcık'ın kendi bilgisi değil, motivasyonu sorgulanıyor) - Anachronism Checklist de temiz: hiçbir modern kavram geriye izdüşürülmüyor."
+    },
+    {
+      "claim_id": "C-0004",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "yok bulunamadı",
+      "independent_confirmation": true,
+      "alternative_explanation": "yok",
+      "remaining_weakness": "Elçilerden kaçının idam edildiği/sakalı kesildiği konusunda kesin sayı belirsiz - bu ayrıntı düzeyinde False Precision riski var, claim metni kasıtlı olarak genel tutuldu ('bir elçi... geri kalanlar')",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0005",
+      "verdict": "contested",
+      "strongest_counter_evidence": "en-Nesevi'nin Muhammed'i temize çıkaran versiyonu",
+      "independent_confirmation": true,
+      "alternative_explanation": "en-Nesevi'nin saraya yakınlığı, onun versiyonunu tarafsız değil ÇIKAR GÜDÜMLÜ kılıyor olabilir - ama bu da bir varsayım, kanıtlanmış değil",
+      "remaining_weakness": "en-Nesevi'nin kendisi doğrudan okunmadı (SRC-0007, toplu anıldı) - Cherry-Picking riski: 'çoğu kaynak Muhammed'i suçluyor' ifadesi kaç kaynağın gerçekten bağımsız olarak sayıldığını netleştirmiyor",
+      "updated_confidence": "CONTESTED",
+      "red_team_flags": ["CITATION_UNVERIFIED"],
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 2},
+      "notes": "Circular Evidence Detector: 'çoğu kaynak' ifadesi APPARENT_EVIDENCE_COUNT'u şişiriyor olabilir - SRC-0007'deki 4 kronik (Reşidüddin, İbnü'l-Esir, en-Nesevi, Cüzcani) birbirinden ne kadar bağımsız, ayrı ayrı doğrulanmadı. INDEPENDENT_EVIDENCE_COUNT muhafazakâr şekilde 2 (Cüveyni-kümesi vs en-Nesevi) olarak tahmin edildi."
+    },
+    {
+      "claim_id": "C-0006",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "yok - zamansal sıralama tartışmasız",
+      "independent_confirmation": true,
+      "alternative_explanation": "N/A - bu claim zaten sadece sıralamayı iddia ediyor, güçlü nedensellik C-0007'de ayrıca ele alınıyor",
+      "remaining_weakness": "'Tetikleyici' kelimesi nedensellik gücü taşıyor - Kronoloji≠Nedensellik ilkesi gereği bu claim'in kendisi TRIGGER link_type ile D3'te ayrıca modellenecek, burada sadece sıralama doğrulandı",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0007",
+      "verdict": "unresolved",
+      "strongest_counter_evidence": "Cengiz Han'ın 1218'de Harezm'le TİCARET yazışması başlatmış olması ('ticaret ortağı' önerisi) - eğer istila zaten planlıydıysa, önce ticaret teklif etmek stratejik olarak tutarsız görünüyor",
+      "independent_confirmation": true,
+      "alternative_explanation": "İki rakip tez de akademik camianın gerçek bir parçası: (a) samimi kışkırtma tezi (ticaret girişimi kanıtı destekliyor), (b) bahane tezi (Kara Hıtay fethiyle sınırın oluşması + olayın 'garip derecede açıklanamayan' Harezm tarafı motivasyonu kanıtı destekliyor)",
+      "remaining_weakness": "Hangi spesifik tarihçilerin 'bahane' tezini savunduğu hâlâ netleştirilemedi (yalnızca ikincil sentezlerde 'alternatif bilimsel görüşler' olarak anılıyor)",
+      "updated_confidence": "CONTESTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2},
+      "notes": "Peter Jackson'ın (The Mongols and the Islamic World, 2017) değerlendirmesi bulundu: kaynaklar OLAYI güvenilir şekilde belgeliyor ama Harezm tarafının neden Moğollara meydan okuduğunu AÇIKLAMIYOR - bu, C-0007'nin her iki tezi de tam olarak çürütmeyen, gerçek bir açık soru olduğunun akademik onayı. Jackson'a doğrudan değil, onu özetleyen bir makale üzerinden erişildi (CITATION_UNVERIFIED)."
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "C-0007",
+      "causal_reasoning": {
+        "temporal_relationship": "Doğrulandı: Kara Hıtay fethi (1216-1218) → Moğol-Harezm sınırı oluşması → ticaret yazışması (1218) → Otrar kervan olayı (1218 kışı) → elçi reddi → sefer (1219). Sıralama kesin.",
+        "correlation": "Kervan olayı ile sefer arasında güçlü zamansal korelasyon var - sefer olaydan kısa süre sonra başladı",
+        "mechanism": "Doğrudan mekanizma belirsiz: kervan olayı → onur/meşruiyet kaybı → sefer kararı bağlantısı bozkır diplomasi normlarıyla (elçiye zarar = savaş nedeni) mantıklı ama Cengiz Han'ın İÇ karar sürecine dair doğrudan kanıt yok",
+        "causal_evidence": "Dolaylı - kronik yazarların 'bu yüzden sefer başladı' anlatımı var ama bu anlatım kendisi de tarihyazımsal bir yapı (kışkırtma-meşrulaştırma anlatısı) olabilir"
+      },
+      "counterfactual_test": "MEDIUM",
+      "notes": "'Otrar olmasaydı, Moğol istilası yine de olur muydu' sorusuna orta güvenle 'muhtemelen evet, ama zamanlaması/şekli farklı olurdu' cevabı veriliyor - Kara Hıtay fethiyle sınırın zaten oluşmuş olması + Jackson'ın 'açıklanamayan Harezm motivasyonu' gözlemi, bu ihtimali güçlendiriyor, ama kesin değil (bu yüzden MEDIUM, HIGH değil)."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Otrar olayının nedensellik gücü: samimi kışkırtma mı, bahane mi?",
+      "interpretations": [
+        {
+          "scholar_or_school": "Geleneksel/kroniğe-yakın okuma (Cüveyni temelli modern özetler)",
+          "position": "İnalcık'ın açgözlülüğü/paranoyası doğrudan casus belli oldu",
+          "based_on": "Cüveyni'nin anlatı çerçevesi",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MINOR"
+        },
+        {
+          "scholar_or_school": "Alternatif/revizyonist okuma (isimsiz 'bazı bilim insanları' olarak anılıyor - Faz'ın kendisi bunu bir research_gap olarak işaretliyor)",
+          "position": "Otrar, Cengiz Han'ın zaten planladığı batı seferi için uygun bir bahaneydi",
+          "based_on": "Kara Hıtay fethiyle sınırın önceden oluşması, jeopolitik mantık",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Peter Jackson (The Mongols and the Islamic World, 2017)",
+          "position": "Olayın kendisi güvenilir kaynaklarla belgeleniyor, ama Harezm tarafının neden Moğollara meydan okuduğu açıklanamıyor - yani soru açık kalıyor, kesin bir taraf tutmuyor",
+          "based_on": "Birincil kaynak değerlendirmesi + jeopolitik mantık boşluğu",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Bu araştırmada kullanılan tüm kaynaklar İngilizce/Batı akademik gelenekten (Jackson, Atwood, Ratchnevsky, Barthold - hepsi Batılı Moğol tarihçileri) veya bunları özetleyen İngilizce web kaynaklarından. Kazak/Özbek/Rus tarihyazımı (Otrar bugünkü Kazakistan'da, yerel akademik gelenek olası) hiç taranmadı.",
+      "bias_types": ["source_availability", "language"],
+      "coverage_log": "Taranan diller: yalnızca İngilizce. Taranmayan: Kazakça, Rusça (Orta Asya'daki Sovyet-sonrası akademik gelenek, özellikle Otrar arkeolojisi üzerine önemli olabilir), Farsça/Arapça (birincil kaynakların orijinal dilleri - yalnızca çevirileri/özetleri üzerinden erişildi)."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0001",
+      "question": "İnalcık'ın kervanı öldürme kararının GERÇEK motivasyonu neydi?",
+      "known": "Üç rakip açıklama var (casusluk şüphesi, kişisel hakaret, açgözlülük)",
+      "unknown": "Hangisinin (veya hangi kombinasyonun) doğru olduğu",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": ["casusluk şüphesi", "unvan hakareti", "açgözlülük"],
+      "researchability": "low",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-0002",
+      "question": "İnalcık gerçekten eritilmiş gümüşle mi idam edildi?",
+      "known": "Bu anlatı yaygın olarak tekrarlanıyor, sembolik bir anlam taşıyor (gümüş kervanına karşılık)",
+      "unknown": "Anlatının 13. yüzyıl kroniklerinde mi yoksa daha sonraki bir aktarımda mı ortaya çıktığı netleşmedi",
+      "category": "FALSE_MYSTERY",
+      "competing_explanations": ["gerçek bir idam yöntemiydi", "sonradan eklenmiş dramatik/sembolik bir efsane"],
+      "researchability": "medium",
+      "priority": "high",
+      "notes": "Historical Meme/Myth Detector: bu detayın çok-adımlı bir aktarım zinciriyle (kronik→modern popüler tarih→sosyal medya) çoğaltılıp çoğaltılmadığı netleştirilmeli - Faz E'de video için MUTLAKA 'efsaneye göre' çerçevesiyle sunulmalı, olgu gibi değil."
+    },
+    {
+      "unknown_id": "U-0003",
+      "question": "Otrar olayı olmasaydı Moğol istilası yine de gerçekleşir miydi?",
+      "known": "Kara Hıtay fethiyle sınır zaten oluşmuştu, Jackson Harezm'in motivasyonunu 'açıklanamaz' buluyor",
+      "unknown": "Kesin cevap - bu bir karşı-olgusal (counterfactual) soru, doğası gereği kesin kanıtla çözülemez",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": ["evet, farklı bir bahaneyle olurdu", "hayır, ticaret ortaklığı gerçekten sürerdi"],
+      "researchability": "low",
+      "priority": "high"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": ["C-0010 - yalnızca 1 kaynağa (SRC-0003) bağlı, o kaynağın tam metni de okunmadı"],
+    "weak_links": [
+      "C-0003 - üç rakip motiv teorisi de tek bir ikincil kaynaktan (SRC-0002) geliyor",
+      "C-0007 - 'bahane tezi'ni savunan spesifik tarihçi(ler) hâlâ isimsiz"
+    ],
+    "unresolved_contradictions": [
+      "C-0005 vs kendisi - en-Nesevi'nin versiyonu diğer kroniklerle doğrudan çelişiyor, çözülmedi (gerçek bir historiografik anlaşmazlık, yapay değil)"
+    ]
+  },
+  "source_reliability_updates": [
+    {"source_id": "SRC-0001", "reliability": "medium", "notes": "İyi atıflı ama ikincil (Wikipedia); altta yatan akademik eserler bağımsız doğrulanmadı"},
+    {"source_id": "SRC-0002", "reliability": "medium", "notes": "Aynı - ikincil, iyi atıflı"},
+    {"source_id": "SRC-0003", "reliability": "high", "notes": "Doğrudan erişildi, akademik, kurumsal depo - değişmedi"},
+    {"source_id": "SRC-0005", "reliability": "unverified", "notes": "Eserin varlığı/yazarı tartışmasız gerçek ama içerik yalnızca ikinci elden - CITATION_UNVERIFIED korunuyor"},
+    {"source_id": "SRC-0006", "reliability": "unverified", "notes": "Aynı gerekçe - doğrudan okunmadı"},
+    {"source_id": "SRC-0007", "reliability": "unverified", "notes": "4 farklı kroniğin toplu anılması Circular Evidence riski taşıyor - ayrı ayrı doğrulanmadı"}
+  ]
+}

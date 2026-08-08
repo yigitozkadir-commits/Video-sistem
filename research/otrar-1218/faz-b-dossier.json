@@ -1,0 +1,296 @@
+{
+  "phase": "B",
+  "candidate_id": "CAND-01",
+  "research_question": "Otrar'da bir ticaret kervanının katledilmesi, gerçekten Moğol istilasının nedeni miydi, yoksa Cengiz Han'ın zaten planladığı bir seferin bahanesi miydi?",
+  "sub_questions": [
+    "Kervanda gerçekte ne oldu - kimler, kaç kişi, hangi mallar?",
+    "İnalcık neden bu kararı verdi - casusluk şüphesi mi, hakaret mi, açgözlülük mü?",
+    "Harezmşah Muhammed II bu karara ne kadar karıştı - emretti mi, göz mü yumdu, habersiz miydi?",
+    "Cengiz Han'ın tepkisi neydi ve bu tepki savaşı nasıl tetikledi?",
+    "Bu olay gerçek bir kışkırtma mıydı, yoksa zaten planlanan bir seferin bahanesi mi?",
+    "İnalcık'ın idamı hakkındaki 'eritilmiş gümüş' anlatısı tarihsel mi, efsane mi?"
+  ],
+  "claims": [
+    {
+      "claim_id": "C-0001",
+      "text": "1218 kışında, Moğol tüccarlarının (Cengiz Han'a bağlı noyanların adamları) oluşturduğu yaklaşık 450 kişilik bir kervan - 500 deve yükü altın, gümüş, samur kürk ve ipekle - Otrar'a geldi ve vali İnalcık'ın emriyle tutuklanıp öldürüldü, malları müsadere edildi.",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": ["EV-0001", "EV-0002", "EV-0003"],
+      "counter_evidence": [],
+      "sources": ["SRC-0001", "SRC-0002", "SRC-0005"],
+      "independent_sources_count": 2,
+      "primary_evidence_used": true,
+      "historiographical_status": "consensus",
+      "confidence": "ESTABLISHED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED", "reason": "Çoklu 13. yüzyıl kaynağı (Cüveyni, Moğolların Gizli Tarihi) ve modern tarihçiler (Barthold, Jackson, Atwood, Buniyatov, Ratchnevsky) olayın temel gerçekleşmesinde hemfikir - anlaşmazlık yalnızca motiv ve sorumluluk dağılımında (bkz. C-0003, C-0005)"}
+      ],
+      "notes": "450 (tüccar sayısı) ile 500 (deve sayısı) İLK BAKIŞTA bir kaynak tutarsızlığı gibi göründü - doğrulama sırasında bunun bir tutarsızlık DEĞİL, iki farklı ölçümün (insan sayısı vs yük hayvanı sayısı) karıştırılması olduğu anlaşıldı. Bkz. C1 Red Team notunda düzeltme kaydı."
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Otrar valisi İnalcık (unvanı: Gayır Han), Harezmşah II. Muhammed'in dayısıydı.",
+      "type": "fact",
+      "importance": "supporting",
+      "supporting_evidence": ["EV-0004"],
+      "counter_evidence": [],
+      "sources": ["SRC-0002"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "consensus",
+      "confidence": "STRONGLY_SUPPORTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Tek bağımsız modern kaynak grubu üzerinden doğrulandı (yalnızca 1 independence_group), ama iddia tarihyazımında tartışmasız - Faz C'de ikinci bağımsız kaynakla teyit aranacak"}
+      ],
+      "notes": "Bu akrabalık, Muhammed'in İnalcık'ı neden koruduğu/cezalandırmadığı sorusunun olası bir açıklaması olarak önemli - ama KANIT değil, sadece bağlam."
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "İnalcık'ın kervanı öldürme motivasyonu kesin olarak bilinmiyor - kaynaklar üç ayrı açıklama sunuyor: (a) casusluk şüphesi, (b) unvanıyla değil adıyla hitap edilmesinden duyulan kişisel hakaret, (c) kervanın zenginliğine göz dikme (açgözlülük).",
+      "type": "interpretation",
+      "importance": "core",
+      "supporting_evidence": ["EV-0005"],
+      "counter_evidence": [],
+      "sources": ["SRC-0002"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "debate",
+      "confidence": "UNKNOWN",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Kaynağın kendisi (Wikipedia özeti, altta yatan 13.yy kroniklerine dayanarak) üç açıklamayı da 'may have' diliyle sunuyor - hiçbiri kesin değil, bu doğru şekilde UNKNOWN olarak işaretleniyor, tahmin yürütülmüyor"}
+      ],
+      "notes": "Bu, videonun merkezi gerilim noktalarından biri olabilir: 'gerçek motiv hiçbir zaman kesin bilinmeyecek' dürüstlüğü, popüler anlatıların çoğunun tek bir motive (genelde açgözlülük) indirgediği bir noktada."
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Cengiz Han, İnalcık'ın cezalandırılmasını talep eden bir elçilik heyeti gönderdi; II. Muhammed bunu reddetti, bir elçiyi idam ettirdi ve geri kalanların sakallarını keserek onları küçük düşürdü.",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": ["EV-0006"],
+      "counter_evidence": [],
+      "sources": ["SRC-0001"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "consensus",
+      "confidence": "STRONGLY_SUPPORTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Tarihyazımında yaygın kabul görüyor, ama Faz B'de yalnızca bir bağımsız kaynak grubundan (Wikipedia + onun kaynakları) doğrulandı"}
+      ],
+      "notes": "Bozkır diplomasi geleneğinde elçiye zarar vermek ağır bir ihlal - bu, C-0007'nin nedensellik tartışmasında önemli bir halka (elçilerin küçük düşürülmesi, kervan olayından BAĞIMSIZ bir ikinci provokasyon)."
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Tarihçiler, II. Muhammed'in Otrar katliamına ne ölçüde karıştığı konusunda anlaşmazlık içinde: en-Nesevi sorumluluğu yalnızca İnalcık'a yüklerken, çoğu diğer kaynak (Cüveyni dahil) Muhammed'in katliama izin verdiğini veya doğrudan emrettiğini belirtiyor; tarihçi Paul Ratchnevsky en azından 'zımni bir onay' olduğunu öne sürüyor.",
+      "type": "interpretation",
+      "importance": "core",
+      "supporting_evidence": ["EV-0007"],
+      "counter_evidence": ["EV-0008"],
+      "sources": ["SRC-0001"],
+      "independent_sources_count": 2,
+      "primary_evidence_used": false,
+      "historiographical_status": "debate",
+      "confidence": "CONTESTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "CONTESTED", "reason": "Birden fazla 13.yy kroniği (en-Nesevi vs Cüveyni) ve modern tarihçi arasında gerçek bir anlaşmazlık - yapay değil, gerçek historiografik tartışma (Faz C2'de derinleştirilecek)"}
+      ],
+      "notes": "en-Nesevi, Harezmşahlar sarayına yakın bir yazar olarak Muhammed'i temize çıkarmakta çıkar sahibi olabilir - bu bir bias_indicator olarak Faz C'de değerlendirilmeli (kaynağın kurumsal/siyasi konumu)."
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Otrar olayı, Cengiz Han'ın 1219'da Harezmşahlar Devleti'ne karşı seferini başlatan doğrudan tetikleyici oldu.",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": ["EV-0001", "EV-0006"],
+      "counter_evidence": [],
+      "sources": ["SRC-0001"],
+      "independent_sources_count": 2,
+      "primary_evidence_used": false,
+      "historiographical_status": "consensus",
+      "confidence": "STRONGLY_SUPPORTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Zamansal sıralama (kervan olayı → elçi reddi → sefer) tartışmasız; ama 'tetikleyici' kelimesinin nedensellik gücü C-0007'de ayrıca sorgulanıyor - kronoloji≠nedensellik ilkesi (bkz. Faz D3)"}
+      ],
+      "notes": ""
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Tarihçiler arasında gerçek bir tartışma var: Otrar olayı, aksi halde gerçekleşmeyecek bir Moğol istilasını tetikleyen samimi bir kışkırtma mıydı, yoksa Cengiz Han zaten (1218'deki Kara Hıtay fethinden sonra Harezm sınırına dayanmışken) batıya genişlemeyi planlıyorken bulduğu uygun bir bahane miydi?",
+      "type": "interpretation",
+      "importance": "core",
+      "supporting_evidence": ["EV-0009"],
+      "counter_evidence": ["EV-0010"],
+      "sources": ["SRC-0001"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "debate",
+      "confidence": "CONTESTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "CONTESTED", "reason": "İkincil kaynak (Wikipedia sentezi) bu iki görüşü de sunuyor - kendi başına bir kaynak taraması bu tartışmanın hangi tarihçilere ait olduğunu netleştirmeli (Faz C'de akademik literatür taraması derinleştirilecek)"}
+      ],
+      "notes": "Bu, videonun ANA sorusu/kancası olabilir - 'tarih tek bir kervanın kaderiyle mi değişti, yoksa bu zaten kaçınılmaz mıydı' sorusu güçlü bir merak mekanizması taşıyor."
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "İnalcık, Otrar'ın düşüşünden sonra (Şubat 1220) gözlerine ve kulaklarına eritilmiş gümüş dökülerek idam edildi - bazı anlatılarda bu, gümüş yüklü kervanı ele geçirmesine sembolik bir karşılık olarak okunuyor.",
+      "type": "speculation",
+      "importance": "supporting",
+      "supporting_evidence": ["EV-0011"],
+      "counter_evidence": ["EV-0012"],
+      "sources": ["SRC-0002"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "debate",
+      "confidence": "UNSUPPORTED",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "UNSUPPORTED", "reason": "Birden fazla modern kaynak bu detayı açıkça 'apocryphal olabilir' diye işaretliyor - popüler anlatılarda olgu gibi tekrarlanıyor ama akademik güvenilirliği düşük. type:speculation olarak işaretlendi, fact DEĞİL - bu pipeline'ın en kritik disiplini (SPECULATION asla FACT gibi sunulmaz) burada tam uygulanıyor"}
+      ],
+      "notes": "Video için: bu detay ancak açıkça 'efsaneye göre... ama tarihçiler bunun sonradan eklenmiş olabileceğini düşünüyor' çerçevesiyle kullanılabilir, düz anlatım olarak değil."
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Otrar'ın iç kalesi, dış şehir düştükten sonra da yaklaşık 5-6 ay (Aralık 1219 - Şubat 1220) direndi, çünkü İnalcık teslim olmak yerine tutunmayı seçti ve Moğollar onu diri yakalayıp aleni idam etmek istiyordu.",
+      "type": "fact",
+      "importance": "supporting",
+      "supporting_evidence": ["EV-0013"],
+      "counter_evidence": [],
+      "sources": ["SRC-0002"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": false,
+      "historiographical_status": "consensus",
+      "confidence": "PROBABLE",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "PROBABLE", "reason": "Tek kaynak grubundan, ama iddia kendi içinde tutarlı ve tartışmasız görünüyor"}
+      ],
+      "notes": ""
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "2017'de Otrar'da yapılan arkeolojik saha çalışması (Katie Campbell), Fars kroniklerinin anlattığı dramatik yıkım tabloların gerçekten maddi kanıtla örtüşüp örtüşmediğini test etmeye çalıştı; yazar arkeolojik yorumun sınırlarına dikkat çekerek temkinli sonuçlara vardı.",
+      "type": "fact",
+      "importance": "peripheral",
+      "supporting_evidence": ["EV-0014"],
+      "counter_evidence": [],
+      "sources": ["SRC-0003"],
+      "independent_sources_count": 1,
+      "primary_evidence_used": true,
+      "historiographical_status": "consensus",
+      "confidence": "PROBABLE",
+      "verification_status": "pending",
+      "confidence_history": [
+        {"phase": "B", "value": "PROBABLE", "reason": "Makalenin tam metnine değil özetine erişildi - spesifik yıkım-tabakası/tarihleme bulguları UNKNOWN olarak bırakılıyor, uydurulmuyor"}
+      ],
+      "notes": "Bu proje için değerli bir 'malzeme kanıtı' açısı - video, salt metinsel anlatıya değil arkeolojik doğrulama çabasına da değinebilir (araştırmanın kendisi bir hikaye: metin mi, toprak mı doğru söylüyor)."
+    }
+  ],
+  "evidence": [
+    {"evidence_id": "EV-0001", "claim_id": "C-0001", "description": "Wikipedia 'Otrar Catastrophe' maddesi, kervanın 450 tüccardan oluştuğunu ve Cengiz Han'ın yakınlarına bağlı olduğunu, İnalcık tarafından casuslukla suçlanıp öldürüldüğünü aktarıyor (Barthold 1968, Jackson 2017, Atwood 2004, Buniyatov 2015, Ratchnevsky 1991'e atıfla)", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": "İkincil toplulaştırma - altta yatan birincil kaynaklar bağımsız olarak doğrulanmadı, bkz. SRC-0001 notu"},
+    {"evidence_id": "EV-0002", "claim_id": "C-0001", "description": "Arama sonucu, kervanın 500 deve yükünde altın/gümüş/kürk/ipek taşıdığını netleştirdi - ilk bakışta 450 ile çelişen bir sayı sanıldı, doğrulamada 'tüccar sayısı' (450) ile 'deve sayısı' (500) olarak iki ayrı ölçüm olduğu anlaşıldı", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "qualifies", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": "C1 Red Team False Precision Detector kontrolü burada UYGULANDI ve bir yanlış-tutarsızlık varsayımı düzeltildi - pipeline'ın çalıştığının somut kanıtı"},
+    {"evidence_id": "EV-0003", "claim_id": "C-0001", "description": "Cüveyni'nin (Tarikh-i Jahangushay) aktarımı: 450 tüccarın çoğu Müslüman, aralarına katılan bir Hindu tüccar valiye fazla samimi hitap etmiş", "source_id": "SRC-0005", "evidence_type": "primary", "supports_or_contradicts": "supports", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": "Cüveyni'nin kendisine değil, onu özetleyen ikincil kaynağa erişildi - CITATION_UNVERIFIED olarak işaretli, bkz. SRC-0005"},
+    {"evidence_id": "EV-0004", "claim_id": "C-0002", "description": "Wikipedia 'Inalchuq' maddesi, İnalcık'ın II. Muhammed'in dayısı olduğunu ve 'Gayır Han' unvanını taşıdığını belirtiyor", "source_id": "SRC-0002", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": ""},
+    {"evidence_id": "EV-0005", "claim_id": "C-0003", "description": "Aynı madde üç ayrı motiv teorisini sunuyor: casusluk şüphesi (belki gerçek casus da vardı), unvanıyla değil adıyla hitap edilme hakareti, ya da sadece zenginliğe göz dikme - hiçbirini kesinleştirmiyor", "source_id": "SRC-0002", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "PARTIALLY_SUPPORTS", "strength": "weak", "notes": "Kaynağın kendisi belirsizliği kabul ediyor - bu EV, C-0003'ün UNKNOWN durumunu haklı çıkarıyor, güçlü bir kanıt değil çünkü zaten üç olasılık sunuyor"},
+    {"evidence_id": "EV-0006", "claim_id": "C-0004", "description": "Cengiz Han'ın diplomatik girişiminin reddedildiği, bir elçinin idam edildiği, diğerlerinin sakallarının kesilerek küçük düşürüldüğü aktarılıyor", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "strong", "notes": ""},
+    {"evidence_id": "EV-0007", "claim_id": "C-0005", "description": "'Çoğu kaynak Muhammed'in katliama izin verdiğini ya da emrettiğini belirtiyor'; Ratchnevsky İnalcık'ın Muhammed'den 'zımni onay' almış olması gerektiğini öne sürüyor", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "PARTIALLY_SUPPORTS", "strength": "moderate", "notes": ""},
+    {"evidence_id": "EV-0008", "claim_id": "C-0005", "description": "en-Nesevi sorumluluğu yalnızca İnalcık'a yüklüyor, Muhammed'i sorumlu tutmuyor", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "contradicts", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": "en-Nesevi Harezmşahlar sarayına yakın bir yazar olabilir - bu bir bias_indicator, Faz C'de değerlendirilecek"},
+    {"evidence_id": "EV-0009", "claim_id": "C-0007", "description": "'Alternatif bilimsel görüşler, Otrar olayını Cengiz Han'ın zaten 1218'de Kara Hıtay fethiyle başlamış olan batıya genişlemesi için uygun bir bahane olarak konumlandırıyor'", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "PARTIALLY_SUPPORTS", "strength": "moderate", "notes": "Hangi spesifik tarihçi(ler)e ait olduğu netleştirilemedi - Faz C'de akademik literatür arayışı derinleştirilecek (research_gap adayı)"},
+    {"evidence_id": "EV-0010", "claim_id": "C-0007", "description": "'Moğolların muhtemelen Harezm'i fethetme konusunda önceden bir ilgisi yoktu' - bu, 'zaten planlıyordu' tezini zayıflatan bir karşı-kanıt", "source_id": "SRC-0001", "evidence_type": "secondary", "supports_or_contradicts": "contradicts", "alignment_strength": "PARTIALLY_SUPPORTS", "strength": "weak", "notes": "Aynı kaynak içinde iki karşıt görüş sunuluyor - bu C-0007'nin gerçekten CONTESTED olduğunun (yapay değil) bir işareti"},
+    {"evidence_id": "EV-0011", "claim_id": "C-0008", "description": "Birden fazla popüler/ansiklopedik kaynak (Wikipedia dahil) eritilmiş gümüş idam detayını aktarıyor", "source_id": "SRC-0002", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "PARTIALLY_SUPPORTS", "strength": "weak", "notes": "Yaygınlık, doğruluk değildir (Historical Meme/Myth Detector ilkesi) - popülerlik kanıt değil"},
+    {"evidence_id": "EV-0012", "claim_id": "C-0008", "description": "Aynı kaynaklar açıkça 'bu detay apocryphal (uydurma) olabilir' diye not düşüyor", "source_id": "SRC-0002", "evidence_type": "secondary", "supports_or_contradicts": "contradicts", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": "Kaynağın kendi kendini sorgulaması - iyi bir red-team sinyali"},
+    {"evidence_id": "EV-0013", "claim_id": "C-0009", "description": "İç kalenin ~5 ay direndiği, İnalcık'ın diri ele geçirilmek istendiği aktarılıyor", "source_id": "SRC-0002", "evidence_type": "secondary", "supports_or_contradicts": "supports", "alignment_strength": "DIRECTLY_SUPPORTS", "strength": "moderate", "notes": ""},
+    {"evidence_id": "EV-0014", "claim_id": "C-0010", "description": "Katie Campbell'ın 2017 saha çalışması özeti: kesitlerin haritalanması/temizlenmesi/çevresel örnekleme yapıldı, arkeolojik yorumun sınırları vurgulanıyor", "source_id": "SRC-0003", "evidence_type": "archaeological", "supports_or_contradicts": "supports", "alignment_strength": "CONTEXT_ONLY", "strength": "weak", "notes": "Makalenin tam metnine erişilmedi - sadece özet/WebFetch özeti mevcut, spesifik bulgular UNKNOWN"}
+  ],
+  "sources": [
+    {
+      "source_id": "SRC-0001", "title": "Otrar Catastrophe (Wikipedia)", "author_or_creator": "Wikipedia contributors",
+      "date": "erişim: 2026-08", "language": "en", "url_or_locator": "https://en.wikipedia.org/wiki/Otrar_Catastrophe",
+      "type": "web", "temporal_proximity": "modern", "independence_group": "wiki-secondary-cluster",
+      "bias_indicators": [], "translation_risk": "low", "authenticity_risk": "low",
+      "reliability": "medium", "linked_claims": ["C-0001", "C-0004", "C-0005", "C-0006", "C-0007"],
+      "document_status": "KNOWN",
+      "attempted_access_methods": []
+    },
+    {
+      "source_id": "SRC-0002", "title": "Inalchuq (Wikipedia)", "author_or_creator": "Wikipedia contributors",
+      "date": "erişim: 2026-08", "language": "en", "url_or_locator": "https://en.wikipedia.org/wiki/Inalchuq",
+      "type": "web", "temporal_proximity": "modern", "independence_group": "wiki-secondary-cluster",
+      "bias_indicators": [], "translation_risk": "low", "authenticity_risk": "low",
+      "reliability": "medium", "linked_claims": ["C-0002", "C-0003", "C-0008", "C-0009"],
+      "document_status": "KNOWN",
+      "attempted_access_methods": []
+    },
+    {
+      "source_id": "SRC-0003", "title": "The City of Otrar, Kazakhstan: Using Archaeology to Better Understand the Impact of the Mongol Conquest of Central Asia",
+      "author_or_creator": "Katie Campbell", "date": "2017 saha çalışması (yayın: Proceedings of the 11th ICAANE Vol.2, Harrassowitz Verlag)",
+      "language": "en", "url_or_locator": "https://www.repository.cam.ac.uk/items/50b2cb0f-bc41-4543-8c44-ab971e305b44",
+      "type": "academic", "temporal_proximity": "modern", "independence_group": "academic-archaeology",
+      "bias_indicators": [], "translation_risk": "none", "authenticity_risk": "none",
+      "reliability": "high", "linked_claims": ["C-0010"],
+      "document_status": "KNOWN",
+      "attempted_access_methods": [],
+      "transmission_integrity": "Cambridge kurumsal deposu üzerinden doğrudan erişildi (WebFetch), özgünlüğü yüksek"
+    },
+    {
+      "source_id": "SRC-0004", "title": "The Mongol-Khwarazm War of 1217-1221", "author_or_creator": "Erik Odin (yüksek lisans/doktora tezi, University of Calgary)",
+      "date": "bulunamadı - tam metne erişilmedi", "language": "en", "url_or_locator": "https://ucalgary.scholaris.ca/bitstreams/a6afba61-0659-49b4-9b00-47fd590e45c4/download",
+      "type": "academic", "temporal_proximity": "modern", "independence_group": "academic-thesis",
+      "bias_indicators": [], "translation_risk": "none", "authenticity_risk": "low",
+      "reliability": "unverified", "linked_claims": [],
+      "document_status": "KNOWN",
+      "attempted_access_methods": ["arama sonucunda bulundu, tam metin WebFetch ile henüz okunmadı - Faz C'de derinleştirilebilir"],
+      "notes": "Faz B'de yalnızca varlığı tespit edildi, içeriği claim'lere henüz bağlanmadı - saturation nedeniyle bu turda durduruldu, research_gaps'e not düşüldü"
+    },
+    {
+      "source_id": "SRC-0005", "title": "Tarikh-i Jahangushay (Cihan Fatihinin Tarihi)", "author_or_creator": "Ata Melik Cüveyni (13. yüzyıl, ~1252-1260 arası yazıldı)",
+      "date": "~13. yüzyıl ortası", "language": "fa (Farsça, İngilizce çevirisi J.A. Boyle)", "url_or_locator": "doğrudan erişilmedi - ikincil kaynaklar üzerinden özetlendi",
+      "type": "primary", "temporal_proximity": "near-contemporary", "independence_group": "persian-chronicle-cluster",
+      "bias_indicators": ["Cüveyni, Moğol idaresinde görev yapan bir bürokrattı - Moğol bakış açısına belirli ölçüde yakın olabilir"],
+      "translation_risk": "medium", "authenticity_risk": "low",
+      "reliability": "unverified", "linked_claims": ["C-0001"],
+      "document_status": "KNOWN",
+      "attempted_access_methods": ["yalnızca ikincil kaynaklar (Wikipedia, arama özetleri) üzerinden erişildi - Boyle çevirisinin kendisi WebFetch ile henüz okunmadı"],
+      "notes": "CITATION_UNVERIFIED (Faz C1 Red Team notu): eserin varlığı ve yazarı akademik literatürde iyi bilinen, tartışmasız bir gerçek, ama bu araştırmada doğrudan okunmadı - claim'lere bağlanan içerik ikinci elden. Faz E'de bu netlik korunmalı."
+    },
+    {
+      "source_id": "SRC-0006", "title": "Moğolların Gizli Tarihi (The Secret History of the Mongols)", "author_or_creator": "bilinmeyen Moğol yazar(lar), 13. yüzyıl",
+      "date": "~1228-1240 arası (tartışmalı)", "language": "orta Moğolca (çeşitli çevirileri var)", "url_or_locator": "doğrudan erişilmedi",
+      "type": "primary", "temporal_proximity": "near-contemporary", "independence_group": "mongol-chronicle",
+      "bias_indicators": ["Moğol hanedanının kendi resmi/yarı-resmi anlatısı - Cengiz Han'ı meşrulaştırma eğilimi olabilir"],
+      "translation_risk": "high", "authenticity_risk": "low",
+      "reliability": "unverified", "linked_claims": [],
+      "document_status": "KNOWN",
+      "attempted_access_methods": ["yalnızca varlığı ve genel içeriği aramalarla doğrulandı - Otrar olayına dair spesifik pasaj bu turda bulunup okunmadı"],
+      "notes": "Faz C'de bu kaynağın Cüveyni anlatısından FARKLI noktalarını bulmak açık bir research_gap - Cüveyni ile karşılaştırma, bağımsızlık testi için değerli olurdu (aynı independence_group'ta değiller: Farsça bürokrat kroniği vs Moğolca hanedan kroniği)"
+    },
+    {
+      "source_id": "SRC-0007", "title": "Rashid al-Din Jami al-Tawarikh, ibn al-Athir, al-Nasawi, Juzjani (13. yüzyıl kronikleri, toplu anıldı)",
+      "author_or_creator": "çeşitli", "date": "13. yüzyıl", "language": "fa/ar", "url_or_locator": "doğrudan erişilmedi",
+      "type": "primary", "temporal_proximity": "near-contemporary", "independence_group": "mixed-chronicle-cluster",
+      "bias_indicators": ["al-Nasawi Harezmşahlar sarayına yakındı - Muhammed'i temize çıkarma eğilimi olası (bkz. EV-0008 notu)"],
+      "translation_risk": "high", "authenticity_risk": "low",
+      "reliability": "unverified", "linked_claims": ["C-0005"],
+      "document_status": "KNOWN",
+      "attempted_access_methods": ["yalnızca ikincil kaynaklar üzerinden toplu olarak anıldıkları görüldü, tek tek doğrudan okunmadı"],
+      "notes": "Bu dört kroniğin HER BİRİNİN kendi görüşü ayrı ayrı doğrulanmalı (Faz C research_gap) - şu an tek bir 'çoğu kaynak' ifadesi arkasında toplanmış durumdalar, bu independence_group değerlendirmesini zayıflatıyor"
+    }
+  ],
+  "excluded_sources_note": "Aramalarda sürekli 'Grokipedia' (grokipedia.com) sonuçları çıktı - bu yapay zeka tarafından üretilen, akademik denetimden geçmemiş bir ansiklopedi. Hiçbir claim'e kaynak olarak KULLANILMADI (Citation Hallucination Detector disiplini gereği - bir AI tarafından üretilmiş 'ansiklopedi', doğrulanabilir birincil/ikincil kaynak değildir).",
+  "counter_evidence_search_performed": true,
+  "cross_language_search_performed": false,
+  "material_evidence_checked": true,
+  "saturation_reached": true,
+  "open_gaps_preview": [
+    "C-0007'nin 'zaten planlıyordu' tezini savunan spesifik tarihçi(ler) adı netleştirilmedi",
+    "SRC-0004 (Calgary tezi) içeriği claim'lere henüz bağlanmadı",
+    "SRC-0006 (Gizli Tarih) ve SRC-0005 (Cüveyni) doğrudan karşılaştırılmadı - bağımsızlık testi eksik",
+    "Çok dilli tarama yapılmadı (Kazakça/Rusça kaynaklar, özellikle Otrar arkeolojisi üzerine - Kazakistan'da yerel literatür olası)"
+  ]
+}

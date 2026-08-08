@@ -1,0 +1,28 @@
+{
+  "phase": "D5",
+  "audit_findings": [
+    {"item": "Her core önemdeki iddianın kaynak bağlantısı var mı?", "status": "pass", "severity": "INFO", "note": "C-0001, C-0003, C-0004, C-0005, C-0006, C-0007 hepsi en az bir kaynağa bağlı"},
+    {"item": "Birincil kanıt mevcutsa kullanıldı mı?", "status": "pass", "severity": "MEDIUM", "note": "Cüveyni (SRC-0005) ve Gizli Tarih (SRC-0006) claim'lere bağlandı ama YALNIZCA ikinci elden - CITATION_UNVERIFIED korunuyor, bu bir MEDIUM önem düzeyinde açık nokta, CRITICAL değil (birincil kaynağın VARLIĞI/kimliği tartışmasız, sadece doğrudan-okuma eksik)"},
+    {"item": "Kaynaklar gerçekten bağımsız mı?", "status": "pass", "severity": "MEDIUM", "note": "Circular Evidence kontrolü uygulandı (C-0005), INDEPENDENT_EVIDENCE_COUNT muhafazakâr tutuldu (2, APPARENT 4 değil)"},
+    {"item": "Karşı kanıt sistematik olarak arandı mı?", "status": "pass", "severity": "INFO", "note": "counter_evidence_search_performed: true (Faz B) - ticaret-yazışması karşı-kanıtı bulundu (EV-0010)"},
+    {"item": "Ana karşı görüşler (historiography) temsil ediliyor mu?", "status": "pass", "severity": "LOW", "note": "İki rakip tez de (samimi kışkırtma / bahane) temsil edildi, ama 'bahane' tezinin savunucuları isimsiz kaldı (G-02) - LOW, temsil var ama zayıf atıflı"},
+    {"item": "İhtilaflı/milliyetçi konularda taraf dağılımı dengeli mi?", "status": "fail", "severity": "MEDIUM", "note": "perspective_diversity: skewed - tüm kaynaklar İngilizce/Batı akademik gelenekten, Kazak/Rus/orijinal-dil literatür taranmadı (G-01). NOT: bu konu Ryskulov/Avrasya gibi milliyetçi-ihtilaflı bir kimlik tartışması DEĞİL (kim-kimi-yendi anlatı çatışması yok), bu yüzden D5'in 'milliyetçi konu' hard-blocker'ı burada TETİKLENMİYOR - ama dil-kapsamı eksikliği yine de dürüstçe MEDIUM olarak işaretleniyor"},
+    {"item": "Bilinmeyenler açıkça unknowns listesinde mi?", "status": "pass", "severity": "INFO", "note": "U-0001, U-0002, U-0003 - 3 unknown kaydı"},
+    {"item": "Spekülasyon hiçbir yerde olgu gibi yazılmamış mı?", "status": "pass", "severity": "INFO", "note": "C-0008 (gümüş idamı) açıkça type:speculation, confidence:UNSUPPORTED - hiçbir yerde fact olarak sunulmadı"},
+    {"item": "Birincil/ikincil kaynak ayrımı her kayıtta net mi?", "status": "pass", "severity": "INFO", "note": "Her source kaydında type + reliability + attempted_access_methods dolu"},
+    {"item": "Kaynak zinciri geriye doğru izlenebiliyor mu?", "status": "pass", "severity": "INFO", "note": "Cüveyni/Gizli Tarih zincirin başı olarak tanımlandı, doğrudan okunmadığı açıkça not edildi"},
+    {"item": "Çözülmemiş çelişkiler açıkça işaretli mi?", "status": "pass", "severity": "INFO", "note": "C-0005 (en-Nesevi vs diğerleri), C-0007 (kışkırtma vs bahane) - ikisi de claim_evidence_graph_summary'de"},
+    {"item": "Research gaps raporlandı mı?", "status": "pass", "severity": "INFO", "note": "G-01 - G-04, 4 gap kaydı"},
+    {"item": "False Completion kontrolü", "status": "pass", "severity": "INFO", "note": "10 claim / 14 evidence / 7 source SAYISI değil, altı eksen ayrı ayrı değerlendirildi: claim kapsamı (ana soru + 5 alt-soru kapsandı), kanıt kalitesi (Red Team uygulandı), kaynak bağımsızlığı (Circular Evidence ile düzeltildi), birincil kaynak kapsamı (var ama ikinci-elden - açık gap), karşı-argüman kapsamı (var), boşluk kapsamı (4 gap kaydı) - 'yeterince kaynak bulundu' izlenimi sınama sonrası KISMEN doğrulandı, tam değil (dil kapsamı ve birincil-kaynak-doğrudan-okuma eksik kaldı)"},
+    {"item": "Red Team bayrakları (C1) çözüldü mü, yoksa sessizce mi bırakıldı?", "status": "pass", "severity": "INFO", "note": "CITATION_UNVERIFIED (C-0002, C-0005, ve tüm birincil kaynaklar) - çözülmedi ama SESSİZCE bırakılmadı, her ilgili claim/source kaydında açıkça taşınıyor"}
+  ],
+  "blockers": [],
+  "readiness_state": "CONDITIONAL",
+  "required_fixes": [
+    "CONDITIONAL claim'ler (özellikle C-0002, C-0005, ve tüm birincil-kaynak-bağlı claim'ler) paket içinde 'kaynağa ikinci elden erişildi' notuyla açıkça işaretlenmeli - Faz E bunu E3 formatlamasında koruyacak",
+    "C-0007'nin 'bahane tezi' tarafı isimsiz akademik görüş olarak kalıyor - video metninde bu 'bazı tarihçiler öne sürüyor ki...' diye dürüstçe belirsiz bırakılmalı, spesifik bir isme atfedilmemeli",
+    "C-0008 (gümüş idamı) video senaryosunda YALNIZCA 'efsaneye göre... ama kaynaklar bunun sonradan eklenmiş olabileceğini düşünüyor' çerçevesiyle kullanılabilir",
+    "G-01 (dil kapsamı) bu paketin bilinen bir sınırlaması olarak kalıyor - ileride Kazakça/Rusça kaynak taraması yapılırsa paket revize edilmeli"
+  ],
+  "readiness_reasoning": "Hiçbir hard-blocker tetiklenmedi (bkz. audit_findings) - ama gerçek, önemsiz olmayan açık noktalar var (ikinci-elden birincil kaynak erişimi, tek-dilli tarama, bir tarafın isimsiz kalması). Bu tam bir READY değil ama BLOCKED da değil - CONDITIONAL, pipeline'ın tam da bunun için var olduğu durum: ilerlemeye izin ver, ama dürüstçe hangi kısımların daha kırılgan olduğunu işaretli tut. Kullanıcının 'durmadan devam et' talimatı gereği Faz E'ye geçiliyor, insan onayı beklenmiyor - ama bu rapor kullanıcıya AÇIKÇA sunuluyor (M23 §7 orkestrasyon kuralı: D5 sonucu ne olursa olsun raporlanır)."
+}

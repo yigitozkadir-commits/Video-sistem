@@ -1,0 +1,32 @@
+{
+  "shot_id": "SH-005-01",
+  "scene_id": "SC-005",
+  "variant": "image",
+  "prompt_ref": "PV-0044",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.wide.establishing",
+  "variables_resolved": {
+    "environment_subject": "A grand Khwarezmian palace throne room, a young Sultan seated, an older court official (his uncle) standing at a respectful but familiar distance",
+    "figure_for_scale": "the Sultan on a raised dais, the official below",
+    "air_and_weather": "indoor, still air",
+    "lighting": "single_window_soft, shaft of daylight across the floor",
+    "camera": "wide static, symmetrical framing",
+    "ambient_element": "dust motes in the light shaft"
+  },
+  "resolved_text": "A grand Khwarezmian palace throne room, a young Sultan seated, an older court official (his uncle) standing at a respectful but familiar distance. the Sultan on a raised dais, the official below. indoor, still air. single_window_soft, shaft of daylight across the floor. wide static, symmetrical framing. 28mm equivalent, deep focus. Motion: environmental only — dust motes in the light shaft. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "reference_set": [
+    "REF-CHR-MUHAMMED-II",
+    "REF-CHR-INALCUK",
+    "REF-ENV-HAREZM-PALACE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow (not yet generated)",
+  "seed": null,
+  "status": "not_yet_generated",
+  "created_at": "2026-08-08T22:43:33.448399+00:00"
+}

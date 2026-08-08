@@ -1,0 +1,33 @@
+{
+  "shot_id": "SH-003-01",
+  "scene_id": "SC-003",
+  "variant": "image",
+  "prompt_ref": "PV-0031",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.closeup.realisation",
+  "variables_resolved": {
+    "identity_tokens": "a stern Central Asian city governor in early 13th-century Khwarezmian court dress, heavy brow, commanding presence",
+    "wardrobe": "richly embroidered robe, fur-trimmed collar, jeweled belt",
+    "micro_action": "raising one hand to give a silent, final order, jaw set",
+    "environment": "a torch-lit stone audience hall, seized merchant goods (silk bolts, coin chests) visible at the edges of frame",
+    "lighting": "firelight_warm, hard shadows",
+    "ambient_element": "torch flame flicker"
+  },
+  "resolved_text": "a stern Central Asian city governor in early 13th-century Khwarezmian court dress, heavy brow, commanding presence, richly embroidered robe, fur-trimmed collar, jeweled belt. raising one hand to give a silent, final order, jaw set. a torch-lit stone audience hall, seized merchant goods (silk bolts, coin chests) visible at the edges of frame. firelight_warm, hard shadows. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: torch flame flicker only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true
+  },
+  "reference_set": [
+    "REF-CHR-INALCUK",
+    "REF-ENV-OTRAR-CITADEL-HALL",
+    "REF-PAL-STEPPE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow (not yet generated)",
+  "seed": null,
+  "status": "not_yet_generated",
+  "created_at": "2026-08-08T22:43:33.448399+00:00"
+}

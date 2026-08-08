@@ -1,0 +1,23 @@
+{
+  "scene_id": "SC-003",
+  "act": 1,
+  "title": "İnalcık'ın Kararı",
+  "scene_type": "conflict",
+  "summary": "Otrar valisi İnalcık, kervanı casuslukla suçlayıp tutuklatır, malları müsadere eder ve tüccarları idam ettirir.",
+  "source_text": "Ama Otrar'ın valisi Gayır Han İnalcık, kervanı içeri almadı. Tüccarları casuslukla suçladı. Emrini verdi: hepsi öldürülsün, mallar saraya taşınsın. Dört yüz elli kişiden sadece bir tanesi kaçıp kurtulabildi - haberi Cengiz Han'a o götürecekti.",
+  "duration_estimate_s": 45,
+  "emotion": "shock, dread",
+  "importance": 1.0,
+  "location": "Otrar iç kalesi",
+  "time_of_day": "day",
+  "weather": "cold",
+  "characters": [
+    "İnalcık",
+    "Moğol tüccarları"
+  ],
+  "continuity_from": "SC-002",
+  "qa_status": "pending",
+  "shots": [
+    "SH-003-01"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "phase": "D",
+  "master_claims": [
+    {"claim_id": "C-0001", "final_confidence": "ESTABLISHED", "confidence_history": [
+      {"phase": "B", "value": "ESTABLISHED", "reason": "Çoklu 13. yüzyıl kaynağı ve modern tarihçiler olayın temel gerçekleşmesinde hemfikir"},
+      {"phase": "C", "value": "ESTABLISHED", "reason": "Red Team incelemesi sonrası değişmedi - False Precision şüphesi (450 vs 500) doğrulamada çözüldü, gerçek bir tutarsızlık değildi"},
+      {"phase": "D", "value": "ESTABLISHED", "reason": "Paketleme sırasında son netleşme: bu, videonun 'ne oldu' omurgası - final haliyle korunuyor"}
+    ]},
+    {"claim_id": "C-0002", "final_confidence": "STRONGLY_SUPPORTED", "confidence_history": [
+      {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Tek kaynak grubu, ama tartışmasız"},
+      {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "CITATION_UNVERIFIED bayrağıyla korundu, ikinci bağımsız doğrulama bulunamadı"},
+      {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Bağlam bilgisi olarak paketleniyor, kanıt gücü sınırlaması notuyla"}
+    ]},
+    {"claim_id": "C-0003", "final_confidence": "UNKNOWN", "confidence_history": [
+      {"phase": "B", "value": "UNKNOWN", "reason": "Kaynağın kendisi üç açıklamayı da kesinleştirmiyor"},
+      {"phase": "C", "value": "UNKNOWN", "reason": "Red Team incelemesi bu belirsizliği çürütmedi, doğruladı"},
+      {"phase": "D", "value": "UNKNOWN", "reason": "Videonun merkezi dürüstlük noktalarından biri olarak paketleniyor - 'kesin bilinmiyor' bir zayıflık değil, bir bulgu"}
+    ]},
+    {"claim_id": "C-0004", "final_confidence": "STRONGLY_SUPPORTED", "confidence_history": [
+      {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Tarihyazımında yaygın kabul"},
+      {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Bağımsız doğrulama sayısı korundu (2)"},
+      {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Nedensellik zincirinin TRIGGER halkası olarak paketleniyor"}
+    ]},
+    {"claim_id": "C-0005", "final_confidence": "CONTESTED", "confidence_history": [
+      {"phase": "B", "value": "CONTESTED", "reason": "en-Nesevi vs Cüveyni gerçek anlaşmazlığı"},
+      {"phase": "C", "value": "CONTESTED", "reason": "Circular Evidence kontrolü sonrası INDEPENDENT_EVIDENCE_COUNT 2'ye düşürüldü, ama anlaşmazlığın kendisi gerçek kaldı"},
+      {"phase": "D", "value": "CONTESTED", "reason": "Historiography bölümünün ana örneği olarak paketleniyor"}
+    ]},
+    {"claim_id": "C-0006", "final_confidence": "STRONGLY_SUPPORTED", "confidence_history": [
+      {"phase": "B", "value": "STRONGLY_SUPPORTED", "reason": "Zamansal sıralama tartışmasız"},
+      {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Kronoloji≠nedensellik ayrımı netleştirildi, sıralama iddiası korundu"},
+      {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Timeline'a taşındı, nedensellik gücü C-0007'ye devredildi"}
+    ]},
+    {"claim_id": "C-0007", "final_confidence": "CONTESTED", "confidence_history": [
+      {"phase": "B", "value": "CONTESTED", "reason": "İkincil sentezde iki rakip görüş sunuluyor"},
+      {"phase": "C", "value": "CONTESTED", "reason": "Peter Jackson'ın (2017) 'açıklanamayan motivasyon' değerlendirmesiyle güçlendirildi - iki tez de tam çürütülmedi"},
+      {"phase": "D", "value": "CONTESTED", "reason": "Videonun ANA KANCASI olarak paketleniyor - bu belirsizlik bir zayıflık değil, içeriğin gücü"}
+    ]},
+    {"claim_id": "C-0008", "final_confidence": "UNSUPPORTED", "confidence_history": [
+      {"phase": "B", "value": "UNSUPPORTED", "reason": "Kaynaklar açıkça 'apocryphal olabilir' diyor"},
+      {"phase": "C", "value": "UNSUPPORTED", "reason": "FALSE_MYSTERY/Historical Meme Detector uygulandı, değişmedi"},
+      {"phase": "D", "value": "UNSUPPORTED", "reason": "Yalnızca 'efsaneye göre' çerçevesiyle, açık speculation etiketiyle paketleniyor - E3 paraphrase disipliniyle birlikte"}
+    ]},
+    {"claim_id": "C-0009", "final_confidence": "PROBABLE", "confidence_history": [
+      {"phase": "B", "value": "PROBABLE", "reason": "Tek kaynak grubu"},
+      {"phase": "C", "value": "PROBABLE", "reason": "Değişmedi, ek doğrulama aranmadı (peripheral önem)"},
+      {"phase": "D", "value": "PROBABLE", "reason": "Destekleyici sahne detayı olarak paketleniyor"}
+    ]},
+    {"claim_id": "C-0010", "final_confidence": "PROBABLE", "confidence_history": [
+      {"phase": "B", "value": "PROBABLE", "reason": "Makale özetine erişildi, tam metin değil"},
+      {"phase": "C", "value": "PROBABLE", "reason": "Orphan claim olarak işaretlendi, değişmedi"},
+      {"phase": "D", "value": "PROBABLE", "reason": "Peripheral - 'arkeoloji de bu tartışmaya katkı sağlıyor' notuyla paketleniyor, spesifik bulgu iddiası yapılmadan"}
+    ]}
+  ],
+  "timeline": [
+    {"event": "Moğolların Kara Hıtay Hanlığı'nı fethi (Balasagun'un düşüşü, Küçlük'ün kaçışı)", "date_or_period": "1216-1218", "date_certainty": "YEAR_RANGE", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": []},
+    {"event": "Küçlük yakalanıp idam edildi - Moğol-Harezm sınırı doğrudan temas haline geldi", "date_or_period": "1218", "date_certainty": "YEAR_ONLY", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": []},
+    {"event": "Cengiz Han, Harezmşah ile ticaret yazışması başlattı", "date_or_period": "1218", "date_certainty": "YEAR_ONLY", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "medium", "linked_claims": ["C-0007"]},
+    {"event": "Moğol ticaret kervanı Otrar'a ulaştı, İnalcık tarafından tutuklanıp öldürüldü", "date_or_period": "1218 kışı", "date_certainty": "CIRCA", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": ["C-0001"]},
+    {"event": "Cengiz Han'ın elçilik heyeti reddedildi, bir elçi idam edildi, diğerleri küçük düşürüldü", "date_or_period": "1218-1219", "date_certainty": "YEAR_RANGE", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": ["C-0004"]},
+    {"event": "Moğol ordusu Balkaş Gölü doğusunda toplandı, sefer başladı", "date_or_period": "1219 baharı", "date_certainty": "CIRCA", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": ["C-0006"]},
+    {"event": "Otrar kuşatması başladı", "date_or_period": "Aralık 1219", "date_certainty": "MONTH_RANGE", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": []},
+    {"event": "Şehrin dış kısmı düştü, İnalcık iç kaleye çekildi, ~5 ay direndi", "date_or_period": "1219-1220 arası", "date_certainty": "YEAR_RANGE", "calendar_system": "gregorian", "conversion_confidence": "medium", "certainty": "medium", "linked_claims": ["C-0009"]},
+    {"event": "İç kale düştü, İnalcık ele geçirildi ve idam edildi (idam yöntemi tartışmalı)", "date_or_period": "Şubat 1220", "date_certainty": "MONTH_RANGE", "calendar_system": "gregorian", "conversion_confidence": "high", "certainty": "high", "linked_claims": ["C-0008"]}
+  ],
+  "causal_links": [
+    {
+      "cause_event": "Kara Hıtay fethi (1216-1218)", "effect_event": "Moğol-Harezm sınırının doğrudan temas haline gelmesi",
+      "link_type": "ENABLING_CONDITION", "precondition_tier": "structural",
+      "causal_reasoning": {"temporal_relationship": "kesin - önce fetih, sonra sınır", "correlation": "doğrudan", "mechanism": "coğrafi/siyasi - fetih olmadan iki devlet komşu olmazdı", "causal_evidence": "kronoloji + coğrafya, tartışmasız"},
+      "counterfactual_test": "HIGH", "evidence_for_causation": "EV-0009 (dolaylı, Wikipedia sentezi üzerinden)",
+      "confidence": "ESTABLISHED", "note": "Yapısal ön-koşul - Otrar olayının FİZİKSEL OLARAK mümkün olmasının nedeni, ama tek başına olayı AÇIKLAMIYOR (bkz. C-0007)"
+    },
+    {
+      "cause_event": "Otrar kervan katliamı", "effect_event": "Cengiz Han'ın cezalandırma talebiyle elçi göndermesi",
+      "link_type": "DIRECT_CAUSE", "precondition_tier": null,
+      "causal_reasoning": {"temporal_relationship": "kesin - önce katliam, sonra elçi", "correlation": "doğrudan", "mechanism": "diplomatik protokol - bir devlet vatandaşlarının öldürülmesine karşılık verme", "causal_evidence": "doğrudan, kronoloji + kayıtlı diplomatik girişim"},
+      "counterfactual_test": "HIGH", "evidence_for_causation": "EV-0006",
+      "confidence": "STRONGLY_SUPPORTED", "note": ""
+    },
+    {
+      "cause_event": "II. Muhammed'in elçi reddi ve küçük düşürmesi", "effect_event": "Moğol seferinin başlaması",
+      "link_type": "TRIGGER", "precondition_tier": "trigger",
+      "causal_reasoning": {"temporal_relationship": "kesin", "correlation": "güçlü", "mechanism": "bozkır diplomasi normlarının ihlali - elçiye zarar vermek doğrudan savaş nedeni sayılırdı", "causal_evidence": "tarihyazımında geniş kabul gören bir mekanizma, ama Cengiz Han'ın iç karar sürecine dair birinci-el kanıt yok"},
+      "counterfactual_test": "MEDIUM", "evidence_for_causation": "EV-0006, EV-0009",
+      "confidence": "STRONGLY_SUPPORTED", "note": "Bu, C-0007'nin tam da tartıştığı halka - TRIGGER olarak modellendi ama tek başına yeterli neden mi, yoksa zaten oluşmuş bir niyetin gerekçesi mi (bkz. CONTRIBUTING_FACTOR alternatifi altta) tartışmalı"
+    },
+    {
+      "cause_event": "Otrar olayı + elçi reddi (bütün olarak)", "effect_event": "Moğol istilası (genel)",
+      "link_type": "CONTRIBUTING_FACTOR", "precondition_tier": null,
+      "causal_reasoning": {
+        "temporal_relationship": "doğrulandı (bkz. yukarı)",
+        "correlation": "güçlü ama tek başına yeterli değil",
+        "mechanism": "TARTIŞMALI: (a) doğrudan/yeterli neden mi, yoksa (b) zaten mevcut genişleme eğiliminin katalizörü/gerekçesi mi",
+        "causal_evidence": "Peter Jackson (2017): kaynaklar olayı belgeliyor ama Harezm'in neden meydan okuduğunu açıklamıyor - bu, nedenselliğin TEK YÖNLÜ (Otrar→istila) değil, çift yönlü bir bilmece olduğunu gösteriyor"
+      },
+      "counterfactual_test": "MEDIUM",
+      "evidence_for_causation": "EV-0009 (destekler), EV-0010 (zayıflatır)",
+      "confidence": "CONTESTED",
+      "note": "Bu satır, C-0007'nin ana tartışmasının D3 karşılığı - CONTRIBUTING_FACTOR olarak modellenmesi, ne DIRECT_CAUSE (fazla kesin) ne de yalnızca TRIGGER (yetersiz) olarak etiketlenemeyeceği için kasıtlı bir orta-yol seçimi. Faz D3→D2 geri-besleme: bu belirsizlik C-0007'nin CONTESTED durumunu DOĞRULUYOR, değiştirmiyor."
+    }
+  ],
+  "content_opportunities_preview": [
+    "Ana kanca: 'Bir kervanın kaderi, tarihin en büyük fetihlerinden birini mi başlattı, yoksa zaten kaçınılmaz olan bir savaşın bahanesi mi oldu?' (C-0007)",
+    "İkincil gerilim: İnalcık'ın gerçek motivasyonu hiçbir zaman bilinmeyecek (C-0003) - 'tarihin çözemediği bilmeceler' çerçevesi",
+    "Dürüstlük anı: popüler anlatılarda hep tekrarlanan 'eritilmiş gümüş' idamı muhtemelen efsane (C-0008/U-0002) - myth-correction fırsatı",
+    "İnsan dokunuşu: İnalcık, Sultan'ın kendi dayısıydı (C-0002) - aile/siyaset gerilimi",
+    "Kanıt-vs-toprak çerçevesi: modern arkeoloji (C-0010), yüzyıllar önceki kroniklerin anlattığını doğrulamaya çalışıyor"
+  ],
+  "research_gaps": [
+    {"gap_id": "G-01", "type": "unsearched_language", "question": "Kazakça/Rusça akademik literatür (özellikle Otrar arkeolojisi üzerine) bu anlatıyı nasıl tamamlar veya değiştirir?", "priority": "medium"},
+    {"gap_id": "G-02", "type": "attribution_gap", "question": "'Bahane tezi'ni savunan spesifik tarihçi(ler) kimler?", "priority": "medium"},
+    {"gap_id": "G-03", "type": "missing_primary_source", "question": "Cüveyni ve Moğolların Gizli Tarihi'nin doğrudan (ikinci-elden değil) okunması, C-0001/C-0005 için bağımsızlığı güçlendirir mi?", "priority": "low"},
+    {"gap_id": "G-04", "type": "historiographical_gap", "question": "en-Nesevi'nin saray-yakınlığı (bias_indicator) versiyonunun gerçekten ne kadar güvenilirliğini düşürüyor - kendisi doğrudan okunarak değerlendirilmeli", "priority": "low"}
+  ]
+}

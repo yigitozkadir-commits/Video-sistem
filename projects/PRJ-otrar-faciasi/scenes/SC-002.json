@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-002",
+  "act": 1,
+  "title": "İki İmparatorluk Sınır Komşusu Oluyor",
+  "scene_type": "establishing",
+  "summary": "Bağlam: Moğolların Kara Hıtay fethi (1216-1218) ile Harezmşahlar Devleti'yle doğrudan sınır komşusu haline gelmeleri, ardından Cengiz Han'ın ticaret teklifi.",
+  "source_text": "Bu karşılaşma aslında yeni değildi. İki yıl önce Moğollar, Kara Hıtay Hanlığı'nı fethederek Orta Asya'nın en güçlü devleti haline gelmişlerdi. Artık Harezmşahlar Devleti'yle sınır komşusuydular. Cengiz Han, savaş değil ticaret istiyordu - Harezmşah'a bir mektup yazıp ortaklık teklif etmişti.",
+  "duration_estimate_s": 40,
+  "emotion": "neutral, informative",
+  "importance": 0.6,
+  "location": "Orta Asya bozkırları",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [
+    "Cengiz Han"
+  ],
+  "continuity_from": "SC-001",
+  "qa_status": "pending",
+  "shots": [
+    "SH-002-01"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "shot_id": "SH-010-01",
+  "scene_id": "SC-010",
+  "variant": "image",
+  "prompt_ref": "PV-0031",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.closeup.realisation",
+  "variables_resolved": {
+    "identity_tokens": "the same city governor, now a captive, kneeling, stripped of rank but still proud",
+    "wardrobe": "torn remnants of his former fine robe",
+    "micro_action": "head raised, facing his captors without flinching, ambiguous half-lit expression - the moment before an execution the story cannot fully verify",
+    "environment": "a bare stone courtyard, molten metal glow suggested at the frame edge but not explicit",
+    "lighting": "firelight_warm, harsh directional glow from one side",
+    "ambient_element": "faint smoke/heat shimmer"
+  },
+  "resolved_text": "the same city governor, now a captive, kneeling, stripped of rank but still proud, torn remnants of his former fine robe. head raised, facing his captors without flinching, ambiguous half-lit expression - the moment before an execution the story cannot fully verify. a bare stone courtyard, molten metal glow suggested at the frame edge but not explicit. firelight_warm, harsh directional glow from one side. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: faint smoke/heat shimmer only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true
+  },
+  "reference_set": [
+    "REF-CHR-INALCUK",
+    "REF-ENV-OTRAR-CITADEL-COURTYARD",
+    "REF-PAL-STEPPE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow (not yet generated)",
+  "seed": null,
+  "status": "not_yet_generated",
+  "created_at": "2026-08-08T22:43:33.448399+00:00"
+}

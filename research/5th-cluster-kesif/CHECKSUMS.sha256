@@ -1,2 +1,13 @@
 db37b33bf05f91017927c6ab0e6f1a2037d04a282f3d13ff6319487d4ace2471  faz-b-dossier-semboller.json
 43e9c11a2104ed0d90a7b970af339ac478b1ba0c65127bfc7a82bf3a915b0b95  faz-c-verification-semboller.json
+67237567ed4ccbdebf1ebc044576c25c500bb0dfd87502f5ea92b36c040af765  faz-d-master-dossier-atasozleri.json
+131d27611c8512c6c06f183458d29bb45b49b012dc9dab5a40d759f6e40029c4  faz-d-readiness-candidates-atasozleri.json
+=== FAZ D SYNTHESIS HASH CHECKSUMS ===
+Timestamp: 2026-08-09
+
+faz-d-master-dossier-damgalar.json:
+93ffbb179ee61a43291bb8d636b99f637c1ca3e32b3ef0e0a45e563c2b6472ae  faz-d-master-dossier-damgalar.json
+
+faz-d-readiness-candidates-damgalar.json:
+f7506e48f515f0842041065bf449d817d59b3218cdd5b469c4624b73244eb2e4  faz-d-readiness-candidates-damgalar.json
+

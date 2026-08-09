@@ -1,0 +1,420 @@
+{
+  "phase": "D",
+  "section": "DIASPORA",
+  "items": "351-400",
+  "geopolitical_sensitivity": "HIGH",
+  "sensitivity_breakdown": {
+    "uyghur_xinjiang": "HIGH_SENSITIVITY - contested narratives (CCP development framing vs diaspora rights framing vs international legal debate)",
+    "kazakh_kyrgyz_uzbek_tatar": "STANDARD - post-Soviet language policy generally less contested in academic literature",
+    "russian_policy": "MODERATE_SENSITIVITY - Cold War context; Russia policy responses to EU/NATO influence concerns"
+  },
+  "d1_claim_consolidation": {
+    "total_claims": 14,
+    "verdict_distribution": {
+      "CONFIRMED": {
+        "count": 6,
+        "confidence": 0.95,
+        "claims": ["C-0001", "C-0004", "C-0005", "C-0007", "C-0008", "C-0011"]
+      },
+      "STRONGLY_SUPPORTED": {
+        "count": 4,
+        "confidence": 0.85,
+        "claims": ["C-0002", "C-0006", "C-0010", "C-0014"]
+      },
+      "SUPPORTED_BUT_QUALIFIED": {
+        "count": 1,
+        "confidence": 0.65,
+        "claims": ["C-0003"]
+      },
+      "SUPPORTED_BUT_QUALIFIED_UPGRADED_TO_PLAUSIBLE": {
+        "count": 3,
+        "confidence": 0.45,
+        "claims": ["C-0009", "C-0012", "C-0013"],
+        "note": "Phase C downgraded these from SUPPORTED_BUT_QUALIFIED due to insufficient empirical evidence"
+      }
+    },
+    "grouped_claims": {
+      "CORE": {
+        "description": "Central claims about state language policy impacts on ethnic identity and cultural continuity",
+        "claims": [
+          {
+            "claim_id": "C-0001",
+            "text": "In June 2017, Hotan Prefecture's Education Department issued a directive prohibiting Uyghur language use in schools and replacing Uyghur textbooks with Mandarin-only materials",
+            "verdict": "CONFIRMED",
+            "category": "Uyghur/Xinjiang language policy",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "consensus"
+          },
+          {
+            "claim_id": "C-0002",
+            "text": "China's 'bilingual education' policy in Xinjiang (post-2002) places primacy on Mandarin Chinese at the expense of ethnic minority languages, effectively promoting monolingual Mandarin rather than genuine bilingualism",
+            "verdict": "STRONGLY_SUPPORTED",
+            "category": "Uyghur/Xinjiang language policy",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 3,
+            "historiographical_status": "debate",
+            "note": "Chinese official position: equal valuing; Western/international perspective: Mandarin prioritization. Both positions documented."
+          },
+          {
+            "claim_id": "C-0004",
+            "text": "In post-Soviet Central Asia, Russian remained the dominant lingua franca and language of upward mobility despite official Kazakhization/Kyrgyzification policies that demoted Russian from official to secondary status",
+            "verdict": "CONFIRMED",
+            "category": "Post-Soviet Central Asia language policy",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 3,
+            "historiographical_status": "consensus"
+          },
+          {
+            "claim_id": "C-0008",
+            "text": "China's Xinjiang language policies are classified by UN and human rights experts as carrying risk of forced linguistic assimilation of Uyghur children, constituting a human rights concern",
+            "verdict": "CONFIRMED",
+            "category": "Uyghur/Xinjiang language policy",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "consensus",
+            "note": "UN OHCHR official assessment; consensus among international human rights bodies"
+          },
+          {
+            "claim_id": "C-0011",
+            "text": "Russia has restricted minority language rights since 2017, with Putin declaring compulsory learning of indigenous languages in national republics inadmissible and Tatarstan abolishing compulsory Tatar language education",
+            "verdict": "CONFIRMED",
+            "category": "Russian minority language policy",
+            "geopolitical_sensitivity": "MODERATE_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "consensus",
+            "note": "Reversal of 1993 Constitution guarantees; Russian government framing: protecting Russian children; human rights framing: violating minority rights"
+          }
+        ]
+      },
+      "SUPPORTING": {
+        "description": "Claims about mechanisms and historical context of language policy effects",
+        "claims": [
+          {
+            "claim_id": "C-0005",
+            "text": "Soviet language policies (1938-1991) deliberately imposed Cyrillic script on Central Asian Turkic languages to break Pan-Turkic identity and bind the region to Moscow, replacing earlier Latin-based orthographies",
+            "verdict": "CONFIRMED",
+            "category": "Soviet language policy history",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 2,
+            "historiographical_status": "consensus"
+          },
+          {
+            "claim_id": "C-0006",
+            "text": "Post-Soviet Central Asian states (Kazakhstan, Kyrgyzstan, Uzbekistan) have undertaken Latinization efforts to decolonize from Russian/Soviet influence and reclaim national identity through script reform",
+            "verdict": "STRONGLY_SUPPORTED",
+            "category": "Post-Soviet decolonization",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 2,
+            "historiographical_status": "consensus"
+          },
+          {
+            "claim_id": "C-0010",
+            "text": "Russian language dominance in post-Soviet Central Asia, despite official Kazakhization policies, is maintained through superior educational resources, perceived career advantages, and historical institutional infrastructure",
+            "verdict": "STRONGLY_SUPPORTED",
+            "category": "Post-Soviet Central Asia mechanism",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 2,
+            "historiographical_status": "consensus"
+          }
+        ]
+      },
+      "PERIPHERAL": {
+        "description": "Claims about diaspora-specific effects and identity adaptation strategies",
+        "claims": [
+          {
+            "claim_id": "C-0003",
+            "text": "Uyghur scholars and activists describe China's language policies in Xinjiang as constituting 'cultural genocide' or 'ethnic cleansing of Uyghur identity' by suppressing mother-tongue education",
+            "verdict": "SUPPORTED_BUT_QUALIFIED",
+            "category": "Uyghur diaspora/activist framing",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "debate",
+            "note": "Activist consensus; international law debate on whether language policy alone = genocide. Term 'genocide' is advocacy framing, not legal consensus."
+          },
+          {
+            "claim_id": "C-0007",
+            "text": "Uyghur diaspora communities in Kazakhstan maintain Uyghur-language schools and media, whereas Kyrgyzstan lacks state-supported Uyghur-language education despite significant Uyghur minority",
+            "verdict": "CONFIRMED",
+            "category": "Diaspora institution disparity",
+            "geopolitical_sensitivity": "MODERATE_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "consensus",
+            "note": "Kazakhstan: 297,000 Uyghurs with institutional support; Kyrgyzstan: 50,000 Uyghurs with limited/no formal language education"
+          },
+          {
+            "claim_id": "C-0009",
+            "text": "Intergenerational language transmission loss is occurring in Turkic diaspora communities, with second-generation speakers showing lower proficiency and preference for host-country languages over heritage languages",
+            "verdict": "PLAUSIBLE",
+            "category": "Diaspora language maintenance",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 1,
+            "historiographical_status": "consensus",
+            "note": "Evidence from Turkish diaspora (Europe); generalization to all Turkic diaspora (Central Asia, Western) insufficiently evidenced. Pattern likely but not empirically demonstrated for Uyghur/Kazakh/Kyrgyz specifically."
+          },
+          {
+            "claim_id": "C-0012",
+            "text": "Uyghur language is classified as having declining vitality in China, with speaker proficiency dropping among younger generations due to increased Mandarin imposition in education",
+            "verdict": "PLAUSIBLE",
+            "category": "Uyghur language vitality",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 0,
+            "historiographical_status": "consensus",
+            "note": "CRITICAL: No longitudinal proficiency data. Ethnologue classifies Uyghur as 'stable' with 'institutional vitality,' contradicting 'declining vitality' claim. Inference from policy expansion ≠ measured proficiency decline."
+          },
+          {
+            "claim_id": "C-0013",
+            "text": "Code-switching and code-mixing between ethnic minority languages and Russian/Mandarin among Turkic speakers serves as both identity marker and adaptation strategy under asymmetrical language policies",
+            "verdict": "PLAUSIBLE",
+            "category": "Diaspora language adaptation",
+            "geopolitical_sensitivity": "STANDARD",
+            "independent_sources": 1,
+            "historiographical_status": "consensus",
+            "note": "Sociolinguistic theory well-established; specific empirical research on Uyghur-Mandarin or Kazakh-Russian code-switching under policy pressure is missing."
+          },
+          {
+            "claim_id": "C-0014",
+            "text": "Language policy serves as explicit tool for either national identity formation (post-Soviet Central Asia) or ethnic assimilation (PRC Xinjiang), depending on state ideology and demographic composition",
+            "verdict": "STRONGLY_SUPPORTED",
+            "category": "Comparative language policy analysis",
+            "geopolitical_sensitivity": "HIGH_SENSITIVITY",
+            "independent_sources": 2,
+            "historiographical_status": "consensus",
+            "note": "Framing as binary oversimplifies; more accurate: nation-building (post-Soviet) vs integration/standardization (PRC). Both governments explicitly frame policies this way."
+          }
+        ]
+      }
+    }
+  },
+  "d2_evidence_graph": {
+    "nodes": {
+      "claims": 14,
+      "sources": 36,
+      "evidence_items": 37
+    },
+    "confidence_marking": {
+      "CONFIRMED": "dark",
+      "STRONGLY_SUPPORTED": "medium",
+      "SUPPORTED_BUT_QUALIFIED": "light",
+      "PLAUSIBLE": "dotted"
+    },
+    "sensitivity_flags": [
+      {
+        "node": "Uyghur language policy (C-0001, C-0002, C-0003, C-0008, C-0012)",
+        "sensitivity": "HIGH_SENSITIVITY",
+        "reason": "CCP policy contested. Western academic/diaspora rights perspective vs Chinese development/integration framing. Legal debate on 'genocide' terminology."
+      },
+      {
+        "node": "Xinjiang language policies (C-0001, C-0002, C-0003, C-0008, C-0012, C-0014)",
+        "sensitivity": "HIGH_SENSITIVITY",
+        "reason": "Geopolitical contestation. CCP perspective inaccessible or censored in English-language scholarship. Multiple legitimate interpretations of outcomes."
+      },
+      {
+        "node": "Post-Soviet Central Asia language policies (C-0004, C-0005, C-0006, C-0007, C-0010, C-0011, C-0014)",
+        "sensitivity": "MODERATE_SENSITIVITY",
+        "reason": "Cold War legacy; Russia policy responses; but less geopolitically contested than Uyghur context."
+      }
+    ],
+    "source_distribution": {
+      "Western media": 2,
+      "US government (CECC)": 4,
+      "Academic scholarship": 18,
+      "International NGO": 6,
+      "International organization (OECD, UN)": 3,
+      "Chinese state media": 1,
+      "Think tanks": 2
+    },
+    "perspective_dominance": {
+      "Western academics": "high",
+      "Diaspora advocates": "high",
+      "CCP perspective": "excluded (sources inaccessible/censored)",
+      "Russian scholars": "minimal",
+      "Central Asian local voices": "minimal"
+    }
+  },
+  "d3_causality_chain": {
+    "timeline": {
+      "1938-1940": {
+        "event": "Stalin's Cyrillization campaign",
+        "description": "Deliberate imposition of Cyrillic script on Central Asian Turkic languages to prevent Pan-Turkic identity and bind region to Moscow",
+        "type": "POLICY_SHIFT",
+        "claims_involved": ["C-0005"]
+      },
+      "1991": {
+        "event": "Soviet dissolution; Central Asian independence",
+        "description": "Kazakhstan, Kyrgyzstan, Uzbekistan, Tatarstan become independent; begin decolonization from Soviet linguistic imperialism",
+        "type": "STRUCTURAL_BREAK",
+        "claims_involved": ["C-0004", "C-0005", "C-0006"]
+      },
+      "1993": {
+        "event": "Russian Federation Constitution guarantees minority language rights",
+        "description": "Official framework protecting minority languages in Russian republics",
+        "type": "POLICY_BASELINE",
+        "claims_involved": ["C-0011"]
+      },
+      "2002": {
+        "event": "China initiates 'bilingual education' policy in Xinjiang",
+        "description": "Post-9/11, PRC accelerates Han-centric policies; framed as literacy/integration",
+        "type": "POLICY_SHIFT",
+        "claims_involved": ["C-0002", "C-0008", "C-0012", "C-0014"]
+      },
+      "2002-2016": {
+        "event": "Post-Soviet Central Asian states pursue Kazakhization/Kyrgyzification",
+        "description": "Titular language promotion; Russian retains dominance due to infrastructure and career advantages",
+        "type": "POLICY_IMPLEMENTATION",
+        "claims_involved": ["C-0004", "C-0006", "C-0010"]
+      },
+      "2017": {
+        "event": "Synchronized policy intensification (China & Russia)",
+        "description": "Hotan Prefecture Uyghur ban (C-0001); Putin restricts minority language rights in Russia (C-0011); Tatarstan abolishes compulsory Tatar education",
+        "type": "POLICY_SHIFT",
+        "claims_involved": ["C-0001", "C-0011"]
+      },
+      "2017-2023": {
+        "event": "Geopolitical tension escalation; diaspora language maintenance challenges",
+        "description": "Kazakhstan maintains Uyghur institutional support; Kyrgyzstan under pressure restricts diaspora activities; intergenerational transmission loss documented in Turkish diaspora (extrapolated to Turkic)",
+        "type": "ONGOING_TENSION",
+        "claims_involved": ["C-0007", "C-0009", "C-0013"]
+      },
+      "2023-2029": {
+        "event": "Kazakhstan Latinization reform (planned)",
+        "description": "Formal decolonization strategy; script transition from Cyrillic to Latin alphabet",
+        "type": "ONGOING_POLICY",
+        "claims_involved": ["C-0006"]
+      }
+    },
+    "causal_narrative": "Soviet era forced assimilation (Cyrillization, Russian imposition) → Post-independence partial recovery in Central Asia (Kazakhization, Latinization efforts) BUT Russian infrastructure advantages persist → PRC takes opposite path: Mandarin imposition intensifies (2002-2017 acceleration) → Synchronized policy tightening globally (2017: China + Russia restrict minority languages simultaneously) → Diaspora communities experience twofold pressure: geopolitical tension restricting cross-border support (Kyrgyzstan) AND intergenerational language transmission loss from host-country integration",
+    "causal_mechanisms": [
+      {
+        "mechanism": "Infrastructure inequality",
+        "description": "Russian-medium schools superior to Kazakh-medium (resources, teachers, materials); rational actors choose Russian despite Kazakhization policy",
+        "exemplifies": "C-0004, C-0010",
+        "sensitivity": "STANDARD"
+      },
+      {
+        "mechanism": "Career market rationality",
+        "description": "Russian proficiency offers career/economic advantages in post-Soviet space; perceived utility drives language choice despite policy",
+        "exemplifies": "C-0004, C-0010",
+        "sensitivity": "STANDARD"
+      },
+      {
+        "mechanism": "State capacity & ideology",
+        "description": "PRC (high capacity, assimilationist ideology) can impose policy top-down; Central Asian states (weaker enforcement) achieve slower policy adoption",
+        "exemplifies": "C-0002, C-0004, C-0014",
+        "sensitivity": "HIGH"
+      },
+      {
+        "mechanism": "Diaspora institutional support disparity",
+        "description": "Kazakhstan's political choice to support Uyghur institutions vs Kyrgyzstan's geopolitical pressure to restrict; affects long-term language transmission",
+        "exemplifies": "C-0007, C-0009",
+        "sensitivity": "MODERATE"
+      },
+      {
+        "mechanism": "Identity negotiation under pressure",
+        "description": "Code-switching serves adaptive function when dominant language dominates education/career but heritage language carries identity significance",
+        "exemplifies": "C-0013",
+        "sensitivity": "STANDARD"
+      }
+    ],
+    "key_distinction": "Uyghur context (HIGH political sensitivity, assimilationist PRC policy, access restrictions) vs Kazakh/Kyrgyz/Uzbek/Tatar contexts (STANDARD sensitivity, nation-building framing, more open documentation). Both show language policy as explicit state tool but serve different ideological purposes."
+  },
+  "d4_historiographic_summary": {
+    "synthesis": "Post-Soviet diaspora language policies are documented in academic literature as part of broader decolonization strategies, with particular emphasis on Central Asian Latinization and Russian persistence despite official titular language promotion. This narrative has strong empirical support from OECD education data, sociolinguistic studies, and policy analysis. The Uyghur context, however, represents a more contested historiographical terrain where Western academic sources and diaspora advocacy perspectives dominate, while CCP policy perspectives and Chinese scholarly counterarguments remain largely inaccessible in English-language sources. The international legal community debates whether China's language policies constitute 'forced assimilation' (UN assessment, human rights consensus) or are better characterized as 'integration policy' (Chinese framing). Uyghur diaspora and activist scholars employ 'cultural genocide' terminology, which represents a legitimate advocacy position but not a legal consensus among international law scholars. Multiple legitimate interpretative frameworks coexist: (1) Post-Soviet Central Asia: nation-building through titular language is decolonization success, though constrained by Russian advantages. (2) PRC Xinjiang: language policy is either development/literacy policy (Chinese framing) or forced assimilation/cultural suppression (international/diaspora framing). (3) Russia since 2017: policy shift reverses constitutional guarantees, framed by state as protecting Russian children's rights or by critics as violating minority language guarantees. The historiographical consensus is strong for factual claims (2017 Hotan ban, Cyrillization history, Kazakhization trends), moderate for interpretive claims about mechanisms and effects, and contested for claims about identity outcomes and policy intent. The perspective diversity is LOW overall: Western academics and diaspora advocates dominate; CCP academic perspective is excluded; Russian scholarly voices underrepresented; Uyghurs within Xinjiang have minimal voice due to access restrictions. This creates systematic bias toward Western/international human rights framing and diaspora rights advocacy, potentially overstating assimilationist intent or underestimating demographic/economic factors in Chinese policy rationale.",
+    "length_words": 340,
+    "sensitivity_caveat": "This research reflects primarily English-language Western and international human rights perspectives. Chinese academic scholarship and official policy rationales remain largely inaccessible or censored in Western academic databases. The Uyghur context particularly exemplifies geopolitical sensitivity: contested sources on CCP policy, no access to independent Uyghur voices within Xinjiang, and multiple legitimate interpretations of language policy outcomes. Central Asia language policies show lower sensitivity but still reflect post-colonial academic bias toward national identity frameworks. Readers should note that Russian, Chinese, and Central Asian scholarly perspectives not represented here may offer significantly different interpretations of the evidence.",
+    "perspective_mapping": {
+      "Western academics (dominant)": [
+        "Post-Soviet decolonization narrative",
+        "China assimilation policy critique",
+        "Russia minority rights violation framing"
+      ],
+      "Diaspora advocates (dominant)": [
+        "Language rights as human rights",
+        "Cultural preservation urgency",
+        "'Genocide' framing of Uyghur policy"
+      ],
+      "Chinese official (present but limited)": [
+        "Literacy and economic development framing",
+        "Integration (not assimilation) goal",
+        "Bilingual education as neutral policy"
+      ],
+      "Russian scholars (minimal)": [
+        "Russian lingua franca utility argument",
+        "Regional stability concerns from excessive nationalism"
+      ],
+      "Central Asian local voices (minimal)": [
+        "Indigenous perspectives on Latinization challenges",
+        "Pragmatic language choice rationales"
+      ]
+    }
+  },
+  "d5_completeness_audit": {
+    "audit_axes": {
+      "axis_1_claim_coverage": {
+        "question": "Are all 14 claims present and verified?",
+        "result": "PASS",
+        "score": 1.0,
+        "finding": "All 14 claims from Phase B present in Phase C verification. Coverage complete."
+      },
+      "axis_2_evidence_quality": {
+        "question": "Do 36 sources represent multiple geopolitical perspectives with high confidence evidence?",
+        "result": "PARTIAL",
+        "score": 0.72,
+        "finding": "36 sources present; high quality academic and institutional sources (OECD, UN, peer-reviewed journals). However, perspective diversity LOW: Western academics + diaspora advocates dominate. Chinese academic sources excluded; Russian scholarly voices minimal; Central Asian local voices minimal. Uyghur context evidence: strong for factual claims (2017 ban, policy implementation), contested for interpretive claims (intent, effects, identity outcomes)."
+      },
+      "axis_3_source_independence": {
+        "question": "Are sources independent or showing circular citation? Bias toward diaspora rights perspective?",
+        "result": "CONCERN",
+        "score": 0.55,
+        "finding": "BIAS DETECTED: Western media (RFA) + diaspora testimony + international NGOs (HRW, MRG) + US government (CECC) + academic scholarship create ecosystem of shared perspective. Sources are independent in methodology but share ideological framing on Uyghur/China issues. Chinese state media (1 source) provides counter-framing but is dismissed as non-independent. Russian scholar voices largely absent. Circular citation risk: MODERATE (CECC reports may reference each other, but Baranovitch 2022 provides independent academic perspective showing Uyghur elite support exists). Central Asia sources show higher independence (OECD, multiple post-colonial scholars with different framings)."
+      },
+      "axis_4_primary_source_coverage": {
+        "question": "Are government language policies (Kazakhstan, Kyrgyzstan, Uzbekistan, Tatarstan, Xinjiang) documented via primary sources?",
+        "result": "PASS",
+        "score": 0.85,
+        "finding": "PRIMARY SOURCES PRESENT: Kazakhstan Latinization Language Policy Concept (2023) — official policy document; Putin 2017 declaration — primary source; Tatarstan 2017 parliament action — primary source; Chinese official statements (Nur Bekri, Ministry) — present but limited. Xinjiang education directives (2017 Hotan) — documented via secondary reporting (RFA, Language Log), not primary Chinese government announcement accessed."
+      },
+      "axis_5_counter_argument_scope": {
+        "question": "Is Uyghur context specifically flagged as contested? Alternative explanations documented?",
+        "result": "PARTIAL",
+        "score": 0.70,
+        "finding": "CONTESTED TERRITORY FLAGGED: Uyghur/Xinjiang policy contested between Chinese development framing and international assimilation framing (Phase C documents this). However, Phase C also flags EVIDENCE_INFLATION on 'genocide' claim (term is advocacy framing, not legal consensus). Alternative explanations present for some mechanisms (C-0010: Russian persistence due to infrastructure, not policy failure). Missing: Chinese scholarly counterarguments, alternative causality theories not accessed due to language/access barriers."
+      },
+      "axis_6_gap_documentation": {
+        "question": "What gaps remain? Are they explicitly listed and prioritized?",
+        "result": "PASS",
+        "score": 0.95,
+        "finding": "GAPS WELL-DOCUMENTED: Phase C explicitly identifies 7 major unknowns: (1) Longitudinal Uyghur proficiency data (blocked by access); (2) Chinese academic perspectives on bilingual education (language/access barrier); (3) Uyghur diaspora-specific transmission loss rates (Turkish diaspora evidence doesn't generalize); (4) Implementation progress on Kazakhstan Latinization (2024-2026 data needed); (5) Causal analysis of Kazakhstan vs Kyrgyzstan disparity (open question); (6) Russian language policy rationale (Russian-language sources needed); (7) Stalin's Cyrillization motives (historical inference, limited archival access). Prioritization provided (high/medium/low)."
+      }
+    },
+    "completeness_score": 0.65,
+    "score_interpretation": "MODERATE COMPLETENESS with SIGNIFICANT GEOPOLITICAL BIAS. Sufficient for conditional production but requires explicit disclosure of perspective limitations and evidence gaps.",
+    "score_components": {
+      "factual_claims_strong": 0.95,
+      "interpretive_claims_moderate": 0.60,
+      "mechanism_explanation_adequate": 0.70,
+      "geopolitical_perspective_balanced": 0.35,
+      "source_access_complete": 0.65,
+      "evidence_gaps_documented": 0.95
+    },
+    "key_limitations": [
+      "CCP perspective inaccessible or censored; Chinese academic counterarguments not accessed due to language barriers and publication restrictions",
+      "Western/international human rights bias dominant; perspectives from Russian scholars and Central Asian local voices underrepresented",
+      "Uyghur language proficiency decline inferred from policy expansion, not measured empirically; Ethnologue data contradicts 'declining vitality' claim",
+      "Intergenerational transmission loss generalized from Turkish diaspora (Western Europe) to Turkic diaspora (Central Asia, Western countries) without Uyghur-specific data",
+      "Code-switching framing as identity/adaptation strategy is theoretical; lacks empirical research on Uyghur-Mandarin or Kazakh-Russian code-switching under policy pressure",
+      "'Genocide' framing documented as activist position but not legal consensus; claim mutation (suppression → cleansing → genocide) detected and flagged"
+    ],
+    "bias_assessment": "SKEWED_TOWARD_DIASPORA_RIGHTS_PERSPECTIVE. Suitable for human editorial decision but not for autonomous production without explicit perspective balancing and sensitivity disclaimers."
+  },
+  "completeness_trajectory": {
+    "phase_b_confidence": 0.60,
+    "phase_c_verification_improvement": 0.65,
+    "phase_d_readiness": 0.65,
+    "improvement_narrative": "Phase B laid foundation with 14 diverse claims. Phase C verification strengthened factual claims (Uyghur ban, Kazakhization, Cyrillization all confirmed with multiple sources) but downgraded speculative claims (proficiency decline, transmission loss, code-switching) to PLAUSIBLE when empirical measurement data unavailable. Phase D synthesis maintains 0.65 score because geopolitical sensitivity HIGH and perspective bias remains unresolved. Score plateaus at MODERATE due to structural gaps (CCP access, Russian scholars) rather than research effort — further evidence gathering unlikely to improve without accessing Chinese academic databases or conducting primary research in Central Asia."
+  },
+  "inputs_fingerprint": "sha256(faz-b-dossier-diaspora.json + faz-c-verification-diaspora.json)",
+  "created_at": "2026-08-09",
+  "status": "complete_ready_for_readiness_verdict",
+  "next_step": "D6 Readiness Verdict (human decision) — proceed to faz-d-readiness-candidates-diaspora.json"
+}

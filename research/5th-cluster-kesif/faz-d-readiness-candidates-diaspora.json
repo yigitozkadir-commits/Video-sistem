@@ -1,0 +1,133 @@
+{
+  "phase": "D",
+  "section": "DIASPORA",
+  "items": "351-400",
+  "geopolitical_sensitivity": "HIGH",
+  "sensitivity_scope": "Uyghur language policy (Items 363-375 estimated, Xinjiang context) carries geopolitical sensitivity due to contested CCP policy characterization. Kazakh/Kyrgyz/Uzbek/Tatar contexts show lower sensitivity.",
+  "completeness_score": 0.65,
+  "completeness_interpretation": "MODERATE — sufficient for conditional readiness; geopolitical bias significant but documented; evidence gaps identified and prioritized",
+  "readiness_analysis": {
+    "option_1_ready": {
+      "description": "NOT RECOMMENDED. Proceed to production without perspective balancing or sensitivity disclosures.",
+      "rationale": "Not suitable. Geopolitical sensitivity HIGH; perspective diversity LOW (Western/diaspora dominance); evidence gaps structural (CCP access denied, Chinese scholars inaccessible); risk of presenting diaspora rights narrative as singular truth without acknowledging alternative framings.",
+      "requirements_met": [],
+      "requirements_missing": [
+        "Explicit disclosure that CCP policy perspective is inaccessible or censored",
+        "Acknowledgment that Western academic bias dominates; Chinese scholars underrepresented",
+        "Transparency about evidence gaps in Uyghur-specific proficiency data (not measured, only inferred)",
+        "Clear framing that 'genocide' terminology is advocacy position, not legal consensus",
+        "Balanced presentation of Chinese official rationale (literacy/development/integration) alongside critical perspective"
+      ],
+      "risk_level": "high",
+      "risk_detail": "Would present contested topics as settled; diaspora advocacy as fact; obscure geopolitical bias; mislead audience about source limitations; violate CLAUDE.md law #4 (no silent degradation) by not emitting findings about perspective bias"
+    },
+    "option_2_conditional": {
+      "description": "RECOMMENDED. Proceed to production with explicit perspective balancing, sensitivity disclosures, and evidence gap documentation.",
+      "rationale": "Completeness 0.65 is sufficient threshold when paired with transparent disclosure. Core claims (2017 Hotan ban, Kazakhization, Cyrillization, Russian persistence) are CONFIRMED or STRONGLY_SUPPORTED with multiple independent sources. Uyghur context defensible when sources are properly contextualized. Lower-confidence claims (proficiency decline, transmission loss, code-switching) can be presented as theoretical or preliminary pending data. Geopolitical contested narratives explicitly acknowledged.",
+      "requirements_met": [
+        "14 claims verified through two-phase research with red-team analysis",
+        "36 sources analyzed for independence and perspective bias",
+        "Evidence gaps identified and prioritized (access barriers documented)",
+        "Historiographical debates mapped (CCP vs international vs legal community positions)",
+        "Claim mutation flagged ('genocide' terminology origin and status clarified)"
+      ],
+      "conditions": [
+        {
+          "condition_id": "DISC-UYGHUR-SENSITIVITY",
+          "text": "Preface Uyghur/Xinjiang language policy section: 'This topic is geopolitically contested. Western academic sources and diaspora advocacy dominate; CCP policy perspective is inaccessible or censored due to publication restrictions. Multiple legitimate interpretations of language policy outcomes exist: (1) Development/literacy framing (Chinese official position); (2) Forced assimilation/cultural suppression framing (international human rights, diaspora advocacy); (3) Legal-debate framing (international lawyers debate whether language policy alone constitutes 'genocide' — term not consensus). This research reflects primarily English-language Western perspectives.'",
+          "applies_to": ["C-0001", "C-0002", "C-0003", "C-0008", "C-0012"]
+        },
+        {
+          "condition_id": "STD-KAZAKH-KYRGYZ",
+          "text": "For Kazakh/Kyrgyz/Uzbek/Tatar language policies: Standard approach acceptable. These claims show lower geopolitical sensitivity and stronger scholarly consensus. Proceed without additional caveats, but note that Russian perspectives underrepresented.",
+          "applies_to": ["C-0004", "C-0005", "C-0006", "C-0007", "C-0010", "C-0011", "C-0014"]
+        },
+        {
+          "condition_id": "FRAME-DIASPORA-ADVOCACY",
+          "text": "Do NOT present diaspora rights narrative as singular truth. Explicitly note it is ONE legitimate perspective among contested framings. Example: 'Uyghur diaspora scholars characterize the policy as cultural genocide; this represents a significant activist and community position. International legal scholars debate whether language policy alone meets the legal definition of genocide, with no consensus. This disagreement reflects genuine interpretive difference, not factual error.'",
+          "applies_to": ["C-0003"]
+        },
+        {
+          "condition_id": "QUALIFY-PROFICIENCY",
+          "text": "Acknowledge uncertainty in language fluency outcomes. Example: 'No comprehensive quantified data on Uyghur speaker fluency across age cohorts in Xinjiang or diaspora. The policy's actual effect on proficiency is inferred from educational restructuring (Mandarin enrollment increases from 53.1% to near-total) but not measured directly. Ethnologue classifies Uyghur as 'stable' with 'institutional vitality' but policy pressure is evident. Longitudinal proficiency studies would be needed to confirm whether generational decline is occurring.'",
+          "applies_to": ["C-0012"]
+        },
+        {
+          "condition_id": "GENERALIZE-DIASPORA-CAREFULLY",
+          "text": "Hedge generalization from Turkish diaspora to Turkic diaspora. Example: 'Turkish diaspora in Western Europe shows intergenerational transmission loss; this pattern likely applies to Uyghur, Kazakh, and Kyrgyz diaspora but has not been empirically demonstrated across all groups. Kazakhstan's institutional support for Uyghur language may slow transmission loss compared to diaspora communities lacking state support.'",
+          "applies_to": ["C-0009"]
+        },
+        {
+          "condition_id": "THEORY-CODESWITCHING",
+          "text": "Clarify code-switching claim as theoretical rather than empirically demonstrated. Example: 'Sociolinguistic theory predicts that code-switching between minority and dominant languages serves identity negotiation and adaptation functions under asymmetrical language policies. Specific empirical research on Uyghur-Mandarin or Kazakh-Russian code-switching under policy pressure has not been systematically studied.'",
+          "applies_to": ["C-0013"]
+        }
+      ],
+      "risk_level": "medium",
+      "risk_detail": "Geopolitical sensitivity remains; human editorial judgment needed to ensure perspective balancing is adequate. Uyghur context particularly requires careful framing to avoid either dismissing diaspora advocacy or presenting it as unchallengeable fact.",
+      "conditions_total": 6,
+      "implementation_complexity": "medium"
+    },
+    "option_3_blocked": {
+      "description": "NOT CURRENTLY INDICATED. Only if production requirements mandate geopolitical neutrality impossible to achieve with current sources.",
+      "rationale": "Not blocked. Conditional path (Option 2) achieves balance between evidence sufficiency and transparency. Block would only trigger if brief required 'neutral' presentation that obscures geopolitical contestation — but transparency about contestation IS the neutral approach here.",
+      "requirements_for_unblock": [
+        "Access to Chinese academic databases (CNKI) to retrieve counterarguments to Western perspective",
+        "Chinese-language scholarship on education policy implications",
+        "Interviews with Chinese scholars to access censored or restricted positions",
+        "Or: Explicit brief constraint that contested topics must be presented as settled (would then require blocking as violating CLAUDE.md law #4)"
+      ],
+      "risk_level": "medium",
+      "risk_detail": "Blocking would itself require justification and disclosure. Current evidence base sufficient for conditional production with transparency."
+    }
+  },
+  "human_decision_requirements": {
+    "decision_point": "READINESS VERDICT — NOT AGENT DECISION",
+    "authority": "Human editorial judgment (production director or research lead)",
+    "required_consideration": [
+      "Is transparency about geopolitical sensitivity compatible with production brief?",
+      "Can audience tolerate explicit disclosure of perspective bias and evidence gaps?",
+      "Does production timeline allow implementation of 6 conditional requirements?",
+      "Is audience sophisticated enough to understand 'contested debate' framing, or should simpler narrative be adopted?"
+    ],
+    "recommendation_to_human": "PROCEED WITH OPTION 2 (CONDITIONAL). Evidence base is solid (completeness 0.65); geopolitical bias is documented and remediable through conditions; proceeding without conditions would violate CLAUDE.md #4 (no silent degradation). Conditions are implementable within standard editorial workflow. Uyghur section requires human review to ensure perspective balancing adequate."
+  },
+  "sensitivity_summary_for_decision": {
+    "uyghur_xinjiang_context": {
+      "sensitivity_level": "HIGH",
+      "why_contested": "Three competing framings with genuine scholarly/political disagreement: (1) Chinese government framing = neutral development/literacy policy; (2) International human rights framing = forced assimilation/cultural suppression; (3) International legal framing = policy concerning but doesn't meet 'genocide' threshold. All three positions have institutional backing and scholarly representation.",
+      "evidence_base": "STRONG for factual claims (2017 ban confirmed, policy implementation documented); CONTESTED for intent/effects (no consensus on whether assimilationist intent proven or whether proficiency actually declining)",
+      "perspective_dominance": "Western/international human rights dominates sources; CCP position present only in policy statements; Chinese scholarly counterarguments inaccessible",
+      "recommendation": "Disclose competing framings explicitly; avoid presenting diaspora advocacy as fact; acknowledge Chinese literacy/development rationale even if critical of execution"
+    },
+    "central_asia_context": {
+      "sensitivity_level": "MODERATE",
+      "why_contested": "Cold War legacy; Russia positioned as both Soviet colonizer (decolonization narrative) and current regional power (stability argument). But scholarly consensus stronger here than Uyghur context.",
+      "evidence_base": "STRONG across multiple sources (OECD data, CECC analysis, academic consensus)",
+      "perspective_dominance": "Post-colonial scholars + sociolinguists have balanced debate; Russian perspectives underrepresented but not absent",
+      "recommendation": "Standard approach acceptable; note Russian perspectives underrepresented but not censored"
+    },
+    "russian_policy_context": {
+      "sensitivity_level": "MODERATE",
+      "why_contested": "Interpretation of 2017 policy reversal: human rights violation (international view) vs protection of Russian children (Russian government view). Both positions documented.",
+      "evidence_base": "STRONG for factual claims (policies implemented, laws changed); contested for interpretation",
+      "perspective_dominance": "Western human rights perspective dominates; Russian rationale documented in policy statements but Russian scholarly voice minimal",
+      "recommendation": "Acknowledge both interpretations; note this is Cold War-legacy disagreement"
+    }
+  },
+  "implementation_roadmap": {
+    "if_option_2_accepted": [
+      "1. Extract claims 351-400 (estimated Uyghur items 363-375, Central Asia others)",
+      "2. For Uyghur claims: Apply DISC-UYGHUR-SENSITIVITY preface + FRAME-DIASPORA-ADVOCACY condition + claim-specific qualifications (QUALIFY-PROFICIENCY, GENERALIZE-DIASPORA-CAREFULLY, THEORY-CODESWITCHING)",
+      "3. For Central Asia claims: Apply STD-KAZAKH-KYRGYZ condition (no additional caveats needed)",
+      "4. Create footnotes or text boxes mapping historiographical debate positions (Phase C historiography section can be adapted into reader-friendly format)",
+      "5. Include sensitivity appendix listing sources by perspective group (Western academics X, Diaspora advocates X, CCP official statements X, Russian scholars X, Central Asian local X)",
+      "6. Implement evidence gap documentation: note where empirical data missing (proficiency trends, transmission loss rates, Latinization progress)",
+      "7. Human editorial review of Uyghur section for perspective balance before final approval"
+    ]
+  },
+  "inputs_fingerprint": "sha256(faz-d-master-dossier-diaspora.json) + phase_c_red_team_flags",
+  "created_at": "2026-08-09",
+  "status": "ready_for_human_decision",
+  "next_step": "Human editorial decision: accept Option 2 with conditions, or negotiate alternative framing"
+}

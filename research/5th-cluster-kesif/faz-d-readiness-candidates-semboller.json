@@ -1,0 +1,144 @@
+{
+  "phase": "D",
+  "stage": "D6 — Readiness Verdict Candidates",
+  "project_id": "5th-cluster-kesif",
+  "cluster_name": "ORTAK SEMBOLLER",
+  "item_range": "311-350",
+  "candidate_id": "CAND-SYMBOLS-01",
+  "date_created": "2026-08-09",
+  "readiness_analysis": {
+    "option_1_not_recommended": {
+      "description": "BLOCK — Do not proceed without major rework.",
+      "rationale": "Red Team flags (pre-3rd century gap, Mesopotamian alternative for crescent-star, Bozkurt pseudo-Turkology documented, historiographic bias) are substantial and unresolved. Completeness score 0.68 indicates moderate confidence only. Critical claims (C-0001 pre-Islamic totem, C-0004 crescent-star, C-0011 Bozkurt) are contested or plausible only — not strong enough for production.",
+      "requirements_met": [],
+      "risk_level": "HIGH",
+      "blocking_factors": [
+        "C-0001: SOURCE_GAP (pre-8th century evidence absent); INTERPRETIVE_LEAP (fragmentary → full system); RETROSPECTIVE_MYTH (Sufi + nationalism retroactive idealization)",
+        "C-0004: ALTERNATIVE_INTERPRETATION (Mesopotamian Sumerian origin 3000+ BCE, better documented than Turkic); MISSING_PRIMARY_SOURCE (Tengrism crescent-star reference not found); HISTORIOGRAPHIC_DEBATE (unresolved)",
+        "C-0011: PSEUDO_TURKOLOGY (documented fabrication in 20th century recovery); MODERN_BIAS (Grey Wolves racism linked); SOURCE_INFLATION (Bozkurt mythology not historical fact); CONTESTED verdict",
+        "Historiographic bias: Turkish academia dominant; Chinese/Russian/Iranian perspectives limited; post-colonial critical scholarship underpublished",
+        "Completeness 0.68: Moderate; pre-Islamic reconstruction unreliable"
+      ]
+    },
+    "option_2_conditional_recommended": {
+      "description": "CONDITIONAL APPROVAL — Proceed with explicit caveats and historiographic transparency.",
+      "rationale": "Claims are defensible from 8th century forward (Orkhon, Tamga, Tughra, Yasawi evidence strong). Pre-Islamic reconstruction plausible but not proven. If production narrative includes historiographic context, acknowledges evidence gaps, and flags nationalist ideology risk, the research package is usable as 'contested but academically substantiated subject matter for video narrative' (not as 'definitive fact'). Peking University skepticism + critical historiography + Mesopotamian alternatives should be presented alongside Turkish academic consensus to give viewers informed perspective.",
+      "recommended_conditions": [
+        "CAVEAT 1 — Pre-Islamic Evidence Scarcity: Explicitly state 'Pre-Islamic Turkic symbol system is based on linguistic reconstruction (Tengrism beliefs, totem terminology) and oral tradition documented by medieval sources (Orkhon inscriptions 8th century, menakıpnames 13th century onward). Pre-8th century primary evidence is sparse; pre-3rd century evidence is absent. The full 'system' is inference, not direct attestation. Modern scholarship debates how much is historical reality vs. romantic nationalism retroactively constructing history.'",
+        "CAVEAT 2 — Mesopotamian Alternative: Note that 'Crescent-star symbol has Mesopotamian (Sumerian moon god Sin) precedent from 3000+ BCE, better documented than Turkic origin claims. Ottoman adoption in 18th century reflects Pan-Islamic prestige politics rather than indigenous Turkic meaning recovery. Scholarly debate remains unresolved.'",
+        "CAVEAT 3 — Byzantine/Persian Priority: For Seljuk double-headed eagle, state 'Double-headed eagle shows Byzantine (primary) and Persian (secondary) source priority, with Turkic Burkut (single-headed) lineage speculative. Seljuk synthesis or separate borrowing is historiographically debated.'",
+        "CAVEAT 4 — Nationalist Ideology Risk: Regarding Bozkurt symbol recovery, include 'Turkish 20th century nationalism systematically recovered pre-Islamic symbols for national identity construction. Scholarly critique documents pseudo-Turkology and scientific racism ideological infrastructure in this recovery. Modern Grey Wolves movement's racist ideology is linked to distortion of nationalist historiography. Legitimate cultural continuity interest must be distinguished from fabrication.'",
+        "CAVEAT 5 — Historiographic Transparency: Integrate Peking University skeptical perspective: 'Chinese scholarship questions whether pre-Islamic Turkic 'recovery' is historical continuity or selective memory + romantic nationalism constructing a unified past that served 20th century political needs.'",
+        "CAVEAT 6 — Geographic Variation Context: For regional symbol adaptation (Bektashi Balkans, Seljuk Anatolia, Yasawi Central Asia), note that 'symbol distribution correlates with administrative hierarchy and Sufi infrastructure; whether this represents distinct indigenous symbol systems (claim) or political-administrative variation (alternative) is unresolved.'",
+        "CAVEAT 7 — Source Independence: Flag bias: 'Research draws heavily on Turkish academic sources and Western Turkology. Chinese, Russian, and Iranian scholarly perspectives on pre-Islamic Turkic symbolism are limited in this dossier. Post-colonial critical historiography is emerging but underrepresented.'"
+      ],
+      "requirements_met": [
+        "8th century evidence solid (Orkhon primary source)",
+        "Tamga, Tughra, Yasawi evidence strong (STRONGLY_SUPPORTED)",
+        "Red Team findings documented and flagged (20 flags across 13 types)",
+        "Historiographic debates identified and explained (4 major: totem reality vs. mythology, crescent-star origin, Seljuk eagle lineage, Bozkurt authenticity)",
+        "Bias perspective (Peking University critical scholarship) added",
+        "Gap documentation explicit and risk-ranked"
+      ],
+      "risk_level": "MEDIUM",
+      "residual_risks": [
+        "MEDIUM: Pre-Islamic reconstruction may still appear authoritative to viewers if caveats not prominently featured",
+        "MEDIUM: Historians may debate whether caveats sufficiently mitigate nationalist ideology risk",
+        "LOW: 8th century forward evidence strong enough to withstand scrutiny if positioned as 'academically contested but substantiated'"
+      ]
+    },
+    "option_3_conditional_with_rework": {
+      "description": "CONDITIONAL WITH MAJOR REWORK — Close research gaps before production.",
+      "rationale": "If the production timeline permits, targeted research could upgrade completeness score from 0.68 to 0.78+: (1) Archive access to Qarakhanid coins/seals (currently blocked); (2) Chinese primary sources (Han chronicles on pre-Islamic Turkic peoples); (3) Russian/Kazak archival materials (Mongolian period, Central Asian symbol continuity); (4) Byzantine primary sources on double-headed eagle iconography; (5) Tengrism texts analysis for crescent-star explicit reference. This rework would reduce ALTERNATIVE_INTERPRETATION and SOURCE_GAP flags significantly, moving more claims from 'plausible' to 'strongly supported' or 'confirmed.'",
+      "rework_priorities": [
+        {
+          "priority": "HIGH",
+          "target": "Pre-3rd century Turkic symbol evidence",
+          "action": "Engage Chinese, Russian, Iranian scholars; request archive access (Qarakhanid coins, Han chronicles)",
+          "expected_impact": "Reduce SOURCE_GAP flags; upgrade C-0001 confidence from PROBABLE to STRONGLY_SUPPORTED or remain PROBABLE with explicit evidence",
+          "timeline": "1-2 weeks"
+        },
+        {
+          "priority": "HIGH",
+          "target": "Crescent-star Tengrism reference",
+          "action": "Translate + analyze primary Tengrism texts (Turkic, Chinese); consult Tengrism scholars",
+          "expected_impact": "Resolve C-0004 MISSING_PRIMARY_SOURCE flag; either confirm Turkic origin or accept Mesopotamian precedent as primary",
+          "timeline": "1-2 weeks"
+        },
+        {
+          "priority": "MEDIUM",
+          "target": "Seljuk double-headed eagle lineage",
+          "action": "Byzantine archives + numismatic analysis (coin progression 10th-12th century)",
+          "expected_impact": "Clarify Byzantine vs. Turkic Burkut: synthesis or separate borrowing",
+          "timeline": "2-3 weeks"
+        },
+        {
+          "priority": "MEDIUM",
+          "target": "Historiographic bias correction",
+          "action": "Invite post-colonial + critical historiography scholars for peer review",
+          "expected_impact": "Reduce institutional bias; integrate Chinese/Russian/Iranian perspectives; strengthen credibility",
+          "timeline": "1 week"
+        },
+        {
+          "priority": "LOW",
+          "target": "Bozkurt authenticity clarification",
+          "action": "Medieval attestation search (pre-20th century sources); separate 'kernel truth' from ideological fabrication",
+          "expected_impact": "Either upgrade C-0011 from CONTESTED to SUPPORTED_BUT_QUALIFIED or keep CONTESTED with clearer boundary marking",
+          "timeline": "1-2 weeks"
+        }
+      ],
+      "cost_estimate": "3-4 weeks additional research + archive access + translation services",
+      "expected_outcome": "Completeness 0.68 → 0.78+; More claims STRONGLY_SUPPORTED or CONFIRMED; Fewer red team flags; Historiographic transparency enhanced",
+      "risk_level": "MEDIUM (timeline risk if archive access delayed)",
+      "note": "ONLY RECOMMENDED if production schedule permits. If deadline is fixed, Option 2 (Conditional Approval with caveats) is preferred."
+    }
+  },
+  "recommendation_summary": {
+    "primary_recommendation": "OPTION_2_CONDITIONAL",
+    "rationale": "Completeness score 0.68 and High Red Team flags suggest CONDITIONAL APPROVAL with explicit historiographic caveats. Claims are academically defensible (8th century forward) and red team findings are documented (transparency met). Proceeding requires that production narrative integrate caveats about pre-Islamic evidence gap, Mesopotamian alternative for crescent-star, Byzantine priority for Seljuk eagle, and nationalist ideology risk for Bozkurt. Option 2 balances academic rigor (not hiding weaknesses) with production feasibility (not blocking on unresolvable debates).",
+    "secondary_option": "OPTION_3_CONDITIONAL_WITH_REWORK (if timeline permits; raises completeness to 0.78+)",
+    "do_not_recommend": "OPTION_1_BLOCK (unless production integrity requires higher confidence threshold than 0.68 + documented caveats)",
+    "human_decision_required": true,
+    "decision_scope": "Production readiness gate; research integrity gate (caveats coverage); historiographic transparency requirement"
+  },
+  "verdict_options_detailed": {
+    "if_option_2_chosen": {
+      "next_steps": [
+        "Draft 6 historiographic caveats (as specified in Option 2 conditions)",
+        "Integrate caveats into video narrative/script (not hidden in credits; featured in explanation)",
+        "Commission peer review from Peking University skeptical + Byzantine iconography scholars (optional but recommended)",
+        "Stage production with caveats-first approach: lead with uncertainty + debate, then present evidence + consensus",
+        "Document final choice in production metadata (CLAUDE.md): 'CONDITIONAL APPROVED — Caveats integrated; Debate transparency; Nationalist ideology risk flagged'"
+      ],
+      "implementation_timeline": "Production can proceed immediately; caveat integration 1 week"
+    },
+    "if_option_3_chosen": {
+      "next_steps": [
+        "Pause production schedule",
+        "Engage researchers for archive access + translation (Qarakhanid coins, Han chronicles, Byzantine sources, Tengrism texts)",
+        "Target completion: 3-4 weeks",
+        "Re-run completeness audit after new evidence integration",
+        "If completeness reaches 0.78+, proceed to production with simplified caveats (some gaps resolved)",
+        "If completeness plateaus at 0.72, revert to Option 2 approach"
+      ],
+      "implementation_timeline": "3-4 weeks research + re-audit; then production"
+    },
+    "if_human_chooses_different_path": {
+      "note": "Human decision authority. If production needs blocked (Option 1) or hybrid approach preferred, document rationale in CLAUDE.md for future review."
+    }
+  },
+  "decision_authority": {
+    "note": "This phase D synthesis has analyzed completeness (0.68), red team flags (20), and historiographic debate (4 major unresolved). The readiness verdict is NOT a technical decision (score-based gate); it is a HUMAN JUDGMENT about acceptable risk + narrative transparency. Options 1-3 present tradeoffs; human production director chooses based on project values: (1) Research rigor vs. (2) Production urgency; (3) Evidence threshold (how much uncertainty is acceptable?); (4) Historiographic responsibility (how transparent should caveats be?)."
+  },
+  "metadata": {
+    "phase": "D",
+    "stage": "D6",
+    "date_created": "2026-08-09",
+    "completeness_score": 0.68,
+    "red_team_flags": 20,
+    "historiographic_debates": 4,
+    "options_presented": 3,
+    "recommendation": "OPTION_2_CONDITIONAL (with residual risk = MEDIUM)",
+    "human_decision_required": true
+  }
+}

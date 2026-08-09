@@ -1,0 +1,36 @@
+{
+  "phase": "A",
+  "candidate_id": "CAND-damgalar-001",
+  "title": "Türkic Seals & Clan Marks: Proto-Writing or Identity Markers?",
+  "research_question": "Were Turkic clan seals and identity marks (damgalar) precursors to or parallel developments with Old Turkic runic writing?",
+  "sub_questions": [
+    "What was the chronological relationship between seal/mark usage and runic writing emergence?",
+    "Were damgalar used as identity markers, property marks, or proto-writing symbols?",
+    "Is there archaeological or textual evidence of evolution from seals to runes?",
+    "How did damgalar vary regionally (Kazakh, Kyrgyz, Tatar, other Turkic groups)?",
+    "What role did totemism and clan structure play in damgalar design?"
+  ],
+  "story_candidates": [
+    {
+      "angle_id": "A-001",
+      "title": "The Missing Link: From Seal to Script",
+      "core_tension": "Historians debate whether Turkic seals were proto-writing or merely identity markers—new archaeological evidence may settle this.",
+      "originality": "high",
+      "scholarly_strength": "high"
+    },
+    {
+      "angle_id": "A-002",
+      "title": "Totem & Trade: The Social Life of Damgalar",
+      "core_tension": "Damgalar served multiple functions (identity, property, spiritual) that conventional writing systems didn't—revealing a complex pre-literate society.",
+      "originality": "medium",
+      "scholarly_strength": "medium"
+    }
+  ],
+  "winning_candidate_id": "A-001",
+  "scope_note": "Item range 201-240 (40 items); focus on primary evidence (seals, inscriptions, archaeological context), secondary scholarship (Turkish, Kazakh, Kyrgyz, Russian), and historiographical debates.",
+  "research_depth_level": "Academic + Archival (claim-dependent), due to contested historiography and limited Western scholarship",
+  "estimated_sources_needed": 20,
+  "estimated_claims": "12-15 unique claims",
+  "created_at": "2026-08-09",
+  "status": "ready_for_phase_b"
+}

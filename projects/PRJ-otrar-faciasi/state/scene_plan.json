@@ -146,24 +146,26 @@
   "deepening_insert_2026_08_09": {
     "trigger": "Kullanıcı talebi: 'konuda derinleş, elimizdeki görsel ve videolarla ara sahneler oluştur, gereksiz ElevenLabs kredisi harcama, yeterli olmazsa 2 sessiz 10sn mola ekle'",
     "committed_inserts": {
-      "SC-013": {"title": "İki Tarihçi, İki Farklı Suçlu", "after": "SC-005", "words": 46, "chars": 343, "est_duration_s": 23.0, "source": "faz-e-package.json contradictions C-0005"},
-      "SC-014": {"title": "Bu Hikâye Nereden Biliniyor?", "after": "SC-007", "words": 47, "chars": 377, "est_duration_s": 23.5, "source": "faz-d-readiness.json audit finding - CITATION_UNVERIFIED source chain"},
-      "SC-015": {"title": "Anlatılmamış Yarısı", "after": "SC-011", "words": 38, "chars": 291, "est_duration_s": 19.0, "source": "faz-d-readiness.json audit finding - perspective_diversity: skewed, gap G-01"}
+      "SC-013": {"title": "İki Tarihçi, İki Farklı Suçlu", "after": "SC-005", "words": 46, "chars": 343, "duration_s_measured": 23.588571, "source": "faz-e-package.json contradictions C-0005"},
+      "SC-014": {"title": "Bu Hikâye Nereden Biliniyor?", "after": "SC-007", "words": 47, "chars": 377, "duration_s_measured": 24.42449, "source": "faz-d-readiness.json audit finding - CITATION_UNVERIFIED source chain"},
+      "SC-015": {"title": "Anlatılmamış Yarısı", "after": "SC-011", "words": 38, "chars": 291, "duration_s_measured": 18.99102, "source": "faz-d-readiness.json audit finding - perspective_diversity: skewed, gap G-01"}
     },
-    "committed_inserts_total": {"words": 131, "chars": 1011, "est_duration_s": 65.4},
+    "committed_inserts_total": {"words": 131, "chars": 1011, "duration_s_measured": 67.004081},
     "all_visuals_reused_no_new_flow_generation": true,
-    "elevenlabs_quota_context": {"already_used_chars": 3473, "this_batch_chars": 1011, "projected_total_chars": 4484, "free_tier_quota_chars": 10000, "projected_pct_of_quota": 44.8},
-    "status": "DRAFT - text and reused-shot records written, narration NOT YET generated (studio.config.json narration.pre_generation_approval gate - awaiting explicit user approval of the character count above before calling elevenlabs_client.text_to_speech())",
-    "fallback_inserts_optional": {
-      "SC-016": {"title": "Sessiz Mola I", "after": "SC-004", "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": false},
-      "SC-017": {"title": "Sessiz Mola II", "after": "SC-009", "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": false},
-      "activation_rule": "yalnızca kullanıcı, derinleştirme sonrası toplam süreyi hâlâ yetersiz bulursa devreye alınır (kullanıcının kendi ifadesiyle 'yeterli olmazsa') - varsayılan olarak ana continuity zincirine bağlı değiller, scenes/SC-016.json ve SC-017.json dosyaları hazır ve şemaya uygun ama SC-004/SC-009'un continuity_from'u değiştirilmedi."
+    "voice_consistency_check": "Aynı voice_id (JBFqnCBsd6RMkjVDRZzb / George) ve aynı delivery parametreleri (stability 0.5, similarity 0.85, style 0.25, speed 1.0, speaker_boost on) kullanıldı - varsayılan client değerleri DEĞİL, orijinal 12 sahnenin gerçek parametreleri ElevenLabs History API'sinden (GET /v1/history) doğrulanarak alındı, hafızadan tahmin edilmedi.",
+    "elevenlabs_quota_context": {"already_used_chars_before_this_batch": 3473, "this_batch_chars": 1011, "total_chars_now": 4484, "free_tier_quota_chars": 10000, "pct_of_quota": 44.84},
+    "status": "GENERATED - narration generated 2026-08-09 after explicit user approval ('Onaylıyorum ve seslerin aynı ses oldugundan emin ol'). Real ffprobe durations recorded above (M17 §5).",
+    "fallback_inserts_committed": {
+      "SC-016": {"title": "Sessiz Mola I", "between": ["SC-004", "SC-005"], "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": true},
+      "SC-017": {"title": "Sessiz Mola II", "between": ["SC-009", "SC-010"], "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": true},
+      "activation_note": "Kullanıcı 2026-08-09'da 'yeterli olmazsa' koşulunu beklemeden ikisini de eklemeyi onayladı ('2 tane sessiz sahneyi de ekle') - artık ana continuity zincirinin bir parçası (SC-004.continuity_from ve SC-009.continuity_from güncellendi)."
     },
-    "projected_total_duration_s": {
+    "final_sequence_order": ["SC-001","SC-002","SC-003","SC-004","SC-016","SC-005","SC-013","SC-006","SC-007","SC-014","SC-008","SC-009","SC-017","SC-010","SC-011","SC-015","SC-012"],
+    "final_total_duration_s": {
       "original_12_scenes_measured": 238.31,
-      "plus_3_committed_inserts": 303.71,
-      "plus_2_optional_fallback_breaks": 323.71,
-      "vs_original_target_480": "hâlâ 480s'nin altında her senaryoda - kullanıcıya açıkça raporlandı, sessizce 480'e zorlanmadı (CLAUDE.md law #4)"
+      "plus_3_narrated_inserts_measured": 305.314081,
+      "plus_2_silent_breaks_20s": 325.314081,
+      "vs_original_target_480": "480s hedefinin altında (325.3s, ~%68) - kullanıcıya açıkça raporlandı ve bu haliyle onaylandı, sessizce 480'e zorlanmadı (CLAUDE.md law #4). scenesData/Remotion oluşturma adımı (task #49) bu final_sequence_order'ı kullanmalı."
     }
   }
 }

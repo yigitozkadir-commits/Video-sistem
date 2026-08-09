@@ -82,5 +82,26 @@
     "cached_at": "2026-08-09T01:16:03.199287+00:00",
     "scene_id": "SC-012",
     "char_count": 284
+  },
+  "fd69b18677ff1b4b5ac9d9a97ffe655eba7f04d9d7a5eb274c9208c876ee1171": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-013.wav",
+    "sha256": "29a0a8923432e63d4bcb4f38aa429d79a35f4e7e53eec5f22720a0a91e3384b8",
+    "cached_at": "2026-08-09T01:50:11.844070+00:00",
+    "scene_id": "SC-013",
+    "char_count": 343
+  },
+  "afe4482562251637f6bdb19387e44670560e37fbf47932b0e3053dde75e3375e": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-014.wav",
+    "sha256": "fc841fde85b680e5216b6ed6bb2f940a700f239088827fbde8ae4b0a4927c705",
+    "cached_at": "2026-08-09T01:50:15.436389+00:00",
+    "scene_id": "SC-014",
+    "char_count": 377
+  },
+  "37aad70c253b79cff29b77c895854fbc18d04041bf198a6720d0d775eb1fb7cf": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-015.wav",
+    "sha256": "b1984448a392856d08e6c7f9e7fa6ab2e6a7511aa52a954e4415cab6cc2883a5",
+    "cached_at": "2026-08-09T01:50:17.913441+00:00",
+    "scene_id": "SC-015",
+    "char_count": 291
   }
 }

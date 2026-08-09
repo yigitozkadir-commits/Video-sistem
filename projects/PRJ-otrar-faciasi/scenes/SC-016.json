@@ -3,7 +3,7 @@
   "act": 1,
   "title": "Sessiz Mola I",
   "scene_type": "emotional_pause",
-  "summary": "Fallback silent break (2026-08-09, only used if the SC-013/014/015 narration deepening still leaves the video short of target) - a wordless 10s breathing space over the Seyhun (Syr Darya) river valley, before the story turns to the palace intrigue of SC-005/SC-013. No narration, no ElevenLabs cost, existing visual only.",
+  "summary": "Silent break (committed 2026-08-09 per explicit user approval) - a wordless 10s breathing space over the Seyhun (Syr Darya) river valley, between SC-004 and the palace intrigue of SC-005/SC-013. No narration, no ElevenLabs cost, existing visual only.",
   "source_text": "",
   "duration_estimate_s": 10,
   "emotion": "quiet, contemplative",
@@ -17,6 +17,6 @@
   "shots": [
     "SH-016-01"
   ],
-  "provenance_note": "Reused existing still (originally generated for SC-002) - see prompts_used/SH-016-01/image.json's reused_from_shot_id field. No narration segment, no new Flow/ElevenLabs generation. NOT wired into the primary continuity chain (SC-004->SC-013 stays the committed path) - this scene is a documented, ready-to-insert fallback per the user's 2026-08-09 instruction ('eger yeterli olmazsa'), only activated if the deepened total duration is presented and still judged too short.",
-  "is_fallback_optional": true
+  "provenance_note": "Reused existing still (originally generated for SC-002) - see prompts_used/SH-016-01/image.json's reused_from_shot_id field. No narration segment, no new Flow/ElevenLabs generation. Wired into the primary continuity chain (SC-004 -> SC-016 -> SC-005) per user's explicit 2026-08-09 approval ('2 tane sessiz sahneyi de ekle').",
+  "is_fallback_optional": false
 }

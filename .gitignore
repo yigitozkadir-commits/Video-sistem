@@ -48,3 +48,4 @@ projects/_content_backlog/output/
 # `kaggle datasets download` if this dir is needed again.
 projects/_content_backlog/_scratch/
 .env.research
+complete-research-ninniler-plan.tar.gz

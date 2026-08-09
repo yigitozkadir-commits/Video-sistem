@@ -1,0 +1,119 @@
+{
+  "phase": "D",
+  "section": "BOZ-01",
+  "items": "31-60",
+  "cluster_id": "Foundation-Cluster-Items-1-140",
+  "faz_d_summary": {
+    "core_claims": 3,
+    "confidence_breakdown": {
+      "ESTABLISHED": 1,
+      "STRONGLY_SUPPORTED": 2
+    },
+    "key_findings": [
+      "Botai culture (3500 BCE) is earliest confirmed horse domestication site based on metrical + pathological + chemical evidence (3-evidence convergence is methodologically robust)",
+      "Western steppe horses dominated globally by 2000 BCE (genetic replacement documented)",
+      "Unresolved: single domestication (Botai sole origin) vs. dual domestication (Botai + Western steppe independent) — genetic continuity/discontinuity unclear"
+    ]
+  },
+  "claims_consolidated": [
+    {
+      "claim_id": "C-B1-001",
+      "text": "Horse domestication occurred at Botai culture, northern Kazakhstan, around 3500 BCE based on metrical analysis of horse remains",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Faz C flagged: Botai is oldest KNOWN site but other early domestication sites contested; 'sole origin' claim should be qualified as 'earliest known'"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag addressed: claim revised to 'earliest known/confirmed site' rather than implying sole origin"}
+      ],
+      "d2_qualification": "CONDITIONAL - requires production caveat: 'Botai (3500 BCE) is the earliest known evidence of horse domestication; whether it was the sole origin or one of multiple domestication events remains debated among geneticists'"
+    },
+    {
+      "claim_id": "C-B1-002",
+      "text": "Botai culture evidence includes three independent types: metrical analysis of metacarpals, pathological bridling marks, and mare's milk residues in pottery",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Converging independent evidence types methodologically sound; no revision needed"}
+      ],
+      "d2_qualification": "READY - multi-modal evidence is high-quality; no qualification needed"
+    },
+    {
+      "claim_id": "C-B1-003",
+      "text": "Western Eurasian steppe (lower Volga-Don region) served as the homeland of modern domestic horses that spread globally from ~2000 BCE",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag: 'replacement' is contested; introgression (wild-horse persistence/hybridization) documented in some regions. Claim overstates completeness of replacement"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Global expansion pattern clear; regional variation (replacement vs. introgression) is normal; claim directionally sound but requires nuance about regional variation"}
+      ],
+      "d2_qualification": "CONDITIONAL - requires caveat: 'Western steppe horses became dominant globally by 2000 BCE, though in some regions local wild-horse populations persisted or interbred rather than being completely replaced'"
+    }
+  ],
+  "causal_links": [
+    {
+      "cause_event": "Botai horse domestication (3500 BCE, C-B1-001)",
+      "effect_event": "Western steppe horse expansion (2000 BCE, C-B1-003)",
+      "link_type": "INDIRECT_CAUSE",
+      "precondition_tier": "enabling",
+      "causal_reasoning": {
+        "temporal_relationship": "Clear: Botai 3500 BCE → Western steppe expansion 2000 BCE",
+        "correlation": "Geographic and temporal correlation documented",
+        "mechanism": "Unclear if Botai lineage directly leads to Western steppe dominance or if Western steppe represents independent domestication that outcompeted Botai — genetic continuity disputed",
+        "causal_evidence": "Genetic data ambiguous; timing correlation only"
+      },
+      "counterfactual_test": "MEDIUM",
+      "confidence": "STRONGLY_SUPPORTED",
+      "note": "Genetic evidence shows replacement/dominance but not necessarily direct causal chain from Botai. Multiple domestication hypothesis increasingly plausible."
+    }
+  ],
+  "historiography": {
+    "main_debate": "Single-origin (Botai) vs. Multiple domestication events (Botai + Western steppe independent)",
+    "competing_schools": [
+      {
+        "school": "Botai-focused (Zeder & Levine 1990s-2010s)",
+        "position": "Botai culture (3500 BCE) is earliest known horse domestication, with morphological+pathological+chemical evidence",
+        "status": "debate",
+        "strength": "High (3-evidence convergence)"
+      },
+      {
+        "school": "Western steppe expansion (Nature 2021, genetic consensus)",
+        "position": "Modern domestic horses originated in Western Eurasian steppe and expanded globally; outcompeted local populations by 2000 BCE",
+        "status": "consensus",
+        "strength": "Very high (ancient DNA)"
+      },
+      {
+        "school": "Multiple domestication events (emerging)",
+        "position": "Botai local domestication + Western steppe independent domestication; Western steppe lineage became dominant",
+        "status": "debate",
+        "strength": "Increasing (reconciles archaeology+genetics)"
+      }
+    ]
+  },
+  "unknowns": [
+    {
+      "unknown_id": "U-B1-001",
+      "question": "Were Botai and Western steppe horse domestications the same lineage or independent events?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Single origin (Botai); Western steppe horses are Botai descendants",
+        "Dual domestication: independent; Western steppe proved superior",
+        "Botai horses replaced by Western steppe genetic introgression"
+      ],
+      "priority": "high"
+    }
+  ],
+  "completeness_audit": {
+    "core_check": "pass — 3/3 core claims have sources; all linked to Nature publication + archaeological reports",
+    "primary_evidence": "pass — metrical analysis + pathological evidence + organic residue analysis all primary",
+    "counter_evidence": "pass — Faz C found and documented alternative explanations (multiple domestication hypothesis)",
+    "historiography": "pass — competing schools documented",
+    "gaps": "Red-team flag CLAIM_MUTATION_SUSPECTED on C-B1-003 ('replaced almost all') addresses regional variation; acceptable with caveat"
+  }
+}

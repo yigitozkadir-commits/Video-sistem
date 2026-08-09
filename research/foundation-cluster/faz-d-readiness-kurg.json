@@ -1,0 +1,60 @@
+{
+  "phase": "D5",
+  "section": "KURG",
+  "items": "61-80",
+  "readiness_assessment": {
+    "status_candidate": "CONDITIONAL",
+    "reasoning": "KURG section contains mix of established archaeological facts (Pazyryk textiles, Issyk gold) and historiographically contested theoretical claims (Gimbutas kurgan hypothesis). Faz C red-team correctly identified major paradigm shift: kurgan hypothesis (1956-2000s) has been superseded by multiple-wave genetic models (2015+). This is not a weakness of research but a historiographic reality that MUST be transparent in narration. Production narration cannot present Gimbutas as current scientific consensus without severely misleading audience.",
+    "qualifications": [
+      "C-KURG-002: Gender terminology for Issyk kurgan contested (skeleton initially classified male, recent analysis suggests possible female); use 'elite burial with 4,000+ gold ornaments' rather than 'Golden Man'",
+      "C-KURG-003 (MAJOR): Gimbutas kurgan hypothesis must include major historiographic caveat: 'While influential in 20th-century Indo-European studies, the kurgan hypothesis has been significantly revised by ancient DNA research (2015+), which proposes multiple waves of steppe herder migration and complex admixture patterns rather than simple kurgan-culture replacement waves'"
+    ]
+  },
+  "audit_findings": [
+    {
+      "item": "Core claims have sources",
+      "status": "pass",
+      "severity": "CRITICAL",
+      "note": "5/5 core claims linked to sources (Penn Museum, Nature, Max Planck, academic journals)"
+    },
+    {
+      "item": "Primary evidence used",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Pazyryk (archaeological textiles), Issyk (burial excavation), Max Planck (ancient DNA) — all primary evidence"
+    },
+    {
+      "item": "Counter-evidence searched",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Faz C found and documented: gender classification dispute (Issyk), genetic challenges to kurgan hypothesis, alternative models"
+    },
+    {
+      "item": "Historiographical perspective balance",
+      "status": "conditional",
+      "severity": "HIGH",
+      "note": "Kurgan hypothesis given equal weight to modern genetic models in sources, but Faz C clarifies that genetic models are now dominant (2015+ consensus). Narration MUST reflect this shift, not treat both as equally current."
+    },
+    {
+      "item": "Red-team flags resolved",
+      "status": "conditional",
+      "severity": "MEDIUM",
+      "note": "ANACHRONISM flag (Issyk gender classification) and HISTORIOGRAPHY_REVISION flag (kurgan hypothesis superseded) both require explicit D2 qualifications in production language"
+    }
+  ],
+  "strongest_challenges": [
+    "C-KURG-003: Kurgan hypothesis paradigm shift is major historiographic issue — presenting 1956 theory as if still current would be misleading. Narration MUST clarify that genetic models now dominate, while kurgan hypothesis remains historically important."
+  ],
+  "most_robust_claims": [
+    "C-KURG-001: Pazyryk textile preservation — physical mechanism uncontested, direct evidence",
+    "C-KURG-004: Scythian elite hereditary status — Max Planck ancient DNA study is high-quality"
+  ],
+  "blockers": [],
+  "readiness_state": "CONDITIONAL",
+  "production_requirements": [
+    "Must include historiographic qualifier on C-KURG-003 (kurgan hypothesis superseded by genetic models)",
+    "Must use gender-neutral language for Issyk kurgan pending gender classification resolution",
+    "Must acknowledge both Scythian elite power dynamics AND complex female elite presence (50% of elite burials)"
+  ],
+  "ready_for_faz_e": true
+}

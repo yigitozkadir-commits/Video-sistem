@@ -1,0 +1,149 @@
+{
+  "phase": "E",
+  "phase_name": "Angle Selection & Narrative Integration",
+  "cluster": "7TH_CLUSTER",
+  "timestamp": "2026-08-09T20:00:00Z",
+  "model": "claude-haiku-4-5-20251001",
+  "methodology": "Extracted 4 cross-sectional narrative angles from consolidated Faz D claims; each angle integrates 2+ sections and provides thematic coherence for video/production arc",
+
+  "angles": [
+    {
+      "angle_id": "ANGLE-001",
+      "angle_name": "Memory Under Siege: Archival Rupture & Philosophical Resilience",
+      "thematic_core": "When states suppress cultural identity through institutional control (script change, education policy, language suppression), pre-modern knowledge becomes archival orphans. Parallel philosophical/spiritual systems preserve cultural identity without formal documentation.",
+      "sections_integrated": [
+        {
+          "section": "KÜLTÜREL ŞOKLAR",
+          "mechanism": "Script change creates archival rupture (Ottoman 1928, Soviet 1940s, China 2025)",
+          "claim_basis": ["C-0001 (Ottoman script shift → memory gap)", "C-0002 (Soviet Cyrillic severed Islamic/Persian tradition)", "C-0008 (education as memory control)"],
+          "narrative_role": "Suppression mechanism; demonstrates how institutional power shapes cultural transmission"
+        },
+        {
+          "section": "BOZKIR FELSEFESI",
+          "mechanism": "Philosophical values (Tengricilik, honor, tribal solidarity) persist despite script change; philosophy survives archival rupture",
+          "claim_basis": ["C-0001 (Tengricilik core framework)", "C-0010 (Sufizm preserved pre-Islamic values)", "C-0011 (namus, cesaret, sadakat survived institutional change)"],
+          "narrative_role": "Alternative preservation mechanism; shows non-institutional knowledge transmission"
+        },
+        {
+          "section": "DEDE KORKUT EVRENI",
+          "mechanism": "1000-year narrative tradition preserves steppe philosophy and values despite multiple archival transitions (oral→manuscript→Ottoman→European→UNESCO)",
+          "claim_basis": ["C-0003 (UNESCO 2018 recognition of living heritage)", "C-0007 (core narratives embody philosophical values)", "D3 causal chain (oral→manuscript→academic→institutional)"],
+          "narrative_role": "Exemplar of successful philosophical preservation through narrative form"
+        }
+      ],
+      "cross_section_causality": "Institutional suppression attempts → philosophical values persist in non-institutional forms → narrative tradition enables millennial transmission despite archival rupture",
+      "historiographical_framework": "Postcolonial theory (memory as resistance); cultural studies (philosophy in practice); media history (transmission technologies)",
+      "video_production_angle": "Central question: How does culture survive when archives are destroyed? Answer: Through philosophy embedded in narrative, performance, and community practice—forms that don't depend on institutional preservation.",
+      "justification": "Integrates Sections 1+2+4; addresses contemporary suppression politics (China/Russia/Ottoman) via philosophical resilience framework; demonstrates non-Western knowledge transmission systems",
+      "confidence_level": "HIGH"
+    },
+
+    {
+      "angle_id": "ANGLE-002",
+      "angle_name": "From Cosmology to Confederation: Philosophy Embodied in Political Structure",
+      "thematic_core": "Abstract steppe philosophy (Tengricilik, shamanic cosmos, ecological integration) doesn't remain theory—it becomes embedded in institutional structures (tribal organization, Ottoman governance, modern nation-state identity). Philosophy is literally practiced through political form.",
+      "sections_integrated": [
+        {
+          "section": "BOZKIR FELSEFESI",
+          "mechanism": "Tengricilik and shamanic cosmology establish foundational principles: sky authority, ecological awareness, egalitarian decision-making",
+          "claim_basis": ["C-0001 (Tengricilik as governing principle)", "C-0005 (shamanism as relationship system)", "C-0002 (ecology shapes social structure)"],
+          "narrative_role": "Theoretical foundation; demonstrates philosophical kernel before institutional translation"
+        },
+        {
+          "section": "OĞUZ BOYLARI",
+          "mechanism": "24-tribe confederation system operationalizes philosophy through genealogy, kinship authority, and migration governance. Tribal structure directly reflects Tengrici principles of hierarchical cosmology.",
+          "claim_basis": ["C-0001 (24-tribe genealogical system)", "C-0008 (pastoral-nomadic ecology determines governance)", "C-0006 (tribal markers preserve steppe values)"],
+          "narrative_role": "Institutional embodiment; shows abstract philosophy translated into concrete political structure"
+        },
+        {
+          "section": "DEDE KORKUT EVRENI",
+          "mechanism": "Epic narratives demonstrate philosophical principles through character action: heroism (philosophy of courage), namus (honor principle), tribal justice (governance philosophy). Philosophy is narratively performative.",
+          "claim_basis": ["C-0007 (core narratives embody steppe values)", "D4 capstone (Dede Korkut as practical philosophy)"],
+          "narrative_role": "Narrative exemplification; shows philosophy as lived practice"
+        }
+      ],
+      "cross_section_causality": "Abstract cosmological principle (Tengricilik) → operationalized through tribal confederation → narrated as philosophical exemplar in epic stories → preserved across centuries through narrative performance",
+      "historiographical_framework": "Philosophy of technology (how philosophy shapes institutions); political theory (cosmology and governance); performance studies (narrative as philosophical practice)",
+      "video_production_angle": "Central question: What does it look like when a civilization organizes itself according to philosophical principles? Answer: Three-level system—abstract principle, institutional structure, narrative embodiment—all reinforcing each other.",
+      "justification": "Integrates Sections 2+3+4; addresses philosophy-in-practice rather than philosophy-in-text; demonstrates non-Western intellectual systems; shows institutional stability through philosophical coherence",
+      "confidence_level": "HIGH"
+    },
+
+    {
+      "angle_id": "ANGLE-003",
+      "angle_name": "Transmission Across Ruptures: Oral Tradition Through Writing to Institutions",
+      "thematic_core": "Pre-literate oral cultures face extinction when writing arrives. But successful oral traditions transition through technological change by adapting while preserving core content. Oral→Manuscript→Print→Digital→Institutional represents evolution, not loss.",
+      "sections_integrated": [
+        {
+          "section": "BOZKIR FELSEFESI",
+          "mechanism": "Pre-Islamic shamanic oral tradition undergoes religious transformation (shamanism→Sufi synthesis) while preserving core values through new institutional form (Islamic education, shrine networks)",
+          "claim_basis": ["C-0001 (shamanic roots)", "C-0010 (Sufizm preserved Tengrici values)", "C-0005 (shamanism as ritual system)"],
+          "narrative_role": "First transmission rupture; demonstrates how philosophy survives religious institutional change"
+        },
+        {
+          "section": "DEDE KORKUT EVRENI",
+          "mechanism": "Oral epic (9th-10th century estimate) transitions through multiple technological/institutional ruptures: oral→Rashid al-Din reference (1318)→manuscript fixation (14th-16th c.)→European archival preservation→academic scholarship→UNESCO institutional recognition (2018)→contemporary digital performance",
+          "claim_basis": ["C-0006 (oral origins 9th-11th c.)", "D3 stage-by-stage causal chain (8 transmission stages)", "C-0003 (UNESCO 2018)", "C-0009 (contemporary film/performance adaptations)"],
+          "narrative_role": "Exemplar case study; shows how narrative form enables transmission across centuries and continents"
+        },
+        {
+          "section": "OĞUZ BOYLARI",
+          "mechanism": "Tribal oral genealogy transitions through Islamic chronicle documentation (Al-Masudi, Ibn al-Athir)→Ottoman administrative records→modern nation-state identity claims→UNESCO multinational nomination. Genealogy survives repeated institutional transitions.",
+          "claim_basis": ["C-0004 (Islamic chroniclers documented tribes)", "C-0005 (modern identity persistence)", "D4 debate (genealogy authenticity)", "D3 causal timeline (pre-Islamic→Islamic→Ottoman→modern)"],
+          "narrative_role": "Institutional persistence; demonstrates how genealogical tradition survives political transitions"
+        }
+      ],
+      "cross_section_causality": "Oral tradition (pre-institutional knowledge) → religious/administrative transformation (institutional integration) → manuscript preservation (technological durability) → geographic dispersal (redundancy) → academic legitimation (interpretive authority) → UNESCO recognition (international status) → living performance (contemporary engagement)",
+      "historiographical_framework": "Media history (technology and cultural transmission); history of oral cultures; institutional anthropology (how institutions preserve tradition)",
+      "video_production_angle": "Central question: How does knowledge survive when its original transmission medium (oral performance in live community) disappears? Answer: Through successive adaptations that maintain core content while accepting new forms—each transition is both loss and renewal.",
+      "justification": "Integrates Sections 2+3+4; addresses urgent contemporary challenge (oral cultures under globalization); demonstrates resilience and adaptation rather than simple preservation; shows institutional role in cultural continuity",
+      "confidence_level": "HIGH"
+    },
+
+    {
+      "angle_id": "ANGLE-004",
+      "angle_name": "Heritage as Geopolitical Weapon: From Suppression to Strategic Deployment",
+      "thematic_core": "The same historical narratives used to suppress (script change erases cultural identity) can be claimed by successor states to build modern identity and exercise regional influence. Heritage becomes diplomatic asset; contemporary politics can distort historical claims.",
+      "sections_integrated": [
+        {
+          "section": "KÜLTÜREL ŞOKLAR",
+          "mechanism": "State suppression of minority languages/scripts creates grievance narratives that later become identity claims ('we have ancient heritage despite erasure'). Suppression creates diaspora consciousness that values heritage more intensely.",
+          "claim_basis": ["C-0002 (Soviet suppression created diaspora identity)", "C-0005 (diaspora preserves language better than homeland)", "C-0008 (education policy creates generational rupture)"],
+          "narrative_role": "Historical trauma becomes political resource; suppression paradoxically intensifies identity claim"
+        },
+        {
+          "section": "OĞUZ BOYLARI",
+          "mechanism": "Modern Turkic nation-states (Turkey, Azerbaijan, Kazakhstan, Turkmenistan) invoke Oğuz genealogy as shared heritage claim. Genealogy authenticity contested but geopolitically significant. Modern identity persistence is social fact regardless of historical authenticity.",
+          "claim_basis": ["C-0005 (modern identity persistence)", "C-0010 (counter-evidence: genealogy may be constructed)", "D4 debate (Turkish nationalism vs. international skepticism)", "D4 historiographic consensus (genealogy authenticity unresolved)"],
+          "narrative_role": "Identity deployment mechanism; shows how contested history becomes political resource"
+        },
+        {
+          "section": "DEDE KORKUT EVRENI",
+          "mechanism": "UNESCO 2018 inscription with multinational nomination (Turkey, Azerbaijan, Kazakhstan as primary nominators; Turkmenistan, Uzbekistan, Kyrgyzstan participating) demonstrates heritage as diplomatic tool. Institutional validation strengthens regional identity claims.",
+          "claim_basis": ["C-0003 (UNESCO 2018)", "D4 debate 4 (geopolitical dimensions of UNESCO recognition)", "D4 synthesis (institutional validation + geopolitical context, both real)"],
+          "narrative_role": "Contemporary institutional manifestation; shows heritage deployed in current geopolitics"
+        }
+      ],
+      "cross_section_causality": "Historical suppression (creates grievance + preserves heritage through diaspora) → genealogical claims (nation-states assert shared identity) → institutional validation (UNESCO recognition legitimizes geopolitical claims) → contemporary politics (heritage becomes diplomatic resource in regional competition)",
+      "historiographical_framework": "Postcolonial theory (how colonized/suppressed peoples deploy counter-narratives); international relations (cultural diplomacy); nationalism studies (invented traditions; invented continuities)",
+      "video_production_angle": "Central question: When heritage becomes geopolitical weapon, who benefits and who is harmed? Answer: Complex: institutional validation protects endangered traditions AND enables nationalist claims; UNESCO recognition provides legal protection AND becomes diplomatic leverage in regional conflicts.",
+      "justification": "Integrates Sections 1+3+4; addresses contemporary geopolitics directly (Turkey/Russia/China language politics); demonstrates how history can serve both preservation and oppression; raises critical questions about heritage ownership and nationalist deployment",
+      "confidence_level": "MEDIUM (more contested than other angles; reflects contemporary political sensitivity)"
+    }
+  ],
+
+  "cross_sectional_integration_summary": {
+    "angle_001": "Memory resilience: emphasizes non-institutional knowledge transmission (philosophy, narrative)",
+    "angle_002": "Philosophy practice: emphasizes three-level embodiment (abstract→institutional→narrative)",
+    "angle_003": "Transmission evolution: emphasizes adaptability across technological/institutional ruptures",
+    "angle_004": "Geopolitical deployment: emphasizes contemporary stakes and contested heritage claims",
+    "integrative_coherence": "Together, these four angles tell story of how steppe philosophical culture survives institutional suppression, gets embedded in political structures, adapts across centuries through different media, and becomes contemporary geopolitical resource—all four dimensions true simultaneously"
+  },
+
+  "validation_notes": {
+    "schema_compliance": "All angles include: angle_id, angle_name, thematic_core, sections_integrated (with mechanism + claim_basis + narrative_role), cross_section_causality, historiographical_framework, video_production_angle, justification, confidence_level",
+    "each_angle_integrates_minimum": "2+ sections (all integrate 3 sections)",
+    "claim_basis_sourced": "All claims traceable to consolidated Faz D assertions",
+    "production_viability": "All four angles video-producible with documentary/explanatory framing"
+  }
+}

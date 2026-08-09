@@ -1,0 +1,236 @@
+{
+  "phase": "A",
+  "phase_name": "Keşif & Konsept Kartları",
+  "cluster": "7TH_CLUSTER",
+  "items_range": "551-800",
+  "total_items_identified": 250,
+  "note_on_source_gap": "Items 501-550 are missing in source document (document jumps from 500 to 551). This analysis covers actual available items: 551-800.",
+  "sections_discovered": [
+    {
+      "section_id": 1,
+      "name": "KÜLTÜREL ŞOKLAR",
+      "items_range": "551-600",
+      "item_count": 50,
+      "title_candidates": [
+        "Cultural Shocks: When Worlds Collide",
+        "Kültürel Travma: Kimlik Kaybının Tarihi",
+        "Silinmek: Dil, Alfabe, Hafıza",
+        "Devlet ve Unutma: Kontrollü Bellek",
+        "Digital Age, Lost Memories: The Modern Cultural Shock"
+      ],
+      "research_question": "How do states and dominant cultures suppress minority identities through linguistic erasure, alphabet changes, and memory control?",
+      "expected_findings": [
+        "Case studies of alphabet transitions (Ottoman Turkish, Soviet Turkic languages, modern Chinese)",
+        "State mechanisms of cultural suppression (Russification, Arabization, Sinicization policies)",
+        "Minority language extinction patterns and survival strategies",
+        "Digital age factors in cultural memory preservation or loss",
+        "Psychological and social impacts of cultural displacement"
+      ],
+      "challenge_level": "MEDIUM",
+      "tier_distribution": {
+        "short_new": 45,
+        "long": 3,
+        "epic": 2,
+        "short_repurpose": 0
+      },
+      "integration_with_previous_clusters": "Builds directly on Cluster B (state mechanisms of control, 101-200) and Cluster D (linguistic evolution, 301-400). Applies theoretical frameworks from earlier layers to concrete cases of cultural extinction and transformation.",
+      "priority": "PRIORITY_1",
+      "priority_rationale": "Strong source base (alphabet transitions are well-documented historical events), contemporary relevance (diaspora narratives, minority rights discourse), and bridges theoretical understanding with applied historical cases. UNESCO resources available for linguistic endangerment. Clear narrative arc from historical suppression to modern digital challenges.",
+      "research_gaps_identified": [
+        "Digital-age cultural preservation strategies (post-2000)",
+        "First-person accounts from diaspora communities",
+        "Comparative analysis across different suppression mechanisms"
+      ],
+      "source_categories": [
+        "Academic (UNESCO, language preservation databases)",
+        "Archival (state policies, linguistic records)",
+        "Interview/oral history (diaspora communities)",
+        "Literary (works written in endangered languages)"
+      ]
+    },
+    {
+      "section_id": 2,
+      "name": "BOZKIR FELSEFESİ",
+      "items_range": "601-700",
+      "item_count": 100,
+      "title_candidates": [
+        "Steppe Philosophy: A Worldview Born of Open Skies",
+        "Bozkırın Aklı: Türk Düşünce Kökenleri",
+        "Freedom, Sovereignty, Spirit: The Turkic Philosophical Tradition",
+        "Gök Umay's Children: The Philosophy of Ten Tongues",
+        "From the Horizon to the Soul: Steppe Values and Modern Identity"
+      ],
+      "research_question": "What philosophical principles emerged from steppe life, and how do they define the spiritual and intellectual identity of Turkic peoples across 10 different linguistic and cultural expressions?",
+      "expected_findings": [
+        "Core concepts: freedom (özgürlük), honor (namus), strength (kuvvet), spiritual connection (Gök Umay)",
+        "Steppe ecology shaping worldview (nomadic patterns, land relationship, sky worship)",
+        "Gök Umay mythology and its variants across 10 Turkic languages/cultures",
+        "Philosophical continuity from pre-Islamic through Islamic to modern expressions",
+        "Comparisons with other nomadic philosophies (Mongol, Arab, Central Asian)",
+        "Modern relevance: steppe values in urban/globalized Turkic identity"
+      ],
+      "challenge_level": "HARD",
+      "tier_distribution": {
+        "short_new": 85,
+        "long": 10,
+        "epic": 5,
+        "short_repurpose": 0
+      },
+      "integration_with_previous_clusters": "Serves as foundational philosophical layer underlying ALL previous clusters (1-5). Cluster A (identity, 1-100) assumes conscious beings; this section explains WHAT consciousness means in Turkic worldview. Cluster B-E applied these principles to historical/linguistic/memory phenomena; this explains their WHY.",
+      "priority": "PRIORITY_1",
+      "priority_rationale": "Thematic anchor for entire research project. Gök Umay 'ten dil' concept appears multiple times in backlog (items 98-100 in earlier section sample). Provides interpretive framework for understanding all subsequent historical narratives. Mythology and philosophy well-documented in secondary sources (Turkish Sufi traditions, anthropological studies, Oğuz Kağan literature). Bridges past and present identity construction.",
+      "research_gaps_identified": [
+        "Comparative analysis of Gök Umay across 10 specific languages/cultures",
+        "Modern reinterpretations in educational/political discourse",
+        "Connection between ancient philosophy and contemporary Turkish intellectual movements",
+        "Environmental philosophy: ecological sustainability in steppe values"
+      ],
+      "source_categories": [
+        "Mythological (Oğuz Kağan, Dede Korkut proto-texts, epic traditions)",
+        "Philosophical (Sufi traditions, Central Asian intellectual history)",
+        "Anthropological (nomadic culture studies, comparative worldviews)",
+        "Contemporary (modern Turkic intellectual discourse, identity construction)"
+      ]
+    },
+    {
+      "section_id": 3,
+      "name": "OĞUZ BOYLARI",
+      "items_range": "701-750",
+      "item_count": 50,
+      "title_candidates": [
+        "The Oğuz Confederation: Tribes, Territory, and Legacy",
+        "Oğuz Kağan Efsanesinden Gerçek Tarihe",
+        "24 Tribes of Anatolia: Genealogy and Geographic Dispersion",
+        "From Steppe to Sultanate: The Political Evolution of Oğuz Peoples",
+        "Oğuz Identity Across Borders: A Diaspora Spanning Continents"
+      ],
+      "research_question": "How did the Oğuz confederation organize itself politically and socially, and how were its tribal structures reflected geographically across Central Asia, Anatolia, and beyond?",
+      "expected_findings": [
+        "Genealogical framework: 24-boy system and its variants",
+        "Territory mapping: Oğuz migration routes and settlement patterns",
+        "Oğuz Kağan narrative vs. historical kernel (comparative mythhistory)",
+        "Tribal identity markers: names, emblems, social roles",
+        "Geographic dispersion: how Oğuz presence appears in modern states (Turkey, Azerbaijan, Turkmenistan, etc.)",
+        "Political evolution: confederation to sultanate structures"
+      ],
+      "challenge_level": "MEDIUM",
+      "tier_distribution": {
+        "short_new": 40,
+        "long": 7,
+        "epic": 3,
+        "short_repurpose": 0
+      },
+      "integration_with_previous_clusters": "Concrete historical instantiation of Bozkır Felsefesi (Section 2). Takes philosophical principles and shows how they organized tribal governance, genealogy, and territorial distribution. Also grounds Section 1's identity questions in specific Oğuz case studies (Turkmenistan, Azerbaijan, diaspora communities).",
+      "priority": "PRIORITY_1",
+      "priority_rationale": "Well-documented tribal genealogies in Islamic historiography (al-Masudi, Ibn al-Athir). Archaeological evidence for Oğuz migrations. Modern relevance across multiple nation-states (Turkey, Azerbaijan, Turkmenistan, Kazakhstan). Clear narrative progression from mythological founder (Oğuz Kağan) to historical confederations. Maps directly to Dede Korkut narrative (next section) which chronicles individual Oğuz tribes.",
+      "research_gaps_identified": [
+        "Genetic/DNA evidence for Oğuz populations (modern research)",
+        "Tribal identity persistence in modern diaspora communities",
+        "Women's roles in tribal genealogy and kinship systems",
+        "Economic organization of pastoral confederation"
+      ],
+      "source_categories": [
+        "Islamic historical texts (10th-14th century chroniclers)",
+        "Genealogical literature (nasab compilations)",
+        "Archaeological reports (migration patterns, settlement sites)",
+        "Modern ethnographic studies (diaspora communities, tribal identity)"
+      ]
+    },
+    {
+      "section_id": 4,
+      "name": "DEDE KORKUT EVRENİ",
+      "items_range": "751-800",
+      "item_count": 50,
+      "title_candidates": [
+        "Dede Korkut: The Living Memory of Turkic Peoples",
+        "Dede Korkut Kitabı: Myth, History, and UNESCO Heritage",
+        "The Book of Dede Korkut: Chronicles of the Oğuz Soul",
+        "Living Epic: How Dede Korkut Preserved Oğuz Identity Across Centuries",
+        "The Wisdom Keeper: Dede Korkut as Historical Archive and Spiritual Guide"
+      ],
+      "research_question": "How does the Dede Korkut literary tradition function as both historical testimony and cultural memory, and why has it achieved UNESCO recognition as intangible cultural heritage?",
+      "expected_findings": [
+        "Dede Korkut's historical kernel: pre-Islamic Turkic shaman or Islamic sufi saint?",
+        "The 12-story narrative corpus: what historical events do they preserve?",
+        "UNESCO 2001 recognition: criteria met and implications for cultural preservation",
+        "Manuscript traditions: multiple versions across Ottoman, Azerbaijani, Turkmen variants",
+        "Narrative themes: heroism, honor, spiritual guidance, tribal justice, cosmic order",
+        "Modern literary and theatrical adaptations: Dede Korkut in contemporary media",
+        "Comparative analysis with other epic traditions (Homer, Nibelungen, Shahnameh)"
+      ],
+      "challenge_level": "MEDIUM",
+      "tier_distribution": {
+        "short_new": 38,
+        "long": 8,
+        "epic": 4,
+        "short_repurpose": 0
+      },
+      "integration_with_previous_clusters": "Capstone section: synthesizes all previous clusters. Characters IN Dede Korkut represent Oğuz tribes from Section 3. Stories embody Bozkır Felsefesi values (Section 2). The corpus itself is a case study of cultural memory surviving linguistic/cultural shocks (Section 1). Final layer demonstrates how memory preservation succeeds when embedded in narrative/artistic tradition.",
+      "priority": "PRIORITY_1",
+      "priority_rationale": "UNESCO official recognition (2001) provides institutional validation and access to preservation resources. Manuscripts available in multiple versions (Turkish, Azerbaijani, Turkmen, etc.). Rich secondary literature in Turkish and European scholarship. Living tradition: still recited/performed in some communities. Literary quality enables multimedia adaptation (crucial for video studio work). Provides concrete individual narratives (heroes, conflicts, wisdom) that other sections reference abstractly.",
+      "research_gaps_identified": [
+        "Reconstruction of pre-manuscript oral transmission",
+        "Comparative analysis of manuscript variants",
+        "Female characters and gender roles in the epic",
+        "Environmental and ecological themes in the narratives",
+        "Modern performance traditions and community enactments"
+      ],
+      "source_categories": [
+        "Manuscript sources (Ottoman, Azerbaijani, Turkmen variants)",
+        "Literary scholarship (Turkish, European academic traditions)",
+        "UNESCO documentation and preservation records",
+        "Performance/oral tradition recordings (if available)",
+        "Film/theatrical adaptations (contemporary interpretations)"
+      ]
+    }
+  ],
+  "clustering_recommendation": {
+    "total_sections": 4,
+    "total_items": 250,
+    "recommended_parallelization_strategy": "2-3 parallel agent groups",
+    "reasoning": "Bozkır Felsefesi (100 items) is foundational to interpretation of other 3 sections (50 items each). Recommend: (Agent-1: Bozkır Felsefesi exclusively) | (Agent-2: Kültürel Şoklar + Oğuz Boylari in tandem) | (Agent-3: Dede Korkut as capstone, can proceed after Agent-1 completes foundational research)",
+    "suggested_grouping": "Sequential-but-parallel: Section 2 (Bozkır Felsefesi) should be research-completed BEFORE sections 3-4 begin deep research, but can proceed in parallel with section 1. Section 4 (Dede Korkut) benefits from completed sections 1-3 but can begin literature review independently.",
+    "estimated_timeline_weeks": 6,
+    "phase_b_readiness": "Minimum 2 weeks after Faz A completion"
+  },
+  "priority_summary": {
+    "PRIORITY_1_sections": [
+      "KÜLTÜREL ŞOKLAR (strong sources, contemporary relevance)",
+      "BOZKIR FELSEFESİ (foundational to entire project)",
+      "OĞUZ BOYLARI (well-documented, multiple sources)",
+      "DEDE KORKUT EVRENİ (UNESCO recognition, literary quality)"
+    ],
+    "PRIORITY_2_sections": [],
+    "PRIORITY_3_sections": [],
+    "notes": "All 4 sections score PRIORITY_1 - no section with low confidence. This 7th cluster represents highest-confidence source material identified so far."
+  },
+  "cross_cluster_integration_map": {
+    "relationship_to_clusters_1_5": {
+      "cluster_1_identity_and_consciousness": "Bozkır Felsefesi (Section 2) provides philosophical foundation for conscious identity",
+      "cluster_2_state_and_memory": "Kültürel Şoklar (Section 1) shows state mechanisms suppressing memory identified in Cluster 2",
+      "cluster_3_cultural_transmission": "Dede Korkut (Section 4) exemplifies successful cultural transmission through narrative",
+      "cluster_4_linguistic_evolution": "Kültürel Şoklar (Section 1) documents linguistic loss mechanisms explored in Cluster 4",
+      "cluster_5_memory_preservation": "Dede Korkut (Section 4) shows memory surviving through artistic/epic tradition"
+    }
+  },
+  "research_methodology_notes": {
+    "primary_vs_secondary": "Sections 2-4 rely heavily on secondary scholarship. Section 1 (Kültürel Şoklar) requires primary documents (state policies, linguistic surveys). Recommend UNESCO databases, academic linguistics journals, regional archives.",
+    "geopolitical_sensitivity": "Sections 1 & 3 touch sensitive topics (minority suppression, territorial claims across modern borders). Recommend: (a) attributing claims clearly to sources, (b) including multiple perspectives where disputed, (c) consulting CLAUDE.md guidelines on rights/sensitivity",
+    "source_verification_strategy": "Start with UNESCO resources and academic databases (highest credibility). Cross-reference with regional sources (Turkish, Azerbaijani, Turkmen scholarship). Flag any claims appearing in only one source or from advocacy organizations (note as findings, not facts).",
+    "multimedia_adaptation_potential": [
+      "Section 1: Documentary-style interviews + historical footage of alphabet transitions",
+      "Section 2: Philosophical voiceover + animatic illustrations of steppe life + Gök Umay mythology",
+      "Section 3: Historical maps + genealogical timelines + modern diaspora footage",
+      "Section 4: Dede Korkut manuscript illuminations + theatrical/performance footage + narrative animation"
+    ]
+  },
+  "archive_metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T17:24:12.885402Z",
+    "prompt_version": "historical-research-pipeline v1.0",
+    "content_backlog_source": "projects/_content_backlog/state/content_backlog.json",
+    "content_backlog_read_date": "2026-08-09",
+    "processing_method": "Automated extraction + manual concept card generation",
+    "validation_status": "Pending schema validation"
+  }
+}

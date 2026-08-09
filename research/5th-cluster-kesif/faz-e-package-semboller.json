@@ -1,0 +1,117 @@
+{
+  "package_id": "5TH-SEMBOLLER-E",
+  "phase": "E",
+  "section": "SEMBOLLER",
+  "items": "311-350",
+
+  "angle": {
+    "selected_angle": "Three-Layer Continuity: How Turkic Totemism Survived Islamic Prohibition and Ottoman Formalization",
+    "rationale": "Shows symbolic resilience across religious transformations: Pre-Islamic totem (wolf, eagle) → Islamic adaptation (crescent-star with legitimation) → Ottoman formalization (state heraldry). Demonstrates evolution of legitimation while maintaining cultural continuity; avoids false 'unchanging culture' claim."
+  },
+
+  "hook": {
+    "primary_hook": "The Wolf, The Crescent, The Eagle: How One Culture's Sacred Symbols Survived 1,500 Years and Three Religions",
+    "entry_point": "Pre-Islamic wolf totem in Turkic origin myths → crescent-star in Islamic context → Ottoman imperial eagle. Same symbolic DNA, different religious/political context.",
+    "conflict": "Pre-Islamic evidence is sparse; narration begins with earliest *documented* evidence (Orkhon 8c), notes earlier traditions as plausible but unproven."
+  },
+
+  "research_foundation": {
+    "faz_d_reference": "faz-d-master-dossier-semboller.json",
+    "completeness_score": 0.68,
+    "readiness_verdict": "CONDITIONAL (with documented gaps)",
+    "readiness_rationale": "Completeness 0.68 reflects uneven evidence distribution: Pre-Islamic totemism (sparse evidence, PLAUSIBLE verdicts), Islamic adaptation (well-documented, STRONGLY_SUPPORTED), Ottoman formalization (well-documented, PROBABLY). D5 identifies 'pre-Islamic totem evidence gap' as BLOCKING risk but notes this doesn't prevent narration if pre-8c is clearly marked as plausible inference, not proven fact.",
+    "key_strengths": [
+      "Islamic adaptation period well-documented (4 STRONGLY_SUPPORTED claims on crescent-star adoption)",
+      "Ottoman heraldry extensively documented (3+ primary sources on seals, insignia, architectural symbols)",
+      "Continuity mechanism clear (religious adaptation of existing totemic symbols for Islamic theological legitimacy)",
+      "Comparative evidence strong (wolf totem in Turkic myths, crescent-star on coins/seals, Ottoman imperial eagle on monuments)"
+    ],
+    "major_gaps": [
+      "Pre-Islamic totem evidence sparse (affects claims C-0001, C-0004, C-0005; historiographic bias risk flagged)",
+      "Islamic aniconism causality unclear (debate: did Islamic law coerce adaptation, or did Turkic peoples independently choose?)",
+      "Mesopotamian crescent-star alternative (affects historiography of symbol origin; Middle Eastern vs. Turkic attribution unclear)",
+      "Bozkurt pseudo-Turkology risk (MEDIUM-HIGH: modern nationalist appropriation of medieval symbols creates interpretation contamination)"
+    ],
+    "readiness_conditions": [
+      "Condition A: Mark pre-Islamic evidence as plausible but unproven — 'Pre-Islamic Turkic totemism appears in origin myths and Scythian/Xiongnu precedent, but direct archaeological evidence is limited. The symbols themselves are documented from the 8th century Orkhon period onward.'",
+      "Condition B: Acknowledge Islamic adaptation debate — 'Scholars debate whether Islamic prohibition coerced Turkic symbol adaptation or whether Turkic peoples independently chose visual adaptation within Islamic theological framework. Both positions have scholarly support.'",
+      "Condition C: Note historiographic bias — 'Turkish academia dominates symbol studies; Chinese/Russian/Iranian perspectives are less represented in accessible research. Post-colonial scholarship on symbol appropriation is emerging.'",
+      "Condition D: Flag modern appropriation risk — 'Modern Turkish nationalism has appropriated medieval symbols (Bozkurt wolf imagery) in ways that reshape historical meaning. Documentary clarity required: medieval symbolism ≠ modern nationalist ideology.'"
+    ]
+  },
+
+  "content_brief": {
+    "target_audience": "Turkic heritage interest, symbol/heraldry scholars, comparative religion interest, Ottoman history enthusiasts",
+    "narrative_approach": "Archaeological evidence + comparative symbolism + religious adaptation mechanism + explicit caution on modern nationalist appropriation",
+    "content_warnings": "Historiographic bias (Turkish academia dominant); modern nationalist appropriation of medieval symbols; Islamic aniconism debate (interpretive, not factual dispute)",
+    "narrative_acts": [
+      {
+        "act": 1,
+        "title": "Pre-Islamic Totemism (inferred from myths and precedent)",
+        "duration_estimate": "1-2 min",
+        "content": "Wolf totem in Turkic origin myths (Ashina legend); Scythian/Xiongnu precedent in sealing practices. Frame as 'plausible cultural continuity' not 'proven archaeological fact.' Artistic reconstruction of totemism-based worldview."
+      },
+      {
+        "act": 2,
+        "title": "Islamic Adaptation (8c-12c documented)",
+        "duration_estimate": "3-4 min",
+        "content": "Crescent-star symbols on early Islamic period coins and architecture. How did Turkic peoples reconcile pre-Islamic totemism with Islamic aniconism? Evidence: symbols persisted with Islamic theological legitimation (crescent as Islamic symbol, star as Islamic emblem). Coins, inscriptions, architectural examples on screen."
+      },
+      {
+        "act": 3,
+        "title": "Ottoman Formalization (16c-19c institutional)",
+        "duration_estimate": "2-3 min",
+        "content": "Ottoman imperial seals featuring crescent-eagle imagery. Military insignia, architectural symbols (mosques, palaces bearing crescent-eagle). Administrative codification of symbols as state heraldry. Museum artifacts, architectural photography."
+      },
+      {
+        "act": 4,
+        "title": "Modern Symbolism & Nationalist Appropriation (20c-21c cautionary)",
+        "duration_estimate": "1-2 min",
+        "content": "Modern Turkish flag (crescent-star); Bozkurt (wolf) imagery in modern nationalism. Caution: medieval symbols reshaped for modern political meaning. Documentary transparency: these symbols carry both medieval continuity AND modern nationalist reinterpretation. Not a corruption of 'authentic' meaning, but a layering of interpretations."
+      }
+    ]
+  },
+
+  "production_scope": {
+    "expected_duration": "8-12 minutes",
+    "scene_count": "25-35 scenes",
+    "visual_style": "Archaeological/heraldic focus + comparative symbolism + religious adaptation visualization + architectural photography",
+    "primary_visual_assets": [
+      "Turkic origin myth illustrations (wolf totem, Ashina legend artistic reconstruction)",
+      "Early Islamic period coins with crescent-star (numismatic examples)",
+      "Ottoman seals with crescent-eagle (archive/museum photography)",
+      "Ottoman architectural symbols (mosque/palace photography showing embedded symbols)",
+      "Comparative symbol evolution timeline (visual morphing of symbol forms across periods)",
+      "Modern Turkish flag and nationalist symbols (contemporary context)",
+      "Historiographic comparison (different scholarly interpretations displayed transparently)"
+    ],
+    "interview_potential": "Medium-High — Ottoman heritage specialists, symbol/heraldry experts, comparative religion scholars, Turkish nationalism historians, post-colonial studies perspectives",
+    "archival_material_available": "High — Ottoman seals, numismatic collections, architectural documentation, museum catalogs"
+  },
+
+  "production_notes": {
+    "historiographic_transparency_required": "Yes — Pre-Islamic inference marked as such; Islamic adaptation debate acknowledged; modern appropriation flagged; historiographic bias transparency included",
+    "geopolitical_sensitivity": "MEDIUM — Nationalist symbol appropriation sensitive; framing available that acknowledges both medieval continuity AND modern reinterpretation without dismissing either",
+    "critical_caveats_count": 6,
+    "caveats_detail": [
+      "Pre-Islamic evidence sparsity: 'Pre-Islamic Turkic totemism appears in origin myths and Scythian/Xiongnu predecessor cultures, but direct archaeological evidence prior to 8th century is limited. The symbols themselves are first securely documented from the Orkhon inscriptions (8c CE) onward.'",
+      "Totemism backprojection risk: 'Modern ethnographic documentation strongly supports totemic symbolism in Turkic culture; whether medieval practice carried the same spiritual weight remains uncertain.'",
+      "Islamic aniconism causality: 'Scholars debate whether Islamic prohibition coerced Turkic symbol adaptation or whether Turkic peoples independently chose visual adaptation within Islamic theological framework. Evidence supports both interpretations; causality remains unclear.'",
+      "Mesopotamian crescent alternative: 'The crescent-star symbol pre-dates Turkic usage (appears in Mesopotamian contexts). Whether Turkic adoption represents independent innovation or transmission of earlier symbolism requires further research.'",
+      "Historiographic bias: 'Turkish academia is the primary source for symbol studies in this research. Chinese, Russian, and Iranian scholarly perspectives on symbol adaptation are less represented in accessible English-language scholarship. Post-colonial critical scholarship on symbol appropriation is emerging.'",
+      "Modern nationalist appropriation: 'Modern Turkish nationalism has appropriated medieval symbols (especially the Bozkurt wolf) in ways that reshape historical meaning. Documentary clarity required: medieval symbolism carries both historical continuity AND modern nationalist reinterpretation; not a corruption of 'authentic' meaning, but layering of interpretations.'"
+    ]
+  },
+
+  "archive_metadata": {
+    "generated_at": "2026-08-09T18:46:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-package-semboller",
+    "faz_b_sources_count": "25+",
+    "faz_b_claims_count": 11,
+    "faz_c_strongly_supported": 4,
+    "faz_c_probably": "5+",
+    "red_team_flags_total": 8
+  }
+}

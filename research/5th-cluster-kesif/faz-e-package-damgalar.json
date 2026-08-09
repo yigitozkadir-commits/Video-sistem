@@ -1,0 +1,115 @@
+{
+  "package_id": "5TH-DAMGALAR-E",
+  "phase": "E",
+  "section": "DAMGALAR",
+  "items": "201-240",
+
+  "angle": {
+    "selected_angle": "Clan Identity Through Visual Language: How Turkic Tamgas Encoded Social Hierarchy and Sovereignty Across Centuries",
+    "rationale": "Visually storable, narratively clear progression from Pre-Islamic totemism → Medieval tribal systems → Ottoman administration → Modern ethnographic practice. Avoids contested Shifner proto-writing theory while centering proven functions (property marking, identity assertion)."
+  },
+
+  "hook": {
+    "primary_hook": "A Symbol That Outlasted Empires: How Clan Seals Shaped Turkic Identity for 2,000 Years",
+    "entry_point": "Archaeological fact: Xiongnu pottery bearing tamga marks (3c CE). Tangible, visual, 1,700 years old.",
+    "conflict": "Historiographical debate (tamga-to-writing theory) is secondary intrigue, not central mystery."
+  },
+
+  "research_foundation": {
+    "faz_d_reference": "faz-d-master-dossier-damgalar.json",
+    "faz_d_sha256": "d33674a203345aac6ef8497ccf66de2b1de9358fe978b5104910c231b09c8328",
+    "completeness_score": 0.83,
+    "readiness_verdict": "CONDITIONAL",
+    "readiness_rationale": "Claim coverage complete (12/12); evidence quality adequate (35 sources, low circular citation risk); historiographical debate fully mapped. Major limitation: pre-3rd century evidence sparse; Medieval-Ottoman continuity assumed but not proven.",
+    "key_strengths": [
+      "12/12 claims verified with detailed verdicts",
+      "35 sources from independent groups; 22 independence groups",
+      "Historiographical debate (Shifner vs. Aramaic) fully mapped",
+      "8c+ Orkhon and Ottoman evidence strong",
+      "Red team analysis comprehensive; 13 critical flags identified"
+    ],
+    "major_gaps": [
+      "Pre-3 century tamga archaeological evidence minimal",
+      "Medieval (12c-14c) practice documentation limited; relies on inferred continuity",
+      "Ottoman archival records (tomar) largely inaccessible",
+      "Transmission mechanism from Hunnic/Xiongnu to Turkic sealing not empirically demonstrated"
+    ],
+    "readiness_conditions": [
+      "Condition A: Add historiographic caveat in narration about Shifner theory vs. modern Aramaic consensus",
+      "Condition B: Explicitly acknowledge pre-3 century evidence scarcity and Orkhon (8c) as documented starting point",
+      "Condition C: Note medieval documentation gap (8c-12c) and acknowledge continuity as inference not proof",
+      "Condition D: Specify totemism qualification — modern ethnographic documentation strong; medieval spiritual function uncertain"
+    ]
+  },
+
+  "content_brief": {
+    "target_audience": "History enthusiasts, cultural anthropology, Turkic heritage interest",
+    "narrative_approach": "Historiographic transparency + archaeological evidence + evolutionary perspective showing adaptation across political systems",
+    "content_warnings": "None (No geopolitical sensitivity; historiographical debate is scholarly, not ideological)",
+    "narrative_acts": [
+      {
+        "act": 1,
+        "title": "Pre-Islamic Totemism (inferred)",
+        "duration_estimate": "1-2 min",
+        "content": "Wolf totem in Turkic origin myths; Scythian/Xiongnu precedent (evidence: SRC-0034, SRC-0022). Frame as 'plausible cultural continuity' not 'proven transmission'."
+      },
+      {
+        "act": 2,
+        "title": "Documented Medieval Practice (8c-15c)",
+        "duration_estimate": "3-4 min",
+        "content": "Orkhon inscriptions (8c AD 732, 735); Kazakh/Kyrgyz tribal damgalar systems; Xiongnu pottery evidence. Archaeological artifacts, museum examples, ethnographic documentation."
+      },
+      {
+        "act": 3,
+        "title": "Ottoman Formalization (16c-19c)",
+        "duration_estimate": "2-3 min",
+        "content": "Ottoman sultans' personal seals (muhrü), grand viziers' oval seals in administrative records. Shift from tribal to bureaucratic seal use. Archive footage, seal examples."
+      },
+      {
+        "act": 4,
+        "title": "Modern Continuity (20c-21c)",
+        "duration_estimate": "1-2 min",
+        "content": "Modern Kazakh/Kyrgyz damgalar systems in ethnographic documentation. State interest in preserving symbols as heritage. Contemporary examples."
+      }
+    ]
+  },
+
+  "production_scope": {
+    "expected_duration": "8-12 minutes",
+    "scene_count": "25-35 scenes",
+    "visual_style": "Archaeological/archival focus + maps + artifact reconstructions + comparative symbol analysis",
+    "primary_visual_assets": [
+      "Xiongnu pottery with tamga marks (museum photography)",
+      "Orkhon inscriptions (site photography, rubbings)",
+      "Ottoman administrative seals (archive/museum examples)",
+      "Modern Kazakh/Kyrgyz damgalar examples (ethnographic documentation or illustration)",
+      "Comparative symbol analysis (morphological similarities across periods)",
+      "Geographic maps (Scythian→Xiongnu→Turkic distribution)"
+    ],
+    "interview_potential": "High — Modern Kazakh/Kyrgyz heritage specialists, museum curators, Ottoman historians",
+    "archival_material_available": "High — Ottoman records (tomar), museum catalogs, academic publications"
+  },
+
+  "production_notes": {
+    "historiographic_transparency_required": "Yes — Narration must acknowledge Shifner theory debate without resolving it in false consensus",
+    "geopolitical_sensitivity": "LOW — No geopolitical dimensions; scholarly debate is normal academic discourse",
+    "critical_caveats_count": 4,
+    "caveats_detail": [
+      "Pre-3 century gap: 'Earliest documented Turkic tamga use is from 8th century Orkhon inscriptions; earlier sealing practices among Scythian and Hunnic peoples may represent precedent, though direct transmission is not proven.'",
+      "Medieval continuity: 'Between the 8th-century Orkhon period and documented medieval Kazakh/Kyrgyz systems (12c+), we have limited written records. Modern systems may reflect continuous tradition or later reconstruction.'",
+      "Totemism qualification: 'Modern ethnographic records document totemic symbolism in Turkic damgalar; whether medieval practice carried the same spiritual weight remains uncertain.'",
+      "Historiographical debate: 'Scholars debate whether damgalar influenced Old Turkic writing; modern consensus favors Aramaic derivation, but 19th-century morphological evidence remains suggestive.'"
+    ]
+  },
+
+  "archive_metadata": {
+    "generated_at": "2026-08-09T18:40:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-package-damgalar",
+    "faz_b_sources_count": 35,
+    "faz_b_claims_count": 12,
+    "faz_b_evidence_count": 16,
+    "red_team_flags_total": 13
+  }
+}

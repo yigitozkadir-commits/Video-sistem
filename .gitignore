@@ -31,6 +31,14 @@ projects/PRJ-ninniler-atlasi/assets/still/
 projects/PRJ-ninniler-atlasi/render/
 remotion_ninniler_atlasi/public/still/
 
+# projects/_content_backlog/output/: delivered short/long video files -
+# large, deliverable bytes belong on Kaggle (see kaggle_archive.jsonl-style
+# pointers) or in the chat delivery itself, not in git history, same
+# reasoning as CLAUDE.md section 9. production_calendar.json (tracked)
+# already records each delivered item's output_path/duration for
+# provenance even though the byte itself isn't tracked here.
+projects/_content_backlog/output/
+
 # projects/_content_backlog/_scratch/: working downloads (existing Kaggle
 # masters pulled down to cut repurposed shorts from, faster-whisper
 # transcripts used to find real cut timestamps) - large, regenerable,

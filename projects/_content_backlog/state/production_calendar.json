@@ -1,0 +1,39 @@
+{
+  "target_shorts_per_day": 3,
+  "target_long_per_day": 2,
+  "days": [
+    {
+      "date": "2026-08-09",
+      "shorts_delivered": [
+        {
+          "backlog_id": "CB-0903",
+          "tier": "short_repurpose",
+          "output_path": "projects/_content_backlog/output/shorts/short_CB-0903.mp4",
+          "duration_s": 36.1
+        },
+        {
+          "backlog_id": "CB-0951",
+          "tier": "short_repurpose",
+          "output_path": "projects/_content_backlog/output/shorts/short_CB-0951.mp4",
+          "duration_s": 35.7
+        },
+        {
+          "backlog_id": "CB-0952",
+          "tier": "short_repurpose",
+          "output_path": "projects/_content_backlog/output/shorts/short_CB-0952.mp4",
+          "duration_s": 64.1
+        }
+      ],
+      "long_videos_delivered": [
+        {
+          "consolidation_group": "otrar-faciasi-deepening",
+          "project_ref": "PRJ-otrar-faciasi",
+          "stage": "rendered"
+        }
+      ],
+      "target_shorts_per_day": 3,
+      "target_long_per_day": 2,
+      "notes": "3/3 short hedefi tutturuldu (hepsi short_repurpose - ryskulov_mektubu_master.mp4'ten, faster-whisper transkripsiyonuyla gerçek zaman damgaları bulunup kesildi, yeni Flow/ElevenLabs üretimi yok). Uzun video kotası: Otrar Faciası'nın (bu içerik-backlog listesinden değil, önceki M23 üretiminden) tam render'ı bugün tamamlandı ama bu backlog'un kendi 'long' havuzundan (Büyük Devletler vb.) henüz hiçbir video başlamadı - Faz 1'in ilk günü olarak 1/2 sayılmalı, ikinci uzun video kaynağı henüz yok. Bu, planın Faz 1 kalibrasyon notuyla tutarlı: gerçek tempo burada başlıyor."
+    }
+  ]
+}

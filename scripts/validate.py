@@ -113,6 +113,13 @@ def main():
             for item in backlog.get("items", []):
                 for e in v.iter_errors(item):
                     errors.append(f"content_backlog.json[{item.get('backlog_id')}]: {e.message}")
+        calendar_p = f"{ROOT}/projects/_content_backlog/state/production_calendar.json"
+        if os.path.exists(calendar_p):
+            v = Draft202012Validator(json.load(open(f"{ROOT}/schemas/production_calendar_entry.schema.json")))
+            calendar = json.load(open(calendar_p))
+            for entry in calendar.get("days", []):
+                for e in v.iter_errors(entry):
+                    errors.append(f"production_calendar.json[{entry.get('date')}]: {e.message}")
         print("instance validation: on (jsonschema installed)")
     except ImportError:
         warnings.append("jsonschema not installed — instance validation skipped "

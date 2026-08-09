@@ -9444,7 +9444,7 @@
       "tier": "short_repurpose",
       "source": "repurpose:mehmetkync16/ai-audiobook-studio-videos:ryskulov_mektubu_master.mp4",
       "consolidation_group": null,
-      "status": "delivered",
+      "status": "not_started",
       "project_ref": null
     },
     {
@@ -9972,7 +9972,7 @@
       "tier": "short_repurpose",
       "source": "repurpose:mehmetkync16/ai-audiobook-studio-videos:ryskulov_mektubu_master.mp4",
       "consolidation_group": null,
-      "status": "delivered",
+      "status": "not_started",
       "project_ref": null
     },
     {
@@ -9983,7 +9983,7 @@
       "tier": "short_repurpose",
       "source": "repurpose:mehmetkync16/ai-audiobook-studio-videos:ryskulov_mektubu_master.mp4",
       "consolidation_group": null,
-      "status": "delivered",
+      "status": "not_started",
       "project_ref": null
     },
     {

@@ -1,39 +1,8 @@
 {
   "target_shorts_per_day": 3,
   "target_long_per_day": 2,
-  "days": [
-    {
-      "date": "2026-08-09",
-      "shorts_delivered": [
-        {
-          "backlog_id": "CB-0903",
-          "tier": "short_repurpose",
-          "output_path": "projects/_content_backlog/output/shorts/short_CB-0903.mp4",
-          "duration_s": 36.1
-        },
-        {
-          "backlog_id": "CB-0951",
-          "tier": "short_repurpose",
-          "output_path": "projects/_content_backlog/output/shorts/short_CB-0951.mp4",
-          "duration_s": 35.7
-        },
-        {
-          "backlog_id": "CB-0952",
-          "tier": "short_repurpose",
-          "output_path": "projects/_content_backlog/output/shorts/short_CB-0952.mp4",
-          "duration_s": 64.1
-        }
-      ],
-      "long_videos_delivered": [
-        {
-          "consolidation_group": "otrar-faciasi-deepening",
-          "project_ref": "PRJ-otrar-faciasi",
-          "stage": "rendered"
-        }
-      ],
-      "target_shorts_per_day": 3,
-      "target_long_per_day": 2,
-      "notes": "3/3 short hedefi tutturuldu (hepsi short_repurpose - ryskulov_mektubu_master.mp4'ten, faster-whisper transkripsiyonuyla gerçek zaman damgaları bulunup kesildi, yeni Flow/ElevenLabs üretimi yok). Uzun video kotası: Otrar Faciası'nın (bu içerik-backlog listesinden değil, önceki M23 üretiminden) tam render'ı bugün tamamlandı ama bu backlog'un kendi 'long' havuzundan (Büyük Devletler vb.) henüz hiçbir video başlamadı - Faz 1'in ilk günü olarak 1/2 sayılmalı, ikinci uzun video kaynağı henüz yok. Bu, planın Faz 1 kalibrasyon notuyla tutarlı: gerçek tempo burada başlıyor."
-    }
-  ]
+  "days": [],
+  "retracted_2026_08_09": {
+    "note": "İlk 3 short (CB-0903/0951/0952, ryskulov_mektubu_master.mp4'ten kesilen) GERİ ÇEKİLDİ - kullanıcı düzeltti: (1) istenen sadece PLANLAMA ve konu araştırmasıydı, gerçek video üretimi/kesimi değil; (2) kesilen klipler yatay (16:9) formattaydı, short/reel formatı dikey (9:16) olmalı; (3) ryskulov_mektubu_master.mp4 kullanıcının tamamlamadığı, henüz onaylanmamış bir proje - kaynak olarak kullanılabilir 'bitmiş' bir master değil. content_backlog.json'daki CB-0903/0951/0952 durumu not_started'a geri alındı, output/shorts/ dosyaları silindi. Bu dosya, yeniden onay alınmadan üretime dönmeyeceğinin kaydı olarak boş bırakılıyor - CLAUDE.md madde 4 (no silent degradation): hata sessizce silinmedi, burada açıkça kayıtlı."
+  }
 }

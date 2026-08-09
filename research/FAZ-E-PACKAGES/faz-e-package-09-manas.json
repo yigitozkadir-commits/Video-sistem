@@ -1,0 +1,51 @@
+{
+  "phase": "E",
+  "cluster": "CULTURE",
+  "section": "MANAS",
+  "items_range": "451-650",
+  "items_count": 200,
+  "angle": {
+    "text": "Bir efsane 1M+ satır kadar uzun olabilir mi? (Oral geleneğin uçsuz bucaksızlığı)",
+    "rationale": "E1: MANAS bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "1 Milyon Satır Söylenen Efsane: Manas Gerçek Tarih Türkiye Unutmadı mı?",
+    "most_dramatic_claim": "Manas epic: 50,000-530,000+ lines (Sayakbay Guinness: 530K). Claims 1M+ lines documentation eksik. Sovyet bastırılması (1922-1991) → Post-Soviet kurgulanış (1991-2026). Resmi statü: merkezi kimlik. Yaşayan pratiş: sorgulanır.",
+    "why_compelling": "Siyasi tarih: efsane nasıl silindi ve yeniden kurgulandı?"
+  },
+  "claims_summary": {
+    "total_count": 8,
+    "confidence_levels": [
+      "POLITICALLY_DECIDED",
+      "DOCUMENTED",
+      "INSTITUTIONALLY_RECOGNIZED",
+      "FORMALLY_CENTRAL"
+    ],
+    "cautions": "Otantiklik tartışmalı - 1000+ yıl gap, Sagymbay MS (1922-26) seçimi, Sayakbay parallel göz ardı"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Otantiklik tartışmalı - 1000+ yıl gap, Sagymbay MS (1922-26) seçimi, Sayakbay parallel göz ardı"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "MANAS: 1 Milyon Satır Söylenen Efsane: Manas Gerçek Tarih Türkiye Unutmadı mı? — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

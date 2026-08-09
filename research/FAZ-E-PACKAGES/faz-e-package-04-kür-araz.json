@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "KÜR-ARAZ",
+  "items_range": "151-200",
+  "items_count": 50,
+  "angle": {
+    "text": "Genetik göç: insanlar sınırları nasıl aştı ve karıştı?",
+    "rationale": "E1: KÜR-ARAZ bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Kaukazus'tan Bozkıra: 5000 Yıl Önce Genetik Göçü Nasıl Anladık?",
+    "most_dramatic_claim": "Shulaveri-Shomu kültürü (6000-4000 BCE) Güney Kafkasya'dan Pontic Stepe'ye genetik göç: Anatolian farmer + Caucasus admixture, daha sonra steppe'ye yayılış",
+    "why_compelling": "DNA kanıtıyla nüfus hareketi izlenebiliyor - insanlar nasıl hareket etti ve karıştı"
+  },
+  "claims_summary": {
+    "total_count": 5,
+    "confidence_levels": [
+      "STRONGLY_SUPPORTED",
+      "ESTABLISHED",
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "PLAUSIBLE"
+    ],
+    "cautions": "Gene flow mekanizmi ambiguous (diaspora vs. frontier expansion) - tercih nedensellik açık değil"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Gene flow mekanizmi ambiguous (diaspora vs. frontier expansion) - tercih nedensellik açık değil"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "KÜR-ARAZ: Kaukazus'tan Bozkıra: 5000 Yıl Önce Genetik Göçü Nasıl Anladık? — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

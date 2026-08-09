@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "HISTORY",
+  "section": "ESKİ-HALK",
+  "items_range": "351-400",
+  "items_count": 50,
+  "angle": {
+    "text": "Bozkırın eski halkları neden kayıp tarihe düştü?",
+    "rationale": "E1: ESKİ-HALK bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Xiongnu: Lejyonları Yönetse de Tarih Onları Unuttu (Hun Geçişi)",
+    "most_dramatic_claim": "Xiongnu konfederasyonu (3c BCE-1c CE) 40+ kabile, merkezîleştirilmiş Chanyu sistemi. 93 CE parçalanır. Hun = elite migration + local admixture (40-70%). Göktürkler? Doğrudan varis DEĞIL, parallel gelişim.",
+    "why_compelling": "DNA yeni hikaye anlatıyor - genetik 'varisi' değil, 'fethi' gösteriyor"
+  },
+  "claims_summary": {
+    "total_count": 8,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "PROBABLE",
+      "CONTESTED"
+    ],
+    "cautions": "Hun-Xiongnu connection: elite DNA share, fakat pop. lokal - kurumsal sürekliliğe karşı genetik"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Hun-Xiongnu connection: elite DNA share, fakat pop. lokal - kurumsal sürekliliğe karşı genetik"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "ESKİ-HALK: Xiongnu: Lejyonları Yönetse de Tarih Onları Unuttu (Hun Geçişi) — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

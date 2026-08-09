@@ -1,0 +1,50 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "BOZ-01",
+  "items_range": "31-80",
+  "items_count": 50,
+  "angle": {
+    "text": "Atı evcilleştirme ilk devrim nasıl oldu?",
+    "rationale": "E1: BOZ-01 bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "3500 BCE Botai: İnsanlar Atı İlk Kez Evcilleştirdiğinde Dünya Değişti",
+    "most_dramatic_claim": "3 bağımsız kanıt türü (metrik analiz, patolojik izler, kimyasal residü) aynı anda bir yerde: Botai kültürü, ata binişin doğumu",
+    "why_compelling": "Archaeological convergence: üç farklı disiplin aynı sonuca vardı - teknik kanıtlanmış"
+  },
+  "claims_summary": {
+    "total_count": 3,
+    "confidence_levels": [
+      "STRONGLY_SUPPORTED",
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED"
+    ],
+    "cautions": "Dual domestication hipotezi: Botai tek kaynak mı, yoksa paralel domestikasyon var mı?"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Dual domestication hipotezi: Botai tek kaynak mı, yoksa paralel domestikasyon var mı?"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "BOZ-01: 3500 BCE Botai: İnsanlar Atı İlk Kez Evcilleştirdiğinde Dünya Değişti — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

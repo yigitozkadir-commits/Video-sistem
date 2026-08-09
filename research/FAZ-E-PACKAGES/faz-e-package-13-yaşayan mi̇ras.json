@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "6TH_CLUSTER",
+  "section": "YAŞAYAN MİRAS",
+  "items_range": "401-450",
+  "items_count": 50,
+  "angle": {
+    "text": "UNESCO tanırken kültür niye yenilenir? (Kurumsal validasyon etkisi)",
+    "rationale": "E1: YAŞAYAN MİRAS bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "UNESCO Manas'ı Seçti - Diğer Efsaneler Neden Kayboldu?",
+    "most_dramatic_claim": "Kopuz 9c documented use, Dede Korkut pre-Islamic origins + Islamic adaptation (14-15c MS). Manas 50K-530K+ lines (Guinness; 1M+ claims documentation eksik). Nevruz: Persian Zoroastrian vs. Turkic pastoral debate (not resolved). UNESCO 2009 Manas recognition.",
+    "why_compelling": "Institution power: UNESCO tarafından seçilmek demek efsane ölümsüz oluyor"
+  },
+  "claims_summary": {
+    "total_count": 5,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "PROBABLE",
+      "CONTESTED",
+      "ESTABLISHED"
+    ],
+    "cautions": "Manas 1M+ line claims documentation eksik; Nevruz origin debate unresolved (Persian vs. Turkic)"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Manas 1M+ line claims documentation eksik; Nevruz origin debate unresolved (Persian vs. Turkic)"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "YAŞAYAN MİRAS: UNESCO Manas'ı Seçti - Diğer Efsaneler Neden Kayboldu? — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

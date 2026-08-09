@@ -1,0 +1,50 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "A-LAYER",
+  "items_range": "1-30",
+  "items_count": 30,
+  "angle": {
+    "text": "İnsanlar neden çoğunlukla 80-100 yıl ötesini unutur?",
+    "rationale": "E1: A-LAYER bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Hafıza Sınırı: 80-100 Yıl İnsanlığın Unutmanın Kenarı",
+    "most_dramatic_claim": "Communicative memory (80-100 yıl, gayri-resmi) vs. cultural memory (kurumsallaşmış, ritüel-tabanlı). Bu sınır, kültürün ölümünü belirler.",
+    "why_compelling": "Unexpected framing: hafızayı zaman bir sınır koyuyor, ve bu sınır medeniyetleri tanımlıyor"
+  },
+  "claims_summary": {
+    "total_count": 3,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED"
+    ],
+    "cautions": "80-100 yıl boundary kültüre göre değişir (bazı kültürler 150+ yıl koruyor)"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "80-100 yıl boundary kültüre göre değişir (bazı kültürler 150+ yıl koruyor)"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "A-LAYER: Hafıza Sınırı: 80-100 Yıl İnsanlığın Unutmanın Kenarı — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

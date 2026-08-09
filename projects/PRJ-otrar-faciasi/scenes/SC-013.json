@@ -1,0 +1,27 @@
+{
+  "scene_id": "SC-013",
+  "act": 1,
+  "title": "İki Tarihçi, İki Farklı Suçlu",
+  "scene_type": "explanation",
+  "summary": "Deepening insert (2026-08-09, existing visuals only, no new Flow generation): historians disagree on how far up the chain of command the massacre order actually went - en-Nesevi names only İnalcık, most others implicate Sultan Muhammed himself. Genuine unresolved historiographical contradiction (research package contradiction C-0005), previously summarized only implicitly via SC-005's family-tie framing.",
+  "source_text": "Ama kimin gerçekten karar verdiği konusunda tarihçiler bile hemfikir değil. En-Nesevi'ye göre sorumluluk yalnızca İnalcık'a aitti, Sultan Muhammed'in haberi bile yoktu. Cüveynî ve çoğu diğer kronik yazarı ise tam tersini söylüyor: Muhammed katliama izin verdi, hatta belki emretti. Bu, sekiz asırdır çözülmemiş gerçek bir tarihçi anlaşmazlığı.",
+  "duration_estimate_s": 23,
+  "emotion": "uneasy ambiguity",
+  "importance": 0.55,
+  "location": "Harezmşahlar sarayı",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [
+    "İnalcık",
+    "II. Muhammed"
+  ],
+  "continuity_from": "SC-005",
+  "qa_status": "pending",
+  "shots": [
+    "SH-013-01",
+    "SH-013-02",
+    "SH-013-03"
+  ],
+  "provenance_note": "All 3 shots are reused existing stills (originally generated for SC-005) - see prompts_used/SH-013-*/image.json's reused_from_shot_id field. No new Flow generation. Narration not yet generated - see studio.config.json narration.pre_generation_approval gate; character count/cost presented to user 2026-08-09, awaiting approval before ElevenLabs call.",
+  "source_evidence_ref": "research/otrar-1218/faz-e-package.json contradictions[0] (C-0005)"
+}

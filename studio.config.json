@@ -65,6 +65,12 @@
       "local_tts_quality_gate": "draft_only",
       "_comment": "Piper (scripts/piper_client.py) as a local, free, no-network TTS path when ElevenLabs (scripts/elevenlabs_client.py) can't initialize (missing ELEVENLABS_API_KEY) or exhausts quota mid-batch (a confirmed real occurrence three times per production_ledger.py's own docstring). scripts/lib/tts_providers.py's select_tts_provider() only falls back when this is true, and only ever returns Piper with quality_gate='draft_only' attached to every result it produces - law #4 (no silent degradation): a robotic local voice must never quietly become the delivered master. Same fallback_to_still shape as flow_account_pool below, mirrored for the audio provider.",
       "same_pattern_as": "flow_account_pool.fallback_to_still"
+    },
+    "pre_generation_approval": {
+      "required": true,
+      "show_character_count": true,
+      "show_estimated_units": true,
+      "_comment": "User rule, 2026-08-09: no ElevenLabs generation (scripts/elevenlabs_client.py text_to_speech()/generate_music()) runs without the human seeing the exact character count and estimated cost/credit usage FIRST and explicitly approving - added after this project's narration was generated once already ahead of a duration decision, which the user wants to avoid repeating. This is a human gate (CLAUDE.md law #7), not a script-enforced block - the discipline is: compute+present the count, wait for an explicit yes, THEN call text_to_speech(). A cache hit (ArtifactCache.reuse(), zero new characters) does not need this gate - only genuinely new generation does."
     }
   },
   "flow_account_pool": {

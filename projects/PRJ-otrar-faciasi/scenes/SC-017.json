@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-017",
+  "act": 3,
+  "title": "Sessiz Mola II",
+  "scene_type": "emotional_pause",
+  "summary": "Fallback silent break (2026-08-09, only used if the SC-013/014/015 narration deepening still leaves the video short of target) - a wordless 10s breathing space over the empty steppe at dusk, after the five-month siege (SC-009) and before the silver-execution legend (SC-010). No narration, no ElevenLabs cost, existing visual only.",
+  "source_text": "",
+  "duration_estimate_s": 10,
+  "emotion": "quiet, contemplative",
+  "importance": 0.2,
+  "location": "Otrar çevresi bozkır",
+  "time_of_day": "dusk",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-009",
+  "qa_status": "pending",
+  "shots": [
+    "SH-017-01"
+  ],
+  "provenance_note": "Reused existing still (originally generated for SC-012, the closing scene) - see prompts_used/SH-017-01/image.json's reused_from_shot_id field. No narration segment, no new Flow/ElevenLabs generation. NOT wired into the primary continuity chain (SC-009->SC-010 stays the committed path) - this scene is a documented, ready-to-insert fallback per the user's 2026-08-09 instruction ('eger yeterli olmazsa'), only activated if the deepened total duration is presented and still judged too short.",
+  "is_fallback_optional": true
+}

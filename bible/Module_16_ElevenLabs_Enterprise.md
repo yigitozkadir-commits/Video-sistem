@@ -1,5 +1,5 @@
 # MODULE 16 — ELEVENLABS ENTERPRISE
-**Version 2.0 · Layer 5 (Enterprise) · Role: Sound Designer & Voice Director**
+**Version 2.1 · Layer 5 (Enterprise) · Role: Sound Designer & Voice Director**
 
 > Narration is the clock of the entire system (LAW-3). Everything visual bends
 > to it. That makes this the module with the least room for error.
@@ -37,6 +37,39 @@ improvise a new one. `voice_request.schema.json`'s free-text `model` field
 carries `"piper:<model-stem>"` without any schema change, so deterministic
 replay (LAW-5) is preserved across whichever provider actually produced a
 given take.
+
+---
+
+## 1c. PRE-GENERATION APPROVAL GATE (human gate, LAW-7)
+
+User rule, 2026-08-09, added after `PRJ-otrar-faciasi`'s narration was
+generated for all 12 scenes in one batch, ahead of a duration decision —
+the batch turned out to need reworking, and the user does not want that
+sequence (generate first, decide later) to repeat.
+
+**Rule:** no call to `scripts/elevenlabs_client.py`'s `text_to_speech()` or
+`generate_music()` may run for genuinely new characters until a human has
+seen, and explicitly approved, both of:
+
+1. the exact character count the call(s) will consume, and
+2. the estimated cost/credit usage that count implies.
+
+This is a human gate in the LAW-7 sense (explicit object, scope = the
+specific batch presented, no implicit renewal for a later, different
+batch) — not a script-enforced block. The discipline lives in the ordering
+of actions taken on this project: compute the count → present it → wait
+for an explicit yes → only then call the generation function. Configured
+at `studio.config.json`'s `narration.pre_generation_approval` block
+(`required`, `show_character_count`, `show_estimated_units`).
+
+**Exemption:** a cache hit (`ArtifactCache.reuse()`, zero new characters
+billed) does not need this gate — only generation that would consume new
+quota does. Re-fetching an already-generated segment is not "generation."
+
+This sits next to §1b's fallback discipline but is a distinct rule: §1b
+governs *which provider* produces a take when ElevenLabs is unavailable;
+§1c governs *whether/when* ElevenLabs itself is called at all, regardless
+of provider availability.
 
 ---
 
@@ -324,6 +357,8 @@ must never require re-synthesis.
 **NEXT MODULE:** Module 17 — AI Director
 
 **CHANGELOG**
+- v2.1 — §1c pre-generation approval gate (human must see character count +
+  cost estimate and approve before any new ElevenLabs generation).
 - v2.0 — Beat segmentation, acting metadata, timing map contract, silence design,
   mix targets, pronunciation governance, retry ladder.
 - v1.0 — Initial outline.

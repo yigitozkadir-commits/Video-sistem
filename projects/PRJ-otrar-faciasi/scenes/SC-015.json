@@ -1,0 +1,24 @@
+{
+  "scene_id": "SC-015",
+  "act": 3,
+  "title": "Anlatılmamış Yarısı",
+  "scene_type": "explanation",
+  "summary": "Deepening insert (2026-08-09, existing visuals only, no new Flow generation): perspective-diversity honesty note - nearly all sources used are English-language/Western academic tradition; Kazakh and Russian original-language literature has not yet been surveyed (faz-d-readiness.json audit finding, severity MEDIUM, G-01). A known, documented limit, not silently omitted.",
+  "source_text": "Bir dürüstlük notu daha: bu araştırmada kullanılan kaynakların neredeyse tamamı İngilizce ve Batı akademik geleneğinden geliyor. Kazakça ve Rusça yazılmış orijinal dil literatürü henüz taranmadı. Bu, hikâyeyi yanlış yapmaz, ama bilinen bir sınır, sessizce geçiştirilmemesi gereken bir sınır.",
+  "duration_estimate_s": 19,
+  "emotion": "quiet honesty",
+  "importance": 0.45,
+  "location": "Otrar arkeolojik alanı",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-011",
+  "qa_status": "pending",
+  "shots": [
+    "SH-015-01",
+    "SH-015-02",
+    "SH-015-03"
+  ],
+  "provenance_note": "All 3 shots are reused existing stills (originally generated for SC-011) - see prompts_used/SH-015-*/image.json's reused_from_shot_id field. No new Flow generation. Narration not yet generated - see studio.config.json narration.pre_generation_approval gate; character count/cost presented to user 2026-08-09, awaiting approval before ElevenLabs call.",
+  "source_evidence_ref": "research/otrar-1218/faz-d-readiness.json audit_findings (perspective_diversity: skewed, gap G-01)"
+}

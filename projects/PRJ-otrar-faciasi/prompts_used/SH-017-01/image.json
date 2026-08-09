@@ -1,0 +1,20 @@
+{
+  "shot_id": "SH-017-01",
+  "scene_id": "SC-017",
+  "variant": "image",
+  "reused_from_shot_id": "SH-012-02",
+  "reuse_reason": "Deepening/interstitial scene reuses an existing Flow-generated visual - no new Flow or ElevenLabs generation for the image itself (user rule 2026-08-09: minimize unnecessary generation cost).",
+  "prompt_ref": "PV-0044",
+  "prompt_family": "flow.shot.wide.establishing",
+  "resolved_text": "A wide view of open steppe at dusk under a vast sky, no trail, no figures, only land and horizon. none - vast empty landscape. still, cooling evening air. golden_hour, deep warm tones fading to blue. wide static. 28mm equivalent, deep focus. Motion: environmental only — faint grass movement. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-012-02.jpeg",
+  "sha256": "410b5bb53b6f8c7a19de2ac28fcac3d1bc28918ac833213719a4b23ac7fd2fe8",
+  "bytes": 644106,
+  "width": 1376,
+  "height": 768,
+  "model": "google-flow",
+  "status": "reused",
+  "original_generated_at": "2026-08-09T01:14:44.610015+00:00",
+  "reused_at": "2026-08-09T01:37:04.711588+00:00"
+}

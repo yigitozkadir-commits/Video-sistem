@@ -2,6 +2,7 @@
 node_modules/
 __pycache__/
 output/*.mp4
+output/*.log
 
 # Regenerable copies of projects/<id>/assets/{still,video,audio} - Remotion
 # needs these physically under public/ to render (symlinks across the

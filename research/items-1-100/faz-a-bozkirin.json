@@ -1,0 +1,81 @@
+{
+  "phase": "A",
+  "section": "BÖLÜM 1 — BOZKIRIN DOĞUŞU",
+  "item_range": "31-60",
+  "input_summary": "Bozkır coğrafyasının, ekonomisinin, ve felsefesinin medeniyeti nasıl şekillendirdiği. 30 soru 5 alt-tema etrafında döner: (1) Bozkırın coğrafyası ve iklimi (31-35), (2) At ve servet (36-40), (3) Ticaret ve ağlar (41-54), (4) Devlet ve güç (55-59), (5) Miras (60).",
+  "theme": {
+    "central_question": "Bozkır neden medeniyetin anası oldu? At domestikasyonu, hareketlilik, açık dünya — ve bunların devlet, ticaret, dil üzerindeki etkisi.",
+    "studio_role": "Bozkır'ı sadece 'yer' değil, 'felsefi sistem' olarak görmek. A-LAYER (neden araştırıyoruz) den somut tarihsel veriye geçiş.",
+    "narrative_engine": "Bozkır insanı nasıl düşündü → Güç nereye bağlı (toprak değil, insana) → Açık ağlar (kapalı devletler yerine) → Dünyanın ilk 'açık medeniyeti'."
+  },
+  "geographic_economic_foundation": {
+    "steppe_as_geography": {
+      "source": "Britannica, OpenStax World History, UNESCO",
+      "claim": "Avrasya Bozkırı: 8000 km, Macaristan'dan Mançurya'ya. İklim çiftçiliğe uymuyor (kurak, mevsimsel) ama hayvansal besicilik ideal. 3500 BCE'de atın evcilleştirilmesi = yaşam biçiminin radikal dönüşümü.",
+      "relevance": "Madde 31-35: Avrasya Bozkırı coğrafyası, iklim, neden medeniyet üretti (çiftçilik değil, besicilik → mobilite → ticaret)."
+    },
+    "horse_as_wealth_and_power": {
+      "source": "Early Pastoral Economies research, nomadic wealth studies",
+      "claim": "Atlar = hayat kaynağı (et, süt, deri) + askeri güç (okçuluk, berberlik) + servet göstergesi (han binlerce at sahibi). Mogol khanları at sayısıyla zenginlik ölçülürdü.",
+      "relevance": "Madde 36-40: 'At olmadan bozkır olur muydu?' 'At insanlığı nasıl değiştirdi?' At = First Revolution (I. Ulaşım Devrimi), hayvan+insan entegrasyonu."
+    },
+    "trade_networks_collective_learning": {
+      "source": "UNESCO Silk Road, Collective Learning studies",
+      "claim": "Bozkır = Silk Road'un merkezi. Nomadic traders, religious leaders, merchants = intellectual/artistic/religious ideas taşıyıcı. Karavanserai ağları = information routing.",
+      "relevance": "Madde 41-54: Teknoloji yayılması (at arabası, stirrup), inançlar yayılması, ticaret ağları. Bozkır 'açık dünyadır' — toplu öğrenme motor."
+    },
+    "political_organization_khanaate": {
+      "source": "Political Complexity in Nomadic Empires, Xiongnu studies",
+      "claim": "Nomadic power = Khan (khanat) = redistributor, personal martial prowess sahibi. Klanlar → Chieftaincy → Khanaate (ama merkezileştirilmiş değil). Dinamik coalition: liderlik kaybedilirse, bölünür.",
+      "relevance": "Madde 55-59: 'Güç nerede bağlı (toprak değil insana)?' 'Kağanlık mantığı' = sürekli seferberlik, ittifak, ve karizmatik liderlik gerektiren sistem."
+    }
+  },
+  "content_structure": {
+    "subthemes": [
+      {
+        "title": "Coğrafya: Neden Bozkır? (madde 31-35)",
+        "questions": "Avrasya Bozkırı nedir? Dünyanın en uzun kültür koridoru nedir? Bozkır neden medeniyet üretti? Bozkır insanı nasıl düşünürdü? Bozkır neden hareket demektir?",
+        "research_angle": "Coğrafya determinizmi değil, ama iklim-ekonomi kısıtlaması: tarım yerine besicilik → mobilite zorunluluğu → tüm sosyal yapıları etkiler."
+      },
+      {
+        "title": "At: Birleştirici Teknoloji (madde 36-40)",
+        "questions": "At olmadan bozkır olur muydu? At insanlığı nasıl değiştirdi? İlk ulaşım devrimi? At neden kutsaldı? Atıyla gömülen insanlar?",
+        "research_angle": "At = teknik inovasyon (stirrup, bridle, chariot) + semiyotik (kutsallık, av ritüeli, savaş kültürü) + ekonomik (servet, güç). 3-boyutlu devrim."
+      },
+      {
+        "title": "Ağlar: Açık Dünya (madde 41-54)",
+        "questions": "Bozkırın görünmez yolları? Yazlak/kışlak? Göçebelik? Ticaret nasıl çalışıyor? Bozkır devletleri neden farklıydı? Teknolojiler nasıl yayıldı? İnançlar nasıl yayıldı?",
+        "research_angle": "Bozkır = 'açık sistemi': kapalı kaleler vs. açık şehirler, merkezleşme vs. uzayan ağlar. Bilgi/mallar/insanlar dolaşır."
+      },
+      {
+        "title": "Güç: İnsan-Bağımlı (madde 55-59)",
+        "questions": "Bozkır devletleri neden farklıydı? Güç neden toprak değil insana bağlıydı? Kağanlık mantığı? Bozkır neden yaşam biçimidir?",
+        "research_angle": "Nomadic political logic: herkes ata binebilir (demokrasi taşı?), ama khan karizmatik lider (~Weber'in 'karizmatik otorite'). Daimi devlet yok, dinamik koalisyonlar."
+      },
+      {
+        "title": "Miras: Bugün Hâlâ Yaşıyor (madde 60)",
+        "questions": "Bozkırın bize bıraktığı miras ne? Bozkır hâlâ yaşıyor mu?",
+        "research_angle": "İç Asya bozkırları hâlâ yerleşik — Kazakistan, Kırgızistan, Moğolistan. Kültür süreği + modern statü sorusu: Sovyet sonrası 'yeniden bozkır' arayışı."
+      }
+    ]
+  },
+  "candidate_scores": {
+    "evidence_density": "high",
+    "novelty": "medium-high",
+    "research_gap": "medium",
+    "counterintuitive_value": "high",
+    "narrative_tension": "high",
+    "researchability": "high"
+  },
+  "scoring_rationale": {
+    "evidence_density_high": "Arkeoloji (Pazırık, erken at domestikasyonu) + tarihçiliği (Xiongnu, Türk Khanaate) + antropoloji (pastoral ekonomi) — hepsi solid data.",
+    "novelty_medium_high": "At'ın medeniyeti değiştirdiği 'eski' bilgi, ama 'Bozkır'ı kapalı vs. açık sistemi' olarak, Silk Road data-driven re-reading = yeni.",
+    "research_gap_medium": "Akademisyenler (Beckwith, Weatherford) iyi yazmış. Ama Türkçe-konuşan dünyada bu coğrafya 'kendi mirası' olarak yeterince incelenmiş değil.",
+    "counterintuitive_high": "Batılılar 'nomadic = vahşi' derken, kaynak okumaları 'açık + ağ-tabanlı + entelektüel + teknoloji-yayıcı' gösteriyor. İklim zorunluluğu ≠ kültürel geri kalmışlık.",
+    "narrative_tension_high": "Bozkır = tarihsel güç, ama sonra (Mongol sonrası) sınırlanmış coğrafya olur. İçinde Türk/Mogol/Çin kimliği çatışması. Bugün Sovyet sonrası 'yeniden bozkır' arayışı.",
+    "researchability_high": "Birincil kaynak: Orkhon yazıtları, çin kaynakları, arkeolojik rapor. İkincil: Weatherford, Beckwith, Reuven Amitai, Michal Biran."
+  },
+  "research_risk": "DÜŞÜK — coğrafya/ekonomi temeli çok iyi belgelenmiş. Riski: bozkır 'romantikleştirme' (Evgeny Khristov'un 'nomadic mystique' uyarısı). Çözüm: Faz B'de 'açık ağlar' ideoloji yapısını araştırırken, çatışma/despotizm/hiyerarşi de görmek.",
+  "bridge_to_next_sections": "BOZ-01 kurucuyu anlatır (at, ticaret, güç). KURGANLAR bölümü bu kurucu + toplum yapısının arkeolojik kanıtını vermelidir (kurgan = sosyal hiyerarşi belgesi). KÜR-ARAZ bölümü Bozkır'ın öncüsü (erken yerleşimler, metal-kullanım geçişi) → Bozkır neden oldu.",
+  "note": "BOZ-01 bölümü, studio'nun merkezindeki coğrafya-odaklı ethos = 'bozkır nasıl medeniyet üretti'. Her video (Büyük Devletler, Kurganlar, İmparatorluklar) bu coğrafya çerçevesi içinde anlatılmalı. BOZ-01 = coğrafya-bellek bağı."
+}

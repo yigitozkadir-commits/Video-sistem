@@ -1,0 +1,531 @@
+{
+  "phase": "D",
+  "cluster": "HISTORY-CLUSTER",
+  "items_range": "141-200",
+  "sections": {
+    "eski_halk": "141-170",
+    "buyuk_devletler": "171-200"
+  },
+  "synthesis_date": "2026-08-09",
+  "title": "Faz D Sentez — Eski Türk Halkları ve Büyük Devletler (Items 141-200)",
+
+  "claim_consolidation": {
+    "meta": "Faz B'den 19 unique claim; Faz C'de 8 adlı RED TEAM tutumu ve confidence downgrades uygulandı",
+    "summary_stats": {
+      "total_claims_verified": 15,
+      "established": 7,
+      "strongly_supported": 4,
+      "probable": 2,
+      "plausible": 1,
+      "weak": 1,
+      "unsupported_rejected": 1
+    },
+    "critical_verdicts": [
+      {
+        "claim_id": "C-0103",
+        "text": "Göktürkler (6. yüzyıl CE) Hunlar'ın doğrudan biyolojik varisleridir",
+        "faz_b_confidence": "CONTESTED",
+        "faz_c_verdict": "RED_TEAM_REJECTED",
+        "reason": "Genetic comparison missing; 500+ yıl zaman aralığı; Rouran intermediary; kanıt spekülasyon",
+        "status": "REJECTED — Parallel model daha olasıdır"
+      },
+      {
+        "claim_id": "C-0005",
+        "text": "Silk Road ticaret ağları Göktürk kontrolü altındaydı",
+        "faz_b_confidence": "PROBABLE",
+        "faz_c_verdict": "WEAK",
+        "reason": "Kanıt 'himaye + vergilendirme' modelini gösteriyor; 'kontrol' tanımı net değil",
+        "status": "DOWNGRADED — 'Kontrol' yerine 'koruma' daha doğru"
+      },
+      {
+        "claim_id": "C-0108",
+        "text": "DNA analizi Xiongnu eliti ile Avrupa Hunları arasında direkt genetik bağlantı gösterir",
+        "faz_b_confidence": "STRONGLY_SUPPORTED",
+        "faz_c_verdict": "CONFIRMED",
+        "qualification": "Fakat Hun populasyonu 40-70% lokal Avrasya karışımıdır; 'varis' değil 'elite conquest + admixture'",
+        "status": "CONFIRMED_WITH_QUALIFIER"
+      }
+    ]
+  },
+
+  "evidence_graph": {
+    "description": "Kaynaklar → Kanıtlar → Claims → Güven → Causal ilişkileri",
+    "nodes": {
+      "sources_genetic": [
+        "PNAS 2024 (Xiongnu-Hun elite DNA)",
+        "ResearchGate 2023 (Ashina empress DNA — Northeast Asian)"
+      ],
+      "sources_textual": [
+        "Orkhon Yazıtları (732-735 CE, primary)",
+        "Tang Hanedanı kronikleri (secondary)",
+        "Sui Kitabı (secondary, Xiongnu-Göktürk)"
+      ],
+      "sources_archaeological": [
+        "Altay kurganlar (Xiongnu material culture)",
+        "Orkhon Valley excavations (Göktürk era)"
+      ],
+      "sources_linguistic": [
+        "Transactions Philological Society 2026 (Paleo-Siberian claim)"
+      ]
+    },
+    "evidence_chains": [
+      {
+        "chain_id": "CHAIN-001",
+        "name": "Xiongnu-Hun Bağlantı Zinciri",
+        "path": [
+          {
+            "step": 1,
+            "source": "PNAS 2024",
+            "evidence": "Elite Hun kurganlarında IBD segments, haplogroup J2 paylaşımı",
+            "supports_claim": "C-0108",
+            "confidence": "strong"
+          },
+          {
+            "step": 2,
+            "source": "SRC-0114, SRC-0115",
+            "evidence": "Genetik 'few hundred years away' hesaplama; Xiongnu ile Hun elites 'long IBD sharing'",
+            "supports_claim": "C-0108",
+            "confidence": "strong"
+          },
+          {
+            "step": 3,
+            "source": "SRC-0117, SRC-0118",
+            "counter_evidence": "40-70% lokal Avrasya ancestry; Hun populasyonu karışık",
+            "qualification": "C-0110",
+            "confidence": "strong"
+          }
+        ],
+        "conclusion": "Xiongnu eliteleri Hun'ı yönetim sağlamıştır; FAKAT Hun populasyonu lokal karışımıdır. Model: 'Varisi' değil, 'Elite migration + admixture'",
+        "robustness": "ESTABLISHED"
+      },
+      {
+        "chain_id": "CHAIN-002",
+        "name": "Göktürk-Hun Bağlantısı ZİNCİRİ (REJECTED)",
+        "path": [
+          {
+            "step": 1,
+            "source": "Phase B claim C-0103",
+            "claim": "Göktürkler Hunlar'ın doğrudan varisleri",
+            "supporting_evidence_cited": "C-0103 didEV-0105, EV-0106 — zayıf"
+          },
+          {
+            "step": 2,
+            "source": "SRC-0107",
+            "counter_evidence": "Göktürkler Hunlar'dan 500+ yıl sonra; araya Rouran Khaganate",
+            "strength": "moderate"
+          },
+          {
+            "step": 3,
+            "source": "SRC-0116 (Ashina DNA)",
+            "counter_evidence": "Göktürk Ashina DNA Xiongnu ile yayınlanan doğrudan karşılaştırma eksik",
+            "strength": "moderate (absence of evidence)"
+          },
+          {
+            "step": 4,
+            "red_team_finding": "Phase C tadılama",
+            "verdict": "REJECTED",
+            "reason": "500+ yıl zaman boşluğu, Rouran intermediary, genetik kanıt eksik. Paralel gelişim daha olası."
+          }
+        ],
+        "conclusion": "Göktürkler-Hun direct succession UNSUPPORTED. Parallel development model (shared Türkçe kökü ama farklı yörüngeler) daha olasıdır.",
+        "robustness": "RED_TEAM_REJECTED"
+      },
+      {
+        "chain_id": "CHAIN-003",
+        "name": "Göktürk Kağanlığı İstikrarlı Mirasını Koruma",
+        "path": [
+          {
+            "step": 1,
+            "source": "C-0104",
+            "claim": "Göktürkler (552 CE) Rouran Khaganate'i yıkarak onun yerine geçmiş, sistem mirasını devam ettirmiş",
+            "verdict": "CONFIRMED"
+          },
+          {
+            "step": 2,
+            "source": "Evidence EV-0109",
+            "description": "Rouran 552'de Bumin tarafından yıkılmış; Göktürk Kağanlığı kurulmuş",
+            "confidence": "strong"
+          },
+          {
+            "step": 3,
+            "source": "Phase C analysis",
+            "finding": "Sistem mirasının 'niteliği' — Hunlar'dan değil, Rouran'dan (aracı)",
+            "implication": "Göktürkler Hunlar'ı değil, Rouran'ı taklit etti"
+          }
+        ],
+        "conclusion": "Işık geçişi: Hunlar → [GAP: Rouran] → Göktürkler. Doğrudan Hun-Göktürk sürekliliği yanlış.",
+        "robustness": "ESTABLISHED"
+      },
+      {
+        "chain_id": "CHAIN-004",
+        "name": "Uygur-Göktürk Kurumsal Sürekliliği",
+        "path": [
+          {
+            "step": 1,
+            "source": "C-0105, C-0106",
+            "claim": "Uygurlar Göktürk yıkıldıktan sonra (744) ortaya çıktı, Göktürk mirasını devraldı",
+            "verdict": "STRONGLY_SUPPORTED"
+          },
+          {
+            "step": 2,
+            "source": "EV-0110, EV-0111",
+            "evidence": "Uyghur Khaganate 744, Göktürk 744 yıkılış, kabileler Tiele'nin parçası, Göktürk kurumları (khanat sistemi, Silk Road) devraldı",
+            "confidence": "strong"
+          },
+          {
+            "step": 3,
+            "source": "C-0106",
+            "claim": "Uygurlar 840'ta Kyrgyz tarafından yıkıldıktan sonra Karluk Yedisu'ya göç",
+            "verdict": "CONFIRMED"
+          }
+        ],
+        "conclusion": "Uygurlar-Göktürk sürekliliği INSTİTÜSYONEL: Devlet sistemi, ticari kontroller, khanat yönetimi devraldı. Fakat kültürel kimlik farklı (Uygurlar daha İslamlaştı, Karluk'a göç).",
+        "robustness": "STRONGLY_SUPPORTED"
+      },
+      {
+        "chain_id": "CHAIN-005",
+        "name": "Silk Road 'Kontrol' Tanımı Tartışması",
+        "path": [
+          {
+            "step": 1,
+            "source": "C-0005 (Phase B)",
+            "claim": "Silk Road ticaret ağları Göktürk kontrolü altındaydı",
+            "faz_b_confidence": "PROBABLE"
+          },
+          {
+            "step": 2,
+            "source": "EV-0014, EV-0015, EV-0016",
+            "evidence": "Sogdian tüccarlar önemli rol, Göktürk Sogdian dilini kullandı, numismatik kanıt",
+            "caveat": "Kanıt 'ortaklık' gösteriyor, 'kontrol' değil"
+          },
+          {
+            "step": 3,
+            "red_team": "Phase C analysis",
+            "finding": "'Kontrol' tanımı muğlak—vergi toplanması mı, rota belirlenmesi mi, alternatiflerin yasaklanması mı?",
+            "evidence_inflation": "DETECTED"
+          },
+          {
+            "step": 4,
+            "alternative_model": "Himaye + vergilendirme",
+            "mechanism": "Göktürkler Silk Road'u koruyucu olarak; Sogdians bağımsız pazarlama; karşılık haraj/vergi"
+          }
+        ],
+        "conclusion": "Silk Road 'kontrol' iddiası overstatement. Gerçek model: Göktürk patronajı + Sogdian ticari özerkliliği.",
+        "robustness": "WEAK → PLAUSIBLE (with qualifier)"
+      }
+    ]
+  },
+
+  "causal_linking": {
+    "macro_narratives": [
+      {
+        "narrative_id": "NAR-001",
+        "title": "Xiongnu-Hun-Göktürk Sürekliliği Sorgusu",
+        "sequence": [
+          {
+            "period": "3c BCE - 1c CE",
+            "actor": "Xiongnu Konfederasyonu",
+            "status": "HAKIM",
+            "mechanism": "Merkezîleştirilmiş Chanyu sistemi, 40+ kabile, vergi toplama"
+          },
+          {
+            "period": "1c CE - 6c CE",
+            "gap": "GAP: 300+ yıl — Xiongnu parçalanır (93 CE), Rouran çıkar",
+            "interim_actor": "Rouran Khaganate (2c-6c)",
+            "status": "HAKIM (Göktürks'in öncü devlet)"
+          },
+          {
+            "period": "4c - 6c CE",
+            "actor": "Hunlar (Avrupa)",
+            "status": "PARALEL GELİŞİM",
+            "mechanism": "Xiongnu eliti yönetim sağlarken, lokal Avrasya (40-70%) popülasyon"
+          },
+          {
+            "period": "6c CE+",
+            "actor": "Göktürkler (Ashina Kağanlığı)",
+            "status": "HAKIM",
+            "mechanism": "552 Rouran'ı yıkma, Tiele konfederasyonu, Silk Road patronajı"
+          }
+        ],
+        "conclusion": "MODEL: Xiongnu → [Rouran intermediary GAP] → Göktürkler (NOT direct). Hunlar = parallel Elite-migration model. Sürekliliğin KÜLTÜREL/KURUMSALı (Chanyu → Khanat sistemi devarımı) olduğu; GENETIK değildir.",
+        "historiography_note": "20. yüzyıl Türk milliyetçiliği 'Huns → Göktürks doğrudan varisi' iddia etti; modern akademia RED TEAM tutumu: reddedildi. Yeni consensus: Paralel kültürler, işyurtdı sistem mirası."
+      },
+      {
+        "narrative_id": "NAR-002",
+        "title": "Göktürk Kağanlığı → Uygur → Karluk Kurumsal İçerik",
+        "sequence": [
+          {
+            "period": "552-744 CE",
+            "actor": "Göktürk Kağanlığı",
+            "status": "HAKIM",
+            "institutional_features": "Khanat sistemi, Tiele konfederasyonu, Silk Road patronajı, Ashina karizması"
+          },
+          {
+            "period": "744-840 CE",
+            "actor": "Uyghur Khaganate",
+            "status": "HAKIM (Göktürk'ün varisi olarak)",
+            "inheritance": "Khanat sistemi devralındı, Silk Road kontrol (Sogdian ilişkiler), kabile konfederasyonu",
+            "innovation": "Manichaean dini reformu, Turpan ticareti odağı"
+          },
+          {
+            "period": "840-1000 CE",
+            "transition": "Uygur yıkılışı (Kyrgyz) → Uygur diasporası (Tarim, Turpan)",
+            "actor": "Karluk Kabileleri → Karakhanid Khaganate",
+            "status": "KURUMSAL DEVAM (İslamlaşan variant)",
+            "inheritance": "Khanat sistemi (Karakhanid 934+), Orta Asya kontrolü, Silk Road ticaret"
+          }
+        ],
+        "conclusion": "KURUMSAL SÜREKLILIĞ doğrulanmış: Khanat yönetimi sistemi, kabile konfederasyonu, Silk Road otoritesi Göktürkler → Uygurlar → Karluk'tan geçer. Fakat KÜLTÜREL VE DİNSEL KORUMA: Göktürkler Tengrizm, Uygurlar Manichaeism/Buddhism, Karluklar Islam.",
+        "robustness": "STRONGLY_SUPPORTED"
+      },
+      {
+        "narrative_id": "NAR-003",
+        "title": "Silk Road 'Kontrol' vs 'Patronaj' Paradigması",
+        "sequence": [
+          {
+            "claim_level": "Geleneksel akademi",
+            "position": "Göktürkler Silk Road'u KONTROL etti (Frankopan, Needham)",
+            "mechanism_claimed": "Vergilendirme, rota belirleme, alternatif yasaklama"
+          },
+          {
+            "evidence_check": "Phase C RED TEAM",
+            "finding": "Mechanizm net değil; Sogdian bağımsızlığı hâlâ işliyordu"
+          },
+          {
+            "alternative_model": "Göktürk PATRONAJ modeli",
+            "mechanism_actual": "Ticaret yolu güvenliği, askeri koruma → vergi/gümrük karşılığında",
+            "evidence": "Sogdian dilinde yazılan Göktürk sikkeleri, Tang haraj kayıtları"
+          }
+        ],
+        "historiography_revision": "Kontrol paradigması tarihçilerin Avrupai merkezi devlet model uygulaması; steppe patronaj sistemi farklı işliyordu.",
+        "confidence": "PLAUSIBLE (with hypothesis status)"
+      }
+    ]
+  },
+
+  "historiographic_audit": {
+    "nationalism_bias_analysis": {
+      "bias_source_1": {
+        "name": "Turkish Nationalist School (1920s-1970s)",
+        "claim": "Göktürkler Hunlar'ın doğrudan varisleri; 'Türk milletinin' atalarıdır; kültür sürekliliği tam",
+        "genetic_evidence": "UNSUPPORTED (DNA Xiongnu-Hun bağlantı gösteriyor, Göktürk-Hun değil)",
+        "problematic_leap": "Yazılı kaynaklar (Orkhon 'Türk' ismi) ile genetik devam iddiaları karıştırıldı",
+        "revision": "Orkhon yazıtları ESTABLISHED; ama bunları Xiongnu'ya bağlama REJECTED",
+        "current_status": "REJECTED by Phase C RED TEAM"
+      },
+      "bias_source_2": {
+        "name": "Soviet Orientalism",
+        "claim": "Steppe devletleri 'barbaric' veya 'ilkel'; merkezi Çin/Batı karşısında ikincil",
+        "manifestation": "Rusça arkeoloji sınırlı erişim; Altay buluntuları Türk/Çin akademisinden daha az tanındı",
+        "consequence": "Göktürk-Tiele genetik değişkenliği belgelenmemiş; Ashina DNA Xiongnu ile karşılaştırılmamış"
+      },
+      "bias_source_3": {
+        "name": "Source Availability Bias",
+        "issue": "Çin kaynakları (Han/Tang kronikleri) tercüme seviyesinde; Çin historiografi doğrudan temsil yok",
+        "consequence": "Xiongnu tarihçeliği (merkezî Çin perspektifi) Batı akademisinin tercümesi üzerinden; orijinal Çince akademik tartışma kaçırıldı",
+        "example": "Xiongnu dilinin Türkçe mi Paleo-Siberian mi olduğu sorularında, Çin dilbilimcilerin görüşleri sınırlı erişim"
+      }
+    },
+    "genetic_vs_cultural_identity_gap": {
+      "issue": "Genetik kanıt (DNA) ve kültürel kimlik (dil, dini, devlet sistemi) farklı hikayeleri anlatıyor",
+      "example_1": {
+        "case": "Hunlar",
+        "genetic": "Xiongnu eliti + lokal Avrasya karışımı (40-70% lokal)",
+        "cultural": "Hun dili bilinmiyor (Türkçe mi Paleo-Siberian mi?); Attila'nın yönetimi belgelenmiş",
+        "interpretation_gap": "Genetik 'varisi' değil, 'fethci + kurduğu' model; kültürel kopoyla mı yoksa seçkinlik şiddetle mi?"
+      },
+      "example_2": {
+        "case": "Göktürkler",
+        "genetic": "Ashina DNA Northeast Asian kökü; Xiongnu ile doğrudan karşılaştırma eksik",
+        "cultural": "Orkhon yazıtları Eski Türkçe; Khanat sistemi (Rouran modeli); Tengrizm",
+        "interpretation_gap": "Genetik olarak Xiongnu'dan ayrı mı, yoksa sekonder talibi mi? Kültür olarak ise yenidir."
+      }
+    },
+    "source_diversity_deficit": {
+      "sources_well_represented": [
+        "Western academic (Cambridge, Rutgers, PNAS) — strong",
+        "Wikipedia/Encyclopedia consensus — accessible",
+        "Genetic studies (2023-2024) — peer review"
+      ],
+      "sources_underrepresented": [
+        "Chinese historiography (Han/Tang specialist texts) — reference level only",
+        "Russian archaeology (Altai kurganlar) — minimal, through Western reports",
+        "Turkish academic (Köprülü, Orkun, modern Ankara/Istanbul historians) — limited translation"
+      ],
+      "consequences": [
+        "Xiongnu perspective (Çin Han kaynakları) eksik — neden Xiongnu 'Hun' oldu?",
+        "Göktürk perspective (Orkhon nüansları) Batı çevirisi filtresi üzerinden",
+        "Steppe peoples' self-designation (linguistic/ethnic) Çin yönetim kategorileri ile karıştırılmış"
+      ]
+    }
+  },
+
+  "completeness_assessment": {
+    "sources_by_type": {
+      "primary": {
+        "covered": [
+          "Orkhon Yazıtları (732-735 CE) — transcription ve deşifre",
+          "Genetic samples (Xiongnu elite kurganlar, Ashina bireyler) — NCBI/PNAS"
+        ],
+        "gaps": [
+          "Sui Kitabı orijinal metni — tercüme referans",
+          "Tang Hanedanı kronikleri — Sima Guang tercümeleri, orijinal araştırılmamış",
+          "Çin kayıtlarında Xiongnu 'Hun' olma dönemselliği — araştırılmamış"
+        ]
+      },
+      "secondary": {
+        "covered": [
+          "Modern akademik consensus (Golden, Frankopan, SOAS) — yüksek",
+          "Arkeoloji (Altay, Orkhon Valley) — moderate",
+          "Genetik analizi (IBD sharing, haplogroup) — strong"
+        ],
+        "gaps": [
+          "Rusça arkeoloji (Sibirya steppe surveys) — sınırlı",
+          "Türkçe akademi (20c/21c Ankara-İstanbul perspektifi) — dış erişim"
+        ]
+      }
+    },
+    "chinese_source_verification": {
+      "status": "INCOMPLETE",
+      "what_we_used": "Çin kronikleri (Han/Tang) → Western translations → secondary filtration",
+      "what_we_need": [
+        "Sima Qian (Han historian) Xiongnu ilişkisinin orijinal metin kalibrasyonu",
+        "Tang Hanedanı resmî Göktürk diplomasi kayıtları (numismatic + official histories)",
+        "Çin dilbilimcilerin Xiongnu dil kökenine dair görüşleri (Türkçe vs Paleo-Siberian debate)"
+      ],
+      "impact_of_gap": "Xiongnu tarihçeliğinin Çin perspektifine dayandığını doğrulayamadık; batı akademisinin tercümesi bias taşıyabilir"
+    },
+    "genetic_completeness": {
+      "strength": "Xiongnu elite & Hun elite karşılaştırması STRONG",
+      "gap": "Göktürk Ashina DNA ← → Xiongnu elite DNA direktkomparatif yoktur",
+      "consequence": "Göktürk-Xiongnu genetik sürekliliğini test edemiyoruz; 'absence of evidence' = 'evidence of absence' kullanılıyor"
+    },
+    "linguistic_completeness": {
+      "covered": "Orkhon Türkçe (yazılı) — ESTABLISHED",
+      "gap_1": "Xiongnu dilinin gerçek kökü (Türkçe vs Paleo-Siberian) — 2025 çalışması Paleo-Siberian iddia ediyor ama consensus yok",
+      "gap_2": "Hun dilinin Xiongnu'dan devamı — tarihsel kaydı yok",
+      "priority": "HIGH — dil sürekliliği kulturel kimliğin temelidir"
+    }
+  },
+
+  "critical_findings": [
+    {
+      "finding_id": "CF-001",
+      "title": "Göktürk-Hun Sürekliliği RED TEAM REJECTED",
+      "statement": "Göktürkler Hunlar'ın doğrudan biyolojik/kültürel varisleri DEĞİLDİR.",
+      "evidence": "500+ yıl zaman boşluğu; Rouran intermediary; genetik karşılaştırma eksik",
+      "alternative": "Paralel Türkçe-konuşan devletler; sistem mirası (Rouran'dan, Hunlar'dan değil)",
+      "historiography": "20. yüzyıl Türk milliyetçi okulu bu iddiayı ileri sürdü; modern akademi reddediyor",
+      "confidence": "HIGH — bu bulgu Faz D'nin temel revizyonu"
+    },
+    {
+      "finding_id": "CF-002",
+      "title": "Xiongnu-Hun Genetik Bağlantı CONFIRMED AMA Model Yanlış",
+      "statement": "Hun elitesi Xiongnu'dan gelmiştir AMA Hunlar 'varisi' değil, 'işgalci + yerli karışımı' (%40-70 lokal).",
+      "evidence": "PNAS 2024 IBD segment paylaşımı, haplogroup J2; fakat lokal Avrasya ancestry çoğunluk",
+      "model_revision": "'Elite conquest + admixture' (doğru); 'direct succession' (yanlış)",
+      "implication": "Genetik bağlantı ≠ kültürel devam. Hun dili Xiongnu'dan gelmemiş olabilir."
+    },
+    {
+      "finding_id": "CF-003",
+      "title": "Silk Road 'Kontrol' İddiası Overstatement",
+      "statement": "Göktürkler Silk Road'u 'KORUMA' (patronaj + güvenlik + vergilendirme) ettiler; 'KONTROL' (rota belirlemedvs) değil.",
+      "evidence": "Sogdian dilinde Göktürk sikkeleri; numismatik kanıt; tanım muğlaklığı; kontrol mekanizması belirtilmemiş",
+      "historiography": "Batı akademisinin merkezi devlet modeli steppe patronaj sistemine uygulanmış",
+      "confidence": "MEDIUM — model revizyon yeterli kanıt, fakat alternatif test edilmemiş"
+    },
+    {
+      "finding_id": "CF-004",
+      "title": "Uygur-Göktürk Kurumsal Sürekliliği DOĞRULANMIŞ",
+      "statement": "Uygurlar Göktürk khanat sistemini, kabile konfederasyonunu, Silk Road patronajını devraldılar.",
+      "evidence": "744 tarih, khanat sistemi döverimi, Sogdian ilişkiler, ticaret yolları",
+      "caveat": "Kültürel kimlik farklı (Uygurlar Buddhism/Manichaeism, Karluklar Islam)",
+      "model": "KURUMSAL devarımlık AMA kültürel farklılaşma"
+    },
+    {
+      "finding_id": "CF-005",
+      "title": "Ashina DNA Xiongnu ile Karşılaştırma EKSİK",
+      "statement": "Göktürk Ashina bireyinin DNA'sı yayınlanmış; Xiongnu elite DNA yayınlanmış; fakat DOĞRUDAN KARŞILAŞTIRMA yok.",
+      "evidence": "ResearchGate 2023 (Ashina), PNAS 2024 (Xiongnu); ayrı çalışmalar",
+      "consequence": "Göktürk-Xiongnu genetik sürekliliğini test edemiyoruz. Bu Faz D'nin en kritik açığıdır.",
+      "priority": "URGENT — genetik karşılaştırma yapılmalı"
+    }
+  ],
+
+  "open_questions_faz_d": [
+    {
+      "question_id": "OQ-D01",
+      "question": "Xiongnu dilinin kaynağı: Türkçe mi, Paleo-Siberian mi, karışık mı?",
+      "known": "2025 dilsel çalışması Paleo-Siberian bağlantı ileri sürdü; karşı kanıt az",
+      "research_path": "Çin dilbilimçilerinin Xiongnu dil analizi; tarihsel kayıtlarda dil kalıntıları",
+      "impact": "Hun dilini belirler; Hunlar-Göktürkler dil sürekliliğini anlamaya yardımcı"
+    },
+    {
+      "question_id": "OQ-D02",
+      "question": "Göktürk Ashina DNA ile Xiongnu elite DNA direkt genetik karşılaştırması?",
+      "known": "Ayrı yayınlar var; doğrudan karşılaştırma yapılmamış",
+      "research_path": "NCBI/PNAS'te Ashina ve Xiongnu genomik verisi istenir; karşılaştırma programı",
+      "impact": "Göktürk-Xiongnu genetik sürekliliğini TEST eder; bu en kritik açık soru"
+    },
+    {
+      "question_id": "OQ-D03",
+      "question": "Göktürks'ün Silk Road 'kontrol' mekanizması: vergilendirme sistemi, rota belirleme, alternatif yasakları?",
+      "known": "Sogdian ortaklığı, numismatik kanıt; mekanizm net değil",
+      "research_path": "Tang gümrük kayıtları, Sogdian ticaret sözleşmeleri (eğer var), coğrafik rota eşleşmeleri",
+      "impact": "Silk Road'un kimin 'kontrol' ettiğini açıklar; paradigma revizyonunu doğrular/reddeder"
+    },
+    {
+      "question_id": "OQ-D04",
+      "question": "Hunlar (Avrupa, 4-6c CE) gerçekten Xiongnu elitleri tarafından mi kurulmuştu, yoksa bağımsız Göktürk-konuşan clan mı?",
+      "known": "Genetik Xiongnu elite bağlantı doğrulanmış; fakat Hun dilinin kaynağı bilinmiyor",
+      "research_path": "Çin kaynakları (Xiongnu kopuş anlatısı), arkeoloji (göç yolları), dil kalıntıları",
+      "impact": "Hun kimliğini belirler; Xiongnu-Hun-Göktürk zincirini anlama"
+    },
+    {
+      "question_id": "OQ-D05",
+      "question": "Tiele konfederasyonunun Ashina'ya karşı tutumu: gönüllü mü, zorla mı, pragmatik mi?",
+      "known": "Vergi ve asker sağlama; çeşitli isyanlar; Orkhon yazıtları Ashina merceğinden",
+      "research_path": "Tiele kabileleri arkeolojisi, Tang kaynakları (Tiele perspektifi), isyan kayıtları derinlemesine",
+      "impact": "Ashina 'dinamik koalisyon' modelini TEST eder"
+    }
+  ],
+
+  "faz_d_methodology_notes": {
+    "consolidation_approach": "Faz B claims (19 unique) + Faz C verdicts (8 adlı RED TEAM) = integrated synthesis",
+    "evidence_graph_construction": "Kanıt tipi (genetik, tekstüel, arkeoloji) → sıklık → güven → causal zincir",
+    "historiography_audit": "Milliyetçi bias, Soviet orientalism, kaynak erişim bias, genetik-kültürel kimlik ayrımı",
+    "completeness_check": "Birincil kaynaklar (Orkhon, Xiongnu şamanı), ikincil (akademi), Çin perspektifi, Rus arkeoloji, Türkçe akademi",
+    "causal_linking_standard": "Temporal relationship + correlation + mechanism + counterfactual test"
+  },
+
+  "quality_assurance_flags": [
+    {
+      "flag_id": "QA-001",
+      "severity": "CRITICAL",
+      "issue": "Ashina DNA ↔ Xiongnu DNA genetic comparison MISSING",
+      "impact": "Göktürk-Xiongnu sürekliliğini test edemiyoruz",
+      "recommendation": "Next phase: NCBI genomic comparison programlama yap"
+    },
+    {
+      "flag_id": "QA-002",
+      "severity": "HIGH",
+      "issue": "Çin kaynaklarına doğrudan erişim eksik; tercüme filtresi üzerinden sadece",
+      "impact": "Xiongnu/Han perspektifi bias taşıyabilir",
+      "recommendation": "Çin dilbilimçi/tarihçi görüşleri ekle"
+    },
+    {
+      "flag_id": "QA-003",
+      "severity": "MEDIUM",
+      "issue": "Hunlar'ın dilinin bilinmemesi modelin zayıflığı",
+      "impact": "Hunlar-Xiongnu kültürel sürekliliğini kanıtlayamıyoruz",
+      "recommendation": "Dil arkeolojisi + 2025 dilsel çalışma genişlet"
+    },
+    {
+      "flag_id": "QA-004",
+      "severity": "MEDIUM",
+      "issue": "Rusça arkeoloji (Altay) sınırlı erişim",
+      "impact": "Steppe material culture homogenitesi eksik kanıt",
+      "recommendation": "Rus bilimsel yayınlara erişim talep et"
+    }
+  ]
+}

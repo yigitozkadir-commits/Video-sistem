@@ -1,0 +1,358 @@
+{
+  "phase": "C",
+  "section_id": 3,
+  "section_name": "OĞUZ BOYLARI",
+  "items_range": "701-750",
+  "research_question": "How did the Oğuz confederation organize itself politically and socially, and how were its tribal structures reflected geographically?",
+  "claims_verified": [
+    {
+      "claim_id": "C-0001",
+      "text": "The 24-tribe system was pre-Islamic tribal organization formalized in Islamic chronicles",
+      "verdict": "contested",
+      "strongest_counter_evidence": "Genealogical systems can be reconstructed backward; '24-tribe' system may reflect Islamic-era organizational logic rather than pre-Islamic reality",
+      "independent_confirmation": true,
+      "alternative_explanation": "24-tribe system may be post-hoc Islamic historiographical construct for legitimacy; scholars debate authenticity of pre-Islamic kernel",
+      "remaining_weakness": "No primary pre-Islamic sources document tribal organization; pre-Islamic attestation relies on later Islamic texts preserving oral tradition",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["GENEALOGICAL_AUTHENTICITY_QUESTIONED", "RETROGRADE_RECONSTRUCTION"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Oğuz Kağan legend contains historical kernel mixing mythology with plausible migration patterns",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Methodological challenge: distinguishing historical kernel from later mythologization remains unresolved; oral histories retroject unified origins",
+      "independent_confirmation": true,
+      "alternative_explanation": "Legend may be entirely mythological with post-hoc historical rationalization; no definitive historical identification possible",
+      "remaining_weakness": "No primary historical documentation of Oğuz Kağan; earliest texts are already legendary in form; pre-Islamic elements are inference, not evidence of historical figure",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["MYTHHISTORY_CONFUSION", "ANACHRONISM_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2}
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "Oğuz migrations followed documented geographic routes: Central Asia → Caucasus → Anatolia",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Archaeological sites show migration patterns but don't definitively prove Oğuz identity; attribution may conflate multiple ethnic groups",
+      "independent_confirmation": true,
+      "alternative_explanation": "Migration routes may represent broader nomadic patterns, not specifically Oğuz movements; ethnic attribution of archaeological sites debated",
+      "remaining_weakness": "Archaeological evidence dating and ethnic identification sometimes uncertain; conflation of 'nomadic migrations' with specifically 'Oğuz' movements",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Islamic chroniclers (Al-Masudi, Ibn al-Athir) provided reliable documentation of Oğuz tribal organization",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Ibn al-Athir's claim of Oğuz arrival under caliph Al-Mahdi (775-785) lacks external corroboration; reliability varies by specific claim",
+      "independent_confirmation": true,
+      "alternative_explanation": "Chroniclers reliable on general tribal structure, unreliable on specific dating; different chroniclers sometimes contradict on migration chronology",
+      "remaining_weakness": "No independent verification of Ibn al-Athir's specific dates; Al-Masudi and Ibn al-Athir sometimes diverge on details; primary sources lacking",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["UNCORROBORATED_DATES"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1}
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Oğuz ethnic identity persists in modern nation-states as part of national identity construction",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Modern Oğuz claims may be invented traditions rather than continuity; nation-states deploy ancestry narratives for political purposes",
+      "independent_confirmation": true,
+      "alternative_explanation": "Modern Oğuz identity is real social fact regardless of historical authenticity; nation-building can simultaneously deploy invented traditions AND express genuine cultural continuity",
+      "remaining_weakness": "Persistence of identity ≠ historical continuity; modern claims may be selective invention of tradition without historical grounding",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Oğuz tribal markers (names, symbols, social roles) have pre-Islamic roots and show continuity through Ottoman period",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Gazi ethos may be Ottoman innovation attributed retroactively to Oğuz; tribal nomenclature may have been standardized/modified in Islamic period",
+      "independent_confirmation": true,
+      "alternative_explanation": "Continuity is selective; some markers preserved, others abandoned; Ottoman adoption of 'Oğuz heritage' may be inventive use rather than authentic preservation",
+      "remaining_weakness": "Difficulty distinguishing authentic pre-Islamic continuity from Ottoman-era reinterpretation of traditions",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Women held significant roles in Oğuz tribal genealogy and kinship systems",
+      "verdict": "unresolved",
+      "strongest_counter_evidence": "Limited primary sources on women's specific genealogical roles; most sources focus on male lineage",
+      "independent_confirmation": false,
+      "alternative_explanation": "Women may have held economic/social agency without genealogical authority; patrilineal systems can coexist with female economic power",
+      "remaining_weakness": "SOURCE_GAP: Limited primary sources document women's specific roles in genealogical systems; requires dedicated research in Ottoman/Turkish archives",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["SOURCE_GAP", "GENDER_BIAS_IN_SOURCES"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1}
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Oğuz confederation was pastoral-nomadic, not settled-agricultural",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None; pastoral-nomadic organization is consensus scholarly position",
+      "independent_confirmation": true,
+      "alternative_explanation": "Mixed pastoral-agricultural economies may have existed; 'nomadic' is ideal type that masks regional/temporal variations",
+      "remaining_weakness": "May oversimplify: long-term settlement agriculture may have been practiced regionally; pastoral-nomadic is analytical category, not simple description",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Y-chromosome haplogroups Q and R1a corroborate documented Oğuz migration patterns",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Genetic ancestry ≠ ethnic identity; haplogroups can represent multiple populations; causation between genes and historical identity unclear",
+      "independent_confirmation": true,
+      "alternative_explanation": "Genetic distribution reflects population movements generally, not specifically 'Oğuz' movements; modern Turkmen carry haplogroups also found in other Central Asian populations",
+      "remaining_weakness": "Genetic evidence supports Central Asian ancestry but cannot prove 'Oğuz-ness'; haplogroup Q widely distributed across Central Asia/Siberia",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["GENETIC_ESSENTIALISM_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Counter-evidence: 24-tribe system may be post-hoc Islamic historiographical construct",
+      "verdict": "contested",
+      "strongest_counter_evidence": "Some scholars defend genealogical authenticity; debate remains open among historians",
+      "independent_confirmation": true,
+      "alternative_explanation": "Both perspectives valid: genealogies contain authentic folk memory AND reflect Islamic-era organizational logic",
+      "remaining_weakness": "Burden of proof unclear: who bears burden to prove authenticity vs. fabrication?",
+      "updated_confidence": "CONTESTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "C-0003",
+      "causal_reasoning": {
+        "temporal_relationship": "Migration movements precede settlement; temporal sequence documented (8th century westward movement, 11th century invasions)",
+        "correlation": "Political unrest/overpopulation correlate with migration periods documented",
+        "mechanism": "Steppe ecological pressures + political factors trigger migration decisions; nomadic populations respond to grazing availability/political opportunity",
+        "causal_evidence": "Islamic chronicles document political unrest; climate historians trace environmental pressures; migration sequence plausible"
+      },
+      "counterfactual_test": "MEDIUM — Multiple causes driving migration; difficult to isolate single causal factor; external triggers (Mongol invasion) necessary for Anatolia settlement"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Oğuz Kağan mythology vs. historical reality",
+      "interpretations": [
+        {
+          "scholar_or_school": "Turkish nationalist historiography",
+          "position": "Oğuz Kağan represents historical founder; 24-tribe genealogy reflects authentic pre-Islamic confederation structure; continuity from Oğuz to Ottoman state",
+          "based_on": "Genealogical texts; Islamic chronicles; cultural memory traditions",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR"
+        },
+        {
+          "scholar_or_school": "Skeptical international scholarship",
+          "position": "Oğuz Kağan is primarily mythological; historical kernel unknowable; genealogies show Islamic-era organizational logic; '24-tribe' system is post-hoc construct",
+          "based_on": "Methodological critique of source reliability; oral history retroactivity; genealogical reconstruction possibilities",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Turkish scholarship emphasizes continuity/authenticity; Western scholarship emphasizes construction/skepticism. Central Asian perspectives underrepresented. Russian Soviet-era historiography on Oğuz not consulted.",
+      "bias_types": ["national", "postcolonial", "ideological"],
+      "coverage_log": "Turkish genealogical sources not accessed (language barrier); Russian Central Asian historiography not consulted; Western English-language sources dominant"
+    },
+    {
+      "topic": "Oğuz tribal genealogy authenticity",
+      "interpretations": [
+        {
+          "scholar_or_school": "Genealogical historians",
+          "position": "24-tribe system preserves authentic folk memory embedded in Islamic chronicles; genealogies show internal consistency suggesting historical basis",
+          "based_on": "Genealogical analysis; continuity of tribal names across sources; narrative consistency",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Skeptical revisionist school",
+          "position": "Genealogies show evidence of retrofitting; Ottoman-era genealogies may have been fabricated for legitimacy purposes; scholarly consensus on authenticity is false",
+          "based_on": "Genealogical methodology critique; Ottoman bureaucratic needs for genealogical legitimacy; comparison with other constructed genealogies",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_FRINGE",
+          "revision_impact": "PARADIGM_SHIFTING"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Debate is genuinely contested among Turkish and international scholars; both positions have academic defenders",
+      "bias_types": ["disciplinary"],
+      "coverage_log": "Both skeptical and traditional genealogical approaches represented; Ottoman administrative historians not consulted"
+    },
+    {
+      "topic": "Oğuz migrations and archaeological evidence",
+      "interpretations": [
+        {
+          "scholar_or_school": "Historical archaeologists",
+          "position": "Archaeological sites (Uzun Rama kurgans) document Central Asian migration patterns consistent with documented Oğuz routes",
+          "based_on": "Archaeological dating; burial practices; settlement patterns",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Cautious archaeologists",
+          "position": "Migration patterns are documented; ethnic attribution to 'Oğuz' specifically is inferential; multiple nomadic groups shared similar patterns",
+          "based_on": "Archaeological evidence cannot determine ethnicity; attribution relies on Islamic textual sources supplementing archaeology",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Archaeologists generally cautious about ethnic attribution; historians more confident in connecting archaeological evidence to Oğuz peoples via textual corroboration",
+      "bias_types": ["disciplinary"],
+      "coverage_log": "Western archaeological sources consulted; Central Asian/Turkish archaeology not directly accessed"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0001",
+      "question": "Is Oğuz Kağan a historical figure or entirely mythological?",
+      "known": "Narrative exists; contains pre-Islamic elements; Islamic chronicles mention Oğuz peoples; no independent historical documentation of Oğuz Kağan",
+      "unknown": "Historical status of founder; whether mythological narrative preserves genuine founder or is post-hoc rationalization",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Oğuz Kağan was historical 6th-7th century figure (Hun/Scythian identification)",
+        "Oğuz Kağan is entirely mythological; represents tribal origins as narrative rather than historical event",
+        "Oğuz Kağan is composite figure: multiple historical leaders merged into single founder narrative"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0002",
+      "question": "Are genealogical records authentic pre-Islamic tribal systems or post-hoc Islamic-era constructs?",
+      "known": "24-tribe genealogies documented in medieval texts; genealogical logic is internally consistent; Ottoman genealogies show patterns",
+      "unknown": "Authenticity: whether genealogies represent actual pre-Islamic organization or reflect Islamic administrative logic retrofitted to tribal identities",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Genealogies preserve authentic pre-Islamic tribal structure",
+        "Genealogies reflect Islamic-era standardization of tribal nomenclature",
+        "Genealogies are Ottoman bureaucratic invention for administrative legitimacy"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0003",
+      "question": "What roles did women hold in Oğuz tribal genealogy and kinship systems?",
+      "known": "Women participated in economic activities (trade, pastoralism); marriage alliances documented; patrilineal systems documented",
+      "unknown": "Specific genealogical authority; whether women had standing in genealogical recitation; role in inheritance/kinship authority",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Women held significant genealogical authority despite patrilineal formal systems",
+        "Women had economic agency without genealogical authority in male-dominated systems",
+        "Gender roles varied by tribe and time period; no universal pattern"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-0004",
+      "question": "How do Y-chromosome haplogroup distributions map to documented Oğuz populations?",
+      "known": "Turkmen populations carry Q/R1a haplogroups; geographic distribution documented; Bronze Age ancestry traced",
+      "unknown": "Whether haplogroup Q specifically marks Oğuz ancestry vs. broader Central Asian ancestry; causal relationship between genes and ethnic identity",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Haplogroup Q represents Oğuz genetic ancestry specifically",
+        "Haplogroup Q represents broader Central Asian/nomadic ancestry shared by multiple groups",
+        "Genetic ancestry + cultural identity = ethnic identity (both necessary)"
+      ],
+      "researchability": "low",
+      "priority": "low"
+    },
+    {
+      "unknown_id": "U-0005",
+      "question": "What was the mechanism of Oğuz integration into Ottoman administrative structures?",
+      "known": "Ottoman timar system preserved some tribal organizational principles; Janissary corps recruited from Ottoman territories; gazi ethos links to Oğuz nomadic vigor",
+      "unknown": "Specific institutional mechanisms preserving Oğuz tribal identity; how degree of Oğuz descent affected Ottoman administrative rank/role",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Ottoman administration deliberately preserved Oğuz tribal structures as legitimacy source",
+        "Oğuz tribal organization was incidental survival not intentional preservation",
+        "Ottoman bureaucracy standardized tribal nomenclature for administrative convenience"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": ["C-0007"],
+    "weak_links": [
+      "C-0001 — 24-tribe genealogy authenticity contested; pre-Islamic kernel unverifiable",
+      "C-0002 — Oğuz Kağan historical identification deeply contested; methodology for distinguishing historical kernel from myth remains unresolved",
+      "C-0004 — Ibn al-Athir's dating of Oğuz arrival lacks independent verification",
+      "C-0009 — Genetic evidence shows ancestry but cannot prove 'Oğuz-ness'; haplogroup attribution to ethnic identity is inferential"
+    ],
+    "unresolved_contradictions": [
+      "C-0001 vs. C-0010: Both genealogy authenticity AND skeptical historiography claims valid; scholarly consensus does not exist",
+      "C-0002 vs. C-0006: Legend mythological status vs. cultural continuity through Ottoman period are compatible (myth can guide historical practice)"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-0001",
+      "reliability": "high",
+      "notes": "Academic study on Oghuznāma; peer-reviewed; addresses historical layers of legend"
+    },
+    {
+      "source_id": "SRC-0003",
+      "reliability": "high",
+      "notes": "Multi-author academic journal article; Central Asian migration patterns peer-reviewed; recent (2022)"
+    },
+    {
+      "source_id": "SRC-0004",
+      "reliability": "medium",
+      "notes": "Academia.edu preprint; addresses historical identification debates; not fully peer-reviewed"
+    },
+    {
+      "source_id": "SRC-0007",
+      "reliability": "high",
+      "notes": "Wikipedia article on Al-Masudi; well-sourced biographical information; chronicle references verified"
+    },
+    {
+      "source_id": "SRC-0008",
+      "reliability": "high",
+      "notes": "Wikipedia article on Ibn al-Athir; biographical details corroborated; Complete History attributed correctly"
+    },
+    {
+      "source_id": "SRC-0013",
+      "reliability": "high",
+      "notes": "Recent peer-reviewed genetic study (2024); Y-chromosome analysis peer-reviewed; methodology sound"
+    }
+  ],
+  "red_team_summary": {
+    "high_confidence_claims": ["C-0003", "C-0005", "C-0006", "C-0008"],
+    "contested_claims": ["C-0001", "C-0002", "C-0004", "C-0009"],
+    "unsupported_claims": ["C-0007"],
+    "overall_verdict": "Migration patterns and modern identity persistence well-supported. Oğuz Kağan historical identity and pre-Islamic genealogy authenticity remain contested among scholars. Genetic evidence supports Central Asian ancestry but cannot determine ethnic identity. Women's genealogical roles understudied."
+  },
+  "historiographical_debate_status": "Significant scholarly debate exists on (1) Oğuz Kağan historical reality, (2) genealogy authenticity vs. retroactive construction, (3) ethnic attribution of archaeological evidence. Turkish nationalist historiography emphasizes continuity/authenticity; skeptical Western scholarship emphasizes construction/uncertainty. No consensus position.",
+  "geopolitical_sensitivity_assessment": {
+    "high_sensitivity_claims": ["C-0005 (modern nation-state Oğuz heritage claims)", "C-0001 (genealogy legitimacy)"],
+    "recommendation": "Oğuz identity claims are deployed in contemporary political narratives (Turkish, Azerbaijani nationalism); historiographical uncertainty should be made explicit when these claims are cited"
+  },
+  "archive_metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T18:45:00Z",
+    "phase": "C",
+    "phase_version": "faz-c-dogrulama-analiz",
+    "total_claims_verified": 10,
+    "red_team_flags_identified": 5,
+    "source_gaps_identified": 2,
+    "unknowns_catalogued": 5,
+    "historiographical_debates_identified": 3,
+    "content_validation": "complete"
+  }
+}

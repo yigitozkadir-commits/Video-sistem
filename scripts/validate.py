@@ -106,6 +106,13 @@ def main():
             v = Draft202012Validator(json.load(open(f"{ROOT}/schemas/prompt.schema.json")))
             for e in v.iter_errors(json.load(open(p))):
                 errors.append(f"{os.path.relpath(p, ROOT)}: {e.message}")
+        backlog_p = f"{ROOT}/projects/_content_backlog/state/content_backlog.json"
+        if os.path.exists(backlog_p):
+            v = Draft202012Validator(json.load(open(f"{ROOT}/schemas/content_backlog_item.schema.json")))
+            backlog = json.load(open(backlog_p))
+            for item in backlog.get("items", []):
+                for e in v.iter_errors(item):
+                    errors.append(f"content_backlog.json[{item.get('backlog_id')}]: {e.message}")
         print("instance validation: on (jsonschema installed)")
     except ImportError:
         warnings.append("jsonschema not installed — instance validation skipped "

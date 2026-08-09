@@ -30,3 +30,11 @@ output/*.mp4
 projects/PRJ-ninniler-atlasi/assets/still/
 projects/PRJ-ninniler-atlasi/render/
 remotion_ninniler_atlasi/public/still/
+
+# projects/_content_backlog/_scratch/: working downloads (existing Kaggle
+# masters pulled down to cut repurposed shorts from, faster-whisper
+# transcripts used to find real cut timestamps) - large, regenerable,
+# never a source of truth. The masters already live on Kaggle
+# (mehmetkync16/ai-audiobook-studio-videos); re-download with
+# `kaggle datasets download` if this dir is needed again.
+projects/_content_backlog/_scratch/

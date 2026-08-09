@@ -1,0 +1,80 @@
+{
+  "phase": "A",
+  "input_summary": "İçerik backlog items 801-850 — Manas Evreni: Kırgız destanı, kahraman epikler, felsefe, kültürel önem. Yarım milyon satır (Homer Iliad+Odyssey'nin 20 katı), 1000 yıldan fazla sözlü aktarım, Sagymbay Orozbakov el yazması (1922-1926), UNESCO Memory of the World (2009 ve 2023).",
+  "candidates": [
+    {
+      "candidate_id": "CAND-01",
+      "title": "Manas — Dünyanın En Uzun Destanı: Bir Kültürün Ansiklopedisi Sözlü Halde",
+      "central_question": "Yarım milyon satırdan oluşan Manas destanı, Kırgız halkının 1000 yıllık sözlü hafızasını nasıl bir mekanizmayla tutmaya başarıyor? Manaşçı (anlatıcı) performer'ı ne kadar 'hatırlıyor' ne kadar 'uyduruyor'—bu fark, Sagymbay Orozbakov'un 1922-1926 el yazması versiyonunda nasıl belgelenmiş? Ve sözlü epik geleneğinin yazılı/akademik dönemde (20. yüzyıl sonrası) yaşadığı varoluş krizi, Manas'ın kimlik ve bilgi-aktarım rolünü nasıl değiştirdi?",
+      "subject_type": "epic_literature",
+      "period": "1000 yıl sözlü (yazılı başlangıç: 1922)",
+      "geography": "Kırgızistan / Tian Shan bozkırı",
+      "opportunity_class": "academic_controversy",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "UNESCO Memory of the World (2023) — Sagymbay Orozbakov el yazması, 10 cilt, 1922-1926 özel kayıt",
+        "UNESCO Intangible Cultural Heritage (2009, 2013 triologie) — Manas, Semetey, Seytek resmi statüsü",
+        "ResearchGate — Reichl, K. 'Oral Epics into the Twenty-First Century: The Case of the Kyrgyz Epic Manas' (manaşçı improvisasyon, hafıza mekanizması, transkripsiyon sorunları)",
+        "Facts and Details / Nomads Land / Silk Road Foundation — Manas ölçeği, performans geleneği, Kırgız kimliği"
+      ],
+      "research_risk": "low-medium — UNESCO primacy, Sagymbay el yazması erişilebilir, ama manaşçı değişkenliği ('improvisasyon vs. tekstual sabitlik') Faz B'de filolojik derinlik gerektirebilir; transkripsiyon fidelity sorusu, Reichl gibi uzmanların çalışmaları var.",
+      "recommended": true,
+      "note": "Studio marka uyumu: Gök Umay'ın 'bozkır bilgeliği + sözlü hafıza' teması Manas'ın 'Kırgız ideoloji ve ansiklopedisi' (Kırgız söyleminde 'Manas = ideology and encyclopedia') ile kritik bağlantı. Guinness Records büyüklüğü (dünyanın en uzun destanı) medya uygunluğu güçlü. 1922-1926 el yazması işlemi (Kırgız göçebelikten yerleşikliğe geçişte sözlü geleneğin 'kurtarılması') yakın-tarih dokusu ekler."
+    },
+    {
+      "candidate_id": "CAND-02",
+      "title": "Manas Kahramanı — Türk Bozkır Erdemlerinin Timsali: Genç Kahraman Manas, Işık Arayıcısı Semetey, Uzun Ömürlü Seytek Trilojisi",
+      "central_question": "Manas destanının üç bölümü (Manas, Semetey, Seytek) neden bir 'nesil çizgisi' oluşturuyor—babadan oğula, oğuldan torununa—ve her nesilte kahraman archetypesinin (genç kararlılık → orta yaş deneyim → yaşlı bilgelik) değişmesi, Kırgız sosyal hiyerarşisini nasıl yansıtıyor?",
+      "subject_type": "character_epic_analysis",
+      "period": "1000 yıl sözlü (nesilsel analiz)",
+      "geography": "Kırgızistan / Tian Shan",
+      "opportunity_class": "comparative_mythology",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "medium",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "UNESCO sources — Manas, Semetey, Seytek trilojisi 2013 inscription"
+      ],
+      "research_risk": "medium — trilogie karşılaştırması Sagymbay el yazmasında belgelenmiş ama nesilsel psycho-archetypal analiz (genç/orta/yaşlı erdem modeli) akademik folklor çalışmaları (ör. Folkways Today) içerisinde daha az formalize; Faz B'de mitoloji + sosyoloji hibrid bir bakış gerekli.",
+      "recommended": false,
+      "note": "CAND-01'in karakter-analiz alt-segmenti olarak değerli, ama bağımsız bir video konsepti olarak zayıf; üçlü yapısı (Manas→Semetey→Seytek) CAND-01'in 'kimlik hafızası' temasının içinde 'nesil devrimi' sub-theme olarak daha güçlü işleniyor."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "Manaşçılar — Performans ve Akıl Tutması: Hafızayı İmkân Kılan Söz Ustası",
+      "central_question": "Manaşçı (epic reciter) yarım milyon satırı nasıl hatırlıyor ve her performansında neler değiştiğini nasıl kontrol ediyor? Sagymbay Orozbakov neden 'klasik' versiyonu temsil ediyor ve diğer manaşçılar ondan nasıl farklılık gösteriyor—bu performans değişkenlikleri, Manas'ın 'yazılı fiksasyon' ile çatışması anlamına mı geliyor?",
+      "subject_type": "oral_performance",
+      "period": "1922-2026 (performans değişkenleri)",
+      "geography": "Kırgızistan",
+      "opportunity_class": "unresolved_question",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "Reichl — hafıza mekanizmaları, manaşçı improvisasyon"
+      ],
+      "research_risk": "high — karşılaştırmalı manaşçı performans kayıtları (ses arşivi, transkripsiyon varyasyonları) gerekli; Kırgızistan arşivleri (National Institute of History and Cultural Heritage) ile direct iş birliği olmadan akademik anlaşma sınırlı kalabilir; Faz B'de enstitü iletişimi ve arşiv erişimi zorunlu.",
+      "recommended": false,
+      "note": "Yüksek orijinallik ve teknik ilgi ama 'ilk video' için araştırma kompleksitesi çok; arşiv erişimi riskli; ikinci veya üçüncü dalga içinde potansiyel olarak değerli."
+    }
+  ],
+  "winning_candidate_id": "CAND-01",
+  "selection_reasoning": "Manas — 'Sözlü hafıza sisteminin ansiklopedisi' (CAND-01) seçildi çünkü: (1) UNESCO Memory of the World + Intangible Cultural Heritage, resmi uluslararası tanınırlık, Guinness Record (dünyanın en uzun destanı); (2) Sagymbay Orozbakov el yazması (1922-1926) belgelenmiş, erişilebilir akademik kaynaklar mevcut (Reichl, UNESCO); (3) Kırgız 'ideology and encyclopedia' konsepti Gök Umay'ın bozkır bilgeliği temesi ile çok doğrudan paraleldir; (4) 1000 yıl sözlü hafıza + 20. yüzyıl yazılı sabitlenme, Dede Korkut (9-15 yüzyıl sözlü→yazılı) ile tematik diyaloj kurar—iki epik sistem, iki kültüre ait, paralel 'sözlü→yazılı kaymasının' örneği. CAND-02 (nesilsel trilogie) ve CAND-03 (manaşçı performans) Faz B'de alt-temalar olarak geri çağrılabilir; ama CAND-01 ilk video için merkezi araştırma konsepti."
+}

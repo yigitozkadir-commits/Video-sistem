@@ -1,0 +1,82 @@
+{
+  "phase": "A",
+  "input_summary": "İçerik backlog items 851-900 — Müzik ve Sesler: Türk müzik gelenekleri, enstrümanlar, sözlü şiir, kültürel ifade. Şaman geleneği (kam, baksi, ozan), âşık sanatı (saz, bağlama, kopuz), dede-oğul geçişi, pre-İslami animizm ve İslami mistisizm arasında geçiş (Sufi ilahi).",
+  "candidates": [
+    {
+      "candidate_id": "CAND-01",
+      "title": "Türk Müzik Alaştırması — Şaman Sesinden Âşık Sazına: Pre-İslami Animizm + İslami Mistisizm Köprüsü",
+      "central_question": "Orta Asya Türk müzik geleneği, neden şaman geleneğinden (kam, baksi, ozan — frame drum, gopuz jaw harp, trans halinde öğretim) direkt olarak 11. yüzyıl âşık geleneğine (saz/bağlama, improvizasyon, şiir-müzik birliği) dönüşüyor—ve bu dönüşüm, pre-İslami animist ritüelden İslami Sufi ilahi'ye (lodges'te aktarılan ilahi) bir 'dinsel-müziksel köprü' inşaasını mı temsil ediyor?",
+      "subject_type": "music_history",
+      "period": "6-15 yüzyıl (şaman→âşık geçişi, özellikle 11. yüzyıl Oghuz göçü)",
+      "geography": "Orta Asya → Anadolu (göçebe → yerleşiklik geçişi)",
+      "opportunity_class": "historical_continuity",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "Routledge — Sultanova, Rancier 'Turkic Soundscapes: From Shamanic Voices to Hip-Hop' (şaman geleneği → âşık, enstrüman evrim, kültürel resilience)",
+        "MDPI/Journal of Religion — 'Shamanistic Rituals to Âşıks Performances: Symbolism of Summoning Spirits' (kam/baksi/ozan performer tipolojisi, saz/kopuz/gopuz, usta-çırak geçişi, 'usta malı söylemek' ritüelü)",
+        "Daily Sabah — Shamanism ve early Turkic beliefs, pre-Islamic animism",
+        "World Music Network / Britannica — Central Asian music traditions, bard traditions (bakhshi), manaşçı/bakshy overlap",
+        "Folkways Today — 'Manas and the Manaschi: Foundations of the Kyrgyz Soul' (bard performer + shaman overlap)"
+      ],
+      "research_risk": "low-medium — müzik tarihçiliği ve dini/ritüel çalışmaları (ethnomusicology, folklore studies) erişilebilir akademik alanlara sahip; ama pre-İslami Türk animizmin direkt kanıtı (yazılı primari kaynaklar) sınırlı (arkeoloji, epigrafi, İslam-öncesi Orta Asya kronikleri)—Faz B'de sıkı akademik filoloji (ör. Clauson, Erdal gibi Türkolog isimler) gerekli.",
+      "recommended": true,
+      "note": "Studio marka uyumu: Gök Umay'ın temel vaatı 'bozkır bilgeliği + manevi bağlantı'; Türk müzik geleneğinin şaman ritüelinden Sufi mistisizmine köprü inşası, Gök Tanrı inancı (Tengriism) ile İslami tasavvufun sentezi, Gök Umay tablosu tarafından bizzat ortaya çıkarılan çekirdek kültürel katman. Enstrüman arkeolojisi + performans geleneği, görsel/ses tasarımı için bol material sağlar. Müzik-tarih + dinler-tarih hibrid disiplini, video serisinde 'kültürel katmanlaşma' çerçevesi kurabilir."
+    },
+    {
+      "candidate_id": "CAND-02",
+      "title": "Saz/Bağlama/Kopuz Enstrümanı — Eski Türk Lyresinin Evrim Zinciri: Arkeoloji + Mitoloji",
+      "central_question": "Eski Türk kopuz (lira), Orta Asya arkeolojisinde nasıl belgelenmiş ve bu enstrümanın şaman/bard performansında roleynün değişikliği (6-15 yüzyıl) nedir? Kopuz → saz/bağlama/çöğür adlandırması, sadece coğrafi değişken mi, yoksa müziksel/sosyal fonksiyon değişimi mi temsil ediyor?",
+      "subject_type": "musicology_archaeology",
+      "period": "6-15 yüzyıl (enstrüman arkeolojisi)",
+      "geography": "Orta Asya → Anadolu",
+      "opportunity_class": "material_continuity",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "medium",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "MDPI — saz/bağlama/kopuz enstrüman tipi, ahşap yapı, çekiçle oynama, fretless handle"
+      ],
+      "research_risk": "medium-high — Orta Asya arkeolojik kazı buluntuları (muzykoloji laboratuarları, müze kataloğu) erişimi gerekli; kopuz'un 'lyre vs. lute' sınıflandırması, Orta Asya versus Anadolu arkeolojisinde farklı kurulu var; Faz B'de arkeoloji uzmanları ve müze koleksiyonları ile iş birliği zorunlu.",
+        "recommended": false,
+        "note": "Yüksek orijinallik ama CAND-01'in 'ritüel-müzik kontinuitesi' temasının içinde daha güçlü işlenir; bağımsız bir konsept olarak, arkeoloji veri erişimi zor ve video tasarımında 'enstrüman close-up archaeology' çok dar bir odak. CAND-01'in alt-segment olarak 'müzik arkeolojisi' sub-chapter'ı daha uygun."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "Ozan, Baksi, Kam Performer Tipolojisi — Şaman Müzisyen Rollerinin Sınıflandırması ve Etik Bağlama",
+      "central_question": "Orta Asya'da 'kam' (şaman), 'baksi' (healer-magician-bard), 'ozan' (poet-minstrel) ayrımı nedir ve bu rollerin müzik aletleri + ritüel fonksiyonları + sosyal konum farklılıkları nelerdir? Bu üç tipi birleştiren şey, ruhuyla konuşma kapasitesi ve 'seçilmiş' sıfatı mı?",
+      "subject_type": "performer_ethnography",
+      "period": "6-15 yüzyıl (performer rolleri)",
+      "geography": "Orta Asya",
+      "opportunity_class": "cultural_typology",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "low",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "MDPI — kam, baksi, ozan performer tipolojisi, 'chosen individual' konsepti",
+        "Central Asia Guide / World Music Network — bakhshi=shaman+bard overlap"
+      ],
+      "research_risk": "medium — performer rol terminolojisinin zaman/coğrafya içinde kararlılığı (ör. kam vs. baksi kullanımı farklı bölgelerde / farklı dönemlerde değişebilir) belirlenmiş değil; Faz B'de etnografik kaynaklar + antropolojik çalışmalar (ör. Mircea Eliade shakanism literature) + Türkoloji filolojisi hibrid araştırma gerekli.",
+        "recommended": false,
+        "note": "CAND-01'in 'performans geleneği' alt-teması; bağımsız bir video olarak dar konsept (tipoloji = kategorileme, anlatı gerilimi düşük). CAND-01 içinde 'performer roller ve ritüel fonksiyonları' sub-segment olarak daha güçlü."
+    }
+  ],
+  "winning_candidate_id": "CAND-01",
+  "selection_reasoning": "Türk Müzik Alaştırması — 'Pre-İslami ritüelden İslami mistisizme köprü' (CAND-01) seçildi çünkü: (1) Etnomüzikolog ve dinler-tarih literatürü geniş, erişilebilir (Sultanova, MDPI çalışmaları, World Music Network); (2) şaman-âşık kontinuitesi, Türk kültürel resilience'ın güçlü örneği (animizm → Islam, ama müziksel/ritüel forma korunma); (3) Gök Umay'ın tema çerçevesine ('spiritual continuity', 'bozkır hikmetiyle islami ilim uzlaştırması') merkezi; (4) enstrüman arkeolojisi, performer geleneği, ritüel niyeti—üç farklı gözlem katmanı, bir video serisinde modüler hale getirebilir. CAND-02 (kopuz arkeolojisi) ve CAND-03 (performer tipolojisi) Faz B'de CAND-01'in 'müzik arkeolojisi' ve 'ritual performer' alt-bölümleri olarak entegre edilebilir."
+}

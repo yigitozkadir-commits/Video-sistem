@@ -1,0 +1,478 @@
+{
+  "phase": "B",
+  "title": "Manas Evreni (Items 801-850) - Faz B: Derin Araştırma Dossieri",
+  "candidate_id": "CAND-01",
+  "subject": "Manas — Dünyanın En Uzun Destanı: Bir Kültürün Ansiklopedisi Sözlü Halde",
+  "research_period": "2026-08-09",
+  "research_cutoff": "February 2025 (knowledge base); Web searches conducted 2026-08-09",
+
+  "research_plan": {
+    "objective": "Manas destanının sözlü hafıza mekanizmaları, metrik yapısı ve Kırgız kültürel bağlamını belgelemek; Sagymbay Orozbakov (1922-1926) el yazması versiyonunun epik geleneğindeki rolünü doğrulamak",
+    "scope": [
+      "Sözlü hafıza mekanizmaları: formülaic language, Parry-Lord teorisi, manasch improvisation",
+      "Metrik yapı: syllabic patterns, alliteration, rhyme schemes",
+      "Sagymbay manuscript: transkripsiyon süreci, klasiklik, diğer versiyonlarla karşılaştırma",
+      "Kırgız kültürel kimliği: Manas'ın ideolojik rolü, bağımsızlık sonrası yeniden kurgulanışı",
+      "Akademik çerçeveler: Karl Reichl, sözlü hafıza teorisi (Ong, Goody, Havelock)",
+      "Arşiv erişimi: UNESCO Memory of the World, Sagymbay MS konum ve erişilebilirlik"
+    ],
+    "channels": {
+      "web": "UNESCO, Guinness Records, Kyrgyz cultural organizations, academic blogs",
+      "academic": "Journal of American Folklore, oral literature studies, Central Asian philology",
+      "archive": "UNESCO Memory of the World database, Sagymbay MS metadata",
+      "multilingual": "Russian sources (Kyrgyzstan Academy), Turkish comparative studies",
+      "material_evidence": "Manas festivals, audio recordings, performance documentation"
+    }
+  },
+
+  "claims_decomposed": [
+    {
+      "claim_id": "CLM-001",
+      "claim_text": "Manas destanı 1000+ yıldır sözlü hafızada korunmuş",
+      "claim_strength": "foundational",
+      "type": "historical_continuity",
+      "assertions": [
+        "Sözlü geleneğin başlangıcı: ~1000 yıl önce (10. yüzyıl?)",
+        "Yazılı sabitlenme öncesi: tamamen sözlü aktarım",
+        "Sagymbay kaydı (1922-1926): ilk planlı belgeleme",
+        "Modern performans: hala canlı sözlü gelenek (2026'da aktif)"
+      ],
+      "support_evidence": [
+        {
+          "evidence_id": "EVD-001-A",
+          "source": "UNESCO Memory of the World (2023 kayıt)",
+          "type": "institutional_recognition",
+          "claim_support": "Sagymbay el yazması 'ilk planlı ve organize edilmiş kayıt' olarak tanımlanmış; Kırgız halkının 1000+ yıldır sözlü aktarımını yapması ima edilmiş",
+          "reliability": "high",
+          "note": "UNESCO resmi kaynağı, ama kesin '1000 yıl' tarihi verilmemişti—'ne kadar geri' bilinmeyebilir"
+        },
+        {
+          "evidence_id": "EVD-001-B",
+          "source": "Faz A concept document",
+          "type": "internal_documentation",
+          "claim_support": "'1000 yıl sözlü aktarım' olarak belgelenmişti",
+          "reliability": "medium",
+          "note": "Kendi projemizin baseline, dış kaynaklarla doğrulama gerekli"
+        },
+        {
+          "evidence_id": "EVD-001-C",
+          "source": "Facts and Details, Nomads Land, Silk Road Foundation",
+          "type": "secondary_academic",
+          "claim_support": "Manas'ın 'centuries' boyunca sözlü olarak korunduğu—kesin olmayan ama 'uzun zaman' ima ediyor",
+          "reliability": "medium",
+          "note": "Popularized sources, kesin tarihleme yok"
+        }
+      ],
+      "counter_evidence": [
+        {
+          "counter_id": "CTR-001-A",
+          "source": "Guinness World Records ve Wikipedia",
+          "objection": "En eski **yazılı** kayıt 1922'dir. 1922 öncesi 'kanıt', sözlü anlatım ve etnografik rapor ile sınırlıdır",
+          "implication": "'1000 yıl sözlü' iddiası, eski dönem için arkeolojik/filolojik sabit kanıt olmadan yaklaşık bir tahmindir",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "CTR-001-B",
+          "source": "Parry-Lord theory literature",
+          "objection": "Sözlü epiklerin 'başlangıç tarihi' sıklıkla belirsizdir. Manas'ın kesin takvimi (~10. yüzyıl) hangi kaynaktan geliyor?",
+          "implication": "Legendaryum (Toktogul'un 500 yıl önce yaşadığına dair rivayet) vs. filolojik tarih karıştırılabilir",
+          "reliability": "medium"
+        }
+      ],
+      "unknowns": [
+        {
+          "unknown_id": "UNK-001-1",
+          "question": "Manas geleneğinin başlangıcı tarihi: kaynaklar neden '1000 yıl' diyor? Arkeolojik vs. efsanevi vs. filolojik deliller ayrı mı?",
+          "research_need": "Kyrgyz Academy of Sciences or UNESCO archives: earliest written reference (pre-1922)"
+        },
+        {
+          "unknown_id": "UNK-001-2",
+          "question": "Sağımızdaki en eski sözlü kaydı/nüsha: Sagymbay'dan önceki diğer manasch performans kayıtları var mı? (ses arşivi, yazılı notlar)",
+          "research_need": "Kyrgyzstan National Institute of History and Cultural Heritage, audio archives"
+        },
+        {
+          "unknown_id": "UNK-001-3",
+          "question": "Sovyet döneminde (1922-1991) sözlü geleneğin durumu: doğrudan baskı/yasak mı vardı? Yazılı versiyonlara yönelik ideolojik kontrol?",
+          "research_need": "Soviet-era Kyrgyzstan cultural policies, Reichl ve diğer araştırmacıların tarihyazımı"
+        }
+      ],
+      "preliminary_assessment": "CLM-001 partially supported: UNESCO ve genel akademik kaynaklarda 'uzun sözlü gelenek' doğrulanmış, ama kesin '1000 yıl' tarihi ve alt yapısı belirsiz. Faz C'de arşiv/akademik doğrulama gerekli."
+    },
+
+    {
+      "claim_id": "CLM-002",
+      "claim_text": "Manas destanı belirli metrik düzen takip ediyor (7-8 syllabic pattern, alliteration, rhyme)",
+      "claim_strength": "strong",
+      "type": "formal_poetic_structure",
+      "assertions": [
+        "Her dize 7-8 hece (syllable) içeriyor",
+        "Alliteration (tekrar eden ses desenleri) kullanılıyor",
+        "End rhyme (dize sonu rimi) tutarlı",
+        "Bu metrik düzen bütün versiyonlarda korunuyor"
+      ],
+      "support_evidence": [
+        {
+          "evidence_id": "EVD-002-A",
+          "source": "Wikipedia (Epic of Manas), Silk Road Foundation, Facts and Details",
+          "type": "secondary_academic",
+          "claim_support": "'Each verse line contains 7-8 syllables and maintains alliteration and end rhyme'",
+          "reliability": "medium-high",
+          "note": "Multiple sources agree, ama kaynaklar primer metni referans almamış olabilir"
+        },
+        {
+          "evidence_id": "EVD-002-B",
+          "source": "Reichl, K. (2016) - Oral Epics into the Twenty-First Century",
+          "type": "primary_academic",
+          "claim_support": "Reichl, formülaic language ve metrik patterns'ı ele almıştır (tam metin access gerekli)",
+          "reliability": "high",
+          "note": "Reichl, Kyrgyz oral tradition's metrik analizi konusunda otorite"
+        },
+        {
+          "evidence_id": "EVD-002-C",
+          "source": "Kyrgyz traditional poetry documentation",
+          "type": "material_culture",
+          "claim_support": "Kyrgyz komuz (3-string instrument) eşliğinde söylenen epikler, 7-8 syllable pattern ile ritim senkronizasyonu",
+          "reliability": "medium",
+          "note": "Performans pratiği metrik yapıyı destekliyor, ama notasyon sistemi modern transkripsiyon zorlayabilir"
+        }
+      ],
+      "counter_evidence": [
+        {
+          "counter_id": "CTR-002-A",
+          "source": "Oral formulaic theory literature",
+          "objection": "Formülaic language metrik esneklik sağlar: manasch, 7-8 syllable pattern'ı **ortalama** olarak tutmuş olabilir, kesin olmayabilir",
+          "implication": "Bazı dizeler 6 veya 9 hece içerebilir; 'belirli düzen' yerine 'yaklaşık düzen' daha doğru",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "CTR-002-B",
+          "source": "Sagymbay manuscript vs. modern transcriptions",
+          "objection": "Transkripsiyon yöntemi (1920s yazılı → modern metinleştirilmiş) sylable sayımını etkileyebilir",
+          "implication": "Sagymbay'ın ses kaydı vs. 1926'de yazılan versiyonu: syllable sayımı tutarlı mı?",
+          "reliability": "medium"
+        }
+      ],
+      "unknowns": [
+        {
+          "unknown_id": "UNK-002-1",
+          "question": "Metrik strictness: Sagymbay'ın versiyonu vs. diğer manasch'lar (örneğin 20. yüzyıl sonrası). Varyasyon oranı ne?",
+          "research_need": "Comparative syllable-count analysis of multiple recorded performances"
+        },
+        {
+          "unknown_id": "UNK-002-2",
+          "question": "Alliteration ve rhyme scheme'in belgelenmesi: Sagymbay MS içinde nasıl gösterilmiş? (yazılı notasyon var mı?)",
+          "research_need": "Direct examination of Sagymbay manuscript pages"
+        },
+        {
+          "unknown_id": "UNK-002-3",
+          "question": "7-8 syllable pattern'ın Kyrgyz language phonology ile ilişkisi: Kyrgyz dili 'doğal' syllable boundary'leri var mı?",
+          "research_need": "Kyrgyz linguistic studies, phonology research"
+        }
+      ],
+      "preliminary_assessment": "CLM-002 supported with caveats: 7-8 syllable, alliteration, rhyme patterns tanımlanmış ve belgelenmiş; ama 'belirli düzen' kelimesi esnekliğe izin verdiği için doğru. Faz C'de transkripsiyon varyasyonları kontrol edilmeli."
+    },
+
+    {
+      "claim_id": "CLM-003",
+      "claim_text": "Sagymbay Orozbakov'un 1922-1926 el yazması epik'in bilinen versiyonlarını temsil ediyor ('klasik' veya 'standart' versiyon)",
+      "claim_strength": "medium-strong",
+      "type": "textual_authority",
+      "assertions": [
+        "Sagymbay MS, 10 cilt, 1922-1926 yıllarında yazıldı",
+        "Bu versiyon, Kyrgyzlar arasında 'en iyi' ve 'en eksiksiz' olarak kabul görüyor",
+        "Sagymbay Orozbakov, o zaman 'en ünlü manasch' idi",
+        "Sagymbay MS, modern Manas araştırmalarının temel kaynağı"
+      ],
+      "support_evidence": [
+        {
+          "evidence_id": "EVD-003-A",
+          "source": "UNESCO Memory of the World (2023) - Sagymbay manuscript entry",
+          "type": "institutional_recognition",
+          "claim_support": "Sagymbay tanımlanmış: 'the best and identified as the classical'; MS '10 handwritten books'; 'the fullest and artistically valuable rendition'",
+          "reliability": "high",
+          "note": "UNESCO formal designation, 2023"
+        },
+        {
+          "evidence_id": "EVD-003-B",
+          "source": "Faz A concept document",
+          "type": "internal_documentation",
+          "claim_support": "CAND-01 seçildiğinde, 'Sagymbay Orozbakov el yazması belgelenmiş, erişilebilir akademik kaynaklar mevcut' not edilmiş",
+          "reliability": "medium",
+          "note": "Projenin baseline, dış doğrulama gerekli"
+        },
+        {
+          "evidence_id": "EVD-003-C",
+          "source": "Reichl, K. (2016) ve referensleri",
+          "type": "primary_academic",
+          "claim_support": "Reichl'in çalışması, Sagymbay MS'yi Kyrgyz manasch tradisyonunun ana kaynağı olarak kullanmıştır",
+          "reliability": "high",
+          "note": "Academic citationality: Reichl → Sagymbay MS = canonical"
+        }
+      ],
+      "counter_evidence": [
+        {
+          "counter_id": "CTR-003-A",
+          "source": "Oral tradition variability (Parry-Lord theory)",
+          "objection": "Sözlü gelenekte 'standart versiyon' kavramı sorunludur. Her manasch, kendi versiyonunu performans ediyor. Sagymbay MS, sadece **bir** manasch'ın **bir** yıl aralığında (1922-1926) kaydı.",
+          "implication": "Sagymbay MS 'klasik' değil, **bir belgenlenmiş performans varyantı**. Diğer manasch'lar ne kadar farklı version'lar seyrdiler?",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "CTR-003-B",
+          "source": "20. yüzyıl Kyrgyzstan politics",
+          "objection": "1922-1926, Sovyet dönemi başlangıcı. Sagymbay MS'nin seçilmesi, ideolojik kontrol veya enstitü tercihinden kaynaklanabilir—'doğal' klasiklik değil.",
+          "implication": "Sagymbay'ın 'en iyi' olarak seçilmesi, sanat kalitesi mi yoksa tarihsel şans mı?",
+          "reliability": "medium"
+        },
+        {
+          "counter_id": "CTR-003-C",
+          "source": "Comparative manuscripts",
+          "objection": "Sagymbay öncesi veya sonrası, diğer manasch'lar (örn. Sayakbay Karalaev, 20. yüzyıl sonu) tarafından kaydedilen MS'ler var mı? Karşılaştırma eksikliği.",
+          "implication": "Sagymbay MS'nin 'standart' kabul edilmesi, karşılaştırmalı inceleme olmadan beklenmedik olabilir.",
+          "reliability": "high"
+        }
+      ],
+      "unknowns": [
+        {
+          "unknown_id": "UNK-003-1",
+          "question": "Sagymbay'ın seçilme süreci: UNESCO/Kyrgyzstan tarafından neden Sagymbay MS seçildi? Diğer manasch'lar ile karşılaştırma yapıldı mı?",
+          "research_need": "UNESCO Memory of the World nomination documents, Kyrgyzstan cultural ministry archives"
+        },
+        {
+          "unknown_id": "UNK-003-2",
+          "question": "Sagymbay MS içindeki varyasyon: 10 cilt içinde, aynı destanın parçaları tekrar mı ediyor? Kapsamlık ve tutarlılık nasıl?",
+          "research_need": "Direct examination of Sagymbay manuscript, internal consistency analysis"
+        },
+        {
+          "unknown_id": "UNK-003-3",
+          "question": "Diğer manasch'lar (20. yüzyıl sonrası, örneğin Sayakbay Karalaev): onların versiyonları Sagymbay'dan nasıl farklı? Farklılık oranı?",
+          "research_need": "Comparative philology: multiple manasch recordings vs. Sagymbay MS"
+        },
+        {
+          "unknown_id": "UNK-003-4",
+          "question": "Sagymbay MS'nin erişilebilirliği: tam metin dijitalleştirilmiş mi? (UNESCO says '10 handwritten books', ama takvir mi yoksa elektronik?)",
+          "research_need": "UNESCO Memory of the World database, Kyrgyzstan National Library"
+        }
+      ],
+      "preliminary_assessment": "CLM-003 partly supported, partly disputed: Sagymbay MS ünlü ve kayıtlanmış ('best' ve 'fullest' UNESCO'ya göre), ama 'klasik' veya 'standart' kavramı sözlü gelenekte problemli. Faz C'de karşılaştırmalı MS analizi ve Sovyet-dönem ideoloji gözlemlenmelidir."
+    },
+
+    {
+      "claim_id": "CLM-004",
+      "claim_text": "Manas destanı Kırgız kültürel kimliğinin merkezi—'Kırgız ideoloji ve ansiklopedisi'",
+      "claim_strength": "strong",
+      "type": "cultural_significance",
+      "assertions": [
+        "Manas, Kyrgyz halkı tarafından kimlik tanımı olarak görülüyor",
+        "Manas, tarihsel bellek (collective memory) rolünü oynuyor",
+        "Manas, kültürel bilgelik, değer sistemleri ve sosyal yapıyı kodluyor (ansiklopedi işlevi)",
+        "Bağımsızlık sonrası (1991+) Kırgyzstan, Manas'ı yeniden 'ulusal simge' olarak kurguladı"
+      ],
+      "support_evidence": [
+        {
+          "evidence_id": "EVD-004-A",
+          "source": "UNESCO Intangible Cultural Heritage (2009, 2013)",
+          "type": "institutional_recognition",
+          "claim_support": "'The trilogy expresses the historical memory of the Kyrgyz people'; '2013 inscription' — Manas, Semetey, Seytek trilogy Intangible Cultural Heritage statüsü",
+          "reliability": "high",
+          "note": "UNESCO formal designation"
+        },
+        {
+          "evidence_id": "EVD-004-B",
+          "source": "Faz A concept document",
+          "type": "internal_documentation",
+          "claim_support": "'Kırgız söyleminde 'Manas = ideology and encyclopedia' ile kritik bağlantı'; 'Gök Umay'ın bozkır bilgeliği temesi ile çok doğrudan paralel'",
+          "reliability": "medium",
+          "note": "Projenin baseline, etno-sosiolog ama şahsi gözlem"
+        },
+        {
+          "evidence_id": "EVD-004-C",
+          "source": "Eurasianet, Daily Sabah, Kyrgyzstan news sources",
+          "type": "secondary_media",
+          "claim_support": "'Kyrgyzstan's Manas Epic Gains UN Recognition' — Kyrgyzstan hükümeti, Manas'ı ulusal pride olarak tanıtıyor",
+          "reliability": "medium",
+          "note": "Contemporary political discourse, ama Manas'ın gerçek 'merkezi' rolü ölçülmemişti"
+        }
+      ],
+      "counter_evidence": [
+        {
+          "counter_id": "CTR-004-A",
+          "source": "Soviet-era Kyrgyzstan (1922-1991)",
+          "objection": "1922-1991 arası, Sovyet ideolojisi Manas'ı 'ulus-öncesi gelenek' veya 'pimitive folklore' olarak sınıflandırdı. Manas, **halk **edebiyatı (folk literature) olarak, ama ulusal **ideoloji** değildi.",
+          "implication": "'Kırgız ideolojisinin merkezi' statüsü, Sovyet sonrası (1991+) yeniden kurgulanmışsa, bu **ikinci önemli bulgu**: geleneğin çağdaş 'kurgulanışı', geçmiş 'otentikliği' değil.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "CTR-004-B",
+          "source": "Kyrgyzstan urban/young generation",
+          "objection": "Manas, rural elderly'nin daha çok bildiği/değer verdiği bir gelenek. Şehirli gençler ve okur-yazarlar (20. yüzyıl sonrası) ne kadar Manas'ı 'merkezi kimlik' görüyor?",
+          "implication": "Manas'ın 'merkezi' olması, **belirli demografik** (yaşlı, rural, Kyrgyz-speaking) ile sınırlı olabilir.",
+          "reliability": "medium"
+        },
+        {
+          "counter_id": "CTR-004-C",
+          "source": "Globalization and cultural displacement",
+          "objection": "21. yüzyılda, internet ve migrasyon Kyrgyzstan'da sözlü gelenek zayıflatmış. Manas hala '**merkezi** ideoloji' mi?",
+          "implication": "UNESCO tanınırlığı ≠ gerçek sosyal merkezi. 'Merkez' deklare edilmiş olabilir, ama yaşayan uygulamada zayıflamış olabilir.",
+          "reliability": "medium"
+        }
+      ],
+      "unknowns": [
+        {
+          "unknown_id": "UNK-004-1",
+          "question": "Manas'ın Sovyet dönemindeki statüsü (1922-1991): Manasch performansları legal miydi? Baskı veya destekleme vardı mı? Sağımızdaki Sagymbay MS'nin bu süreçte 'seçilmesi' neden?",
+          "research_need": "Soviet-era Kyrgyzstan cultural policies, censorship records, Communist Party archives"
+        },
+        {
+          "unknown_id": "UNK-004-2",
+          "question": "Bağımsızlık sonrası (1991+) Manas'ın 'yeniden kurgulanış' süreci: Kyrgyzstan hükümeti, Manas'ı ulusal simge olarak nasıl kurguladı? Hangi politikalar?",
+          "research_need": "Kyrgyzstan cultural ministry, national education policy, UNESCO nomination strategy"
+        },
+        {
+          "unknown_id": "UNK-004-3",
+          "question": "Pratik kimlik: Kyrgyzstan'da farklı demografik (şehir/kırsal, yaşlı/genç, okumuş/okumsuz) Manas'a nasıl ilişkili? Anketi ne bulur?",
+          "research_need": "Sociological survey: Kyrgyzstan popular culture attitudes"
+        },
+        {
+          "unknown_id": "UNK-004-4",
+          "question": "Manas'ın 'ansiklopedisi' iddiaı: Destanın içinde hangi bilgiler kodlanmış? (coğrafya, tarih, etika, sosyal yapı?)",
+          "research_need": "Thematic analysis of Sagymbay manuscript or translated selections"
+        }
+      ],
+      "preliminary_assessment": "CLM-004 supported for formal recognition (UNESCO ICH), but questioned for lived reality: Manas'ın 'merkezi' statüsü resmi düzlemde doğrulanmıştır; ama Sovyet suppression → post-Soviet recovery → contemporary decline eğrisi incelenmelidir. Faz C'de historiography ve sociological depth eklenmelidir."
+    }
+  ],
+
+  "primary_sources": [
+    {
+      "source_id": "PRI-001",
+      "type": "manuscript",
+      "title": "Sagymbay Orozbakov el yazması (1922-1926)",
+      "author": "Sagymbay Orozbakov",
+      "period": "1922-1926 (transcription period)",
+      "format": "10 handwritten volumes",
+      "current_location": "UNESCO Memory of the World registry (original location: Kyrgyzstan National Library or similar)",
+      "accessibility": "Limited (need to verify digitalization status)",
+      "reliability_rating": "high",
+      "note": "Canonical text for all academic Manas studies"
+    }
+  ],
+
+  "secondary_sources": [
+    {
+      "source_id": "SEC-001",
+      "type": "academic_journal",
+      "title": "Oral Epics into the Twenty-First Century: The Case of the Kyrgyz Epic Manas",
+      "author": "Karl Reichl",
+      "publication": "Journal of American Folklore, Vol. 129, No. 513 (July 2016)",
+      "pages": "327-344",
+      "key_topics": ["oral formulaic tradition", "manasch improvisation", "transmission mechanisms", "written fixation crisis"],
+      "reliability_rating": "high",
+      "access_status": "Available via JSTOR, Academia.edu, ResearchGate (partial)"
+    },
+    {
+      "source_id": "SEC-002",
+      "type": "institutional_document",
+      "title": "Manuscript of the Kyrgyz epic Manas by the narrator Sagymbay Orozbakov",
+      "author": "UNESCO",
+      "publication": "Memory of the World International Register",
+      "date": "2023 (inscription year: 2021)",
+      "key_sections": ["Significance and provenance", "Transcription 1922-1926", "Cultural value"],
+      "reliability_rating": "high",
+      "access_status": "Publicly available on UNESCO website"
+    },
+    {
+      "source_id": "SEC-003",
+      "type": "reference_work",
+      "title": "Epic of Manas",
+      "source": "Wikipedia",
+      "coverage": "History, metric structure, UNESCO recognition, Guinness record",
+      "reliability_rating": "medium",
+      "note": "Useful overview, ama primary sources ile verify edilmesi gerekli"
+    },
+    {
+      "source_id": "SEC-004",
+      "type": "encyclopedia",
+      "title": "Manas Epic / Kyrgyz epic poem",
+      "sources": ["Facts and Details", "Nomads Land travel guide", "Silk Road Foundation", "University of Pennsylvania REES"],
+      "coverage": "Cultural context, performance, scale",
+      "reliability_rating": "medium",
+      "note": "Popularized summaries, academic backing var ama dayanakları belirtilmemişti"
+    }
+  ],
+
+  "tertiary_sources": [
+    {
+      "source_id": "TER-001",
+      "type": "media_coverage",
+      "headline": "Kyrgyzstan's Manas Epic Gains UN Recognition",
+      "publication": "Eurasianet",
+      "date": "2023 (approx)",
+      "reliability_rating": "medium",
+      "note": "Commemorative coverage, ama yeni bilgi yok"
+    },
+    {
+      "source_id": "TER-002",
+      "type": "media_coverage",
+      "headline": "UNESCO recognizes Kyrgyz epic Manas as shared heritage of humanity",
+      "publication": "Daily Sabah",
+      "date": "2023",
+      "reliability_rating": "medium",
+      "note": "Political celebration, academic derinliği yok"
+    }
+  ],
+
+  "research_gaps_identified": [
+    {
+      "gap_id": "GAP-001",
+      "area": "Earliest oral tradition dating",
+      "question": "Manas'ın sözlü geleneği gerçekten ~1000 yıl mı geri gidiyor? Kaynaklar?",
+      "impact": "Affects CLM-001 (1000+ years claim)"
+    },
+    {
+      "gap_id": "GAP-002",
+      "area": "Metric variability across manasch",
+      "question": "7-8 syllable pattern, Sagymbay MS vs. 20c. manasch'lar arasında ne kadar tutarlı?",
+      "impact": "Affects CLM-002 (metric structure)"
+    },
+    {
+      "gap_id": "GAP-003",
+      "area": "Sagymbay's classical status",
+      "question": "Sagymbay neden seçildi? Karşılaştırmalı MS analizi yok.",
+      "impact": "Affects CLM-003 (Sagymbay as canonical)"
+    },
+    {
+      "gap_id": "GAP-004",
+      "area": "Soviet-era suppression & post-Soviet recovery",
+      "question": "1922-1991 Sovyet dönemde Manas nasıl ele alındı? Yeniden kuruluş 1991+?",
+      "impact": "Affects CLM-004 (central to identity)"
+    },
+    {
+      "gap_id": "GAP-005",
+      "area": "Sagymbay MS accessibility",
+      "question": "10 cilt el yazması dijitalleştirilmiş mi? Tam metin erişilebilir mi?",
+      "impact": "Affects all claims (verification bottleneck)"
+    },
+    {
+      "gap_id": "GAP-006",
+      "area": "Oral formulaic analysis of Manas",
+      "question": "Parry-Lord teori, Kyrgyz Manas'a nasıl uygulanmış? Reichl'in ayrıntılı analizi varsa?",
+      "impact": "Affects CLM-002, sözlü hafıza mekanizmaları"
+    }
+  ],
+
+  "next_phase_actions": [
+    "Faz C: Adversarial verification — each claim için counter-evidence gathered",
+    "Faz C: Historiography — Soviet-era treatment, post-Soviet recovery documented",
+    "Faz C: Unknowns tagging — OPEN QUESTION labels assigned",
+    "Faz C: Claim-evidence graph — CSV or JSON bipartite mapping",
+    "Faz C: Source quality ranking — primary vs. secondary vs. tertiary separation"
+  ],
+
+  "notes": {
+    "research_date": "2026-08-09",
+    "methodology": "Multi-channel web search (UNESCO, academic databases, media) + document review",
+    "limitations": "Web search session limit reached; full-text access to Reichl (2016) journal article not obtained; Sagymbay MS direct examination pending",
+    "confidence_level": "medium-high (4 claims outlined, 2-3 substantial supports each, counter-evidence identified)"
+  }
+}

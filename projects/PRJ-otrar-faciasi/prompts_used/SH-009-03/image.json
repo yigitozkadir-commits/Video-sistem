@@ -14,7 +14,7 @@
     "camera": "wide static",
     "ambient_element": "distant campfire flicker"
   },
-  "resolved_text": "A wide night view of a besieged citadel silhouette against a star-filled sky, countless distant campfires ringing it below. the citadel silhouette provides scale. cold clear night. moonlight_cool. wide static. 28mm equivalent, deep focus. Motion: environmental only — distant campfire flicker. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A wide night view of a besieged citadel silhouette against a star-filled sky, countless distant campfires ringing it below. the citadel silhouette provides scale. cold clear night. moonlight_cool. wide static. 28mm equivalent, deep focus. Motion: environmental only — distant campfire flicker. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

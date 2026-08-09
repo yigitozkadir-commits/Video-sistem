@@ -13,7 +13,7 @@
     "camera": "top_down slow, parchment-map aesthetic",
     "ambient_element": "faint parchment texture drift"
   },
-  "resolved_text": "An abstract, painterly composition of two paths diverging across a map-like steppe landscape rendered as parchment and terrain, evoking a historical crossroads rather than a literal scene. no human figures, scale implied by distant mountain ranges. still, contemplative light. overcast_soft, diffused. top_down slow, parchment-map aesthetic. 28mm equivalent, deep focus. Motion: environmental only — faint parchment texture drift. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "An abstract, painterly composition of two paths diverging across a map-like steppe landscape rendered as parchment and terrain, evoking a historical crossroads rather than a literal scene. no human figures, scale implied by distant mountain ranges. still, contemplative light. overcast_soft, diffused. top_down slow, parchment-map aesthetic. 28mm equivalent, deep focus. Motion: environmental only — faint parchment texture drift. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

@@ -14,7 +14,7 @@
     "camera": "wide static, deep horizon",
     "ambient_element": "faint dust haze on both horizons"
   },
-  "resolved_text": "A distant view of two armies' worth of dust clouds rising on opposite horizons of an open steppe, neither yet visible, only implied. no figures, scale implied by horizon width. still, tense stillness before wind. overcast_soft, flat. wide static, deep horizon. 28mm equivalent, deep focus. Motion: environmental only — faint dust haze on both horizons. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A distant view of two armies' worth of dust clouds rising on opposite horizons of an open steppe, neither yet visible, only implied. no figures, scale implied by horizon width. still, tense stillness before wind. overcast_soft, flat. wide static, deep horizon. 28mm equivalent, deep focus. Motion: environmental only — faint dust haze on both horizons. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

@@ -13,7 +13,7 @@
     "camera": "wide static, symmetrical framing",
     "ambient_element": "dust motes in the light shaft"
   },
-  "resolved_text": "A grand Khwarezmian palace throne room, a young Sultan seated, an older court official (his uncle) standing at a respectful but familiar distance. the Sultan on a raised dais, the official below. indoor, still air. single_window_soft, shaft of daylight across the floor. wide static, symmetrical framing. 28mm equivalent, deep focus. Motion: environmental only — dust motes in the light shaft. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A grand Khwarezmian palace throne room, a young Sultan seated, an older court official (his uncle) standing at a respectful but familiar distance. the Sultan on a raised dais, the official below. indoor, still air. single_window_soft, shaft of daylight across the floor. wide static, symmetrical framing. 28mm equivalent, deep focus. Motion: environmental only — dust motes in the light shaft. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

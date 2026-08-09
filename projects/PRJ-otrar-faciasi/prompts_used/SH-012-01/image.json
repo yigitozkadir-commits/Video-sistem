@@ -13,7 +13,7 @@
     "camera": "wide static, centered vanishing point",
     "ambient_element": "faint dust drifting across the trail"
   },
-  "resolved_text": "A single empty caravan trail crossing an endless steppe at dusk, no figures present, footprints and camel tracks fading into the horizon. no figures - the empty trail itself is the subject. still evening air, long shadows. golden_hour, low sun directly ahead on the trail. wide static, centered vanishing point. 28mm equivalent, deep focus. Motion: environmental only — faint dust drifting across the trail. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A single empty caravan trail crossing an endless steppe at dusk, no figures present, footprints and camel tracks fading into the horizon. no figures - the empty trail itself is the subject. still evening air, long shadows. golden_hour, low sun directly ahead on the trail. wide static, centered vanishing point. 28mm equivalent, deep focus. Motion: environmental only — faint dust drifting across the trail. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

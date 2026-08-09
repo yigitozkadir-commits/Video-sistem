@@ -14,7 +14,7 @@
     "camera": "wide static",
     "ambient_element": "faint grass movement"
   },
-  "resolved_text": "A wide view of open steppe at dusk under a vast sky, no trail, no figures, only land and horizon. none - vast empty landscape. still, cooling evening air. golden_hour, deep warm tones fading to blue. wide static. 28mm equivalent, deep focus. Motion: environmental only — faint grass movement. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A wide view of open steppe at dusk under a vast sky, no trail, no figures, only land and horizon. none - vast empty landscape. still, cooling evening air. golden_hour, deep warm tones fading to blue. wide static. 28mm equivalent, deep focus. Motion: environmental only — faint grass movement. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

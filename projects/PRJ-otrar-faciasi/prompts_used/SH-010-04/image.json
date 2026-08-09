@@ -14,7 +14,7 @@
     "camera": "top_down macro",
     "ambient_element": "fading heat shimmer"
   },
-  "resolved_text": "A cooling pool of dull grey metal in a stone crucible, abstract and non-graphic, implying the disputed execution method without depicting violence. the crucible provides scale. indoor, heat shimmer fading. firelight_warm, dim glow fading. top_down macro. 28mm equivalent, deep focus. Motion: environmental only — fading heat shimmer. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A cooling pool of dull grey metal in a stone crucible, abstract and non-graphic, implying the disputed execution method without depicting violence. the crucible provides scale. indoor, heat shimmer fading. firelight_warm, dim glow fading. top_down macro. 28mm equivalent, deep focus. Motion: environmental only — fading heat shimmer. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

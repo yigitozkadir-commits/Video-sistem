@@ -14,7 +14,7 @@
     "camera": "low angle, ground-level",
     "ambient_element": "dust and frost crystals disturbed by hooves"
   },
-  "resolved_text": "Close view of camel hooves and heavily laden saddlebags crossing frost-hardened steppe ground. camel legs and trailing rope only, no faces. cold, faint ground mist. golden_hour, low raking light. low angle, ground-level. 28mm equivalent, deep focus. Motion: environmental only — dust and frost crystals disturbed by hooves. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "Close view of camel hooves and heavily laden saddlebags crossing frost-hardened steppe ground. camel legs and trailing rope only, no faces. cold, faint ground mist. golden_hour, low raking light. low angle, ground-level. 28mm equivalent, deep focus. Motion: environmental only — dust and frost crystals disturbed by hooves. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

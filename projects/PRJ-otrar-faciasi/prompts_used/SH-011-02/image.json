@@ -14,7 +14,7 @@
     "camera": "close static, top-down angle",
     "ambient_element": "fine dust falling"
   },
-  "resolved_text": "A modern archaeologist's hands carefully brushing dust from an exposed mudbrick wall layer at the excavation site. hands and brush only. bright dry daylight. overcast_diffused. close static, top-down angle. 28mm equivalent, deep focus. Motion: environmental only — fine dust falling. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 0s.",
+  "resolved_text": "A modern archaeologist's hands carefully brushing dust from an exposed mudbrick wall layer at the excavation site. hands and brush only. bright dry daylight. overcast_diffused. close static, top-down angle. 28mm equivalent, deep focus. Motion: environmental only — fine dust falling. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
   "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
   "constraints": {
     "motion_level_max": 2

@@ -1,0 +1,235 @@
+{
+  "phase": "D",
+  "section_id": 3,
+  "section_name": "OĞUZ BOYLARI",
+  "items_range": "701-750",
+  "readiness_assessment_date": "2026-08-09",
+  "readiness_decision_model": "claude-haiku-4-5-20251001",
+  "readiness_question": "Is the Oğuz Boylari research package ready for production video/narrative use?",
+
+  "completeness_summary": {
+    "overall_score": 0.68,
+    "score_interpretation": "MODERATE — Core narrative well-established (migration, modern identity, tribal organization); genealogy authenticity contested; women's roles understudied; genetic essentialism risk flagged",
+    "by_domain": {
+      "migration_patterns": "85% — STRONG",
+      "modern_identity_persistence": "80% — STRONG",
+      "genealogical_authenticity": "70% — CONTESTED",
+      "women_genealogical_roles": "30% — UNDERSTUDIED",
+      "ottoman_integration_mechanisms": "60% — PARTIAL",
+      "genetic_evidence_mapping": "50% — QUALIFIED"
+    },
+    "critical_gaps": [
+      "Genealogy authenticity unverifiable (no pre-Islamic sources)",
+      "Women's genealogical roles: source gap + gender bias in male-centered sources",
+      "Genetic essentialism risk: haplogroups support ancestry, not ethnicity",
+      "Ottoman integration: documented in general, mechanisms unclear"
+    ]
+  },
+
+  "historiographical_debate_summary": {
+    "debate_1_oğuz_kağan_historicity": {
+      "position_a": "Turkish nationalist: Oğuz Kağan = historical founder; genealogy = authentic pre-Islamic structure; continuity to modern state",
+      "position_b": "Skeptical international: Oğuz Kağan = mythological; genealogy = Islamic-era construct; authenticity unknowable",
+      "status": "UNRESOLVED — No consensus",
+      "perspective_diversity": "Skewed toward Western English-language skepticism; Turkish scholarship underrepresented"
+    },
+    "debate_2_genealogy_authenticity": {
+      "position_a": "Genealogical historians: 24-tribe system = authentic folk memory; internal consistency supports historical basis",
+      "position_b": "Skeptical revisionists: Genealogies = retrofitted; Ottoman-era fabrication; scholarly consensus false",
+      "status": "CONTESTED — Debate is genuine",
+      "perspective_diversity": "Balanced — both sides have academic defenders"
+    },
+    "debate_3_ethnic_attribution": {
+      "position_a": "Historical archaeologists: Archaeological sites document Oğuz migration patterns",
+      "position_b": "Cautious archaeologists: Migration documented; ethnic attribution to 'Oğuz' specifically = inferential",
+      "status": "BALANCED — Disciplinary difference",
+      "perspective_diversity": "Archaeologists cautious; historians more confident"
+    },
+    "consensus_areas": [
+      "Migration patterns occurred (route, timing, drivers documented)",
+      "Modern Oğuz identity persists (nation-state deployment confirmed)",
+      "Pastoral-nomadic organization (steppe ecology → social structure)",
+      "Tribal markers preserved through Ottoman period"
+    ],
+    "no_consensus_areas": [
+      "Oğuz Kağan historicity",
+      "Genealogy authenticity",
+      "Women's genealogical roles",
+      "Genetic determinism in ethnic identity"
+    ]
+  },
+
+  "readiness_verdict_candidates": [
+    {
+      "verdict_id": "VERDICT-0001",
+      "verdict_name": "READY",
+      "confidence_level": "LOW",
+      "applicability": "NOT RECOMMENDED",
+      "rationale": "Conceals contested elements; risks scholarly criticism; assumes genealogy authenticity without verification",
+      "production_approach": "Narrative proceeds with genealogy as unverified historical foundation; no caveats to contested elements",
+      "go_assumptions": [
+        "Production accepts genealogy as historical fact without verification",
+        "Women's roles omitted without acknowledgment",
+        "Genetic evidence deployed without essentialism caveat"
+      ],
+      "risks": [
+        "Scholarly backlash: genealogy authenticity is contested, not consensus",
+        "Narrative vulnerability: contested genealogical claims undermine credibility",
+        "Ethical risk: gender erasure (women's roles unacknowledged)",
+        "Methodological error: genetic essentialism (genes ≠ ethnicity)"
+      ],
+      "recommendation": "REJECT — Compromises scholarly integrity and narrative credibility"
+    },
+    {
+      "verdict_id": "VERDICT-0002",
+      "verdict_name": "CONDITIONAL",
+      "confidence_level": "HIGH",
+      "applicability": "STRONGLY RECOMMENDED",
+      "rationale": "Best balance: Core narrative strong (70%+); contested elements transparent; gaps documented; production can proceed with sophisticated framing",
+      "production_approach": "Narrative proceeds with genealogy as identity-constituting tradition; explicit caveats on authenticity, women's roles, and genetic evidence limitations",
+      "go_assumptions": [
+        "Production accepts that modern Oğuz identity is social fact regardless of historical authenticity",
+        "Historiographical debate acknowledged without paralyzing narrative",
+        "Women's roles presented as understudied research gap",
+        "Genetic evidence clearly separated from ethnic identity claims"
+      ],
+      "must_include_framings": [
+        "Genealogy framed as 'identity-constituting tradition' (not 'unverified historical fact')",
+        "Caveat: 'Scholars debate genealogy authenticity: Turkish tradition-preservers vs. skeptical revisionist historians'",
+        "Note: 'Women's genealogical roles understudied — research gap in sources'",
+        "Clarification: 'Genetic evidence supports Central Asian ancestry; cannot determine ethnic identity from genes alone'",
+        "Acknowledgment: 'Modern Oğuz identity is real social fact in Turkey, Azerbaijan, Turkmenistan, Kazakhstan; historical authenticity questions don't erase contemporary cultural reality'"
+      ],
+      "should_include_framings": [
+        "Distinction: Migration pattern documented (high confidence) vs. ethnic attribution inferential",
+        "Ottoman integration: 'Gazi ethos and tribal nomenclature preserved in Ottoman systems; specific mechanisms partially documented'",
+        "Women's opportunity: 'Marriage alliances as kinship organizing principle; women's genealogical authority in these systems remains understudied'"
+      ],
+      "must_avoid": [
+        "Presenting genealogy authenticity as settled consensus",
+        "Genetic essentialism ('genes prove ethnicity')",
+        "Erasing women from genealogy without acknowledgment",
+        "Ignoring historiographical debate"
+      ],
+      "advantages": [
+        "Core narrative proceeds (strong enough for compelling storytelling)",
+        "Scholarly integrity maintained (contested elements transparent)",
+        "Narrative credibility enhanced (acknowledging debate shows sophistication)",
+        "Gender gap acknowledged (creates research opportunity framing)",
+        "Production avoids scholarly backlash (due diligence visible)"
+      ],
+      "risks": [
+        "Nuance may dilute narrative clarity for some audiences",
+        "Caveats require sophisticated storytelling to maintain engagement"
+      ],
+      "risk_mitigation": [
+        "Frame caveats as 'scholarly debates that make the story richer'",
+        "Position women's roles gap as 'historical mystery worth investigating'",
+        "Use genetic evidence as 'corroborating ancestry without determining identity'"
+      ],
+      "production_readiness": "HIGH — Ready to proceed with conditions above",
+      "recommendation": "APPROVED — Recommended for production with explicit historiographical framing"
+    },
+    {
+      "verdict_id": "VERDICT-0003",
+      "verdict_name": "CONTESTED",
+      "confidence_level": "HIGH",
+      "applicability": "NICHE (research documentary only)",
+      "rationale": "Both authenticity and construction narratives defensible; historiographical debate unresolved; suitable for documentary exploring methodology, not traditional narrative",
+      "production_approach": "Narrative focuses on historiographical debate itself: 'How do scholars disagree about Oğuz origins?' rather than 'What is the Oğuz story?'",
+      "go_assumptions": [
+        "Production seeks to present methodological debate as central to narrative",
+        "Audience sophistication: viewers capable of holding contradictory positions",
+        "Documentary format preferred over traditional narrative"
+      ],
+      "central_narrative_question": "How and why do Turkish and international scholars disagree about Oğuz authenticity, and what does this disagreement reveal about historical methodology?",
+      "storytelling_approach": [
+        "Present Turkish nationalist position: genealogy = authentic; continuity = real",
+        "Present skeptical position: genealogy = constructed; authenticity = unknowable",
+        "Explore methodology: 'Why can't we prove genealogy authenticity?'",
+        "Investigate bias: 'How do nationalism and academic skepticism shape historical interpretation?'",
+        "Highlight absence: 'Where are the women in this debate?'"
+      ],
+      "advantages": [
+        "Directly engages historiographical complexity",
+        "Audience learns historical methodology",
+        "Women's erasure from debate becomes visible (not just acknowledged)"
+      ],
+      "disadvantages": [
+        "Loses narrative clarity (no single 'Oğuz story')",
+        "Alienates audiences seeking coherent historical account",
+        "Requires sophisticated framing and experienced narrator",
+        "Risk of appearing indecisive or academic"
+      ],
+      "audience_appropriateness": "NICHE — University audiences, history enthusiasts, research documentaries; NOT appropriate for general audiences seeking narrative clarity",
+      "production_readiness": "MEDIUM — Requires sophisticated storytelling and documentary format",
+      "recommendation": "SUITABLE FOR SPECIALIZED RESEARCH DOCUMENTARY; NOT FOR TRADITIONAL NARRATIVE"
+    }
+  ],
+
+  "readiness_recommendation": {
+    "recommended_verdict": "VERDICT-0002: CONDITIONAL",
+    "confidence": "HIGH",
+    "primary_recommendation": "Proceed with production using CONDITIONAL framing (VERDICT-0002)",
+    "decision_rationale": "VERDICT-0002 provides optimal balance: (1) Core narrative is strong (70%+ complete); (2) Contested elements are transparent and documented; (3) Production can proceed without compromising scholarly integrity; (4) Sophisticated framing acknowledges historiographical debate while maintaining narrative coherence; (5) Women's roles gap is explicitly noted (creates research opportunity); (6) Genetic evidence properly qualified (no essentialism); (7) Modern identity persistence is grounded as social fact.",
+    "go_live_mandatory_conditions": [
+      "1. Genealogy framed as 'identity-constituting tradition' (not 'historical fact')",
+      "2. Caveat: Genealogy authenticity is historiographically contested",
+      "3. Women's genealogical roles noted as understudied (source gap flagged)",
+      "4. Genetic evidence: 'Supports Central Asian ancestry; cannot determine ethnicity'",
+      "5. Turkish nationalism (authenticity) vs. skeptical scholarship (construction) acknowledged"
+    ],
+    "go_live_recommended_additions": [
+      "Migration pattern documentation distinguished from ethnic attribution",
+      "Ottoman integration mechanisms explained with available evidence",
+      "Women's roles gap positioned as research opportunity, not erasure"
+    ],
+    "go_live_forbidden_framings": [
+      "Presenting genealogy authenticity as scholarly consensus",
+      "Genetic essentialism (genes = ethnicity)",
+      "Erasing women without acknowledgment",
+      "Ignoring historiographical debate"
+    ],
+    "production_next_steps": [
+      "STEP 1: Writing team incorporates mandatory conditions into narrative script",
+      "STEP 2: Historical consultant (from both Turkish and skeptical scholarship traditions) reviews script for framing accuracy",
+      "STEP 3: Geopolitical sensitivity review: Ensure caveats on nation-state deployment of Oğuz heritage are explicit",
+      "STEP 4: Pre-production checklist: Verify all mandatory conditions are satisfied before visual/audio production",
+      "STEP 5: Final review: Scholarship advisor signs off on historiographical framing before delivery"
+    ]
+  },
+
+  "geopolitical_sensitivity_assessment": {
+    "sensitivity_level": "HIGH",
+    "high_sensitivity_claims": [
+      "C-0005: Modern nation-state Oğuz heritage claims (Turkey, Azerbaijan, Turkmenistan, Kazakhstan)",
+      "C-0001: Genealogy legitimacy basis for national identity"
+    ],
+    "geopolitical_context": "Oğuz identity claims are deployed in contemporary political narratives (Turkish, Azerbaijani nationalism); historiographical uncertainty should be made explicit to prevent weaponization of genealogy for territorial claims",
+    "sensitivity_mitigation": [
+      "Frame genealogy as 'identity-constituting tradition' (real for communities) without implying historical authenticity",
+      "Distinguish between 'modern Oğuz identity is real social fact' and 'Oğuz genealogy is historically verified'",
+      "Acknowledge: 'Oğuz heritage deployed in nation-building; scholarly debate on authenticity should not erase cultural meaning'",
+      "Avoid: Genealogy as basis for territorial rights claims or ethnic purity arguments"
+    ]
+  },
+
+  "archive_metadata": {
+    "phase": "D",
+    "phase_version": "faz-d-readiness-candidates",
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T19:45:00Z",
+    "input_files": [
+      "faz-b-dossier-oguz-boylari.json (10 claims, 14 sources, 20 evidence items)",
+      "faz-c-verification-oguz-boylari.json (10 claim verdicts, 3 historiographical debates, 5 unknowns)"
+    ],
+    "output_files": [
+      "faz-d-master-dossier-oguz-boylari.json (comprehensive synthesis)",
+      "faz-d-readiness-candidates-oguz-boylari.json (this file — readiness options)"
+    ],
+    "readiness_candidates_generated": 3,
+    "recommended_candidate": "VERDICT-0002: CONDITIONAL",
+    "content_validation": "complete",
+    "decision_ready": true
+  }
+}

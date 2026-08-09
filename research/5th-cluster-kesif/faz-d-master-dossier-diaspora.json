@@ -413,7 +413,8 @@
     "phase_d_readiness": 0.65,
     "improvement_narrative": "Phase B laid foundation with 14 diverse claims. Phase C verification strengthened factual claims (Uyghur ban, Kazakhization, Cyrillization all confirmed with multiple sources) but downgraded speculative claims (proficiency decline, transmission loss, code-switching) to PLAUSIBLE when empirical measurement data unavailable. Phase D synthesis maintains 0.65 score because geopolitical sensitivity HIGH and perspective bias remains unresolved. Score plateaus at MODERATE due to structural gaps (CCP access, Russian scholars) rather than research effort — further evidence gathering unlikely to improve without accessing Chinese academic databases or conducting primary research in Central Asia."
   },
-  "inputs_fingerprint": "sha256(faz-b-dossier-diaspora.json + faz-c-verification-diaspora.json)",
+  "inputs_fingerprint": "faz-b-dossier-diaspora.json (14 claims, 37 evidence items, 36 sources) + faz-c-verification-diaspora.json (red-team analysis, historiography mapping, unknowns identification)",
+  "sha256": "8bb967fa95513ed8dc2a3a2eaf65a44dda25c179d85d3a5b6add27ffa42255b7",
   "created_at": "2026-08-09",
   "status": "complete_ready_for_readiness_verdict",
   "next_step": "D6 Readiness Verdict (human decision) — proceed to faz-d-readiness-candidates-diaspora.json"

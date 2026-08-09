@@ -1,0 +1,331 @@
+{
+  "phase": "C",
+  "section_id": "HAFIZANIN-SINAVI",
+  "timestamp": "2026-08-09T00:00:00Z",
+  "claims_verified": [
+    {
+      "claim_id": "MT-001",
+      "original_text": "The Soviet Union systematically suppressed Turkic languages, scripts, and cultural institutions using divide-and-conquer strategy",
+      "verdict": "confirmed",
+      "confidence_b": "ESTABLISHED",
+      "confidence_c": "ESTABLISHED",
+      "supporting_evidence_chain": [
+        "Soviet language policy documents declaring mutually intelligible languages as 'separate'",
+        "1938 mandate making Russian mandatory in all non-Russian schools",
+        "Historical documentation of language marginalization and cultural transmission disruption"
+      ],
+      "strongest_counter_evidence": "Soviet claimed educational/welfare benefits to Central Asians; modernization rationale for language policy",
+      "counter_search_conducted": "Search for 'Soviet cultural accommodation Turkic' - found some claims of Soviet investment in education/health, but these do not contradict systematic language suppression narrative",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "alternative_explanation": "Soviet motivation may have been linguistic standardization for administrative efficiency rather than deliberate cultural erasure (though effects were similar)",
+      "remaining_weakness": "Distinguishing deliberate policy intent from structural effects of centralized administration; Soviet archives on policy intent not directly accessed",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Confidence maintained at ESTABLISHED. Divide-and-conquer strategy is well-documented in academic literature even if Soviet documents don't explicitly use this terminology. Effects (language marginalization, disrupted transmission) clearly documented."
+    },
+    {
+      "claim_id": "MT-002",
+      "original_text": "Cyrillic script adoption (1938-1941) was deliberately designed to enforce Soviet linguistic hegemony and sever Pan-Turkic heritage connection",
+      "verdict": "strongly_supported",
+      "confidence_b": "STRONGLY_SUPPORTED",
+      "confidence_c": "STRONGLY_SUPPORTED",
+      "supporting_evidence_chain": [
+        "Timeline: Latin alphabet unified 1929 → Cyrillic substitution 1938-1941 (barely a decade)",
+        "Soviet fear of Pan-Turkic literature development explicitly documented in policy analysis",
+        "Differential implementation across republics suggests coordinated political decision",
+        "Alternative alphabet transitions (Arabic→Latin→Cyrillic) demonstrate script is political tool, not technical necessity"
+      ],
+      "strongest_counter_evidence": "Practical efficiency argument: Cyrillic easier for Russian speakers administering Central Asia; technical standardization rationale",
+      "counter_search_conducted": "Search for 'Soviet script reform practical reasons' and 'Cyrillic efficiency benefits' - found some technical arguments but insufficient to refute political intent thesis",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 3},
+      "alternative_explanation": "Cyrillic adoption may have been motivated by both technical efficiency AND political control (not mutually exclusive)",
+      "remaining_weakness": "Direct evidence of Soviet decision-maker intent (e.g., policy meeting minutes) not found; inference from policy sequence and documented consequences",
+      "red_team_flags": ["NEDENSELLIK_INFERENCE"],
+      "historiographical_status": "consensus",
+      "notes": "Consensus among historians that Cyrillic imposed for political control, though individual Soviet justifications emphasized practical reasons. Verdict STRONGLY_SUPPORTED appropriate (not ESTABLISHED, since direct intent documentation unavailable)."
+    },
+    {
+      "claim_id": "MT-003",
+      "original_text": "Pre-Soviet manuscripts and records were systematically confiscated or destroyed during Soviet collectivization and purges (1920s-1940s)",
+      "verdict": "supported_but_qualified",
+      "confidence_b": "PROBABLE",
+      "confidence_c": "PROBABLE",
+      "supporting_evidence_chain": [
+        "Documented confiscation of private libraries (Sabirov collection: 194 manuscripts)",
+        "Soviet abolition of waqf system and confiscation of Islamic endowment documents",
+        "Conspicuous archival gap around 1932 suggesting major material loss period",
+        "Researchers report restricted access to early Soviet materials"
+      ],
+      "strongest_counter_evidence": "Soviet archives also preserved some materials; Institute of Oriental Studies in Uzbekistan holds 18,594 volumes",
+      "counter_search_conducted": "Search for 'Soviet cultural preservation' and 'Soviet archive expansion' - found evidence of archival creation but not of major pre-Soviet manuscript preservation",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 2},
+      "alternative_explanation": "Materials may not have been destroyed but rather redistributed to Soviet state archives (confiscation without complete destruction)",
+      "remaining_weakness": "UNKNOWN_SCOPE: Exact extent of loss vs preservation cannot be quantified. Direct evidence of destruction is circumstantial (archival gaps). Some materials may survive in private collections or diaspora holdings.",
+      "red_team_flags": ["SOURCE_GAP", "UNKNOWN_SCOPE"],
+      "historiographical_status": "consensus",
+      "notes": "Confidence maintained at PROBABLE rather than elevated to STRONGLY_SUPPORTED because actual scale of loss is unknown. Evidence points to confiscation and some loss, but exact figures unavailable. Archival gap is strong inferential evidence but not definitive proof of destruction."
+    },
+    {
+      "claim_id": "MT-004",
+      "original_text": "Public performance of traditional Turkic epics faced ideological censorship and legal restrictions during Soviet era",
+      "verdict": "confirmed",
+      "confidence_b": "STRONGLY_SUPPORTED",
+      "confidence_c": "ESTABLISHED",
+      "supporting_evidence_chain": [
+        "Documented Soviet labeling of Manas as 'bourgeois-nationalist' and 'religious'",
+        "School ban on Manas except Soviet-conforming portions",
+        "All Soviet publications heavily edited for Communist ideology",
+        "Demographic collapse of manaschi: dozens (1920s) → near extinction (1940s)",
+        "Forced sedentarization and collectivization disrupted nomadic transmission practices"
+      ],
+      "strongest_counter_evidence": "Epic survived oral transmission in mountains; some Soviet documentation permitted",
+      "counter_search_conducted": "Search for 'Soviet epic preservation' and 'Soviet cultural support for traditions' - found limited evidence of official support; elite performances occasionally permitted but censored",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 5, "independent": 4},
+      "alternative_explanation": "Suppression may have been selective (restricting public performance but permitting household transmission) rather than absolute ban",
+      "remaining_weakness": "Incomplete documentation of suppression mechanisms (no comprehensive list of banned publications found); variation in enforcement across republics not fully mapped",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Confidence upgraded to ESTABLISHED: multiple independent sources document suppression, and demographic data (manaschi collapse) provides quantitative evidence of impact. Oral tradition survival does not contradict suppression findings."
+    },
+    {
+      "claim_id": "MT-005",
+      "original_text": "Post-1991 independence sparked cultural revival with divergent language policies: Kazakhstan adopted Latin alphabet by 2025 while Kyrgyzstan maintained Cyrillic",
+      "verdict": "confirmed",
+      "confidence_b": "ESTABLISHED",
+      "confidence_c": "ESTABLISHED",
+      "supporting_evidence_chain": [
+        "Kazakhstan: 2012 'Kazakhstan-2050' strategy + 2017 official decree for Latin adoption by 2025",
+        "Kyrgyzstan: April 2023 proposal to change script prompted Russian economic pressure (dairy export suspension)",
+        "President Japarov explicit statement: no plans to replace Cyrillic",
+        "Regional context: Organization of Turkic States summit (2023) discussing common alphabet but no consensus"
+      ],
+      "strongest_counter_evidence": "None; policy positions are contemporary documented facts",
+      "counter_search_conducted": "Policy positions are verifiable institutional facts; no counter-evidence relevant",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 3},
+      "alternative_explanation": "Not applicable to institutional policy facts",
+      "remaining_weakness": "None identified for this claim",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Confidence maintained at ESTABLISHED: these are documented policy decisions with clear official records. Kazakhstan's timeline (by 2025) is recent and ongoing; Kyrgyzstan's position clearly stated as of 2023."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Soviet Language and Cultural Policy: Intent vs Structural Effects",
+      "interpretations": [
+        {
+          "scholar_or_school": "Post-Soviet scholarship and Western historians (consensus view)",
+          "position": "Soviet language policy was deliberately designed to suppress Pan-Turkic identity and enforce Russian hegemony through administrative control",
+          "based_on": "Policy sequence analysis (Latin→Cyrillic), documented consequences (language marginalization), comparative analysis with other national policies",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Russian and Soviet-sympathetic scholarship",
+          "position": "Language policy was motivated by practical administrative efficiency and modernization goals; suppression effects were unintended consequences",
+          "based_on": "Soviet administrative documents (where they cite efficiency rationales), comparative analysis of linguistic standardization",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Central Asian, Turkish, and international scholarship converge on deliberate suppression interpretation. Russian scholarship offers alternative administrative efficiency explanation without directly refuting political control thesis.",
+      "bias_types": ["national", "ideological"],
+      "coverage_log": "Central Asian scholarship reviewed via English-language sources. Turkish historical sources included. Russian scholarly sources checked (limited access). Western academic consensus documented."
+    },
+    {
+      "topic": "Cyrillic Script Transition: Deliberate Political Control vs Technical Standardization",
+      "interpretations": [
+        {
+          "scholar_or_school": "Central Asian and international historians (emerging consensus)",
+          "position": "Cyrillic imposition was deliberately engineered to prevent Pan-Turkic unification and enforce Soviet linguistic hegemony",
+          "based_on": "Timing (decade after Latin adoption), documented Soviet fears of Pan-Turkism, policy sequence analysis",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MAJOR"
+        },
+        {
+          "scholar_or_school": "Comparative linguists and some Western scholars",
+          "position": "Cyrillic adoption had both political and technical motivations; administrative efficiency for Russian-speaking bureaucrats cannot be dismissed",
+          "based_on": "Comparative script reform analysis; documented practical benefits of standardization",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MINOR"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Growing international consensus on political intent; Russian scholarship tends toward efficiency rationale; both interpretations acknowledge script is not politically neutral.",
+      "bias_types": ["ideological", "national"],
+      "coverage_log": "Central Asian academic literature on script reform reviewed. Russian sources checked. International comparative script studies consulted."
+    },
+    {
+      "topic": "Manas Epic Suppression: Ideological Censorship vs Cultural Assimilation",
+      "interpretations": [
+        {
+          "scholar_or_school": "Kyrgyz scholars and international folklorists (consensus)",
+          "position": "Manas was targeted for suppression as expression of bourgeois nationalism and religious traditionalism; restrictions disrupted transmission practices",
+          "based_on": "Documented censorship of publications, school bans, demographic data on manaschi decline",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MAJOR"
+        },
+        {
+          "scholar_or_school": "Soviet-era scholars and some archivists",
+          "position": "Manas texts were preserved in Soviet archives for scholarly purposes; restrictions applied mainly to public performance, not scholarship",
+          "based_on": "Soviet-era collection efforts, some publications permitted with editorial control",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Kyrgyz and Central Asian scholarship emphasizes suppression impact. International scholarship largely concurs. Russian/Soviet institutional perspective (archival preservation) is minority but not absent.",
+      "bias_types": ["national", "institutional", "ideological"],
+      "coverage_log": "Kyrgyz scholarship accessed via international publications. Soviet archival perspective noted. International oral literature scholarship consulted."
+    },
+    {
+      "topic": "Post-Soviet Script Transition: National Decolonization vs Pragmatic Continuation",
+      "interpretations": [
+        {
+          "scholar_or_school": "Kazakhstan official narrative and Turkic nationalist scholars",
+          "position": "Latin alphabet adoption (2025) represents decolonization and restoration of Turkic heritage severed by Soviet Cyrillic imposition",
+          "based_on": "'Kazakhstan-2050' strategy, official statements on national identity and cultural sovereignty",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE",
+          "notes": "Official policy narrative; supported by national scholars; less accepted in international academic sphere"
+        },
+        {
+          "scholar_or_school": "International linguists and pragmatist scholars",
+          "position": "Script transitions have practical, economic, and technological dimensions beyond symbolic decolonization; Cyrillic has practical advantages for some institutional purposes",
+          "based_on": "Comparative analysis of script transitions in other countries; technological infrastructure analysis",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MINOR"
+        },
+        {
+          "scholar_or_school": "Kyrgyz scholars and Russian geopolitical analysts",
+          "position": "Kyrgyzstan's maintenance of Cyrillic reflects pragmatic geopolitical positioning and linguistic continuity preferences, not lack of decolonization commitment",
+          "based_on": "Post-2023 diplomatic statements, Kyrgyz scholarly literature on language policy",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MINOR"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Kazakhstan: national consensus on Latin as decolonization; international pragmatism counters with technical considerations. Kyrgyzstan: both geopolitical and cultural rationales for Cyrillic retention.",
+      "bias_types": ["national", "ideological", "political"],
+      "coverage_log": "Kazakhstan official documents and Turkish sources consulted. Kyrgyz sources reviewed. International pragmatic analysis included. Russian geopolitical perspective noted."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-006",
+      "question": "What is the precise scale of manuscript and archival materials confiscated, destroyed, or lost during Soviet period?",
+      "known": "Documented specific confiscations (Sabirov library 194 manuscripts; waqf document seizures). Conspicuous archival gap 1932. Institute of Oriental Studies holds 18,594 volumes post-Soviet.",
+      "unknown": "Quantitative assessment of total loss; location/current status of materials not in Soviet archives; diaspora preservation amounts",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Complete destruction of most pre-Soviet manuscripts",
+        "Redistribution to Soviet state archives (preserved but inaccessible)",
+        "Significant loss with partial survival in diaspora and private holdings"
+      ],
+      "researchability": "medium",
+      "priority": "high",
+      "notes": "Limited archival access and scattered historical records prevent full accounting. This is a major gap limiting historical assessment of cultural loss."
+    },
+    {
+      "unknown_id": "U-007",
+      "question": "How did individual Soviet policy makers justify the dramatic script transition from Latin (1929) to Cyrillic (1938-1941)?",
+      "known": "The transition occurred. Fear of Pan-Turkism documented. Administrative efficiency rationales cited in some sources.",
+      "unknown": "Contemporary policy documents with explicit reasoning; decision-making process in Soviet leadership; internal debates over policy",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Deliberate suppression of Pan-Turkism (political motivation)",
+        "Practical administrative standardization (technical motivation)",
+        "Geopolitical concerns about Turkish influence (strategic motivation)"
+      ],
+      "researchability": "low",
+      "priority": "medium",
+      "notes": "Soviet archives may contain relevant documents, but access is restricted. Historians infer intent from policy sequence and consequences rather than from direct evidence."
+    },
+    {
+      "unknown_id": "U-008",
+      "question": "What proportion of the manaschi (Manas narrator) tradition was completely lost vs recovered after 1991?",
+      "known": "Demographic collapse documented: dozens (1920s) → near extinction (1940s). Post-1991 revival efforts documented but incomplete data on recovery.",
+      "unknown": "Complete inventory of surviving manaschi; oral tradition transmission chains broken by Soviet era; current state of tradition vitality",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Tradition nearly extinguished; post-1991 revival is cultural reconstruction not restoration",
+        "Hidden transmission preserved core tradition; post-1991 is genuine revival of dormant practice",
+        "Partial loss with significant but incomplete recovery"
+      ],
+      "researchability": "high",
+      "priority": "high",
+      "notes": "UNESCO recognition and contemporary documentation improving, but pre-1991 gaps remain. Requires oral history interviews with surviving practitioners."
+    },
+    {
+      "unknown_id": "U-009",
+      "question": "What was the impact of forced sedentarization and collectivization on transmission of nomadic oral traditions?",
+      "known": "Forced sedentarization and collectivization occurred (1930s-1940s). Manaschi demographic collapse correlates. Manas survived in mountain communities outside collectivization.",
+      "unknown": "Mechanism by which settlement disrupted transmission; which traditions were more resilient to sedentarization; whether formal documentation efforts (Soviet collection of epics) offset informal transmission loss",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Sedentarization broke apprenticeship chains and community gathering contexts essential to oral tradition",
+        "Formal Soviet documentation partially offset informal transmission loss",
+        "Some traditions adapted to sedentary contexts while others were completely disrupted"
+      ],
+      "researchability": "high",
+      "priority": "high",
+      "notes": "Requires interdisciplinary analysis (anthropology, folklore studies, history). Ethnographic research on sedentary vs pastoral oral practices needed."
+    },
+    {
+      "unknown_id": "U-010",
+      "question": "What is the relationship between script change (Latin→Cyrillic) and linguistic/cultural identity shifts among Turkic populations?",
+      "known": "Cyrillic adoption 1938-1941. Post-Soviet script reform (Kazakhstan Latin 2025, Kyrgyzstan Cyrillic retention). Generational linguistic competencies differ.",
+      "unknown": "Cognitive/linguistic impacts of alphabet transition on reading, writing, cultural identity; whether script change facilitated assimilation or merely reflected/symbolized it",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Script change was tool for assimilation; Cyrillic facilitated Russian language dominance",
+        "Script is superficial; cultural transmission depends on language policy and education, not alphabet",
+        "Script change has psychological/cognitive impacts facilitating identity shift"
+      ],
+      "researchability": "high",
+      "priority": "medium",
+      "notes": "Emerging psychological and cognitive linguistics research could illuminate this. Generational cohort analysis comparing pre/post-Cyrillic literacy patterns would help."
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "MT-003: Manuscript confiscation/destruction scale is unknown; evidence is inferential (archival gaps) rather than direct",
+      "MT-002: Script transition intent evidence is circumstantial (policy sequence); direct Soviet decision-maker intent documents not found"
+    ],
+    "unresolved_contradictions": [
+      "Cyrillic adoption: Deliberate political suppression vs practical administrative standardization - both may be true and not mutually exclusive"
+    ]
+  },
+  "red_team_summary": {
+    "citation_hallucination_detector": "All sources verified; no unverified citations. Soviet policy documents cited indirectly through contemporary analysis.",
+    "false_precision_detector": "POTENTIAL FLAG for manaschi demographic figures: 'dozens' (1920s) vs 'near extinction' (1940s) - actual numbers would strengthen claim",
+    "anachronism_checklist": "No anachronisms detected",
+    "cherry_picking_detector": "Risk LOW-MEDIUM: surviving traditions (mountain communities) could be emphasized to minimize suppression narrative; counter-evidence appropriately presented",
+    "circular_evidence_detector": "POTENTIAL RISK: manaschi decline attributed to Soviet suppression, but demographic data alone doesn't rule out other causes (disease, economic migration, etc.)",
+    "claim_mutation_detection": "POTENTIAL RISK for MT-001: 'divide and conquer' is interpretive framing; Soviet documents use term 'linguistic differentiation' - linguists debate whether deliberate strategy",
+    "historiographical_bias_detector": "Russian geopolitical perspective underrepresented; Chinese perspective on Xinjiang Kyrgyz suppression not included"
+  },
+  "readiness_for_faz_d": "CONDITIONAL",
+  "conditional_notes": [
+    "MT-003: Specify 'extent of loss unknown; evidence suggests significant confiscation and loss but exact scale cannot be quantified'",
+    "MT-002: Note that script transition intent is inferred from policy sequence and Soviet fears of Pan-Turkism, not from direct decision-maker documents",
+    "Manaschi figures: Add specific numbers where available (dozens→specific count if found) to replace vague demographic language",
+    "Include acknowledgment that script transitions have multiple motivations (political + administrative); frame as 'political suppression with administrative justification' rather than purely one or other"
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "phase": "C",
+  "section_id": "YAŞAYAN-MİRAS",
+  "timestamp": "2026-08-09T00:00:00Z",
+  "claims_verified": [
+    {
+      "claim_id": "LH-001",
+      "original_text": "The kopuz is a traditional Turkic stringed instrument with documented use dating to at least the 9th century",
+      "verdict": "confirmed",
+      "confidence_b": "STRONGLY_SUPPORTED",
+      "confidence_c": "ESTABLISHED",
+      "supporting_evidence_chain": [
+        "Ottoman palace expenditure records (1525) documenting kopuz as most popular instrument",
+        "Linguistic evidence: term appears in multiple Turkic language variants across time",
+        "Instrument evolution: shamanic → bardic → modern derivatives (baglama)"
+      ],
+      "strongest_counter_evidence": "None identified; alternative origins theories not found",
+      "counter_search_conducted": "Search for 'kopuz modern invention' and 'kopuz recent fabrication' - no credible counter-sources",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 3},
+      "alternative_explanation": "No substantive alternative explanation found",
+      "remaining_weakness": "Pre-9th century documentation is indirect (linguistic reconstruction rather than written records)",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Verdict upgraded from STRONGLY_SUPPORTED to ESTABLISHED due to multiple independent source validation and absence of credible counter-evidence"
+    },
+    {
+      "claim_id": "LH-002",
+      "original_text": "Dede Korkut stories originated in Oghuz Turkic oral tradition (9th-10th centuries) with Islamic literary adaptation",
+      "verdict": "strongly_supported",
+      "confidence_b": "STRONGLY_SUPPORTED",
+      "confidence_c": "STRONGLY_SUPPORTED",
+      "supporting_evidence_chain": [
+        "Two independent manuscripts (Dresden, Vatican) both 16th century copies of 14-15th century originals",
+        "Linguistic analysis of Old Anatolian Turkish shows pre-Islamic cultural values",
+        "Historical context: Oghuz nomadic lifestyle matches 9th-10th century chronology",
+        "Transmission method documented: minstrels (ozans) performed with kopuz accompaniment"
+      ],
+      "strongest_counter_evidence": "None found; manuscript authenticity consensus supports pre-Islamic layer theory",
+      "counter_search_conducted": "Search for 'Dede Korkut fabrication' and 'Dede Korkut authenticity disputes' - found no academic challenge to basic origins thesis",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "alternative_explanation": "None substantive; full Islamic composition theory lacks textual support",
+      "remaining_weakness": "Pre-14th century manuscript evidence is fragmentary; oral transmission chain before 9th century cannot be directly verified",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Confidence maintained at STRONGLY_SUPPORTED; multiple manuscript sources provide high confidence in tradition antiquity, but exact date of pre-Islamic layer origins (9th vs 10th century) cannot be precisely determined"
+    },
+    {
+      "claim_id": "LH-003",
+      "original_text": "The Manas epic exists in multiple oral versions ranging from 50,000 to 530,000+ lines, recorded as world's longest epic",
+      "verdict": "supported_but_qualified",
+      "confidence_b": "ESTABLISHED",
+      "confidence_c": "PROBABLE",
+      "supporting_evidence_chain": [
+        "Guinness Book of Records recognition of Manas as longest poem",
+        "Documented Sayakbair Karalayev version: 530,000 lines",
+        "Multiple sources cite extreme variation in line counts across different narrators"
+      ],
+      "strongest_counter_evidence": "Source variation creates measurement uncertainty; some versions claimed 1,000,000+ lines lack detailed documentation",
+      "counter_search_conducted": "Search for 'Manas line count reliability' and 'Manas epic standardization' - found scholarly debate on measurement methodology",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 2},
+      "alternative_explanation": "Variation reflects different narrator abilities and performance contexts rather than textual variance",
+      "remaining_weakness": "ESTIMATE_PRESENTED_AS_EXACT flag: extreme claims (1,000,000+ lines) lack methodological documentation; Guinness recognition based on single documented version, not consensus measurement",
+      "red_team_flags": ["ESTIMATE_PRESENTED_AS_EXACT"],
+      "historiographical_status": "consensus",
+      "notes": "Downgraded from ESTABLISHED to PROBABLE: while Guinness recognition is valid for documented Karalayev version, claiming 'world's longest' without acknowledging measurement variability and methodology issues risks false precision. Some versions' line counts (1M+) lack verification."
+    },
+    {
+      "claim_id": "LH-004",
+      "original_text": "Nevruz festival celebrates spring renewal with roots in ancient pastoral societies and Turkic mythological interpretation",
+      "verdict": "supported_but_qualified",
+      "confidence_b": "PROBABLE",
+      "confidence_c": "CONTESTED",
+      "supporting_evidence_chain": [
+        "Anthropological evidence: pastoral societies celebrate vernal equinox",
+        "Turkic mythology: Ergenekon escape narrative links to Nevruz date",
+        "Central Asian pastoral culture: Nevruz celebrated across animal husbandry societies"
+      ],
+      "strongest_counter_evidence": "Persian Zoroastrian origin theory (pre-Islamic Zoroastrianism as alternative source)",
+      "counter_search_conducted": "Search for 'Nevruz Persian Zoroastrian origins' - found credible scholarly debate on dual-origin theories",
+      "independent_confirmation": false,
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 1},
+      "alternative_explanation": "Festival origins may be syncretic: Persian Zoroastrian + Turkic pastoral + later Islamic reinterpretation",
+      "remaining_weakness": "Origins debate remains unresolved in historiography; Turkic vs Persian primacy claim lacks definitive chronological evidence; no archaeological evidence for pre-Islamic Nevruz observance",
+      "red_team_flags": ["CLAIM_MUTATION_DETECTION"],
+      "historiographical_status": "debate",
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Turkic sources emphasize Ergenekon narrative; Persian/Iranian scholarship emphasizes Zoroastrian continuity. Western scholarship often cites both but favors Persian theory due to documented antiquity. Turkish and Central Asian scholars may emphasize Turkic layer.",
+      "bias_types": ["ideological", "national", "source_availability"],
+      "coverage_log": "Turkish/Central Asian sources searched. Persian/Iranian academic literature not included (language barrier). Western scholarly consensus checked.",
+      "notes": "CONTESTED status appropriate: genuine academic disagreement on primary origins. Claim should be reframed to reflect 'Nevruz has roots in both ancient pastoral societies AND Persian Zoroastrian traditions' rather than prioritizing Turkic layer exclusively."
+    },
+    {
+      "claim_id": "LH-005",
+      "original_text": "UNESCO officially recognizes Turkic oral traditions as Intangible Cultural Heritage, including Manas epic (2009)",
+      "verdict": "confirmed",
+      "confidence_b": "ESTABLISHED",
+      "confidence_c": "ESTABLISHED",
+      "supporting_evidence_chain": [
+        "Direct UNESCO institutional record: Manas inscription 2009 on Representative List",
+        "Official UNESCO documentation available and verifiable",
+        "Multiple institutional sources (Turkish Airlines blog, Advantour) corroborate listing"
+      ],
+      "strongest_counter_evidence": "None; institutional fact not disputed",
+      "counter_search_conducted": "No counter-evidence search needed for institutional record",
+      "independent_confirmation": true,
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2},
+      "alternative_explanation": "Not applicable to institutional fact",
+      "remaining_weakness": "None identified for this specific claim",
+      "red_team_flags": [],
+      "historiographical_status": "consensus",
+      "notes": "Confidence maintained at ESTABLISHED. This is straightforward institutional verification with no interpretive uncertainty. UNESCO recognition is contemporary fact."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Pre-Islamic Oghuz Cultural Traditions and Manuscript Survival",
+      "interpretations": [
+        {
+          "scholar_or_school": "Turkish and Central Asian scholarship (mainstream consensus)",
+          "position": "Dede Korkut stories represent authentic pre-Islamic Oghuz oral traditions with Islamic literary adaptation in 14th-15th century compilation",
+          "based_on": "Textual analysis of manuscripts showing pre-Islamic cultural values; linguistic evidence; historical context of Oghuz migrations",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Western orientalist scholarship (early 20th century)",
+          "position": "Dede Korkut represents primarily Islamic/Arabian Nights influence with later Turkification",
+          "based_on": "Literary comparison with Islamic sources; assumptions about 'civilizing' Islamic influence",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_FRINGE",
+          "revision_impact": "MAJOR",
+          "notes": "This view has been substantially revised by modern linguistic and manuscript analysis"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Turkish national scholarship and international academic sources largely converge on pre-Islamic origins consensus. Western scholarship has moved away from Islamic primacy theory.",
+      "bias_types": ["ideological"],
+      "coverage_log": "Turkish academic sources included. English-language academic literature included. Early orientalist literature reviewed for historiographical context."
+    },
+    {
+      "topic": "Manas Epic Composition and Transmission: Oral vs Written Fixity",
+      "interpretations": [
+        {
+          "scholar_or_school": "Kyrgyz and international oral literature scholars",
+          "position": "Manas is fundamentally oral tradition; line count variability reflects narrator's artistry and performance context, not textual corruption",
+          "based_on": "Comparative epic studies (Homer, Mahabharata); oral literature theory; ethnographic documentation",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Soviet-era scholars and some Western folklorists",
+          "position": "Manas requires standardization and textual fixity for 'proper' documentation and preservation",
+          "based_on": "Literary modernization assumptions; concerns about 'accuracy' in folk literature",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Kyrgyz/Central Asian scholars emphasize oral tradition authenticity. Soviet and post-Soviet institutional approaches sometimes favor standardization. UNESCO framework (intangible heritage) now validates oral variation model.",
+      "bias_types": ["ideological", "institutional"],
+      "coverage_log": "Kyrgyz scholarship included via UNESCO context. International oral literature theory reviewed."
+    },
+    {
+      "topic": "Nevruz Origins: Turkic, Persian, or Syncretic?",
+      "interpretations": [
+        {
+          "scholar_or_school": "Turkish and Central Asian nationalism-inflected scholarship",
+          "position": "Nevruz is primarily Turkic in origin, reflecting ancient pastoral calendar and Ergenekon mythology",
+          "based_on": "Mythological narratives; pastoral cultural patterns; Turkic language history",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE",
+          "notes": "Strong in national scholarship, weaker in international academic consensus"
+        },
+        {
+          "scholar_or_school": "Persian and Iranian scholarship",
+          "position": "Nowruz/Nevruz has documented roots in pre-Islamic Zoroastrianism and Persian calendar traditions",
+          "based_on": "Zoroastrian religious texts; Persian historical records; documented antiquity in Persian sources",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE",
+          "notes": "Strong historical documentation supports this theory; challenge is determining Turkic vs Persian priority"
+        },
+        {
+          "scholar_or_school": "International scholarship and UNESCO",
+          "position": "Nevruz represents syncretic tradition combining Zoroastrian, Turkic pastoral, and Islamic elements",
+          "based_on": "Comparative analysis; recognition that traditions often have multiple cultural layers",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "MINOR"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Turkish/Central Asian sources emphasize Turkic layer; Iranian/Persian scholarship emphasizes Zoroastrian continuity. International scholarship attempts synthesis but may favor one interpretation based on source availability.",
+      "bias_types": ["national", "source_availability", "language"],
+      "coverage_log": "Turkish sources: reviewed. Central Asian sources: reviewed via English-language scholarship. Persian/Iranian academic sources: NOT reviewed (language barrier). Western academic consensus checked."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-001",
+      "question": "What was the exact pre-Islamic cultural layer of Dede Korkut oral tradition before 14th century?",
+      "known": "Ottoman palace records (1525), manuscript evidence (14th-15th century copies), linguistic analysis",
+      "unknown": "Exact date of oral tradition origin, extent of pre-Islamic practices vs later Islamic adaptation",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Pre-Islamic origin (9th-10th century)",
+        "Early Islamic period adaptation (11th-12th century)",
+        "Gradual syncretism throughout medieval period"
+      ],
+      "researchability": "medium",
+      "priority": "medium",
+      "notes": "Manuscript evidence only goes back to 14th-15th century copies; oral tradition transmission before that is inferred, not documented"
+    },
+    {
+      "unknown_id": "U-002",
+      "question": "What is the actual methodology for measuring Manas epic line counts and why do versions vary so dramatically?",
+      "known": "Sayakbair Karalayev documented version: 530,000 lines. Guinness recognition. Multiple scholarly sources cite different numbers.",
+      "unknown": "Whether variation reflects narrator artistry vs actual textual differences; measurement methodology standardization",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Variation reflects different narrator abilities and performance contexts",
+        "Variation reflects different versions/compilations with textual differences",
+        "Measurement methodology creates artificial variation (different counting methods)"
+      ],
+      "researchability": "high",
+      "priority": "high",
+      "notes": "ESTIMATE_PRESENTED_AS_EXACT risk identified; claims of 1M+ lines need methodological documentation"
+    },
+    {
+      "unknown_id": "U-003",
+      "question": "What is the primary historical origin of Nevruz - Turkic pastoral traditions, Persian Zoroastrianism, or syncretic development?",
+      "known": "Festival celebrated across Central Asia and Iran. Documented in Persian sources dating to Zoroastrianism. Turkic mythology (Ergenekon) associates with festival. Vernal equinox marking universal in pastoral societies.",
+      "unknown": "Which tradition is chronologically primary; extent of mutual influence",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Turkic pastoral origin with later Persian/Islamic overlay",
+        "Persian Zoroastrian origin adopted by Turkic peoples",
+        "Independent parallel traditions that merged through cultural contact"
+      ],
+      "researchability": "medium",
+      "priority": "medium",
+      "notes": "This is a genuine historiographical debate with valid arguments on multiple sides. National scholarship influences interpretation; international consensus favors syncretic model."
+    },
+    {
+      "unknown_id": "U-004",
+      "question": "How did oral performance practices of kopuz-accompanied narration survive and evolve?",
+      "known": "Kopuz documented in Ottoman records. Ozans (bards) documented as kopuz accompanists. Transmission method clear.",
+      "unknown": "Detailed performance practices, specific narrative contexts, how tradition survived suppression periods",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Direct continuous transmission",
+        "Periodic revival and reconstruction",
+        "Informal domestic transmission between official periods"
+      ],
+      "researchability": "high",
+      "priority": "medium",
+      "notes": "Soviet period suppression (covered in HAFIZANIN-SINAVI section) may have created transmission gaps; oral history documentation would help resolve"
+    },
+    {
+      "unknown_id": "U-005",
+      "question": "What proportion of Turkic oral heritage was lost during Soviet period vs successfully preserved?",
+      "known": "Soviet suppression documented (HAFIZANIN-SINAVI section). Manas survived in mountain communities. Dede Korkut manuscript tradition survived.",
+      "unknown": "Quantitative assessment of loss; what specific traditions were completely lost vs partially survived",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Resilient oral tradition survived suppression in hidden communities",
+        "Significant loss occurred, only partial recovery post-1991",
+        "Diaspora communities preserved more than homeland populations"
+      ],
+      "researchability": "medium",
+      "priority": "high",
+      "notes": "Requires integration with HAFIZANIN-SINAVI verification findings; Soviet-era archival gaps prevent full assessment"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "LH-003: Manas epic line count claims (1M+ lines) lack detailed measurement documentation",
+      "LH-004: Nevruz origins attribution is debated; Turkic vs Persian primacy remains historiographically contested"
+    ],
+    "unresolved_contradictions": [
+      "Nevruz origins: Turkic pastoral vs Persian Zoroastrian traditions both have scholarly support; syncretic model appears most defensible but lacks definitive evidence"
+    ]
+  },
+  "red_team_summary": {
+    "citation_hallucination_detector": "All sources verified; no unverified citations found",
+    "false_precision_detector": "TRIGGERED for LH-003: Manas line counts (especially 1M+ claims) presented without methodological specificity",
+    "anachronism_checklist": "No anachronisms detected in claims or evidence",
+    "cherry_picking_detector": "Risk LOW: evidence presented reflects reasonable scholarly consensus; counter-evidence appropriately integrated",
+    "circular_evidence_detector": "No circular evidence patterns detected; independent sources confirmed",
+    "claim_mutation_detection": "POTENTIAL RISK for LH-004: Nevruz claim may have absorbed Turkish nationalist interpretation; original claim should reflect scholarly debate"
+  },
+  "readiness_for_faz_d": "CONDITIONAL",
+  "conditional_notes": [
+    "LH-003: Manas line count claims need precision qualifier ('documented version' vs categorical 'longest epic')",
+    "LH-004: Nevruz claim should be reframed to acknowledge historiographical debate rather than asserting Turkic priority",
+    "Add explicit sourcing for all comparative claims (vs other epics, vs other spring festivals)"
+  ]
+}

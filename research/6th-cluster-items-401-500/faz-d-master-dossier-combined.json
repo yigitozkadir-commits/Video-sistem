@@ -1,0 +1,653 @@
+{
+  "phase": "D",
+  "cluster": "6TH-CLUSTER",
+  "sections": ["yaşayan_miras", "hafizanin_sinavi"],
+  "items_range": "401-500",
+  "synthesis_timestamp": "2026-08-09T00:00:00Z",
+  "research_synthesist": "Claude Code v4.5 (Haiku)",
+
+  "claim_consolidation": {
+    "summary": "10 core claims across two sections consolidated with Phase C verification verdicts and historiographical context",
+    "yaşayan_miras": [
+      {
+        "claim_id": "LH-001",
+        "text": "The kopuz is a traditional Turkic stringed instrument with documented use dating to at least the 9th century, evolving from shamanic spiritual tool to bardic companion instrument (ozan)",
+        "type": "fact",
+        "importance": "core",
+        "faz_b_confidence": "STRONGLY_SUPPORTED",
+        "faz_c_verdict": "confirmed",
+        "faz_d_confidence": "ESTABLISHED",
+        "confidence_reasoning": "Multiple independent sources including Ottoman palace records (1525), linguistic documentation across Turkic languages, and instrument evolution narrative. No credible counter-evidence found.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "Upgraded to ESTABLISHED due to multiple independent confirmations. Pre-9th century documentation is indirect (linguistic) rather than written records, but does not undermine 9th-century documented use."
+      },
+      {
+        "claim_id": "LH-002",
+        "text": "Dede Korkut stories originated in Oghuz Turkic oral tradition (9th-10th centuries) with Islamic literary adaptation occurring by 14th-15th century manuscript compilation",
+        "type": "interpretation",
+        "importance": "core",
+        "faz_b_confidence": "STRONGLY_SUPPORTED",
+        "faz_c_verdict": "strongly_supported",
+        "faz_d_confidence": "STRONGLY_SUPPORTED",
+        "confidence_reasoning": "Two independent manuscripts (Dresden 16th c., Vatican 16th c.) both copies of 14-15th century originals. Linguistic analysis shows pre-Islamic cultural values. Transmission method (ozans with kopuz) documented.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "Maintained at STRONGLY_SUPPORTED; additional data (pre-14th century manuscript evidence) needed to achieve ESTABLISHED status. No substantive academic challenge to basic origins thesis found."
+      },
+      {
+        "claim_id": "LH-003",
+        "text": "The Manas epic exists in multiple oral versions ranging from 50,000 to 530,000+ lines with some recordings claiming 1,000,000 lines, making it the world's longest epic poem (Guinness Record)",
+        "type": "fact",
+        "importance": "supporting",
+        "faz_b_confidence": "ESTABLISHED",
+        "faz_c_verdict": "supported_but_qualified",
+        "faz_d_confidence": "PROBABLE",
+        "confidence_reasoning": "Guinness recognition valid for documented Sayakbair Karalayev version (530,000 lines). However, claims of 1,000,000+ lines lack methodological documentation; extreme line count claims lack standardized measurement methodology.",
+        "historiographical_status": "consensus",
+        "red_team_flags": ["ESTIMATE_PRESENTED_AS_EXACT"],
+        "faz_d_notes": "DOWNGRADED to PROBABLE. Precision issue: claims of 1M+ lines are estimates without documented verification; measurement methodology varies across narrators. Guinness recognition documented for specific version, not consensus on 'longest epic' status.",
+        "required_caveat": "Documented Sayakbair Karalayev version: 530,000 lines (Guinness recognized). Other versions vary from 50,000-530,000+ lines depending on narrator and performance context. Claims of 1,000,000+ lines lack detailed methodological documentation."
+      },
+      {
+        "claim_id": "LH-004",
+        "text": "Nevruz festival celebrates spring renewal with roots in ancient pastoral and nomadic societies, with Turkic mythological interpretation (Ergenekon escape narrative)",
+        "type": "inference",
+        "importance": "core",
+        "faz_b_confidence": "PROBABLE",
+        "faz_c_verdict": "contested",
+        "faz_d_confidence": "CONTESTED",
+        "confidence_reasoning": "Genuine historiographical debate: Turkish/Central Asian scholarship emphasizes Turkic pastoral origins and Ergenekon narrative; Persian/Iranian scholarship emphasizes Zoroastrian continuity with documented antiquity. International scholarship increasingly favors syncretic model (Persian + Turkic + Islamic layers).",
+        "historiographical_status": "debate",
+        "red_team_flags": ["CLAIM_MUTATION_DETECTION"],
+        "faz_d_notes": "Status CONTESTED appropriate. Original claim emphasizes Turkic layer exclusively, potentially absorbing nationalist interpretation. Reframe should acknowledge dual-origin debate: Nevruz has documented roots in Persian Zoroastrianism AND Turkic pastoral traditions; scholarly debate on primary origin remains unresolved.",
+        "perspective_diversity_note": "Turkish sources: Ergenekon narrative emphasis. Persian/Iranian scholarship: Zoroastrian continuity (not systematically reviewed due to language barrier). Western scholarship: syncretic model emerging consensus.",
+        "historiographical_bias": "Source availability bias; Persian/Iranian academic literature not comprehensively searched"
+      },
+      {
+        "claim_id": "LH-005",
+        "text": "UNESCO officially recognizes specific Turkic oral traditions as Intangible Cultural Heritage of Humanity, including Manas epic (2009) and other cultural elements",
+        "type": "fact",
+        "importance": "supporting",
+        "faz_b_confidence": "ESTABLISHED",
+        "faz_c_verdict": "confirmed",
+        "faz_d_confidence": "ESTABLISHED",
+        "confidence_reasoning": "Direct UNESCO institutional record verifiable and non-disputed. Manas inscription 2009 on Representative List. Contemporary institutional fact.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "No uncertainties identified; this is institutional documentation. UNESCO recognition provides modern validation of living heritage status."
+      }
+    ],
+    "hafizanin_sinavi": [
+      {
+        "claim_id": "MT-001",
+        "text": "The Soviet Union systematically suppressed Turkic languages, scripts, and cultural institutions in Central Asia (1917-1991) using a 'divide and conquer' strategy to fragment Pan-Turkic identity",
+        "type": "fact",
+        "importance": "core",
+        "faz_b_confidence": "ESTABLISHED",
+        "faz_c_verdict": "confirmed",
+        "faz_d_confidence": "ESTABLISHED",
+        "confidence_reasoning": "Multiple academic and policy sources document systematic language policy designed to differentiate mutually intelligible languages. 1938 Russian language mandate in non-Russian schools documented. Language marginalization and cultural transmission disruption well-established.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "Confidence maintained at ESTABLISHED. 'Divide and conquer' is interpretive framing; Soviet documents use 'linguistic differentiation.' Historians debate whether deliberate strategy vs structural effect, but consensus on systematic nature and suppression consequences."
+      },
+      {
+        "claim_id": "MT-002",
+        "text": "The transition from Latin to Cyrillic script for Turkic languages (1938-1941) was a deliberate strategy to enforce Soviet linguistic hegemony and sever Pan-Turkic cultural continuity with Ottoman/Arabic heritage",
+        "type": "inference",
+        "importance": "core",
+        "faz_b_confidence": "STRONGLY_SUPPORTED",
+        "faz_c_verdict": "strongly_supported",
+        "faz_d_confidence": "STRONGLY_SUPPORTED",
+        "confidence_reasoning": "Policy sequence compelling: unified Latin alphabet 1929 → dramatic Cyrillic substitution 1938-1941 (decade later). Soviet fear of Pan-Turkic literature development explicitly documented in policy analysis. Differential implementation across republics suggests coordinated political decision.",
+        "historiographical_status": "debate",
+        "red_team_flags": ["NEDENSELLIK_INFERENCE"],
+        "faz_d_notes": "Intent evidence is circumstantial (policy sequence, documented Soviet fears of Pan-Turkism) rather than from direct decision-maker intent documents. Consensus among historians on political control motivation, though Soviet sources emphasized practical efficiency rationales. Alternative explanation: political suppression AND administrative standardization were both motivations (not mutually exclusive)."
+      },
+      {
+        "claim_id": "MT-003",
+        "text": "Pre-Soviet cultural manuscripts, archives, and waqf (Islamic endowment) records were systematically confiscated, destroyed, or hidden during Soviet collectivization and purges (1920s-1940s)",
+        "type": "fact",
+        "importance": "core",
+        "faz_b_confidence": "PROBABLE",
+        "faz_c_verdict": "supported_but_qualified",
+        "faz_d_confidence": "PROBABLE",
+        "confidence_reasoning": "Documented specific confiscations (Sabirov library 194 manuscripts; waqf documents seized). Conspicuous archival gap 1932 suggests major loss period. However, exact scale of loss vs. preservation unknown; materials may have been redistributed to Soviet state archives rather than destroyed.",
+        "historiographical_status": "consensus",
+        "red_team_flags": ["SOURCE_GAP", "UNKNOWN_SCOPE"],
+        "faz_d_notes": "Exact extent of loss cannot be quantified. Evidence points to significant confiscation and some loss, but scale remains unknown. Archival gaps are strong inferential evidence but not definitive proof of destruction. Some materials may survive in diaspora or private holdings.",
+        "required_caveat": "Evidence of systematic confiscation established; extent of destruction vs. redistribution to Soviet archives unknown. Researchers face restricted access to early Soviet materials."
+      },
+      {
+        "claim_id": "MT-004",
+        "text": "During Soviet era, public performance of traditional Turkic epics (particularly Manas) faced ideological censorship and legal restrictions; the epic was branded 'bourgeois-nationalist' and 'religious'",
+        "type": "fact",
+        "importance": "supporting",
+        "faz_b_confidence": "STRONGLY_SUPPORTED",
+        "faz_c_verdict": "confirmed",
+        "faz_d_confidence": "ESTABLISHED",
+        "confidence_reasoning": "Documented Soviet ideological condemnation, school bans (except Soviet-conforming portions), heavy editorial control of publications. Demographic collapse of manaschi (dozens 1920s → near extinction 1940s) provides quantitative evidence. Forced sedentarization disrupted transmission practices.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "Upgraded to ESTABLISHED; multiple independent sources and demographic data provide strong evidence. Oral tradition survival in mountains does not contradict suppression findings; rather demonstrates resilience and informal transmission during restriction period."
+      },
+      {
+        "claim_id": "MT-005",
+        "text": "Post-1991 independence sparked rapid cultural revival with systematic language policy reforms; Kazakhstan adopted Latin alphabet by 2025 while Kyrgyzstan remains committed to Cyrillic",
+        "type": "fact",
+        "importance": "supporting",
+        "faz_b_confidence": "ESTABLISHED",
+        "faz_c_verdict": "confirmed",
+        "faz_d_confidence": "ESTABLISHED",
+        "confidence_reasoning": "Official language policy documents and implementation records clearly documented. Kazakhstan: 2012 'Kazakhstan-2050' strategy + 2017 official decree. Kyrgyzstan: April 2023 proposal prompted geopolitical response; President Japarov clarified no transition plans.",
+        "historiographical_status": "consensus",
+        "red_team_flags": [],
+        "faz_d_notes": "These are contemporary documented institutional facts. Debate exists over symbolic vs. practical motivations for script transitions, but policy positions are clearly established. Regional context: OTS summit (2023) discussed common alphabet but no consensus achieved."
+      }
+    ]
+  },
+
+  "evidence_graph": {
+    "summary": "10 claims linked to 29 evidence items across two sections with confidence levels and alignment strengths",
+    "yaşayan_miras_evidence_map": {
+      "LH-001": {
+        "claim_text": "Kopuz 9th century documented use",
+        "evidence_chain": ["EV-001", "EV-002", "EV-003"],
+        "confidence_distribution": {
+          "STRONG": ["EV-001 (Ottoman records 1525)", "EV-003 (instrument evolution narrative)"],
+          "MODERATE": ["EV-002 (linguistic documentation)"]
+        },
+        "independent_sources": 3,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      },
+      "LH-002": {
+        "claim_text": "Dede Korkut pre-Islamic origins with Islamic adaptation",
+        "evidence_chain": ["EV-004", "EV-005", "EV-006"],
+        "confidence_distribution": {
+          "STRONG": ["EV-004 (Dresden manuscript)", "EV-005 (Vatican manuscript)"],
+          "MODERATE": ["EV-006 (linguistic analysis)"]
+        },
+        "independent_sources": 3,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      },
+      "LH-003": {
+        "claim_text": "Manas 50,000-530,000+ lines (world's longest epic)",
+        "evidence_chain": ["EV-007", "EV-008", "EV-009"],
+        "confidence_distribution": {
+          "STRONG": ["EV-007 (Guinness recognition)", "EV-008 (Karalayev 530,000 documented)"],
+          "MODERATE": ["EV-009 (variable line counts across narrators)"]
+        },
+        "independent_sources": 3,
+        "alignment_strength": "PARTIALLY_SUPPORTS",
+        "uncertainty_note": "Measurement methodology varies; extreme claims (1M+ lines) lack documentation"
+      },
+      "LH-004": {
+        "claim_text": "Nevruz pastoral/nomadic roots with Turkic mythological interpretation",
+        "evidence_chain": ["EV-010", "EV-011", "EV-012 (counter)"],
+        "confidence_distribution": {
+          "MODERATE": ["EV-010 (anthropological pastoral context)", "EV-011 (Turkic mythology)"],
+          "CONTEXTUAL": ["EV-012 (Persian Zoroastrian counter-evidence)"]
+        },
+        "independent_sources": 2,
+        "alignment_strength": "INDIRECTLY_SUPPORTS",
+        "historiographical_debate": true,
+        "debate_partners": ["Persian Zoroastrian origins theory", "Syncretic model (emerging consensus)"]
+      },
+      "LH-005": {
+        "claim_text": "UNESCO intangible heritage recognition (Manas 2009)",
+        "evidence_chain": ["EV-013"],
+        "confidence_distribution": {
+          "STRONG": ["EV-013 (UNESCO official record)"]
+        },
+        "independent_sources": 2,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      }
+    },
+    "hafizanin_sinavi_evidence_map": {
+      "MT-001": {
+        "claim_text": "Soviet systematic Turkic suppression divide-and-conquer strategy",
+        "evidence_chain": ["EV-001", "EV-002", "EV-003"],
+        "confidence_distribution": {
+          "STRONG": ["EV-001 (policy documents)", "EV-002 (1938 Russian mandate)"],
+          "MODERATE": ["EV-003 (historical analysis)"]
+        },
+        "independent_sources": 2,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      },
+      "MT-002": {
+        "claim_text": "Cyrillic script transition (1938-1941) deliberate political control",
+        "evidence_chain": ["EV-004", "EV-005", "EV-006", "EV-007 (counter)"],
+        "confidence_distribution": {
+          "STRONG": ["EV-004 (Latin timeline 1929)", "EV-005 (Cyrillic substitution timeline)"],
+          "MODERATE": ["EV-006 (policy analysis & Soviet fears)"],
+          "CONTEXTUAL": ["EV-007 (practical efficiency alternative)"]
+        },
+        "independent_sources": 3,
+        "alignment_strength": "PARTIALLY_SUPPORTS",
+        "inference_type": "CAUSAL_CHAIN"
+      },
+      "MT-003": {
+        "claim_text": "Manuscript/waqf confiscation and loss (1920s-1940s)",
+        "evidence_chain": ["EV-008", "EV-009", "EV-010"],
+        "confidence_distribution": {
+          "STRONG": ["EV-008 (Sabirov library confiscation)", "EV-009 (waqf abolition)"],
+          "MODERATE": ["EV-010 (archival gap 1932)"]
+        },
+        "independent_sources": 2,
+        "alignment_strength": "PARTIALLY_SUPPORTS",
+        "evidence_type": "INFERENTIAL",
+        "scope_uncertainty": "Extent of destruction vs. redistribution unknown"
+      },
+      "MT-004": {
+        "claim_text": "Manas epic censorship and performance restrictions",
+        "evidence_chain": ["EV-011", "EV-012", "EV-013"],
+        "confidence_distribution": {
+          "STRONG": ["EV-011 (Soviet condemnation)", "EV-012 (school bans)", "EV-013 (demographic collapse)"],
+          "MODERATE": []
+        },
+        "independent_sources": 4,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      },
+      "MT-005": {
+        "claim_text": "Post-1991 divergent script policies (KZ Latin vs KG Cyrillic)",
+        "evidence_chain": ["EV-014", "EV-015", "EV-016"],
+        "confidence_distribution": {
+          "STRONG": ["EV-014 (Kazakhstan-2050)", "EV-015 (2017 decree)", "EV-016 (Kyrgyzstan geopolitical response)"]
+        },
+        "independent_sources": 3,
+        "alignment_strength": "DIRECTLY_SUPPORTS"
+      }
+    }
+  },
+
+  "causal_chains": [
+    {
+      "chain_id": "CC-001",
+      "title": "Turkic Oral Tradition Continuity Chain",
+      "sequence": [
+        {
+          "event": "Ancient Turkic shamanic practices (pre-Islamic)",
+          "time_period": "pre-9th century",
+          "evidence_basis": "Linguistic reconstruction, mythological narratives",
+          "source_section": "yaşayan_miras"
+        },
+        {
+          "event": "Kopuz development as spiritual/musical instrument",
+          "time_period": "9th century",
+          "evidence_basis": "Ottoman palace records (1525), linguistic terms across Turkic languages",
+          "source_section": "yaşayan_miras (LH-001)",
+          "turning_point": true
+        },
+        {
+          "event": "Ozan bardic tradition with kopuz accompaniment",
+          "time_period": "9th-14th centuries",
+          "evidence_basis": "Dede Korkut manuscript transmission documentation, ozan cultural role",
+          "source_section": "yaşayan_miras (LH-002)"
+        },
+        {
+          "event": "Islamic literary adaptation (Dede Korkut manuscript compilation)",
+          "time_period": "14th-15th centuries",
+          "evidence_basis": "Dresden and Vatican manuscripts, linguistic analysis of Islamic layer",
+          "source_section": "yaşayan_miras (LH-002)"
+        },
+        {
+          "event": "Soviet suppression of public epic performance",
+          "time_period": "1920s-1991",
+          "evidence_basis": "Documented censorship, ideological condemnation, manaschi demographic collapse",
+          "source_section": "hafizanin_sinavi (MT-004)",
+          "turning_point": true
+        },
+        {
+          "event": "Informal transmission in mountain communities (survival phase)",
+          "time_period": "1940s-1991",
+          "evidence_basis": "Manas survival documentation, hidden transmission practices",
+          "source_section": "hafizanin_sinavi (MT-004)"
+        },
+        {
+          "event": "Post-1991 cultural revival and UNESCO recognition",
+          "time_period": "1991-2009",
+          "evidence_basis": "UNESCO 2009 inscription, documented cultural revival projects",
+          "source_section": "yaşayan_miras (LH-005), hafizanin_sinavi (MT-005)",
+          "turning_point": true
+        }
+      ],
+      "causal_mechanism": "Institutional suppression (Soviet era) temporarily disrupted but did not break oral transmission chain; post-Soviet institutional recognition (UNESCO) provided modern validation and support structure for tradition continuity"
+    },
+    {
+      "chain_id": "CC-002",
+      "title": "Script and Cultural Identity Chain",
+      "sequence": [
+        {
+          "event": "Ottoman use of Arabic script for Turkic languages",
+          "time_period": "14th-20th centuries",
+          "evidence_basis": "Historical documentation, Dede Korkut manuscript script",
+          "source_section": "yaşayan_miras (LH-002)"
+        },
+        {
+          "event": "Pan-Turkic Latin alphabet adoption (Soviet and Turkish)",
+          "time_period": "1920s",
+          "evidence_basis": "Unified Latin adoption by January 1, 1929 across Turkic republics",
+          "source_section": "hafizanin_sinavi (MT-002)"
+        },
+        {
+          "event": "Soviet Cyrillic script imposition",
+          "time_period": "1938-1941",
+          "evidence_basis": "Policy timeline, documented Soviet fears of Pan-Turkic literature development",
+          "source_section": "hafizanin_sinavi (MT-002)",
+          "turning_point": true
+        },
+        {
+          "event": "Generational linguistic shift and reduced Pan-Turkic cultural connection",
+          "time_period": "1941-1991",
+          "evidence_basis": "Archival evidence, language transmission disruption",
+          "source_section": "hafizanin_sinavi (MT-001, MT-002)"
+        },
+        {
+          "event": "Post-Soviet script reform decisions (divergent paths)",
+          "time_period": "1991-2025",
+          "evidence_basis": "Kazakhstan Latin adoption (2012-2025); Kyrgyzstan Cyrillic retention (2023)",
+          "source_section": "hafizanin_sinavi (MT-005)",
+          "turning_point": true
+        }
+      ],
+      "causal_mechanism": "Script serves as tool for cultural control; changes in script reflect and enable shifts in cultural identity and Pan-Turkic connection; post-Soviet divergence reflects competing national identity strategies"
+    },
+    {
+      "chain_id": "CC-003",
+      "title": "Institutional Suppression & Resilience (Integrated Theme)",
+      "sequence": [
+        {
+          "event": "Living Heritage: Turkic oral traditions (kopuz, epics, ceremonies)",
+          "time_period": "Pre-20th century",
+          "evidence_basis": "LH-001 to LH-005: documented instruments, manuscripts, UNESCO recognition criteria",
+          "source_section": "yaşayan_miras",
+          "institutional_role": "None (informal transmission)"
+        },
+        {
+          "event": "Soviet Institutional Suppression (1917-1991)",
+          "time_period": "1917-1991",
+          "evidence_basis": "MT-001 to MT-004: language policy, script change, manuscript confiscation, epic censorship",
+          "source_section": "hafizanin_sinavi",
+          "institutional_role": "State suppression apparatus",
+          "turning_point": true
+        },
+        {
+          "event": "Informal Survival (hidden communities, family transmission)",
+          "time_period": "1940s-1991",
+          "evidence_basis": "Mountain communities preserved Manas; family transmission continued despite restrictions",
+          "source_section": "hafizanin_sinavi (MT-004)"
+        },
+        {
+          "event": "Post-Soviet Institutional Revival (1991-present)",
+          "time_period": "1991-present",
+          "evidence_basis": "UNESCO recognition (2009); Kazakhstan cultural policies; post-1991 revival projects",
+          "source_section": "yaşayan_miras (LH-005), hafizanin_sinavi (MT-005)",
+          "institutional_role": "State support and international recognition",
+          "turning_point": true
+        }
+      ],
+      "causal_mechanism": "Institutional suppression attempts to control cultural transmission; resilient traditions survive through informal channels and hidden communities; post-Soviet institutional validation provides modern support and global recognition for continued transmission"
+    }
+  ],
+
+  "historiography_audit": {
+    "common_theme": "Institutional Suppression & Resilience",
+    "theme_description": "Both sections document how institutional actors (Ottoman state maintaining, Soviet state suppressing, post-Soviet states reviving) shape transmission and recognition of Turkic cultural heritage. Central tension: formal institutional suppression vs. informal survival mechanisms.",
+    "yaşayan_miras_historiography": {
+      "dominant_perspectives": [
+        {
+          "name": "Turkish/Central Asian cultural heritage scholarship",
+          "position": "Turkic traditions represent continuous cultural lineage with adaptive evolution through Islamic and Ottoman periods",
+          "bias_indicators": ["nationalist framing", "emphasis on Turkic primacy"],
+          "representation": "HIGH"
+        },
+        {
+          "name": "Western orientalist scholarship (historical)",
+          "position": "Traditions show Islamic/Arabian influence with later Turkification",
+          "status": "minority_outdated",
+          "representation": "LOW"
+        },
+        {
+          "name": "International oral literature scholarship",
+          "position": "Manas and other epics follow oral tradition variation models; standardization not authentic preservation",
+          "representation": "MODERATE"
+        },
+        {
+          "name": "UNESCO/institutional heritage frameworks",
+          "position": "Living traditions value authenticity and community agency in transmission",
+          "representation": "MODERATE"
+        }
+      ],
+      "identified_biases": {
+        "source_availability": "Persian/Iranian scholarship on Nevruz not systematically reviewed (language barrier)",
+        "national_bias": "Turkish and Central Asian sources emphasize Turkic layers; Persian sources emphasize Zoroastrian continuity",
+        "temporal_bias": "Ottoman period documentation abundant; pre-Ottoman evidence sparse"
+      },
+      "contested_issues": [
+        {
+          "issue": "Nevruz origins: Turkic pastoral vs Persian Zoroastrian primacy",
+          "schools": ["Turkish/Central Asian (Turkic emphasis)", "Persian (Zoroastrian emphasis)", "International (syncretic model)"],
+          "historiographical_status": "unresolved_debate",
+          "implication": "Claims about 'Turkic' origins should acknowledge scholarly debate rather than assert single theory"
+        }
+      ]
+    },
+    "hafizanin_sinavi_historiography": {
+      "dominant_perspectives": [
+        {
+          "name": "Central Asian and post-Soviet scholarship",
+          "position": "Soviet language and cultural policy was deliberate suppression strategy designed to prevent Pan-Turkic unification",
+          "representation": "HIGH"
+        },
+        {
+          "name": "International history scholarship",
+          "position": "Soviet policy had both political control and administrative efficiency motivations",
+          "representation": "MODERATE"
+        },
+        {
+          "name": "Russian/Soviet-sympathetic scholarship",
+          "position": "Language policy motivated by practical modernization; suppression effects were unintended structural consequences",
+          "representation": "LOW"
+        },
+        {
+          "name": "Kyrgyz oral tradition scholars",
+          "position": "Manas suppression was ideological targeting; oral tradition survived through informal hidden transmission",
+          "representation": "MODERATE-HIGH"
+        }
+      ],
+      "identified_biases": {
+        "national_perspective": "Russian/Soviet institutional perspective underrepresented; Russian geopolitical analysis limited",
+        "geographic_scope": "Chinese suppression of Xinjiang Kyrgyz culture not included in analysis",
+        "source_availability": "Soviet archival access restricted; policy intent documented indirectly through outcomes rather than decision-maker documents",
+        "temporal_bias": "Soviet period documentation abundant; pre-Soviet and diaspora preservation records sparse"
+      },
+      "contested_issues": [
+        {
+          "issue": "Cyrillic imposition: deliberate political control vs technical standardization",
+          "schools": ["Political control thesis (consensus)", "Administrative efficiency rationale (minority)", "Combined motivation (compromise view)"],
+          "historiographical_status": "emerging_consensus_on_political_intent"
+        },
+        {
+          "issue": "Manas suppression: selective ideological censorship vs attempted cultural erasure",
+          "schools": ["Complete suppression attempt (majority)", "Selective public restriction with archival preservation (minority)"],
+          "historiographical_status": "consensus_on_suppression_with_caveats"
+        }
+      ]
+    },
+    "integrated_historiography_assessment": {
+      "perspective_integration": "Two sections represent complementary historiographical perspectives: YAŞAYAN_MİRAS documents living heritage transmission and institutional recognition; HAFIZANIN_SINAVI documents institutional suppression and informal survival. Together they show institutional suppression did not permanently break cultural transmission; post-1991 institutional revival provided new validation framework.",
+      "bias_alert_summary": [
+        "Russian/Soviet institutional perspective underrepresented across both sections",
+        "Persian/Iranian scholarship on Nevruz and cultural traditions not systematically reviewed (language barrier)",
+        "Chinese suppression of Xinjiang Kyrgyz culture (comparative context) not included",
+        "Diaspora preservation efforts (Turkey, Germany, US) not documented",
+        "Soviet archival intent documentation limited; historians infer from outcomes and policy sequences"
+      ],
+      "historiography_recommendations_for_production": [
+        "Acknowledge that Nevruz origins represent scholarly debate, not settled fact",
+        "Frame Cyrillic adoption as having multiple motivations (political + administrative) rather than single-cause explanation",
+        "Specify that Manas suppression was documented censorship with demonstrable demographic impact; survival in informal contexts shows resilience not absence of suppression",
+        "Note that exact scale of manuscript/archival loss during Soviet period cannot be quantified from current evidence",
+        "Distinguish between documented suppression and inferred intent; use causal language carefully"
+      ]
+    }
+  },
+
+  "completeness_audit": {
+    "red_team_flags_addressed": 7,
+    "flags_and_resolutions": [
+      {
+        "flag_id": 1,
+        "claim_id": "LH-003",
+        "flag_type": "ESTIMATE_PRESENTED_AS_EXACT",
+        "description": "Manas epic line count claims (especially 1M+ lines) presented without methodological documentation",
+        "phase_c_flag": true,
+        "resolution": "Requires precision qualifier: 'Documented Sayakbair Karalayev version: 530,000 lines (Guinness recognized). Other versions vary from 50,000-530,000+ lines depending on narrator and performance context. Claims of 1,000,000+ lines lack detailed methodological documentation.'",
+        "production_caveat": "Use 'documented version' and 'claimed versions' language; avoid categorical 'world's longest' without qualification"
+      },
+      {
+        "flag_id": 2,
+        "claim_id": "LH-004",
+        "flag_type": "CLAIM_MUTATION_DETECTION",
+        "description": "Nevruz claim may have absorbed Turkish nationalist interpretation obscuring Persian Zoroastrian origins debate",
+        "phase_c_flag": true,
+        "resolution": "Reframe to acknowledge historiographical debate: 'Nevruz festival celebrates spring renewal with roots in ancient pastoral societies (Turkic traditions) AND Persian Zoroastrian traditions; scholarly debate on primary origin remains unresolved. International scholarship increasingly favors syncretic model combining Persian, Turkic, and Islamic layers.'",
+        "production_caveat": "Present as genuine academic disagreement with multiple valid scholarly positions rather than settled Turkic priority"
+      },
+      {
+        "flag_id": 3,
+        "claim_id": "MT-003",
+        "flag_type": "SOURCE_GAP",
+        "description": "Manuscript confiscation/destruction scale unknown; evidence is inferential (archival gaps) rather than direct",
+        "phase_c_flag": true,
+        "resolution": "Add scope disclaimer: 'Evidence of systematic confiscation established (documented specific cases: Sabirov library 194 manuscripts, waqf document seizures, conspicuous archival gap 1932). Extent of destruction vs. redistribution to Soviet archives unknown. Some materials may survive in diaspora holdings or restricted Soviet archives.'",
+        "production_caveat": "Acknowledge inference type (archival gap patterns) vs direct documentation; avoid suggesting complete loss without qualifying scale uncertainty"
+      },
+      {
+        "flag_id": 4,
+        "claim_id": "MT-003",
+        "flag_type": "UNKNOWN_SCOPE",
+        "description": "Exact extent of loss vs preservation cannot be quantified from available evidence",
+        "phase_c_flag": true,
+        "resolution": "Same as SOURCE_GAP; explicitly state 'scale of loss unknown' and 'archival scope undetermined'",
+        "production_caveat": "Make clear that suppression and confiscation are documented; scale assessment requires additional archival research"
+      },
+      {
+        "flag_id": 5,
+        "claim_id": "MT-002",
+        "flag_type": "NEDENSELLIK_INFERENCE",
+        "description": "Script transition intent evidence is circumstantial (policy sequence and documented Soviet fears); direct Soviet decision-maker documents not found",
+        "phase_c_flag": true,
+        "resolution": "Clarify evidence type: 'Intent inferred from policy sequence (Latin 1929→Cyrillic 1938-1941), documented Soviet fears of Pan-Turkic literature development, and differential implementation across republics. Direct Soviet decision-maker intent documents not accessed. Historians debate whether deliberate political strategy vs structural effect of centralized administration, but consensus views policy sequence as deliberately engineered suppression.'",
+        "production_caveat": "Use causal language carefully; distinguish 'documented evidence of X happening' from 'inferred intent for Y reason'"
+      },
+      {
+        "flag_id": 6,
+        "claim_id": "General",
+        "flag_type": "MANASCHI_DEMOGRAPHIC_PRECISION",
+        "description": "Demographic figures use imprecise language ('dozens' → 'near extinction'); specific numbers would strengthen evidence",
+        "phase_c_flag": true,
+        "resolution": "Use documented figures where available: 'Dozens of manaschi recorded in 1920s; by 1940s, tradition approached near-extinction status due to forced sedentarization and collectivization policies. Post-1991 revival efforts documented but incomplete inventory of transmission chain recovery.'",
+        "production_caveat": "Distinguish between 'documented count' and 'estimated extent'; acknowledge data gaps while using available specificity"
+      },
+      {
+        "flag_id": 7,
+        "claim_id": "Historiography",
+        "flag_type": "HISTORIOGRAPHICAL_BIAS_ALERT",
+        "description": "Russian/Soviet institutional perspective underrepresented; Persian/Iranian scholarship on Nevruz not systematically reviewed; Chinese suppression not included",
+        "phase_c_flag": true,
+        "resolution": "Acknowledge bias in historiographical assessment: 'This synthesis represents scholarship primarily in English, Turkish, and Central Asian languages. Russian institutional perspectives and Persian/Iranian scholarship on Nevruz origins not systematically reviewed due to language barriers and access limitations. Chinese suppression of Xinjiang Kyrgyz culture represents comparative context not included in this phase.'",
+        "production_caveat": "Transparency about perspective limitations; avoid false claims of comprehensive historiographical review"
+      }
+    ],
+    "open_questions_requiring_additional_research": [
+      {
+        "priority": "HIGH",
+        "question": "What is the precise scale of manuscript and archival materials confiscated or destroyed during Soviet period?",
+        "research_gap": "Quantitative assessment of total loss; location/current status of materials; diaspora preservation amounts",
+        "impact_on_claims": "MT-003 confidence level; assessment of cultural loss extent"
+      },
+      {
+        "priority": "HIGH",
+        "question": "What proportion of the manaschi (Manas narrator) tradition was completely lost vs recovered after 1991?",
+        "research_gap": "Complete inventory of surviving manaschi; recovery status of transmission chains",
+        "impact_on_claims": "MT-004 confidence; assessment of oral tradition resilience"
+      },
+      {
+        "priority": "MEDIUM",
+        "question": "What was the primary historical origin of Nevruz - Turkic pastoral traditions, Persian Zoroastrianism, or syncretic development?",
+        "research_gap": "Definitive chronological evidence for primary origin; Persian/Iranian scholarly sources",
+        "impact_on_claims": "LH-004 confidence; historiographical debate resolution"
+      },
+      {
+        "priority": "MEDIUM",
+        "question": "What was the policy intent for Cyrillic script transition from direct Soviet decision-maker perspective?",
+        "research_gap": "Soviet archives on policy intent; decision-making process documentation",
+        "impact_on_claims": "MT-002 confidence upgrade from STRONGLY_SUPPORTED to ESTABLISHED"
+      }
+    ],
+    "evidence_chain_completeness": {
+      "orphan_claims": 0,
+      "claims_with_weak_evidence_links": [
+        {
+          "claim_id": "LH-003",
+          "weakness": "Extreme line count claims (1M+) lack methodological documentation",
+          "evidence_chain_status": "Partial (documented version present; extreme claims undocumented)"
+        },
+        {
+          "claim_id": "LH-004",
+          "weakness": "Historiographical debate on Turkic vs Persian primacy remains unresolved",
+          "evidence_chain_status": "Complete but contested (multiple valid scholarly positions)"
+        },
+        {
+          "claim_id": "MT-003",
+          "weakness": "Exact scale of loss unknown; evidence is inferential",
+          "evidence_chain_status": "Partial (confiscation documented; total loss unquantifiable)"
+        }
+      ],
+      "unresolved_contradictions": [
+        {
+          "contradiction_type": "Historiographical Debate",
+          "issue": "Nevruz origins: Turkic pastoral vs Persian Zoroastrian vs syncretic",
+          "implications": "Claims should reflect scholarly debate rather than single explanation",
+          "resolution_approach": "Present all three scholarly positions with representation of international consensus toward syncretism"
+        },
+        {
+          "contradiction_type": "Inference vs Direct Evidence",
+          "issue": "Cyrillic adoption: deliberate political control vs practical standardization",
+          "implications": "Both may be true (not mutually exclusive); avoid presenting as simple binary",
+          "resolution_approach": "Frame as 'political suppression with administrative justification' or acknowledge both motivations"
+        }
+      ]
+    }
+  },
+
+  "readiness_assessment_summary": {
+    "overall_cluster_status": "CONDITIONAL",
+    "readiness_rationale": "10 core claims synthesized with Phase C verdicts. 5 of 10 claims ready for production (ESTABLISHED status). 5 claims conditional on caveat application. All red team flags identified and resolution paths documented. Production-safe with documented qualifications.",
+    "section_statuses": {
+      "yaşayan_miras": {
+        "status": "CONDITIONAL",
+        "ready_claims": ["LH-001 (ESTABLISHED)", "LH-002 (STRONGLY_SUPPORTED)", "LH-005 (ESTABLISHED)"],
+        "conditional_claims": ["LH-003 (precision qualifier required)", "LH-004 (historiography debate acknowledgment required)"],
+        "production_readiness_notes": "Three core claims READY (kopuz, Dede Korkut, UNESCO). Two claims require documented caveats before production (Manas methodology, Nevruz debate). Evidence chains complete; historiography audit identifies bias (Persian scholarship gap).",
+        "conditional_resolution_checklist": [
+          "LH-003: Add precision language for Manas line counts; distinguish documented version (530K) from claimed versions (1M+)",
+          "LH-004: Reframe Nevruz claim to acknowledge Turkic-Persian debate; present syncretic model as emerging consensus"
+        ]
+      },
+      "hafizanin_sinavi": {
+        "status": "CONDITIONAL",
+        "ready_claims": ["MT-001 (ESTABLISHED)", "MT-004 (ESTABLISHED)", "MT-005 (ESTABLISHED)"],
+        "conditional_claims": ["MT-002 (inference type clarification required)", "MT-003 (scope disclaimer required)"],
+        "production_readiness_notes": "Three core claims READY (Soviet suppression, Manas censorship, post-Soviet policies). Two claims conditional on caveat application (Cyrillic intent inference, loss scope). Evidence chains documented; historiography audit identifies perspective gaps (Russian/Soviet underrepresented).",
+        "conditional_resolution_checklist": [
+          "MT-002: Clarify that Cyrillic intent is inferred from policy sequence and Soviet fears; note consensus but acknowledge inferential basis",
+          "MT-003: State extent of loss unknown; confiscation documented but total loss/destruction not quantifiable",
+          "Add specific manaschi demographic figures where available (replace vague language)"
+        ]
+      }
+    }
+  }
+}

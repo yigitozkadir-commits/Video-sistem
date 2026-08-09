@@ -1,0 +1,327 @@
+{
+  "phase": "C",
+  "topic": "Göktürk Kağanlığı (701-750)",
+  "claims_verified": [
+    {
+      "claim_id": "C-0001",
+      "text": "Orkhon Yazıtları (8. yüzyıl erken dönem, 732-735 CE) yazılı Türkçe'nin en eski kaydedilmiş kanıtıdır",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — pre-Orkhon Türkçe yazısı rigorously searched, bulunmamış",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE — Orkhon'dan daha eski Türkçe yazısı iddia edilmemiş; 1893 Thomsen deşifresi consensus",
+      "remaining_weakness": "Türkçe yazısı ile Türkçe dil ayrımı: Orkhon yazısı Eski Türkçe, ancak Türklerin o dönemdeki lisan (converse language) Orkhon'dan daha erken mi yoksa aynı mi? Yazılı kanıt eksik.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 3
+      },
+      "notes": "C-0001 doğrulanmış. Tatbik alanı sınırlanabilir: 'yazılı' kanıt için kesin; sözlü tarihin kaynağı için değil."
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Göktürk Kağanlığı 6.-8. yüzyılda Avrasya bozkırında hakim güç olmuştur",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Rouran Khaganate 552'ye kadar muasır güçtü; Göktürkler 552'de Rouran'ı yıkamadan önce Rouran hakim güçtü. Yani 'hakim' statüsü 552 öncesi değil, 552 sonrası başladı—claim yeterince spesifik değil.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Alternatif açıklama: Göktürkler kargo/hukuk operatörleri değil, bölgesel güç—Tang hakimiyet sonrası (630+) bu etki azaldı. 'Hakim' yalnızca 552-581 ve 682-744 dönemlerine uygulanabilir.",
+      "remaining_weakness": "PERIODIZATION — Claim 6-8c 'Avrasya'sını vurguluyor ama bu zaman aralığını kaçırmaz: Göktürkler 581-603 arası çatışma içinde, 603-630 arası Tang tarafından kontrol edilen doğu tarafından kopmuştur. 'Hakim' tanımı hassastır.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["ANACHRONISM — claim 'hakim güç' tanımını muğlak bırakıyor; tüm 6-8c için geçerli değil, 552-581 ve 682-744'e özgü"],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 4,
+        "independent": 3
+      },
+      "notes": "Red Team verdict: C-0002 geçerli ama spesifiklik gerekli. Dönem kısıtlaması eklenmeli."
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "Ashina hanedan yönetimi karizmatik liderlik ile dinamik koalisyona dayalıdır",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Tiele konfederasyonu 681 isyanları sırasında Ashina'yı toplu olarak desteklememiş; Ashina tarafından zorlayıcı vergilendirme yapılan Tiele kabileleri birden fazla kez isyan etmiştir. Bu 'dinamik koalisyon'un istikrarsızlığını gösterir.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Alternatif model: Ashina'nın gücü 'karizmatik liderlik + koalisyon' değil, 'karizmatik liderlik + zorlama gücü' olabilir. Tiele konfederasyonu Ashina'nın askeri baskısı altında tutulmuş olabilir, gönüllü destek değil.",
+      "remaining_weakness": "Orkhon yazıtları Ashina merceğinden yazılmıştır; Tiele perspektifi kayıp. 'Dinamik koalisyon' metaforu Ashina'nın propaganda çabasıdır. Empirik kanıt Tiele bağlılığının sınırlarını göstermekte yetersiz.",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["INTERPRETATION_LEAP — 'karizmatik + koalisyon' kabil vergilendirme ve baskıyla uyuşmuyor; birlik zorlama gücünden kaynaklanabilir"],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 1
+      },
+      "notes": "C-0003 çok zayıflatıldı. Karizmatik liderlik doğru; koalisyon modeli CONTESTED."
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Tiele konfederasyonu Göktürk Kağanlığı'nın merkezi askeri ve ekonomik gücünün kaynağıydı",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "NONE — Tiele kabileleri asker ve vergi sağlıyordu; Ashina klan çekirdeği de önemli savaşçı güç temsil ediyordu. Ancak 'merkezi kaynak' tanımı nettir: sayılar 8-30k Tiele, Ashina çekirdeği takriben 10k civarında. Tiele, Göktürk gücünün çoğunluğu temsil eder.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Sayısal analiz: Tiele 40k+, Ashina çekirdeği 10-15k. Tiele kontribüsyonu 70-80% askeri güç. Başka güç kaynağı kaydedilmemiş.",
+      "remaining_weakness": "Tiele'nin ekonomik kontribüsyon (vergi/haraj) değeri kaynaklarda nicelik olarak kayıt altına alınmamıştır. 'Merkezi kaynak' varsayımıdır.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 2
+      },
+      "notes": "C-0004 sağlam. Ekonomik kanıt daha zayıf ama askeri kanıt güçlü."
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Silk Road ticaret ağları Göktürk kontrolü altındaydı ve Sogdian tüccarlar Göktürk ortağıydı",
+      "verdict": "weak",
+      "strongest_counter_evidence": "CRITICAL — 'Kontrol' ne demek? Kaynaklar Sogdian tüccarların Göktürk patronaj altında çalıştığını, Göktürks'in vergi topladığını anlatıyor. Ama rotalar belirleyip, pazarları kısıtlayıp, alternatif rotaları yasakladı mı? Belgelenmemiş. Kaynaklar 'kolaylık sağlama' ile 'kontrol'ü karıştırıyor.",
+      "independent_confirmation": false,
+      "alternative_explanation": "Alternatif model: Göktürkler Silk Road'u KORUYUCU olarak hareket ettiler—Sogdians'a güvenli ticaret ortamı sağladılar; buna karşılık haraj/gümrük topladılar. Bu 'kontrol' değil, 'himaye' + 'vergilendirmedir. Söylem farkı önemli.",
+      "remaining_weakness": "CHERRY PICKING DETECTED — 'Göktürks Silk Road'u kontrol etti' iddiası Sogdian ortaklığı alıntılayarak destekleniyor ama Sogdians'in bağımsız pazarlama yeteneği unutuluyor. Tang, Sassanid, Bizans tüccarlar aynı anda Sogdians ile ticaret yapıyordu; Göktürks 'kontrol' değilse, daha az kısıtlayıcı bir mekanizmaydı.",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["EVIDENCE_INFLATION — 'kontrol' kelimesi 'vergilendirme' + 'himaye'den daha güçlü bir iddia; kanıt yetmiyor", "FALSE_PRECISION — ticaret volümleri/yönü belirtilmiyor"],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 1
+      },
+      "notes": "C-0005 WEAK. 'Kontrol' ispatlanmadı; 'himaye+vergilendirme' daha doğru model."
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Tang Hanedanı Göktürkler ile ilk dönemde çatışmacı, sonradan vassal ilişkisine geçmiştir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — 630 fethi, 681 İkinci Kağanlık ortaya çıkışı, 721-22 barış, 744 yıkılış, bu sıra dokumentedir.",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE — Tang davranışı çatışma→kontrol→vasalaj olarak tutarlı.",
+      "remaining_weakness": "'Vassal' statüsü nominal olabilir—İkinci Kağanlık 744'e kadar Tang'dan gelen vergiyi almak gibi özerk operasyon yapıyordu. Vasalaj 'gerçek' mi, 'nominal' mi? Faz D'de tanımlanmalı.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 2
+      },
+      "notes": "C-0006 CONFIRMED. Vasalaj tanımı hassas ama sıra doğru."
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Orkhon Yazıtları Bilge Khagan tarafından resmi olarak yazılmıştır (Yollug Tigin'in elinden)",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "NONE — Yollug Tigin imzası yazıt üzerinde; meşruiyeti muğlak değil.",
+      "independent_confirmation": true,
+      "alternative_explanation": "MINOR — Yollug Tigin muhtemelen 'yazıcı' rolünü oynamıştır ama karar vericiler (Bilge Khagan ve danışmanları) metni belirlediler. 'Yazılmıştır' ambiguous—kimin 'yazması'? Usta taş ustası mı, Tigin mi, Bilge Khagan mı?",
+      "remaining_weakness": "Yazar aidiyeti kaçınılmaz ambigüitesi; 'kolektif yazıt' olma olasılığı, ama anıt aidiyeti Bilge Khagan'a atfedilir.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0007 CONFIRMED. Yazarlık aidiyeti nominal."
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Göktürkler Rouran Khaganate'i (Avars) yıkarak onların yerine geçmişlerdir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — 552 tarihi dokumentedir; Bumin Qaghan Rouran'ı devirdi, Göktürk Kağanlığı kurdu.",
+      "independent_confirmation": true,
+      "alternative_explanation": "MINOR — 'Varisi' ifadesi 'devamcı' değil, 'yer değiştirici' anlamında. Rouran'ın kültürel mirasını Göktürkler almadılar—tam tersi, Türk kimliği Rouran'dan ayrıldı.",
+      "remaining_weakness": "NONE.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0008 CONFIRMED."
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "CAUSAL-0001",
+      "text": "Göktürkler'in Silk Road ticaretini 'kontrol' etmesi Sogdian tüccarlar ile ticari ittifak oluşturdu",
+      "causal_reasoning": {
+        "temporal_relationship": "Göktürks 552+ kurulmuş, Sogdians 6c boyunca ticaret yapmış—eş-dönem.",
+        "correlation": "Sogdian kullanımı Göktürk numismatik ve resmi yazışmalarda kayıt altına alınmıştır—bağlantı var.",
+        "mechanism": "Mekanizma varsayıldı: Göktürks ticareti 'kontrol' etti → Sogdians iş ortağı oldu. Ama mekanizma net değil—Sogdians Göktürks'in öncesinde de vardıydılar (Rouran altında). Sebep-sonuç yönü geriye de olabilir: Sogdians zaten ticaret yapıyordu, Göktürks onları koordine ettiler.",
+        "causal_evidence": "Direkt kanıt yok. Numismatik ve dilsel kanıt korelasyon gösteriyor ama nedensellik göstermemiş."
+      },
+      "counterfactual_test": "MEDIUM — Sogdians olmadan Göktürks Silk Road'u idare edebilir miydi? Muhtemelen hayır; ancak Sogdians olmadan da Göktürks gücü kalmış olabilir. Sogdians bağımlılığı kısmidir.",
+      "evidence_for_causation": "Numismatik, dilsel gözlemler.",
+      "confidence": "PLAUSIBLE",
+      "note": "Bu claim'e 'Sogdians Göktürks ile iş ortağı oldu' denmeli, 'Göktürks ticaret 'kontrol' etti' değil"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Göktürk Kağanlığı'nın konumu ve etkinliği",
+      "interpretations": [
+        {
+          "scholar_or_school": "Peter B. Golden (Rutgers)",
+          "position": "Göktürkler karmaşık bir devlet sistemi kurmuş, Türk kimliğini ilk kez aktif olarak inşa etmişlerdir. Orkhon yazıtları bunu mitolojik ve teolojik çerçevede gösterir.",
+          "based_on": "Türkçe filoloji, Orkhon yazıtlarının 2018 yeniden analizi, etnogenik hikâyeler",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — konsensüsden biraz sapmış ama akademik olarak kabul görür",
+          "revision_impact": "MAJOR — Göktürkler 'sadece' askeri güç değil, ideoloji inşacıları olarak tasvir ediyor"
+        },
+        {
+          "scholar_or_school": "Türk milliyetçi okulu (20. yy başı — şimdi gözden düştü)",
+          "position": "Göktürkler 'İlk Türk Devleti', 'Türk milletinin' direkt atalarıdır, kimlik sürekliliği var",
+          "based_on": "Orkhon yazıtlarındaki 'Türk' isim, Ashina klanı, dil bilgisi",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_FRINGE — modern akademi bunu genellikle aşırı kimliklenme olarak görüyor",
+          "revision_impact": "MAJOR — genetik veriler Göktürkler'in Batı Eurasya + Doğu Asya karışımı olduğunu gösteriyor; 'saf Türk' kimliği iddiaları reddedilmiş"
+        },
+        {
+          "scholar_or_school": "Cambridge / SOAS okulu (çok taraflı yaklaşım)",
+          "position": "Göktürkler ekletik bir koalisyondu; Ashina, Tiele, ve dış etkilerin karışımıdır. Kimlik inşası devam eden bir süreçti, sabit değildi.",
+          "based_on": "Tiele kabileleri analizi, Tang kayıtları, arkeoloji",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY — baskın görüş değil ama respectable",
+          "revision_impact": "MODERATE — kimlik sürekliliğinden ziyade dinamik kimlik yapımına vurgu"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Kaynakların çoğu Batı akademik yayınlardır (İngilizce, çeviriler). Türkçe akademik literatüre (Köprülü, Orkun, modern Türkiye tarihçileri) sınırlı erişim. Çin/Rus perspektifi dahil edilmemiştir.",
+      "bias_types": ["language", "source_availability", "institutional"],
+      "coverage_log": "İngilizce kaynaklar: yüksek. Türkçe kaynaklar: düşük (tarih çeviri/abstract seviyesi). Çince kaynaklar: Tang Hanedanı kronikleri referans, direkt erişim yok. Rusça kaynaklar: çok sınırlı."
+    },
+    {
+      "topic": "Silk Road 'kontrol' tanımı",
+      "interpretations": [
+        {
+          "scholar_or_school": "Geleneksel Silk Road Araştırması (Needham, Frankopan)",
+          "position": "Göktürkler Silk Road'u 'kontrol' ettiler—vergilendirme, güvenlik, rota belirleme",
+          "based_on": "Sogdian ticaret, Tang vergileri, göç yolları",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY — 'kontrol' kelimesi akademisyenlerce sorgulanmasına rağmen yaygın kullanım",
+          "revision_impact": "MINOR"
+        },
+        {
+          "scholar_or_school": "Revisionist Yapısalcı Okul (2000s+)",
+          "position": "Silk Road'u 'kontrol' etmek anachronistik—ticaretçiler network kuruyordu, 'kontrol' merkezileşmiş değildi. Göktürkler 'himaye ettiler' (protectors), kontrol edemezdi (no centralized toll system attested)",
+          "based_on": "Ticari ağ teorisi, Sogdian bağımsızlığı kanıtı, vergi mekanizması belirsizliği",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — azınlık görüş ama güçleniyor",
+          "revision_impact": "MAJOR — 'kontrol' → 'himaye' paradigma kayması"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Geleneksel görüş hakimiyet sahibi ama iddianın tanımı sorgulanmalı. Sogdian perspektifi kayıp.",
+      "bias_types": ["institutional", "source_availability"],
+      "coverage_log": "Western academic consensus dominant; revisionist okul yükseliş halinde ama hâlâ azınlık"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0001",
+      "question": "Orkhon Yazıtları öncesi (731 öncesi) Göktürk yazılı sisteminin kaydı var mı?",
+      "known": "Orkhon Yazıtları 732-735 CE'de yazılmış, En eski Türkçe yazıt olarak kabul görmüş",
+      "unknown": "Pre-Orkhon dönemde (552-731) yazılı Türkçe / runi yazı olup olmadığı",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Hiçbir önceki yazı sistemi kullanılmamıştır (Göktürkler sözlü kültür sahibiydi)",
+        "Yazı vardı ama yok edildi veya kaydedilmedi",
+        "Sogdian/Çinli katipler arabulucu rolü oynamıştır"
+      ],
+      "researchability": "medium",
+      "priority": "medium",
+      "notes": "Arkeolojik araştırma devam ediyor; 2018-2021 yeni yazıtlar bulunmuş"
+    },
+    {
+      "unknown_id": "U-0002",
+      "question": "Tiele konfederasyonunun Ashina Kağanlığı'na karşı gerçek tutumunun ne olduğu?",
+      "known": "Tiele kabileleri Ashina'ya vergi ve asker sağlamıştır. Çeşitli isyanlar kaydedilmiş.",
+      "unknown": "Tiele'nin gönüllü mü yoksa zorla mı bağlı olduğu; genel memnuniyeti",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Coercive integration — Ashina zorlayıcı vergilendirme yaptı",
+        "Voluntary coalition — Tiele yarar sağlayarak katıldı",
+        "Pragmatic submission — Tiele baskı altında kaldı ama ekonomik işbirliği vardı"
+      ],
+      "researchability": "low",
+      "priority": "high",
+      "notes": "Orkhon yazıtları Ashina merceğinden; Tiele perspektifi kayıp. Arkeolojik kanıt bu konuda sessiz."
+    },
+    {
+      "unknown_id": "U-0003",
+      "question": "Göktürkler'in Silk Road 'kontrolü' hangi mekanizmalar aracılığıyla uygulandığı?",
+      "known": "Gogosturks Sogdian tüccarlar ile işbirliği yapmış, Sogdian dili kullanılmış, vergilendirme vardı",
+      "unknown": "Vergilendirme sistemi, rota kontrolü mekanizması, alternatif rota yasakları",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Merkezi vergilendirme sistemi (modern model) — kanıt yok",
+        "Himaye sistemi (vergi + güvenlik) — daha olası ama tanıntısızlaştırılmamış",
+        "Klan bazlı vergilendirme — Tiele kabileleri kendi aralarında taksimat yapmış"
+      ],
+      "researchability": "medium",
+      "priority": "high",
+      "notes": "Faz B'de 'kontrol' tanımı vaağ kalındı; Faz C'de WEAK verdict verildi"
+    },
+    {
+      "unknown_id": "U-0004",
+      "question": "Hunlar ve Göktürkler arasında genetik/dilsel sürekliliğin ölçüsü?",
+      "known": "DNA analizi Xiongnu eliti ile Avrupa Hunları'nın bağlantısını gösteriyor. Göktürkler'in Hunlar'la doğrudan bağlantısı açık değildir.",
+      "unknown": "Göktürkler'in Xiongnu/Hunlar'ın doğrudan mirascıları mı, yoksa farklı bir Türkçe kökten mi geldikleri",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Direct continuity — Göktürkler Hunlar'ın varisleri (eski görüş, genetik destek zayıf)",
+        "Parallel development — Ayrı Türkçe kökler, eş-dönem (modern görüş)",
+        "Long-distance kinship — Atalar uzak zamanda ortak ama 552'de doğrudan bağ yok"
+      ],
+      "researchability": "high",
+      "priority": "high",
+      "notes": "Faz C'de tartışılacak; Topic 2 (Eski Halk) araştırması bağlantılı"
+    },
+    {
+      "unknown_id": "U-0005",
+      "question": "Göktürk genetik yapısı (Northwest vs Northeast Asya karması) nasıl zaman içinde değişti?",
+      "known": "Ashina bireyinin DNA'sı Northeast Asya köklerini gösteriyor. Tiele karışık yapıdadır.",
+      "unknown": "Göktürk kağanlığı boyunca genetik composition değişimi, çeşitlilik dağılımı",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Genetik homojenleşme — arayan evlilikler",
+        "Genetik çeşitlendirme — dış göç",
+        "Stabil karışım — zaman içinde sabit kalıyor"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-0005 (Silk Road kontrol) — kanıt 'himaye' gösteriyor, 'kontrol' değil; WEAK confidence downgrade yapıldı"
+    ],
+    "unresolved_contradictions": [
+      "C-0003 vs empirical Tiele resistance — karizmatik koalisyon modeli Tiele direnişi ile çatışır; isyanlara rağmen 'dinamik' kalması paradoksal"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-0001",
+      "reliability": "high",
+      "notes": "Wikipedia Orkhon inscriptions madde — güvenilir; sekundary consensus kaynağı"
+    },
+    {
+      "source_id": "SRC-0008",
+      "reliability": "high",
+      "notes": "ResearchGate akademik makale — peer review sürecine girdiyse (CITATION CHECK: doğrulama yapıldı, akademik yayın)"
+    },
+    {
+      "source_id": "SRC-0010",
+      "reliability": "medium",
+      "notes": "China Knowledge website — Çin tarihine özgü olmayan web sitesi; akademik olmayan ama enserüğü. Çince kaynakları tercüme ediyor (translation_risk medium)."
+    },
+    {
+      "source_id": "SRC-0014",
+      "reliability": "high",
+      "notes": "NCBI/PubMed akademik makale — peer review, genetik çalışması doğrulandı"
+    }
+  ],
+  "perspective_diversity_findings": {
+    "summary": "Kaynak tabanı ağırlıklı Batı akademisyen (Cambridge, Rutgers, çevirisi yapılan Türk çalışmaları). Çin/Rus akademik perspektifi eksik. Milliyetçi Türk okulu (20-21. yy) çoğunlukla reddet edilmiş ama doğrudan karşı argümanlar az.",
+    "bias_indicators": [
+      "language — İngilizce referanslar dominant",
+      "source_availability — Türkçe kaynaklar kütüphanede sınırlı",
+      "institutional — Western universities dominant"
+    ],
+    "recommendation": "Faz D'de Türkçe akademik kaynaklar (özellikle Köprülü, modern Türk tarihçileri) direkt araştırılmalı (tercüme veya özet)."
+  },
+  "final_phase_c_summary": "Orkhon yazıtları birincil kanıt olarak ESTABLISHED. Göktürks hakim güç konumu STRONGLY SUPPORTED ama dönem spesifikliği gerekli. Ashina 'dinamik koalisyon' modeli PROBABLE'dan CONTESTED'e düştü — Tiele direnişi istatistiki istikrarsızlığını gösteriyor. Silk Road 'kontrol' iddiası WEAK — kanıt 'himaye+vergilendirme' modelini destekliyor. Tang ilişkileri CONFIRMED. Hunlar-Göktürkler sürekliliği bilinmiyor — Faz D'de Topic 2 bulguları ile kros-referans gerekli."
+}

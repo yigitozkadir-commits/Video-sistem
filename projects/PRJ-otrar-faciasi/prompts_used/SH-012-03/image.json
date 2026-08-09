@@ -22,8 +22,14 @@
   "reference_set": [],
   "reference_set_status": "Reference set not yet generated (manual Flow step) except where a real downloaded archival asset is listed - see state/archival_reference_candidates.jsonl.",
   "style_profile_ref": "style/historical_epic_steppe.json",
-  "model": "google-flow (not yet generated)",
+  "model": "google-flow",
   "seed": null,
-  "status": "not_yet_generated",
-  "created_at": "2026-08-08T23:05:11.325620+00:00"
+  "status": "completed",
+  "created_at": "2026-08-08T23:05:11.325620+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-012-03.jpeg",
+  "sha256": "1942a06b4df850b9f447bdba4c0896d8d3dd82aad82e7ba651ae44705d9233e0",
+  "bytes": 1082550,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
 }

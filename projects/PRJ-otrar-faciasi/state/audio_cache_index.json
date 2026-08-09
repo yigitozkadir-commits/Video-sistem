@@ -1,0 +1,86 @@
+{
+  "fd59f1a3ec51d196c7552b041eb88ee940023afa11f3c1e2470188565c6ad834": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-001.wav",
+    "sha256": "3ec54fc743e6702a6a18cc8b341af6b8a047edad708b5cdd5fc6b8519d08330f",
+    "cached_at": "2026-08-09T01:15:31.023710+00:00",
+    "scene_id": "SC-001",
+    "char_count": 286
+  },
+  "205ab16dd74bdb77fd3155957fe3a5a62cb3f5cd987b46b592dbcc085e6e737d": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-002.wav",
+    "sha256": "ce32a2381ccaadb825bfb76e10123128d9010cb267255c22326635d57b341212",
+    "cached_at": "2026-08-09T01:15:33.596631+00:00",
+    "scene_id": "SC-002",
+    "char_count": 292
+  },
+  "c0e82369d110a19f66476a29edcedb4d8fb814a78fc068e21007127b7a7a2f2f": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-003.wav",
+    "sha256": "c33dc3b6891f52914596225ad4c03ed02af7678a3eac3001ac4e4085feb1879d",
+    "cached_at": "2026-08-09T01:15:36.016004+00:00",
+    "scene_id": "SC-003",
+    "char_count": 243
+  },
+  "e3a2adf231943d4c101ad6e060899b788cb1ebfce513dcbcb643a5e1383d78f1": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-004.wav",
+    "sha256": "1aeb896612f2c7f9716a250b0df18241fbeae23c5fefb1f150909ea9c2f9aa98",
+    "cached_at": "2026-08-09T01:15:39.852170+00:00",
+    "scene_id": "SC-004",
+    "char_count": 387
+  },
+  "10e8c008c804753d3cb09058b7b1a9f1ba6a4f37f5d11f8eea5e5d9ba82abf9c": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-005.wav",
+    "sha256": "ff5c8b6962d442c9d7a5143377dd220236f24a9f851f851aa6f12c5a520c1a9b",
+    "cached_at": "2026-08-09T01:15:41.338763+00:00",
+    "scene_id": "SC-005",
+    "char_count": 152
+  },
+  "cebfc2413faeff04c7efb894b5d0e7773d01a45b87fc637269da00dff67f81c5": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-006.wav",
+    "sha256": "ce01a309bbb5e3c4b2405585220d491de05e7e29306c109c69c6ab1a2d74b5cd",
+    "cached_at": "2026-08-09T01:15:44.738320+00:00",
+    "scene_id": "SC-006",
+    "char_count": 310
+  },
+  "6b986445be59cc19fe98f06f758d2c3ec376c22d61bd075cb71bf9b252a3cd7f": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-007.wav",
+    "sha256": "44f2349eee218ba2243079c708f5f90356b31847efbda5612ba353b08e59bc75",
+    "cached_at": "2026-08-09T01:15:50.151207+00:00",
+    "scene_id": "SC-007",
+    "char_count": 528
+  },
+  "9357a9a22c5edce27c63455ccdaf8312323ee12497f6f109a31c0095ace65800": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-008.wav",
+    "sha256": "7299719219e28548d95db7d0cf511897b30090b5b73e4ba5ceb0c4e4cc6ad794",
+    "cached_at": "2026-08-09T01:15:51.758852+00:00",
+    "scene_id": "SC-008",
+    "char_count": 145
+  },
+  "eacca44748c4108ca1606ca15e6f2ceb3a30b27babfc0c60b43f9b2bdf377f81": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-009.wav",
+    "sha256": "51ebdfa4e24df1a25af317b99f7b52519f870371b363cfe1c971d99017437f5e",
+    "cached_at": "2026-08-09T01:15:53.931221+00:00",
+    "scene_id": "SC-009",
+    "char_count": 217
+  },
+  "4c25a5d338673ef47ee8b80c59364819beca7aaa3a3238b8235ad77886c01239": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-010.wav",
+    "sha256": "4c24d086c03f438e0f7712cf542a47e5f91f33cce2f8a348def43359020f9883",
+    "cached_at": "2026-08-09T01:15:57.231818+00:00",
+    "scene_id": "SC-010",
+    "char_count": 329
+  },
+  "56d2ae2a2f25d856dc10b75772a52cc4a9fdfe9113f13df797580533fa1daebc": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-011.wav",
+    "sha256": "ae024d866c78e8b72b6f453df383464c0cec094496bd4ab015cee03dbcfd9ba6",
+    "cached_at": "2026-08-09T01:16:00.508666+00:00",
+    "scene_id": "SC-011",
+    "char_count": 300
+  },
+  "f0efd35f9a26e267684cb9f0c18f15c7cd7e4bd3c7ec3a9220c0205e6ebf2dfa": {
+    "path": "projects/PRJ-otrar-faciasi/assets/audio/NAR-SC-012.wav",
+    "sha256": "3dad65315d8e9c7f38af86edd66b4ee7a47b277426280f9d3ad1e298ffe07e1c",
+    "cached_at": "2026-08-09T01:16:03.199287+00:00",
+    "scene_id": "SC-012",
+    "char_count": 284
+  }
+}

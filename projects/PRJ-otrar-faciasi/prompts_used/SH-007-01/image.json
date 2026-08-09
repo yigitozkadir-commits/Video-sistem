@@ -23,8 +23,14 @@
   ],
   "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
   "style_profile_ref": "style/historical_epic_steppe.json",
-  "model": "google-flow (not yet generated)",
+  "model": "google-flow",
   "seed": null,
-  "status": "not_yet_generated",
-  "created_at": "2026-08-08T22:43:33.448399+00:00"
+  "status": "completed",
+  "created_at": "2026-08-08T22:43:33.448399+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-007-01.jpeg",
+  "sha256": "87ba2790866ab0c9c4836a1b86b7ad1e944854287129be1c9fb4ba48e09e9eec",
+  "bytes": 865823,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
 }

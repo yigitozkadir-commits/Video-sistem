@@ -1,0 +1,200 @@
+{
+  "phase": "A",
+  "batch_id": "551-700",
+  "input_summary": "Two content sections: (1) Items ~551-600 KÜLTÜREL ŞOKLAR — Cultural upheaval, invasions, transitions, modernization shocks; (2) Items ~601-700 BOZKIR FELSEFESİ — Nomadic philosophy, steppe worldview, ethics, aesthetics.",
+  "sections": [
+    {
+      "section_name": "KÜLTÜREL ŞOKLAR",
+      "range": "551-600",
+      "candidates": [
+        {
+          "candidate_id": "CAND-KS-01",
+          "title": "Transgenerational Trauma and Steppe Invasions: How Eurasian Nomadic Societies Encoded Collective Memory",
+          "central_question": "How did major invasions (Mongol, Turkic, Russian expansions) create measurable psychological and social ruptures that persisted across generations in Turkic and steppe communities?",
+          "subject_type": "concept",
+          "period": "8th-20th centuries (emphasis: 13th-18th)",
+          "geography": "Eurasian steppe, Turkic territories, Central Asia, Caucasus",
+          "opportunity_class": "historical_trauma_evidence",
+          "scores": {
+            "evidence_density": "high",
+            "novelty": "medium",
+            "research_gap": "high",
+            "counterintuitive_value": "medium",
+            "narrative_tension": "high",
+            "researchability": "medium"
+          },
+          "known_sources_seen": [
+            "Frontiers psychiatry article on collective trauma in Eastern Europe",
+            "Prevention Institute historical & cultural trauma framework",
+            "Academic literature on transgenerational trauma mechanisms"
+          ],
+          "research_risk": "medium — archival evidence of psychological impact is indirect (material culture, oral tradition, organizational collapse); requires careful inference from economic/social data",
+          "video_proposal": "Documentary-style; interview historians on trauma codification; visual metaphors of cyclical displacement; archival maps of migration waves",
+          "recommended": true
+        },
+        {
+          "candidate_id": "CAND-KS-02",
+          "title": "From Sacred Hierarchy to Egalitarian Shock: How Steppe Communities Negotiated Sedentary State Pressure (1600-1900)",
+          "central_question": "What specific mechanisms did nomadic Turkic societies use to resist or adapt to sedentarization pressure, and how did this reshape their ethical codes and social contracts?",
+          "subject_type": "concept",
+          "period": "1600-1900",
+          "geography": "Ottoman borders, Russian frontier, Caucasus, Central Asia",
+          "opportunity_class": "unexpected_consequence",
+          "scores": {
+            "evidence_density": "medium",
+            "novelty": "high",
+            "research_gap": "high",
+            "counterintuitive_value": "high",
+            "narrative_tension": "high",
+            "researchability": "high"
+          },
+          "known_sources_seen": [
+            "Ottoman Enlightenment literature (medical school debates on reform)",
+            "Young Ottomans secret society records",
+            "Russian-Caucasus frontier archives"
+          ],
+          "research_risk": "low — primary sources exist (Ottoman records, Caucasian tribal archives, ethnographic observations); risk is interpretation (reading adaptation vs. forced assimilation from different angles)",
+          "video_proposal": "Historical reenactment segments showing council deliberations; montage of material culture adaptation; expert commentary on ethical paradigm shifts",
+          "recommended": true
+        },
+        {
+          "candidate_id": "CAND-KS-03",
+          "title": "Modernization Shock and Lost Literacy: How 19th-Century Turkic Communities Faced Script and Language Displacement",
+          "central_question": "What was the actual lived experience of Turkic speakers as Arabic script was questioned, Latin script emerged, and Cyrillic was imposed — and how did this linguistic rupture reshape cultural identity?",
+          "subject_type": "event",
+          "period": "1850-1950",
+          "geography": "Ottoman Empire, Caucasus, Central Asia, Soviet Union",
+          "opportunity_class": "myth_correction",
+          "scores": {
+            "evidence_density": "high",
+            "novelty": "medium",
+            "research_gap": "medium",
+            "counterintuitive_value": "high",
+            "narrative_tension": "high",
+            "researchability": "high"
+          },
+          "known_sources_seen": [
+            "Ottoman Enlightenment reform literature on education",
+            "Atatürk reforms documentation",
+            "Soviet linguistic policy archives"
+          ],
+          "research_risk": "low — primary sources abundant (decree texts, educational records, personal writings); potential myth: that this was a smooth 'progress' rather than genuine cultural rupture",
+          "video_proposal": "Visual transformation of text; archive footage of school scenes; elderly testimony on script transition; calligraphy sequences showing the shift",
+          "recommended": true
+        }
+      ]
+    },
+    {
+      "section_name": "BOZKIR FELSEFESİ",
+      "range": "601-700",
+      "candidates": [
+        {
+          "candidate_id": "CAND-BF-01",
+          "title": "Tengrism as a Unifying Philosophical System: The Epistemology of Steppe Societies and Their Relation to Power",
+          "central_question": "What were the core epistemological principles of Tengrism (worship of eternal sky, Tengri) and how did this framework structure decision-making, ethics, and political legitimacy across nomadic Turkic and Mongolic societies?",
+          "subject_type": "concept",
+          "period": "Antiquity-16th century (with long continuities to present)",
+          "geography": "Eurasian steppe, Turkic heartlands, Mongolia, Central Asia",
+          "opportunity_class": "reinterpretation",
+          "scores": {
+            "evidence_density": "medium",
+            "novelty": "high",
+            "research_gap": "high",
+            "counterintuitive_value": "high",
+            "narrative_tension": "medium",
+            "researchability": "medium"
+          },
+          "known_sources_seen": [
+            "Academia.edu: Steppe Nomads as Philosophical Problem in Classical China",
+            "Eurasian nomads overview (grokipedia) on Tengrism",
+            "Academic sources on nomadic religious philosophy"
+          ],
+          "research_risk": "medium — primary sources are fragmentary (Chinese chronicles describing 'barbarian' beliefs, Islamic sources hostile to 'pagan' systems, later ethnographic accounts); requires careful de-centering of hostile observers' framing",
+          "video_proposal": "Animated cosmology diagram of Tengri concept; archaeological evidence of ritual spaces; expert interviews on animism vs. monotheism debate; visual metaphor of sky as political symbol",
+          "recommended": true
+        },
+        {
+          "candidate_id": "CAND-BF-02",
+          "title": "The Ethics of Perpetual Movement: Honor, Duty, and Self-Reliance as Nomadic Philosophical Archetypes",
+          "central_question": "How did the material reality of constant steppe mobility translate into a coherent ethical system centered on Honor, Duty, and Loyalty, and how did this differ fundamentally from sedentary moral philosophy?",
+          "subject_type": "concept",
+          "period": "6th-20th centuries",
+          "geography": "Turkic-Mongolian steppe societies, Central Asia, Caucasus",
+          "opportunity_class": "reinterpretation",
+          "scores": {
+            "evidence_density": "high",
+            "novelty": "high",
+            "research_gap": "high",
+            "counterintuitive_value": "high",
+            "narrative_tension": "high",
+            "researchability": "high"
+          },
+          "known_sources_seen": [
+            "Academic sources on Turkic-Mongolian ethics and military archetypes",
+            "Bowdoin course: Ethics in the Steppe (Kazakh nature-culture connection)",
+            "Ethnographic literature on nomadic value systems"
+          ],
+          "research_risk": "low — rich material culture, oral traditions, and historical chronicles provide direct evidence of these values; risk is avoiding romanticization vs. using critical source analysis",
+          "video_proposal": "Portrait-style interviews with contemporary steppe philosophers; reenactment of council deliberations showing honor codes; visual metaphor of 'endless horizon' as ethical framework; comparative animation with sedentary societies",
+          "recommended": true
+        },
+        {
+          "candidate_id": "CAND-BF-03",
+          "title": "Space as Sacred: The Metaphysics of Steppe Ecology and Nomadic Environmental Philosophy",
+          "central_question": "How did nomadic steppe cultures encode space itself — pasture, horizon, migration routes, sacred geography — into a coherent metaphysical worldview, and how did this contrast with sedentary place-based philosophies?",
+          "subject_type": "concept",
+          "period": "Pre-Turkic to present",
+          "geography": "Great Steppe, Central Asian watersheds, migration corridors",
+          "opportunity_class": "lost_source",
+          "scores": {
+            "evidence_density": "medium",
+            "novelty": "high",
+            "research_gap": "very high",
+            "counterintuitive_value": "very high",
+            "narrative_tension": "high",
+            "researchability": "medium"
+          },
+          "known_sources_seen": [
+            "Academia.edu: The Idea of Space among the Nomads of Great Steppe",
+            "Yale Steppelands 2.0 working group on philosophical geography",
+            "Sociostudies journal article on spatial worldview of nomads"
+          ],
+          "research_risk": "high — primary sources for pre-Islamic steppe metaphysics are mediated through hostile/outsider observers (Chinese, Islamic, later European chronicles); requires sophisticated source criticism and careful epistemological humility",
+          "video_proposal": "Aerial steppe cinematography; animated migration maps layered with mythological significance; expert interviews on nomadic ontology; archaeological site visits to sacred locations; visual translation of 'space-as-ethics'",
+          "recommended": true
+        },
+        {
+          "candidate_id": "CAND-BF-04",
+          "title": "The Aesthetics of Impermanence: How Nomadic Material Culture Encoded Philosophical Principles",
+          "central_question": "What can the design, ornamentation, and ephemeral nature of nomadic material culture (yurts, textiles, tools, decorative arts) tell us about the underlying aesthetic philosophy and values of steppe societies?",
+          "subject_type": "concept",
+          "period": "6th century-present",
+          "geography": "Eurasian steppe, Turkic and Mongolian territories",
+          "opportunity_class": "evidence_contradiction",
+          "scores": {
+            "evidence_density": "high",
+            "novelty": "high",
+            "research_gap": "medium",
+            "counterintuitive_value": "high",
+            "narrative_tension": "medium",
+            "researchability": "high"
+          },
+          "known_sources_seen": [
+            "Ethnographic museum collections and catalogs",
+            "Craft tradition documentation",
+            "Archaeological evidence of portable housing and textiles"
+          ],
+          "research_risk": "low — material evidence is abundant and directly observable; contemporary craftspeople carry living traditions; museums hold extensive collections; risk is interpretive (avoiding projection of modern aesthetics onto historical choices)",
+          "video_proposal": "Museum field work; artisan workshops showing traditional techniques; close-up cinematography of textile patterns and yurt architecture; animation showing design principles; expert analysis of functional aesthetics",
+          "recommended": true
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "created_date": "2026-08-09",
+    "phase_progress": "A — Discovery & Concept Stage",
+    "next_step": "User selects one or more candidates per section. Selected candidates proceed to Phase B (Deep Research). Unselected candidates archived for future consideration.",
+    "notes": "Web search completed for all three queries. Candidates grouped by section with varying novelty/evidence balance. KÜLTÜREL ŞOKLAR candidates emphasize primary source availability and historiographical depth; BOZKIR FELSEFESİ candidates emphasize interpretive complexity and 'lost source' recovery."
+  }
+}

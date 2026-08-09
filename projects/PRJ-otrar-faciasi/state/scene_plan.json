@@ -135,9 +135,18 @@
   "measured_narration_2026_08_09": {
     "source": "ffprobe on assets/audio/NAR-SC-001..012.wav (real ElevenLabs generation, not planning estimate - M17 §5)",
     "per_scene_s": {
-      "SC-001": 20.24, "SC-002": 19.41, "SC-003": 18.21, "SC-004": 25.86,
-      "SC-005": 9.74, "SC-006": 21.55, "SC-007": 35.00, "SC-008": 11.31,
-      "SC-009": 15.73, "SC-010": 21.26, "SC-011": 20.09, "SC-012": 19.91
+      "SC-001": 20.24,
+      "SC-002": 19.41,
+      "SC-003": 18.21,
+      "SC-004": 25.86,
+      "SC-005": 9.74,
+      "SC-006": 21.55,
+      "SC-007": 35.0,
+      "SC-008": 11.31,
+      "SC-009": 15.73,
+      "SC-010": 21.26,
+      "SC-011": 20.09,
+      "SC-012": 19.91
     },
     "total_s": 238.31,
     "gap_vs_target_s": 241.69,
@@ -146,26 +155,259 @@
   "deepening_insert_2026_08_09": {
     "trigger": "Kullanıcı talebi: 'konuda derinleş, elimizdeki görsel ve videolarla ara sahneler oluştur, gereksiz ElevenLabs kredisi harcama, yeterli olmazsa 2 sessiz 10sn mola ekle'",
     "committed_inserts": {
-      "SC-013": {"title": "İki Tarihçi, İki Farklı Suçlu", "after": "SC-005", "words": 46, "chars": 343, "duration_s_measured": 23.588571, "source": "faz-e-package.json contradictions C-0005"},
-      "SC-014": {"title": "Bu Hikâye Nereden Biliniyor?", "after": "SC-007", "words": 47, "chars": 377, "duration_s_measured": 24.42449, "source": "faz-d-readiness.json audit finding - CITATION_UNVERIFIED source chain"},
-      "SC-015": {"title": "Anlatılmamış Yarısı", "after": "SC-011", "words": 38, "chars": 291, "duration_s_measured": 18.99102, "source": "faz-d-readiness.json audit finding - perspective_diversity: skewed, gap G-01"}
+      "SC-013": {
+        "title": "İki Tarihçi, İki Farklı Suçlu",
+        "after": "SC-005",
+        "words": 46,
+        "chars": 343,
+        "duration_s_measured": 23.588571,
+        "source": "faz-e-package.json contradictions C-0005"
+      },
+      "SC-014": {
+        "title": "Bu Hikâye Nereden Biliniyor?",
+        "after": "SC-007",
+        "words": 47,
+        "chars": 377,
+        "duration_s_measured": 24.42449,
+        "source": "faz-d-readiness.json audit finding - CITATION_UNVERIFIED source chain"
+      },
+      "SC-015": {
+        "title": "Anlatılmamış Yarısı",
+        "after": "SC-011",
+        "words": 38,
+        "chars": 291,
+        "duration_s_measured": 18.99102,
+        "source": "faz-d-readiness.json audit finding - perspective_diversity: skewed, gap G-01"
+      }
     },
-    "committed_inserts_total": {"words": 131, "chars": 1011, "duration_s_measured": 67.004081},
+    "committed_inserts_total": {
+      "words": 131,
+      "chars": 1011,
+      "duration_s_measured": 67.004081
+    },
     "all_visuals_reused_no_new_flow_generation": true,
     "voice_consistency_check": "Aynı voice_id (JBFqnCBsd6RMkjVDRZzb / George) ve aynı delivery parametreleri (stability 0.5, similarity 0.85, style 0.25, speed 1.0, speaker_boost on) kullanıldı - varsayılan client değerleri DEĞİL, orijinal 12 sahnenin gerçek parametreleri ElevenLabs History API'sinden (GET /v1/history) doğrulanarak alındı, hafızadan tahmin edilmedi.",
-    "elevenlabs_quota_context": {"already_used_chars_before_this_batch": 3473, "this_batch_chars": 1011, "total_chars_now": 4484, "free_tier_quota_chars": 10000, "pct_of_quota": 44.84},
+    "elevenlabs_quota_context": {
+      "already_used_chars_before_this_batch": 3473,
+      "this_batch_chars": 1011,
+      "total_chars_now": 4484,
+      "free_tier_quota_chars": 10000,
+      "pct_of_quota": 44.84
+    },
     "status": "GENERATED - narration generated 2026-08-09 after explicit user approval ('Onaylıyorum ve seslerin aynı ses oldugundan emin ol'). Real ffprobe durations recorded above (M17 §5).",
     "fallback_inserts_committed": {
-      "SC-016": {"title": "Sessiz Mola I", "between": ["SC-004", "SC-005"], "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": true},
-      "SC-017": {"title": "Sessiz Mola II", "between": ["SC-009", "SC-010"], "duration_s": 10, "narration": "none", "cost": 0, "wired_into_primary_chain": true},
+      "SC-016": {
+        "title": "Sessiz Mola I",
+        "between": [
+          "SC-004",
+          "SC-005"
+        ],
+        "duration_s": 10,
+        "narration": "none",
+        "cost": 0,
+        "wired_into_primary_chain": true
+      },
+      "SC-017": {
+        "title": "Sessiz Mola II",
+        "between": [
+          "SC-009",
+          "SC-010"
+        ],
+        "duration_s": 10,
+        "narration": "none",
+        "cost": 0,
+        "wired_into_primary_chain": true
+      },
       "activation_note": "Kullanıcı 2026-08-09'da 'yeterli olmazsa' koşulunu beklemeden ikisini de eklemeyi onayladı ('2 tane sessiz sahneyi de ekle') - artık ana continuity zincirinin bir parçası (SC-004.continuity_from ve SC-009.continuity_from güncellendi)."
     },
-    "final_sequence_order": ["SC-001","SC-002","SC-003","SC-004","SC-016","SC-005","SC-013","SC-006","SC-007","SC-014","SC-008","SC-009","SC-017","SC-010","SC-011","SC-015","SC-012"],
+    "final_sequence_order": [
+      "SC-001",
+      "SC-002",
+      "SC-003",
+      "SC-004",
+      "SC-016",
+      "SC-005",
+      "SC-013",
+      "SC-006",
+      "SC-007",
+      "SC-014",
+      "SC-008",
+      "SC-009",
+      "SC-017",
+      "SC-010",
+      "SC-011",
+      "SC-015",
+      "SC-012"
+    ],
     "final_total_duration_s": {
       "original_12_scenes_measured": 238.31,
       "plus_3_narrated_inserts_measured": 305.314081,
       "plus_2_silent_breaks_20s": 325.314081,
       "vs_original_target_480": "480s hedefinin altında (325.3s, ~%68) - kullanıcıya açıkça raporlandı ve bu haliyle onaylandı, sessizce 480'e zorlanmadı (CLAUDE.md law #4). scenesData/Remotion oluşturma adımı (task #49) bu final_sequence_order'ı kullanmalı."
     }
+  },
+  "final_render_timeline_2026_08_09": {
+    "source": "scripts/generate_otrar_scenes_data.py output, ffprobe-measured (M17 §5) - not a planning estimate",
+    "fps": 30,
+    "total_duration_s": 325.319,
+    "total_frames": 9760,
+    "max_image_hold_s_cap": 12,
+    "max_hold_violations": [],
+    "per_scene": [
+      {
+        "scene_id": "SC-001",
+        "start_frame": 0,
+        "duration_s": 20.245,
+        "duration_frames": 607,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 6.75
+      },
+      {
+        "scene_id": "SC-002",
+        "start_frame": 607,
+        "duration_s": 19.409,
+        "duration_frames": 582,
+        "n_visuals": 4,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 4.85
+      },
+      {
+        "scene_id": "SC-003",
+        "start_frame": 1190,
+        "duration_s": 18.207,
+        "duration_frames": 546,
+        "n_visuals": 4,
+        "video_duration_s": 6.016,
+        "avg_still_hold_s": 4.06
+      },
+      {
+        "scene_id": "SC-004",
+        "start_frame": 1736,
+        "duration_s": 25.861,
+        "duration_frames": 776,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 8.62
+      },
+      {
+        "scene_id": "SC-016",
+        "start_frame": 2512,
+        "duration_s": 10.0,
+        "duration_frames": 300,
+        "n_visuals": 1,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 10.0
+      },
+      {
+        "scene_id": "SC-005",
+        "start_frame": 2812,
+        "duration_s": 9.744,
+        "duration_frames": 292,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 3.25
+      },
+      {
+        "scene_id": "SC-013",
+        "start_frame": 3104,
+        "duration_s": 23.589,
+        "duration_frames": 708,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 7.86
+      },
+      {
+        "scene_id": "SC-006",
+        "start_frame": 3812,
+        "duration_s": 21.551,
+        "duration_frames": 647,
+        "n_visuals": 3,
+        "video_duration_s": 6.016,
+        "avg_still_hold_s": 7.77
+      },
+      {
+        "scene_id": "SC-007",
+        "start_frame": 4458,
+        "duration_s": 35.004,
+        "duration_frames": 1050,
+        "n_visuals": 5,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 7.0
+      },
+      {
+        "scene_id": "SC-014",
+        "start_frame": 5508,
+        "duration_s": 24.424,
+        "duration_frames": 733,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 8.14
+      },
+      {
+        "scene_id": "SC-008",
+        "start_frame": 6241,
+        "duration_s": 11.311,
+        "duration_frames": 339,
+        "n_visuals": 3,
+        "video_duration_s": 6.016,
+        "avg_still_hold_s": 2.65
+      },
+      {
+        "scene_id": "SC-009",
+        "start_frame": 6580,
+        "duration_s": 15.726,
+        "duration_frames": 472,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 5.24
+      },
+      {
+        "scene_id": "SC-017",
+        "start_frame": 7052,
+        "duration_s": 10.0,
+        "duration_frames": 300,
+        "n_visuals": 1,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 10.0
+      },
+      {
+        "scene_id": "SC-010",
+        "start_frame": 7352,
+        "duration_s": 21.264,
+        "duration_frames": 638,
+        "n_visuals": 4,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 5.32
+      },
+      {
+        "scene_id": "SC-011",
+        "start_frame": 7990,
+        "duration_s": 20.088,
+        "duration_frames": 603,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 6.7
+      },
+      {
+        "scene_id": "SC-015",
+        "start_frame": 8593,
+        "duration_s": 18.991,
+        "duration_frames": 570,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 6.33
+      },
+      {
+        "scene_id": "SC-012",
+        "start_frame": 9162,
+        "duration_s": 19.905,
+        "duration_frames": 597,
+        "n_visuals": 3,
+        "video_duration_s": 0.0,
+        "avg_still_hold_s": 6.64
+      }
+    ],
+    "note": "narration got shorter than the original plan, so per-image holds also shrank well under the 12s cap everywhere (max observed 10.0s, on the two silent break scenes by design - single visual for the full 10s)."
   }
 }

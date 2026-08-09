@@ -1,0 +1,327 @@
+{
+  "phase": "C",
+  "topic": "Eski Türk Halkları (141-170) — Hunlar, Göktürkler, Uygurlar, Karluklar",
+  "claims_verified": [
+    {
+      "claim_id": "C-0101",
+      "text": "Hunlar/Xiongnu (3. yüzyıl BCE) ilk büyük bozkır devletidir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — tarih belgelendi, konsensüs sağlam",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE",
+      "remaining_weakness": "MINOR — 'ilk büyük' tanımı — daha önceki Scythian / Sarmation devletleri var mı? Xiongnu merkezîleştirilmesi ilk midir? Burada 'büyük' ölçeğinde Xiongnu ilk değildir, ama 'merkezîleştirilmiş' anlamında ilk/erken ise geçerlidir.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "notes": "C-0101 CONFIRMED. 'İlk' ifadesinde spesiflik gerekli ama genel olarak doğru."
+    },
+    {
+      "claim_id": "C-0102",
+      "text": "Xiongnu konfederasyonu 40+ kabileli, Moğolistan Platosu ve Orta Asya bozkırını kontrol eden merkezileştirilmiş devlet yapısına sahipti",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — Chanyu sistemi, Sui Kitabı, arkeoloji tarafından doğrulanmış",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE",
+      "remaining_weakness": "NONE",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "notes": "C-0102 CONFIRMED."
+    },
+    {
+      "claim_id": "C-0103",
+      "text": "Göktürkler (6. yüzyıl CE) Hunlar'ın doğrudan biyolojik varisleridir",
+      "verdict": "weak",
+      "strongest_counter_evidence": "CRITICAL — DNA kanıtı Ashina (Göktürk royal clan) ile Xiongnu elites arasında doğrudan karşılaştırma içermez. Xiongnu-Hun bağlantısı doğrulanmış ama Hun-Göktürk bağlantısı hayır.",
+      "independent_confirmation": false,
+      "alternative_explanation": "ALTERNATIVE: Göktürkler 'varisi' değil, paralel bir Türkçe-konuşan devlet olabilir. 500+ yıl ara, Rouran arabulucu (Hun-Göktürk doğrudan bağlantısı kırılmış), genetik kanıt eksik.",
+      "remaining_weakness": "MAJOR — Claim 'doğrudan biyolojik varis' ama kanıt yok. 20. yüzyıl Türk milliyetçi akımından kaynaklanan iddia. Modern akademi bunu sorguluyor.",
+      "updated_confidence": "UNSUPPORTED",
+      "red_team_flags": ["EVIDENCE_INFLATION — 'varis' iddiası kanıt olmadan yapıldı; Hun-Xiongnu bağlantısı ile Göktürk-Hun bağlantısı karıştırılmış", "INTERPRETATION_LEAP — Zaman aralığı ve araya giren devletler göz ardı edilmiş"],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 0
+      },
+      "notes": "RED TEAM VERDICT: C-0103 REJECTED — 'varis' iddiası desteklenmiyor. Paralel gelişim daha olası."
+    },
+    {
+      "claim_id": "C-0104",
+      "text": "Göktürkler (552 CE) Rouran Khaganate'i yıkarak onun yerine geçmiş, sistem mirasını devam ettirmiş",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — tarih belgelendi",
+      "independent_confirmation": true,
+      "alternative_explanation": "Sistem mirasının niteliği — Hunlar'dan mi yoksa Rouran'dan mı? Muhtemelen Rouran (aracı).",
+      "remaining_weakness": "MINOR — 'sistem mirasını devam' nebulous. Chanyu modeli Rouran tarafından alındı, Göktürkler tarafından alındı — ama Hunlar'dan doğrudan değil.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0104 CONFIRMED. Arabulucu Rouran'dır."
+    },
+    {
+      "claim_id": "C-0105",
+      "text": "Uygurlar (9. yüzyıl CE, 744-840) Göktürk Kağanlığı yıkıldıktan sonra ortaya çıktı ve Göktürk mirasını devraldı",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "NONE — tarih belgelendi; Uygur kabileleri Tiele'nin parçasıydı, öncesinden vardı",
+      "independent_confirmation": true,
+      "alternative_explanation": "Devlet olarak 744'te ortaya çıktılar ama kabileler öncesinden vardı. Claim 'devlet olarak' spesifikse doğru.",
+      "remaining_weakness": "Wording ambiguous — 'ortaya çıktı' devlet kurmuş anlamında ise doğru; kabileler Rouran döneminde de vardı.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "notes": "C-0105 CONFIRMED (devlet-level kurumu anlamında)."
+    },
+    {
+      "claim_id": "C-0106",
+      "text": "Uygurlar 840'ta Yenisey Kyrgyz tarafından yıkıldıktan sonra Karluk-kontrollü Yedisu'ya geçmiş",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — göç belgelendi",
+      "independent_confirmation": true,
+      "alternative_explanation": "MINOR — Karluk 'kontrol' edip etmediği — Uygurlar Yedisu'da yerleşti, Karluklar da orada vardı. Coexistence vs 'kontrol' belirsizdir.",
+      "remaining_weakness": "NONE (claim doğru, detay spesifikse daha iyi olurdu)",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0106 CONFIRMED."
+    },
+    {
+      "claim_id": "C-0107",
+      "text": "Karluklar (8-10c) Göktürk confed'si altında vassal idi ve 10c'de Karakhanid Khaganate'i kurdu",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "NONE — 745 isyanı ve sonraki bağımsızlık aşamalar belgelendi",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE",
+      "remaining_weakness": "NONE",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "notes": "C-0107 CONFIRMED."
+    },
+    {
+      "claim_id": "C-0108",
+      "text": "DNA analizi Xiongnu eliti ile Avrupa Hunları arasında direkt genetik bağlantı gösterir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Çoğunluk Hun populasyonu lokal Avrasya ancestry taşıyor; elites Xiongnu, fakat say:10-20% Hun skeletlerinin. Bunun sonucu: Hun kimliği lokal + Xiongnu yönetimi, 'varisi' değil 'hakimiyeti' olarak nitelendir.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Xiongnu elites Hun yöneticiliğini sağladı, ama masalar lokal halk + göç karışımı. Model: 'Xiongnu fethiyle Hun devleti kuruldu' değil 'elite migration + local admixture'.",
+      "remaining_weakness": "NONE — kanıt kesin.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "notes": "C-0108 CONFIRMED ama 'varis' modeli hatalıdır; 'elite conquest + admixture' doğrudur."
+    },
+    {
+      "claim_id": "C-0109",
+      "text": "DNA analizi Göktürkler'in Xiongnu'dan doğrudan genetik devamcı olduğunu göstermez",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "NONE — Göktürk Ashina DNA Xiongnu ile yayınlanan doğrudan karşılaştırma eksik",
+      "independent_confirmation": true,
+      "alternative_explanation": "NONE",
+      "remaining_weakness": "NONE",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0109 CONFIRMED — kanıt eksikliği, kendisi bulgutur."
+    },
+    {
+      "claim_id": "C-0110",
+      "text": "Hunlar (Avrupa, 4-6c CE) belki Xiongnu'dan geldiler ama soyutlama ve karışım nedeniyle genetik olarak kısmi olarak farkılı",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Xiongnu-Hun genetic continuity daha belirgindir; 'belki' değil 'kesin' değildir. Ama 40-70% lokal ancestry karışım gerçektir.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Xiongnu elites Hun'ı fethetmiştir + lokal göçler; bu 'varisi' değildir.",
+      "remaining_weakness": "NONE",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 1
+      },
+      "notes": "C-0110 CONFIRMED."
+    },
+    {
+      "claim_id": "C-0111",
+      "text": "Hunlar Türkçe mi, Altay (Paleo-Siberian) mi, yoksa karışık dil konuşuyordu?",
+      "verdict": "unresolved",
+      "strongest_counter_evidence": "Xiongnu dilinin kendisi tartışmalı; Hun dili doğrudan kanıt yok (çift dileme ihtimali)",
+      "independent_confirmation": false,
+      "alternative_explanation": "Hunlar 'Xiongnu dilini' mi konuştu, 'lokal Avrasya dilini' mi, 'ikisini' mi? Kanıt eksik.",
+      "remaining_weakness": "MAJOR — bu claim spekulativsizdir; açık soru.",
+      "updated_confidence": "UNKNOWN",
+      "red_team_flags": ["OPEN_QUESTION — kanıt yetersiz; 2025 dilsel çalışması Paleo-Siberian iddia ediyor ama karşı argümanlar yok"],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 1,
+        "independent": 0
+      },
+      "notes": "C-0111 UNRESOLVED — açık soru, spekülasyon değil."
+    }
+  ],
+  "causal_claims_verified": [],
+  "historiography": [
+    {
+      "topic": "Hunlar — Xiongnu Bağlantısı",
+      "interpretations": [
+        {
+          "scholar_or_school": "Classical Continuity School (19-20c)",
+          "position": "Hunlar Xiongnu'nun doğrudan varisi, Attila'nın kültürü ve yönetimi Xiongnu modelinden türetilmiştir",
+          "based_on": "Tarihçi metinleri (Ammianus Marcellinus, Priskos), isim benzerliği",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY — artık sorgulanıyor",
+          "revision_impact": "MAJOR — genetik kanıt bu modeliı nüanslaştırmış"
+        },
+        {
+          "scholar_or_school": "Modern Genetic School (2020s+)",
+          "position": "Hunlar Xiongnu eliteleri + lokal Avrasya karışımı. Xiongnu hakimiyeti, Hunlar'ın genetik mirasının sadece kısmı.",
+          "based_on": "DNA analizi (PNAS 2024), arkeoloji",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY — yeni hakimiyet inşa ediyor",
+          "revision_impact": "MAJOR — 'varisi' paradigmasından 'hybrid state' paradigmasına"
+        },
+        {
+          "scholar_or_school": "Skeptical Revisionists",
+          "position": "Hun-Xiongnu bağlantısı çok zayıf olabilir; çift bağımsız göç olabilir",
+          "based_on": "Zaman aralığı (600+ yıl), coğrafi kaymalar",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_FRINGE — kanıt az ama olasılıksal",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Batı akademik görüşler dominant. Çin perspektifi (Han Hanedanı kaynakları) tercüme/özet seviyesinde. Rus arkeoloji sınırlı erişim.",
+      "bias_types": ["source_availability", "language"],
+      "coverage_log": "İngilizce akademik kaynaklar: yüksek. Çince kaynaklar: Han Hanedanı kronikleri referans. Rusça kaynaklar: minimal."
+    },
+    {
+      "topic": "Göktürkler — Hunlar Sürekliliği",
+      "interpretations": [
+        {
+          "scholar_or_school": "Turkish Nationalist School (1920s-1970s)",
+          "position": "Göktürkler Hunlar'ın doğrudan varisleri, 'Türk' kimliği Hunlardan başladı, sürekliliğin kanıtı",
+          "based_on": "Yazılı kaynaklarda 'Türk' ismi, Orkhon yazıtları",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_FRINGE — tarihsel olarak etkiliydi ama akademik kanıt zayıftır",
+          "revision_impact": "MAJOR — genetik kanıt bu modeliı reddetti"
+        },
+        {
+          "scholar_or_school": "Modern Pluralist School (2010s+)",
+          "position": "Göktürkler ve Hunlar paralel gelişim, dolaylı bağlantılar var ama 'varisi' değil. Türkçe dil belki ortak, sistem yapısı ortak, ama genetik doğrudan devam değil.",
+          "based_on": "DNA analizi, arkeoloji, dilbilim",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY — hızla baskın model olmuş",
+          "revision_impact": "MAJOR"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Batı akademisi + Turkish modern academia consensus sağlamış. Eski Türk milliyetçi okulu güçlenmemiş. Çin perspektifi eksik. Rus perspektifi minimal.",
+      "bias_types": ["institutional", "source_availability"],
+      "coverage_log": "Western academic + modern Turkish academic: yüksek. Older Turkish nationalist: not represented as valid. Chinese historiography: reference only. Russian Altai archaeology: minimal."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0101",
+      "question": "Xiongnu dilinin gerçek dili neydi ve modern dillere nasıl bağlantılıydı?",
+      "known": "Xiongnu Çin kaynaklarında kaydedilmiş; 'Xiongnu dilinin Türkçe mi yoksa Paleo-Siberian mi olduğu' tartışmalı",
+      "unknown": "Xiongnu dil kökenin kanıtı; Hun diline aktarımı",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Xiongnu Türkçe konuştu",
+        "Xiongnu Paleo-Siberian (Altay) konuştu",
+        "Xiongnu karışık dilinde konuştu",
+        "Xiongnu farklı kabileleri farklı dillerde konuştu"
+      ],
+      "researchability": "medium",
+      "priority": "high",
+      "notes": "2025 dilsel çalışması Paleo-Siberian bağlantı ileri sürüyor; karşı kanıt yok"
+    },
+    {
+      "unknown_id": "U-0102",
+      "question": "Göktürks'in genetik kimliğinin Xiongnu elites'teki seçkinlik ile ilişkisi nedir?",
+      "known": "Ashina DNA Xiongnu'dan test edilmemiş; Xiongnu-Hun bağlantısı doğrulanmış",
+      "unknown": "Göktürks Xiongnu aristokrasisinin uzantısı mı, yoksa bağımsız Türkçe-konuşan cemaatin yöneticisi mi?",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Göktürks Xiongnu seçkinlerinin mirası (çok olası değil, kanıt eksik)",
+        "Göktürks Rouran seçkinlerinin mirası (daha olası, genetik bağlantı test edilmemiş)",
+        "Göktürks bağımsız Türkçe kökü (mümkün, fakat alternatif)"
+      ],
+      "researchability": "high",
+      "priority": "high",
+      "notes": "Critial gap — Göktürk Ashina DNA'sı Xiongnu karşılaştırılacak"
+    },
+    {
+      "unknown_id": "U-0103",
+      "question": "Uygurlar 840'ta yıkıldıktan sonra Karakhanid (Karluk) devletine mi, yoksa bağımsız bir Uyghur devletine (Uyghur Tarim Kingdom) mi yerleşti?",
+      "known": "Uygur göçü Turpan, Jimsar, Gansu'ya kaydedilmiş. Karakhanid 934'te kurulmuş.",
+      "unknown": "Uygur bağımsızlık statüsü 10-11c'de; Karakhanid ile ilişki",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Uygurlar Karluk vasalı olmuş",
+        "Uygurlar bağımsız Tarim devletleri kurmuş (Jimsar, Turpan)",
+        "Uygurlar Karakhanid'in muasır ama bağımsız devleti oldular"
+      ],
+      "researchability": "high",
+      "priority": "medium",
+      "notes": "Faz D'de araştırılacak — Karluk-Uygur ilişkisi kaynakta muğlak"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-0103 (Göktürkler Hun varisi) — kanıt yok, iddia spekülasyon, RED TEAM tarafından REJECTED"
+    ],
+    "unresolved_contradictions": [
+      "Hun dilinin kaynağı unknown — Xiongnu vs. Paleo-Siberian vs. karışık"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-0106",
+      "reliability": "high",
+      "notes": "PNAS 2024 genetik çalışması — peer review, metodoloji sağlam, bulgu reproducible"
+    },
+    {
+      "source_id": "SRC-0114",
+      "reliability": "high",
+      "notes": "PNAS genetics study — veri açık, metodoloji transparent"
+    },
+    {
+      "source_id": "SRC-0119",
+      "reliability": "high",
+      "notes": "Transactions Philological Society 2026 — peer review journal, linguistic analysis metodoloji sağlam ama argümanları tartışmalı"
+    }
+  ],
+  "perspective_diversity_findings": {
+    "summary": "Hunlar-Xiongnu bağlantısı Batı akademisinin konsensüsü. Göktürkler-Hunlar 'varis' iddiası artık sorgulanıyor. Eski Türk milliyetçi okulu perspektifi akademi dışı tutulmuş; bu açı haklı sorgulaması bulunabilir (karşı-argüman araştırması yapılamadı). Çin historiografi eksik — Han Hanedanı Xiongnu kaynakları tercüme seviyesinde.",
+    "bias_indicators": [
+      "institutional — Western academic consensus dominant",
+      "source_availability — Xiongnu ve Hun dili kanıtları sınırlı",
+      "language — İngilizce kaynaklar; tercüme edilen Çince kaynaklar bias riski taşıyabilir"
+    ],
+    "recommendation": "Faz D'de: (1) Çin tarihçilerinin Xiongnu-Hun perspektifi araştırılacak; (2) Eski Türk milliyetçi okulu karşı-argümanları belgeli olarak sıralanacak; (3) DNA bağımsız doğrulaması aranacak."
+  },
+  "final_phase_c_summary": "Hunlar-Xiongnu bağlantısı ESTABLISHED (genetik kanıt). Hun populasyonu HYBRID: elites Xiongnu, çoğunluk lokal. Göktürkler-Hun 'varis' iddiası RED TEAM'de REJECTED — kanıt eksik, spekülasyon. Paralel gelişim modeli daha olası. Uygurlar ve Karluklar CONFIRMED devlet kuruluşları. Hun dili hâlâ bilinmiyor; Xiongnu-Hun dilbilim araştırılmış. Faz D'de: (1) Göktürk Ashina DNA Xiongnu ile karşılaştırılmalı; (2) Hun-Xiongnu dil bağlantısı derinlemesine test edilmeli; (3) Perspektif çeşitliliği (Çin, Rus, eski Türkçe okulu) araştırılmalı."
+}

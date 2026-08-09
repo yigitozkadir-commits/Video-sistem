@@ -1,0 +1,512 @@
+{
+  "phase": "C",
+  "cluster_id": "Foundation-Cluster-Items-1-100",
+  "sections": ["A-LAYER", "BOZ-01", "KURG", "KÜR-ARAZ"],
+  "claims_verified": [
+    {
+      "claim_id": "C-A-001",
+      "section": "A-LAYER",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None identified — social group variation in memory is well-documented",
+      "independent_confirmation": true,
+      "alternative_explanation": "None credible",
+      "remaining_weakness": "Halbwachs theory developed in early 20th century before contemporary psychology; updated frameworks may refine but not invalidate",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Foundational theory; consensus stable for 100+ years"
+    },
+    {
+      "claim_id": "C-A-002",
+      "section": "A-LAYER",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Boundaries between communicative/cultural memory are contested (some scholars argue continuous spectrum rather than binary)",
+      "independent_confirmation": true,
+      "alternative_explanation": "Memory transmission may not split neatly at 80-100 year mark in all cultural contexts",
+      "remaining_weakness": "80-100 year span is statistical norm but culture-dependent; some cultures maintain 150+ year communicative memory chains",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["EVIDENCE_INFLATION: '80-100 year span' is average not universal rule"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2},
+      "notes": "Core distinction sound but boundary fuzzier than sometimes presented"
+    },
+    {
+      "claim_id": "C-A-003",
+      "section": "A-LAYER",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Language revivals (Hebrew, Basque) show transmission interruption is not irreversible",
+      "independent_confirmation": true,
+      "alternative_explanation": "Language loss is tipping-point phenomenon but tipping point can be reversed with sustained intervention",
+      "remaining_weakness": "Claim identifies tipping point correctly but may understate reversibility with intentional effort",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Directionally correct; language-loss mechanisms verified"
+    },
+    {
+      "claim_id": "C-B1-001",
+      "section": "BOZ-01",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Recent genetic studies propose Przewalski's horse (wild relative) domesticated separately; unclear whether 3500 BCE date applies to all lineages",
+      "independent_confirmation": true,
+      "alternative_explanation": "Multiple domestication events possible (Botai + Western steppe); 3500 BCE is earliest confirmed site, not necessarily sole origin",
+      "remaining_weakness": "Botai is oldest clear evidence, but Western steppe domestication origins contested; claim correctly states Botai timing but should qualify as 'earliest known site'",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["FALSE_PRECISION: 'horse domestication occurred at Botai' could imply sole origin; should specify 'earliest known/confirmed'"],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Botai is secure, but global narrative may require multi-center model"
+    },
+    {
+      "claim_id": "C-B1-002",
+      "section": "BOZ-01",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Pathological bridling marks can indicate wild-horse riding, not exclusively domestication; metrical analysis is statistically probabilistic, not deterministic",
+      "independent_confirmation": true,
+      "alternative_explanation": "Three-evidence approach is strong; any one alone would be weaker, but convergence is robust",
+      "remaining_weakness": "Metrical analysis has error margins; lipid residues could theoretically come from wild-horse products, though unlikely",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 3},
+      "notes": "Converging independent evidence types is methodologically sound"
+    },
+    {
+      "claim_id": "C-B1-003",
+      "section": "BOZ-01",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Genetic claim of 'replacement' is contested; introgression (interbreeding with local wild horses) may have been significant in some regions",
+      "independent_confirmation": true,
+      "alternative_explanation": "Global expansion is clear, but pattern varies by region (replacement vs. introgression)",
+      "remaining_weakness": "Claim states 'replaced almost all local populations' but genetic evidence shows pockets of wild-horse persistence/hybridization",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["CLAIM_MUTATION_SUSPECTED: 'replaced almost all' is strong; nuances suggest regional variation"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Directional claim sound but overstates completeness of replacement"
+    },
+    {
+      "claim_id": "C-KURG-001",
+      "section": "KURG",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — permafrost preservation is uncontested mechanism",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "None identified",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2},
+      "notes": "Physical preservation mechanism is well-documented"
+    },
+    {
+      "claim_id": "C-KURG-002",
+      "section": "KURG",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Gender of 'Golden Man' skeleton is contested (some analysis suggests female); wealth interpretation depends on chronology assumptions",
+      "independent_confirmation": true,
+      "alternative_explanation": "Elite status undisputed; gender and specific cultural interpretation less certain",
+      "remaining_weakness": "Skeleton gender was initially classified male but recent analysis suggests possible female burial; 'elite Scythian-Saka' status is secure, gender-specific narratives contested",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["ANACHRONISM: Gender classification terminology; burial contents indicate elite but sex determination not conclusive"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2},
+      "notes": "Elite status established; gender/ethnic specifics require caution"
+    },
+    {
+      "claim_id": "C-KURG-003",
+      "section": "KURG",
+      "original_confidence": "CONTESTED",
+      "verdict": "contested",
+      "strongest_counter_evidence": "Genetic studies (Haak et al. 2015, Mathieson et al. 2015) propose steppe migration model differs significantly from kurgan hypothesis; DNA evidence shows multiple waves and alternative routes",
+      "independent_confirmation": false,
+      "alternative_explanation": "Steppe herder migration model compatible with kurgan distribution but invokes different mechanisms and timeline; Gimbutas hypothesis remains influential but not dominant in 2020s genetics",
+      "remaining_weakness": "Kurgan hypothesis was revolutionary but has been modified/challenged by ancient DNA evidence; 'Kurgan IV = Yamna culture' identification contested; timing disputes unresolved",
+      "updated_confidence": "CONTESTED",
+      "red_team_flags": ["HISTORIOGRAPHY_REVISION: Major paradigm shift from Gimbutas to multi-wave steppe migration models since 2015"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 2},
+      "notes": "Classic hypothesis but superseded/supplemented by genetic evidence; oversimplifies Proto-Indo-European origins into single kurgan culture"
+    },
+    {
+      "claim_id": "C-KURG-004",
+      "section": "KURG",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Ancient DNA inheritance patterns show variation by region; some lineages show matrilineal succession, complicating 'hereditary' narrative",
+      "independent_confirmation": true,
+      "alternative_explanation": "Power transmission was hereditary in documented cases but succession rules varied (patrilineal, matrilineal, matrilocal possibilities)",
+      "remaining_weakness": "Max Planck study documents hereditary elite families but sample size is limited and succession rules are not fully documented; female elite status suggests matrilineality may compete with patrilineality",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 1},
+      "notes": "Ancient DNA evidence solid; social organization details still emerging"
+    },
+    {
+      "claim_id": "C-KURG-005",
+      "section": "KURG",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Grave-goods inequality can reflect ritual role rather than living status; wealth interpretation has changed over time (older accounts overstated inequality)",
+      "independent_confirmation": true,
+      "alternative_explanation": "Hierarchy is evident in grave-goods disparity; living social organization may not mirror burial practices (some societies use burials to undo inequality)",
+      "remaining_weakness": "Assumption that burial wealth = living wealth is now questioned; need parallel evidence (settlement archaeology, bone isotope data) to confirm status hierarchy",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Directionally sound; hierarchy evident but living/post-mortem status linkage contested in newer scholarship"
+    },
+    {
+      "claim_id": "C-KÜR-001",
+      "section": "KÜR-ARAZ",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Geographic range may be narrower than 'occupied' suggests; most dense settlements in central Kura valley; peripheral presence in Armenia/Iran",
+      "independent_confirmation": true,
+      "alternative_explanation": "Culture spread widely but intensity of occupation varied; core region vs. periphery distinction matters",
+      "remaining_weakness": "Claim states 'occupied South Caucasus' broadly; more precise: dense settlement in central Kura valley with extensive dispersal but lighter occupation at margins",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["FALSE_PRECISION: 'Occupied' implies uniform presence; settlement density varied regionally"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Geographic range correct; settlement density pattern understated"
+    },
+    {
+      "claim_id": "C-KÜR-002",
+      "section": "KÜR-ARAZ",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — genetic study is peer-reviewed Nature publication with transparent methodology",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Sample size is limited (single cemetery); genetic signal strong but need additional sites for full confirmation",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Genome-wide analysis is high-quality evidence; replication at other sites would strengthen"
+    },
+    {
+      "claim_id": "C-KÜR-003",
+      "section": "KÜR-ARAZ",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Grape domestication in other regions (Near East, Levant) overlaps chronologically; 'earliest' claim may be regionally true but not globally unique",
+      "independent_confirmation": true,
+      "alternative_explanation": "Gadachrili Gora is earliest known wine evidence, but independence from other centers unclear",
+      "remaining_weakness": "Claim states 'earliest evidence of domesticated grapes' which is accurate but should note this is 'earliest known' pending future discoveries",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Chemical evidence is robust; dating is secure"
+    },
+    {
+      "claim_id": "C-KÜR-004",
+      "section": "KÜR-ARAZ",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Gene flow timing is inferred; direct causation of 'diaspora' vs. 'multiple short-range movements' is difficult to distinguish from genetic data alone",
+      "independent_confirmation": true,
+      "alternative_explanation": "5th millennium BCE gene flow documented, but diaspora model assumes large-scale population movement; alternative model proposes gradual frontier expansion",
+      "remaining_weakness": "Genetic evidence shows admixture but doesn't specify mechanism (invasion, gradual migration, elite takeover, etc.); 'diaspora' may overstate scale/speed",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["CLAIM_MUTATION_SUSPECTED: 'Diaspora' implies coordinated large-scale movement; genetic signal permits alternative interpretations"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Gene flow is secure; interpretation as 'diaspora' requires caution; 'expansion' may be more precise"
+    },
+    {
+      "claim_id": "C-KÜR-005",
+      "section": "KÜR-ARAZ",
+      "original_confidence": "PROBABLE",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Incised/relief design tradition has multiple Near Eastern parallels; Shulaveri-Shomu style is distinctive but not unique; anthropomorphic figurines are common across Neolithic",
+      "independent_confirmation": false,
+      "alternative_explanation": "Ceramic motifs show Near Eastern influence but are locally adapted; symbolic meaning of figurines unknown (fertility? household spirits? artistic play?)",
+      "remaining_weakness": "Figurine interpretation is speculative; 'ritual significance' is inference from ethnographic parallels, not direct evidence; specific motif meanings are not documented",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["SPECULATION_FLAGGED: Figurine symbolic significance inferred from context, not demonstrated by source material"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Design influence is clear; symbolic interpretation requires specialized ceramic analysis not available in current sources"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "A-LAYER: Collective memory and cultural transmission mechanisms",
+      "interpretations": [
+        {
+          "scholar_or_school": "Maurice Halbwachs (1920s-1950s)",
+          "position": "Collective memory is fundamentally group-based; different social groups maintain distinct historical narratives shaped by present concerns",
+          "based_on": "Sociological observation of how groups construct and transmit memories",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Foundational",
+          "revision_impact": "PARADIGM_SHIFTING — Transformed memory studies from individual psychology to social phenomenon"
+        },
+        {
+          "scholar_or_school": "Jan Assmann (1990s-present)",
+          "position": "Communicative memory (80-100 years, informal) vs. cultural memory (institutionalized) distinction; both essential to cultural reproduction",
+          "based_on": "Analysis of Egyptian religious transmission; cross-cultural comparison",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Foundational",
+          "revision_impact": "MAJOR — Refined Halbwachs framework with temporal specificity"
+        },
+        {
+          "scholar_or_school": "Endangered Alphabets Project (2009-present)",
+          "position": "Intergenerational transmission failure is critical tipping point; without child speakers, languages have no future",
+          "based_on": "Empirical study of endangered language communities worldwide",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Documented phenomenon",
+          "revision_impact": "MODERATE — Confirmed theoretical predictions with empirical data"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Memory studies draw from European, North American, and world-wide scholarship; some non-Western perspectives underrepresented but increasingly included",
+      "bias_types": ["institutional", "language"],
+      "coverage_log": "English-language scholarship dominant; French original sources translated; limited coverage of indigenous/non-academic memory systems"
+    },
+    {
+      "topic": "BOZ-01: Horse domestication timing, location, and mechanisms",
+      "interpretations": [
+        {
+          "scholar_or_school": "Zeder & Levine (1990s-2010s) — Botai-focused school",
+          "position": "Botai culture (3500 BCE) is the earliest known horse domestication site based on morphological, pathological, and chemical evidence",
+          "based_on": "Metrical analysis, bone pathology, organic residue chemistry",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Not dominant but accepted",
+          "revision_impact": "MAJOR — Shifted domestication origin from Western steppe to Central Asia"
+        },
+        {
+          "scholar_or_school": "Nature genetics consortium (2021) — Western steppe expansion model",
+          "position": "Modern domestic horses originated in Western Eurasian steppe (lower Volga-Don) and expanded globally, outcompeting local populations by 2000 BCE",
+          "based_on": "Ancient DNA analysis showing genetic replacement patterns",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Modern consensus",
+          "revision_impact": "MAJOR — Reconciles Botai local domestication with Western steppe global dominance"
+        },
+        {
+          "scholar_or_school": "Multiple domestication events hypothesis",
+          "position": "Horse domestication may have occurred independently in Botai and Western steppe; Western steppe lineage became dominant",
+          "based_on": "Reconciling Botai evidence with genetic data showing genetic discontinuity",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Gaining acceptance",
+          "revision_impact": "MODERATE — Complicates simple single-origin narrative"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Central Asian archaeology well-represented (Kazakhstan, Kyrgyzstan); Western steppe (Russia, Ukraine) genetics strong; limited North American indigenous equestrian perspectives",
+      "bias_types": ["institutional", "language"],
+      "coverage_log": "Russian-language Central Asian archaeology accessible through translated publications; Western-dominated genetics discourse; indigenous knowledge systems absent"
+    },
+    {
+      "topic": "KURG: Kurgan hypothesis and Proto-Indo-European origins",
+      "interpretations": [
+        {
+          "scholar_or_school": "Marija Gimbutas (1956-1991) — Kurgan hypothesis",
+          "position": "Proto-Indo-European speakers originated in Pontic-Caspian steppe kurgan cultures; three waves of migration (~4400, 3400, 3000 BCE) conquered Europe",
+          "based_on": "Kurgan archaeology + linguistic reconstruction",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Historically dominant, now competing",
+          "revision_impact": "PARADIGM_SHIFTING — Unified archaeology + linguistics for Indo-European origins"
+        },
+        {
+          "scholar_or_school": "Ancient DNA school (Haak et al. 2015, Mathieson et al. 2015) — Multiple waves model",
+          "position": "Proto-Indo-European expansion involved multiple waves of steppe herder migration; genetics shows admixture events but challenges single kurgan-culture model",
+          "based_on": "Ancient genome-wide association studies",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Current scientific consensus",
+          "revision_impact": "PARADIGM_SHIFTING — Replaced kurgan hypothesis as dominant explanatory framework"
+        },
+        {
+          "scholar_or_school": "Anatolian hypothesis (Renfrew) — Alternative minority view",
+          "position": "Proto-Indo-European expansion originated from Anatolia (~8000 BCE) as part of Neolithic agricultural diaspora, not steppe pastoralists",
+          "based_on": "Linguistic comparative reconstruction + early agriculture spread",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_FRINGE — Minority within academia",
+          "revision_impact": "MAJOR — If correct, would overturn steppe-origin narrative"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "European, American, Russian scholarly traditions represented; Turkish perspectives on Anatolian origins emerging; indigenous steppe populations (Mongolian, Kazakh) perspectives largely absent",
+      "bias_types": ["national", "ideological", "institutional"],
+      "coverage_log": "English, German, Russian scholarship included; Turkish and Central Asian historiography limited; Soviet-era interpretations vs. modern genetics significant historiographic rupture"
+    },
+    {
+      "topic": "KÜR-ARAZ: Shulaveri-Shomu culture as Caucasus culture bridge",
+      "interpretations": [
+        {
+          "scholar_or_school": "Soviet/Russian Caucasus archaeology tradition",
+          "position": "Shulaveri-Shomu represents transition from Anatolian Neolithic to Caucasus highland adaptation; role as 'bridge' between Near East and steppes central",
+          "based_on": "Material culture analysis, stratigraphic sequencing",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Foundational regional narrative",
+          "revision_impact": "MODERATE — Established Caucasus as distinct cultural zone"
+        },
+        {
+          "scholar_or_school": "Modern genetic archaeology (Nature Communications 2023)",
+          "position": "Shulaveri-Shomu genetics show Anatolian + Caucasus/Iranian admixture; 5th millennium gene flow spread this admixed population northward into Pontic steppe",
+          "based_on": "Genome-wide analysis, paleodating",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Empirical finding",
+          "revision_impact": "MAJOR — Quantified admixture and timing, enabling historical reconstruction"
+        },
+        {
+          "scholar_or_school": "Nationalist historiography (Turkish, Azerbaijani)",
+          "position": "Shulaveri-Shomu represents proto-Turkic cultural identity; Caucasus early Turkic homeland",
+          "based_on": "Retroactive ethnic identification of archaeological cultures",
+          "status": "debate",
+          "fringe_scale": "NON_ACADEMIC_CLAIM — Not based on linguistic or genetic evidence",
+          "revision_impact": "ZERO — Modern scholarship rejects ethnic retroaction"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Russian/Soviet and European perspectives dominant; Georgian/Armenian/Azerbaijani national historiographies less represented in English-language scholarship; Turkish genetic/historical claims emerging but contested",
+      "bias_types": ["national", "political", "source_availability", "language"],
+      "coverage_log": "Russian monographs accessible through translated excerpts; Georgian archaeology published regionally; Azerbaijani sources limited in English; Turkish revisionist interpretations documented but critically examined"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-A-001",
+      "question": "What specific mechanisms caused writing loss in pre-Islamic Turkish societies vs. other Central Asian groups?",
+      "known": "Writing systems (Orkhon script) existed; later displaced by Arabic/Cyrillic; intergenerational transmission broke",
+      "unknown": "Whether writing loss was gradual elite abandonment or rapid policy displacement; rates varied by region",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Deliberate Islamic policy replacing Turkish script",
+        "Gradual elite shift to Arabic for prestige/administrative purposes",
+        "Competing script systems reduced literacy incentives"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-B1-001",
+      "question": "Were there multiple independent sites of horse domestication (Botai + Western steppe) or single origin with regional variation?",
+      "known": "Botai shows 3500 BCE domestication evidence; Western steppe horses dominated by 2000 BCE",
+      "unknown": "Genetic continuity/discontinuity between Botai and Western steppe lineages; timing of Western steppe domestication onset",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Single domestication event (Botai); Western steppe horses are Botai descendants",
+        "Dual domestication: Botai + Western steppe independent; Western steppe lineage proved superior",
+        "Botai horses replaced by Western steppe genetic introgression (hybrid vigor)"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-KURG-001",
+      "question": "Does kurgan hypothesis or steppe migration model better explain Proto-Indo-European origins?",
+      "known": "Gimbutas kurgan hypothesis influential 1956-2000; ancient DNA models emerged 2015+; both involve steppe origin but differ in mechanics",
+      "unknown": "Exact timing and number of migration waves; genetic vs. linguistic incongruence; role of non-steppe populations",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Gimbutas kurgan invasion waves model (archaeological)",
+        "Multiple-waves genetic admixture model (modern DNA)",
+        "Anatolian Neolithic dispersal (minority linguistic view)",
+        "Steppes + Anatolian mixed-source models (emerging synthesis)"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-KÜR-001",
+      "question": "What was the specific symbolic/ritual meaning of Shulaveri-Shomu anthropomorphic figurines?",
+      "known": "Figurines present in archaeological record; likely had ritual or household significance",
+      "unknown": "Fertility cult? Household spirits? Artistic play? Gender symbolism? No primary documentation exists",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Fertility goddess cult (speculative, based on ethnographic parallel)",
+        "Apotropaic spirit figures",
+        "Toys or decorative objects",
+        "Shamanistic or shamanic-adjacent ritual objects"
+      ],
+      "researchability": "medium",
+      "priority": "low"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-KÜR-004: 'Diaspora' model relies on genetic inference; alternative models (frontier expansion, elite replacement) also fit data",
+      "C-KURG-003: Gimbutas kurgan hypothesis weakened by ancient DNA evidence; claim should specify 'historically influential but contested by modern genetics'",
+      "C-KÜR-005: Figurine symbolic interpretation lacks direct evidence; based on ethnographic parallels not primary documentation"
+    ],
+    "unresolved_contradictions": [
+      "C-B1-001 vs. C-B1-003: Botai (Central Asia) vs. Western steppe (global dominant) — single origin vs. multiple domestication debate unresolved",
+      "C-KURG-003 vs. modern genetics: Kurgan hypothesis (archaeological) vs. multiple-waves model (genetic) — different explanatory frameworks"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-A-001",
+      "reliability": "high",
+      "notes": "Primary foundational text; 100+ years of scholarly verification"
+    },
+    {
+      "source_id": "SRC-A-003",
+      "reliability": "high",
+      "notes": "Peer-reviewed foundational framework; widely cited and tested"
+    },
+    {
+      "source_id": "SRC-B1-001",
+      "reliability": "high",
+      "notes": "Nature publication; peer-reviewed; high citation count"
+    },
+    {
+      "source_id": "SRC-KURG-005",
+      "reliability": "high",
+      "notes": "Gimbutas primary source; historically authoritative but superseded by modern genetics in explanatory power"
+    },
+    {
+      "source_id": "SRC-KURG-008",
+      "reliability": "high",
+      "notes": "Recent peer-reviewed archaeology; specialized journal"
+    },
+    {
+      "source_id": "SRC-KÜR-002",
+      "reliability": "high",
+      "notes": "Nature Communications; genome-wide analysis with transparent methodology"
+    }
+  ],
+  "cross_cluster_dependencies": [
+    {
+      "from_claim": "C-B1-001 (Horse domestication Botai 3500 BCE)",
+      "to_claim": "C-B2-003 (Intensified pastoralism Altai-Sayan 5000 years ago)",
+      "dependency_type": "ENABLES_CONDITION",
+      "notes": "Horse domestication precedes intensive pastoralism; causally linked"
+    },
+    {
+      "from_claim": "C-KURG-003 (Kurgan hypothesis Proto-Indo-European origins)",
+      "to_claim": "C-B1-003 (Horse expansion from Western steppe)",
+      "dependency_type": "CORROBORATES",
+      "notes": "Horse expansion patterns align with Proto-Indo-European migration models"
+    },
+    {
+      "from_claim": "C-KÜR-002 (Shulaveri-Shomu Anatolian+Caucasus admixture)",
+      "to_claim": "C-KÜR-004 (5th millennium gene flow to Pontic Steppe)",
+      "dependency_type": "DIRECTLY_SUPPORTS",
+      "notes": "Genetic admixture in Caucasus enables northward expansion"
+    },
+    {
+      "from_claim": "C-A-003 (Intergenerational transmission critical for language survival)",
+      "to_claim": "All sections (linguistic evidence in oral traditions)",
+      "dependency_type": "DEPENDS_ON",
+      "notes": "Memory transmission mechanisms underpin survival of cultural narratives across sections"
+    }
+  ],
+  "adversarial_summary": {
+    "strongest_challenges": [
+      "Kurgan hypothesis (C-KURG-003): Modern genetics have fundamentally challenged single-origin model; claim needs major qualification",
+      "Horse domestication origins (C-B1-001/003): Botai vs. Western steppe tension unresolved; dual-origin model increasingly plausible",
+      "Figurine symbolism (C-KÜR-005): Highly speculative; insufficient archaeological evidence for claimed ritual significance"
+    ],
+    "most_robust_claims": [
+      "A-LAYER foundational theories: 100+ years of verification; consensus unshaken",
+      "Pazyryk textile preservation (C-KURG-001): Physical mechanism uncontested; direct archaeological evidence",
+      "Shulaveri-Shomu genetics (C-KÜR-002): Recent genome-wide analysis is high-quality evidence"
+    ],
+    "bias_risks": [
+      "Kurgan hypothesis carries nationalist baggage (European triumphalism narratives); modern genetics challenges reflect scientific progress, not bias, but historiographic awareness needed",
+      "Caucasus scholarship skewed toward Russian/Soviet perspectives; Turkish/Azerbaijani nationalist historiography emerging but not well-integrated",
+      "Shulaveri-Shomu as 'culture bridge' metaphor carries implicit assumptions; genetic admixture documented but migration/diaspora mechanisms remain open"
+    ]
+  }
+}

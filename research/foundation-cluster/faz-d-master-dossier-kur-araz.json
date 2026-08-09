@@ -1,0 +1,105 @@
+{
+  "phase": "D",
+  "section": "KÜR-ARAZ",
+  "items": "81-100",
+  "faz_d_summary": {
+    "core_claims": 5,
+    "confidence_breakdown": {
+      "ESTABLISHED": 2,
+      "STRONGLY_SUPPORTED": 2,
+      "PLAUSIBLE": 1
+    },
+    "key_findings": [
+      "Shulaveri-Shomu culture (6000-4000 BCE) occupied South Caucasus — core area well-documented; peripheral occupation varies",
+      "Mentesh Tepe genetic admixture: Anatolian farmer + Caucasus/Iranian populations — genome-wide analysis peer-reviewed (Nature Communications 2023)",
+      "Earliest wine evidence (Gadachrili Gora, ~6000 BCE) — chemical residue analysis robust",
+      "5th millennium gene flow from Caucasus into Pontic Steppe — genetic signal strong but diaspora mechanism vs. frontier expansion remains interpretively open",
+      "Ceramic motifs show Near Eastern influence but gender/ritual symbolism of figurines heavily speculative"
+    ]
+  },
+  "claims_consolidated": [
+    {
+      "claim_id": "C-KÜR-001",
+      "text": "Shulaveri-Shomu culture occupied South Caucasus from ~6000-4000 BCE across Georgia, Azerbaijan, Armenia, and northern Iran",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag: Settlement density varied regionally; 'occupied' implies uniform presence; core region (central Kura valley) vs. periphery distinction matters"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Consolidation: Geographic range accurate; settlement intensity pattern understated. D2 qualification needed regarding density variation."}
+      ],
+      "d2_qualification": "CONDITIONAL - Production language: 'Shulaveri-Shomu culture was densely settled in the central Kura valley (South Caucasus) during 6000-4000 BCE, with extensive but lighter occupation at the margins (Armenia, northern Iran)'"
+    },
+    {
+      "claim_id": "C-KÜR-002",
+      "text": "Mentesh Tepe Neolithic population resulted from admixture between Anatolian farmer-related and Caucasus/Iranian populations",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED", "reason": "Peer-reviewed Nature Communications publication; genome-wide analysis transparent methodology; no counter-evidence identified"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Genome-wide analysis is high-quality evidence; replication at other sites would strengthen but not necessary for current confidence level"}
+      ],
+      "d2_qualification": "READY - high-quality genetic evidence; no revision needed"
+    },
+    {
+      "claim_id": "C-KÜR-003",
+      "text": "Shulaveri-Shomu culture produced earliest evidence of domesticated grapes and winemaking (~6000 BCE) at Gadachrili Gora",
+      "type": "fact",
+      "importance": "supporting",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED", "reason": "Chemical evidence robust; dating secure; 'earliest known' caveat noted (pending future discoveries)"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Chemical analysis (delta13C, deltaD values) is definitive for wine residue; dating well-established"}
+      ],
+      "d2_qualification": "READY - 'earliest known evidence' properly qualified; no revision needed"
+    },
+    {
+      "claim_id": "C-KÜR-004",
+      "text": "In 5th millennium BCE, gene flow from Mentesh Tepe-related groups mixed with Pontic Steppe populations contributing to Late Bronze Age Caucasian makeup",
+      "type": "inference",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag: Gene flow documented but 'diaspora' model assumes large-scale coordinated movement; alternative 'frontier expansion' equally fits genetic data. Mechanism ambiguous."},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Gene flow is secure; interpretation as 'diaspora' requires caution. D2 qualification: use 'expansion' or 'gene flow' rather than 'diaspora'"}
+      ],
+      "d2_qualification": "CONDITIONAL - Production language: 'Genetic evidence shows gene flow from Caucasus populations into the Pontic Steppe during the 5th millennium BCE (mechanism — invasion, gradual migration, or elite contact — remains debated)'"
+    },
+    {
+      "claim_id": "C-KÜR-005",
+      "text": "Shulaveri-Shomu ceramics feature incised and relief decoration influenced by Near Eastern traditions (Hassuna, Halaf), with anthropomorphic female figurines indicating ritual significance",
+      "type": "fact",
+      "importance": "supporting",
+      "confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "PROBABLE"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Red-team flag SPECULATION_FLAGGED: Design influence is clear; symbolic interpretation ('ritual significance') is inference from context, not demonstrated by source material. Figurine meaning unknown."},
+        {"phase": "D", "value": "PLAUSIBLE", "reason": "Ceramic typology established; symbolic interpretation speculative. D2 qualification: separate design influence (established) from symbolic meaning (speculative)."}
+      ],
+      "d2_qualification": "CONDITIONAL - Split claim: 'Shulaveri-Shomu ceramics feature incised/relief decoration influenced by Near Eastern traditions (Hassuna, Halaf style). Anthropomorphic figurines present but symbolic meaning — fertility goddess, household spirits, or other — remains unknown.'"
+    }
+  ],
+  "historiography_issues": {
+    "bias_risk": "Skewed perspective — Russian/Soviet and European archaeology dominant; Georgian/Armenian/Azerbaijani national historiographies less represented; Turkish revisionist claims emerging",
+    "coverage_log": "Russian monographs accessible via translation; Georgian archaeology regional publication; Azerbaijani sources limited in English; Turkish genetic/historical claims documented but critically examined"
+  },
+  "unknowns": [
+    {
+      "unknown_id": "U-KÜR-001",
+      "question": "What was the specific symbolic/ritual meaning of Shulaveri-Shomu anthropomorphic figurines?",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Fertility goddess cult",
+        "Apotropaic spirit figures",
+        "Toys or decorative objects",
+        "Shamanistic ritual objects"
+      ],
+      "priority": "low"
+    }
+  ]
+}

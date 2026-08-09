@@ -1,0 +1,78 @@
+{
+  "phase": "D5",
+  "section": "BOZ-02A",
+  "items": "101-110",
+  "readiness_assessment": {
+    "status_candidate": "CONDITIONAL",
+    "reasoning": "BOZ-02A (paleoclimate & pastoral adaptation) contains solid paleoclimate data (lake cores) but exhibits problematic climate determinism throughout. Faz C correctly red-flagged: Correlation ≠ causation risk is significant, especially claims C-B2-007 (seasonal hierarchy hypothesis) and C-B2-008 (climate-conflict causation). Modern archaeological consensus (2010s+) rejects environmental determinism in favor of multi-causal models. Section requires extensive language revision to reflect current historiographic consensus, NOT reduction in evidence. Material is salvageable but requires careful production framing.",
+    "qualifications": [
+      "C-B2-002: 'Critical for promoting expansion' overstates determinism — climate was enabling condition, not determinant",
+      "C-B2-004: Single-region (Xinjiang) generalization — note geographic limitation",
+      "C-B2-005: Speculative trade-route causal link — separate hypothesis from documented hydroclimatic change",
+      "C-B2-007: Seasonal hierarchy is theoretical model, not documented mechanism — alternative explanations (warfare, prestige goods) equally plausible",
+      "C-B2-008 (CRITICAL): Climate-conflict causation is major historiographic error per modern archaeology — must explicitly present as 'contemporaneous correlation, causation debated' not 'climate deterioration caused conflict'"
+    ]
+  },
+  "audit_findings": [
+    {
+      "item": "Core claims have sources",
+      "status": "pass",
+      "severity": "CRITICAL",
+      "note": "8/8 claims linked to paleoclimate publications + archaeological reports"
+    },
+    {
+      "item": "Primary evidence used",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Lake cores (primary paleoclimate), genetic evidence (primary), settlement archaeology (primary) — good mix"
+    },
+    {
+      "item": "Counter-evidence searched",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Faz C identified multiple alternative explanations (region limitation, causation skepticism, hypothesis-fact confusion)"
+    },
+    {
+      "item": "Environmental determinism risk",
+      "status": "fail",
+      "severity": "CRITICAL",
+      "note": "C-B2-007, C-B2-008 present causal claims with correlation only — modern archaeology consensus rejects determinism; narration MUST reflect this paradigm shift"
+    },
+    {
+      "item": "Hypothesis-fact distinction",
+      "status": "conditional",
+      "severity": "HIGH",
+      "note": "C-B2-007 (seasonal hierarchy) marked as 'inference' but narrated as mechanistic certainty — requires revision to hypothesis framing"
+    },
+    {
+      "item": "Geographic scope clarity",
+      "status": "conditional",
+      "severity": "MEDIUM",
+      "note": "C-B2-004 (Xinjiang) single-site study; generalization overstated — requires regional limitation note"
+    }
+  ],
+  "strongest_challenges": [
+    "C-B2-008: Climate-conflict causation is major historiographic red flag — cannot be narrated as established fact in 2026 archaeological context",
+    "C-B2-007: Seasonal hierarchy is hypothesis, not proven mechanism — must frame as theoretical model with alternatives"
+  ],
+  "most_robust_claims": [
+    "C-B2-001, C-B2-006: Paleoclimate data from multiple lake cores — uncontested",
+    "C-B2-003: Pastoral intensification timing documented genetically + archaeologically"
+  ],
+  "historiographic_issue": {
+    "paradigm_shift": "Environmental determinism (1990s-2000s) → Multi-causal models (2010s+ consensus)",
+    "impact_on_section": "BOZ-02A carries 1990s scholarship assumptions; modern archaeology requires explicit rejection of simple climate-causation narratives"
+  },
+  "blockers": [],
+  "readiness_state": "CONDITIONAL",
+  "production_requirements": [
+    "Explicitly reject climate determinism framing — climate as enabling condition, not determinant",
+    "Frame C-B2-007 as hypothesis with alternative explanations acknowledged",
+    "Frame C-B2-008 as 'correlation documented; causation debated' not 'climate caused conflict'",
+    "Note geographic limitation of C-B2-004 (Xinjiang only; broader pattern uncertain)",
+    "Separate C-B2-005 hydroclimatic data (established) from trade-route causation (speculative)"
+  ],
+  "revision_severity": "HIGH — Not evidence quality, but historiographic framing requires major update for 2026 scholarly context",
+  "ready_for_faz_e": true,
+  "caveat": "Faz E narration must reflect modern archaeological consensus (multi-causal models) NOT 1990s-2000s environmental determinism embedded in original sources"
+}

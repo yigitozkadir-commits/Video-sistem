@@ -1,0 +1,122 @@
+{
+  "phase": "D",
+  "section": "BOZ-02A",
+  "items": "101-110",
+  "faz_d_summary": {
+    "core_claims": 8,
+    "confidence_breakdown": {
+      "ESTABLISHED": 2,
+      "STRONGLY_SUPPORTED": 2,
+      "PLAUSIBLE": 2,
+      "WEAK": 1,
+      "CONTESTED": 1
+    },
+    "key_findings": [
+      "Paleoclimate data solid: 5 major wet + 5 dry events documented in Holocene (lake cores)",
+      "Altai Climatic Optimum (6.5-3.6 kyr BP) correlates with population expansion (permissive condition confirmed)",
+      "Intensified pastoralism ~5000 years ago documented genetically and archaeologically",
+      "Seasonal movement patterns in Xinjiang documented but limited to single region (generalizability uncertain)",
+      "MAJOR ISSUE: Climate determinism risk — correlation between climate and conflict/migration misinterpreted as causation throughout section"
+    ]
+  },
+  "main_historiographic_debate": {
+    "issue": "Environmental determinism vs. multi-causal models",
+    "status": "PARADIGM_SHIFT",
+    "detail": "1990s-2000s scholarship assumed climate variations DIRECTLY drive pastoral social organization; modern consensus (2010s+) treats climate as enabling condition, not determinant"
+  },
+  "claims_consolidated": [
+    {
+      "claim_id": "C-B2-001",
+      "text": "Holocene Central Asia experienced five major wet events (~6.5, 4.7, 3.3, 1.8, 0.4 cal ka BP) and five dry events (~7.6, 5.3, 3.9, 2.6, 1.1 cal ka BP)",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "d2_qualification": "READY - paleoclimate data robust; dating margins noted (±200 years acceptable for paleoclimate)"
+    },
+    {
+      "claim_id": "C-B2-002",
+      "text": "The Altai Holocene Climatic Optimum (6.5–3.6 kyr BP) featuring warm and wet conditions was critical for promoting prehistoric population expansion in Central Asia",
+      "type": "inference",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag NEDENSELLIK: Correlation (climate + population) but not causation; mechanism unclear; alternative explanations (horse domestication, tech innovation) possible"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Climate was enabling condition (permissive), not determinant. Revision: 'Climatic optimum provided conditions for, but did not determine, population expansion'"}
+      ],
+      "d2_qualification": "CONDITIONAL - Revise language: 'Warm and wet conditions (6.5-3.6 kyr BP) were permissive for population expansion and pastoral intensification, though climate alone did not determine these developments'"
+    },
+    {
+      "claim_id": "C-B2-003",
+      "text": "Intensified nomadic pastoralism in Altai-Sayan region originated during early Bronze Age (~5000 years ago) as documented by genetic and archaeological evidence",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "d2_qualification": "READY - genetic signature + archaeological settlement patterns confirm timing"
+    },
+    {
+      "claim_id": "C-B2-004",
+      "text": "Seasonal movements of Bronze Age transhumant pastoralists in Xinjiang show systematic correlation between climate variation and settlement mobility",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "PROBABLE"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Red-team flag GEOGRAPHIC_LIMITATION: Single-region study (Xinjiang only); pattern may not generalize to Altai or Tianshan; requires multi-site verification"},
+        {"phase": "D", "value": "PLAUSIBLE", "reason": "Directionally sound but single-site limitation significant. D2 revision: 'In Xinjiang, seasonal movements show correlation with climate (limited evidence from one region)'"
+      ],
+      "d2_qualification": "CONDITIONAL - Clarify geographic scope: 'Evidence from Xinjiang documents seasonal movement correlation with climate; broader regional patterns require additional research'"
+    },
+    {
+      "claim_id": "C-B2-005",
+      "text": "Hydroclimatic changes in central Tianshan Mountains over 8000 years influenced trans-Eurasian cultural exchange routes and pastoral adaptation",
+      "type": "inference",
+      "importance": "supporting",
+      "confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "PLAUSIBLE"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Red-team flag NEDENSELLIK_ZAYIF: Hydroclimatic change documented; causal link to trade routes speculative; multiple confounding variables (politics, demand, technology)"},
+        {"phase": "D", "value": "PLAUSIBLE", "reason": "Speculative connection. Revision: 'Hydroclimatic changes may have influenced route viability, but political/economic factors likely dominated trade shifts'"}
+      ],
+      "d2_qualification": "CONDITIONAL - Separate hypothesis from fact: 'Hydroclimatic changes documented; whether these influenced trade routes or were overshadowed by political/economic factors remains debated'"
+    },
+    {
+      "claim_id": "C-B2-006",
+      "text": "Lake Chatyr Kol paleoclimate record demonstrates continuous human occupation spanning ~11,700 years with mid-Holocene increase in human presence",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "d2_qualification": "READY - stratigraphic evidence uncontested; occupational intensity interpretation has preservation bias caveat"
+    },
+    {
+      "claim_id": "C-B2-007",
+      "text": "Seasonal variation in pasture availability structured social hierarchies through differential access to winter/summer grazing territories",
+      "type": "inference",
+      "importance": "supporting",
+      "confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "PLAUSIBLE"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Red-team flag TEORIK_MODEL: Hierarchy from seasonal access is hypothesis, not documented mechanism. Alternative mechanisms: warfare, prestige goods, ceremonial specialization"},
+        {"phase": "D", "value": "PLAUSIBLE", "reason": "Testable hypothesis but currently speculation. Revision: 'Theoretical model (seasonal resource access → hierarchy); alternative mechanisms (warfare, prestige goods) also plausible'"}
+      ],
+      "d2_qualification": "CONDITIONAL - Mark as hypothesis: 'Seasonal variation in pasture access may have structured social hierarchies (theoretical model); direct archaeological evidence lacking'"
+    },
+    {
+      "claim_id": "C-B2-008",
+      "text": "Climate deterioration events (~3.9-3.8 kyr BP) correlate with archaeological evidence of pastoral migration pressure and conflict in Eurasian steppe",
+      "type": "inference",
+      "importance": "supporting",
+      "confidence": "WEAK",
+      "confidence_history": [
+        {"phase": "B", "value": "CONTESTED"},
+        {"phase": "C", "value": "WEAK", "reason": "Red-team flag CLIMATE_DETERMINISM: Major historiographic risk. Correlation ≠ causation. Conflict occurs non-climatically; societies respond variably to same climate stress"},
+        {"phase": "D", "value": "WEAK", "reason": "Problematic determinism. Revision required: 'Climate deterioration correlates temporally with conflict archaeology; whether climate CAUSED conflict or was coincidental remains unresolved'"}
+      ],
+      "d2_qualification": "CONDITIONAL (or BLOCKED for strong narration) - This claim carries significant climate determinism risk. Revision: 'Paleoclimate deterioration (~3.9 kyr BP) and archaeological conflict signatures are contemporaneous, but direct causal link is debated — societies respond variably to climate stress, and non-climatic causes (prestige competition, resource guarding) also explain conflict'"
+    }
+  ],
+  "historiography_key_issue": {
+    "paradigm_shift": "Environmental determinism (outdated) → Multi-causal models (current consensus)",
+    "impact": "BOZ-02A section carries residual 1990s-2000s determinism language; modern archaeology requires explicit rejection of simple climate-causation claims"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "phase": "D5",
+  "section": "KÜR-ARAZ",
+  "items": "81-100",
+  "readiness_assessment": {
+    "status_candidate": "CONDITIONAL",
+    "reasoning": "KÜR-ARAZ section has strong core evidence (Mentesh Tepe genetics, wine chemistry, ceramic typology) but contains one speculative claim requiring careful handling. Faz C correctly flagged: (1) ceramic figurine symbolism is inferred, not demonstrated; (2) diaspora language overstates mechanism clarity; (3) settlement 'occupation' needs density qualification. These are manageable with D2 language revision, not blockers.",
+    "qualifications": [
+      "C-KÜR-001: Specify settlement density variation — 'densely settled in core region; lighter occupation at periphery'",
+      "C-KÜR-004: Avoid 'diaspora' language — replace with 'gene flow' or 'expansion' with notation that mechanism (invasion, gradual migration, elite contact) remains debated",
+      "C-KÜR-005: Separate established (ceramic design influence) from speculative (figurine symbolism) — figurine meaning is unknown and should not be presented as 'ritual significance' without qualification"
+    ]
+  },
+  "audit_findings": [
+    {
+      "item": "Core claims have sources",
+      "status": "pass",
+      "severity": "CRITICAL",
+      "note": "5/5 claims linked to sources (Nature Communications, archaeological surveys)"
+    },
+    {
+      "item": "Primary evidence used",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Genetic (Mentesh Tepe DNA), chemical (wine residue), archaeological (ceramic surveys) — mix of primary sources"
+    },
+    {
+      "item": "Counter-evidence searched",
+      "status": "pass",
+      "severity": "HIGH",
+      "note": "Faz C found alternative explanations (figurine symbolism ambiguous, diaspora model contested, settlement density variation)"
+    },
+    {
+      "item": "Speculation marked vs. fact",
+      "status": "conditional",
+      "severity": "HIGH",
+      "note": "C-KÜR-005 mixes established (ceramic design) with speculative (figurine meaning) — D2 revision required to separate clearly"
+    },
+    {
+      "item": "Historiographical bias awareness",
+      "status": "pass",
+      "severity": "MEDIUM",
+      "note": "Faz C documented skewed perspective (Russian/Soviet dominant, Turkish nationalist claims emerging) — narration should note that Caucasus archaeology has regional historiographic tensions"
+    }
+  ],
+  "blockers": [],
+  "readiness_state": "CONDITIONAL",
+  "production_requirements": [
+    "Separate ceramic design influence (ESTABLISHED) from figurine symbolism (UNKNOWN)",
+    "Avoid 'diaspora' language — use 'gene flow' with mechanism caveat",
+    "Specify settlement density variation (core vs. periphery)",
+    "Note historiographic awareness: Caucasus scholarship shaped by Russian/Soviet tradition; emerging Turkish perspectives introduce contested interpretations"
+  ],
+  "ready_for_faz_e": true
+}

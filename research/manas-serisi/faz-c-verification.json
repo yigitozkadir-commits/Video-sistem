@@ -1,0 +1,373 @@
+{
+  "phase": "C",
+  "title": "Manas Evreni (Items 801-850) - Faz C: Doğrulama & Adversarial Mode",
+  "candidate_id": "CAND-01",
+  "research_date": "2026-08-09",
+  "verification_approach": "Adversarial verification, historiography, unknowns tagging, claim-evidence graph, source quality ranking",
+
+  "historiography": {
+    "summary": "Manas destanının statüsü, 20. yüzyıl boyunca üç fasa ayrılır: (1) Soviet Suppression (1922-1991) — sözlü gelenek baskılanmış, yazılı arşiv oluşturulmuş; (2) Post-Soviet Revival (1991-1995) — Kyrgyz bağımsızlığı sonrası, Manas ulusal ideoloji olarak yeniden kurgulanmış; (3) Contemporary Instrumentalization (1995-2026) — Manas, devlet politikasında aktif araç haline gelmiş.",
+
+    "phase_1_soviet_suppression": {
+      "period": "1922-1991",
+      "timeline": [
+        {
+          "year": "1922-1926",
+          "event": "Sagymbay Orozbakov el yazması transkripsiyon",
+          "context": "Sovyet döneminin erken safhasında, 'kültürel mirasları belge etme' kampanyası kapsamında yapılmış; ama aynı dönemde (1930s) baskı başlayacak",
+          "implication": "Sagymbay MS, her ikisinin de merceğinden geçmiş: 'kültürü kurtar' motivasyonu + 'ideoloji kontrol et' baskısı"
+        },
+        {
+          "year": "1930s-1940s",
+          "event": "Political repression of Manas promoters",
+          "context": "Promoters branded as 'bourgeois-nationalists' and faced waves of repression; Manas banned in schools except for Soviet-ideology-compliant parts",
+          "source": "Research on Folklore Archives and Heritage Claims (JESH 2021)",
+          "implication": "Sözlü gelenek, devlet kontrolüne direnç olarak görülmüş; Sagymbay MS'nin seçilmesi ve koruma altına alınması, Sovyet-aligned scholars tarafından yapılmış olabilir"
+        },
+        {
+          "year": "1936-1952",
+          "event": "Sayakbay Karalaev manasch performance collection",
+          "context": "Sayakbay Karalaev (1894-1971), o dönemin ünlü manasch'ı. Versiyonu da 500,000+ lines. 1949'da Moscow'da Kyrgyz Culture Decade'de performans yaptı.",
+          "implication": "Sagymbay MS (1922-1926) ve Sayakbay MS (1936-1952) arasındaki fark: seçim meselesi. Neden Sagymbay 'klasik' olarak tanımlandı?"
+        },
+        {
+          "year": "1950s-1991",
+          "event": "Limited cultural revival within Soviet constraints",
+          "context": "Manas officially recognized as 'folk heritage', but performances limited; manaschy'lar sınırlı mekanlarla (radio, kolkhoz) çalıştı",
+          "implication": "Sözlü gelenek, 'müze eserleştirilmiş' — yaşayan gelenek değil, belgelenmiş artefakt"
+        }
+      ],
+      "assessment": "Sovyet döneminde Manas: (1) bastırılmış, (2) arşivlenmiş, (3) ideoloji kontrol edilmiş. Sagymbay MS'nin seçilmesi, ideolojik tercih veya 'tesadüfi' erken kayıt sonucu olabilir."
+    },
+
+    "phase_2_post_soviet_revival": {
+      "period": "1991-1995",
+      "timeline": [
+        {
+          "year": "1991",
+          "event": "Kyrgyzstan independence (August 31)",
+          "context": "Soviet collapse; Kyrgyzstan'ın ulusal kimliğe ihtiyacı vardır",
+          "implication": "Manas, 'pre-Soviet indigenous heritage' olarak popülerleştirilmeye başlanmış"
+        },
+        {
+          "year": "1995",
+          "event": "UN formally recognized Manas millennium commemoration",
+          "context": "1995 = Manas'ın düşünülen '1000. yılı' (10. yüzyıl başlangıcından hesapla). UN General Assembly tarafından resmen tanımlandı.",
+          "implication": "Tarih belirlenmesinde arbitrer: '~1000 yıl sözlü' iddiası, 1995'te UN ile sabitleştirilmiş. Araştırma değil, siyasi karar."
+        },
+        {
+          "year": "1995-2005",
+          "event": "President Askar Akayev instrumentalizes Manas for nation-building",
+          "context": "Akayev, 'seven principles inspired by Manas' önerildi; ulusal ideoloji olarak kullanıldı; aynı zamanda 'multi-ethnic harmony' mesajı verildi",
+          "implication": "Manas, **kurgulanmış** bir 'ulusal ideoloji' — otantik değil, çağdaş siyasi ihtiyaca uyarlanmış"
+        }
+      ],
+      "assessment": "Post-Soviet Manas revival: (1) stratejik kültürel kurgulanış, (2) UNESCO/UN kaydı yasal statü verilmesi, (3) eğitim/devlet araçları olarak enstrümantalize."
+    },
+
+    "phase_3_contemporary_instrumentalization": {
+      "period": "1995-2026",
+      "timeline": [
+        {
+          "year": "2009",
+          "event": "UNESCO Intangible Cultural Heritage inscription (Manas solo)",
+          "context": "ICH statüsü; 'Masterpiece of Oral and Intangible Heritage'",
+          "implication": "Uluslararası legitimization; Kyrgyzstan'ın 'kültürel ihracatı' için diplomatik araç"
+        },
+        {
+          "year": "2013",
+          "event": "UNESCO ICH expansion (Manas + Semetey + Seytek trilogy)",
+          "context": "Üç 'nesilsel' halkayı triloji olarak tanımlandı",
+          "implication": "Tarihsel yapı-yanılsaması: triloji Manas geleneğinin gerçek yapısı mı yoksa 20c. kaynaklar tarafından sınıflandırılmış kategorisizasyon mu?"
+        },
+        {
+          "year": "2021-2023",
+          "event": "UNESCO Memory of the World inscription (Sagymbay MS)",
+          "context": "Sagymbay el yazması, 2021'de nomine edildi, 2023'de onaylandı",
+          "implication": "Sagymbay MS, en üst düzeyde 'dokumenter miras' statüsü; bu, Sayakbay MS'nin **geri plana itilmesi** anlamı taşıyor"
+        },
+        {
+          "year": "2025",
+          "event": "President Japarov renames Jalal-Abad to Manas",
+          "context": "Şehir ismi değiştirmesi, Manas'ın sembolik gücünü gösterir",
+          "implication": "Manas, 'polisiye iktidara yükseltilmiş' — ordinatör politika kararını 'tarihsel imperatif' olarak sunar"
+        }
+      ],
+      "assessment": "Manas, 2009-2026'de uluslararası ve iç-devlet araçı olarak konumlandırılmıştır. Tarihsel otantiklik ≠ kontempor siyasi kullanım."
+    }
+  },
+
+  "adversarial_verification_detailed": [
+    {
+      "claim_id": "CLM-001",
+      "claim_text": "Manas destanı 1000+ yıldır sözlü hafızada korunmuş",
+      "adversarial_position": "1000 yıl iddiası, araştırma temelli değil, siyasi karar.",
+      "counter_evidence": [
+        {
+          "counter_id": "ADV-001-1",
+          "objection": "En eski yazılı kayıt 1922 (Sagymbay). 1922 öncesinde Manas'ın gerçek yaşı bilinmez.",
+          "supporting_facts": "Oral traditions, başlangıç tarihleri sıklıkla efsanelere dayanır. Kyrgyz efsanelerde 'Toktogul ~500 yıl önce Manas'ı yarattı' söyleniyor ama bu **legendaryum**, filoloji değil.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-001-2",
+          "objection": "1995 UN proclamation, tarih keyfi. Neden 1000 yıl? Neden 10. yüzyıl? Hiçbir akademik tarih çalışması bu başlangıcı doğrulamaz.",
+          "supporting_facts": "1995 UN resolution, Kyrgyzstan'ın bağımsızlık sonrası 'kimlik kurucu' arayışının bir parçası. Siyasi karar, akademik sonuç değil.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-001-3",
+          "objection": "Sözlü gelenekte 'sabitlik' yok. Her manasch versiyonu, her performans, biraz farklı. Hangi '1000 yıl' korundu — tam metin mi, tema mi, moral mi?",
+          "supporting_facts": "Parry-Lord teori: formulas korodu, ama text varyasyon içerir. 'Korunmuş' ifadesi belirsiz.",
+          "reliability": "high"
+        }
+      ],
+      "verdict": "CLM-001 **partially disputed**: '1000 yıl sözlü' iddiası, siyasi kurucu-tarih olarak doğrulanabilir (UN 1995), ama filolojik başlangıç tarihi belirsiz ve arkeolojik kanıt yok. OPEN QUESTION: Manas geleneğinin gerçek kronolojisi nedir?"
+    },
+
+    {
+      "claim_id": "CLM-002",
+      "claim_text": "Manas destanı belirli metrik düzen takip ediyor (7-8 syllabic pattern)",
+      "adversarial_position": "Metrik 'belirlilik' iddiası, transkripsiyon pratiği tarafından yapay kılınmış olabilir.",
+      "counter_evidence": [
+        {
+          "counter_id": "ADV-002-1",
+          "objection": "Transkripsiyon effekti: 1920s'de Sagymbay sesli satırları yazıya çekmek, sesleri kesin hece sayısına force-fit etmiş olabilir. Orijinal performans, daha akıcı ve esnekti.",
+          "supporting_facts": "Oral-to-written conversion, syllable boundaries'ı değiştiriyor. Modern linguistik transcription protocols, bu sorunu bilir.",
+          "reliability": "medium-high"
+        },
+        {
+          "counter_id": "ADV-002-2",
+          "objection": "Diğer manasch'lar (örn. Sayakbay): kendi versiyonlarının syllable sayımı ne? 7-8 tutarlılığı, Sagymbay MS'nde mi yoksa bütün manasch performanslarında mı?",
+          "supporting_facts": "Comparative syllable-count analysis yok. Iddia, sadece Sagymbay MS'ye dayanıyor.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-002-3",
+          "objection": "Alliteration ve rhyme, yazılı metin analizleri tarafından 'okunmuş' olabilir. Sesli performansta, bu patterns daha az belirgindir.",
+          "supporting_facts": "Oral vs. literate reading farklıdır. 20c. akademisyenler, yazılı metini analiz etti, orijinal sesi değil.",
+          "reliability": "medium"
+        }
+      ],
+      "verdict": "CLM-002 **conditionally supported**: 7-8 syllable pattern, Sagymbay MS'nde belgelenmiştir. Ama 'belirli' sıfatı, transkripsiyon artifakı ve Sagymbay-centric bias taşıyabilir. OPEN QUESTION: Diğer manasch performanslarının metrik consistency nedir?"
+    },
+
+    {
+      "claim_id": "CLM-003",
+      "claim_text": "Sagymbay MS (1922-1926), epik'in bilinen versiyonlarını temsil ediyor ('klasik')",
+      "adversarial_position": "Sagymbay MS seçimi, **sanat kalitesi değil, tarihsel şans**—Sovyet arşiv sisteminin tercihiydi.",
+      "counter_evidence": [
+        {
+          "counter_id": "ADV-003-1",
+          "objection": "Sayakbay Karalaev (1894-1971): o da meşhur manasch, versiyonu 500,000+ lines, 1936-1952 toplanmış, 1949'da Moscow'da başarılı performans. Neden Sayakbay MS 'klasik' değil?",
+          "supporting_facts": "Sayakbay, Sagymbay'dan sonra yaşadı ve tercih görmeye devam etti. Seçim mekanizması belirsiz.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-003-2",
+          "objection": "1920s Sovyet kararı: Sagymbay MS'nin seçilmesi, ideolojik kontrol ile ilgili olabilir. Erken dönem (1920s), Sovyet döneminin 'en toleranı' dönemi — daha sonra repression başladı (1930s).",
+          "supporting_facts": "Sovyet-era archive creation, often motivated by state interests, not scholarly merit.",
+          "reliability": "medium-high"
+        },
+        {
+          "counter_id": "ADV-003-3",
+          "objection": "UNESCO 2023 seçimi: neden Sagymbay? Sayakbay ya da diğer manasch'lar neden beraber ele alınmadı?",
+          "supporting_facts": "UNESCO nomination biyasını gözlemlemek zor. Kyrgyzstan'ın tercih ettiği aday, Sagymbay oldu (tarafı olmuş kaynaklar).",
+          "reliability": "medium"
+        }
+      ],
+      "verdict": "CLM-003 **disputed**: Sagymbay MS, ünlü ve kayıtlanmış, ama 'klasik' iddiası karşılaştırmalı analiz olmadan geçerli değil. Sayakbay MS'nin paralel statüsü gözardı edilmiş olabilir. OPEN QUESTION: Neden Sagymbay vs. Sayakbay? Arşiv erişimi ve karşılaştırma gerekli."
+    },
+
+    {
+      "claim_id": "CLM-004",
+      "claim_text": "Manas, Kırgız kültürel kimliğinin merkezi",
+      "adversarial_position": "Manas'ın 'merkezi' statüsü, öncesinde bastırılmış, sonrasında siyasi kurgulanmış — otantik değil, kurgulanmış.",
+      "counter_evidence": [
+        {
+          "counter_id": "ADV-004-1",
+          "objection": "Sovyet döneminde (1922-1991), Manas bastırılmış — okullardan çıkarıldı, siyasi ifade olarak sınırlandırıldı. Nasıl '**merkezi**' kimlik oluşturabilir?",
+          "supporting_facts": "1930s-1980s, Manas prohibited in schools; Kyrgyz identity, Soviet categories (kolkhoz, Communist) tarafından tanımlandı.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-004-2",
+          "objection": "1991 sonrası yeniden kurulanış: 1995 UN declaration + Akayev's 'seven principles' — **siyasi kararlar**, otantik geleneğin derinlemesine yeninden ortaya çıkması değil.",
+          "supporting_facts": "Top-down nation-building strategy. Manas, öcü değil, enstrüman olarak tasarlandı.",
+          "reliability": "high"
+        },
+        {
+          "counter_id": "ADV-004-3",
+          "objection": "Kontempor Kyrgyzstan: Manas'ın gerçek sosyal merkezi kimdir? Şehir gençleri, internet-bilgili bireyler ne kadar Manas'ı 'merkezi' görür?",
+          "supporting_facts": "Empirik kültürel sociology yok. UNESCO kayıtları ≠ yaşayan cemaatin tercihler.",
+          "reliability": "medium"
+        },
+        {
+          "counter_id": "ADV-004-4",
+          "objection": "2025 Jalal-Abad → Manas yeniden adlandırması: Japarov'un 'iktidarı tarihselleştirmesi' stratejisi. Manas, siyasi araç olarak yükseltilmiş.",
+          "supporting_facts": "Contemporary political appropriation; Manas's 'sacred' status, used to elevate power above criticism.",
+          "reliability": "high"
+        }
+      ],
+      "verdict": "CLM-004 **severely disputed**: Manas, resmi statüde 'merkezi' (UNESCO ICH), ama tarihi ve kontempor rolü karmaşık ve sorunlu. Bastırılmış → yeniden kurgulanmış → enstrümantalize edilmiş eğri gösterir. **Not a authentic 'central identity', but a contested political symbol.** OPEN QUESTION: Grassroots Kyrgyz identity, Manas'a gerçekten ne kadar bağlı?"
+    }
+  ],
+
+  "claim_evidence_matrix": {
+    "description": "Bipartite mapping: Her claim, hangi evidence'lar tarafından destekleniyor, hangileri çelişkili?",
+    "matrix": [
+      {
+        "claim": "CLM-001: 1000+ yıl sözlü",
+        "support": ["EVD-001-A (UNESCO)", "EVD-001-B (Faz A)", "EVD-001-C (secondary sources)"],
+        "challenge": ["CTR-001-A (no pre-1922 written)", "CTR-001-B (Parry-Lord uncertainty)", "ADV-001-1 (siyasi karar)"],
+        "strength": "weak-medium (anecdotal + political declaration)"
+      },
+      {
+        "claim": "CLM-002: 7-8 syllable pattern",
+        "support": ["EVD-002-A (Wikipedia+secondary)", "EVD-002-B (Reichl)", "EVD-002-C (performance practice)"],
+        "challenge": ["CTR-002-A (formular flexibility)", "CTR-002-B (transcription bias)", "ADV-002-1 (transkripsiyon effekti)"],
+        "strength": "medium (documented in Sagymbay MS, but artifact of transcription?)"
+      },
+      {
+        "claim": "CLM-003: Sagymbay = canonical",
+        "support": ["EVD-003-A (UNESCO designation)", "EVD-003-B (project baseline)", "EVD-003-C (Reichl cites)"],
+        "challenge": ["CTR-003-A (oral variability)", "CTR-003-B (Soviet selection bias)", "CTR-003-C (no comparative MS)", "ADV-003-1 (Sayakbay parallel)"],
+        "strength": "weak-medium (institutional recognition ≠ scholarly merit)"
+      },
+      {
+        "claim": "CLM-004: Manas central to identity",
+        "support": ["EVD-004-A (UNESCO ICH)", "EVD-004-B (project framework)", "EVD-004-C (media discourse)"],
+        "challenge": ["CTR-004-A (Soviet suppression)", "CTR-004-B (demographic limits)", "CTR-004-C (contemporary decline)", "ADV-004-1 (bastırılmış)", "ADV-004-4 (political instrumentalization)"],
+        "strength": "weak (formal statüs yüksek, ama lived reality sorgulanır)"
+      }
+    ]
+  },
+
+  "source_quality_ranking": {
+    "primary": [
+      {
+        "source": "Sagymbay Orozbakov el yazması (1922-1926)",
+        "rating": "high",
+        "caveat": "Tek manasch'ın tek performans aralığı; variability check yok"
+      }
+    ],
+    "secondary_academic": [
+      {
+        "source": "Reichl, K. (2016) - Journal of American Folklore",
+        "rating": "high",
+        "caveat": "Full text access eksik; oral formula analysis assumed but not verified in this review"
+      },
+      {
+        "source": "UNESCO Memory of the World (2023) ve ICH (2009/2013)",
+        "rating": "high_institutional_authority",
+        "caveat": "Bilimsel olmayan kurumsal karar; siyasi bağlamı vardır"
+      },
+      {
+        "source": "Research on Folklore Archives and Heritage Claims (JESH 2021)",
+        "rating": "high",
+        "caveat": "Full text access block; searchable abstract shows Soviet-era repression ama complete analysis missing"
+      }
+    ],
+    "secondary_popular": [
+      {
+        "source": "Wikipedia, Facts and Details, Nomads Land",
+        "rating": "medium",
+        "caveat": "Useful overview ama primary sources missing; secundary chains uzun"
+      },
+      {
+        "source": "Novastan.org - Manas and the Making of Kyrgyzstan",
+        "rating": "medium-high",
+        "caveat": "Historiography perspective iyi, ama contemporary sourcing gerekli"
+      }
+    ],
+    "tertiary_media": [
+      {
+        "source": "Eurasianet, Daily Sabah, news coverage",
+        "rating": "low",
+        "caveat": "Commemorative ama yeni bilgi yok"
+      }
+    ]
+  },
+
+  "unknowns_tagged": [
+    {
+      "unknown_id": "OPEN-001",
+      "category": "Chronological Origins",
+      "question": "Manas geleneğinin gerçek başlangıcı tarihi nedir? Kaynaklar '~1000 yıl' diyor ama arkeolojik/filolojik proof?",
+      "research_imperative": "critical",
+      "responsible_team": "Kyrgyz Academy of Sciences or international historians"
+    },
+    {
+      "unknown_id": "OPEN-002",
+      "category": "Metric Consistency",
+      "question": "7-8 syllable pattern, Sagymbay vs. Sayakbay vs. modern manasch'lar arasında ne kadar tutarlı?",
+      "research_imperative": "high",
+      "method": "Comparative syllable-count analysis across multiple recorded performances"
+    },
+    {
+      "unknown_id": "OPEN-003",
+      "category": "Manuscript Selection Bias",
+      "question": "Neden Sagymbay MS UNESCO Memory of the World seçildi? Sayakbay MS neden dışlanmış? Seçim kriter'i nedir?",
+      "research_imperative": "high",
+      "method": "UNESCO nomination archives, Kyrgyzstan cultural ministry interviews"
+    },
+    {
+      "unknown_id": "OPEN-004",
+      "category": "Soviet-Era Suppression",
+      "question": "1922-1991 arası, Manas sözlü geleneği ne kadar bastırıldı? Hangi yıllarda peak repression?",
+      "research_imperative": "high",
+      "method": "Soviet-era Kyrgyzstan censorship records, Communist Party archives"
+    },
+    {
+      "unknown_id": "OPEN-005",
+      "category": "Post-Soviet Recovery Strategy",
+      "question": "1991-1995 Akayev'ın 'yedi ilke' kararı: bilimsel mi yoksa siyasi kurgulanış mı?",
+      "research_imperative": "high",
+      "method": "Kyrgyzstan national archives, presidential papers, UNESCO nomination documents"
+    },
+    {
+      "unknown_id": "OPEN-006",
+      "category": "Sagymbay MS Accessibility",
+      "question": "10-cilt el yazması tam dijitalleştirilmiş mi? Açık erişim mevcut mu?",
+      "research_imperative": "medium",
+      "method": "UNESCO Memory of the World database query, Kyrgyzstan National Library"
+    },
+    {
+      "unknown_id": "OPEN-007",
+      "category": "Contemporary Identity Practice",
+      "question": "Kyrgyzstan'da farklı demografik (şehir/kırsal, yaşlı/genç, okumuş/okumsuz) Manas'a nasıl ilişkili? Cemaatin gerçek tercihler?",
+      "research_imperative": "medium",
+      "method": "Ethnographic survey, interview, observation (field work)"
+    },
+    {
+      "unknown_id": "OPEN-008",
+      "category": "Thematic Codification",
+      "question": "Manas'ın 'ansiklopedisi' iddiaı: destanın içinde hangi bilgiler kodlanmış? (coğrafya, tarih, etika, sosyal yapı?)",
+      "research_imperative": "medium",
+      "method": "Thematic analysis of Sagymbay manuscript or translated selections"
+    }
+  ],
+
+  "summary_of_findings": {
+    "overview": "Manas destanı, dönemsel olarak üç fasa ayrılır: bastırılmış → yeniden kurgulanmış → enstrümantalize. Iddialar kısmen desteklenmişti ama ciddi biyaslar ve araştırma boşlukları vardır.",
+
+    "claim_by_claim": {
+      "CLM-001_1000_years": "Kısmen desteklendi: UNESCO ve akademik kaynaklar 'uzun sözlü gelenek' diyor; ama kesin '~1000 yıl' başlangıç, siyasi UN kararı (1995) sonrası sabitleşti, filolojik proof yok.",
+      "CLM-002_metric_pattern": "Kısmen desteklendi: 7-8 syllable pattern, Sagymbay MS'nde belgelenmiştir; ama transkripsiyon bias'ı ve diğer manasch'larla karşılaştırma eksikliği vardır.",
+      "CLM-003_sagymbay_canonical": "Uyuşmazlık: Sagymbay resmi statüde yüksek (UNESCO MoW), ama 'klasiklik' iddiası, Sayakbay'ın paralel konumu tarafından çelişkilidir. Seçim mekanizması şeffaf değil.",
+      "CLM_004_central_identity": "Uyuşmazlık: Resmi statüde merkezi (UNESCO ICH), ama tarihi bastırılmış, sonrasında siyasi kurgulanmış. Kontempor yaşayan kimlik pratiği, bilinmemiştir."
+    },
+
+    "historiographical_insight": "Manas'ın statüsü, **tarihsel otantiklik** yerine **siyasi kurgulanış** tarafından belirlenmiştir. Sovyet bastırılması, bağımsızlık sonrası yeniden kurulanış, ve kontempor enstrümantalize bir çizgiyi takip eder.",
+
+    "research_bottlenecks": [
+      "Sagymbay MS tam metni erişilemez (dijitalleştirilme eksik?)",
+      "Sayakbay MS ile karşılaştırmalı analiz yok",
+      "Oral formulaic analysis detayları eksik (Reichl'in tam metni gerek)",
+      "Soviet-era suppression details (arşiv erişim gerekli)",
+      "Grassroots Kyrgyz identity surveys (etnografik çalışma gerek)"
+    ],
+
+    "recommendation_for_video_production": "CAND-01 hala **güçlü video konsepti**, ama 'kurucu tarihi' (founding history) değil, '**çatışmalı kurulanış**' (contested emergence) perspektifi kullanmalı. Manas'ın '1000 yıl' iddiası metin içinde caveat edilmeli; bunun yerine '**Sagymbay Orozbakov'un 1922-1926 kaydı**' ve '**post-Soviet yeniden kurulanış**' story'si daha güçlü. Sözlü hafıza mekanizmaları, hala fark yaratan tema."
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "research_session": "2026-08-09",
+  "phase": "B+C",
+  "candidate_id": "CAND-01",
+  "sources_verified": [
+    {
+      "source_id": "SRC-001",
+      "type": "institutional_primary",
+      "title": "Manuscript of the Kyrgyz epic Manas by the narrator Sagymbay Orozbakov",
+      "organization": "UNESCO",
+      "registry": "Memory of the World International Register",
+      "inscription_year": "2023",
+      "nomination_year": "2021",
+      "url": "https://www.unesco.org/en/memory-world/manuscript-kyrgyz-epic-manas-narrator-sagymbay-orozbakov",
+      "key_details": {
+        "narrator": "Sagymbay Orozbakov",
+        "transcription_period": "1922-1926",
+        "format": "10 handwritten volumes",
+        "description": "the best and identified as the classical; the fullest and artistically valuable rendition",
+        "cultural_significance": "represents national pride, identity and historical memory of the Kyrgyz people"
+      },
+      "verification_status": "verified_fetched",
+      "note": "Direct webpage fetch successful, confirmed UNESCO designation"
+    },
+
+    {
+      "source_id": "SRC-002",
+      "type": "academic_journal",
+      "title": "Oral Epics into the Twenty-First Century: The Case of the Kyrgyz Epic Manas",
+      "author": "Karl Reichl",
+      "publication_name": "Journal of American Folklore",
+      "volume": 129,
+      "issue": 513,
+      "pages": "327-344",
+      "publication_date": "July 2016",
+      "url": "https://scholarlypublishingcollective.org/uip/jaf/article-abstract/129/513/327/227202/Oral-Epics-into-the-Twenty-First-Century-The-Case?redirectedFrom=fulltext",
+      "author_credentials": "Emeritus Professor of English Philology, University of Bonn; specialist in oral epic poetry, European and Central Asian traditions",
+      "key_topics": ["oral formulaic tradition", "manasch improvisation", "transmission mechanisms", "written fixation crisis", "21st century vitality"],
+      "verification_status": "verified_search",
+      "note": "Article found via search; full text access limited but abstract confirms relevance to memory mechanisms and contemporary performance"
+    },
+
+    {
+      "source_id": "SRC-003",
+      "type": "institutional_policy",
+      "title": "Manas: UNESCO Intangible Cultural Heritage",
+      "organization": "UNESCO",
+      "registry": "Representative List of Intangible Cultural Heritage of Humanity",
+      "inscription_year_1": "2009 (initial)",
+      "inscription_year_2": "2013 (trilogy expansion)",
+      "url": "https://ich.unesco.org/en/RL/manas-00209",
+      "scope": ["Manas", "Semetey", "Seytek"],
+      "description": "The trilogy expresses the historical memory of the Kyrgyz people; survives thanks to community of epic tellers (women and men, all ages); longest recorded version 553,000 lines",
+      "verification_status": "verified_search",
+      "note": "Comprehensive UNESCO ICH entry; confirms trilogy structure and performance community"
+    },
+
+    {
+      "source_id": "SRC-004",
+      "type": "reference_work",
+      "title": "Longest poem ever published",
+      "source": "Guinness World Records",
+      "record_holder": "The Kirghiz folk epic Manas",
+      "length": "approximately 500,000 lines (three parts)",
+      "publication_date": "1958",
+      "basis_for_record": "Dictionary of Oriental Literatures",
+      "url": "https://www.guinnessworldrecords.com/world-records/67403-longest-poem-ever-published",
+      "note_on_translation": "has never been translated into English; short excerpts in The Elek Book of Oriental Verse",
+      "verification_status": "verified_fetched",
+      "note": "Direct fetch of Guinness record page confirmed; record holder listed as 'Unknown'"
+    },
+
+    {
+      "source_id": "SRC-005",
+      "type": "academic_reference",
+      "title": "Sayakbay Karalaev (1894-1971)",
+      "person_type": "manasch",
+      "wikipedia_entry": "https://en.wikipedia.org/wiki/Sayakbay_Karalaev",
+      "wikidata_entry": "https://www.wikidata.org/wiki/Q4213948",
+      "key_facts": {
+        "birth": "1894",
+        "death": "1971-05-07",
+        "role": "Soviet and Kyrgyz storyteller, reciter of epic Manas",
+        "version_length": "500,000+ lines",
+        "collection_period": "1936-1952",
+        "status": "first official manaschi of Frunze Philarmonia",
+        "salary": "monthly salary from Philarmonia",
+        "recognition": "called 'great rhapsode' and 'Homer of the XX century'",
+        "performance_1949": "Moscow Kyrgyz Culture Decade celebration"
+      },
+      "verification_status": "verified_search",
+      "note": "Multiple Wikipedia and Wikidata sources confirm; contemporary to and after Sagymbay; comparable version length and official recognition"
+    },
+
+    {
+      "source_id": "SRC-006",
+      "type": "academic_research",
+      "title": "On Folklore Archives and Heritage Claims: the Manas Epic in Kyrgyzstan",
+      "publication_name": "Journal of the Economic and Social History of the Orient",
+      "volume": 64,
+      "issue": 4,
+      "year": 2021,
+      "url": "https://brill.com/view/journals/jesh/64/4/article-p425_4.xml?language=en",
+      "researchgate_url": "https://www.researchgate.net/publication/352379759_On_Folklore_Archives_and_Heritage_Claims_the_Manas_Epic_in_Kyrgyzstan",
+      "key_findings_from_abstract": {
+        "soviet_era_suppression": "1930s waves of political repression targeted promoters, branded as 'bourgeois-nationalists'",
+        "school_banning": "Manas banned in schools except for Soviet-ideology-compliant parts",
+        "archive_creation": "Early 1920s campaigns collected local oral lore; turning epic into literary monument involved 'suffering and coercion'",
+        "soviet_suppression_detail": "epic regarded as expression of backwardness, tribalism and traditionalism"
+      },
+      "verification_status": "verified_search",
+      "note": "Full text blocked (paywall), but abstract and ResearchGate preview confirm Soviet suppression details"
+    },
+
+    {
+      "source_id": "SRC-007",
+      "type": "historical_analysis",
+      "title": "Manas and the Making of Kyrgyzstan: Manas: the Kyrgyz Epic Still Shaping National Identity",
+      "publication": "Novastan.org",
+      "article_url": "https://novastan.org/en/kyrgyzstan/manas-kyrgyz-epic-national-identity/",
+      "key_themes": {
+        "post_soviet_revival": "After 1991, Kyrgyzstan strategically leveraged Manas for nation-building",
+        "un_1995": "UN General Assembly formally recognized 1995 as millennium commemoration of epic",
+        "akayev_strategy": "President Askar Akayev distilled 'seven principles inspired by the epic as basis for national ideology'",
+        "multi_ethnic_balance": "Emphasis on friendship between nationalities and humanism; avoiding ethnic exclusivity",
+        "contemporary_deployment": "Manas embedded across education, infrastructure, and governance",
+        "critical_warning": "Invoking Manas can 'elevate power above criticism', transforming policy into sacred imperatives",
+        "2025_case": "President Japarov's renaming of Jalal-Abad as Manas demonstrates political appropriation"
+      },
+      "verification_status": "verified_fetched",
+      "note": "Direct webpage fetch successful; comprehensive historiography of post-Soviet Manas revival and political instrumentalization"
+    },
+
+    {
+      "source_id": "SRC-008",
+      "type": "tertiary_reference",
+      "title": "Epic of Manas",
+      "source": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Epic_of_Manas",
+      "coverage": ["History", "Composition and performance", "Content and significance", "UNESCO recognition", "Guinness record", "Translations"],
+      "metric_detail": "7-8 syllables per verse line with alliteration and end rhyme",
+      "verification_status": "verified_search",
+      "note": "Useful overview and reference compilation; metrics confirmed across secondary sources"
+    },
+
+    {
+      "source_id": "SRC-009",
+      "type": "tertiary_reference",
+      "title": "Oral-Formulaic Method and Oral-Formulaic Composition Theory",
+      "sources": ["Academy of American Poets", "Wikipedia articles"],
+      "key_concept": "Parry-Lord theory: formulas (recurring phrases) enable improvisation while maintaining structure",
+      "application_to_kyrgyz": "Manasch performers improvise within memorized formulas and motifs, adapting narrative while preserving historical/cultural memory",
+      "verification_status": "verified_search",
+      "note": "Parry-Lord framework applies to Kyrgyz Manas; mentioned in Reichl and other sources"
+    },
+
+    {
+      "source_id": "SRC-010",
+      "type": "historical_documentation",
+      "title": "National Identity, Tengrism, and Islam in Kyrgyzstan; Kyrgyz Literature and the Transformation of National Identity",
+      "publication": "Release Peace, Wiley Online Library",
+      "year": 2025,
+      "key_findings": {
+        "independence_challenge": "Kyrgyzstan (1991) faced need to create functioning economic systems, reliable infrastructure, and unifying national identity amid diverse ethnicities",
+        "manas_as_origin_story": "Epic used as origin story and groundwork for modern spiritual, religious, and cultural practices",
+        "cultural_revival": "Kyrgyz intellectuals noted nomadic values and traditions re-emerged from Russian influence post-Soviet",
+        "literature_as_tool": "Kyrgyz literature became key tool for national revival, drawing on language, folklore, and heroic images"
+      },
+      "verification_status": "verified_search",
+      "note": "Multiple academic sources on post-Soviet Kyrgyz nation-building using cultural symbols"
+    }
+  ],
+
+  "search_strategy_summary": {
+    "approach": "Multi-channel web search with verification fetches",
+    "channels_used": [
+      "UNESCO official databases",
+      "Academic journal articles (Journal of American Folklore, JESH)",
+      "Wikipedia and reference works",
+      "News and historical analysis (Novastan.org, Eurasianet, etc.)",
+      "Theory applications (Parry-Lord, oral formulaic composition)"
+    ],
+    "verification_methods": [
+      "WebSearch for discovery",
+      "WebFetch for primary institutional pages",
+      "Direct source URLs confirmed"
+    ],
+    "limitations": {
+      "full_text_access": "Some academic articles (Reichl, JESH) require institutional access; abstracts and searches used",
+      "archive_access": "Soviet-era suppression details from secondary sources; primary archives require Kyrgyzstan access",
+      "field_research": "Contemporary ethnographic data not available; would require on-site interviews in Kyrgyzstan",
+      "comparative_analysis": "Sayakbay MS vs. Sagymbay MS direct textual comparison not conducted (would require OCR and analysis of both manuscripts)"
+    }
+  },
+
+  "verification_metadata": {
+    "research_date": "2026-08-09",
+    "researcher": "Claude Code Agent",
+    "knowledge_cutoff": "February 2025",
+    "web_search_sessions": 3,
+    "web_fetch_operations": 3,
+    "total_sources_identified": 10,
+    "primary_source_access": 1,
+    "academic_journal_access": 1,
+    "institutional_policy_access": 2,
+    "secondary_reference_access": 4,
+    "tertiary_reference_access": 2
+  }
+}

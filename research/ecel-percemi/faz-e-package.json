@@ -1,0 +1,282 @@
+{
+  "project_id": "PRJ-ecel-percemi",
+  "package_version": "1.0",
+  "phase": "Faz E — Production Package",
+  "date_completed": "2026-08-13",
+  "package_type": "research_production_package",
+
+  "metadata": {
+    "title": "Ecel Perçemi — Turkish Warrior Spirituality Across 3000 Years",
+    "duration_seconds": 450,
+    "target_word_count": 1240,
+    "narrative_pace_wpm": 165,
+    "format": "7-8 minute long-form educational video",
+    "target_audience": "Turkish history enthusiasts; academic/cultural education",
+    "geopolitical_sensitivity": "MEDIUM (manageable with academic framing)",
+    "rights_basis": "Türklerde_Ecel_Perçemi_Araştırması.pdf (4 pages, 17 academic citations)",
+    "completeness_score": 0.75,
+    "readiness": "CONDITIONAL_READY"
+  },
+
+  "section_breakdown": [
+    {
+      "section_id": "BOLUM-1-GIRIS",
+      "title": "Giriş — Bir Tutam Saç, Bir Yüzyıl Felsefesi",
+      "duration_seconds": 90,
+      "target_words": 250,
+      "pace_wpm": 140,
+      "narration_hook": "Osmanlı ordusunun en korkmaz savaşçıları ölüme hazır olduklarını nasıl gösterirlerdi? Başlarını kazıtıp tepelerinde bıraktıkları bir tutam saç: Ecel Perçemi.",
+      "themes": ["definition", "three-fold function", "historical continuity"],
+      "visual_scene_count": "8-10 shots",
+      "scene_list": ["SC-001 (Serdengeçti portresi)", "SC-002 (Bozkır silueti)"],
+      "music_guidance": "Ağır, dramatik (trombon/ney)",
+      "claims_covered": ["introduction framework"],
+      "confidence_level": "HIGH"
+    },
+    {
+      "section_id": "BOLUM-2-ESKI-TURKLER",
+      "title": "Eski Türkler — Aydar'dan Ecel Perçemine",
+      "duration_seconds": 90,
+      "target_words": 250,
+      "pace_wpm": 140,
+      "subsections": [
+        {
+          "id": "2a",
+          "title": "Hunlar ve Bozkır Kültü",
+          "duration": 45,
+          "claims": ["C-001-AYDAR-HUNNIC", "C-002-AYDAR-PROTECTION", "C-014-KURGAN-EVIDENCE"],
+          "confidence": "MEDIUM-HIGH",
+          "visual_shot_count": 8,
+          "note": "Archaeological gap on Hun Aydar — frame as ethnographic continuity + inference"
+        },
+        {
+          "id": "2b",
+          "title": "Göktürkler ve Moğollar",
+          "duration": 45,
+          "claims": ["C-003-KUT-CONCEPT", "C-004-GOKTÜRK-BRAIDS", "C-013-TIN-CONCEPT"],
+          "confidence": "HIGH",
+          "visual_shot_count": 10,
+          "primary_sources": ["Orkhon inscriptions", "Göktürk portraiture"]
+        }
+      ],
+      "music_guidance": "Bozkır enstrümanları (nomadik)",
+      "total_visual_shots": "15-18"
+    },
+    {
+      "section_id": "BOLUM-3-ISLAMIYET",
+      "title": "İslamiyet'in Kabulü — Ecel Kavramının Entegrasyonu",
+      "duration_seconds": 90,
+      "target_words": 250,
+      "pace_wpm": 140,
+      "claims_covered": ["C-005-ISLAM-SYNTHESIS", "C-006-ECEL-THEOLOGY"],
+      "confidence_level": "MEDIUM-HIGH",
+      "visual_shot_count": "10-12",
+      "narration_theme": "Bozkır geleneği + İslami takdir anlayışı = Yeni askerî ethos",
+      "key_concepts": [
+        "Ecel = Allah'ın takdir ettiği ölüm anı",
+        "Gazavat ve şehadet konsepti",
+        "Synthesis (not replacement)"
+      ],
+      "visual_elements": ["Selçuklu sarayı", "İslam sembolleri", "harita geçişi"],
+      "music_guidance": "Neutral + İslami (mavi, yeşil tonu); ezan benzeri melodi bölüm 3'te"
+    },
+    {
+      "section_id": "BOLUM-4-OTTOMAN",
+      "title": "Osmanlı Serdengeçtileri — Ecel Perçeminin Doruk Noktası",
+      "duration_seconds": 120,
+      "target_words": 330,
+      "pace_wpm": 165,
+      "confidence_level": "MEDIUM (mixed: HIGH on institution, MEDIUM on personal practices)",
+      "critical_note": "En uzun bölüm — pratik + etik + mistik boyutlar",
+      "subsections": [
+        {
+          "id": "4a",
+          "title": "Pratik Gerekçeler",
+          "duration": 45,
+          "claims": ["C-007-SERDENGEÇTI-DEFINITION", "C-008-PRACTICAL-HYGIENE", "C-009-HELMET-PADDING"],
+          "confidence": "MEDIUM (logic sound; Ottoman documentation limited)",
+          "visual_shots": 8,
+          "content_points": [
+            "Seferlerde hijyen (bit/deri hastalıkları)",
+            "Miğfer uyumu",
+            "Kafa taşı koruma"
+          ]
+        },
+        {
+          "id": "4b",
+          "title": "Onur ve Etik Boyut",
+          "duration": 45,
+          "claims": ["C-010-HONOR-ETHICS"],
+          "confidence": "MEDIUM-HIGH (Cherkess parallel strong)",
+          "visual_shots": 5,
+          "content_points": [
+            "Ölüm sonrası beden şerefi",
+            "Düşmanın başı kestiğinde perçemden tutması",
+            "Cesede gösterilen saygı",
+            "Cherkess parallel tradition"
+          ],
+          "note": "SENSITIVE: Frame as warrior code, not glorification"
+        },
+        {
+          "id": "4c",
+          "title": "Mistik-Ruhani Boyut",
+          "duration": 45,
+          "claims": ["C-011-MYSTICAL-ANGELS", "C-012-PSYCHOLOGICAL-COURAGE"],
+          "confidence": "MEDIUM (folk belief documented; theology metaphorical)",
+          "visual_shots": 5,
+          "content_points": [
+            "Meleklerin şehitleri perçemden tutması",
+            "Psikolojik üstünlük",
+            "Kut ve ruh bağlantısı (Göktürk mirasının yenilenmesi)"
+          ],
+          "note": "Frame as 'believed' not 'true'; theological metaphor vs. literal belief distinction"
+        }
+      ],
+      "total_visual_shots": "18-20",
+      "music_guidance": "Dramatik (kırmızı vurgular, siyah kontrast); orkestral ağırlık"
+    },
+    {
+      "section_id": "BOLUM-5-KAPANISH",
+      "title": "Kapanış — Mirası ve Modern Anlam",
+      "duration_seconds": 60,
+      "target_words": 160,
+      "pace_wpm": 140,
+      "narration_theme": "Ecel Perçemi Türk düşüncesinin derinlerini nasıl yansıtıyor?",
+      "subsections": [
+        {
+          "title": "Edebiyat Referansları",
+          "duration": 50,
+          "claims": ["C-015-DEDE-KORKUT-REFERENCES", "C-016-DIVAN-POETRY", "C-017-SERDEN-GECER"],
+          "confidence": "MEDIUM (tradition confirmed; specific imagery open)",
+          "visual_shots": 10,
+          "references": [
+            "Dede Korkut efsanesi (Altın Aydarlı Alp — requires verification)",
+            "Kutadgu Bilig (perçem/saç sembolü — open question)",
+            "Divan şiiri (zülüf motifi — confirmed; warrior parallel inferred)"
+          ],
+          "note": "Mark C-015, C-016 as 'verified tradition + open questions' in credits"
+        },
+        {
+          "title": "Modern Anlamlandırma",
+          "duration": 10,
+          "content": "Wariorhood ≠ barbarity; sophisticated philosophy of death, honor, fate",
+          "visual_shot_count": 3
+        }
+      ],
+      "total_visual_shots": "10-12",
+      "music_guidance": "Sessizlik + doğa sesleri; kapanışta ağırbaşlı, reflexive tone"
+    }
+  ],
+
+  "visual_asset_specification": {
+    "total_insert_shots": "61-72",
+    "distribution": {
+      "BOLUM-1": "8-10 shots",
+      "BOLUM-2": "15-18 shots",
+      "BOLUM-3": "10-12 shots",
+      "BOLUM-4": "18-20 shots (densest)",
+      "BOLUM-5": "10-12 shots"
+    },
+    "asset_sources": [
+      "8 draft reference images provided by user (IMG-20260814-WA0000.jpg through WA0007.jpg)",
+      "AI-generated Göktürk historical reconstructions",
+      "Ottoman miniature art references",
+      "Dede Korkut manuscript imagery",
+      "Calligraphic art (Divan poetry)",
+      "Bozkır landscape photography (sunrise/sunset)"
+    ],
+    "style_profile": "Solemn, majestic, historical depth + mystical (section 4c)",
+    "color_palette": {
+      "BOLUM-1-2": "Warm tones (orange, brown, gold)",
+      "BOLUM-3": "Neutral + Islamic (blue, green, silver)",
+      "BOLUM-4": "Dramatic (red highlights, black contrast)",
+      "BOLUM-5": "Cool blue hour (sky blue, purple, silver stars)"
+    }
+  },
+
+  "narration_specification": {
+    "total_duration": "450 seconds",
+    "total_words": "1240 words",
+    "average_wpm": 165,
+    "delivery": "Professional Turkish narration (male voice preferred for gravitas)",
+    "tone": "Formal, educational, respectful to subject matter",
+    "emphasis_points": [
+      "Ecel Perçemi definition (Bölüm 1)",
+      "Three-fold function transition (Bölüm 1 → 4)",
+      "Synthesis concept (Bölüm 3)",
+      "Warrior honor code (Bölüm 4b)",
+      "Literary echoes (Bölüm 5)"
+    ],
+    "pause_guidance": "Reflective pauses at section transitions; slower delivery at conclusion"
+  },
+
+  "production_pipeline_integration": {
+    "M22_scene_planning": {
+      "status": "INPUT_READY",
+      "deliverable": "Detailed section breakdown with visual shot specifications",
+      "tasks": [
+        "Map 61-72 insert shots to specific scene IDs (SC-001 through SC-061)",
+        "Assign visual type to each shot (minyatür, 3D rekonstüksiyon, kaligrafi, manzara, etc.)",
+        "Create scene-to-narration timing (narration is the clock)"
+      ]
+    },
+    "M17_direction": {
+      "status": "INPUT_READY",
+      "deliverable": "Thematic direction notes + visual references for each section",
+      "tasks": [
+        "Define visual tone per section (warm → dramatic → cool progression)",
+        "Specify camera movement/animation style (subtle motion vs. static presentation)",
+        "Create mood guidance (trombon/ney for nomadic, orchestral for Ottoman, silence for reflection)"
+      ]
+    },
+    "M05_script_writing": {
+      "status": "DRAFT_READY",
+      "deliverable": "Full 450s narration script with confidence level annotations",
+      "tasks": [
+        "Polish narration draft with precise timestamps",
+        "Add confidence markers (verified/inferred/open) for each claim in speaker notes",
+        "Prepare ElevenLabs input (text + voice ID + pacing marks)"
+      ]
+    }
+  },
+
+  "research_dependencies": {
+    "verified_sources": 17,
+    "high_confidence_claims": 7,
+    "medium_confidence_claims": 7,
+    "open_questions": 3,
+    "archive_links": {
+      "faz_b_dossier": "research/ecel-percemi/faz-b-dossier.md",
+      "faz_b_registry": "research/ecel-percemi/faz-b-research-registry.json",
+      "faz_c_verification": "research/ecel-percemi/faz-c-verification.md",
+      "faz_d_master": "research/ecel-percemi/faz-d-master-dossier.md"
+    }
+  },
+
+  "production_readiness_checklist": {
+    "narrative_arc_complete": true,
+    "visual_breakdown_complete": true,
+    "source_documentation_complete": true,
+    "geopolitical_audit_complete": true,
+    "confidence_levels_mapped": true,
+    "research_gaps_identified": true,
+    "claim_integration_verified": true,
+    "readiness_verdict": "CONDITIONAL_READY",
+    "conditions": [
+      "Dede Korkut 'Altın Aydarlı Alp' claim requires manuscript verification before narration lock",
+      "Kutadgu Bilig perçem symbolism listed as open question; current framing ('motif') valid but deep analysis pending",
+      "Ottoman archive gaps noted; practical functions and ethics framed as plausible inference not documented practice",
+      "Angel mysticism framed as folk belief, not theological claim"
+    ]
+  },
+
+  "delivery_format": {
+    "type": "research_production_package",
+    "contents": [
+      "faz-e-package.json (this file)",
+      "faz-e-package.md (human-readable summary)",
+      "PRODUCTION_PROMPTS.json (M22/M17/M05 input specifications)"
+    ],
+    "next_phase": "M22 Scene Planning → M17 Direction → M05 Script Writing → ElevenLabs Narration → Flow Rendering"
+  }
+}

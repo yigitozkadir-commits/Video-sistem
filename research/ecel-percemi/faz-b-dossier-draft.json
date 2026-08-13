@@ -1,0 +1,248 @@
+{
+  "project_id": "ecel-percemi",
+  "phase": "Faz B - Deep Research",
+  "status": "IN_PROGRESS",
+  "extraction_date": "2026-08-13",
+  "source_document": "Türklerde_Ecel_Perçemi_Araştırması.pdf (4 pages, 17 citations)",
+
+  "core_claims": [
+    {
+      "claim_id": "C-001-AYDAR-HUNNIC",
+      "section": "Bölüm 2 — Eski Türkler",
+      "claim_text": "Hunlar ve Orta Asya göçebe kültüründe çocukların başı kazındıktan sonra tepede bırakılan saç tutamına 'aydar' veya 'kâkül' denilmektedir",
+      "confidence": "HIGH",
+      "basis": "Archaeological evidence from Hun kurgans + ethnographic sources on Kazak, Kyrgyz, Uzbek traditions",
+      "needs_verification": true,
+      "tags": ["hunnic-ritual", "childhood-protection", "spiritual-function"]
+    },
+    {
+      "claim_id": "C-002-AYDAR-PROTECTION",
+      "section": "Bölüm 2",
+      "claim_text": "Çocuk hastalığında veya kötü ruhlardan korunmak istendiğinde 'karın saçı' kesilir, tepe noktasında bırakılan aydar bir kumaşa sarılarak kutsal mekânlara veya atalar ruhunu temsil eden ziyaretgâhlara adanırdı",
+      "confidence": "MEDIUM",
+      "basis": "Ethnographic documentation + shamanic practice records",
+      "needs_verification": true,
+      "tags": ["protective-magic", "ritual-practice", "ancestor-veneration"]
+    },
+    {
+      "claim_id": "C-003-KUT-CONCEPT",
+      "section": "Bölüm 2",
+      "claim_text": "Eski Türk toplumlarında saçın kutsallığı ruhun (tin) bedenle kurduğu ilişki ve göksel iktidarı simgeleyen 'kut' inancıyla doğrudan bağlantılıdır",
+      "confidence": "HIGH",
+      "basis": "Göktürk inscriptions (Orkhon), Eski Türk philosophy texts, comparative shamanism studies",
+      "needs_verification": true,
+      "tags": ["philosophy", "shamanism", "metaphysics"]
+    },
+    {
+      "claim_id": "C-004-GOKTÜRK-BRAIDS",
+      "section": "Bölüm 2",
+      "claim_text": "Göktürkler ve Moğollar uzun örgülü saç ve tepe lülesi stili kullanmış, bu uzun saç stili kut simgesi ve soyluluk göstergesi olarak işlev görmüştür",
+      "confidence": "HIGH",
+      "basis": "Göktürk miniatures, Mongol historical records, ethnographic descriptions",
+      "needs_verification": true,
+      "tags": ["goktürk", "status-symbol", "military-elite"]
+    },
+    {
+      "claim_id": "C-005-ISLAM-SYNTHESIS",
+      "section": "Bölüm 3 — İslamiyet'in Kabulü",
+      "claim_text": "İslamiyet'in kabulü sonrasında bozkır geleneği yok olmamış, aksine gazavat ruhuyla birleşerek Osmanlı ordusundaki serdengeçti tıraşına evrilmiştir",
+      "confidence": "MEDIUM-HIGH",
+      "basis": "Ottoman miniatures (15th century onward), Selçuk administrative records, military histories",
+      "needs_verification": true,
+      "tags": ["religious-synthesis", "ottoman-adoption", "military-transformation"]
+    },
+    {
+      "claim_id": "C-006-ECEL-THEOLOGY",
+      "section": "Bölüm 1 — Kavramsal Çerçeve",
+      "claim_text": "Ecel, kelâmî öğretiye göre (Eş'arî ve Mâturîdî) Allah tarafından her canlı için takdir edilen yaşama süresini ve bu sürenin sonu olan ölüm anını ifade eder; insan hangi sebeple ölürse ölsün kendi eceliyle ölmüş sayılır",
+      "confidence": "HIGH",
+      "basis": "Islamic theology (Ash'ari, Maturidi schools), Kur'an references, Kelam literature",
+      "needs_verification": true,
+      "tags": ["islamic-theology", "predestination", "fate"]
+    },
+    {
+      "claim_id": "C-007-SERDENGEÇTI-DEFINITION",
+      "section": "Bölüm 4 — Osmanlı Serdengeçtileri",
+      "claim_text": "Osmanlı askerî teşkilatında 'serdengeçti' (başını ortaya koyan, canından vazgeçen) fedai birlikleri kale kuşatmalarında en ön safta yer alan, hendeklere ilk atlayan ve geri dönmeyi düşünmeyen gönüllülerden oluşmaktaydı",
+      "confidence": "HIGH",
+      "basis": "Ottoman military organization records, siege accounts, miniatures, Chronicles",
+      "needs_verification": true,
+      "tags": ["ottoman-military", "elite-unit", "volunteer-elite"]
+    },
+    {
+      "claim_id": "C-008-PRACTICAL-HYGIENE",
+      "section": "Bölüm 4 — Pratik Gerekçeler",
+      "claim_text": "Uzun süren seferlerde miğfer altında başın temiz tutulması hayati önem taşımaktaydı; başın kazıtılması bit ve deri hastalıklarını önlüyor, sıcak havalarda askerlikte ferahlık sağlıyordu",
+      "confidence": "HIGH",
+      "basis": "Military campaign records, hygiene documentation, armor specifications",
+      "needs_verification": true,
+      "tags": ["practical", "hygiene", "military-logistics"]
+    },
+    {
+      "claim_id": "C-009-HELMET-PADDING",
+      "section": "Bölüm 4 — Pratik Gerekçeler",
+      "claim_text": "Tepe noktasındaki bir tutam saç miğfer veya başlığın içlik kısmına yastıklama yaparak kafa tasının doğrudan metal veya sert deriyle temas edip yaralanmasını engelliyordu",
+      "confidence": "MEDIUM",
+      "basis": "Armor specifications, military equipment analysis, medical considerations",
+      "needs_verification": true,
+      "tags": ["practical", "armor-engineering", "protection"]
+    },
+    {
+      "claim_id": "C-010-HONOR-ETHICS",
+      "section": "Bölüm 4 — Etik ve Onur Boyutu",
+      "claim_text": "Savaş meydanında şehit düşen savaşçının başı düşman tarafından kesildiğinde, düşmanın maktulün yüzüne, ağzına, sakalına veya çenesine dokunması şehidin aziz hatırasına ve beden dokunulmazlığına hakaret kabul edilirdi; perçem düşmanın tutacağı tutamak sunmaktaydı",
+      "confidence": "MEDIUM-HIGH",
+      "basis": "Cherkess practices (parallel tradition), Caucasian warfare customs, Ottoman sources",
+      "needs_verification": true,
+      "tags": ["ethics", "honor-code", "corpse-respect"]
+    },
+    {
+      "claim_id": "C-011-MYSTICAL-ANGELS",
+      "section": "Bölüm 4 — Mistik-Ruhani Boyut",
+      "claim_text": "Halk arasındaki inanışa göre meydanda can veren gazilerin bedenleri ilahî kudret tarafından göğe çekilirken meleklerin şehitleri bu perçemden tutarak melekleştireceğine inanılırdı",
+      "confidence": "MEDIUM",
+      "basis": "Folk belief documentation, Islamic eschatology, Sufi mystical literature",
+      "needs_verification": true,
+      "tags": ["mysticism", "martyrdom", "afterlife-belief"]
+    },
+    {
+      "claim_id": "C-012-PSYCHOLOGICAL-COURAGE",
+      "section": "Bölüm 4 — Mistik-Ruhani Boyut",
+      "claim_text": "Bu mistik inanış, fedai erlerinin savaş sahasındaki cesaretini artırarak psikolojik bir üstünlük sağlamaktaydı",
+      "confidence": "MEDIUM",
+      "basis": "Military psychology studies, morale analysis, ethnographic observation",
+      "needs_verification": true,
+      "tags": ["psychology", "morale", "warrior-culture"]
+    },
+    {
+      "claim_id": "C-013-TIN-CONCEPT",
+      "section": "Bölüm 4 — Yas Ritüelleri",
+      "claim_text": "Eski Türklerde can ve ruh kavramları 'tin' (nefes) kelimesiyle karşılanmaktaydı; ölüm ruhun bedeni terk ederek kuşa dönüşmesi ve göğe yükselmesi (uçmak) olarak değerlendirilirdi",
+      "confidence": "HIGH",
+      "basis": "Old Turkic texts, shamanic philosophy, linguistic analysis",
+      "needs_verification": true,
+      "tags": ["philosophy", "afterlife", "soul-concept"]
+    },
+    {
+      "claim_id": "C-014-KURGAN-EVIDENCE",
+      "section": "Bölüm 4 — Yas Ritüelleri",
+      "claim_text": "Göktürk ve Hun kurganlarında yapılan kazılarda cesetlerin yanında kesilmiş saç demetlerine rastlanması, saçın öte dünyaya geçişte bir kurban veya adak nesnesi olarak kullanıldığını gösterir",
+      "confidence": "HIGH",
+      "basis": "Archaeological excavations, kurgan studies, physical evidence",
+      "needs_verification": true,
+      "tags": ["archaeology", "material-evidence", "burial-practice"]
+    },
+    {
+      "claim_id": "C-015-DEDE-KORKUT-REFERENCES",
+      "section": "Bölüm 5 — Türk Edebiyatında Yansımaları",
+      "claim_text": "Sözlü destan geleneğinde ve Altay mitolojik anlatılarında idealize edilen kurtarıcı alp tipi sıklıkla 'Altın Aydarlı Alp' olarak tasvir edilir; Oğuz Kağan Destanı ve Kırım efsanelerinde geçen bu imge tanrısal ışıkla beslenen, göksel kut ile temas kuran seçilmiş kahramanı simgelemektedir",
+      "confidence": "MEDIUM-HIGH",
+      "basis": "Dede Korkut manuscripts, Oğuz Kağan epic texts, Altaic mythology studies",
+      "needs_verification": true,
+      "tags": ["literature", "epic-tradition", "heroic-imagery"]
+    },
+    {
+      "claim_id": "C-016-DIVAN-POETRY",
+      "section": "Bölüm 5 — Türk Edebiyatında Yansımaları",
+      "claim_text": "Klasik Türk edebiyatında (Divan şiiri) perçem, zülüf ve kâkül kelimeleri sevgilinin fiziksel güzelliğinin ötesinde tasavvufî ve felsefi anlamlar taşır; Kutadgu Bilig'den itibaren saç perçem, gecenin karanlığını, belirsiz geleceği ve ilahî tecellinin gizlendiği kesret âlemini simgeler",
+      "confidence": "HIGH",
+      "basis": "Divan poetry texts (Kutadgu Bilig, Divans), literary analysis, Sufi interpretation",
+      "needs_verification": true,
+      "tags": ["literature", "poetry", "sufi-symbolism"]
+    },
+    {
+      "claim_id": "C-017-SERDEN-GECER",
+      "section": "Bölüm 5 — Türk Edebiyatında Yansımaları",
+      "claim_text": "Divan şairlerinde perçem sıklıkla âşığın boynuna dolanan bir kement, onu sevgilinin eşiğine bağlayan bir ip veya gönlü tutsak eden bir büyü olarak işlenir; savaşçının başını ecel perçeminden cenge adaması gibi, divan şiirindeki âşık da varlığını sevgilinin perçemine feda ederek 'serden geçer'",
+      "confidence": "HIGH",
+      "basis": "Divan poetry analysis, literary comparative studies",
+      "needs_verification": true,
+      "tags": ["literature", "metaphor", "courtly-love"]
+    }
+  ],
+
+  "research_clusters": [
+    {
+      "cluster": "HUNNIC_ARCHEOLOGY",
+      "claims_to_verify": ["C-001-AYDAR-HUNNIC", "C-002-AYDAR-PROTECTION", "C-014-KURGAN-EVIDENCE"],
+      "sources_needed": [
+        "Hunnic burial practice surveys",
+        "Kurgan excavation reports (Russian/Kazakh archaeology)",
+        "Material evidence of hair in burials"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "GOKTÜRK_PHILOSOPHY",
+      "claims_to_verify": ["C-003-KUT-CONCEPT", "C-004-GOKTÜRK-BRAIDS", "C-013-TIN-CONCEPT"],
+      "sources_needed": [
+        "Orkhon inscriptions analysis",
+        "Old Turkic philosophical texts",
+        "Comparative shamanism studies"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "ISLAMIC_THEOLOGY",
+      "claims_to_verify": ["C-006-ECEL-THEOLOGY"],
+      "sources_needed": [
+        "Ash'ari and Maturidi school texts",
+        "Kelam literature (Islamic theology)",
+        "Quran references on ecel"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "OTTOMAN_MILITARY",
+      "claims_to_verify": ["C-005-ISLAM-SYNTHESIS", "C-007-SERDENGEÇTI-DEFINITION", "C-008-PRACTICAL-HYGIENE", "C-009-HELMET-PADDING"],
+      "sources_needed": [
+        "Ottoman miniatures (military scenes)",
+        "Siege chronicles (Otrar, Hungarian campaigns)",
+        "Military organization records",
+        "Armor and helmet specifications"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "HONOR_ETHICS",
+      "claims_to_verify": ["C-010-HONOR-ETHICS"],
+      "sources_needed": [
+        "Cherkess warfare customs documentation",
+        "Caucasian warrior code sources",
+        "Ottoman ethical military treatises"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "MYSTICISM",
+      "claims_to_verify": ["C-011-MYSTICAL-ANGELS", "C-012-PSYCHOLOGICAL-COURAGE"],
+      "sources_needed": [
+        "Sufi mystical texts",
+        "Islamic martyrdom theology",
+        "Folk belief documentation"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "cluster": "LITERATURE",
+      "claims_to_verify": ["C-015-DEDE-KORKUT-REFERENCES", "C-016-DIVAN-POETRY", "C-017-SERDEN-GECER"],
+      "sources_needed": [
+        "Dede Korkut manuscript editions",
+        "Oğuz Kağan epic texts",
+        "Kutadgu Bilig analysis",
+        "Divan poetry collections",
+        "Literary analysis of perçem motif"
+      ],
+      "status": "PENDING"
+    }
+  ],
+
+  "next_steps": [
+    "Web research for archaeological sources on Hun kurgans and Aydar ritual",
+    "Locate Orkhon inscriptions analysis and Kut concept documentation",
+    "Research Islamic theology sources for Ecel concept",
+    "Compile Ottoman military historical records and miniature sources",
+    "Search Dede Korkut and Divan poetry references",
+    "Document all sources with full citations for Faz C verification"
+  ]
+}

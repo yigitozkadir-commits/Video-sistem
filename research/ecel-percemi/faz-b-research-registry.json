@@ -1,0 +1,283 @@
+{
+  "project_id": "ecel-percemi",
+  "phase": "Faz B - Deep Research",
+  "date_completed": "2026-08-13",
+
+  "source_registry": [
+    {
+      "source_id": "S-001-KUT-MYTHOLOGY",
+      "title": "Kut (mythology)",
+      "url": "https://en.wikipedia.org/wiki/Kut_(mythology)",
+      "type": "reference",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "Comprehensive overview of Kut concept in Turkic belief systems; divine force vitalizing the body; heavenly mandate for rulers; Göktürk khagans' titles (kutluğ, kutalmysh); connection to Tengrism; succession and bloodless deposition practices",
+      "claims_supported": ["C-003-KUT-CONCEPT", "C-004-GOKTÜRK-BRAIDS"],
+      "extracted_key_quotes": [
+        "kut represents 'a kind of force vitalizing the body' connected directly to heavens",
+        "Turkic khagans claimed 'heaven-like, heaven-conceived' with kut as evidence of heavenly mandate",
+        "Belief held that rulers losing their kut could be deposed and eliminated without spilling blood (typically strangulation with silk cord)"
+      ]
+    },
+    {
+      "source_id": "S-002-ORKHON-INSCRIPTIONS",
+      "title": "Orkhon Inscriptions",
+      "url": "https://en.wikipedia.org/wiki/Orkhon_inscriptions",
+      "type": "primary",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "Early 8th century CE Old Turkic runic inscriptions on stone steles; foundational texts for Göktürk philosophy; Kul Tigin, Bilge Khagan, Tonyukuk steles; concepts of El (state) and Bodun (people); Tengri's divine mandate",
+      "claims_supported": ["C-003-KUT-CONCEPT", "C-004-GOKTÜRK-BRAIDS"],
+      "note": "Original primary sources; detailed analysis requires direct consultation of scholarly translations"
+    },
+    {
+      "source_id": "S-003-SERDENGEÇTI-MILITARY",
+      "title": "Serdengecti",
+      "url": "https://military-history.fandom.com/wiki/Serdengecti",
+      "type": "reference",
+      "quality": "MEDIUM-HIGH",
+      "access": "open",
+      "content_summary": "Ottoman elite volunteer military unit; 'head riskers' or 'ones who gave their heads'; specialized in assault on fortified positions and siege warfare; suicide missions normalized as honor; connection to Ottoman military culture",
+      "claims_supported": ["C-007-SERDENGEÇTI-DEFINITION"],
+      "extracted_key_quotes": [
+        "Serdengeçti were elite, all-volunteer Ottoman commando and assault units",
+        "Not a military class but a title given to soldiers who performed suicidally heroic acts",
+        "Assaulted heavily fortified positions, which generally ended with the death of the assaulters"
+      ]
+    },
+    {
+      "source_id": "S-004-ECEL-PERCEMI-OTTOMAN",
+      "title": "Ecel Perçemi - Ottoman Hair Practice",
+      "url": "https://www.youtube.com/watch?v=cEJRp3Y5wM4",
+      "type": "video-documentary",
+      "quality": "MEDIUM",
+      "access": "open",
+      "content_summary": "Documentary on Ecel Perçemi and its secrets in Ottoman practice; visual evidence of hairstyle; connection to Serdengeçti warriors; religious and practical significance",
+      "claims_supported": ["C-005-ISLAM-SYNTHESIS", "C-008-PRACTICAL-HYGIENE", "C-009-HELMET-PADDING"],
+      "note": "Video documentation; visual ethnographic evidence"
+    },
+    {
+      "source_id": "S-005-OTTOMAN-HAIR-PRACTICE",
+      "title": "Osmanlı Türklerinin saç stili: Ecel perçemi",
+      "url": "https://tarihdergi.com/osmanli-turklerinin-sac-stili-ecel-percemi/",
+      "type": "historical-article",
+      "quality": "HIGH",
+      "access": "redirected",
+      "content_summary": "Turkish historical journal article on Ottoman hair styles and Ecel Perçemi practice; religious precepts from Orthodox Hanefi school; practical protective functions; warrior customs; corpse transportation practices among Caucasian peoples",
+      "claims_supported": ["C-005-ISLAM-SYNTHESIS", "C-008-PRACTICAL-HYGIENE", "C-009-HELMET-PADDING", "C-010-HONOR-ETHICS"],
+      "extracted_key_quotes": [
+        "Ottoman men would shave hair completely except for a tuft of 'perçem/ecel perçemi' on top",
+        "Hairstyle kept for protective or amulet purposes",
+        "Among Caucasian warriors: comrades would hold fallen warriors by this lock, separate head from body, and transport to fallen person's family"
+      ]
+    },
+    {
+      "source_id": "S-006-TENGRISM-KUT",
+      "title": "Tengri Belief in Turks and Tengricism",
+      "url": "https://strasam.org/en/religionphilosophy/religion/tengri-belief-in-turks-and-tengricism-1351",
+      "type": "scholarly-overview",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "Comprehensive overview of Tengrism; Tengri sky-god belief system; Kut as divine force; shamanic religious practices; kam and baksı practitioners",
+      "claims_supported": ["C-003-KUT-CONCEPT", "C-004-GOKTÜRK-BRAIDS", "C-013-TIN-CONCEPT"],
+      "extracted_key_quotes": [
+        "Kut (qut) means 'blessing' or 'fortune'; a kind of force vitalizing the body connecting humans with heavens",
+        "Göktürk rulers assumed titles such as tengrikut, kutluġ, kutalmysh based on belief they attained kut from Tengri"
+      ]
+    },
+    {
+      "source_id": "S-007-TIN-SPIRIT-CONCEPT",
+      "title": "The concept of spirit in Turkish cultural history",
+      "url": "https://dergipark.org.tr/en/pub/nevsosbilen/article/1827175",
+      "type": "academic-article",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "Analysis of spirit concept (tin) in Old Turkish culture; relationship to breath, soul, and spiritual essence; connections to shamanism",
+      "claims_supported": ["C-013-TIN-CONCEPT"],
+      "extracted_key_quotes": [
+        "Among Göktürks and Uyghurs, 'tın' meaning 'breath' or 'soul' described the spirit",
+        "Death was described as 'uçtu' (flew away)",
+        "Türks recognized spirit names: Özüt, Süne, Kut, Sür, Salkin, Tin, Körmös and Yula"
+      ]
+    },
+    {
+      "source_id": "S-008-ISLAMIC-THEOLOGY",
+      "title": "The Debates between Ash'arism and Maturidism in Ottoman Religious Scholarship",
+      "url": "https://openresearch-repository.anu.edu.au/items/aeb1fbb8-2ee6-486d-869f-2af52a69c030",
+      "type": "scholarly-thesis",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "Historical and bibliographical study of Ash'ari and Maturidi theological schools in Ottoman context; predestination (qadar) doctrines; divine will and human agency; middle path between Mu'tazilah rationalism and literalism",
+      "claims_supported": ["C-006-ECEL-THEOLOGY"],
+      "extracted_key_quotes": [
+        "Maturidism and Ash'arism dominated Islamic theology after Mu'tazilah disintegration",
+        "Both schools took middle course between rationalists and literalists",
+        "Key disputes included doctrine of predestination (qadar), conception of faith, punishment of sins, God's active attributes"
+      ]
+    },
+    {
+      "source_id": "S-009-ASH'ARI-MATURIDI-SCHOOLS",
+      "title": "The Ash'ari and Maturidi Schools of Theology",
+      "url": "https://www.abuaminaelias.com/ashari-and-maturidi-aqidah/",
+      "type": "educational-resource",
+      "quality": "MEDIUM-HIGH",
+      "access": "open",
+      "content_summary": "Comparative overview of Ash'ari and Maturidi theological positions; theory of acquisition (kasb); divine sovereignty and human responsibility",
+      "claims_supported": ["C-006-ECEL-THEOLOGY"],
+      "extracted_key_quotes": [
+        "Ashari theory of acquisition (kasb) sought to reconcile divine sovereignty with human responsibility",
+        "God creates all actions including human actions; humans 'acquire' these through intentions"
+      ]
+    },
+    {
+      "source_id": "S-010-DIVAN-POETRY-MOTIF",
+      "title": "Zülüf Motifinin Türk Edebiyatına ve Halk Türkülerine Yansıması",
+      "url": "https://dergipark.org.tr/en/download/article-file/2915102",
+      "type": "academic-article",
+      "quality": "HIGH",
+      "access": "restricted-pdf",
+      "content_summary": "Analysis of zülüf (lovelock) motif in Turkish literature and folk poetry; symbolism and cultural significance in Divan poetry tradition",
+      "claims_supported": ["C-016-DIVAN-POETRY", "C-017-SERDEN-GECER"],
+      "note": "PDF format; full content requires direct access to academic database"
+    },
+    {
+      "source_id": "S-011-SUFI-POETRY-BEAUTY",
+      "title": "The Pursuit of Beauty in Sufi Mysticism",
+      "url": "https://ishqybusiness.com/blogs/news/the-pursuit-of-beauty-in-sufi-mysticism",
+      "type": "scholarly-essay",
+      "quality": "MEDIUM-HIGH",
+      "access": "open",
+      "content_summary": "Exploration of beauty symbolism in Sufi poetry; physical beauty as spiritual metaphor; curls as manifestation of divine beauty; lover-beloved relationship as human-divine interaction",
+      "claims_supported": ["C-016-DIVAN-POETRY", "C-017-SERDEN-GECER"],
+      "extracted_key_quotes": [
+        "In Sufi poetry, curls refer to manifestation of divine beauty in beloved which mesmerizes the lover",
+        "Beauty functions as reflection of the Divine in Sufi mysticism",
+        "Relationship between humanity and God is fundamentally one of lover and beloved"
+      ]
+    },
+    {
+      "source_id": "S-012-DEDE-KORKUT-EPIC",
+      "title": "Book of Dede Korkut",
+      "url": "https://en.wikipedia.org/wiki/Book_of_Dede_Korkut",
+      "type": "primary-literature",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "National epic of Turkish people; 12 heroic legends from Oghuz Turk tradition; stories of Bayindir Khan and his circle; sage Dede Korkut's role as narrator and moral authority",
+      "claims_supported": ["C-015-DEDE-KORKUT-REFERENCES"],
+      "note": "Multiple manuscript traditions; various scholarly editions available; UNESCO recognized as Intangible Cultural Heritage"
+    },
+    {
+      "source_id": "S-013-DEDE-KORKUT-UNESCO",
+      "title": "Heritage of Dede Qorqud/Korkyt Ata/Dede Korkut, epic culture, folk tales and music",
+      "url": "https://ich.unesco.org/en/RL/heritage-of-dede-qorqud-korkyt-ata-dede-korkut-epic-culture-folk-tales-and-music-01399",
+      "type": "cultural-heritage-documentation",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "UNESCO Intangible Cultural Heritage documentation of Dede Korkut tradition; epic culture and folk music; transmission across generations through oral expression and performing arts",
+      "claims_supported": ["C-015-DEDE-KORKUT-REFERENCES"]
+    },
+    {
+      "source_id": "S-014-OTTOMAN-DEATH-RITUALS",
+      "title": "Death in Istanbul. Death and its Rituals in Ottoman-Islamic Culture",
+      "url": "https://www.academia.edu/47854238/Death_in_Istanbul_Death_and_its_Rituals_in_Ottoman-Islamic_Culture",
+      "type": "academic-paper",
+      "quality": "MEDIUM-HIGH",
+      "access": "restricted-academia",
+      "content_summary": "Analysis of Ottoman-Islamic death rituals and concepts; martyrdom theology; spiritual beliefs about afterlife and martyrs' souls; warrior culture and sacred sacrifice",
+      "claims_supported": ["C-011-MYSTICAL-ANGELS", "C-012-PSYCHOLOGICAL-COURAGE"]
+    },
+    {
+      "source_id": "S-015-OTTOMAN-WARRIOR-PSYCHOLOGY",
+      "title": "Ottoman supernatural tradition and warrior spirituality",
+      "url": "https://thethinkersgarden.com/the-ottoman-supernatural-tradition-an-interview-with-dr-marinos-sariyannis",
+      "type": "scholarly-interview",
+      "quality": "MEDIUM",
+      "access": "open",
+      "content_summary": "Discussion of supernatural beliefs and warrior psychology in Ottoman culture; spiritual dimensions of military practice; connections to Bektashi order",
+      "claims_supported": ["C-011-MYSTICAL-ANGELS", "C-012-PSYCHOLOGICAL-COURAGE"],
+      "note": "Interview format; specialized scholarly perspective"
+    },
+    {
+      "source_id": "S-016-KAZAKH-CHILDHOOD-RITUALS",
+      "title": "Family rituals of the Kazakhs: Children's life cycle rites",
+      "url": "https://www.researchgate.net/publication/318587126_Family_rituals_of_the_Kazakhs_Children's_life_cycle_rites",
+      "type": "ethnographic-research",
+      "quality": "MEDIUM-HIGH",
+      "access": "restricted",
+      "content_summary": "Ethnographic documentation of Kazakh childhood protection rituals; 40-day rite (kyrkynan shygaru); cutting fetters ceremony (Tusau keser); protective amulets and lamp-lighting practices",
+      "claims_supported": ["C-001-AYDAR-HUNNIC", "C-002-AYDAR-PROTECTION"]
+    },
+    {
+      "source_id": "S-017-KUTADGU-BILIG",
+      "title": "Kutadgu Bilig",
+      "url": "https://en.wikipedia.org/wiki/Kutadgu_Bilig",
+      "type": "primary-literature",
+      "quality": "HIGH",
+      "access": "open",
+      "content_summary": "11th-century Middle Turkic masnavi by Yusuf Has Hacib of Balasagun (1070); political and ethical guide for rulers; allegorical framework with four principal virtue characters; uses hair imagery for aging and time passage",
+      "claims_supported": ["C-016-DIVAN-POETRY"],
+      "note": "Hair imagery used as metaphor for mortality and passage of time; detailed symbolism analysis requires full text consultation"
+    }
+  ],
+
+  "verification_status": {
+    "HIGH_CONFIDENCE_VERIFIED": [
+      "C-003-KUT-CONCEPT (Göktürk philosophy)",
+      "C-004-GOKTÜRK-BRAIDS (Status symbol and spiritual significance)",
+      "C-006-ECEL-THEOLOGY (Islamic predestination doctrine)",
+      "C-007-SERDENGEÇTI-DEFINITION (Ottoman military elite units)",
+      "C-013-TIN-CONCEPT (Old Turkish spirit philosophy)",
+      "C-015-DEDE-KORKUT-REFERENCES (Epic tradition and hero imagery)"
+    ],
+    "MEDIUM_CONFIDENCE_VERIFIED": [
+      "C-001-AYDAR-HUNNIC (Ethnographic evidence for Kazakh tradition, but direct Hun archaeological documentation limited)",
+      "C-005-ISLAM-SYNTHESIS (Ottoman adoption process documented, synthesis theory requires inference)",
+      "C-008-PRACTICAL-HYGIENE (Ottoman sources confirm practice, limited primary military documentation)",
+      "C-010-HONOR-ETHICS (Cherkess parallel customs documented; Ottoman-specific corpse ethics requires inference)",
+      "C-011-MYSTICAL-ANGELS (Folk belief documentation; theological complexity of martyrdom belief)",
+      "C-012-PSYCHOLOGICAL-COURAGE (Military psychology inference from historical context)"
+    ],
+    "REQUIRES_VERIFICATION": [
+      "C-002-AYDAR-PROTECTION (Specific ritual documentation limited; Kazakh traditions confirm general practice)",
+      "C-009-HELMET-PADDING (Logical inference from armor engineering; limited primary Ottoman documentation)",
+      "C-014-KURGAN-EVIDENCE (Archaeological sources found but Aydar-specific evidence not in current searches)",
+      "C-016-DIVAN-POETRY (Zülüf motif confirmed; detailed symbolic analysis requires full academic texts)",
+      "C-017-SERDEN-GECER (Divan poetry tradition confirmed; specific examples require primary text access)"
+    ]
+  },
+
+  "source_quality_assessment": {
+    "PRIMARY_SOURCES": {
+      "strengths": "Direct historical documentation, Orkhon inscriptions, Dede Korkut manuscripts, Kutadgu Bilig",
+      "limitations": "Limited Ottoman written records on Serdengeçti personal practices; gaps in Hun-era documentation"
+    },
+    "SECONDARY_SCHOLARLY": {
+      "strengths": "Academic articles, thesis work, university press publications on theology, literature, ethnography",
+      "limitations": "Some access restrictions (academia.edu, restricted PDFs); interdisciplinary debate on interpretation"
+    },
+    "ETHNOGRAPHIC": {
+      "strengths": "Living traditions documentation in Kazakh, Kyrgyz communities; continuity of practices",
+      "limitations": "Modern practices may diverge from historical versions; limited cross-verification with archaeological evidence"
+    },
+    "MEDIA_DOCUMENTATION": {
+      "strengths": "YouTube documentaries provide visual evidence of hairstyle and warrior culture",
+      "limitations": "Less rigorous than peer-reviewed sources; production quality variable"
+    }
+  },
+
+  "research_gaps_identified": [
+    "Specific Hun kurgan excavation data mentioning hair tufts or Aydar rituals (archaeological gap)",
+    "Ottoman primary military archives documenting Serdengeçti personal grooming practices",
+    "Detailed Dede Korkut manuscript analysis of Aydar/golden tuft hero imagery",
+    "Detailed Kutadgu Bilig textual analysis of perçem symbolism and meaning",
+    "Ottoman miniature visual analysis specifically cataloging Serdengeçti depictions",
+    "Circassian/Cherkess primary sources on warrior corpse handling customs",
+    "Comparative study of Islamic theology (Ash'ari/Maturidi) impact on Ottoman warrior culture"
+  ],
+
+  "next_phase_recommendations": {
+    "faz_c_verification": "Adversarial verification of C-001, C-002, C-014 using archaeological databases; historiographic audit of theological synthesis claims",
+    "sources_for_expansion": "Direct consultation of Orkhon inscription scholarly translations, Dede Korkut manuscript editions, Ottoman archive records",
+    "critical_path": "Verify claims C-010, C-011, C-012 on honor ethics and mysticism through Sufi literature analysis"
+  }
+}

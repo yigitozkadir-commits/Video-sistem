@@ -1,0 +1,376 @@
+================================================================================
+ECEL PERCEMI VIDEO - FLOW-RELATED PRODUCTION PROMPTS
+7-8 Minute Educational Video (450s / ~1240 words)
+================================================================================
+
+PROJECT: PRJ-ecel-percemi
+DELIVERABLE TYPE: M22 Scene Planning + M17 Direction + M05 Timing Sync
+GENERATED: 2026-08-13
+STATUS: Ready for M22/M17/M05 Production Pipeline
+
+================================================================================
+SECTION 1: M22 SCENE PLANNING (Visual Shot Specifications)
+================================================================================
+
+TOTAL INSERT SHOTS: 61-72 shots across 5 bölüm
+NARRATION CLOCK: 450 seconds (7.5 minutes @ 165 wpm average)
+ASPECT RATIO: 16:9 (standard long-form educational video)
+
+---
+
+BOLUM 1: GIRIS (90 seconds)
+Shot Count: 8-10 visuals
+Color Palette: Warm tones (orange, brown, gold)
+Music Guidance: Ağır, dramatik (trombon/ney)
+
+Visual Elements:
+- SC-001: Serdengeçti portrait (perçem detail visible, close-up emphasis)
+- SC-002: Bozkır silhouette (historical continuity, landscape)
+- 6-8 additional: Text overlay (terminology), artifact close-ups, transition sequences
+
+Key Visual Moments:
+  → 0:00-0:15: Hook intro, portrait enters
+  → 0:15-0:45: Definition + three-fold function explained
+  → 0:45-1:30: Thesis establishment, wide landscape shots
+
+---
+
+BOLUM 2: ESKİ TURKLER (90 seconds)
+
+Subsection 2a: Hunlar ve Bozkır Kültü (45s)
+Shot Count: 8 shots
+Visual Types: Archaeological reconstructions, kurgan burials, artifact details, nomadic lifestyle
+Color: Warm (orange, brown, gold — nomadic aesthetic)
+
+Subsection 2b: Göktürkler ve Moğollar (45s)
+Shot Count: 10 shots
+Visual Types: Portrait panels (braid progression), Orkhon inscriptions, iconography sequences, map animations
+Color: Warm tones continuing
+Animation: Portraiture sequence (panel by panel), hair/braid detail enlargements
+
+Total Section 2 Shots: 15-18 visuals
+Key Timing Sync:
+  → 1:30-2:15: Hunnic section, archaeological shots sequence
+  → 2:15-3:00: Göktürk evolution, portraiture progression with braid emphasis
+
+---
+
+BOLUM 3: ISLAMIYET'IN KABULÜ (90 seconds)
+Shot Count: 10-12 visuals
+Color Palette: Neutral + Islamic (blue, green, silver)
+Music Guidance: Neutral baseline + ezan-benzeri melodi (Islamic vocal line)
+
+Visual Elements:
+- Selçuklu sarayı (architecture)
+- İslam sembolleri (calligraphy, geometric patterns)
+- Ecel kavramı yazılı (Arabic + Turkish script)
+- Harita geçişi (cultural transition animation)
+- Synthesis diagram (pre-Islamic → Islamic integration shown visually)
+
+Key Visual Cues:
+  → Theological diagram showing dual paths merging
+  → Architectural transition (steppe yurt → Selçuklu palace)
+  → Color shift animation (warm → neutral/cool)
+
+Timing Sync:
+  → 3:00-3:45: Islamic theology (Ecel), calligraphy enters
+  → 3:45-4:30: Synthesis concept, map transition (steppe → Islamic architecture)
+
+---
+
+BOLUM 4: OSMANI SERDENGEÇTILERI (120 seconds — DENSEST SECTION)
+Shot Count: 18-20 visuals total
+Color Palette: Dramatic (red highlights, black contrast)
+Music Guidance: Dramatik, orkestral ağırlık (Ottoman military instrumentation)
+
+Subsection 4a: Pratik Gerekçeler (45s) — 8 shots
+Visual Type: Technical close-ups, helmet detail, armor padding, sefer kampı scenes
+Camera Style: Static, technical framing (clarity on armor details)
+Lighting: Hard, directional light (emphasize engineering)
+
+Key Shots:
+- Miğfer (helmet) with internal padding detail
+- Close-up of head-shaving pattern
+- Sefer (campaign) camp scene with soldiers preparing
+- Armor protection diagram
+
+Subsection 4b: Onur ve Etik Boyut (45s) — 5 shots
+Visual Type: Ceremonial shots, battlefield honor ritual visualization
+Camera Style: Medium pans, reverent spacing
+Lighting: Soft, golden hour (honor dignity)
+Special: Cherkess parallel shown side-by-side cultural comparison
+
+Key Shots:
+- Battlefield honor ritual (symbolic representation)
+- Cherkess warrior tradition parallel visualization
+- Corpse dignity scene (respectful, not graphic)
+- Perçem tuft detail (multiple angles emphasizing handle/grip for dignity preservation)
+
+Subsection 4c: Mistik-Ruhani Boyut (45s) — 5-7 shots
+Visual Type: Ethereal imagery, light effects, angel symbolism
+Camera Style: Slow push-in (immersion into mystical space), layered light overlays
+Lighting: Dramatic red/black contrast, heavenly light rays
+Animation: Angel figures as light/silhouette (symbolic, NOT literal creatures)
+
+Key Visual Elements:
+- Light rays entering frame (heavenly symbolism)
+- Angel-figure silhouettes moving through frame
+- Psychological intensity graph (warrior's mental state visualized as light/color intensity)
+- Perçem tuft with ethereal light wrapping around it
+- Transition from warrior to spiritual realm imagery
+
+Timing Sync:
+  → 4:30-5:15: Practical functions, helmet detail shots, close-ups
+  → 5:15-6:00: Honor ethics, ceremonial shots, Cherkess parallel
+  → 6:00-7:00: Mysticism, light effects, angel symbolism, psychological buildup
+
+---
+
+BOLUM 5: KAPANISH (60 seconds)
+Shot Count: 10-12 visuals
+Color Palette: Cool blue hour (sky blue, purple, silver stars)
+Music Guidance: Sessizlik + doğa sesleri (silence + wind, nature ambient)
+Animation Style: Text overlays (literary quotes), fade-heavy transitions
+
+Key Visual Sequence:
+- SC-053: Bozkır gün batımı (landscape anchor, sunset)
+- SC-054-058: Edebiyat referansları (5 shots)
+  → Calligraphic art from Divan poetry
+  → Dede Korkut manuscript imagery
+  → Hero silhouettes
+  → Literary reference panels
+- SC-059-061: Final meditation sequence
+  → Serdengeçti silhouette against sky
+  → Stars appear, fade progression
+  → Fade to black
+  → Credits roll
+
+Visual Arc: Warm (sections 1-4) → Cool reflection (section 5)
+
+Timing Sync:
+  → 7:00-7:45: Literary echoes, calligraphic art and manuscript imagery
+  → 7:45-8:30: Modern meaning, landscape fade, credits
+
+================================================================================
+SECTION 2: M17 DIRECTION (Visual Tone & Camera Movement Per Section)
+================================================================================
+
+BOLUM 1: GIRIS
+Visual Tone: Formal, solemn, introduction (establishes stakes)
+Camera Movement: Subtle pan (left to right for portraiture), slow zoom on perçem detail
+Lighting: High-key, clear definition (no mystery yet, clarity of definition)
+Animation Style: Fade transitions between portrait and landscape
+Special Effect: Perçem detail highlight (zoomed close-up with subtle glow)
+
+Transition to Bolum 2: Fade from portrait → bozkır silhouette (temporal connection)
+
+---
+
+BOLUM 2: ESKİ TURKLER
+Visual Tone: Historical, nomadic, spiritual (establishing continuity across 1500 years)
+Camera Movement: Slow parallax (layered depth on archaeological drawings), panning maps showing cultural diffusion across Eurasia
+Animation:
+  - Portrait panels fade in sequence (Hunnic → Göktürk progression)
+  - Hair/braid details enlarge and zoom (emphasis on visual continuity)
+  - Map animation shows Hunnic territory → Göktürk expansion → cultural spread
+Lighting: Warm, earthy (nomadic authenticity)
+Pacing: Measured, allowing history to settle with each shot
+
+Transition to Bolum 3: Gradual color shift (warm → neutral, preparing for Islamic section)
+
+---
+
+BOLUM 3: ISLAMIYET'IN KABULÜ
+Visual Tone: Integration, synthesis (theological bridge, NOT replacement)
+Camera Movement: Smooth morphing transitions (architectural forms transform from nomadic to Islamic)
+Animation:
+  - Ecel word builds letter-by-letter (Arabic script, then Turkish)
+  - Synthesis diagram shows dual paths merging into one (visual proof of integration)
+  - Architectural morphing (yurt → palace silhouette)
+  - Color palette shifts in animation (orange/brown → blue/green/silver)
+Lighting: Gradual shift from warm to cool/neutral
+Special: Transition music carries weight of integration (smooth blend, not hard cut)
+
+Transition to Bolum 4: Building intensity (warm colors return slightly in dramatic form for Ottoman section)
+
+---
+
+BOLUM 4: OSMANI SERDENGEÇTILERI (MOST DRAMATIC)
+Visual Tone: Intense, multifaceted, building psychological and spiritual depth
+
+4a: Pratik Gerekçeler
+  - Documentary-style precision (technical clarity)
+  - Close-up camera work (helmet details, armor specifics)
+  - Hard, directional lighting (clarity on engineering)
+  - No dramatization, clarity focus
+
+4b: Onur ve Etik
+  - Ceremonial reverence (honor ritual visualized)
+  - Medium pans with respectful spacing
+  - Soft, golden-hour lighting (dignity)
+  - Cherkess parallel shown as cultural echo (side-by-side, equal weight)
+
+4c: Mistik-Ruhani (most ethereal)
+  - Slow push-in camera (psychological immersion)
+  - Ethereal light effects layered over imagery
+  - Red/black dramatic contrast building intensity
+  - Angel figures as light movements (symbolic, psychological)
+  - Intensity graph visualization (warrior's mental/spiritual state)
+  - Layered light overlays creating sense of heavenly connection
+
+Overall Bolum 4 Camera Arc: Technical → Ceremonial → Ethereal (engineering → honor → spirituality)
+
+---
+
+BOLUM 5: KAPANISH
+Visual Tone: Reflective, philosophical (legacy, meaning-making, not action)
+Camera Movement: Slow, contemplative (long takes without rapid cuts), sky-focused cinematography
+Animation: Text overlays appear over landscape (literary quotes)
+Lighting: Blue-hour photography (late sunset aesthetic), stars gradually appearing
+Fade Strategy: Heavy fades between shots (meditation pacing)
+
+Finale Sequence:
+  - Landscape holds (5+ seconds per shot, allowing contemplation)
+  - Stars appear gradually (hope, eternity)
+  - Fade to black (closure)
+  - Credits roll over serdengeçti silhouette + sky + sound fade
+
+Overall Section Arc: Warm → Cool (visual temperature metaphor for time's passage)
+
+================================================================================
+SECTION 3: M05 NARRATION TIMING & VISUAL SYNC
+================================================================================
+
+TOTAL DURATION: 450 seconds (7 minutes 30 seconds)
+TOTAL WORD COUNT: ~1240 words
+DELIVERY PACE:
+  - Sections 1-3: 140 wpm (normal, measured, solemn)
+  - Section 4: 165 wpm (faster, dramatic intensity)
+  - Section 5: 140 wpm (slower, reflective pauses)
+
+NARRATION-TO-VISUAL SYNC POINTS:
+
+BOLUM 1 (90 seconds, ~250 words)
+Timing Breakdown:
+  0:00-0:15  Hook narration ("Osmanlı ordusunun...")
+             Visual: SC-001 perçem close-up enters, title text fades in
+  0:15-0:45  Definition + three-fold function explained
+             Visual: SC-002 bozkır silhouette transitions in, text overlay (definition)
+  0:45-1:30  Thesis establishment, historical continuity framing
+             Visual: Wide landscape shots, temporal transition (past → present)
+
+BOLUM 2 (90 seconds, ~250 words)
+  1:30-2:15  Hunnic Aydar section narration
+             Visual: 2a archaeological shots (kurgan detail, artifact, burial scene)
+  2:15-3:00  Göktürk evolution narration
+             Visual: 2b portraiture sequence (braid progression animated), Orkhon inscription imagery
+
+BOLUM 3 (90 seconds, ~250 words)
+  3:00-3:45  Islamic theology (Ecel concept) narration
+             Visual: Calligraphy enters, synthesis diagram builds, Ecel word written
+  3:45-4:30  Synthesis concept narration (integration vs. replacement)
+             Visual: Map transition animation (steppe → Islamic architecture), color shift
+
+BOLUM 4 (120 seconds, ~330 words) — LONGEST SECTION
+  4:30-5:15  Practical functions narration (hygiene, armor padding logic)
+             Visual: 4a helmet detail shots, close-ups, sefer kampı scenes (technical, documentary style)
+  5:15-6:00  Honor ethics narration (corpse dignity, Cherkess parallel)
+             Visual: 4b ceremonial shots, battlefield honor ritual, Cherkess tradition side-by-side
+  6:00-7:00  Mysticism narration (angel belief, psychological courage, spiritual dimension)
+             Visual: 4c light effects intensify, angel symbolism, psychological intensity buildup, ethereal imagery
+
+BOLUM 5 (60 seconds, ~160 words)
+  7:00-7:45  Literary echoes narration (Dede Korkut, Divan poetry references)
+             Visual: Calligraphic art, manuscript imagery, hero silhouettes
+  7:45-8:30  Modern meaning + closing philosophy narration (wariorhood ≠ barbarity)
+             Visual: Landscape fade to black, credits roll over serdengeçti silhouette + sky
+
+================================================================================
+CONFIDENCE LEVEL ANNOTATIONS (Narrator Reference)
+================================================================================
+
+HIGH CONFIDENCE — Deliver with authority:
+  → Kut concept (divine force)
+  → Ecel theology (Islamic predestination doctrine)
+  → Serdengeçti definition (elite Ottoman assault units)
+  → Tin concept (breath/soul in Old Turkic philosophy)
+
+MEDIUM CONFIDENCE — Frame with academic language:
+  → Hunnic Aydar ritual (ethnographic continuity inferred from later practices)
+  → Islamic synthesis theory (pattern observed, explicit causal mechanism not documented)
+  → Practical functions: hygiene & armor (logical engineering, not explicitly documented in Ottoman records)
+  → Honor ethics: corpse dignity (Cherkess parallel strong, Ottoman-specific evidence limited)
+
+OPEN QUESTIONS — Frame as "tradition holds" or "believed":
+  → Dede Korkut "Altın Aydarlı Alp" hero imagery (epic tradition confirmed; specific character imagery requires manuscript verification)
+  → Kutadgu Bilig perçem symbolism (hair imagery present; specific perçem meaning requires full text analysis)
+
+================================================================================
+DELIVERY NOTES FOR NARRATOR
+================================================================================
+
+TONE: Formal, educational, respectful to subject matter (NOT romanticizing)
+
+PACING STRATEGY:
+  - Sections 1-3: Slower, measured (let history settle, build foundation)
+  - Section 4: Faster, building dramatic intensity (parallel practical + ethical + mystical dimensions)
+  - Section 5: Reflective, with contemplative pauses (philosophy, not action)
+
+EMPHASIS POINTS (Stress these in delivery):
+  → Ecel Perçemi definition (Section 1 hook — establish stakes)
+  → Three-fold function transition (practical → ethical → mystical)
+  → Synthesis concept (Islam integrated into, not replaced, pre-Islamic tradition)
+  → Warrior honor code (Section 4b emphasis — dignity after death)
+  → Literary echoes (Section 5 — meaning made through culture, not just practice)
+
+LANGUAGE GUARDRAILS:
+  ✗ AVOID: Glorification language, "primitive warrior culture," "exotic death cult"
+  ✗ AVOID: Orientalist framing, modern extrapolation (don't say "modern Turks still do this")
+  ✗ AVOID: Literal angelology (angels aren't real) — frame as "believed," "folk tradition"
+  ✓ DO: Frame as historical practice rooted in coherent philosophy
+  ✓ DO: Emphasize continuity (1500 years of evolving meaning)
+  ✓ DO: Acknowledge faith dimension without claiming literal truth
+
+================================================================================
+VISUAL ASSET SPECIFICATIONS (Color, Music, Animation)
+================================================================================
+
+COLOR PROGRESSION:
+  Section 1-2: Warm (orange, brown, gold) — nomadic, historical depth
+  Section 3: Transition (warm → neutral/cool) — Islamic integration
+  Section 4: Dramatic (red highlights, black contrast) — intensity, honor stakes
+  Section 5: Cool blue hour (sky blue, purple, silver stars) — reflection, closure
+
+MUSIC GUIDANCE BY SECTION:
+  Bolum 1: Ağır, dramatik (trombon/ney, slow, grave)
+  Bolum 2: Bozkır enstrümanları (nomadic rhythmic, building intensity)
+  Bolum 3: Neutral baseline + ezan-benzeri melodi (Islamic vocal line, respectful transition)
+  Bolum 4: Dramatik, orkestral ağırlık (Ottoman military instrumentation, trombon/ney + strings + percussion)
+  Bolum 5: Sessizlik + doğa sesleri (silence + wind/nature ambient), ağırbaşlı reflexive tone
+
+ANIMATION STYLE:
+  - Parallax effects (layered depth, especially sections 2-3)
+  - Fade transitions (smooth temporal flow)
+  - Zoom emphasis (detail focus on perçem, helmet, key objects)
+  - Color shift animations (representing cultural/philosophical transitions)
+  - Symbolic light effects (section 4c mysticism, NOT literal creatures)
+  - Text overlay (literary quotes in section 5)
+  - Fade to black (closure, meditation)
+
+================================================================================
+INTEGRATION NOTES FOR PRODUCTION
+================================================================================
+
+This specification feeds into:
+  → M22 Scene Planning: Shot specifications, visual asset types, color palette
+  → M17 Direction: Camera movement, lighting, animation style, mood per section
+  → M05 Script Writing: Narration timing, delivery pace, emphasis points
+
+All visual shots (61-72) map to narration clock (450 seconds). Visuals follow audio rhythm, not reverse (CLAUDE.md Law #3).
+
+Confidence levels annotated for narrator awareness — no edits to narration required, but awareness necessary for delivery authenticity.
+
+================================================================================
+END PRODUCTION PROMPTS
+Generated: 2026-08-13 | Status: READY FOR M22/M17/M05 PIPELINE
+================================================================================

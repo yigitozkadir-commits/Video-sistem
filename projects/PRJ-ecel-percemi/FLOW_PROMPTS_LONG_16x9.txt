@@ -1,0 +1,739 @@
+ECEL PERÇEMİ — UZUN VİDEO (7-8 DK) · GOOGLE FLOW PROMPT LİSTESİ
+Proje: PRJ-ecel-percemi · Format: 16:9 yatay · Süre: 450 sn · 67 shot
+Hazırlandı 2026-08-13 · ÜRETİM YAPILMADI, kullanıcı kendi üretecek.
+
+--------------------------------------------------------------------------------
+KULLANIM
+--------------------------------------------------------------------------------
+Her blok bir shot. Köşeli parantez satırı Flow'a YAPIŞTIRILMAZ, sadece
+senin için: [shot_id · videodaki zaman · MOD].
+
+MOD = IMAGE  → Flow'da "Image" modu, tek kare üret.
+MOD = VIDEO  → Flow'da "Video" modu, 8 saniyelik klip üret.
+
+Altındaki paragrafın TAMAMI prompt kutusuna gider.
+NEGATIVE PROMPT ve FLOW AYARLARI aşağıda BİR KEZ verildi — hepsinde aynı,
+her seferinde tekrar okumana gerek yok.
+
+--------------------------------------------------------------------------------
+TÜM SHOTLAR İÇİN ORTAK AYARLAR
+--------------------------------------------------------------------------------
+FLOW AYARLARI : aspect ratio 16:9 · candidates 3 · seed tabanı 20260813
+                (shot sırasına göre 20260813001, 002, 003... diye artır)
+
+NEGATIVE PROMPT (her promptta aynısını kullan):
+text, letters, watermark, extra fingers, warped face, plastic skin,
+modern objects, camera shake, oversaturation, distorted horizon,
+duplicated architecture, tilted frame, neon, pastel, anime stylisation,
+lens flare, gore, blood, graphic violence
+
+STİL (promptların içine zaten gömülü, ayrıca yazmana gerek yok):
+historical_epic_steppe — desaturated warm shadows, cool highlights,
+film curve, fine 35mm grain. Doku dili: keçe, deri, pirinç, yün,
+soğuk havada nefes.
+
+--------------------------------------------------------------------------------
+VİDEO KOTASI UYARISI (önemli)
+--------------------------------------------------------------------------------
+Bu listede 67 shot var; bunların sadece 10 tanesi VIDEO modu (8 sn × 10 =
+80 sn), geri kalan 57'si IMAGE. Günlük Flow video tavanı 300 sn olduğu için
+10 video klip tek günde rahat sığar. Kota dolarsa VIDEO shot'ları da IMAGE
+olarak üret — Remotion tarafında yavaş push-in ile hareket verilir, video
+klip zorunlu değil. Kotanın bittiğini bana söyle, planı ona göre güncelleyeyim.
+
+Renk paleti bölüm bölüm değişiyor (sıcak → nötr/mavi → dramatik kırmızı →
+gece mavisi). Bu kasıtlı, promptların içinde hex kodlarıyla yazılı.
+
+
+================================================================================
+BÖLÜM 1 — GİRİŞ (0:00-1:30) · 9 shot · sıcak toprak tonları
+================================================================================
+
+[SC-001 · 0:00-0:08 · IMAGE]
+An Ottoman Serdengeçti warrior in three-quarter profile against a dark
+neutral background, head completely shaven except for a single long tuft
+of hair left at the crown falling to one side, weathered sun-darkened
+face, thick moustache, felt and leather kaftan with a brass clasp.
+still, calm, breath faintly visible in cold air. single soft window light
+from camera left, deep shadow on the right. medium close portrait, eye
+level. 85mm portrait lens, shallow focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, ochre, earth brown, deep
+red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-002 · 0:08-0:15 · IMAGE]
+Extreme close-up of the back of a shaven human head, a single braided
+tuft of dark hair emerging from the crown and falling across the nape,
+individual hairs catching the light, skin texture and old faint scar
+visible. still. warm low side light, dark falloff behind. macro detail
+shot, slightly above eye level. 85mm portrait lens, very shallow focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still
+frame.
+
+[SC-003 · 0:15-0:22 · VIDEO]
+A vast empty Central Asian steppe at golden hour, endless dry grass
+bending in a low wind, a single distant horseman silhouetted on the far
+ridge line, huge sky. warm and dry. golden_hour backlight, long shadows
+across the grass. wide establishing shot, low horizon, eye level. 28mm
+equivalent, deep focus. Motion: environmental only — grass rippling in
+wind, slow drifting dust haze; camera holds still. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, ochre, earth brown, deep
+red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, 8s.
+
+[SC-004 · 0:22-0:30 · IMAGE]
+A worn Ottoman iron helmet resting alone on a folded wool cloth on
+packed earth, dented surface, brass rivets, leather chin strap coiled
+beside it. still, quiet, abandoned. overcast_soft diffused light from
+above. tabletop still-life, high three-quarter angle. normal 50mm lens,
+medium focus. Motion: none. desaturated warm shadows, cool highlights,
+film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-005 · 0:30-0:38 · IMAGE]
+Three Ottoman warriors seen from behind standing shoulder to shoulder
+facing a dawn horizon, all with shaven heads and a single top-tuft each,
+long spears held upright, heavy wool cloaks. still, waiting. cold blue
+dawn light in front of them, warm rim light on their shoulders. wide
+back-view group shot, low angle. 35mm equivalent, deep focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still
+frame.
+
+[SC-006 · 0:38-0:46 · IMAGE]
+A hand holding a straight razor beside a shaven scalp, dark hair falling
+away onto a spread cloth below, ritual stillness, no blood. deliberate,
+slow gesture. firelight_warm from below-left, deep shadow behind.
+close-up on hands and blade, eye level. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-007 · 0:46-0:56 · IMAGE]
+An aged Ottoman military campaign tent interior at night, low fire in a
+brazier, weapons stacked against the tent pole, a single seated warrior
+with shaven head and top-tuft sharpening a blade, smoke hanging in the
+air. quiet, before battle. firelight_warm as the only source, deep
+shadow. medium wide interior, eye level. 35mm equivalent, medium focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve,
+fine 35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9,
+still frame.
+
+[SC-008 · 0:56-1:12 · IMAGE]
+A weathered antique map surface of the Eurasian steppe belt drawn in ink
+on aged parchment, mountain and river lines, no legible writing, a brass
+compass and a leather cord lying across one corner. still, archival.
+single_window_soft light raking across the paper texture. top_down flat
+lay, slight angle. normal 50mm lens, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, ochre,
+earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-009 · 1:12-1:30 · VIDEO]
+A lone warrior silhouette standing on a steppe ridge against an enormous
+dawn sky, single top-tuft of hair visible against the light, cloak
+moving slightly. vast, solitary. golden_hour heavy backlight, subject
+almost fully in silhouette. wide shot, low angle looking slightly up.
+28mm equivalent, deep focus. Motion: cloak and grass moving in wind,
+clouds drifting slowly; camera very slow push in. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, ochre, earth brown,
+deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, 8s.
+
+
+================================================================================
+BÖLÜM 2A — HUNLAR (1:30-2:15) · 8 shot · sıcak toprak tonları
+================================================================================
+
+[SC-010 · 1:30-1:36 · IMAGE]
+A Hunnic steppe encampment at dusk, low round felt tents, horses tethered
+in a line, cooking smoke rising in thin columns, figures small and
+distant. cold air, dry. golden_hour low sun behind the camp, smoke
+catching the light. wide establishing shot, slightly elevated. 28mm
+equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-011 · 1:36-1:42 · IMAGE]
+A young nomad child of the steppe, head shaven except for a small soft
+tuft of hair left at the crown, wrapped in a fur-trimmed felt coat,
+looking directly at camera with a solemn expression. still. overcast_soft
+diffused daylight. close portrait, slightly below eye level. 85mm
+portrait lens, shallow focus. Motion: none. desaturated warm shadows,
+cool highlights, film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-012 · 1:42-1:49 · IMAGE]
+A small bundle of cut dark hair bound with a strip of red woven cloth,
+resting on a flat grey stone at the foot of a weathered wooden ritual
+pole hung with faded cloth strips. still, votive, wind-worn. overcast_soft
+light, cool ambient. close-up on the bundle, low angle. 85mm portrait
+lens, shallow focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-013 · 1:49-1:55 · IMAGE]
+A large grass-covered burial kurgan mound rising from flat empty steppe,
+a ring of standing stones half sunk around its base, no people. still,
+ancient, silent. overcast_soft flat daylight, heavy grey sky. wide shot,
+low horizon, eye level. 28mm equivalent, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, ochre,
+earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-014 · 1:55-2:01 · IMAGE]
+An archaeological excavation trench cut into a kurgan, layered soil
+profile clearly visible, string grid lines dividing the square, small
+numbered markers, no people in frame. dry, dusty. bright overcast_diffused
+light. top_down wide, straight down. 28mm equivalent, deep focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still
+frame.
+
+[SC-015 · 2:01-2:05 · IMAGE]
+Ancient grave goods laid out on dark cloth in a museum-style
+arrangement: a corroded bronze horse bit, carved bone toggles, a small
+gold-foil ornament, a fragment of woven textile. still, catalogued.
+overcast_soft even light from above. top_down flat lay. normal 50mm lens,
+deep focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F).
+16:9, still frame.
+
+[SC-016 · 2:05-2:10 · IMAGE]
+A Hunnic mounted warrior at full stop on the open steppe, composite bow
+across his back, long hair tied at the crown, layered leather lamellar
+armour, shaggy steppe horse breathing hard in cold air. tense, paused.
+golden_hour side light, long shadow on the grass. medium wide, eye level.
+50mm normal lens, medium focus. Motion: none. desaturated warm shadows,
+cool highlights, film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-017 · 2:10-2:15 · VIDEO]
+A wide empty steppe under a fast-moving overcast sky, tall dry grass
+filling the lower third, a distant line of low hills. cold wind, no
+people. overcast_soft flat light with moving cloud shadow. wide
+establishing, low horizon. 28mm equivalent, deep focus. Motion:
+environmental only — grass moving in wind, cloud shadow travelling across
+the ground; camera static. desaturated warm shadows, cool highlights,
+film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, 8s.
+
+
+================================================================================
+BÖLÜM 2B — GÖKTÜRKLER (2:15-3:00) · 9 shot · sıcak → nötre geçiş
+================================================================================
+
+[SC-018 · 2:15-2:20 · IMAGE]
+A Göktürk noble warrior in three-quarter view, very long dark hair worn
+in several thick braids down his back with a distinct tuft gathered at
+the crown, silk-trimmed kaftan over lamellar armour, silver belt
+fittings. standing still, formal. single_window_soft light from camera
+left. medium portrait, eye level. 85mm portrait lens, shallow focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still
+frame.
+
+[SC-019 · 2:20-2:26 · IMAGE]
+Detail shot from behind of long dark hair worked into three tight
+braids, bound at intervals with narrow leather cords and small silver
+rings, falling over an embroidered silk collar. still. warm side light
+raking across the braid texture. macro close-up, eye level. 85mm portrait
+lens, very shallow focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, ochre, earth brown, deep red
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-020 · 2:26-2:32 · IMAGE]
+A tall weathered stone stele standing alone on grassland, its surface
+covered in worn carved runic-style inscription marks, lichen in the
+grooves, a broken stone base. ancient, eroded. golden_hour raking light
+that makes the carved grooves catch shadow. medium shot, low angle
+looking up. 50mm normal lens, medium focus. Motion: none. desaturated
+warm shadows, cool highlights, film curve, fine 35mm, ochre, earth brown,
+deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-021 · 2:32-2:37 · IMAGE]
+Extreme close-up of carved stone inscription surface, deep chiselled
+angular marks filled with shadow and lichen, stone grain and weathering
+pits clearly visible, abstract and unreadable. still. hard raking side
+light. macro detail, straight on. 85mm portrait lens, shallow focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still
+frame.
+
+[SC-022 · 2:37-2:43 · IMAGE]
+A row of weathered stone balbal figures standing in a line across open
+grassland, each a rough human form with a cup held at the chest, leaning
+at slightly different angles, stretching toward the horizon. still,
+solemn. golden_hour low sun casting long parallel shadows. wide shot, low
+angle. 35mm equivalent, deep focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, ochre, earth brown, deep
+red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-023 · 2:43-2:48 · IMAGE]
+A Göktürk ruler seated on a low carved wooden throne inside a large felt
+pavilion, wearing a tall crown-like headdress, long braided hair visible
+over the shoulders, attendants standing back in shadow. formal, static.
+single_window_soft shaft of daylight through the tent opening onto the
+throne. medium wide interior, slightly low angle. 35mm equivalent, medium
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, ochre, earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F).
+16:9, still frame.
+
+[SC-024 · 2:48-2:52 · IMAGE]
+A huge open sky filled with layered high cloud above a thin strip of
+dark steppe at the very bottom of the frame, immense vertical space,
+faint sun disc behind the cloud. vast, cold, empty. overcast_soft
+backlight through cloud. extreme wide shot, very low horizon, tilt up.
+28mm equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, ochre, earth brown, cold grey
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-025 · 2:52-2:56 · IMAGE]
+A single grey crane in flight seen from below against a pale overcast
+sky, wings fully extended, small in a large empty frame. rising, solitary.
+overcast_soft flat backlight. wide shot, straight up, tilt.up. 50mm normal
+lens, deep focus. Motion: none. desaturated warm shadows, cool highlights,
+film curve, fine 35mm, cold grey, ochre, earth brown
+(#C8B18A/#6B4A2F/#8C1F1F). 16:9, still frame.
+
+[SC-026 · 2:56-3:00 · VIDEO]
+A Göktürk warrior standing on a rocky outcrop overlooking a wide steppe
+valley at dusk, long braids and cloak moving in the wind, back to camera.
+still, contemplative. golden_hour heavy backlight, figure mostly in
+silhouette. wide shot, low angle. 35mm equivalent, deep focus. Motion:
+hair and cloak moving in wind, slow cloud drift; camera slow push in.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, ochre,
+earth brown, deep red (#C8B18A/#6B4A2F/#8C1F1F). 16:9, 8s.
+
+
+================================================================================
+BÖLÜM 3 — İSLAMİYET'İN KABULÜ (3:00-4:30) · 11 shot · mavi/yeşil/gümüş
+================================================================================
+
+[SC-027 · 3:00-3:08 · IMAGE]
+A Seljuk stone portal doorway with deep geometric interlace carving
+around the arch, worn steps leading up, heavy shadow inside the opening.
+still, monumental. single_window_soft daylight raking across the carved
+relief. medium wide, low angle looking up. 35mm equivalent, deep focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, deep blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8).
+16:9, still frame.
+
+[SC-028 · 3:08-3:15 · IMAGE]
+An interior of an early Anatolian mosque, thick stone columns receding
+into shadow, a single shaft of daylight falling onto a worn prayer
+carpet, empty of people. still, hushed. single_window_soft high shaft of
+light, deep surrounding shadow. wide interior, eye level. 28mm
+equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, deep blue, muted green, pale silver
+(#1F3A5C/#4A7C6F/#C8D4E8). 16:9, still frame.
+
+[SC-029 · 3:15-3:21 · IMAGE]
+An open handwritten manuscript page on a low wooden reading stand, dense
+flowing calligraphic script with a gold-leaf illuminated border panel,
+the writing decorative and not legible as any real word. still, archival.
+single_window_soft warm light from the left across the page. close-up,
+high three-quarter angle. 85mm portrait lens, shallow focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+deep blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8). 16:9,
+still frame.
+
+[SC-030 · 3:21-3:27 · IMAGE]
+A brass astrolabe and a sand hourglass side by side on a dark wooden
+table, fine engraved rings on the astrolabe, sand mid-fall in the glass.
+still, measuring time. single_window_soft light from one side, dark
+background. close-up still life, eye level. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep blue, muted green, pale silver
+(#1F3A5C/#4A7C6F/#C8D4E8). 16:9, still frame.
+
+[SC-031 · 3:27-3:33 · IMAGE]
+A scholar's hand holding a reed pen above an inkwell, poised over an
+unfinished manuscript line, ink glistening at the nib. suspended, about
+to write. warm single_window_soft light from the left. macro close-up on
+hand and pen, high angle. 85mm portrait lens, very shallow focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+deep blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8). 16:9,
+still frame.
+
+[SC-032 · 3:33-3:40 · VIDEO]
+A large domed mosque interior seen from below, concentric geometric
+patterning across the dome, dust motes drifting through a shaft of light
+from a high window. still, immense, empty. single_window_soft high shaft
+of light. wide, straight up, tilt.up. 28mm equivalent, deep focus.
+Motion: dust motes drifting slowly in the light shaft; camera very slow
+tilt up. desaturated warm shadows, cool highlights, film curve, fine
+35mm, deep blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8).
+16:9, 8s.
+
+[SC-033 · 3:40-3:47 · IMAGE]
+A steppe felt tent and a stone mosque dome standing in the same frame on
+the same horizon line, separated by open ground, both catching the same
+low light. still, deliberate visual pairing. golden_hour low side light.
+wide shot, eye level, symmetrical composition. 35mm equivalent, deep
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep blue, muted green, ochre
+(#1F3A5C/#4A7C6F/#C8B18A). 16:9, still frame.
+
+[SC-034 · 3:47-3:55 · IMAGE]
+A caravan of laden camels and riders crossing a wide dry plain toward a
+distant walled city with minarets on the horizon. moving away, small in
+frame. golden_hour warm haze, long shadows. extreme wide shot, low
+horizon. 28mm equivalent, deep focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, deep blue, muted green,
+ochre (#1F3A5C/#4A7C6F/#C8B18A). 16:9, still frame.
+
+[SC-035 · 3:55-4:05 · IMAGE]
+A Seljuk cavalry banner on a tall pole planted in dry ground, heavy
+embroidered cloth hanging in still air, tassels and a crescent-shaped
+brass finial at the top, dark sky behind. still, waiting. golden_hour
+backlight through the cloth. medium shot, low angle looking up. 50mm
+normal lens, medium focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, deep blue, muted green, deep red
+(#1F3A5C/#4A7C6F/#8C1F1F). 16:9, still frame.
+
+[SC-036 · 4:05-4:18 · IMAGE]
+An old cemetery of leaning carved stone grave markers on a hillside,
+each topped with a stone turban form, long grass between them, cypress
+trees behind. still, weathered, peaceful. overcast_soft flat light, cool
+ambient. wide shot, low angle. 35mm equivalent, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, deep
+blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8). 16:9, still
+frame.
+
+[SC-037 · 4:18-4:30 · IMAGE]
+A single warrior kneeling alone on a prayer mat on open ground at dawn,
+head bowed, weapons laid down beside him on the earth, vast empty
+landscape around. still, private, reverent. cold blue dawn light with a
+warm rim on his shoulders. wide shot, low angle, eye level. 35mm
+equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, deep blue, muted green, ochre
+(#1F3A5C/#4A7C6F/#C8B18A). 16:9, still frame.
+
+
+================================================================================
+BÖLÜM 4A — OSMANLI: PRATİK GEREKÇELER (4:30-5:15) · 8 shot · dramatik kırmızı
+================================================================================
+
+[SC-038 · 4:30-4:36 · IMAGE]
+An Ottoman siege camp spread across a plain below a fortress wall, rows
+of white tents, cannon emplacements, smoke drifting, distant figures
+moving between the lines. dusty, crowded, mid-campaign. overcast_diffused
+harsh daylight through haze. extreme wide establishing shot, elevated.
+28mm equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, deep red, near black, ochre
+(#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-039 · 4:36-4:42 · IMAGE]
+Interior of an Ottoman campaign tent, a warrior seated on a low stool
+having his head shaved by another man with a straight razor, cut hair
+gathering on the ground cloth, other soldiers waiting behind in shadow.
+routine, unceremonious. firelight_warm from a low lamp, deep shadow.
+medium wide interior, eye level. 35mm equivalent, medium focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+deep red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-040 · 4:42-4:47 · IMAGE]
+Close-up of a freshly shaven scalp with a single tuft of hair remaining
+at the crown, skin still reddened from the blade, beads of sweat, a
+folded cloth at the neck. still, immediate. hard directional light from
+above-left. macro close-up, high angle. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A).
+16:9, still frame.
+
+[SC-041 · 4:47-4:53 · IMAGE]
+Cutaway-style technical view of an Ottoman iron helmet turned upside
+down showing its inner cavity, quilted padding stitched around the inner
+rim, leather suspension straps, hammer marks on the steel. still,
+instructive. hard directional key light from above, dark background.
+close-up product-style shot, high three-quarter angle. 85mm portrait lens,
+deep focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A).
+16:9, still frame.
+
+[SC-042 · 4:53-4:58 · IMAGE]
+A warrior lowering an iron helmet onto his shaven head, the top-tuft of
+hair compressing under the padded rim, hands gripping the helmet edges,
+jaw set. mid-action, deliberate. hard directional side light, strong
+shadow. tight medium close-up, slightly low angle. 85mm portrait lens,
+shallow focus. Motion: none. desaturated warm shadows, cool highlights,
+film curve, fine 35mm, deep red, near black, ochre
+(#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-043 · 4:58-5:04 · IMAGE]
+A field surgeon's roll of instruments open on a wooden crate: bronze
+tweezers, a small blade, rolled linen bandage, a clay jar of ointment,
+all worn from use. still, clinical, period-accurate. overcast_soft even
+daylight. top_down flat lay. normal 50mm lens, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, deep
+red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-044 · 5:04-5:09 · IMAGE]
+Ottoman Serdengeçti volunteers massed at the foot of a fortress wall in
+a dry ditch, ladders raised, shields up, all with shaven heads and top
+tufts, dust and smoke overhead. tense, packed, moments before the
+assault. hard directional afternoon light, heavy dust haze. wide shot,
+low angle looking up the wall. 28mm equivalent, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, deep
+red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-045 · 5:09-5:15 · VIDEO]
+An Ottoman battle standard with horsehair tassels planted at the edge of
+a siege trench, heavy smoke drifting behind it, indistinct figures moving
+in the haze beyond. chaotic background, still foreground. hard
+directional light through smoke. medium shot, low angle. 50mm normal
+lens, shallow focus. Motion: smoke drifting across frame, horsehair
+tassels swaying, banner cloth moving; camera static. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, deep red, near black,
+ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, 8s.
+
+
+================================================================================
+BÖLÜM 4B — OSMANLI: ONUR VE ETİK (5:15-6:00) · 5 shot · dramatik kırmızı
+================================================================================
+
+[SC-046 · 5:15-5:24 · IMAGE]
+A battlefield at dusk after the fighting has ended, scattered abandoned
+shields and broken spears across churned ground, low smoke, no bodies
+shown, empty and quiet. aftermath, still. golden_hour low red sun through
+smoke. wide shot, low horizon. 28mm equivalent, deep focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, deep
+red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-047 · 5:24-5:33 · IMAGE]
+Two warriors carefully lifting a cloth-covered form on a simple wooden
+stretcher at dusk, heads bowed, movements slow and respectful, nothing
+graphic visible. reverent, careful. golden_hour warm backlight, figures
+mostly in silhouette. medium wide, eye level. 50mm normal lens, medium
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A).
+16:9, still frame.
+
+[SC-048 · 5:33-5:42 · IMAGE]
+A Circassian highland warrior in traditional cherkeska coat with
+cartridge pockets across the chest, tall fur hat, standing in a mountain
+pass, formal and still. cold mountain air. overcast_soft flat daylight,
+cool ambient. medium portrait, eye level. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, deep red, near black, cold grey
+(#8C1F1F/#1A1A1A/#C8D4E8). 16:9, still frame.
+
+[SC-049 · 5:42-5:51 · IMAGE]
+A folded battle-worn cloak, a sheathed sword and a rolled turban cloth
+laid out together in a neat row on packed earth, as belongings returned
+to a family. still, ceremonial arrangement. single_window_soft raking
+light, deep shadow behind. close-up still life, high three-quarter angle.
+85mm portrait lens, shallow focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, deep red, near black,
+ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still frame.
+
+[SC-050 · 5:51-6:00 · IMAGE]
+A line of mounted riders carrying a covered stretcher between them
+crossing an empty plain at dusk, moving away from camera toward distant
+hills. slow procession, silent. golden_hour heavy backlight, figures in
+silhouette. extreme wide shot, low horizon. 28mm equivalent, deep focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, deep red, near black, ochre (#8C1F1F/#1A1A1A/#C8B18A). 16:9, still
+frame.
+
+
+================================================================================
+BÖLÜM 4C — OSMANLI: MİSTİK-RUHANİ (6:00-7:00) · 6 shot · kırmızı → altın ışık
+================================================================================
+
+[SC-051 · 6:00-6:10 · IMAGE]
+A shaven head with a single top-tuft seen from directly behind against a
+dark background, a soft column of warm light falling from above onto the
+crown, the tuft catching the light like a thread. still, symbolic, no
+figures other than the head. single overhead shaft of warm light, deep
+black surround. close-up, slightly low angle. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, gold, deep red, near black (#C8B18A/#8C1F1F/#1A1A1A).
+16:9, still frame.
+
+[SC-052 · 6:10-6:20 · VIDEO]
+Vertical shafts of warm golden light breaking through heavy cloud onto a
+dark empty plain, dust and smoke drifting through the beams, no figures.
+atmospheric, otherworldly, abstract. dramatic god-ray backlight through
+cloud. wide shot, low horizon, tilt.up. 28mm equivalent, deep focus.
+Motion: light shafts shifting slowly as cloud moves, dust drifting
+upward; camera very slow push in. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, gold, deep red, near black
+(#C8B18A/#8C1F1F/#1A1A1A). 16:9, 8s.
+
+[SC-053 · 6:20-6:30 · IMAGE]
+Two tall elongated luminous humanoid silhouettes made purely of soft
+light and shadow, no faces and no wings, standing at the edge of a dark
+battlefield, indistinct and dissolving at the edges. symbolic, restrained,
+not literal creatures. figures self-lit against near-black surroundings.
+wide shot, low angle. 35mm equivalent, shallow focus. Motion: none.
+desaturated warm shadows, cool highlights, film curve, fine 35mm, gold,
+pale silver, near black (#C8B18A/#C8D4E8/#1A1A1A). 16:9, still frame.
+
+[SC-054 · 6:30-6:40 · IMAGE]
+A single strand of dark hair lifted upward and glowing faintly along its
+length against a black background, catching a thin line of golden light,
+rising out of frame. abstract, minimal, symbolic. thin hard rim light on
+the strand only, everything else black. extreme macro, low angle looking
+up. 85mm portrait lens, very shallow focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, gold, pale silver, near
+black (#C8B18A/#C8D4E8/#1A1A1A). 16:9, still frame.
+
+[SC-055 · 6:40-6:50 · IMAGE]
+A Serdengeçti warrior's face in tight close-up before battle, eyes
+closed, absolutely calm expression, sweat and dust on the skin, helmet
+rim just visible at the top of frame. still, interior stillness, no fear.
+hard directional key light from one side, deep shadow on the other. tight
+close-up portrait, eye level. 85mm portrait lens, very shallow focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, deep red, gold, near black (#8C1F1F/#C8B18A/#1A1A1A). 16:9, still
+frame.
+
+[SC-056 · 6:50-7:00 · VIDEO]
+A line of warriors seen from behind walking forward into heavy smoke and
+golden backlight, becoming progressively less distinct until they are
+only shapes. moving away, dissolving into light. heavy golden backlight
+through smoke, figures in silhouette. wide shot, eye level. 35mm
+equivalent, deep focus. Motion: smoke rolling across frame, figures
+walking slowly away; camera very slow push in. desaturated warm shadows,
+cool highlights, film curve, fine 35mm, gold, deep red, near black
+(#C8B18A/#8C1F1F/#1A1A1A). 16:9, 8s.
+
+
+================================================================================
+BÖLÜM 5 — KAPANIŞ (7:00-7:30) · 11 shot · gece mavisi / gümüş
+================================================================================
+
+[SC-057 · 7:00-7:05 · IMAGE]
+An open illuminated manuscript page of an epic tale, decorative
+calligraphic script in columns with a gilded border and a small painted
+panel showing a mounted hero, the writing ornamental and not legible.
+still, archival, aged paper. single_window_soft warm light across the
+page. close-up, high angle. 85mm portrait lens, shallow focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+night blue, muted violet, pale silver (#2A3B5C/#5B4A7C/#C8D4E8). 16:9,
+still frame.
+
+[SC-058 · 7:05-7:09 · IMAGE]
+An Ottoman miniature-style painted panel of a mounted hero with a golden
+top-tuft of hair riding across a stylised flat landscape, flattened
+perspective, gold leaf background, decorative border. still, painted
+artwork, not photographic. even flat illumination as of a painting.
+straight-on flat reproduction. normal 50mm lens, deep focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+gold, night blue, muted violet (#C8B18A/#2A3B5C/#5B4A7C). 16:9, still
+frame.
+
+[SC-059 · 7:09-7:12 · IMAGE]
+An old wooden lute-like stringed instrument resting against a cushion on
+a carpet, worn finish, strings catching a thin line of light, no player.
+still, waiting to be played. single_window_soft low light from one side,
+dark room. close-up still life, eye level. 85mm portrait lens, shallow
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, night blue, muted violet, pale silver
+(#2A3B5C/#5B4A7C/#C8D4E8). 16:9, still frame.
+
+[SC-060 · 7:12-7:15 · IMAGE]
+A bard-like elderly storyteller seated cross-legged by a low fire, one
+hand raised mid-gesture, listeners' silhouettes in a ring around him,
+faces indistinct. mid-telling, animated. firelight_warm from below as the
+only source, deep surrounding dark. medium wide, low angle. 35mm
+equivalent, medium focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, night blue, gold, near black
+(#2A3B5C/#C8B18A/#1A1A1A). 16:9, still frame.
+
+[SC-061 · 7:15-7:18 · IMAGE]
+Extreme close-up of flowing calligraphic ink strokes on aged paper, the
+line thick and thin, ink slightly bled into the fibres, purely ornamental
+and unreadable. still, abstract. raking side light showing the paper
+grain. macro detail, straight on. 85mm portrait lens, very shallow focus.
+Motion: none. desaturated warm shadows, cool highlights, film curve, fine
+35mm, night blue, muted violet, pale silver (#2A3B5C/#5B4A7C/#C8D4E8).
+16:9, still frame.
+
+[SC-062 · 7:18-7:20 · IMAGE]
+A single long dark lock of hair curling across a pale sheet of aged
+paper beside a closed inkwell, arranged like a pressed keepsake. still,
+quiet, deliberate. overcast_soft even light from above. top_down flat lay,
+close. 85mm portrait lens, shallow focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, night blue, muted
+violet, pale silver (#2A3B5C/#5B4A7C/#C8D4E8). 16:9, still frame.
+
+[SC-063 · 7:20-7:22 · IMAGE]
+A steppe horizon at blue hour, the last band of orange light along the
+skyline with deep blue above, the first stars appearing, dark flat land
+below. still, vast, cooling. blue hour ambient, low residual warm glow at
+the horizon. extreme wide shot, very low horizon. 28mm equivalent, deep
+focus. Motion: none. desaturated warm shadows, cool highlights, film
+curve, fine 35mm, night blue, muted violet, pale silver
+(#2A3B5C/#5B4A7C/#C8D4E8). 16:9, still frame.
+
+[SC-064 · 7:22-7:24 · IMAGE]
+A dense field of stars over a black silhouetted ridge line, the Milky
+Way band visible across the upper frame, no moon, no figures. still,
+cold, immense. natural starlight only. extreme wide shot, tilt.up, very
+low horizon. 28mm equivalent, deep focus. Motion: none. desaturated warm
+shadows, cool highlights, film curve, fine 35mm, night blue, muted
+violet, pale silver (#2A3B5C/#5B4A7C/#C8D4E8). 16:9, still frame.
+
+[SC-065 · 7:24-7:26 · IMAGE]
+A lone warrior silhouette standing on a ridge under a star field, single
+top-tuft of hair just readable against the sky, tiny in a very large
+frame. still, final, solitary. starlight and faint horizon glow only,
+figure fully in silhouette. extreme wide shot, low angle. 28mm
+equivalent, deep focus. Motion: none. desaturated warm shadows, cool
+highlights, film curve, fine 35mm, night blue, muted violet, pale silver
+(#2A3B5C/#5B4A7C/#C8D4E8). 16:9, still frame.
+
+[SC-066 · 7:26-7:28 · VIDEO]
+A star field slowly rotating above a black silhouetted steppe ridge,
+deep night, no figures, no moon. still, eternal. starlight only. extreme
+wide shot, very low horizon. 28mm equivalent, deep focus. Motion: stars
+drifting slowly with the earth's rotation, faint high cloud passing;
+camera static. desaturated warm shadows, cool highlights, film curve,
+fine 35mm, night blue, muted violet, pale silver
+(#2A3B5C/#5B4A7C/#C8D4E8). 16:9, 8s.
+
+[SC-067 · 7:28-7:30 · IMAGE]
+An almost entirely black frame with only a faint horizon line and one or
+two dim stars remaining at the very top, the image close to full
+darkness. still, closing. minimal residual starlight. extreme wide shot,
+very low horizon. 28mm equivalent, deep focus. Motion: none. desaturated
+warm shadows, cool highlights, film curve, fine 35mm, near black, night
+blue, pale silver (#1A1A1A/#2A3B5C/#C8D4E8). 16:9, still frame.
+
+
+================================================================================
+SHOT ÖZETİ
+================================================================================
+Bölüm 1 (Giriş)          SC-001..SC-009   9 shot   ( 2 video)
+Bölüm 2A (Hunlar)        SC-010..SC-017   8 shot   ( 1 video)
+Bölüm 2B (Göktürkler)    SC-018..SC-026   9 shot   ( 1 video)
+Bölüm 3 (İslamiyet)      SC-027..SC-037  11 shot   ( 1 video)
+Bölüm 4A (Pratik)        SC-038..SC-045   8 shot   ( 1 video)
+Bölüm 4B (Onur)          SC-046..SC-050   5 shot   ( 0 video)
+Bölüm 4C (Mistik)        SC-051..SC-056   6 shot   ( 2 video)
+Bölüm 5 (Kapanış)        SC-057..SC-067  11 shot   ( 1 video)
+--------------------------------------------------------------------------------
+TOPLAM                                   67 shot   (57 image + 10 video = 80 sn)
+
+Hiçbir görsel 12 saniyeden uzun ekranda kalmıyor (en uzun SC-036: 13 sn →
+Remotion tarafında ikiye bölünecek, senin yapman gereken bir şey yok).
+
+================================================================================
+NOTLAR
+================================================================================
+1. Hiçbir promptta metin/yazı istenmiyor — Flow yazıyı bozuk üretiyor.
+   Kaligrafi shot'larında bilerek "ornamental and not legible" yazdım.
+   Videodaki tüm yazılar Remotion tarafında eklenecek.
+
+2. SC-053 (melekler) bilinçli olarak soyut ışık siluetleri — kanatlı melek
+   figürü DEĞİL. Araştırmanın Faz C bulgusu: bu bir halk inanışı, teolojik
+   gerçek iddiası değil, o yüzden görsel de iddiasız.
+
+3. Bölüm 4B'de (onur/cenaze) hiçbir promptta ceset, kan veya şiddet yok —
+   örtülü sedye, bırakılmış eşyalar, siluet. Bilinçli tercih.
+
+4. Elindeki 8 taslak görsel (IMG-20260814-WA0000..0007) bu listeye ek
+   referans olarak Flow'a yüklenebilir; hangi shot'a hangisini referans
+   vereceğini söylersen prompt'lara referans notu eklerim.
+
+5. Ürettikten sonra dosyaları şu isimle kaydet: SC-001.jpeg, SC-002.jpeg ...
+   Böylece Remotion tarafına otomatik bağlayabilirim.

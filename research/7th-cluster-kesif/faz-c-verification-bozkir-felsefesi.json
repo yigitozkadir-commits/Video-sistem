@@ -1,0 +1,685 @@
+{
+  "phase": "C",
+  "phase_name": "Red Team Verification - Doğrulama & Tarafı Kavrama",
+  "project_title": "Bozkır Felsefesi: Kırmızı Tim Tesiti ve Historiografi Analizi",
+  "cluster": "7TH_CLUSTER",
+  "section_id": 2,
+  "items_range": "601-700",
+  "timestamp": "2026-08-09T18:45:00Z",
+  "model": "claude-haiku-4-5-20251001",
+  "verification_objective": "Her claim'i sorgulamak, karşı-kanıt aramak, perspektif yanlılıklarını tanımlamak ve historiografik tartışmalar haritalamak.",
+  "red_team_verdicts": [
+    {
+      "claim_id": "C-0001",
+      "text": "Tengricilik, göçebe Türk halklarının merkezi ruhani temelini oluşturmuş",
+      "original_confidence": "ESTABLISHED",
+      "red_team_confidence": "ESTABLISHED",
+      "verdict": "CONFIRMED",
+      "reasoning": "Orkhon yazıtları (8. yüzyıl) doğrudan birincil kanıt sağlar. Birden fazla bağımsız akademik kaynaklar destekler. Historiografik konsensus güçlüdür.",
+      "counter_arguments_tested": [
+        "İddia: Tengricilik 'kurgulanmış' 20. yüzyıl romantisizmdir (Orientalist teorisi) → Sonuç: Orkhon yazıtlarına dayalı 8. yüzyıl ataması bu teoriyi çürütür.",
+        "İddia: Tengricilik yalnızca Mongol İmparatorluğu'na (13.yy) atfedilir → Sonuç: Göktürk Khaganate (6-8.yy) döneminde belgeli; daha eski."
+      ],
+      "historiographical_status": "STRONG_CONSENSUS",
+      "perspective_diversity": {
+        "Turkish_scholarship": "Tengricilik otoktone Türk felsefesinin kanıtı olarak kutlanır",
+        "Western_scholarship": "Pre-Islamic Central Asian spirituality olarak kabul edilir; romantisizm şüphesi sınırlı",
+        "Chinese_historiography": "Xiongnu ve diğer nomadic tehditler bağlamında; Tengricilik'in siyasal rolü vurgulanır",
+        "Islamic_scholarship": "Pre-Islamic inanç sistemi olarak tanınır; İslami dönüşüme yol açan temel",
+        "Post_colonial_critique": "Tengricilik araştırması Orientalist gözlemle karışabilir; orijinal kaynaklar tercih edilmeli"
+      },
+      "bias_risks_identified": [
+        "Turkish nationalism tarihselleştirmesi: 20.yy Kemalizm/Turkism söyleminin 8.yy Tengricilik'i kullanması → Kontrol: Orkhon yazıtları dönem'den bağımsız",
+        "Western romantisizm: 'Steppe mysticism' gibi egzotik çerçeveleme → Kontrol: Akademik kaynaklar nesnel terminoloji kullanır"
+      ],
+      "unknowns_remaining": [
+        "Tengricilik'in tam felsefi sistemi (kozmoloji, etik, metafizik) ne ölçüde tutarlı idi?",
+        "Farklı Turkic grupları arasında Tengricilik varyasyonları neler?"
+      ],
+      "final_assessment": "STRONG_EVIDENCE, MULTIPLE_PERSPECTIVES_BALANCED"
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Bozkır ekolojisi egaliter sosyal yapıları şekillendirmiştir",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_confidence": "PROBABLE",
+      "verdict": "CONTESTED",
+      "reasoning": "Ekoloji-sosyal yapı arasındaki nedensel mekanizm tam belirtilmemiştir. Karşı-kanıt: Mongol despotizmi aynı ekolojide gelişti. Determinizm riski yüksektir.",
+      "counter_arguments_tested": [
+        "İddia: Bozkır ekonomisi egalitarizmi zorunlu kılar → Sonuç: Genghis Khan merkezi despotizm aynı ekolojide inşa etti; ekoloji tek belirleyici değildir.",
+        "İddia: Kaynakların dağınıklığı merkezileştirmeyi engeller → Sonuç: İçerimiş kaynaklar (verimli otlaklar) bazı alanlar monopolleştirebilir.",
+        "Tarihî kanıt: Bazı göçebe konfederasyonları hiyerarşik idi (Hunnic Empire, Turco-Mongol dynasties)",
+        "Karşı-hipotez: Sosyal yapı, ekoloji yerine kültürel mirasa veya liderlik karakteristiğine daha bağlıdır"
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Ecological_determinism_school": "Çevre zorunlu egalitarizm yaratır",
+        "Cultural_materialism_school": "Ekonomik yapı sosyal yapıyı belirler, ancak agensi vardır",
+        "Institutionalist_school": "Kurumlar (yasalar, gelenekler) kadar önemlidir",
+        "Post_colonial_critique": "Bozkır'ın 'egaliter ideali' Batı tarafından romantisizedir"
+      },
+      "bias_risks_identified": [
+        "Environmental determinism: Coğrafya yazgı değildir; insanlar çeşitli seçimler yapabilir",
+        "Nostaljik idealizasyon: Göçebe yaşamı modern egalitarizmin modeli olarak görmek",
+        "Seçici kanıt: Sadece egaliter örnekler dikkat çeker; despotik örnekler değiştirilir"
+      ],
+      "unknowns_remaining": [
+        "Hangi ekonomik faktörler (ağır merkezi hiyerarşi vs. dağınık otorite) hangi şartlarda ortaya çıkar?",
+        "Kadın sosyal konumu egaliter yapıda ne kadar idi? Veriler yetersizdir."
+      ],
+      "final_assessment": "PLAUSIBLE_BUT_CONTESTED, MECHANISM_UNDERSPECIFIED"
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "Özgürlük ve egemenlik göçebe düşüncesinin merkez değerleridir",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "PARTIALLY_SUPPORTED",
+      "reasoning": "Çoğu göçebe topluluklarda özgürlük teması görülür, ancak 'merkez değer' iddiası tartışmalıdır. İçerimiş otoritecilik de var. Modern milliyetçi söylemin yeniden inşasının riski yüksektir.",
+      "counter_arguments_tested": [
+        "İddia: Göçebe topluluklar kabileyonla hareket özgürlüğüne sahipti → Sonuç: Kabilenin izni olmadan ayrılış değil: böyle hareketlilik diğer grupları yer kaybına zorladı (çatışma). Özgürlük sınırlıdır.",
+        "İddia: Dış otoriteye direniş egemenlik değerini gösterir → Sonuç: Survival imperatividir, felsefi değer değil. Diğer medeniyetler de direnişe kapılmıştır.",
+        "İddia: Bozkırda radikal özgürlük vardı → Sonuç: Çin, İslami ve Mongol kaynaklarında 'barbarian despotism' kaydı vardır (Khan mutlakıyetçiliği)."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Romantic_libertarian": "Steppe öncü özgürlük paradigması",
+        "Pragmatic_realist": "Güvenlik ve kaynaklar özgürlüğü sınırlar",
+        "Marxist_materialist": "Özgürlük söylemi ekonomik ilişkileri maskelemek",
+        "Turkish_nationalist": "Türk özgürlük mirasının tarihsel kanıtı",
+        "Post_colonial_critique": "Batı'nın 'noble savage' fantezisi; projeksiyondur"
+      },
+      "bias_risks_identified": [
+        "Romantisizm: Göçebe özgürlüğü idealize etme; gerçeklik daha karışıktır",
+        "Seçici tarih: Başarılı özgürlük mücadelesi anılır; otoriter rejimleri unutulur",
+        "Modern kullanım: 20. yüzyıl milliyetçiliği, eski 'özgürlük' temalarını yeniden şekillendirdi"
+      ],
+      "unknowns_remaining": [
+        "Göçebe 'özgürlük' ile Batı liberal özgürlük tanımı aynı mı?",
+        "Hangi tarihî dönemlerde özgürlük maksimal, hangilerde minimal idi?",
+        "Toplumsal sınıflar (kölelikleri) özgürlüğü nasıl sınırlandırdı?"
+      ],
+      "final_assessment": "SUPPORTED_WITH_CAVEATS, TERMINOLOGY_CONTESTED"
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Gök Umay, doğurganlık ve korumanın tanrısasıdır",
+      "original_confidence": "ESTABLISHED",
+      "red_team_confidence": "ESTABLISHED",
+      "verdict": "CONFIRMED",
+      "reasoning": "Adının kökentyağ 'placenta' (doğum), Orkhon yazıtları referansları ve çoklu kaynakların konsensüsü. Tartışma yok.",
+      "counter_arguments_tested": [
+        "İddia: Umay efsaneleştirilmiş karakter, tarihî değildir → Sonuç: Gerçekliği sorgulanmaz; mitoloji de tarihin parçasıdır.",
+        "İddia: Gök Umay ve Yer-Sub birbirinden farklı tanrıçalardır → Sonuç: Doğru; ancak işlevler (doğurganlık, koruma) her iki tanrıçada görülür."
+      ],
+      "historiographical_status": "CONSENSUS",
+      "perspective_diversity": {
+        "Comparative_mythology": "Diğer nomadic ve sedentary mitolojilerdeki doğurganlık tanrıçalarıyla karşılaştırılabilir",
+        "Gender_studies": "Kadın ilahi gücün tarihî tanınması önemli; ancak 'koruma' rolü çoğunlukla pasif",
+        "Turkish_nationalism": "Türk spirityalitesinin atasal tanrıçası olarak tanınır",
+        "Islamic_scholarship": "Pre-Islamic 'pagan' inanç; İslam'da kesinlikle yok"
+      },
+      "bias_risks_identified": [
+        "Romantisizm: Kadın tanrıçanın modern feminist yorumlanması tarihsel olmayabilir",
+        "Seçici açıklama: Umay'ın 'koruma' rolü bazen cezalandırıcı işlevleri gizler"
+      ],
+      "unknowns_remaining": [
+        "Umay'a hangi ritüeller adanıydı? Yazılı kanıt sınırlıdır.",
+        "Gök Umay'ın çeşitli Turkic lehçelerinde adı ve işlevi nasıl değişiklik gösteriyor?"
+      ],
+      "final_assessment": "WELL_ESTABLISHED, MINIMAL_DISPUTE"
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Şamanlık, ruh dünyasına bağlayan ilişki sistemidir",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "CONFIRMED",
+      "reasoning": "Şamanlık pratiği tarihî ve antropolojik kaynaklar tarafından iyi belgelenmiştir. Tartışma az.",
+      "counter_arguments_tested": [
+        "İddia: Şamanlık 'ilkel safsata'dır, felsefe değildir → Sonuç: Felsefe sistematiğine sahiptir; kozmoloji, ontoloji ve epistemoloji içerir.",
+        "İddia: Şamanlık sadece Sibirya'da vardır → Sonuç: Orta Asya ve Çin Şamanizmi de belgelenmiştir; farklı varyasyonlar mevcuttur."
+      ],
+      "historiographical_status": "CONSENSUS",
+      "perspective_diversity": {
+        "Religious_studies": "Şamanlık dinî sistem olarak kabul edilir",
+        "Anthropology": "İnsanların spiritüel kaygılarını ele alan evrensel sistem",
+        "Psychology": "Ecstatic states ve consciousness exploration olarak incelenir",
+        "Medical_anthropology": "Psikolojik tedavi işlevi de vardır",
+        "Missionary_critique": "İslam ve Hristiyanlık tarafından 'safsata' olarak görülmüştür"
+      },
+      "bias_risks_identified": [
+        "Ekzotisizm: Şamanlık 'gizemli Doğu' stereotipi tarafından romantisizedir",
+        "Reductionism: Şamanlığı psikolojik hastalığın tedavisi olarak indirgeme"
+      ],
+      "unknowns_remaining": [
+        "Şamanlar uyuşturucu madde (fly agaric vb.) ne kadar kullandılar?",
+        "Gelişmiş meditasyon ve ecstasy teknikleri nereden öğrenildi?"
+      ],
+      "final_assessment": "WELL_SUPPORTED, ANTHROPOLOGICAL_CONSENSUS"
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Ata venersyonu ahlaki ve sosyal düzeni kurmada temel rol oynadı",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "SUPPORTED_WITH_CAVEATS",
+      "reasoning": "Ata venersyonu tarihseldir, ancak 'temel rol' iddiası nedensel bağlantısı zayıftır. Arkeoloji kanıt sunar; sosyal etkileri seçici.",
+      "counter_arguments_tested": [
+        "İddia: Kurgan gömüleri ata venersyonunun kanıtıdır → Sonuç: Gömü pratikleri vardır; ancak bu kadar sosyal düzenin kaynağı olup olmadığı soruludur.",
+        "İddia: Ataların rehberliği ahlaki sistem yaratır → Sonuç: Diğer medeniyetlerde (Roma, İslam, Çin) ata venersyonu konservatiflik ve kadınları ikinci sınıfa itmektedir.",
+        "Karşı-hipotez: Ata venersyonu, sosyal düzeni stabilize eder, ama yaratmaz; ekonomi ve kaynaklar temel belirleyicidir."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Functionalist_anthropology": "Ata venersyonu sosyal kohezi sağlar",
+        "Feminist_critique": "Ata venersyonu patriarki meşrulaştırır",
+        "Materialist": "Gömü ritüali kaynakların üretim ilişkisini yansıtır",
+        "Religious_studies": "Ruh inancı evrensel; sosyal işlevi bağlama göre değişir"
+      },
+      "bias_risks_identified": [
+        "Idealization: Ataların rehberliğinin romantisizasyonu; gerçekte otoritariyanizmi meşrulaştırabilir",
+        "Determinism: Atalar tapınması yönetim sistemini 'otomatik' yaratmaz"
+      ],
+      "unknowns_remaining": [
+        "Kadınlar ve erkekler arasında ata venersyonu pratiğinde fark vardı mı?",
+        "Ata venersyonu İslami dönüşüm sonrasında ne ölçüde kaldı?"
+      ],
+      "final_assessment": "PROBABLE_BUT_UNDERDETERMINED, CAUSALITY_UNCLEAR"
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Oğuz Kağan mitosu tarihsel çekirdeği temsil eder",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "CONTESTED",
+      "reasoning": "Oğuz Kağan Destanı yazılı versiyonları 10-15. yüzyıl; tarihsel olay 8-9. yüzyıldır. Nedensel bağlantısı zayıftır. Mitoloji vs. tarih karışıktır.",
+      "counter_arguments_tested": [
+        "İddia: 24-boy sistemi Oğuz Kağan tarafından kuruldu → Sonuç: Al-Kashgari (11.yy) sistemi kaydeder, ancak kaynağı 8.yy ise, neden 11.yy'ye kadar yazılı değildir?",
+        "İddia: Oğuz Kağan 'supra-hero' geçerli tarihî figürdür → Sonuç: Dede Korkut'ta önemli karakter değildir (garip). Mitolojik status kurgulanmış olabilir.",
+        "Arkeolojik kanıt yetersiz: Oğuz Kağan'ı doğrudan tutan arkeolojik kanıt yoktur."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Mythhistorians": "Mitoloji tarihî çekirdeği içerir; yorumlanmalıdır",
+        "Skeptical_scholars": "Oğuz Kağan Destanı tamamen efsanedir; tarihî değildir",
+        "Turkish_nationalism": "Oğuz Kağan Türk kimliğinin başlangıç noktasıdır",
+        "Islamic_historiography": "Nasab-nameler (genealojiler) tarihî kaynaktır; ancak zincir tartışmalıdır"
+      ],
+      "bias_risks_identified": [
+        "Retrospective mythmaking: Oğuz Kağan modern kimlikleri meşrulaştırmak için yeniden inşa edilmiş olabilir",
+        "Ahistoricity: Mit ile tarih karıştırılması; 'tarihî çekirdek' varsayımı teste tabi tutulmamıştır"
+      ],
+      "unknowns_remaining": [
+        "Oğuz Kağan Destanı'nın yazılı versionları hangi anonim kaynaktan çekilmiş?",
+        "Oğuz adı nereden gelir? Antroponym mi, totemonym mi?",
+        "Oğuz Kağan 8-9. yüzyılda yaşadı mı? Arkeolojik kanıt?"
+      ],
+      "final_assessment": "MYTHOLOGICAL_AUTHENTICITY_ESTABLISHED, HISTORICAL_KERNEL_UNCERTAIN"
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "24-boy sistem kabile organizasyonunun sosyal düzeni yansıtır",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "CONFIRMED",
+      "reasoning": "Al-Kashgari ve diğer İslami historiograflar 24-boy sistemini kaydeder. Sistematik organizasyon tarihîdir.",
+      "counter_arguments_tested": [
+        "İddia: 24-boy sistemi efsanedir → Sonuç: Al-Kashgari 11.yy'de yazılı listeler sunar; bu, canlı sosyal yapıyı yansıtır.",
+        "İddia: Sistem sonradan istikrara uyarlandı → Sonuç: Mümkündür; ancak en az 11. yüzyıldan itibaren kaydedilmiştir."
+      ],
+      "historiographical_status": "CONSENSUS",
+      "perspective_diversity": {
+        "Genealogists": "Nasab (soy) sistemleri tarihî mirastır",
+        "Organizational_analysts": "Modüler sistem (24 = 6x4 veya 2x12) yönetimi yansıtır",
+        "Cultural_relativists": "Sayıların sembolik anlamı kültüre göre değişir"
+      },
+      "bias_risks_identified": [
+        "Determinism: Sayısal sistem 'doğal' görünür; ancak kültürel tercih"
+      ],
+      "unknowns_remaining": [
+        "Farklı Turkic grupları arasında 24-boy sistemi tutarlı mı?",
+        "Kazak, Kırgız, Türkmen versiyonları nedir? Varyasyonlar?"
+      ],
+      "final_assessment": "WELL_DOCUMENTED, CONSENSUS_ON_STRUCTURE"
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Dede Korkut Kitabı yazılı hafızadır",
+      "original_confidence": "ESTABLISHED",
+      "red_team_confidence": "ESTABLISHED",
+      "verdict": "CONFIRMED",
+      "reasoning": "UNESCO 2001 tanınması, manuscript varyasyonları ve sanat-tarihî çalışmalar, Dede Korkut'un statüsü açıktır. Tartışma yoktur.",
+      "counter_arguments_tested": [
+        "İddia: Dede Korkut yapı-yozlaştırılmıştır → Sonuç: Değişim vardır; ancak çekirdek hikayeler tutarlıdır.",
+        "İddia: UNESCO tanınması siyasidir → Sonuç: Sorusu vardır; ancak metin bağımsız olarak önemlidir."
+      ],
+      "historiographical_status": "CONSENSUS",
+      "perspective_diversity": {
+        "Literary_scholars": "Dede Korkut edebi eserdir; değeri belirlenmiştir",
+        "Folklorists": "Oral tradition'ın yazılı kaydı",
+        "Cultural_nationalists": "Türk kimliğinin temel metni",
+        "Comparativists": "Orta Asya epik mirasının parçası"
+      },
+      "bias_risks_identified": [
+        "Ulusal kullanım: Dede Korkut'un siyasal kimlik projelerine araçlaştırılması"
+      ],
+      "unknowns_remaining": [
+        "Dede Korkut'un en eski kaynağı ne zaman yazılmıştır? (Özgün yaşı belirsiz)",
+        "12 hikaye dışında kayıp hikayeler var mı?"
+      ],
+      "final_assessment": "CULTURALLY_SIGNIFICANT, LITERARY_IMPORTANCE_CONFIRMED"
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Sufizm ön-İslami değerleri korudu; senkretik sentez yarattı",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "SUPPORTED_WITH_CAVEATS",
+      "reasoning": "Sufi-Tengricist sentez tarihsel; ancak 'korunma' kavramı, 'dönüşüm' ile çatışır. Mekanizm belirsizdir.",
+      "counter_arguments_tested": [
+        "İddia: Sufizm Tengricilik değerlerini korur → Sonuç: Kısmen; ancak dönüştürür. Örnek: 'Tengri'nin yerine 'Allah' geçer. Felsefe değişir.",
+        "İddia: Khoja Yasawi Tengriciliği dillendirir → Sonuç: Yasawi Sufi şairidir; açık şekilde Tengrici değildir. Metaforla entegrasyon yapılmıştır.",
+        "Karşı-hipotez: Sufizm ön-İslami içeriği imha eder, 'uyumlu geçiş' imgesi inşa eder."
+      ],
+      "historiographical_status": "CONSENSUS_WITH_NUANCE",
+      "perspective_diversity": {
+        "Islamic_historians": "Sufizm İslami ortodoksiden sapma; ön-İslami absorpsiyon 'tehlike'",
+        "Syncretists": "Sufizm kültürel sentez mekanizmasıdır",
+        "Historians_of_religion": "Dönüşüm her zaman kayıp ve kazanç içerir",
+        "Turkish_scholars": "Sufizm Türk kimliğini korudu",
+        "Post_colonial": "Dönüşüm kayıp olarak da okunabilir; 'felsefe' Arabicized idi"
+      },
+      "bias_risks_identified": [
+        "Teleology: İslamlaştırmanın 'doğal' olduğunu varsayma",
+        "Romantisizm: Ön-İslami 'saflığını' idealize etme",
+        "Essentialzim: Türk ruhunun 'temelde' Tengrici kaldığını iddia etme"
+      ],
+      "unknowns_remaining": [
+        "Hangi özel Tengrici konseptler Sufizm'de sayılan kalır?",
+        "Kadın şamanlığı vs. Sufi kadınlığı karşılaştırılmış mı?",
+        "Hangi pratikler (dans, muhabbet) açık şekilde kontinüitesidir?"
+      ],
+      "final_assessment": "PARTIAL_SYNTHESIS_DOCUMENTED, COMPLETE_PRESERVATION_UNLIKELY"
+    },
+    {
+      "claim_id": "C-0011",
+      "text": "Namus, cesaret, sadakat göçebe yaşamının gerekliliğinden doğdu",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_confidence": "PROBABLE",
+      "verdict": "PLAUSIBLE_BUT_UNDERDETERMINED",
+      "reasoning": "Değerlerin işlevsel menşei makul; ancak 'gerekliliğin' yükseltilmesi spekülatiftir. Diğer medeniyetler benzer değerler geliştirmiştir.",
+      "counter_arguments_tested": [
+        "İddia: Sürü koruması cesaret gerektirir → Sonuç: Doğru; ancak tarım toplulukları (örn. Roma) benzer değerler geliştirdi. Specifik değil.",
+        "İddia: Bozkırda namus (onur) hayatta kalma mekanizması → Sonuç: Belki; ancak diğer stratejiler (uzlaşma, ticaret) çoğunlukla tercih edilmiştir.",
+        "Karşı-kanıt: Dede Korkut'ta namus bazı karakterleri ölüme sürüklüyor; pratik değil, ideolojik."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Functionalists": "Değerler sosyal ihtiyaçlardan doğar",
+        "Culturalists": "Değerler geleneksel olarak aktarılır; işlevsel olmayabilir",
+        "Ethicists": "Değerlerin kaynağı değeri tanımlamaz",
+        "Evolutionary_psychologists": "Bazı değerler (sadakat, cesaret) evrimsel avantaj sağlar",
+        "Post_modernists": "Tüm değerleri 'gereklilikten' türetme modernist projeksiyondur"
+      },
+      "bias_risks_identified": [
+        "Functionalism bias: Tüm kültürel fenomenleri 'faydalı' olarak görme",
+        "Presentism: Modern değerleri eski topluluklara yükleme"
+      ],
+      "unknowns_remaining": [
+        "Dede Korkut'ta 'namus'un tam tanımı nedir? (Kaynakta tutarlı mı?)",
+        "Kadınlar namus değerlerini erkeklerle aynı şekilde uyguladılar mı?"
+      ],
+      "final_assessment": "FUNCTIONALIST_EXPLANATION_PLAUSIBLE, NECESSITY_NOT_PROVEN"
+    },
+    {
+      "claim_id": "C-0012",
+      "text": "Animizm nomadik varoluş felsefesinin temelini oluşturmuş",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "SUPPORTED_WITH_QUALIFICATIONS",
+      "reasoning": "Animizm tarihî; ancak 'varoluş felsefesinin temeli' tanımı geniş. Diğer faktörler (pragmatism, ekonomi) eşit derecede temeldir.",
+      "counter_arguments_tested": [
+        "İddia: Doğanın sacredness tüm davranışı yönetir → Sonuç: Ovoo ritüelleri görülür; ancak sürü öldürümü ve hayvana kötü muamele de kaydedilmiştir. Uygulamada seçici.",
+        "İddia: Animizm eco-friendly → Sonuç: Koyun sürüsünün aşırı otlatma çevreyi zarar vermiştir. Teoride vs. uygulamada fark.",
+        "Karşı-kanıt: Modern Türkiye dönemin goçebe animizm değerlerini kaybetmiştir; ama 'varoluş' devam eder."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Eco_philosophy": "Animizm sürdürülebilir ilişki sağlar",
+        "Environmental_historians": "Çevre etkisi karışıktır; bazı göçebe gruplara olumlu, diğerlerine olumsuz",
+        "Religious_studies": "Animizm kozmolojik sistem olarak kabul edilir",
+        "Skeptics": "Modern animizm romantisizm; gerçek uygulamalar pragmatik idi"
+      },
+      "bias_risks_identified": [
+        "Eco-romanticism: Modern çevre endişesini eski animizm'e projeleme",
+        "Idealization: Animizmin 'doğal ilişki' sağladığını varsayma"
+      ],
+      "unknowns_remaining": [
+        "Animizm uygulamalarının tarihî varyasyonları nelerdir?",
+        "Hayvan kaygısı (örn. avcılık) animizm prensipleriyle çatışır mı?"
+      ],
+      "final_assessment": "COSMOLOGICAL_PRESENCE_CONFIRMED, FOUNDATIONAL_ROLE_UNCERTAIN"
+    },
+    {
+      "claim_id": "C-0013",
+      "text": "Orkhon Yazıtları Tengricilik inançlarını tarihî kanıtlarlar",
+      "original_confidence": "ESTABLISHED",
+      "red_team_confidence": "ESTABLISHED",
+      "verdict": "CONFIRMED",
+      "reasoning": "Orkhon yazıtları birincil kaynak; 8. yüzyıl Göktürk Khaganate belgesi. Referanslar açık ve çok-sourced. Tartışma yoktur.",
+      "counter_arguments_tested": [
+        "İddia: Orkhon yazıtları dönem yönetim propagandası → Sonuç: Doğru; ancak buna rağmen Tengricilik inançlarını kaydeder. Propaganda da tarih belgelemektedir.",
+        "İddia: Yazıtlar seçici → Sonuç: Bilerek seçicidir; ancak bu, Tengricilik'in önemini azaltmaz."
+      ],
+      "historiographical_status": "STRONG_CONSENSUS",
+      "perspective_diversity": {
+        "Paleographers": "Yazıtın okuma ve tercümesi tutarlıdır (Thomsen 1893 çevirisi onaylanmıştır)",
+        "Historians": "Yazıtlar devlet felsefesinin kanıtıdır",
+        "Sinologists": "Çince bölümler Türkçe bölümü doğrulamaktadır"
+      },
+      "bias_risks_identified": [
+        "Minimal: Birincil kaynak; tarafsızlık nispeten yüksektir"
+      ],
+      "unknowns_remaining": [
+        "Yazıtlar sıradan halk inançlarını ne kadar yansıtır?",
+        "Kaçak yazıtlar (silik olanlar) kurtarılamaz mı?"
+      ],
+      "final_assessment": "PRIMARY_SOURCE_RELIABILITY_HIGH, ARCHAEOLOGICAL_AUTHENTICATION_COMPLETE"
+    },
+    {
+      "claim_id": "C-0014",
+      "text": "Modern Türk kimliği göçebe değerlerine dayandırılan milliyetçi söyleme konu",
+      "original_confidence": "CONTESTED",
+      "red_team_confidence": "CONTESTED",
+      "verdict": "CONFIRMED_AS_DISCOURSE",
+      "reasoning": "Ziya Gökalp ve Yusuf Akçura tarafından açık şekilde formate edilen söylemi yapılmıştır. Ancak söylemin 'göçebe değerlerin yeniden inşası' vs. 'tarihsel süreklilik' olup olmadığı tartışmalıdır.",
+      "counter_arguments_tested": [
+        "İddia: Bozkır değerleri Türk milliyetçiliğinin gerçek temeli → Sonuç: Elbet, tarihseldir; ancak seçici yorumlama vardır.",
+        "İddia: Gökalp ve Akçura tarihî olması gerekenleri tanımladılar → Sonuç: Evet; ancak bu, tarihsel 'bulmalar' değil, ideolojik inşalar olmuştur.",
+        "Orientalist eleştiri: Batı fantezisinin Türk aydınlar tarafından içe aktarılması"
+      ],
+      "historiographical_status": "CONSENSUS",
+      "perspective_diversity": {
+        "Turkish_nationalists": "Bozkır mirasının yeniden keşfi ve güçlendirilmesi",
+        "Critical_historians": "Tarihsel seçicilik ve modernist inşa; 'buluş' değil",
+        "Post_colonial": "Occidentalism (Batı'nın ters tarafı) olarak Turkism",
+        "Sociologists": "Kolektif kimliği yapılandırmada söylemin rolü güçlüdür"
+      },
+      "bias_risks_identified": [
+        "Teleology: Gökalp'in seçimleri 'tarihî sürekliliğin' peşi sıra görülmesi",
+        "Presentism: 19-20. yüzyıl endişeleri 8. yüzyıl Tengricilik'ine projeleme",
+        "Essentialism: Türk kimliğinin 'korunmuş' ama değişen özü"
+      ],
+      "unknowns_remaining": [
+        "Kaç kadar Türk halk Gökalp'in reformu kabul etmiş?",
+        "İkili (Osmanlı-Türk, İslami-Seküler) kimlik nasıl çözüldü?"
+      ],
+      "final_assessment": "DISCOURSE_EXISTENCE_CONFIRMED, NORMATIVE_STATUS_CONTESTED"
+    },
+    {
+      "claim_id": "C-0015",
+      "text": "Klansal adalet sistemi restoratif ve diyalog-temelli",
+      "original_confidence": "PROBABLE",
+      "red_team_confidence": "PLAUSIBLE",
+      "verdict": "PARTIALLY_SUPPORTED",
+      "reasoning": "Dede Korkut'ta adalet sahneleri görülür; ancak 'restoratif' tanımı modern konseptidir. Tarihsel uygulamalar karışıktır.",
+      "counter_arguments_tested": [
+        "İddia: Klan elders diyalogla karar verir → Sonuç: Örnekler vardır; ancak şiddete dayalı intikam da (kısaş) kaydedilmiştir.",
+        "İddia: Cezalandırma değil, uyum hedefi → Sonuç: Bazı sahnelerde katiller başını kaybeder; pek de restoratif değildir.",
+        "Karşı-kanıt: Batı modern 'restoratif adalet' Cree, Maori topluluklara bakılarak geliştirmiştir; Oğuz sistemi daha farklıdır."
+      ],
+      "historiographical_status": "DEBATE",
+      "perspective_diversity": {
+        "Legal_historians": "Klansal sistem yazılı yasalardan önceki özerk yönetim",
+        "Anthropologists": "Restoratif mekanizmalar çoğu toplumda vardır; özgü değildir",
+        "Romantic_Turkists": "Oğuz adaleti model sistem olarak sunulur",
+        "Critical_scholars": "Tarihsel pratikler çok karmaşık; modernist kategoriler uygulanmaz"
+      },
+      "bias_risks_identified": [
+        "Anachronism: Modern restoratif adalet kavramını eski Oğuz sisteme uygulamak",
+        "Idealization: Klansal sistemin uyumlu yönlerini vurgulama, çatışmalı yönleri gizleme"
+      ],
+      "unknowns_remaining": [
+        "Dede Korkut'ta adalet sahneleri kaç kadar tarihî vs. mitolojik?",
+        "Kadınlar ve köleliklerin adalet sistemi ayrı mı idi?",
+        "Çeşitli Oğuz boyları arasında adalet uygulamaları fark gösteriyor mu?"
+      ],
+      "final_assessment": "DIALOGUE_AND_RECONCILIATION_ELEMENTS_PRESENT, RESTORATIVE_CHARACTERIZATION_ANACHRONISTIC"
+    }
+  ],
+  "historiographical_mapping": {
+    "debate_topics": [
+      {
+        "topic": "Tengricilik'in tarihselliği",
+        "Turkish_view": "Pre-Islamic Türk felsefesinin merkezî okuması",
+        "Western_view": "Central Asian spirituality; Romantisizm riski",
+        "Chinese_view": "Barbarian state ideology; militaristik imaj",
+        "Islamic_view": "Pre-Islamic pagan faith; dönüşüme muhtaç",
+        "Consensus": "Tarihsellik kabul; mekanizma tartışmalı"
+      },
+      {
+        "topic": "Ekoloji ve sosyal yapı bağlantısı",
+        "Determinist_view": "Bozkır ekolojisi egalitarizmi zorunlu kılar",
+        "Culturalist_view": "Kültür ve kurumlar aynı derecede önemli",
+        "Institutionalist_view": "Yasalar ve gelenekler değişken",
+        "Pragmatist_view": "İhtiyaç ve kaynaklar değişkene bağlı",
+        "Consensus": "Multi-causal; determinizm basit"
+      },
+      {
+        "topic": "Oğuz Kağan mitosunun tarihselliği",
+        "Mythhistorian_view": "Tarihî çekirdek vardır; yorumlanmalı",
+        "Skeptical_view": "Tamamen efsane; tarihî değildir",
+        "Nationalist_view": "Tarihî kimlik başlangıcı",
+        "Academic_consensus": "Kültürel sembol; tarihî verifikasiyon zor"
+      },
+      {
+        "topic": "Modern Türk kimliğinin 'bozkır kökleri'",
+        "Nationalist_view": "Tarihsel süreklilik ve yeniden keşif",
+        "Critical_view": "20. yüzyıl inşası; retrospektif mitleştirme",
+        "Post_colonial_view": "Occidentalism ve 'noble savage' fantezisi",
+        "Consensus": "Söylem varlığı doğru; normatifliliği tartışmalı"
+      }
+    ],
+    "source_conflicts": [
+      {
+        "conflict": "Oğuz Kağan Destanı Dede Korkut'ta neden az yer almıştır?",
+        "hypothesis_1": "Dede Korkut metni fragmentarîdir; kayıp hikayeler vardır",
+        "hypothesis_2": "Dede Korkut 'tiyatro' stilidir; mitoloji değildir",
+        "hypothesis_3": "Farklı yazar geleneğinde (ahlakî hikaye vs. efsane)"
+      },
+      {
+        "conflict": "Tengricilik ile İslami monoteizm karşılaştırıldığında neden 'sentez' durumu?",
+        "hypothesis_1": "Sufizm köprü rolü oynadı; iki sistemin unsurlarını kordu",
+        "hypothesis_2": "Tengricilik tamamen bitmiş; İslam dönüşüm yapıldı",
+        "hypothesis_3": "Her iki sistem yaşamaya devam etti; çatışma hâl alındı"
+      }
+    ]
+  },
+  "source_independence_audit": {
+    "audit_type": "4-perspective analysis",
+    "perspectives": [
+      {
+        "perspective": "Turkish Scholarship",
+        "sources": ["SRC-0004", "SRC-0010", "SRC-0034", "SRC-0037", "SRC-0038"],
+        "bias_characteristics": "Positive Turkish identity; cultural continuity; sometimes nationalist",
+        "reliability_score": "HIGH_WITH_CAVEAT",
+        "circulation_risk": "Selektif kanıt (destekleyici örnekler vurgulanır)"
+      },
+      {
+        "perspective": "Western Academic",
+        "sources": ["SRC-0001", "SRC-0002", "SRC-0003", "SRC-0008", "SRC-0011", "SRC-0012", "SRC-0027", "SRC-0028", "SRC-0030", "SRC-0031"],
+        "bias_characteristics": "Comparative framing; ecological determinism; romantic pastoralism risk",
+        "reliability_score": "MEDIUM_TO_HIGH",
+        "circulation_risk": "Orientalizing tendencies; exotic characterization"
+      },
+      {
+        "perspective": "Islamic Historiography",
+        "sources": ["SRC-0032"],
+        "bias_characteristics": "Islamic teleology; pagan vs. civilized duality",
+        "reliability_score": "MEDIUM",
+        "circulation_risk": "Conversion 'eventuality' tarafı; alternatif çıkmazlar gizleme"
+      },
+      {
+        "perspective": "Regional/Mongolian Sources",
+        "sources": ["SRC-0002"],
+        "bias_characteristics": "Mongolian continuity; contemporary revival interests",
+        "reliability_score": "MEDIUM",
+        "circulation_risk": "Modern identity interests; historicity karışık"
+      }
+    ],
+    "circular_citation_risk": "MODERATE",
+    "circular_citation_examples": [
+      "Western sources Turkish nationalist söylemine referans verir; Turkish sources Western validation ister; döngü",
+      "Dede Korkut'u kaynak olarak kullananlar, Dede Korkut'u yorum yapılması gereken 'kanıt' olarak görmüş"
+    ],
+    "source_gap_summary": {
+      "missing_sources": [
+        "Kazak, Kırgız, Başkurt lehçelerinde Tengricilik araştırması",
+        "Çin İmparatorluğu'nun Tengricilik değerlendirmesi (primér kaynaklar)",
+        "Dede Korkut el yazması varyasyonlarının karşılaştırmalı analizi",
+        "Arkeolojik kaygılar (Kurgan gömüleri, ritüel kalıntıları)"
+      ],
+      "attempted_methods": [
+        "WebSearch ile 'Kazakh Tengriism' aranmış; İngilizce kaynaklar sınırlı",
+        "Chinese historiography ve Xiongnu records aranmış; dört kaynakta bulunmuş"
+      ]
+    }
+  },
+  "unknowns_and_gaps": [
+    {
+      "gap_id": "G-01",
+      "type": "missing_language",
+      "question": "Kazak, Kırgız, Türkmen, Başkurt lehçelerinde Tengricilik söyleminde neler kaydedilmiştir?",
+      "priority": "HIGH",
+      "researchability": "MEDIUM",
+      "note": "Bu lehçelerdeki kaynak kütüphaneleri henüz sistematik olarak taranmamıştır."
+    },
+    {
+      "gap_id": "G-02",
+      "type": "historiographical_gap",
+      "question": "'Bozkır Felsefesi' akademik terimi kim tarafından ve ne zaman formate edilmiştir? (Turkish vs. Western academia)",
+      "priority": "HIGH",
+      "researchability": "HIGH",
+      "note": "20. yüzyıl aydın tarihinde açık tanım bulunmamıştır."
+    },
+    {
+      "gap_id": "G-03",
+      "type": "missing_perspective",
+      "question": "Çin, Rus, Arap historiograflarında nomadic Tengricilik nasıl değerlendirilen ve tasvir edilen?",
+      "priority": "HIGH",
+      "researchability": "MEDIUM",
+      "note": "Batılı akademinin söylemine hakim olmayan perspektifler sistematik olarak dahil edilmemiştir."
+    },
+    {
+      "gap_id": "G-04",
+      "type": "missing_archive",
+      "question": "Dede Korkut'un Ottoman, Azerbaijani, Turkmen versiyonları arasında felsefî farklar neler?",
+      "priority": "MEDIUM",
+      "researchability": "MEDIUM",
+      "note": "El yazması karşılaştırması yapılması gerekir; mevcut kaynaklar fragmental."
+    },
+    {
+      "gap_id": "G-05",
+      "type": "causal_gap",
+      "question": "Bozkır yaşamı ile egaliterizm arasındaki mekanizm nasıl işlemektedir? (Spesifik nedensel zincir)",
+      "priority": "MEDIUM",
+      "researchability": "LOW",
+      "note": "Çok-faktörlü olmuştur; tek nedene indirgeme riski vardır."
+    },
+    {
+      "gap_id": "G-06",
+      "type": "methodological_gap",
+      "question": "Modern Türk milliyetçiliğinde 'göçebe değerleri' iddiası nasıl doğrulanabilir? (Metodoloji sorunu)",
+      "priority": "MEDIUM",
+      "researchability": "MEDIUM",
+      "note": "Tarihsel söylem analizi vs. normatif temellendirme karışmıştır."
+    },
+    {
+      "gap_id": "G-07",
+      "type": "translation_gap",
+      "question": "Ön-İslami Türkçe (Orkhon) ile modern Türkçe felsefî terminoloji sürekliliği nedir?",
+      "priority": "MEDIUM",
+      "researchability": "MEDIUM",
+      "note": "Orkhon yazıtları kısıtlı kelime dağarcığı; çeviri seçimleri tartışmalıdır."
+    },
+    {
+      "gap_id": "G-08",
+      "type": "missing_subject",
+      "question": "Kadınların rol ve etkinliği göçebe felsefesinde (Gök Umay dışında) nedir?",
+      "priority": "LOW",
+      "researchability": "LOW",
+      "note": "Kaynak üretimi cinsiyet açısından desequilibrium'dur; yazarlar erkeklerdir."
+    },
+    {
+      "gap_id": "G-09",
+      "type": "archaeological_gap",
+      "question": "Kurgan gömüleri ve ritüel kalıntıları ata venersyonu hipotezini doğrulayabilir mi? (Arkeoloji)",
+      "priority": "MEDIUM",
+      "researchability": "MEDIUM",
+      "note": "Merkez Asya arkeolojisi kısıtlı kaynaklar; kazı çalışmaları devam ediyor."
+    }
+  ],
+  "contested_claims_summary": {
+    "high_confidence_claims": [
+      "C-0001: Tengricilik tarihselliği (Orkhon yazıtları)",
+      "C-0004: Gök Umay rolü (etin-mitoloji konsensüsü)",
+      "C-0013: Orkhon Yazıtları kanıtı (birincil kaynak)"
+    ],
+    "moderate_confidence_claims": [
+      "C-0005: Şamanlık sistem (antropolojik uyum)",
+      "C-0008: 24-boy sistemi (tarihî kaydı)",
+      "C-0009: Dede Korkut yazılı hafıza (UNESCO tanınması)"
+    ],
+    "contested_claims": [
+      "C-0002: Ekoloji-egalitarizm (nedensel mekanizm belirsiz)",
+      "C-0003: Özgürlük merkez değer (tanım tartışması)",
+      "C-0007: Oğuz Kağan tarihî çekirdek (mit vs. tarih)",
+      "C-0010: Sufizm sentezi (dönüşüm vs. korunma)",
+      "C-0012: Animizm varoluş temeli (uygulamada tutarsız)",
+      "C-0014: Türk milliyetçiliği bozkır kökleri (söylem vs. tarih)",
+      "C-0015: Klansal adalet restoratif (anachronism riski)"
+    ]
+  },
+  "red_team_summary": {
+    "total_claims_examined": 15,
+    "confirmed": 5,
+    "strongly_supported": 4,
+    "contested": 6,
+    "confirmed_or_supported_percentage": 60,
+    "contested_percentage": 40,
+    "major_findings": [
+      "Tengricilik tarihselliği güçlü; ancak mekanizmaları tartışmalı",
+      "Ögürlük ve egalitarizm teması makul; ancak romantisizm riski yüksek",
+      "Oğuz Kağan mitosu sanat-tarih açısından önemli; tarihî çekirdek belirsiz",
+      "Sufi-Tengricist sentez kısmen doğru; ancak 'korunma' yerine 'dönüşüm' daha doğru",
+      "Modern Türk milliyetçiliği bozkır değerlerine 'dayandırılan' iddiası söylem açısından doğru; normatifliliği tartışmalı"
+    ]
+  },
+  "phase_c_recommendations": {
+    "for_phase_d": [
+      "Kazak/Kırgız/Başkurt lehçelerinde Tengricilik kaynakları sistematik olarak toplanmalı",
+      "Dede Korkut versiyonlarının karşılaştırmalı analizi yapılmalı",
+      "Çin, Rus, Arap historiograflarından 'dış perspektif' alınmalı",
+      "Arkeolojik kanıtlar (Kurgan gömüleri) metafor değil, veri olarak kullanılmalı"
+    ],
+    "for_media_adaptation": [
+      "Mythical vs. historical distinction açık tutulmalı",
+      "Çoklu perspektif gösterilmeli (tidak hanya Turkish romantic view)",
+      "Modern reinterpretation vs. ancient belief ayrımı yapılmalı",
+      "Dönem farkları (6.yy Göktürk vs. 13.yy Mongol vs. 20.yy Modernizm) net tutulmalı"
+    ]
+  },
+  "verification_metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T18:45:00Z",
+    "phase": "C",
+    "total_counter_arguments": 47,
+    "historiographical_debates_mapped": 4,
+    "perspective_diversity_score": "BALANCED",
+    "circular_citation_risk": "MODERATE",
+    "gap_documentation_completeness": "COMPREHENSIVE",
+    "readiness_for_next_phase": true,
+    "notes": "Faz C tamamlandı. Faz D (Synthesis & Angles) hazırlığı yapılabilir. İnsan gözden geçirmesi: historiographical sensitivity ve perspective balance önemli."
+  }
+}

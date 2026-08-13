@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/approval.schema.json",
+  "title": "Approval",
+  "description": "Human gate as an object. Upstream change voids it via inputs_fingerprint (M13 §15).",
+  "type": "object",
+  "properties": {
+    "approval_id": {
+      "type": "string",
+      "pattern": "^APR-\\d{4}$"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "scene",
+            "act",
+            "master",
+            "reference_lock",
+            "budget_overage",
+            "story_deviation",
+            "legal"
+          ]
+        },
+        "target_id": {
+          "type": "string"
+        },
+        "includes_downstream": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type",
+        "target_id"
+      ]
+    },
+    "requested_by": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "presented": {
+      "type": "object",
+      "properties": {
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "qa_report": {
+          "type": "string",
+          "pattern": "^QAR-\\d{4}$"
+        }
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "approved",
+        "approved_with_notes",
+        "rejected"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "decided_by": {
+      "type": "string"
+    },
+    "decided_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "revoked": {
+      "type": "boolean"
+    },
+    "inputs_fingerprint": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "required": [
+    "approval_id",
+    "scope",
+    "requested_by",
+    "reason",
+    "decision"
+  ],
+  "additionalProperties": true
+}

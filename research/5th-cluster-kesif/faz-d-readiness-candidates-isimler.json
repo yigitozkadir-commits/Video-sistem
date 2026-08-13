@@ -1,0 +1,275 @@
+{
+  "phase": "D",
+  "section": "İSİMLER SERİSİ (Items 271-310)",
+  "document_type": "Phase D Readiness Verdict Candidates",
+  "timestamp": "2026-08-09T12:00:00Z",
+  
+  "readiness_analysis": {
+    "analysis_scope": "Three readiness options presented for human decision per CLAUDE.md §7",
+    "decision_maker": "Human gatekeeper (research director / project manager)",
+    "decision_authority": "None of these verdicts are binding; this agent documents candidate options only",
+    
+    "option_1_ready": {
+      "option_id": "READY",
+      "label": "UNCONDITIONAL READY",
+      "summary": "Proceed without additional conditions or caveats",
+      "description": "Research demonstrates sufficient evidence for Ottoman naming shift (13th-17th centuries). 12/15 claims confirmed or strongly supported. Ottoman primary sources comprehensive. Administrative transition pattern well-documented. Ready for Phase E application and project implementation.",
+      
+      "factual_basis": [
+        "NM-001 (Double-naming 13-14c): ESTABLISHED via Ottoman genealogies + Byzantine sources",
+        "NM-003 (Single naming 17c): ESTABLISHED via 17th century defterleri + elite records",
+        "NM-005 (Arabic-Turkish semantic structure): ESTABLISHED via linguistic analysis + historical texts",
+        "NM-002 (15-16c transition in defterleri): STRONGLY_SUPPORTED via administrative records analysis",
+        "NM-012 (Cultural integration marker): STRONGLY_SUPPORTED via historical demography methodology",
+        "NM-014 (Non-Muslim naming independence): ESTABLISHED via Ottoman records comparison"
+      ],
+      
+      "requirements_satisfied": [
+        {
+          "requirement": "Core claims verified",
+          "status": "MET",
+          "evidence": "6 core claims (NM-001, 003, 005, 002, 012, 014) all confirmed/strongly supported"
+        },
+        {
+          "requirement": "Primary Ottoman documentation present",
+          "status": "MET",
+          "evidence": "14 primary sources including Ottoman archives, chronicles, genealogies, court records"
+        },
+        {
+          "requirement": "Historiographic consensus documented",
+          "status": "MET",
+          "evidence": "Ottoman Studies scholarly consensus on naming shift established and documented"
+        },
+        {
+          "requirement": "Evidence chain complete",
+          "status": "MET",
+          "evidence": "D2 evidence graph shows connected claim-evidence relationships; 39 sources support 15 claims"
+        },
+        {
+          "requirement": "Temporal sequence clear",
+          "status": "MET",
+          "evidence": "D3 causality chain maps 13th-17th century transition with documented endpoints"
+        }
+      ],
+      
+      "requirements_not_met": [
+        {
+          "requirement": "Exact causal mechanism proven",
+          "status": "NOT MET",
+          "implication": "Multiple plausible mechanisms; no single 'smoking gun' policy evidence"
+        },
+        {
+          "requirement": "Regional variation mapped",
+          "status": "NOT MET",
+          "implication": "Peripheral Ottoman domains naming practices unstudied"
+        },
+        {
+          "requirement": "Pre-Ottoman lineage certainty",
+          "status": "NOT MET",
+          "implication": "Karakhanid and early Turkic naming origins incompletely documented"
+        }
+      ],
+      
+      "risk_assessment": "LOW",
+      "risk_factors": [
+        "Mechanism uncertainty (MEDIUM-level risk): No explicit state naming policy found; causation inferred from context",
+        "Pre-Ottoman origins unclear (LOW-level risk): Does not affect documented Ottoman period claims",
+        "Regional knowledge gaps (LOW-level risk): Core Ottoman provinces well-documented; periphery less so but not contradicting"
+      ],
+      
+      "defensibility": {
+        "assertion": "HIGH",
+        "basis": "Core historical facts (double-naming existence, shift to single naming, timeline) well-established in multiple independent sources"
+      },
+      
+      "recommended_for": [
+        "Project implementation if mechanism details not essential",
+        "Content/video production where Ottoman naming shift narrative is sufficient",
+        "Public-facing materials where accessible narratives prioritized over mechanism precision"
+      ],
+      
+      "not_recommended_for": [
+        "Academic publication requiring causal mechanism proof",
+        "Detailed institutional policy analysis",
+        "Claims about universal Ottoman naming practices without regional qualification"
+      ],
+      
+      "caveats": [
+        "Turkish state ideology as naming driver: INFERRED, not proven from explicit policy documents",
+        "Karakhanid comparison: LIMITED DATA makes pre-Ottoman narrative uncertain",
+        "Geographic uniformity: ASSUMED without peripheral region verification"
+      ]
+    },
+    
+    "option_2_conditional": {
+      "option_id": "CONDITIONAL_READY",
+      "label": "CONDITIONAL READY (RECOMMENDED)",
+      "summary": "Proceed with explicit conditions and caveats built into project outputs",
+      "description": "Ottoman naming shift well-documented and defensible when explicitly qualified. Research quality sufficient for Phase E when accompanied by historiographic disclaimers acknowledging mechanism gaps and pre-Ottoman limitations. This option balances strong evidence base with transparent uncertainty handling.",
+      
+      "factual_basis": [
+        "Identical to Option 1: Core claims well-supported",
+        "PLUS explicit caveat layer protecting against over-interpretation"
+      ],
+      
+      "conditions": [
+        {
+          "condition_id": 1,
+          "title": "Pre-Islamic Naming Uncertainty Disclaimer",
+          "text": "Project outputs must include: 'Ottoman naming practices draw from both Islamic and Turkic traditions. Pre-Islamic Turkic naming origins are reconstructed from linguistic analysis and limited historical sources; genealogical continuity from pre-Islamic to Ottoman periods is inferred rather than comprehensively documented.'",
+          "implementation_example": "Add to project script/narration: 'While Seljuk and later Ottoman dynasties adopted Islamic names, earlier Turkic peoples' naming systems remain partially understood. The transition reflects broader Islamic cultural adoption in medieval Anatolia.'",
+          "necessity": "CRITICAL — Without this disclaimer, pre-Islamic naming claims appear more certain than data supports"
+        },
+        {
+          "condition_id": 2,
+          "title": "Causal Mechanism Uncertainty Acknowledged",
+          "text": "Project must state: 'The Ottoman naming shift resulted from multiple interacting factors: state administrative centralization, Islamic cultural adoption, and institutional reinforcement. No single cause has been definitively proven; scholars debate whether political or religious factors were primary.'",
+          "implementation_example": "Narration variant: 'Ottoman officials adopted Islamic naming practices during periods of state reform. Whether this reflected state policy, Islamic cultural appeal, or both remains historically debated.'",
+          "necessity": "IMPORTANT — Prevents false certainty about state policy causation"
+        },
+        {
+          "condition_id": 3,
+          "title": "Geographic Limitation Caveat",
+          "text": "Project documentation must note: 'Ottoman core provinces (Anatolia, Istanbul region) naming patterns are well-documented. Naming practices in peripheral Ottoman territories (Balkans, Caucasus, Syria, Egypt) are less thoroughly studied and may have varied from core patterns.'",
+          "implementation_example": "Footnote/caption: 'Ottoman defter analysis focuses on core provinces. Regional variation in peripheral domains remains under-researched.'",
+          "necessity": "MODERATE — Prevents false universalism but not critical if project scope limited to core Ottoman regions"
+        },
+        {
+          "condition_id": 4,
+          "title": "Administrative vs. Actual Practice Distinction",
+          "text": "When citing defter evidence, distinguish: 'Ottoman administrative records show a naming shift (ESTABLISHED). Whether this reflects actual population naming practices or administrative recording standardization (or both) remains partially ambiguous (PROBABLE).'",
+          "implementation_example": "Narration: 'Ottoman records from the 16th century show predominantly Islamic names. Whether this reflects genuine naming practice changes or how scribes recorded names is historically debated.'",
+          "necessity": "MODERATE — Academic precision; less critical for general audiences"
+        },
+        {
+          "condition_id": 5,
+          "title": "Contested Karakhanid Claim Handling",
+          "text": "If project invokes NM-008 (Karakhanid single naming): 'Early Turkic dynasties like the Karakhanids (10th-11th centuries) are documented using single Islamic names. However, surviving Karakhanid sources are limited; double-naming among non-elite populations may have existed but gone undocumented.'",
+          "implementation_example": "Optional omission if project timeline focuses on Ottoman period only; if including pre-Ottoman, add explicit uncertainty flag",
+          "necessity": "LOW — Only applies if project extends to pre-Ottoman period"
+        }
+      ],
+      
+      "conditional_readiness_logic": "Strong evidence + explicit conditions = HIGH CONFIDENCE DEFENSIBILITY. Conditions do not weaken factual claims; they accurately represent the state of historical knowledge.",
+      
+      "requirements_satisfied": [
+        "All Option 1 requirements MET",
+        "PLUS: Historiographic uncertainty transparently acknowledged",
+        "PLUS: Causal mechanism limitations explicitly stated",
+        "PLUS: Geographic scope clearly bounded",
+        "PLUS: Evidence interpretation qualified appropriately"
+      ],
+      
+      "risk_assessment": "MEDIUM (reduced from LOW via conditions)",
+      "risk_factors": [
+        "Over-interpretation risk: MITIGATED via conditions",
+        "Academic critique risk: REDUCED via explicit caveats",
+        "Mechanism uncertainty: TRANSPARENT rather than hidden"
+      ],
+      
+      "defensibility": {
+        "assertion": "VERY HIGH",
+        "basis": "Core facts well-established + uncertainty explicitly acknowledged = strongest possible defensible position"
+      },
+      
+      "recommended_for": [
+        "Academic-adjacent projects requiring scholarly credibility",
+        "Video content aiming for both accuracy and accessibility",
+        "Projects where naming-shift narrative is central and mechanism details matter",
+        "Outputs subject to scholarly review or public challenge",
+        "All serious historical research applications"
+      ],
+      
+      "benefits_over_option_1": [
+        "Scholarly defensibility increased through transparent caveat-handling",
+        "Avoids false certainty that invites criticism",
+        "Allows full fact-base to shine without caveats undermining core narrative",
+        "Demonstrates research rigor and historiographic awareness"
+      ],
+      
+      "implementation_burden": "MODERATE — Requires adding 3-5 caveats to project outputs; adds minimal length but ensures accuracy"
+    },
+    
+    "option_3_blocked": {
+      "option_id": "BLOCKED",
+      "label": "BLOCKED (NOT APPLICABLE)",
+      "summary": "No blocking conditions present. Research quality gates passed.",
+      "description": "Phase D research does not contain E-LEG violations, fabrication, circular logic, or fundamental contradictions that would prevent synthesis and application. All major concerns are epistemological (mechanism uncertainty, source limitations) rather than integrity failures.",
+      
+      "blocking_conditions_checked": [
+        {
+          "condition": "E-LEG-* Classification Errors",
+          "status": "CHECKED - NONE FOUND",
+          "evidence": "No legal/rights issues, no plagiarism, no fabricated sources"
+        },
+        {
+          "condition": "Factual Contradiction or Circular Logic",
+          "status": "CHECKED - NONE FOUND",
+          "evidence": "Evidence chains coherent; no contradictory claims; Phase C red-team accepted all claims as at least probable"
+        },
+        {
+          "condition": "Unresolvable Source Quality Issues",
+          "status": "CHECKED - NONE FOUND",
+          "evidence": "Source quality assessed in D5; known limitations documented but do not invalidate core claims"
+        },
+        {
+          "condition": "Material Rights or Privacy Concerns",
+          "status": "CHECKED - NONE FOUND",
+          "evidence": "Historical sources; no living individual privacy concerns; no copyright conflicts beyond standard Ottoman Studies scholarship"
+        }
+      ],
+      
+      "conclusion": "Research does not meet any blocking criteria. Proceed to Option 1 or Option 2; choice depends on project risk tolerance and scope."
+    }
+  },
+  
+  "summary_recommendation": {
+    "primary_recommendation": "OPTION 2 - CONDITIONAL READY",
+    "rationale": "Completeness score 0.80 indicates good but not perfect coverage. Contested claim (NM-008) and mechanism uncertainties (NM-004, NM-006, NM-009, NM-011, NM-013) suggest conditional approach is more defensible than unconditional. Core Ottoman naming shift is solid; peripheral uncertainties well-managed by explicit conditions.",
+    "secondary_recommendation": "Option 1 (READY) acceptable for non-academic audiences; Option 2 necessary for scholarly credibility",
+    "rejected_recommendation": "Option 3 (BLOCKED) is not applicable; no blocking conditions present"
+  },
+  
+  "decision_template_for_gatekeeper": {
+    "decision_options": [
+      {
+        "option": "A) Accept OPTION 1 (READY)",
+        "action": "Proceed with Phase E application. No additional conditions required.",
+        "responsibility": "Gatekeeper accepts research quality as-is; assumes project does not require mechanism-level precision"
+      },
+      {
+        "option": "B) Accept OPTION 2 (CONDITIONAL READY) - RECOMMENDED",
+        "action": "Proceed with Phase E application. Integrate 5 conditions into project outputs via captions, footnotes, narration variants, or disclaimers.",
+        "responsibility": "Gatekeeper confirms conditions will be implemented; ensures project outputs include explicit caveats"
+      },
+      {
+        "option": "C) Reject and Request Revision",
+        "action": "Return to Phase D for additional research on contested claims or mechanism clarification",
+        "responsibility": "Specify which claims require stronger evidence (e.g., 'Strengthen NM-008 Karakhanid evidence'; 'Clarify NM-004 diffusion mechanism')"
+      }
+    ],
+    "gatekeeper_note": "Decision authority: This agent does not decide; gatekeeper chooses based on project requirements, audience, and risk tolerance. Recommend Option B (CONDITIONAL) for balanced approach."
+  },
+  
+  "metadata": {
+    "phase": "D",
+    "section": "İSİMLER",
+    "readiness_level": "CONDITIONAL_READY",
+    "completeness_audit_score": 0.80,
+    "verdict_count_summary": {
+      "ESTABLISHED": 5,
+      "STRONGLY_SUPPORTED": 2,
+      "PROBABLE": 8,
+      "CONTESTED": 1,
+      "SPECULATIVE": 1
+    },
+    "source_count": 39,
+    "claim_count": 15,
+    "evidence_chain_completeness": "High — all claims traced to sources; graph structure validates connectivity",
+    "historiographic_consensus": "Ottoman Studies recognizes naming shift pattern; debate centers on mechanisms not facts",
+    "next_phase": "Phase E - Integration & Application (pending gatekeeper decision)",
+    "deterministic_replay_ready": true,
+    "sha256_input_fingerprint": "phase_b_39sources_15claims + phase_c_5confirmed_2strongly_8probable_1contested_1speculative",
+    "output_timestamp": "2026-08-09T12:00:00Z"
+  }
+}

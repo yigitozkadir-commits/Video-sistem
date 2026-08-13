@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/caption_track.schema.json",
+  "title": "Caption Track",
+  "description": "Word/phrase-level timing for one scene's narration, produced by scripts/generate_captions.py (faster-whisper) and consumed by remotion_template's StudioComposition.tsx via @remotion/captions. The `captions` array items are shaped identically to @remotion/captions' own Caption type (verified against remotion-dev/remotion's packages/captions/src/caption.ts) so the JSON can be fed to createTikTokStyleCaptions()/renderers without transformation. Also doubles as CLAUDE.md section 10's faster-whisper listen-check evidence for long-compound-number findings (checklist_common.long_compound_number_findings) - same transcription, two consumers.",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "source_audio": {
+      "type": "string",
+      "description": "Path to the narration file that was transcribed, relative to the project root."
+    },
+    "model": {
+      "type": "string",
+      "description": "faster-whisper model name (e.g. \"base\", \"small\") - part of the deterministic-replay record (CLAUDE.md law #5)."
+    },
+    "language": {
+      "type": "string",
+      "description": "BCP-47-ish language code faster-whisper detected or was told to use (e.g. \"tr\")."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "inputs_fingerprint": {
+      "type": "string",
+      "description": "sha256 over the inputs that determine this transcription (audio file sha256 + model + language) - CLAUDE.md hard rule: every write records sha256 + inputs_fingerprint. Re-running with an unchanged audio file/model/language is a no-op (matches ArtifactCache's fingerprint() convention in lib/production_ledger.py)."
+    },
+    "captions": {
+      "type": "array",
+      "description": "Same shape as @remotion/captions' Caption[] - text, startMs, endMs, timestampMs, confidence. text is whitespace-sensitive per Remotion's own convention (include the leading space before each word except the first).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "startMs": {
+            "type": "number",
+            "minimum": 0
+          },
+          "endMs": {
+            "type": "number",
+            "minimum": 0
+          },
+          "timestampMs": {
+            "type": ["number", "null"]
+          },
+          "confidence": {
+            "type": ["number", "null"]
+          }
+        },
+        "required": ["text", "startMs", "endMs", "timestampMs", "confidence"]
+      }
+    }
+  },
+  "required": ["scene_id", "source_audio", "model", "generated_at", "captions"],
+  "additionalProperties": true
+}

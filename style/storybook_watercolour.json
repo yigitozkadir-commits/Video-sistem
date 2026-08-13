@@ -1,0 +1,32 @@
+{
+  "style_id": "storybook_watercolour",
+  "palette": {
+    "dominant": [
+      "#F2D8B8",
+      "#A8C69F",
+      "#E8A87C"
+    ],
+    "forbidden": [
+      "neon",
+      "pure black"
+    ]
+  },
+  "grade": "soft watercolour wash, warm midtones, gentle contrast",
+  "grain": "paper texture",
+  "lens_set": [
+    "wide",
+    "normal"
+  ],
+  "motion_ceiling": 2,
+  "lighting_vocabulary": [
+    "single_window_soft",
+    "golden_hour",
+    "overcast_soft"
+  ],
+  "texture_language": "paper grain, soft edges, hand-painted texture",
+  "forbidden": [
+    "photoreal skin",
+    "harsh shadow",
+    "horror imagery"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "shot_id": "SH-004-03",
+  "scene_id": "SC-004",
+  "variant": "image",
+  "role": "insert",
+  "prompt_ref": "PV-0031",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.closeup.realisation",
+  "variables_resolved": {
+    "identity_tokens": "an old court scribe poring over a ledger, uncertain expression",
+    "wardrobe": "plain administrator's robe",
+    "micro_action": "tracing a finger down a list of names, pausing",
+    "environment": "a dim archive room, scrolls stacked on shelves",
+    "lighting": "single_window_soft",
+    "ambient_element": "dust in the light shaft"
+  },
+  "resolved_text": "an old court scribe poring over a ledger, uncertain expression, plain administrator's robe. tracing a finger down a list of names, pausing. a dim archive room, scrolls stacked on shelves. single_window_soft. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: dust in the light shaft only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true
+  },
+  "reference_set": [],
+  "reference_set_status": "Reference set not yet generated (manual Flow step) except where a real downloaded archival asset is listed - see state/archival_reference_candidates.jsonl.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow",
+  "seed": null,
+  "status": "completed",
+  "created_at": "2026-08-08T23:05:11.325620+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-004-03.jpeg",
+  "sha256": "6b54d424c2975f4bc130a914260b565a42cd79acd5b6a6b2a5954ebd21ad6129",
+  "bytes": 754287,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
+}

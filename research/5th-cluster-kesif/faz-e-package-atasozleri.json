@@ -1,0 +1,116 @@
+{
+  "package_id": "5TH-ATASOZLERI-E",
+  "phase": "E",
+  "section": "ATASÖZLERI",
+  "items": "241-270",
+
+  "angle": {
+    "selected_angle": "Language Preservation Race: One Language Dies Every 40 Days—Can Atasözleri Survive?",
+    "rationale": "Creates immediate audience urgency via time-bound extinction rate (40 days per ELCat, corrected from 2-week misconception). Connects global statistics to specific Turkic case studies: Tuvan, Kazakh, Kyrgyz, Uyghur. Grounds story in documented preservation *initiatives* (not just loss abstractions)."
+  },
+
+  "hook": {
+    "primary_hook": "One Language Dies Every 40 Days—And With It, a Proverb Tradition That Took Centuries to Build",
+    "entry_point": "Number impact: 7,168 languages today; 43% endangered; ~1,400 with <1,000 speakers. By 2100: 3,500+ lost if status quo continues.",
+    "conflict": "Preservation efforts ARE happening (Wikitongues, Atalar Sözderi, UNESCO Manas). Question: Can preservation catch up to extinction?"
+  },
+
+  "research_foundation": {
+    "faz_d_reference": "faz-d-master-dossier-atasozleri.json",
+    "completeness_score": 0.88,
+    "readiness_verdict": "READY (with optional caveats)",
+    "readiness_rationale": "Completeness 0.88 is highest in 5-cluster research. All 12 claims CORE status (8), SUPPORTING (2), PERIPHERAL (2) with detailed verdicts. Evidence quality: 3+ independent sources per major claim. Counter-arguments well-documented (extinction rate dispute: ELCat vs. UNESCO). Gaps explicitly marked (longitudinal effectiveness of documentation unproven).",
+    "key_strengths": [
+      "Extinction rate data robust: 3+ independent sources per rate variant",
+      "2100 projection well-documented via UNESCO and academic sources",
+      "Language-death/proverb-loss connection supported by 5+ evidence items",
+      "Case-specific documentation: Tuvan (~130k speakers), Kazakh, Kyrgyz, Uyghur all with active preservation programs",
+      "Counter-arguments captured: extinction rate disputes, documentation effectiveness uncertainty, revitalization contingency"
+    ],
+    "major_gaps": [
+      "Which specific Turkic proverbs have been lost? (Inventory gap)",
+      "Uyghur-specific proverb transmission loss rates (Turkish diaspora data doesn't generalize)",
+      "Longitudinal effectiveness data: does documentation (Wikitongues, Atalar Sözderi) actually slow extinction? (No long-term metrics)",
+      "Implementation metrics: Kazakhstan/Kyrgyzstan/Tatarstan language preservation 2024-2026 progress (data lag)"
+    ],
+    "readiness_conditions": [
+      "Condition A (optional): Note extinction-rate dispute — ELCat estimates 1 language every 3-4 months; older UNESCO figure claimed 1 every 2 weeks. Both are alarming rates; exact figure less important than trend.",
+      "Condition B (optional): Emphasize 2100 projection is contingent — assumes status quo; if preservation efforts scale, outcome could be 20-40% language loss instead of 50-90%.",
+      "Condition C (optional): Acknowledge documentation effectiveness unknown — Wikitongues has documented 776 languages (2,055 resources), but no data yet on whether documentation slows extinction."
+    ]
+  },
+
+  "content_brief": {
+    "target_audience": "UNESCO/cultural preservation advocates, language learners, Turkic heritage interest, general audience concerned with cultural extinction",
+    "narrative_approach": "Urgency via quantifiable rates + hope via documented preservation initiatives + scholarly caution on effectiveness",
+    "content_warnings": "Geopolitical sensitivity on Uyghur language policy (well-documented; framed as one case within broader endangered-language crisis, not as primary focus)",
+    "narrative_acts": [
+      {
+        "act": 1,
+        "title": "Global Language Extinction Crisis (quantified)",
+        "duration_estimate": "2-3 min",
+        "content": "7,168 languages today; 43% endangered; 1,400+ with <1,000 speakers. Extinction rates: 1 every 40 days (ELCat) or 1 every 2 weeks (disputed). By 2100: 50-90% loss projected. Visual: timeline, extinction rate graphic, speaker population maps."
+      },
+      {
+        "act": 2,
+        "title": "Atasözleri as Language Proxy (why proverbs matter)",
+        "duration_estimate": "2-3 min",
+        "content": "Language death = proverb tradition loss (confirmed via 5+ sources). Specific example: Latin proverbs survive in modern Romance languages, but Latin is dead. What happens when languages have no 'heir' language?"
+      },
+      {
+        "act": 3,
+        "title": "Turkic-Specific Endangered Languages",
+        "duration_estimate": "3-4 min",
+        "content": "Tuvan (~130k speakers), Kazakh documentation (Atalar Sözderi 100-volume series), Kyrgyz traditions + Manas UNESCO recognition, Uyghur language policy context. Each case shows different preservation model: state program (Kazakhstan), academic documentation (Kyrgyz), geopolitical pressure (Uyghur)."
+      },
+      {
+        "act": 4,
+        "title": "Preservation Initiatives & Open Questions",
+        "duration_estimate": "2-3 min",
+        "content": "Wikitongues (776 languages, 2,055 resources), UNESCO Intangible Cultural Heritage programs, academic paremiography research. Question: Is documentation enough? Longitudinal data lacking. Show preservation work happening; note uncertainty about scaling."
+      }
+    ]
+  },
+
+  "production_scope": {
+    "expected_duration": "8-12 minutes",
+    "scene_count": "25-35 scenes",
+    "visual_style": "Data visualization + documentary + archival + comparative examples",
+    "primary_visual_assets": [
+      "Language extinction timeline (animated data graphic)",
+      "Speaker population maps (endangered language distribution by region/language family)",
+      "UNESCO endangered language database examples",
+      "Wikitongues project documentation",
+      "Kazakh Atalar Sözderi book series (physical/digital display)",
+      "Kyrgyz Manas epic (UNESCO recognition ceremony, performance footage if available)",
+      "Academic documentation examples (Tuvan paremiography publications)",
+      "Uyghur language policy context (education materials, bilingual signage, documented changes)"
+    ],
+    "interview_potential": "High — UNESCO linguists, Wikitongues project leads, Kazakh/Kyrgyz heritage administrators, academic paremiographers, language revitalization practitioners",
+    "archival_material_available": "High — UNESCO reports, academic databases (LINGUIST List, Language Log), policy documents"
+  },
+
+  "production_notes": {
+    "historiographic_transparency_required": "Yes — Extinction rate disputes noted (ELCat vs. UNESCO); 2100 projection contingency clarified; documentation effectiveness marked as unproven",
+    "geopolitical_sensitivity": "MEDIUM — Uyghur language policy is contested; frame as one case within broader endangered-language crisis, not as primary focus. Acknowledge well-documented but politically contested nature.",
+    "critical_caveats_count": 5,
+    "caveats_detail": [
+      "Extinction rate dispute: 'Estimates vary — ELCat suggests one language every 3-4 months; some older sources cited a faster rate. Both indicate rapid extinction.'",
+      "2100 projection contingency: 'This projection assumes current conditions continue unchanged. If language revitalization efforts scale up significantly, actual 2100 loss could be 20-40% instead of 50-90%.'",
+      "Documentation effectiveness: 'Wikitongues and similar projects have documented 776 languages globally, but no longitudinal data yet on whether documentation actually slows extinction rates.'",
+      "Uyghur specificity: 'Uyghur language policy is geopolitically contested; well-documented in international sources but interpretation varies by perspective. Frame as one case study within broader preservation crisis.'",
+      "Specific proverb inventory gap: 'While we know languages are dying, precise inventories of which Turkic proverbs have been lost (vs. documented) remain incomplete.'"
+    ]
+  },
+
+  "archive_metadata": {
+    "generated_at": "2026-08-09T18:42:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-package-atasozleri",
+    "faz_b_sources_count": "25+",
+    "faz_b_claims_count": 12,
+    "faz_c_core_claims": 8,
+    "faz_c_strongly_confirmed": "HIGH"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "shot_id": "SH-014-03",
+  "scene_id": "SC-014",
+  "variant": "image",
+  "reused_from_shot_id": "SH-007-02",
+  "reuse_reason": "Deepening/interstitial scene reuses an existing Flow-generated visual - no new Flow or ElevenLabs generation for the image itself (user rule 2026-08-09: minimize unnecessary generation cost).",
+  "prompt_ref": "PV-0044",
+  "prompt_family": "flow.shot.wide.establishing",
+  "resolved_text": "An open, unmarked scroll or map lying across a table, two ink quills pointing in opposite directions across it, symbolizing two competing interpretations. objects only. indoor still. overcast_soft. top_down static. 28mm equivalent, deep focus. Motion: environmental only — faint dust settling. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-007-02.jpeg",
+  "sha256": "7c0dfc67417262953bb8b1a0235e9e2de60cd51a1feab066036fef463f40f554",
+  "bytes": 808244,
+  "width": 1376,
+  "height": 768,
+  "model": "google-flow",
+  "status": "reused",
+  "original_generated_at": "2026-08-09T01:14:44.610015+00:00",
+  "reused_at": "2026-08-09T01:37:04.711588+00:00"
+}

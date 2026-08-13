@@ -1,0 +1,20 @@
+{
+  "shot_id": "SH-013-03",
+  "scene_id": "SC-013",
+  "variant": "image",
+  "reused_from_shot_id": "SH-005-03",
+  "reuse_reason": "Deepening/interstitial scene reuses an existing Flow-generated visual - no new Flow or ElevenLabs generation for the image itself (user rule 2026-08-09: minimize unnecessary generation cost).",
+  "prompt_ref": "PV-0031",
+  "prompt_family": "flow.shot.closeup.realisation",
+  "resolved_text": "the young Sultan's hand resting on an ornate armrest, rings visible, jeweled royal sleeve, fine embroidery. fingers tightening slightly on the armrest. throne room detail, out of focus background. single_window_soft. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: dust in light only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-005-03.jpeg",
+  "sha256": "7995946251c50ea268f0832edaf0c99281b3ad1717e905aef448b7a4bb747725",
+  "bytes": 691186,
+  "width": 1376,
+  "height": 768,
+  "model": "google-flow",
+  "status": "reused",
+  "original_generated_at": "2026-08-09T01:14:44.610015+00:00",
+  "reused_at": "2026-08-09T01:37:04.711588+00:00"
+}

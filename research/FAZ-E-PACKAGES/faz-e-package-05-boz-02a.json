@@ -1,0 +1,55 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "BOZ-02A",
+  "items_range": "201-260",
+  "items_count": 60,
+  "angle": {
+    "text": "Iklim değişince göçebeler nasıl uyum sağlar?",
+    "rationale": "E1: BOZ-02A bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Paleoklimatın Kötü Şöhreti: İklim Savaş Yaratır mı? (Arkeologlar Yanıldı)",
+    "most_dramatic_claim": "1990s-2000s arkeoloji: iklim değişikliği → çatışma & göç. 2010s+: yanılıydı. Iklim enabling condition, determinant değil. Toplumlar aynı strese farklı cevap veriyor.",
+    "why_compelling": "Paradigm shift: basit nedensellik kütüphanede yanlış çalışmasıydı"
+  },
+  "claims_summary": {
+    "total_count": 8,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "PLAUSIBLE",
+      "PLAUSIBLE",
+      "ESTABLISHED",
+      "PLAUSIBLE",
+      "WEAK"
+    ],
+    "cautions": "Climate determinism riski yüksek - causation-correlation hatası ortaya çıkartılmalı"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Climate determinism riski yüksek - causation-correlation hatası ortaya çıkartılmalı"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "BOZ-02A: Paleoklimatın Kötü Şöhreti: İklim Savaş Yaratır mı? (Arkeologlar Yanıldı) — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

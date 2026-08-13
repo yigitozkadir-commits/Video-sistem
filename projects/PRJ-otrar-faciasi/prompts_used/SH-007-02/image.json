@@ -1,0 +1,35 @@
+{
+  "shot_id": "SH-007-02",
+  "scene_id": "SC-007",
+  "variant": "image",
+  "role": "insert",
+  "prompt_ref": "PV-0044",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.wide.establishing",
+  "variables_resolved": {
+    "environment_subject": "An open, unmarked scroll or map lying across a table, two ink quills pointing in opposite directions across it, symbolizing two competing interpretations",
+    "figure_for_scale": "objects only",
+    "air_and_weather": "indoor still",
+    "lighting": "overcast_soft",
+    "camera": "top_down static",
+    "ambient_element": "faint dust settling"
+  },
+  "resolved_text": "An open, unmarked scroll or map lying across a table, two ink quills pointing in opposite directions across it, symbolizing two competing interpretations. objects only. indoor still. overcast_soft. top_down static. 28mm equivalent, deep focus. Motion: environmental only — faint dust settling. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "reference_set": [],
+  "reference_set_status": "Reference set not yet generated (manual Flow step) except where a real downloaded archival asset is listed - see state/archival_reference_candidates.jsonl.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow",
+  "seed": null,
+  "status": "completed",
+  "created_at": "2026-08-08T23:05:11.325620+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-007-02.jpeg",
+  "sha256": "7c0dfc67417262953bb8b1a0235e9e2de60cd51a1feab066036fef463f40f554",
+  "bytes": 808244,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
+}

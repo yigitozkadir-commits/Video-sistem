@@ -1,0 +1,82 @@
+YOUTUBE KAPAK (THUMBNAIL) GÖRSELLERİ — 3 BİTMİŞ VİDEO (v1)
+Google Flow için hazırlandı, üretim yapılmadı — kullanıcı kendi
+üretecek. 1280x720 (16:9) hedefleniyor, YouTube kapak boyutu.
+
+KULLANIM: "PROMPT" ve "NEGATIVE PROMPT" satırlarını Flow'a yapıştırın.
+Her görsel bir ARKA PLAN/KOMPOZİSYONdur — başlık metni içine
+gömülmüyor (AI modelleri metni sık sık bozuk üretiyor), YouTube
+Studio'da veya bir düzenleyicide siz üstüne başlık ekleyin. Her
+promptta kompozisyonun neresinde metin için boş alan bırakıldığı
+belirtiliyor.
+
+Önerilen başlıklar (60 karakter altı, güçlü ilk kelimeler, YouTube
+CTR pratikleri):
+- Başkurtlar: "Rusya'nın En Büyük Türk Halkı: Başkurtlar"
+- Dağların Uyuyan Devleri: "Dağların Uyuyan Devleri | Türkçe Sesli Masal"
+- Gök Umay Atlası: "Türklerin Unutulan Tanrıları: Gök Umay"
+
+================================================================================
+1. BAŞKURTLAR: KÖK BİR, SESLER FARKLI
+================================================================================
+Stil: historical_epic_steppe (desaturated warm shadows, cool
+highlights, film colour curve, 35mm grain, ochre/deep red/cold grey
+palette).
+
+PROMPT:
+Cinematic historical documentary thumbnail composition, a lone
+Bashkir nomad horseman in traditional fur-trimmed dress standing on
+the Ural steppe at golden hour, epic wide shot, dramatic warm
+backlighting silhouetting the rider and horse, desaturated warm
+shadows with cool highlights, fine 35mm film grain, felt leather
+wool and brass textures, ultra realistic, historically accurate.
+Composition: subject positioned right two-thirds of frame, clear
+open sky and steppe on the LEFT third for a title overlay.
+
+NEGATIVE PROMPT:
+modern objects, neon, pastel colours, anime, cartoon, text,
+watermark, blurry, low quality, oversaturation
+
+FLOW SETTINGS: aspect ratio 16:9 · mode: image · seed 20260807401 · candidates 3
+
+================================================================================
+2. DAĞLARIN UYUYAN DEVLERİ
+================================================================================
+Stil: fairytale_illustrated (illustrated storybook, soft edges,
+gold accents, paper grain texture, golden-hour lighting).
+
+PROMPT:
+Children's storybook illustration thumbnail, gentle sleeping giant
+mountain figures under a warm starry twilight sky, soft rolling
+clouds resting like blankets over the peaks, warm golden-amber and
+deep forest-green palette, painted illustration style with visible
+paper texture, gold accent linework, whimsical and cozy fairytale
+atmosphere. Composition: mountains centred and lower two-thirds of
+frame, open warm sky at the TOP third for a title overlay.
+
+NEGATIVE PROMPT:
+photoreal grit, horror imagery, scary, dark, modern objects, text,
+watermark, oversaturation
+
+FLOW SETTINGS: aspect ratio 16:9 · mode: image · seed 20260807402 · candidates 3
+
+================================================================================
+3. GÖK UMAY MİTOLOJİK ATLASI
+================================================================================
+Stil: mistik/kozmik Türk mitolojisi atlası — mevcut proje
+görsellerindeki (karakter portreleri, dekoratif çerçeve) atmosferle
+tutarlı.
+
+PROMPT:
+Mystical Turkic mythology atlas cover illustration, a cosmic steppe
+night sky with the Tengri sky-deity motif suggested through swirling
+star patterns and ancient shamanic symbols, ethereal deep-blue and
+gold colour palette, painterly illustrated style, ancient
+mythological atmosphere, ornate decorative border echoing archival
+manuscript art. Composition: symbolic celestial imagery centred,
+open dark sky area in the UPPER third for a title overlay.
+
+NEGATIVE PROMPT:
+modern objects, photoreal grit, anime, cartoon faces, text,
+watermark, oversaturation
+
+FLOW SETTINGS: aspect ratio 16:9 · mode: image · seed 20260807403 · candidates 3

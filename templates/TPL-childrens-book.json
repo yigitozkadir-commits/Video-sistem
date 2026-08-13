@@ -1,0 +1,79 @@
+{
+  "template_id": "TPL-childrens-book",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 4.5,
+      "range": [
+        3,
+        7
+      ]
+    },
+    "still_video_ratio": 0.55,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pan.right",
+      "tilt.up"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/storybook_watercolour.json",
+    "palette": {
+      "dominant": [
+        "warm pastel",
+        "high value",
+        "soft edges"
+      ],
+      "forbidden": [
+        "neon",
+        "harsh black"
+      ]
+    },
+    "lens_set": [
+      "wide",
+      "normal"
+    ],
+    "lighting": [
+      "single_window_soft",
+      "golden_hour",
+      "overcast_soft"
+    ],
+    "forbidden": [
+      "photoreal skin",
+      "harsh shadow",
+      "gore",
+      "night horror",
+      "threatening figures"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.35,
+      "speed": 1.0,
+      "wpm": 130
+    },
+    "music": {
+      "density": "high",
+      "instruments": "celesta, harp, light strings",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "gentle, always present",
+    "silence_max_s": 1.5
+  },
+  "qa_overrides": {
+    "audience_rating": "children",
+    "gates": {
+      "shot_accept": {
+        "min_weighted": 78
+      }
+    }
+  },
+  "budget_profile": {
+    "credits_per_minute": 200
+  }
+}

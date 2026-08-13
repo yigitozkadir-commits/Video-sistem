@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/qa_report.schema.json",
+  "title": "QA Report",
+  "description": "M12 §9.",
+  "type": "object",
+  "properties": {
+    "report_id": {
+      "type": "string",
+      "pattern": "^QAR-\\d{4}$"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "artifact",
+        "shot",
+        "scene",
+        "act",
+        "master"
+      ]
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "T1",
+        "T2",
+        "T3"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "axis_scores": {
+      "type": "object",
+      "properties": {
+        "NAR": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "VIS": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "TEC": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "SYN": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "AUD": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "CMP": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "EMO": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "LEG": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "MOT": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "IDN": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "additionalProperties": false
+    },
+    "weighted_score": {
+      "type": "number"
+    },
+    "gate": {
+      "type": "string",
+      "enum": [
+        "shot_accept",
+        "scene_accept",
+        "master_export",
+        "none"
+      ]
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "pass_with_findings",
+        "retry",
+        "fail",
+        "halt"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "$ref": "finding.schema.json"
+      }
+    },
+    "retry_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "attempt": {
+            "type": "integer"
+          },
+          "score": {
+            "type": "integer"
+          },
+          "strategy": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "signed_by": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "object",
+      "properties": {
+        "model": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "run_id": {
+          "type": "string",
+          "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+        }
+      }
+    }
+  },
+  "required": [
+    "report_id",
+    "scope",
+    "target_id",
+    "tier",
+    "result",
+    "signed_by"
+  ],
+  "additionalProperties": true
+}

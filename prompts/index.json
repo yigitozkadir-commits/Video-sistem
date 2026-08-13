@@ -1,0 +1,61 @@
+{
+  "generated": "v2.0",
+  "families": {
+    "flow.reference.character.sheet": {
+      "active": "PV-0007",
+      "tool": "flow",
+      "version": 1
+    },
+    "flow.shot.closeup.realisation": {
+      "active": "PV-0031",
+      "tool": "flow",
+      "version": 1
+    },
+    "flow.shot.wide.establishing": {
+      "active": "PV-0044",
+      "tool": "flow",
+      "version": 1
+    },
+    "eleven.narration.beat.revelation": {
+      "active": "PV-0102",
+      "tool": "eleven",
+      "version": 1
+    },
+    "eleven.music.cue.restrained_tension": {
+      "active": "PV-0140",
+      "tool": "eleven",
+      "version": 1
+    },
+    "claude.classify.book_image": {
+      "active": "PV-0210",
+      "tool": "claude",
+      "version": 1
+    },
+    "orchestrator.story.beat_map": {
+      "active": "PV-0301",
+      "tool": "orchestrator",
+      "version": 1
+    },
+    "director.shot_design": {
+      "active": "PV-0401",
+      "tool": "director",
+      "version": 1
+    },
+    "review.visual_qa.shot": {
+      "active": "PV-0501",
+      "tool": "review",
+      "version": 1
+    },
+    "remotion.caption.style": {
+      "active": "PV-0601",
+      "tool": "remotion",
+      "version": 1
+    },
+    "ffmpeg.normalize.master": {
+      "active": "PV-0701",
+      "tool": "ffmpeg",
+      "version": 1
+    }
+  },
+  "note": "Axes in prompts/axes/ expand these seeds combinatorially — see Module 19 section 4."
+}

@@ -1,0 +1,68 @@
+{
+  "template_id": "TPL-vertical-short",
+  "extends": "TPL-historical-epic",
+  "director": {
+    "pace": {
+      "avg_shot_s": 3.0,
+      "range": [
+        2,
+        4
+      ]
+    },
+    "still_video_ratio": 0.5,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "tilt.up"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/inherit.json",
+    "palette": {
+      "dominant": [
+        "inherit"
+      ],
+      "forbidden": [
+        "inherit"
+      ]
+    },
+    "lens_set": [
+      "normal",
+      "portrait"
+    ],
+    "lighting": [
+      "inherit"
+    ],
+    "forbidden": [
+      "small text",
+      "wide two-shots"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.5,
+      "style": 0.3,
+      "speed": 1.0,
+      "wpm": 155
+    },
+    "music": {
+      "density": "continuous_low",
+      "instruments": "inherit",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "inherit",
+    "silence_max_s": 1.2
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "captions": "always_on",
+    "hook_check": "seconds 0-2 must state the promise",
+    "max_total_duration_s": 90
+  },
+  "budget_profile": {
+    "credits_per_minute": 160
+  }
+}

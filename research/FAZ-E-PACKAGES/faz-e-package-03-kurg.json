@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "KURG",
+  "items_range": "81-150",
+  "items_count": 70,
+  "angle": {
+    "text": "Gimbutas'ın kurgan hipotezi neden eski kaldı? (2015+ DNA bulguları)",
+    "rationale": "E1: KURG bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "60 Yıl Doğru Olan Teori: Genetik DNA Onu Değiştirir (Gimbutas 1956-2015)",
+    "most_dramatic_claim": "Marija Gimbutas'ın 1956 kurgan hipotezi 60 yıl boyunca dominant oldu. 2015'te genetik kanıt onu geri plana alır - paradigma kaydı tamamlanır.",
+    "why_compelling": "Historiography drama: Nobel kurgu, sonra veri onu çürütüyor - bilim böyle yürüyor"
+  },
+  "claims_summary": {
+    "total_count": 5,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "CONTESTED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED"
+    ],
+    "cautions": "Kurgan hipotezi yanlış değil, tamamlanmıştır - multiple-wave model ile"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Kurgan hipotezi yanlış değil, tamamlanmıştır - multiple-wave model ile"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "KURG: 60 Yıl Doğru Olan Teori: Genetik DNA Onu Değiştirir (Gimbutas 1956-2015) — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

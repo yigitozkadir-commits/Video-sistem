@@ -1,0 +1,24 @@
+{
+  "checklist_script": "scripts/pre_render_checklist_otrar.py",
+  "run_at": "2026-08-09",
+  "findings": [
+    {
+      "check": "motion_ceiling_findings (scripts/lib/slideshow_risk.py)",
+      "text": "style profile declares motion_ceiling=3 (more motion than the ceiling-1 baseline) but the render's KEN_BURNS_SCALE constant is still 1.03 (the restrained value calibrated for motion_ceiling=1) - stills will look flatter/more static than this style profile intends",
+      "disposition": "CONSCIOUSLY_DISMISSED",
+      "reasoning": "Cross-checked motion_ceiling's actual documented usage (bible/Module_06 §Flow production, Module_15, Module_19) - in every reference it governs the CAMERA MOTION INTENSITY OF FLOW-GENERATED VIDEO SHOTS ('no shot exceeds the template's motion_ceiling', 'respect the template's camera_vocabulary and motion_ceiling'), not the Ken-Burns pan/zoom Remotion applies to STILL images in post. This project's 3 real AI-video shots (SH-003-01/006-01/008-01) already carry whatever motion Flow generated into the baked footage - motion_ceiling: 3 was satisfied at generation time, not at render time. slideshow_risk.py's motion_ceiling_findings check is a useful heuristic pairing (documented in its own source comment as calibrated 'for most style profiles' where ceiling happens to be 1) but is not a hard rule that every style's ceiling value must scale the Remotion Ken-Burns constant proportionally - no other completed project in this studio has done so. KEN_BURNS_SCALE=1.03 is the calibrated documentary-restrained baseline used successfully across 5 completed projects; bumping it for stills specifically was not requested and has no evidence behind it for this project. Not silently skipped (CLAUDE.md law #4) - reviewed and documented here before the full render."
+    }
+  ],
+  "other_checks_run": [
+    "video_loop_ratio (Otrar explicit-duration-aware variant) - 0 findings, all 3 video shots have explicit durationFrames matching their real ffprobe clip length",
+    "long_compound_numbers (17 scenes' source_text scanned) - 0 findings",
+    "silent_scene_no_audio_claim (SC-016/SC-017) - 0 findings, both correctly audioFile: null",
+    "slot_duration_findings (style-relative pace check) - 0 findings",
+    "repeated_adjacent_asset_findings (sha256-based, across scene boundaries too) - 0 findings"
+  ],
+  "verdict": "1 advisory finding, consciously dismissed with documented reasoning above (not a blocker per CLAUDE.md section 10 - 'reviewed and consciously dismissed or fixed, never silently skipped'). Proceeding to full render.",
+  "other_mandated_checks": {
+    "scripts/validate.py": "PASS - 0 errors, 0 warnings (186 JSON files, 38 schemas)",
+    "scripts/plan_scene_count.py": "NOT RE-RUN, documented skip: this script computes an INITIAL scene plan from raw source text (used once already, task pre-history, for the original 12-scene plan). It has no 'verify an already hand-curated scene set' mode - re-running it now would regenerate scene_plan.json from the original source length alone and silently discard the 2026-08-09 deepening inserts (SC-013/014/015) and silent breaks (SC-016/017) it has no knowledge of. Its purpose (M22 density-target compliance) was instead verified manually for the CURRENT 17-scene structure: max_image_hold_s cap (12s) checked per-scene in scene_plan.json's final_render_timeline_2026_08_09 (max observed 10.0s), asymmetric image distribution preserved. Not a silent skip - documented here per law #4."
+  }
+}

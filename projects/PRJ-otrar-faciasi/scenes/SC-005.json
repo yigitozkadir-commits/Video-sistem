@@ -1,0 +1,25 @@
+{
+  "scene_id": "SC-005",
+  "act": 1,
+  "title": "Bir Aile Sırrı",
+  "scene_type": "explanation",
+  "summary": "İnalcık'ın Harezmşah II. Muhammed'in dayısı olduğu ortaya çıkar - bu akrabalık, neden cezalandırılmadığının olası bir ipucudur.",
+  "source_text": "İnalcık'ın kim olduğu da önemliydi. O, Harezmşah İkinci Muhammed'in dayısıydı. Belki de bu yüzden, işlediği bu ağır suç karşılığında hiçbir ceza almadı.",
+  "duration_estimate_s": 30,
+  "emotion": "uneasy realization",
+  "importance": 0.6,
+  "location": "Harezmşahlar sarayı",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [
+    "İnalcık",
+    "II. Muhammed"
+  ],
+  "continuity_from": "SC-016",
+  "qa_status": "pending",
+  "shots": [
+    "SH-005-01",
+    "SH-005-02",
+    "SH-005-03"
+  ]
+}

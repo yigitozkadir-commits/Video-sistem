@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/scene_index.schema.json",
+  "title": "Scene Index",
+  "description": "Authoritative ordered scene list. Written only by the Orchestrator.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scene_id": {
+            "type": "string",
+            "pattern": "^SC-\\d{3}$"
+          },
+          "act": {
+            "type": "integer"
+          },
+          "order": {
+            "type": "integer"
+          },
+          "chapter": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "page_range": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "approved": {
+            "type": "boolean"
+          },
+          "continuity_from": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^SC-\\d{3}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "scene_id",
+          "order"
+        ]
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "scenes"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "HISTORY",
+  "section": "BÜYÜK-DEV",
+  "items_range": "401-450",
+  "items_count": 50,
+  "angle": {
+    "text": "Göktürkler kimdir? (Hun halefleri değil, eş zamanlı paralel devlet)",
+    "rationale": "E1: BÜYÜK-DEV bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Göktürkler Hunların Varısı Değillerdi: Tarih ve Genetik Ters Söyleyen",
+    "most_dramatic_claim": "20c türk milliyetçiliği 'Hunlar → Göktürkler sürekliliği' dedi. Modern akademia: REJECTED. Göktürkler 552 CE Rouran'ı yıkarak (Hun'ı değil) onun yerine geçiyor. Kurumsal miras ≠ genetik varis.",
+    "why_compelling": "Historiography miti: 'altın çağ sürekliliği' efsanesi akademisinin kırmızı kalemi ile çizildi"
+  },
+  "claims_summary": {
+    "total_count": 6,
+    "confidence_levels": [
+      "CONTESTED",
+      "WEAK",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "PROBABLE"
+    ],
+    "cautions": "Silk Road 'kontrol' iddiası overstatement - patronaj modeli daha doğru"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Silk Road 'kontrol' iddiası overstatement - patronaj modeli daha doğru"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "BÜYÜK-DEV: Göktürkler Hunların Varısı Değillerdi: Tarih ve Genetik Ters Söyleyen — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

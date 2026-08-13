@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/asset_manifest.schema.json",
+  "title": "Asset Manifest",
+  "description": "Every file that exists, hashed and traceable. M09.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+          },
+          "asset_type": {
+            "type": "string",
+            "enum": [
+              "image",
+              "video",
+              "audio",
+              "text",
+              "json",
+              "subtitle",
+              "other"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "mime_type": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "bytes": {
+            "type": "integer"
+          },
+          "width": {
+            "type": "integer"
+          },
+          "height": {
+            "type": "integer"
+          },
+          "duration_s": {
+            "type": "number"
+          },
+          "scene_reference": {
+            "type": "string",
+            "pattern": "^SC-\\d{3}$"
+          },
+          "shot_reference": {
+            "type": "string",
+            "pattern": "^SH-\\d{3}-\\d{2}$"
+          },
+          "creator_agent": {
+            "type": "string",
+            "enum": [
+              "technical",
+              "visual",
+              "audio",
+              "orchestrator",
+              "director",
+              "review",
+              "kernel"
+            ]
+          },
+          "generation": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string"
+              },
+              "model_version": {
+                "type": "string"
+              },
+              "seed": {
+                "type": "integer"
+              },
+              "prompt_version": {
+                "type": "string",
+                "pattern": "^PV-\\d{4}$"
+              }
+            }
+          },
+          "disposition": {
+            "type": "string",
+            "enum": [
+              "REFERENCE_ONLY",
+              "HERO_ASSET",
+              "UPSCALE_CANDIDATE",
+              "REGENERATE_FROM_REFERENCE",
+              "ARCHIVE",
+              "HOLD_LEGAL"
+            ]
+          },
+          "version": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "asset_id",
+          "asset_type",
+          "path",
+          "sha256"
+        ]
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "assets"
+  ],
+  "additionalProperties": true
+}

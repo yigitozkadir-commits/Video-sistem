@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-017",
+  "act": 3,
+  "title": "Sessiz Mola II",
+  "scene_type": "emotional_pause",
+  "summary": "Silent break (committed 2026-08-09 per explicit user approval) - a wordless 10s breathing space over the empty steppe at dusk, between the five-month siege (SC-009) and the silver-execution legend (SC-010). No narration, no ElevenLabs cost, existing visual only.",
+  "source_text": "",
+  "duration_estimate_s": 10,
+  "emotion": "quiet, contemplative",
+  "importance": 0.2,
+  "location": "Otrar çevresi bozkır",
+  "time_of_day": "dusk",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-009",
+  "qa_status": "pending",
+  "shots": [
+    "SH-017-01"
+  ],
+  "provenance_note": "Reused existing still (originally generated for SC-012, the closing scene) - see prompts_used/SH-017-01/image.json's reused_from_shot_id field. No narration segment, no new Flow/ElevenLabs generation. Wired into the primary continuity chain (SC-009 -> SC-017 -> SC-010) per user's explicit 2026-08-09 approval ('2 tane sessiz sahneyi de ekle').",
+  "is_fallback_optional": false
+}

@@ -1,0 +1,9 @@
+Gök Umay AI Audiobook Studio OS
+bible_version: 2.0
+modules: 22 (+ 00_SYSTEM_ARCHITECTURE_REVIEW_v2)
+packaged: 2026-08-08
+source: exported from a working production repo (3 delivered videos:
+        Başkurtlar Araştırma, Dağların Uyuyan Devleri, Gök Umay Atlası;
+        2 more in production: Avrasya Bozkır Kuşağı, Ryskulov Mektubu) -
+        this package ships the reusable system only, not those projects'
+        content/assets.

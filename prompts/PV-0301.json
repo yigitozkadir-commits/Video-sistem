@@ -1,0 +1,22 @@
+{
+  "prompt_id": "PV-0301",
+  "family": "orchestrator.story.beat_map",
+  "tool": "orchestrator",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "scene_text"
+  ],
+  "template": "Segment this scene text into beats. A beat is 1-4 sentences with one intention.\nFor each beat output: beat_id, function, emotion {from,to}, information_delivered (one sentence), attention_target, weight 0-1, text.\nDo not invent events. Do not merge beats to reach a target count.\nAt most 20% of beats may have weight > 0.8.\nOutput JSON only, matching beat_map.schema.json.\n\nSCENE TEXT:\n{scene_text}",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

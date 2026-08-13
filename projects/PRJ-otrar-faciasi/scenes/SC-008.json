@@ -1,0 +1,25 @@
+{
+  "scene_id": "SC-008",
+  "act": 2,
+  "title": "Sefer Başlıyor",
+  "scene_type": "action",
+  "summary": "Moğol ordusu Balkaş Gölü doğusunda toplanır ve 1219 baharında Harezmşahlar Devleti'ne karşı sefere çıkar; ilk hedef Otrar'dır.",
+  "source_text": "1219 baharında Moğol ordusu Balkaş Gölü'nün doğusunda toplandı. Sefer başladı. İlk hedef bellidi: Otrar. Cengiz Han, bu şehri örnek gösterecekti.",
+  "duration_estimate_s": 40,
+  "emotion": "ominous momentum",
+  "importance": 0.85,
+  "location": "Balkaş Gölü doğusu, ardından Otrar",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [
+    "Cengiz Han",
+    "Moğol ordusu"
+  ],
+  "continuity_from": "SC-014",
+  "qa_status": "pending",
+  "shots": [
+    "SH-008-01",
+    "SH-008-02",
+    "SH-008-03"
+  ]
+}

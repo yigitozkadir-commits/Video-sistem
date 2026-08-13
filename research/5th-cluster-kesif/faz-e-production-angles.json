@@ -1,0 +1,125 @@
+{
+  "phase": "E",
+  "step": "E1: Angle Selection",
+  "cluster": "5TH_CLUSTER",
+  "date_generated": "2026-08-09T18:30:00Z",
+  "model": "claude-haiku-4-5-20251001",
+  "angles": [
+    {
+      "section": "DAMGALAR",
+      "items": "201-240",
+      "selected_angle": "Clan Identity Through Visual Language: How Turkic Tamgas Encoded Social Hierarchy and Sovereignty Across Centuries",
+      "angle_rationale": {
+        "primary_reason": "Visually storable and narratively clear: tamga symbols are concrete archaeological artifacts that carry clan/family meaning, making them accessible to video audiences without requiring deep ethnographic knowledge.",
+        "historiographic_basis": "Phase D D3 causality chain documents temporal progression: Pre-Islamic totemism → Medieval tribal damgalar systems (Kazakh/Kyrgyz) → Ottoman administrative seals → Modern ethnographic practice. This arc shows how visual identity persisted across political transformations.",
+        "narrative_strength": "Avoids the contested Shifner theory (tamga-to-writing derivation) while centering the proven functions: property marking and identity assertion. This keeps narrative focus on what we know (symbol meanings) rather than disputed mechanisms (proto-writing claims).",
+        "alternative_angles_considered": [
+          {
+            "angle": "Proto-Writing Debate: Did Clan Seals Become Letters?",
+            "why_rejected": "Phase D D4 historiographic summary documents this as 'contested' and 'historiographical debate', not a proven arc. Shifner theory is minority position in modern scholarship; Aramaic derivation is consensus. Foregrounding this debate makes it the story's center, not Turkic identity itself."
+          },
+          {
+            "angle": "Sacred Totemism: Wolf Symbols in Spiritual Practice",
+            "why_rejected": "Phase D D5 flags 'ethnographic backprojection risk' — modern totemism documentation is strong, but medieval spiritual function is inferred, not proven. This angle risks presenting modern ethnography as historical fact."
+          }
+        ],
+        "risk_acknowledgment": "Phase D flags medieval-Ottoman continuity as 'assumed but not proven' (4-century gap 8c-12c). This angle narrates around that gap by focusing on documented periods (pre-8c totemism, 8c Orkhon, 12c+ Kazakh/Kyrgyz, Ottoman administrative) and explicitly noting the chronological uncertainty."
+      },
+      "production_brief_alignment": "This angle supports long-form documentary (8-12 min) with 3-4 narrative acts: (1) Totemism origins (pre-Islamic); (2) Medieval codification (Kazakh/Kyrgyz systems); (3) Ottoman formalization (administrative seals); (4) Modern persistence (ethnographic documentation). Supports high visual density (archaeology, maps, reconstructed symbols)."
+    },
+    {
+      "section": "ATASÖZLERI",
+      "items": "241-270",
+      "selected_angle": "Language Preservation Race: One Language Dies Every 40 Days—Can Atasözleri Survive?",
+      "angle_rationale": {
+        "primary_reason": "Creates immediate audience urgency: 40-day extinction rate is a time-bound fact (Phase D D1 amended claim: corrected from 2-week misconception to 40-day rate per ELCat). This transforms abstract language death into a concrete countdown visible to viewers.",
+        "historiographic_basis": "Phase D D1 consolidates 8 CORE claims, all strongly supported (UNESCO endangered language statistics, 43% of world's languages at risk, 2100 projection 50-90% language extinction). This angle is anchored in robust data.",
+        "narrative_strength": "Connects global extinction statistics to specific Turkic case studies: Tuvan, Kazakh, Kyrgyz, Uyghur proverb preservation efforts. Each case shows preservation *in action*, not just loss in the abstract. Viewer sees documentary evidence (Atalar Sözderi 100-volume series, UNESCO Manas recognition) rather than doom-saying.",
+        "alternative_angles_considered": [
+          {
+            "angle": "Proverb Archaeology: What Wisdom Do We Lose When Languages Die?",
+            "why_rejected": "This angle foregrounds philosophical/emotional content (wisdom loss) over empirical documentation. Phase D D1-D4 materials are strongest on demographic facts, not on what specific knowledge content is lost. This risks sentimentality over historiographic clarity."
+          },
+          {
+            "angle": "Uyghur Exceptionalism: Why One Language Faces Unique Threat",
+            "why_rejected": "Phase D D1-D5 notes high geopolitical sensitivity on Uyghur language policy. While well-documented, centering this angle risks making the section's narrative focus about Xinjiang politics rather than Turkic language preservation universally. Better to include Uyghur as *one case* within larger extinction-race arc."
+          }
+        ],
+        "risk_acknowledgment": "Phase D D5 identifies counter-arguments: extinction rate disputes (ELCat says 1 per 4 months, not 2 weeks), and no longitudinal proof that documentation (Wikitongues) actually slows extinction. This angle narrates by focusing on what we *do* know (current rates, current preservation efforts) while naming uncertainties transparently."
+      },
+      "production_brief_alignment": "Supports long-form documentary with strong temporal arc: (1) Global extinction statistics (data visualization potential); (2) 2100 projections (scenario building); (3) Preservation initiatives (institutional focus: Wikitongues, Kazakh state program, academic documentation); (4) Specific proverb examples (Turkey, Tuvan, Kyrgyz). Supports 8-12 min runtime with documentary + archival footage + interview potential."
+    },
+    {
+      "section": "İSİMLER",
+      "items": "271-310",
+      "selected_angle": "Ottoman Double-Naming to Single Identity: How Naming Policy Shaped Modern Turkish Nationalism",
+      "angle_rationale": {
+        "primary_reason": "Demonstrates institutional power over identity: Ottoman double-naming (Arabic name + Turkish name) declined to Turkish-only naming 13th-17th centuries. This wasn't linguistic evolution; it was administrative formalization of identity hierarchy. The angle shows how naming *practices* reflect (and shape) who gets to count as 'Turkish' in a changing political order.",
+        "historiographic_basis": "Phase D research question centers this transformation explicitly. Phase D D1-D3 consolidate claims about Ottoman naming conventions (5 ESTABLISHED claims), Ottoman administrative codification (2 STRONGLY_SUPPORTED), and long-term Turkish nationalism effects (8 PROBABLE). Phase D D6 recommends CONDITIONAL READY with these specific conditions foregrounded, not hidden.",
+        "narrative_strength": "Unlike genealogical (abstract kinship) or linguistic angles, this angle uses concrete archival evidence: Ottoman registries show the naming shift directly. It demonstrates a mechanism of nation-building that's legible to viewers: names → identity categories → political power. Avoids speculative psychology (why people chose names) and focuses on documented administrative patterns.",
+        "alternative_angles_considered": [
+          {
+            "angle": "Etymological Layers: Arabic, Persian, Turkish in Ottoman Names",
+            "why_rejected": "This is linguistically interesting but doesn't explain the *decline* in double-naming or its relationship to Turkification. It's a synchronic inventory, not a diachronic transformation. Phase D research shows the transformation is the story, not the multi-layered naming itself."
+          },
+          {
+            "angle": "Name Meaning and Cultural Values: What Names Reveal About Ottoman Worldview",
+            "why_rejected": "Phase D notes mechanism explanation as ADEQUATE (0.70) but not COMPLETE. Focusing on name meanings (semantic angle) sidesteps the administrative/power question that Phase D D1 actually documents. This risks beautiful but speculative cultural interpretation over documented institutional change."
+          }
+        ],
+        "risk_acknowledgment": "Phase D D6 notes 'mechanism gaps' for pre-Ottoman origins and earlier Arabic-naming adoption. This angle narrates the well-documented Ottoman transition period (13c-17c) and explicitly marks earlier periods as uncertain ('before Ottoman administrative codification, naming practices less documented'). This keeps narrative honest without blocking the story."
+      },
+      "production_brief_alignment": "Supports medium-length documentary (8-10 min) with strong institutional focus: (1) Ottoman naming registries (archival potential); (2) Comparative tables of double-vs-single naming frequencies over centuries (data visualization); (3) Geographic variation (Ottoman core vs. periphery); (4) Modern nationalist naming policies (20c Turkish naming reform context). Supports scholarly tone + archival atmosphere."
+    },
+    {
+      "section": "SEMBOLLER",
+      "items": "311-350",
+      "selected_angle": "Three-Layer Continuity: How Turkic Totemism Survived Islamic Prohibition and Ottoman Formalization",
+      "angle_rationale": {
+        "primary_reason": "Shows symbolic resilience across religious transformations: Pre-Islamic totemic animals (wolf, eagle) → Islamic adaptation (crescent, star with Islamic legitimation) → Ottoman formal heraldry (institutionalized eagle/crescent). This isn't 'continuity despite change'; it's showing how symbols *evolved* their legitimation while maintaining cultural continuity.",
+        "historiographic_basis": "Phase D D1 consolidates 11 claims across PRE-ISLAMIC totemism (3 STRONGLY_SUPPORTED), ISLAMIC ADAPTATION (4 STRONGLY_SUPPORTED), and OTTOMAN FORMALIZATION (3 PROBABLY). Phase D D3 causality chain explicitly maps this progression. This is one of the clearest causal narratives in the 5-cluster research.",
+        "narrative_strength": "Avoids false claims of 'unchanging Turkic culture' (historically inaccurate) while showing genuine transmission: the *symbols* persist, but their theological justification evolves. This is pedagogically honest and culturally respectful — it shows adaptation, not static tradition.",
+        "alternative_angles_considered": [
+          {
+            "angle": "Islamic Aniconism: Why Prohibition Failed to Eliminate Visual Symbols",
+            "why_rejected": "Phase D D5 flags 'Islamic aniconism causality' as unclear — scholars debate whether Islamic law coerced Turkic adaptation or whether Turkic peoples independently chose visual adaptation. Centering this debate makes causality (not Turkic agency) the story's center. Better to narrate what we know (symbols persisted and adapted)."
+          },
+          {
+            "angle": "Proto-Turkology Myth: Bozkurt and Modern Nationalist Appropriation",
+            "why_rejected": "Phase D D5 flags 'Bozkurt pseudo-Turkology risk' as MEDIUM-HIGH. This angle is important for critical scholarship but risks making the section about modern myth-making (20c nationalism) rather than medieval/Ottoman symbol evolution. Better as a coda (transparent about appropriation risk) within this angle."
+          }
+        ],
+        "risk_acknowledgment": "Phase D D5 identifies 'pre-Islamic totem evidence gap' as BLOCKING risk — pre-8c evidence is sparse. This angle narrates clearly documented medieval/Ottoman material (8c+ Orkhon, Ottoman heraldry) and explicitly marks pre-8c as 'inferred from later patterns, not proven from direct evidence'. Maintains scholarly caution without blocking narrative."
+      },
+      "production_brief_alignment": "Supports long-form documentary (8-12 min) with strong visual/archaeological focus: (1) Pre-Islamic totemism (artistic reconstruction potential); (2) Archaeological evidence (Orkhon inscriptions, coins showing crescent-star); (3) Ottoman heraldry (institutional seals, flags, architectural symbols); (4) Modern symbols (flags, state emblems). High visual density; strong comparative/evolutionary narrative."
+    },
+    {
+      "section": "DIASPORA",
+      "items": "351-400",
+      "selected_angle": "Post-Soviet Divergence: How Independent States Created Different Turkic Language Futures",
+      "angle_rationale": {
+        "primary_reason": "Shifts from essentialist 'Turkic identity' to geopolitical agency: After 1991 Soviet collapse, Kazakhstan chose Latin alphabet + Kazakh revitalization; Kyrgyzstan followed a mixed path; Tatarstan negotiated bilingual federalism; Uyghur region faced Han-Chinese language policy pressure. These weren't inevitable outcomes. They were *policy choices* in a post-Soviet moment. The angle foregrounds political decision-making over cultural determinism.",
+        "historiographic_basis": "Phase D D1-D2 document 9 well-supported claims about POST-SOVIET language policies (government policies documented via primary sources: Kazakhstan Latinization Language Policy Concept 2023, Putin 2017 declaration, Tatarstan 2017 parliament action). Phase D D5 acknowledges geopolitical sensitivity but rates source documentation as 0.85 (PRIMARY SOURCES PRESENT).",
+        "narrative_strength": "Unlike diaspora angles centered on loss/nostalgia, this angle centers on *institutional continuity decisions*: What did each post-Soviet state choose to do with its Turkic language(s)? Why did Kazakhstan pursue Latinization while Kyrgyzstan didn't? Why does Tatarstan maintain Russian-Tatar bilingual federalism? This is legible, documented, and explains actual divergence we see today.",
+        "alternative_angles_considered": [
+          {
+            "angle": "Diaspora Nostalgia: How Turkic Diaspora Communities Preserve Lost Homelands",
+            "why_rejected": "Phase D D1-D5 materials focus on *state language policy*, not on diaspora cultural transmission. This angle would require different research (ethnographic diaspora studies, community narratives). The data Phase D provides is strongest on institutional policy, not on diaspora experience/emotion."
+          },
+          {
+            "angle": "Uyghur Exceptionalism: Why Uyghurs Face Unique Language Threat",
+            "why_rejected": "Phase D D1-D5 flags Uyghur policy as 'MODERATE COMPLETENESS with SIGNIFICANT GEOPOLITICAL BIAS' (0.65 score). While well-documented, centering this angle risks making the section's focus about CCP language policy (contested, Western perspective-biased) rather than broader post-Soviet divergence. Better to include Uyghur as *comparative case* within larger institutional-choice arc."
+          }
+        ],
+        "risk_acknowledgment": "Phase D D5 notes 'CCP perspective inaccessible or censored; Chinese academic counterarguments not accessed'. This angle is built on Western/Central Asian sources, and narration must transparently note this limitation ('Chinese-language scholarly perspectives on bilingual education policy are not equally accessible to English-language research'). Geographic bias documented, not hidden."
+      },
+      "production_brief_alignment": "Supports long-form documentary (8-12 min) with geopolitical-institutional focus: (1) Post-1991 Soviet collapse (historical turning point); (2) Case studies by state: Kazakhstan Latinization project, Kyrgyzstan language policy, Tatarstan federalism, Uyghur context; (3) Comparison of outcomes (Kazakh language recovery vs. Kyrgyz maintenance vs. Russian persistence in Tatarstan); (4) Future challenges (generational transmission, institutional commitment). Supports map-heavy visual language + policy-document excerpts + comparative data."
+    }
+  ],
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T18:30:00Z",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-angle-selection"
+  }
+}

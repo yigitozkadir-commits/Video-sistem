@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "FOUNDATION",
+  "section": "MİT",
+  "items_range": "261-350",
+  "items_count": 90,
+  "angle": {
+    "text": "Tengriizm: İslam-öncesi totemizmden modern inanç sistemi olarak evrim",
+    "rationale": "E1: MİT bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "1400 Yıl Sonra Kaybolan İnanç: Tengriizm Gerçek mi Yoksa Yeni Buluş mu?",
+    "most_dramatic_claim": "Orkhon yazıtları (8c) Tengri'yi minimalist tasvir ediyor (uzak gök tanrısı, ritüel detail yok). Modern Tengriizm elaborate sisteme sahip. Gap: legitimate recovery mı, 'invented tradition' mı?",
+    "why_compelling": "Authenticity debate: hangi teoloji 'orijinal', hangisi modern kurulanış?"
+  },
+  "claims_summary": {
+    "total_count": 10,
+    "confidence_levels": [
+      "ESTABLISHED",
+      "ESTABLISHED",
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "CONTESTED"
+    ],
+    "cautions": "Shnirelman kritik: kaynak boşluğu, political motivasyon şüphesi - tartışmalı"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Shnirelman kritik: kaynak boşluğu, political motivasyon şüphesi - tartışmalı"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "MİT: 1400 Yıl Sonra Kaybolan İnanç: Tengriizm Gerçek mi Yoksa Yeni Buluş mu? — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

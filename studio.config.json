@@ -1,0 +1,92 @@
+{
+  "bible_version": "2.0",
+  "concurrency": {
+    "q.ingest": 2,
+    "q.ocr": 4,
+    "q.analysis": 2,
+    "q.prompt": 4,
+    "q.visual": 3,
+    "q.voice": 3,
+    "q.music": 1,
+    "q.assemble": 2,
+    "q.render": 1,
+    "q.qa": 6
+  },
+  "providers": {
+    "visual": "flow",
+    "audio": "elevenlabs",
+    "llm_plan": "claude",
+    "llm_review": "claude"
+  },
+  "budget": {
+    "alert_at": 0.8,
+    "hard_stop_at": 1.0
+  },
+  "human": {
+    "approval_sla_hours": 24,
+    "on_timeout": "hold",
+    "notify": [
+      "producer@studio"
+    ]
+  },
+  "determinism": {
+    "pin_models": true,
+    "record_seeds": true
+  },
+  "safety": {
+    "block_on_legal_findings": true,
+    "children_mode_auto": true
+  },
+  "timeouts": {
+    "_comment": "Wall-clock ceiling in minutes, per queue (same q.* keys as concurrency, a confirmed gap this repo had: only retry-attempt-count (retry block below) and dollar-budget (project.json budget.hard_stop_at) limits existed before this. Bounds CUMULATIVE with_retry() loop time across attempts+backoff for operations passed a queue= argument - it does NOT interrupt a single hung call mid-flight (e.g. a subprocess with no timeout of its own); that needs its own timeout at the call site. q.render's 90min sits comfortably above CLAUDE.md section 10's documented legitimate 45-60min range so it catches genuine runaways, not normal-but-slow renders.",
+    "q.ingest": 10,
+    "q.ocr": 15,
+    "q.analysis": 10,
+    "q.prompt": 5,
+    "q.visual": 20,
+    "q.voice": 15,
+    "q.music": 15,
+    "q.assemble": 10,
+    "q.render": 90,
+    "q.qa": 10
+  },
+  "retry": {
+    "transient_max": 3,
+    "generation_max": 5,
+    "validation_max": 2,
+    "compliance_max": 0,
+    "backoff_base_s": 5,
+    "backoff_cap_s": 600,
+    "jitter": 0.2
+  },
+  "narration": {
+    "fallback": {
+      "enabled": true,
+      "local_tts_quality_gate": "draft_only",
+      "_comment": "Piper (scripts/piper_client.py) as a local, free, no-network TTS path when ElevenLabs (scripts/elevenlabs_client.py) can't initialize (missing ELEVENLABS_API_KEY) or exhausts quota mid-batch (a confirmed real occurrence three times per production_ledger.py's own docstring). scripts/lib/tts_providers.py's select_tts_provider() only falls back when this is true, and only ever returns Piper with quality_gate='draft_only' attached to every result it produces - law #4 (no silent degradation): a robotic local voice must never quietly become the delivered master. Same fallback_to_still shape as flow_account_pool below, mirrored for the audio provider.",
+      "same_pattern_as": "flow_account_pool.fallback_to_still"
+    },
+    "pre_generation_approval": {
+      "required": true,
+      "show_character_count": true,
+      "show_estimated_units": true,
+      "_comment": "User rule, 2026-08-09: no ElevenLabs generation (scripts/elevenlabs_client.py text_to_speech()/generate_music()) runs without the human seeing the exact character count and estimated cost/credit usage FIRST and explicitly approving - added after this project's narration was generated once already ahead of a duration decision, which the user wants to avoid repeating. This is a human gate (CLAUDE.md law #7), not a script-enforced block - the discipline is: compute+present the count, wait for an explicit yes, THEN call text_to_speech(). A cache hit (ArtifactCache.reuse(), zero new characters) does not need this gate - only genuinely new generation does."
+    }
+  },
+  "flow_account_pool": {
+    "total_accounts": 10,
+    "daily_video_seconds_cap": 300,
+    "max_concurrency": 3,
+    "between_accounts_delay_s": 2,
+    "fallback_to_still": true,
+    "report_exhaustion": true
+  },
+  "gemini_key_pool": {
+    "enabled": false,
+    "total_keys": 3,
+    "rotation_policy": "round_robin_least_recently_used",
+    "max_concurrent_analysis": 3,
+    "channel_format_cache_days": 30
+  }
+}
+

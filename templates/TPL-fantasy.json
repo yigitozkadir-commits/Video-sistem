@@ -1,0 +1,77 @@
+{
+  "template_id": "TPL-fantasy",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 5.5,
+      "range": [
+        4,
+        7
+      ]
+    },
+    "still_video_ratio": 0.5,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down",
+      "crane",
+      "orbit.slow"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/fantasy_luminous.json",
+    "palette": {
+      "dominant": [
+        "jewel tones",
+        "atmospheric haze"
+      ],
+      "forbidden": [
+        "modern objects"
+      ]
+    },
+    "lens_set": [
+      "ultrawide",
+      "wide",
+      "normal",
+      "portrait"
+    ],
+    "lighting": [
+      "volumetric_shafts",
+      "golden_hour",
+      "moonlight_cool",
+      "firelight_warm"
+    ],
+    "forbidden": [
+      "photobashed modernity",
+      "cartoon proportions"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.5,
+      "style": 0.3,
+      "speed": 1.0,
+      "wpm": 140
+    },
+    "music": {
+      "density": "medium",
+      "instruments": "choir pads, strings, harp",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "forest, wind, distant water",
+    "silence_max_s": 2.0
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 270
+  }
+}

@@ -1,0 +1,51 @@
+.env
+node_modules/
+__pycache__/
+output/*.mp4
+output/*.log
+
+# Regenerable copies of projects/<id>/assets/{still,video,audio} - Remotion
+# needs these physically under public/ to render (symlinks across the
+# public/ boundary are blocked by its dev server), but the bytes are
+# already tracked once under the canonical projects/<id>/assets/ path.
+# Re-create with scripts/sync_remotion_public.py after a fresh clone, ONLY
+# for projects whose public/ filenames map 1:1 to their asset filenames
+# (verify by sha256 first - see that script's docstring). Add one entry
+# per project you create, e.g.:
+# remotion_myproject/public/still/
+# remotion_myproject/public/video/
+# remotion_myproject/public/audio/
+
+# Large standalone source files archived off-repo (see
+# scripts/archive_to_kaggle.py) - pointer + sha256 recorded in
+# projects/<id>/state/kaggle_archive.jsonl, file stays on local disk, just
+# untracked. Add one entry per archived source file, e.g.:
+# projects/PRJ-myproject/input/large_source.pdf
+
+# PRJ-ninniler-atlasi: assets/still (239M) already lives on Kaggle
+# (mehmetkync16/ninniler-iin-grsel-envanter + ninniler-part2 - see
+# projects/PRJ-ninniler-atlasi/state/kaggle_archive.jsonl for the pointer)
+# and render/ output (~110MB/video x 10) is a regenerable, still-placeholder-
+# timed draft (no music yet) - neither belongs in git history, same
+# large-bytes reasoning as CLAUDE.md section 9.
+projects/PRJ-ninniler-atlasi/assets/still/
+projects/PRJ-ninniler-atlasi/render/
+remotion_ninniler_atlasi/public/still/
+
+# projects/_content_backlog/output/: delivered short/long video files -
+# large, deliverable bytes belong on Kaggle (see kaggle_archive.jsonl-style
+# pointers) or in the chat delivery itself, not in git history, same
+# reasoning as CLAUDE.md section 9. production_calendar.json (tracked)
+# already records each delivered item's output_path/duration for
+# provenance even though the byte itself isn't tracked here.
+projects/_content_backlog/output/
+
+# projects/_content_backlog/_scratch/: working downloads (existing Kaggle
+# masters pulled down to cut repurposed shorts from, faster-whisper
+# transcripts used to find real cut timestamps) - large, regenerable,
+# never a source of truth. The masters already live on Kaggle
+# (mehmetkync16/ai-audiobook-studio-videos); re-download with
+# `kaggle datasets download` if this dir is needed again.
+projects/_content_backlog/_scratch/
+.env.research
+complete-research-ninniler-plan.tar.gz

@@ -1,0 +1,8 @@
+{
+  "target_shorts_per_day": 3,
+  "target_long_per_day": 2,
+  "days": [],
+  "retracted_2026_08_09": {
+    "note": "İlk 3 short (CB-0903/0951/0952, ryskulov_mektubu_master.mp4'ten kesilen) GERİ ÇEKİLDİ - kullanıcı düzeltti: (1) istenen sadece PLANLAMA ve konu araştırmasıydı, gerçek video üretimi/kesimi değil; (2) kesilen klipler yatay (16:9) formattaydı, short/reel formatı dikey (9:16) olmalı; (3) ryskulov_mektubu_master.mp4 kullanıcının tamamlamadığı, henüz onaylanmamış bir proje - kaynak olarak kullanılabilir 'bitmiş' bir master değil. content_backlog.json'daki CB-0903/0951/0952 durumu not_started'a geri alındı, output/shorts/ dosyaları silindi. Bu dosya, yeniden onay alınmadan üretime dönmeyeceğinin kaydı olarak boş bırakılıyor - CLAUDE.md madde 4 (no silent degradation): hata sessizce silinmedi, burada açıkça kayıtlı."
+  }
+}

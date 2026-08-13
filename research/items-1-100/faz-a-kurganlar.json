@@ -1,0 +1,77 @@
+{
+  "phase": "A",
+  "section": "KURGANLAR",
+  "item_range": "61-80",
+  "input_summary": "Kurganlar (bozkır mezar tepeleri) arkeolojik kanıt tabanı olarak: gömü ritüelleri, sosyal hiyerarşi, teknoloji, sanat. 20 soru 4 tema etrafında döner: (1) Kurgan nedir/ne öğretir (61-65), (2) Pazırık bulguları ve servet (66-70), (3) Sosyal yapı ve kan (71-77), (4) Hafızanın Taşıyıcıları (78-80).",
+  "theme": {
+    "central_question": "Bozkır sosyal yapısını ve inanç sistemini nasıl anlarız? Arkeolojik kanıt (kurganlar, atlar, tekstil) 'sessiz tepelerden' ne söyler?",
+    "studio_role": "BOZ-01 (coğrafya/felsefe) → KURGANLAR (kanıt). Tarihsel iddialar arkeoloji ile doğrulamak, 'sessiz muhafızların' dilini okumak.",
+    "narrative_engine": "Kurgan = zaman kapsülü + sosyal sınıf belgesi + ritüel sistemi. Pazırık Buzlu Kızı, altın Issyk'ın sahipleri, 15 at kurbanı — hiyerarşi/inanç/uluslararası ticaret açıklanıyor."
+  },
+  "archaeological_foundation": {
+    "kurgan_as_archive": {
+      "source": "UNESCO, Penn Museum (Pazyryk textiles), Smithsonian",
+      "claim": "Kurgan = barrow = kaya+toprak+ahşap mezar odası. Buzlu hava (Pazyryk dondurması) organic malzemeleri (tekstil, ahşap, hayvan kalıntıları) 2500+ yıl korunmuş bırakmış. İnsan-kurulu mezar yapısı = Gimbutas'ın Kurgan Hypothesis'nin (Indo-Avrupa kökeni) temellendiği arkeoloji.",
+      "relevance": "Madde 61-65: Kurgan nedir, neden önemli, bize ne anlatıyor. Kanıt=arşiv anlayışı."
+    },
+    "pazyryk_wealth_and_artifacts": {
+      "source": "Pazyryk excavations (Rudenko 1940s-50s), Hermitage Museum",
+      "claim": "Pazyryk kurgans (5 ana, 1. 4.-3. yüzyıl BCE): Pazırık halısı (earliest known pile carpet), 6+ kurban atı, Siberian Ice Maiden (25 yaşında kadın, 6 atla gömülü, ustaca atlatılmış taraklar/altın). Berel' kurganı (Kazakistan): 'Golden Man' = 4000+ altın ornament, hayvan motifli. Zenginlik = at ticaretiyle (Persya, Hindistan, Çin).",
+      "relevance": "Madde 66-70: Pazırık kurganı, en eski halılar, sanat eserleri, silahlar. Servet & ticaret = sosyal yükselmişlik.",
+      "counterargument": "Servet = hiyerarşiye bağlı, ama hiyerarşi tipi = meritokrat mi (savaş yeteneği) vs. kalıtsal? Faz C'de tartışılacak."
+    },
+    "social_hierarchy_burial_record": {
+      "source": "Scythian elite burials, Issyk kurgan analysis, horse sacrifice studies",
+      "claim": "Sosyal hiyerarşi arkeoloji tarafından açıkça belgelenmiş: kraliyet/aristokrasi kurgans = silah, at malzemeleri, ithal kaplar, ince tekstil, altın süsleme. Bazı mezarlar kurban yapılan hizmetçi/askerler içeriyor. Kurganlarda 'koruma' = savaş biçimi devamı (atlarla savaş, ölümden sonra hizmet).",
+      "relevance": "Madde 71-77: Savaş insanları, ölümden sonraki yolculuk, sosyal yapı. İnanç sistemi: hiyerarşi=evren düzeni meselesi."
+    },
+    "ritual_and_belief_system": {
+      "source": "Pazyryk textiles/wooden furniture analysis, horse-worship PIE tradition",
+      "claim": "At = kutsal (ritual). Pazyryk'ta 3 at özel kumaşlarla maskelendi (ahşap boynuzlu, altın yapraklı maskeler = süpernal yaratıklar). At kurbanı (15'e kadar) = ruhsal mesafede hizmet. Tekstiler (desen/renk) semyotik mesajlar taşıyor (sosyal statü, inanç). Pazırık halısı motifler = proto-İndo-Avrupa semboloji (yıldız, hayvan, spiral).",
+      "relevance": "Madde 78-80: Kurganlar ortak hafıza mı? Sessiz muhafızlar. Kutsal at, dini ritüel, süreyim devamı."
+    }
+  },
+  "content_structure": {
+    "subthemes": [
+      {
+        "title": "Arkeoloji: Mezar Kitabı (madde 61-65)",
+        "questions": "Kurgan nedir? Neden önemli? Bize ne anlatıyor? Pazırık kurganı? Dünyanın en eski halılarından biri?",
+        "research_angle": "Kurgan = müze değil, yalnız arşiv. Buzlu hava = doğal mumifikasyon. Pazırık halısı = 2500 yıllık tasarım bilişi. Kurgan = zaman yolculuğu."
+      },
+      {
+        "title": "Zenginlik: Atlar & Ticaret (madde 66-70)",
+        "questions": "Kırmızı aşı boyası? Bozkırın ölüm anlayışı? Kurganlar neden tepedir? Neden binlerce km yayılmış? Bir mezar neden tarih kitabıdır?",
+        "research_angle": "Arkeolojik dağılım = hareketlilik + kültürel bağlantı. Ticaret ağları (Çin'e uzananlar). Renkler (kırmızı = ölüm/koruma) = kozmoloji işaretleri."
+      },
+      {
+        "title": "Hiyerarşi: Tanrılar & Köle (madde 71-77)",
+        "questions": "Kurganlardan çıkan silahlar? Atlar? Sanat eserleri? Kurganlar ve inanç sistemi?",
+        "research_angle": "Sosyal rank = eşya sınıfıyla okunuyor (altın = kral, demir = savaşçı, seramik = halk). At kurbanı = kozmik düzeni tekrarlama (ölüm sonrası devamın sembolü)."
+      },
+      {
+        "title": "Hafıza: Sessiz Tepeler (madde 78-80)",
+        "questions": "Sessiz tepeler ne anlatıyor? Kurganlar ortak hafızanın parçası mı? Bozkırın sessiz muhafızları?",
+        "research_angle": "Arkeoloji = gelecek nesillere mesaj. Kurgan yapısı = sosyal bellek mimarı (ölen kişi değil, sosyal yapı hatırlanır). Modern Kazak/Kırgız toplumlarında kurgan = 'ata soyu' sembolü."
+      }
+    ]
+  },
+  "candidate_scores": {
+    "evidence_density": "very_high",
+    "novelty": "medium",
+    "research_gap": "low",
+    "counterintuitive_value": "medium",
+    "narrative_tension": "high",
+    "researchability": "very_high"
+  },
+  "scoring_rationale": {
+    "evidence_density_very_high": "Pazırık buzlu mummya, tekstiller, atlar, Issyk altınları — somut, elle tutulur, müzede görülebilir. Arkeolojik best practice yüksek.",
+    "novelty_medium": "Kurgan araştırması 1940s'den (Rudenko) beri çok bilinen. Ama 'kurgan = hafıza taşıyıcı' perspektifi + Türkçe-konuşan bağlamında yazılı rehimatoloji nadir.",
+    "research_gap_low": "Batılı/Rus arkeoloji çok iyi. Türkçe kaynaklar daha seyrek (fakat var: Kazak bilim, Türk arkeoloji enstitüleri).",
+    "counterintuitive_medium": "Batılılar 'kurgan = ölü ve unutuş' derken, kaynak okumaları 'kurgan = yaşayan hafıza, kutsal tepe, sosyal şifre' gösteriyor. Ölüm ≠ son, hiyerarşi devamı.",
+    "narrative_tension_high": "Pazırık buzunda korunmuş insanlar modern bilim tarafından okunuyor — 'ölüler konuşuyor' tema. Aynı zamanda looting riski (20. yüzyıl Rus kazı etikleri vs. çağdaş arkeoloji). Mevcut coğrafya (Rusya/Kazakistan) = jeopolitik çalışma.",
+    "researchability_very_high": "Pazırık/Berel kurgans tam belgelenmiş, kazı raporları yayınlanmış, artefaktlar müzalarda. Çin/Rus yazılı kaynakları da var. Çağdaş DNA analizi mümkün."
+  },
+  "research_risk": "ORTA — Arkeoloji sağlam, ama 'Kurgan Hypothesis' (Gimbutas' Indo-Avrupa kökeni) tartışmalı. Bazı eleştirmenler (ör. J.P. Mallory eleştiri) DNA bulgularına göre Hypothesis'i yeniden yazıyor. Çözüm: Faz B'de alternatif teorileri (Anatolian hypothesis, farming hypothesis) başı kaldırmak.",
+  "bridge_to_next_sections": "KURGANLAR = BOZ-01'in kanıtı (ölüm toplumu, arkeoloji tanığı). KÜR-ARAZ = Kurganlar'ın öncüsü (erken gömü ritüelleri, metal-kullanım teknolojisinin başlangıcı). Büyük Devletler serisinde her imparatorluğun kurgan mimarlığı araştırılabilir (Türk Kağanlığı, Hunlar, Hazarlar).",
+  "note": "KURGANLAR = studio'nun 'kanıt temeli'. Narrasyon, mitos, atasözü kadar, arkeoloji de meşruiyet sağlıyor. Her videodan kesilmiş arkeolojik 'proof shot' (kurgan görüntüsü, Pazırık tekstili detayı, altın ornament makro) = vericilik işareti."
+}

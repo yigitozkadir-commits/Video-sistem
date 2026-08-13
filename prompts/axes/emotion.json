@@ -1,0 +1,18 @@
+{
+  "axis": "emotion",
+  "ladder": [
+    "neutral",
+    "curious",
+    "warm",
+    "hopeful",
+    "tense",
+    "fearful",
+    "grieving",
+    "triumphant"
+  ],
+  "extra": [
+    "wonder",
+    "cold_certainty"
+  ],
+  "rule": "adjacent beats may move at most one step; a two-step jump requires a breath beat or designed silence"
+}

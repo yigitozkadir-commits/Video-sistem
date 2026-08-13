@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/image_catalog.schema.json",
+  "title": "Image Catalog",
+  "description": "M14 §5. Every disposition needs a rationale.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+          },
+          "page": {
+            "type": "integer"
+          },
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "px": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "dpi_effective": {
+            "type": "number"
+          },
+          "mime": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "has_text_overlay": {
+            "type": "boolean"
+          },
+          "is_duplicate_of": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "class": {
+            "type": "string",
+            "enum": [
+              "cover",
+              "illustration",
+              "portrait",
+              "map",
+              "diagram",
+              "decoration",
+              "photograph",
+              "scan_artifact",
+              "blank"
+            ]
+          },
+          "caption_nearby": {
+            "type": "string"
+          },
+          "scores": {
+            "type": "object",
+            "properties": {
+              "narrative_relevance": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "visual_quality": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "resolution_adequacy": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "reuse_potential": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "reference_value": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "narrative_relevance",
+              "visual_quality",
+              "resolution_adequacy"
+            ]
+          },
+          "disposition": {
+            "type": "string",
+            "enum": [
+              "REFERENCE_ONLY",
+              "HERO_ASSET",
+              "UPSCALE_CANDIDATE",
+              "REGENERATE_FROM_REFERENCE",
+              "ARCHIVE",
+              "HOLD_LEGAL"
+            ]
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "asset_id",
+          "page",
+          "sha256",
+          "class",
+          "scores",
+          "disposition",
+          "rationale"
+        ]
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "images"
+  ],
+  "additionalProperties": true
+}

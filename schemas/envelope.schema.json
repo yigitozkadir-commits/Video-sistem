@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/envelope.schema.json",
+  "title": "Message Envelope",
+  "description": "The ONLY legal way for two agents to exchange information (M13 §12.1).",
+  "type": "object",
+  "properties": {
+    "envelope_version": {
+      "const": "2.0"
+    },
+    "message_id": {
+      "type": "string",
+      "pattern": "^MSG-\\d{6}$"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+    },
+    "from": {
+      "type": "object",
+      "properties": {
+        "agent": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "agent"
+      ]
+    },
+    "to": {
+      "type": "object",
+      "properties": {
+        "agent": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "agent"
+      ]
+    },
+    "intent": {
+      "type": "string",
+      "enum": [
+        "task.dispatch",
+        "task.result",
+        "task.error",
+        "qa.report",
+        "approval.request",
+        "approval.decision",
+        "state.update",
+        "halt"
+      ]
+    },
+    "task_ref": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "payload_schema": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "idempotency_key": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expects_reply": {
+      "type": "boolean"
+    },
+    "reply_deadline_s": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "envelope_version",
+    "message_id",
+    "from",
+    "to",
+    "intent",
+    "payload_schema",
+    "payload",
+    "idempotency_key"
+  ],
+  "additionalProperties": true
+}

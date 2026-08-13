@@ -1,0 +1,129 @@
+{
+  "manifest_date": "2026-08-09",
+  "research_phase": "E — Üretim Paketi Oluşturma",
+  "total_sections": 14,
+  "clusters": {
+    "FOUNDATION": {
+      "sections": 6,
+      "status": "READY"
+    },
+    "HISTORY": {
+      "sections": 2,
+      "status": "CONDITIONAL"
+    },
+    "CULTURE": {
+      "sections": 2,
+      "status": "CONDITIONAL"
+    },
+    "OTTOMAN": {
+      "sections": 2,
+      "status": "CONDITIONAL"
+    },
+    "6TH_CLUSTER": {
+      "sections": 2,
+      "status": "CONDITIONAL"
+    }
+  },
+  "packages": [
+    {
+      "package_number": 1,
+      "cluster": "FOUNDATION",
+      "section": "A-LAYER",
+      "status": "READY",
+      "file": "faz-e-package-01-a-layer.json"
+    },
+    {
+      "package_number": 2,
+      "cluster": "FOUNDATION",
+      "section": "BOZ-01",
+      "status": "READY",
+      "file": "faz-e-package-02-boz-01.json"
+    },
+    {
+      "package_number": 3,
+      "cluster": "FOUNDATION",
+      "section": "KURG",
+      "status": "READY",
+      "file": "faz-e-package-03-kurg.json"
+    },
+    {
+      "package_number": 4,
+      "cluster": "FOUNDATION",
+      "section": "KÜR-ARAZ",
+      "status": "READY",
+      "file": "faz-e-package-04-kür-araz.json"
+    },
+    {
+      "package_number": 5,
+      "cluster": "FOUNDATION",
+      "section": "BOZ-02A",
+      "status": "READY",
+      "file": "faz-e-package-05-boz-02a.json"
+    },
+    {
+      "package_number": 6,
+      "cluster": "FOUNDATION",
+      "section": "MİT",
+      "status": "READY",
+      "file": "faz-e-package-06-mi̇t.json"
+    },
+    {
+      "package_number": 7,
+      "cluster": "HISTORY",
+      "section": "ESKİ-HALK",
+      "status": "READY",
+      "file": "faz-e-package-07-eski̇-halk.json"
+    },
+    {
+      "package_number": 8,
+      "cluster": "HISTORY",
+      "section": "BÜYÜK-DEV",
+      "status": "READY",
+      "file": "faz-e-package-08-büyük-dev.json"
+    },
+    {
+      "package_number": 9,
+      "cluster": "CULTURE",
+      "section": "MANAS",
+      "status": "READY",
+      "file": "faz-e-package-09-manas.json"
+    },
+    {
+      "package_number": 10,
+      "cluster": "CULTURE",
+      "section": "MÜZİK-SESLER",
+      "status": "READY",
+      "file": "faz-e-package-10-müzi̇k-sesler.json"
+    },
+    {
+      "package_number": 11,
+      "cluster": "OTTOMAN",
+      "section": "AŞARIŞILIK",
+      "status": "READY",
+      "file": "faz-e-package-11-aşarişilik.json"
+    },
+    {
+      "package_number": 12,
+      "cluster": "OTTOMAN",
+      "section": "RYSKULOV",
+      "status": "CONDITIONAL",
+      "file": "faz-e-package-12-ryskulov.json"
+    },
+    {
+      "package_number": 13,
+      "cluster": "6TH_CLUSTER",
+      "section": "YAŞAYAN MİRAS",
+      "status": "READY",
+      "file": "faz-e-package-13-yaşayan mi̇ras.json"
+    },
+    {
+      "package_number": 14,
+      "cluster": "6TH_CLUSTER",
+      "section": "HAFIZANIN SINAVI",
+      "status": "READY",
+      "file": "faz-e-package-14-hafizanin sinavi.json"
+    }
+  ],
+  "completion_status": "14/14 COMPLETE",
+  "next_step": "USER_REVIEW_AND_GATE_VERDICTS"
+}

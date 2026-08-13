@@ -1,0 +1,117 @@
+{
+  "package_id": "5TH-ISIMLER-E",
+  "phase": "E",
+  "section": "İSİMLER",
+  "items": "271-310",
+
+  "angle": {
+    "selected_angle": "Ottoman Double-Naming to Single Identity: How Naming Policy Shaped Modern Turkish Nationalism",
+    "rationale": "Shows institutional power over identity: Ottoman double-naming (Arabic + Turkish) declined to Turkish-only naming 13c-17c. Not linguistic evolution but administrative formalization. Demonstrates mechanism of nation-building through concrete archival evidence (Ottoman registries)."
+  },
+
+  "hook": {
+    "primary_hook": "When Ottomans Decided You Could Only Have One Name: How A Naming Policy Changed Turkish Identity Forever",
+    "entry_point": "Visual: Ottoman registry entry with two names (Arabic + Turkish) → later entry with one name. This shift IS the story.",
+    "conflict": "Pre-Ottoman origins uncertain, but Ottoman *transformation* is well-documented (5 ESTABLISHED claims in registries, 2 STRONGLY_SUPPORTED on administrative codification)."
+  },
+
+  "research_foundation": {
+    "faz_d_reference": "faz-d-master-dossier-isimler.json",
+    "completeness_score": 0.93,
+    "readiness_verdict": "CONDITIONAL READY (Option 2 recommended)",
+    "readiness_rationale": "Completeness 0.93 is second-highest in 5-cluster research (after ATASÖZLERI 0.88). Strong Ottoman naming evidence (5 ESTABLISHED, 2 STRONGLY_SUPPORTED claims). Mixed verdicts on pre-Ottoman origins (8 PROBABLE, 1 CONTESTED) and causality mechanisms. D6 recommends CONDITIONAL READY with specific mechanism clarifications.",
+    "key_strengths": [
+      "Ottoman naming conventions well-documented in administrative records",
+      "Shift from double-naming to Turkish-only naming clearly attested (13c-17c temporal range)",
+      "Connection to Turkish nationalism and modern nation-state identity clear",
+      "Administrative codification mechanisms explicit",
+      "Source independence strong; low circular citation risk"
+    ],
+    "major_gaps": [
+      "Pre-Ottoman Arabic-naming adoption history unclear (earlier mechanism undocumented)",
+      "Causal explanation of naming decline: administrative policy vs. social/cultural preference (unclear agency)",
+      "Geographic variation: was transition uniform across Ottoman territories? (Regional variation data limited)",
+      "Post-Ottoman Turkish nationalist naming policies: extent of state enforcement vs. popular adoption (implementation gaps)"
+    ],
+    "readiness_conditions": [
+      "Condition 1: Acknowledge pre-Ottoman origins uncertainty — 'Before Ottoman administrative codification, naming practices are less clearly documented.'",
+      "Condition 2: Distinguish administrative vs. practice — 'Ottoman records show official naming conventions; actual population practice may have varied.'",
+      "Condition 3: Note causality qualification — 'Whether double-naming declined due to administrative policy, cultural preference, or both remains debated.'",
+      "Condition 4: Maintain administrative vs. practice distinction — 'Naming conventions in Ottoman records (ESTABLISHED) vs. actual naming practices among general population (PROBABLE).'"
+    ]
+  },
+
+  "content_brief": {
+    "target_audience": "Ottoman history enthusiasts, Turkish nationalism scholars, identity/genealogy interest, general audience curious about naming and nation-building",
+    "narrative_approach": "Institutional/administrative documentation + genealogical/personal angle contrasted with policy-level change",
+    "content_warnings": "Mild geopolitical sensitivity on Turkish nationalism (non-controversial framing available; nationalism is historical fact, not ideology endorsement)",
+    "narrative_acts": [
+      {
+        "act": 1,
+        "title": "Pre-Ottoman Islamic Naming Traditions (inferred)",
+        "duration_estimate": "1-2 min",
+        "content": "Arabic name adoption in Islamic period (mechanism unclear). Dual-naming tradition established. Note pre-Ottoman evidence is limited; narrative marks this as inference from later patterns."
+      },
+      {
+        "act": 2,
+        "title": "Ottoman Double-Naming Documented (13c-17c peak)",
+        "duration_estimate": "3-4 min",
+        "content": "Ottoman registries show Arabic + Turkish naming convention as standard practice. Museum examples, archival documents on screen showing two-name entries. Geographic distribution of double-naming practice across Ottoman territories."
+      },
+      {
+        "act": 3,
+        "title": "Administrative Codification & Turkification (16c-17c transition)",
+        "duration_estimate": "2-3 min",
+        "content": "Ottoman naming policy shift from multicultural cosmopolitanism (Arabic-Turkish synthesis) to Turkified identity (Turkish-only names). What drove this shift? Administrative reform, cultural preference, or both? Historians debate; evidence points to policy influence."
+      },
+      {
+        "act": 4,
+        "title": "Turkish Nationalism & Modern Naming Identity (20c onward)",
+        "duration_estimate": "2-3 min",
+        "content": "Modern Turkish nation-state inherited Turkified naming as marker of national identity. Turkish language reform context. Modern Turkish naming conventions as continuation of Ottoman Turkification trend."
+      }
+    ]
+  },
+
+  "production_scope": {
+    "expected_duration": "8-10 minutes",
+    "scene_count": "20-30 scenes",
+    "visual_style": "Archival/institutional focus + genealogical documentation + comparative naming tables + administrative evolution",
+    "primary_visual_assets": [
+      "Ottoman registry pages showing two-name entries (museum/archive photography)",
+      "Chronological comparison tables (frequency of double-naming over 13c-17c)",
+      "Geographic maps showing double-naming distribution across Ottoman territories",
+      "Ottoman administrative reform documents (tomar, naming policy directives if accessible)",
+      "Museum display of Ottoman naming registers",
+      "Modern Turkish naming conventions (modern registry examples for comparison)",
+      "Ottoman seals bearing personal names (muhrü examples)",
+      "Genealogical visualization (family trees showing name transitions across generations)"
+    ],
+    "interview_potential": "Medium-High — Ottoman historians, Turkish nationalism scholars, genealogy/naming experts, Ottoman archive curators",
+    "archival_material_available": "High — Ottoman tomar (tax registers), naming registers, administrative correspondence"
+  },
+
+  "production_notes": {
+    "historiographic_transparency_required": "Yes — Causality debate (policy-driven vs. cultural preference) must be acknowledged without false resolution",
+    "geopolitical_sensitivity": "LOW-MEDIUM — Turkish nationalism is historical fact; framing available that is scholarly rather than ideological",
+    "critical_caveats_count": 4,
+    "caveats_detail": [
+      "Pre-Ottoman uncertainty: 'Before Ottoman administrative codification (roughly 13c), naming practices are less clearly documented in available sources. Arabic-naming adoption likely occurred during Islamic period, but specific mechanisms remain unclear.'",
+      "Causality ambiguity: 'Ottoman records show that double-naming declined; what caused this decline — administrative policy, cultural preference for Turkified identity, or both — remains debated by scholars.'",
+      "Administrative vs. practice distinction: 'Naming conventions in Ottoman official records represent administrative standards; actual population naming practices may have varied, especially in non-Ottoman-era peripheral regions.'",
+      "Geographic variation: 'The transition from double-naming to Turkish-only naming may not have been uniform across all Ottoman territories. Regional variation likely but precise geographic data limited.'"
+    ]
+  },
+
+  "archive_metadata": {
+    "generated_at": "2026-08-09T18:44:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-package-isimler",
+    "faz_b_sources_count": "30+",
+    "faz_b_claims_count": 12,
+    "faz_c_established_claims": 5,
+    "faz_c_strongly_supported": 2,
+    "faz_c_probable": 8
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "axis": "music_mood",
+  "values": [
+    "restrained_tension",
+    "open_wonder",
+    "grief",
+    "pursuit",
+    "ceremonial",
+    "desolation",
+    "warmth",
+    "dread",
+    "triumph",
+    "mystery",
+    "comic_light",
+    "resolution"
+  ]
+}

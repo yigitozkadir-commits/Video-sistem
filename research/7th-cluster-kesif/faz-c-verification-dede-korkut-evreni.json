@@ -1,0 +1,685 @@
+{
+  "phase": "C",
+  "phase_name": "Doğrulama & Analiz — Dede Korkut Evreni",
+  "project_id": "7th-cluster-dede-korkut",
+  "verification_date": "2026-08-09",
+  "redteam_methodology": "Adversarial verification + historiographical debate mapping + source quality ranking",
+  "verification_summary": "Phase B claims subjected to red-team stress-test; significant historiographical debates identified; source independence audit completed; UNESCO recognition date corrected (2018, not 2001)",
+  "claim_verification_results": [
+    {
+      "claim_id": "C-0001",
+      "text": "Dede Korkut epic represents synthesis of pre-Islamic Turkic shamanic traditions and Islamic sufi spirituality",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_analysis": {
+        "primary_attack": "Is this a scholarly consensus or a romanticized interpretive lens? Are shamanic elements actually attested or reconstructed?",
+        "counter_evidence_search": "No contemporary pre-Islamic Turkic records; shamanic characterization inferred from text, not historical documentation",
+        "false_precision_risk": "NONE - properly qualified as interpretation",
+        "anachronism_checklist": "NONE - chronology sound (pre-Islamic oral tradition → Islamic redaction)",
+        "citation_verification": "Academic consensus on text analysis; however, Rashid al-Din's 'shaman' reference is secondary interpretation",
+        "cherry_picking_detector": "Moderate risk - Western academic sources emphasize shamanic elements; Turkish nationalist sources emphasize Islamic synthesis",
+        "weakness_identified": "The 'shaman/sufi' dichotomy may be a false binary imposed by modern interpretation; original text may not distinguish sharply"
+      },
+      "adversarial_verdict": "STRONGLY_SUPPORTED",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "STRONGLY_SUPPORTED",
+        "reason": "Red team unable to falsify; scholarly consensus across academic sources; however, interpretation framework (shamanism vs. sufi) is scholarly construct, not explicitly stated in text"
+      },
+      "historiographical_status_update": "consensus",
+      "notes": "Research gap: original medieval audience may not have conceived 'shamanism' and 'Sufism' as opposites; categorical thinking may be modern imposition"
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "The 12-story narrative corpus preserves authentic Oghuz tribal traditions and historical memory",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_analysis": {
+        "primary_attack": "What evidence proves 'authenticity'? Could the stories be post-hoc literary inventions (15th-century Ottoman pastiche) rather than ancient memory?",
+        "counter_evidence_search": "Found: Faruk Sümer thesis states 'authentic kernel' but acknowledges anonymous compilation and later interpolation; no primary contemporary sources confirm narrative accuracy",
+        "false_precision_detector": "HIGH RISK - Claim uses 'authentic' without qualification; actuallevel of historical correspondence unknown",
+        "circular_evidence_detector": "CIRCULAR: Turkic scholars cite Sümer; Sümer's evidence chain not fully transparent in search results",
+        "claim_mutation_detection": "MUTATION OBSERVED: 'Authentic traditions' → 'Preserve memory' → 'Historical records' — each reiteration strengthens claim without added evidence",
+        "historiographical_debate": "DEBATE identified: Romanticist position (authenticity advocates) vs. Skeptical position (literary fabrication hypothesis); neither definitively proven",
+        "weakness_identified": "No methodology for measuring 'authenticity percentage'; scholarly confidence decreases proportionally to specificity of claim"
+      },
+      "adversarial_verdict": "PROBABLE",
+      "updated_confidence": "PROBABLE",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "PROBABLE",
+        "reason": "Authentic kernel likely exists (Oghuz tribal structures documented in Islamic historiography); however, narrative-by-narrative authenticity unverifiable; literary embellishment certain"
+      },
+      "historiographical_status_update": "debate",
+      "fringe_scale": "ACADEMIC_MINORITY",
+      "competing_interpretations": [
+        "Romanticist: Authentic preservation of oral memory (Faruk Sümer, Turkish historians)",
+        "Skepticist: 15th-century Ottoman literary compilation with minimal historical kernel (some European scholars)",
+        "Compromise: Historical framework (Oghuz confederation) authentic; individual narratives partly legendary, partly historical (mainstream academic view)"
+      ],
+      "notes": "EVIDENCE_INFLATION risk: claim evolved from 'contains historical material' to 'preserves authentic traditions' without intermediate evidence. Recommend reverting to qualified language"
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "UNESCO recognized Dede Korkut as ICH in 2018",
+      "original_confidence": "ESTABLISHED",
+      "red_team_analysis": {
+        "primary_attack": "Verified fact; no red team challenge possible; UNESCO documentation is primary source",
+        "citation_verification": "CONFIRMED - Multiple independent sources verify 2018 (13.COM 10.B.3 decision); Phase A document incorrectly stated 2001",
+        "false_precision_check": "ACCURATE - Precise date confirmed as November 2018",
+        "anachronism_check": "NONE",
+        "document_status": "KNOWN - UNESCO official record accessible"
+      },
+      "adversarial_verdict": "CONFIRMED",
+      "updated_confidence": "ESTABLISHED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "ESTABLISHED",
+        "reason": "Primary UNESCO document confirms 2018 inscription; multiple news sources corroborate; no counter-evidence exists"
+      },
+      "historiographical_status_update": "consensus",
+      "critical_finding": "PHASE A DOCUMENT CONTAINS ERROR: States 2001 recognition; correct date is 2018. This error must be flagged for project record.",
+      "notes": "UNESCO recognition criteria: 'practices and representations, skills, knowledge and know-how that communities recognize as part of their cultural heritage' — Dede Korkut qualifies across multiple domains (oral traditions, performing arts, ritual practices)"
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Three (now four) distinct manuscript traditions exist from 14th-16th centuries",
+      "original_confidence": "ESTABLISHED",
+      "red_team_analysis": {
+        "primary_attack": "Are these truly independent traditions or copies of single archetype? Recent manuscript discoveries (Gonbad 2018, Bursa recent) may not be independent witnesses",
+        "independence_audit": "PARTIAL INDEPENDENCE confirmed: Dresden ≠ Vatican (different tale selections); Gonbad/Turkmen variant shows 13-16 stories (not 12) suggesting genuine expansion/difference; Bursa dating (1580-1640) overlaps Dresden period, possible descendant",
+        "circular_evidence_detector": "Manuscripts cite each other through 17th-18th century copies; impossible to determine if independent collateral transmission or serial copying",
+        "document_status_audit": "Dresden = KNOWN+DIGITIZED; Vatican = KNOWN; Gonbad = KNOWN (recent); Bursa = KNOWN (recent); all accessible at least by reference",
+        "transmission_integrity_risk": "HIGH - Ottoman-period copying practices may have introduced innovations; Turkmen variant may reflect deliberate expansion not faithful transmission",
+        "stemma_uncertainty": "UNRESOLVED - No published manuscript stemma (text-tree); genetic relationship unknown"
+      },
+      "adversarial_verdict": "ESTABLISHED",
+      "updated_confidence": "ESTABLISHED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "ESTABLISHED",
+        "reason": "Four manuscripts confirmed to exist; however, independence of transmission unverified. Fact-level confidence high; interpretation-level (genetic relationship) low"
+      },
+      "historiographical_status_update": "consensus",
+      "unknowns_flagged": [
+        "U-0003: Exact textual relationship between manuscript families"
+      ],
+      "notes": "RECOMMENDATION: Commission comparative textual analysis (stemmatology) to determine if Gonbad/Turkmen variant is independent redaction or derivative expansion"
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Rashid al-Din documents Dede Korkut as 9th-10th century historical diplomat",
+      "original_confidence": "PLAUSIBLE",
+      "red_team_analysis": {
+        "primary_attack": "Rashid al-Din writing 14th century, 400+ years after alleged events; is this documentation or legendary citation? No contemporary confirmation exists",
+        "pseudepigraphic_risk": "HIGH - Academic consensus: Dede Korkut is pseudepigraphic attribution common in medieval Islamic/Turkic literature (similar to Pseudo-Dionysius, Pseudo-Aristotle conventions)",
+        "temporal_implausibility": "295-year lifespan cited by Rashid al-Din is transparently legendary; undermines historical credibility of account",
+        "independent_verification": "ZERO contemporary sources (9th-10th century records) confirm Dede Korkut's existence",
+        "source_chain_analysis": "Rashid al-Din → ? → ? → Original source unknown; no traceable attestation before Rashid al-Din's Jāmiʿ al-Tawārīkh (d. 1318)",
+        "causal_reasoning": "Rashid al-Din may have elaborated legend rather than documented history; causality: legend-making → Rashid al-Din's account, not historical figure → legendary elaboration",
+        "counterfactual_test": "LOW confidence that Dede Korkut would exist in historical records if Rashid al-Din had not written about him; suggests Rashid al-Din as legend source, not chronicle"
+      },
+      "adversarial_verdict": "WEAK",
+      "updated_confidence": "PLAUSIBLE",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "PLAUSIBLE",
+        "reason": "Rashid al-Din's account is historically documented (14th century source exists); however, no independent corroboration of historical Dede Korkut. Pseudepigraphic convention likely"
+      },
+      "historiographical_status_update": "debate",
+      "fringe_scale": "ACADEMIC_MINORITY (historians advocating historical Dede Korkut)",
+      "competing_interpretations": [
+        "Skepticist: Entirely legendary figure; Rashid al-Din transmitting folklore not history",
+        "Moderate: Possible historical shaman or elder; legendary elaboration layers obscure true identity",
+        "Romanticist: Historical statesman/diplomat per Rashid al-Din, details exaggerated but core authentic"
+      ],
+      "notes": "CRITICAL: Current evidence cannot confirm historical Dede Korkut; only supports legendary/pseudepigraphic status. Archaeological evidence for Oghuz settlements exists, but not for Dede Korkut specifically"
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Oral tradition 9th-10th century CE; written fixation 14th-16th centuries",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_analysis": {
+        "primary_attack": "How are 9th-10th century oral origins dated without written records? Dating methodology often circular (text contains ancient-sounding language → dated to ancient period)",
+        "anachronism_detector": "MODERATE RISK - Ottoman period linguistic layers in 16th-century manuscripts suggest late redaction; 'ancient oral tradition' may reflect Ottoman-era antiquarian reconstruction",
+        "earliest_attestation": "Earliest written source: Rashid al-Din 1318; oldest known manuscript: Dresden ~1460-1560. Gap of 150+ years between written reference and extant manuscript",
+        "transmission_integrity": "HIGH RISK - Ottoman copying practices may have altered text; 'original' pre-Ottoman version unknown",
+        "dating_certainty": "YEAR_RANGE (9th-11th century for oral origins) - precise dating impossible; estimates based on narrative content analysis, not paleography"
+      },
+      "adversarial_verdict": "PROBABLE",
+      "updated_confidence": "PROBABLE",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "PROBABLE",
+        "reason": "Oral tradition likely ancient (9th-11th century range plausible given Oghuz settlement patterns); however, exact dating unverifiable. Written fixation 14th-16th centuries confirmed by manuscript evidence"
+      },
+      "historiographical_status_update": "consensus",
+      "date_certainty": "YEAR_RANGE",
+      "notes": "Dating confidence decreases the further back in time; 9th-10th century is educated guess, not certainty. Earliest written attestation (Rashid al-Din) is 1318 CE"
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Core narratives embody steppe philosophical values: heroism, honor, tribal justice, freedom",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_analysis": {
+        "primary_attack": "Are these values actually embedded in the text or are modern scholars projecting contemporary ideological frameworks onto medieval narratives?",
+        "interpretive_leap_detector": "MODERATE RISK - 'Honor', 'freedom', 'tribal justice' are scholarly interpretive labels; text may not explicitly articulate these categories",
+        "anachronism_detector": "MODERATE RISK - 'Freedom' as philosophical concept may be modern imposition; medieval text may emphasize 'loyalty' and 'honor' instead",
+        "values_attribution": "All cited values are documented in academic sources but require interpretive reading; no explicit meta-textual statement of philosophy in surviving manuscripts",
+        "perspective_diversity": "Western academic sources emphasize 'freedom' and 'individual heroism'; Turkish nationalist sources emphasize 'Turkish values' and 'national essence' — ideological projection evident"
+      },
+      "adversarial_verdict": "STRONGLY_SUPPORTED",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "STRONGLY_SUPPORTED",
+        "reason": "Literary analysis across multiple independent sources documents these themes; however, labeling as 'philosophical values' is interpretive synthesis, not direct textual statement"
+      },
+      "historiographical_status_update": "consensus",
+      "bias_alert": "NATIONALIST_IDEOLOGICAL perspective evident in sources; values may be legitimately present in text but also instrumentalized for modern Turkish identity construction",
+      "notes": "Claim is defensible as interpretive analysis; recommend qualifying as 'literary scholars identify' rather than 'text encodes' to reduce false certainty"
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Structural parallels with Homer, Shahnameh, Nibelungen epics suggest shared narrative patterns",
+      "original_confidence": "PROBABLE",
+      "red_team_analysis": {
+        "primary_attack": "Are these 'parallels' real structural similarities or superficial resemblances (every epic has heroes, battles, magical beings)?",
+        "false_homology_detector": "HIGH RISK - Cyclops/Tepegöz parallel is strongest evidence; other parallels (heroic destiny, fate) are generic epic features not unique to any tradition",
+        "diffusionism_vs_universalism": "DEBATE UNRESOLVED - Do parallels indicate historical borrowing or universal mythic patterns? Scholars disagree",
+        "temporal_causality": "UNCLEAR - Which direction of borrowing (if any)? Homer (~8th century BCE) predates written Dede Korkut (14th-15th centuries) by 1600+ years but postdates oral Oghuz traditions (9th-10th century?) by ~100-200 years",
+        "alternative_explanations": "Common Indo-European mythic substrate more likely than direct borrowing; steppe shamanic traditions may have influenced Greek colonists in Asia Minor, or vice versa",
+        "cherry_picking_detector": "MODERATE RISK - Cyclops/Tepegöz similarity is real; but only one compelling parallel exists among 12 tales; other 11 tales show less clear generic borrowing"
+      },
+      "adversarial_verdict": "SUPPORTED_BUT_QUALIFIED",
+      "updated_confidence": "PROBABLE",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "PROBABLE",
+        "reason": "Cyclops/Tepegöz parallel documented; however, causality (borrowing direction) and generalizability (how many tales actually parallel Homer/Shahnameh?) remain debated"
+      },
+      "historiographical_status_update": "debate",
+      "fringe_scale": "ACADEMIC_MINORITY (direct borrowing advocates vs. universal pattern advocates)",
+      "notes": "RECOMMENDATION: Reframe claim to 'Tepegöz narrative shows striking parallel to Odyssey's Cyclops episode; causality debated among scholars' rather than claiming broad structural parallels"
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Modern adaptations demonstrate living cultural transmission across 1970s-2020s",
+      "original_confidence": "ESTABLISHED",
+      "red_team_analysis": {
+        "primary_attack": "Do film/TV adaptations prove 'living tradition' or merely commercial entertainment with no connection to medieval oral practice?",
+        "living_tradition_definition": "AMBIGUOUS - Does 'living tradition' require continuity of oral performance + community practice, or can film adaptations count?",
+        "transmission_mechanism": "SPLIT - Contemporary minstrels (Âşık Yavuz) represent genuine oral transmission; film/TV adaptations represent entertainment industry repackaging, not necessarily cultural transmission",
+        "community_continuity": "UNCERTAIN - No quantification of practitioners; UNESCO says tradition 'well-rooted' but doesn't specify how many people actively practice it",
+        "evidence_quality": "IMDB records confirm film existence; UNESCO recognition confirms performance tradition existence; but specific community size, geographic distribution, practice frequency not documented"
+      },
+      "adversarial_verdict": "ESTABLISHED",
+      "updated_confidence": "ESTABLISHED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "ESTABLISHED",
+        "reason": "Adaptations and contemporary performances factually confirmed; however, extent/vitality of 'living tradition' less certain than phrasing suggests"
+      },
+      "historiographical_status_update": "consensus",
+      "research_gap_flagged": "U-0005: Extent of contemporary oral transmission vs. entertainment adaptation",
+      "notes": "RECOMMENDATION: Distinguish between (a) film/TV adaptations (entertainment) and (b) contemporary oral performance (authentic transmission); both exist but serve different functions"
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Female characters display complex gender roles: passive maternal + active warrior representations",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "red_team_analysis": {
+        "primary_attack": "Is the 'complexity' of gender roles a real feature of the text or a scholarly projection of modern expectations?",
+        "false_binary_detector": "RISK - 'Passive maternal vs. active warrior' may be false dichotomy; characters may be multi-dimensional without fitting binary categories",
+        "quantification_gap": "NO DATA - What percentage of female characters are passive vs. active? Do distributions vary by tale? Unknown",
+        "comparative_risk": "Beowulf comparison used by scholars; but Beowulf has notoriously few female characters; comparison may not be apt",
+        "textual_evidence": "Sources cite 'female characters depicted as warriors' but don't provide specific tale examples; Bamsi Beyrek's betrothed Banu Çiçek rescues Bamsi but details sparse in search results",
+        "representation_authenticity": "Unknown: Do warrior-women depictions reflect historical Oghuz gender roles or are they literary tropes/fantasy?"
+      },
+      "adversarial_verdict": "STRONGLY_SUPPORTED",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history_update": {
+        "phase": "C",
+        "value": "STRONGLY_SUPPORTED",
+        "reason": "Multiple sources document both passive and active female roles; however, tale-by-tale breakdown and quantification absent. Claim supported at literary level; historical accuracy of gender roles representation unclear"
+      },
+      "historiographical_status_update": "consensus",
+      "research_gap_flagged": [
+        "U-0008: Tale-by-tale analysis of female character types",
+        "U-0008b: Comparison with historical Oghuz gender roles (archaeological/ethnographic evidence)"
+      ],
+      "notes": "RECOMMENDATION: Qualify claim as 'Literary scholarship identifies both passive maternal and active warrior female characters in the epic tales' rather than implying gender roles are historically accurate"
+    }
+  ],
+  "historiographical_debate_mapping": {
+    "debate_1_authentic_history_vs_literary_fiction": {
+      "debate_id": "D-001",
+      "topic": "Are Dede Korkut narratives primarily historical records or literary inventions?",
+      "stakes": "Determines reliability of epic as source for Oghuz tribal history",
+      "position_1_romanticism": {
+        "label": "Authenticity Advocates (Romanticist)",
+        "proponents": "Faruk Sümer, Turkish nationalist scholars, Turkish cultural authorities",
+        "claim": "Epic preserves authentic Oghuz tribal traditions; oral kernel dates to 9th-10th century; Ottoman redaction added layers but preserved core",
+        "evidence_basis": ["Oghuz tribal genealogies match Islamic historiography", "Place-names in narratives correspond to historical geographies", "Faruk Sümer scholarly authority"],
+        "weaknesses": ["No methodology for measuring authenticity", "No contemporary written corroboration", "Circular reliance on Sümer without examining his source base"],
+        "fringe_scale": "ACADEMIC_MINORITY"
+      },
+      "position_2_skepticism": {
+        "label": "Skeptics (Hypothesis: Fabrication)",
+        "proponents": "Some European literary scholars, source-critical historians",
+        "claim": "Dede Korkut is 15th-century Ottoman literary compilation; Oghuz framework is real but individual narratives are largely invented",
+        "evidence_basis": ["No pre-14th century written records mention specific narratives", "Ottoman period linguistic features throughout extant manuscripts", "Pseudepigraphic attribution follows medieval literary convention"],
+        "weaknesses": ["Doesn't explain tribal genealogy correspondences", "Ignores Rashid al-Din's 14th-century reference", "Undervalues oral transmission preservation capacities"],
+        "fringe_scale": "ACADEMIC_FRINGE"
+      },
+      "position_3_compromise": {
+        "label": "Moderate View (Mainstream Academic)",
+        "proponents": "Most contemporary Turkish and Western academic sources",
+        "claim": "Dede Korkut contains authentic historical framework (Oghuz confederation, tribal structures, major conflicts) but with legendary embellishment; individual narratives blend historical events with fictional expansion",
+        "evidence_basis": ["Oghuz confederation documented in Islamic sources", "Ottoman redaction acknowledged", "Gradual accretion of narrative layers likely"],
+        "strengths": ["Most parsimonious explanation", "Acknowledges both historical kernel and literary elaboration"],
+        "current_weight": "DOMINANT"
+      },
+      "unresolved_questions": [
+        "What percentage of narrative details are historically accurate?",
+        "How much elaboration occurred in oral transmission vs. written redaction?",
+        "Can individual tales be dated or authenticated separately?"
+      ],
+      "revision_impact": "MODERATE - Shifts interpretation of epic from 'historical record' to 'legendary epic with historical context'"
+    },
+    "debate_2_dede_korkut_historical_existence": {
+      "debate_id": "D-002",
+      "topic": "Was there a historical Dede Korkut or is the figure entirely legendary?",
+      "stakes": "Determines whether epic chronicles real individual or composite character",
+      "position_1_historical_kernel": {
+        "label": "Historical Existence Advocates",
+        "proponents": "Turkish historians, cultural authorities citing Rashid al-Din",
+        "claim": "Dede Korkut was real 9th-10th century Oghuz diplomat/advisor; Rashid al-Din's account is historical documentation",
+        "evidence_basis": ["Rashid al-Din 14th-century reference", "295-year lifespan as poetic exaggeration not necessarily falsification"],
+        "weaknesses": ["NO contemporary 9th-10th century sources confirm existence", "Rashid al-Din writing 400 years after alleged events", "No archaeological artifacts for Dede Korkut specifically"],
+        "fringe_scale": "ACADEMIC_MINORITY"
+      },
+      "position_2_entirely_legendary": {
+        "label": "Legendary-Only Advocates",
+        "proponents": "Source-critical scholars, skeptics",
+        "claim": "Dede Korkut is pseudepigraphic literary device; no historical individual; legend-making process created figure, not preservation of real person",
+        "evidence_basis": ["No pre-Rashid al-Din references", "Pseudepigraphic attribution common in medieval literature", "295-year lifespan is obvious fiction"],
+        "weaknesses": ["Doesn't explain consistency of Dede Korkut characterization across variants", "Ignores possibility of semi-legendary historical figure"],
+        "fringe_scale": "ACADEMIC_FRINGE"
+      },
+      "position_3_semicircle": {
+        "label": "Semi-Historical Compromise",
+        "proponents": "Nuanced scholars",
+        "claim": "Dede Korkut likely based on historical shaman/elder; identity and biographical details cannot be recovered; legendary layers obscure original figure",
+        "evidence_basis": ["Shaman figures historically documented in Turkic societies", "Narrative consistency suggests composite/real-person basis", "Impossible to distinguish historical kernel from legendary elaboration"],
+        "current_weight": "MAINSTREAM"
+      },
+      "verdict": "UNRESOLVED - Evidence insufficient for definitive proof either direction; pseudepigraphic status most likely",
+      "revision_impact": "MAJOR - If historical Dede Korkut confirmed, would revolutionize understanding of Oghuz leadership and Islamic conversion; if entirely legendary, confirms literary creation process"
+    },
+    "debate_3_tepegöz_cyclops_borrowing": {
+      "debate_id": "D-003",
+      "topic": "Is Tepegöz/Cyclops parallel due to borrowing or common mythic substrate?",
+      "stakes": "Determines cultural transmission and influence directions between Mediterranean and Central Asian traditions",
+      "position_1_homer_to_turkic": {
+        "label": "Homeric Borrowing Hypothesis",
+        "proponents": "Some scholars",
+        "claim": "Turkic version borrowed Odysseus/Cyclops narrative from Homeric tradition via Greek colonies in Asia Minor",
+        "evidence_basis": ["Narrative parallelism (giant, one eye, cave, escape via deception)", "Greece geographically proximate to early Oghuz migration routes"],
+        "weaknesses": ["No documented transmission mechanism", "Oghuz oral tradition predates or contemporaneous with Homer; unclear how borrowing occurred", "Why only one tale borrowed if broad influence?"],
+        "fringe_scale": "ACADEMIC_MINORITY"
+      },
+      "position_2_turkic_to_homer": {
+        "label": "Central Asian Priority Hypothesis",
+        "proponents": "Rare (some nationalist scholars)",
+        "claim": "Homer borrowed Cyclops tale from earlier Central Asian shamanic tradition",
+        "evidence_basis": ["Shamanic giant-killer narratives documented in Siberian folklore", "Asia geographically source region"],
+        "weaknesses": ["Chronologically implausible; Homer likely predates written Turkic sources", "No documented transmission mechanism", "Contradicts standard historical narrative"],
+        "fringe_scale": "ACADEMIC_FRINGE"
+      },
+      "position_3_common_substrate": {
+        "label": "Universal Mythic Pattern Hypothesis",
+        "proponents": "Most scholars, comparative mythologists",
+        "claim": "Cyclops/Tepegöz parallel reflects universal human narrative patterns (trickster vs. giant); no direct borrowing, convergent mythic evolution",
+        "evidence_basis": ["Similar narratives exist in Polynesian, Siberian, Native American traditions", "Shamanic cultures worldwide develop giant-trick narratives independently", "Joseph Campbell monomyth framework"],
+        "current_weight": "DOMINANT"
+      },
+      "verdict": "UNRESOLVED - Causality undecidable with current evidence",
+      "research_recommendation": "Linguistic phylogenetics (comparing Turkic, Greek, Indo-European etymologies of 'giant', 'eye', 'trick') might narrow possibilities"
+    }
+  ],
+  "source_quality_ranking": {
+    "top_5_strongest_sources": [
+      {
+        "rank": 1,
+        "source_id": "SRC-0009",
+        "title": "UNESCO ICH Official Multimedia Archives",
+        "reliability": "HIGH",
+        "reasoning": "Primary official document; UNESCO has institutional authority; no ideological bias; comprehensively vetted before inscription",
+        "authority": "UNESCO (United Nations body)",
+        "methodology_transparency": "HIGH",
+        "citation_verification": "VERIFIED"
+      },
+      {
+        "rank": 2,
+        "source_id": "SRC-0012",
+        "title": "Kitab-i Dedem-Korkut (Dresden Manuscript)",
+        "reliability": "HIGH",
+        "reasoning": "Primary manuscript source; oldest known textual witness; digitized and publicly accessible; paleography and authentication documented",
+        "authority": "SLUB Dresden (major European archive)",
+        "temporal_proximity": "NEAR-CONTEMPORARY (16th century)",
+        "citation_verification": "VERIFIED"
+      },
+      {
+        "rank": 3,
+        "source_id": "SRC-0006",
+        "title": "The Book of Dede Korkut: A Turkish Epic (Faruk Sümer)",
+        "reliability": "HIGH",
+        "reasoning": "Foundational scholarly work; Sümer is recognized authority in Turkish studies; published by academic press (University of Texas); translated into English; extensively cited",
+        "authority": "Faruk Sümer (Turkish historian, 1924-1995)",
+        "methodology_transparency": "MODERATE (translation unavoidably loses original argumentation)",
+        "citation_verification": "VERIFIED"
+      },
+      {
+        "rank": 4,
+        "source_id": "SRC-0026",
+        "title": "DedeKorkut, Shahnameh, and Iliad and Odyssey: Comparative Epic Analysis",
+        "reliability": "HIGH",
+        "reasoning": "Academic journal publication; peer-reviewed; comparative methodology rigorous; specific parallel textual analysis",
+        "authority": "BEPLS Journal",
+        "methodology_transparency": "HIGH",
+        "citation_verification": "VERIFIED"
+      },
+      {
+        "rank": 5,
+        "source_id": "SRC-0019",
+        "title": "Kitab-i Dedem-Korkut Manuscript Analysis & Dating (SLUB Dresden)",
+        "reliability": "HIGH",
+        "reasoning": "Archival authority; primary manuscript metadata; paleographic analysis by specialist librarians; directly addresses provenance and transmission",
+        "authority": "SLUB Dresden",
+        "methodology_transparency": "HIGH",
+        "citation_verification": "VERIFIED"
+      }
+    ],
+    "bottom_5_weakest_sources": [
+      {
+        "rank": 31,
+        "source_id": "SRC-0022",
+        "title": "A Gift from the Turks to the World: The Dede Korkut Stories (Motley Turkey)",
+        "reliability": "MEDIUM",
+        "reasoning": "Cultural media (not academic); written for general audience; Turkish nationalist perspective evident; no peer review; emotive language used",
+        "bias_indicators": ["Turkish pride framework", "Celebratory tone"],
+        "authority": "Motley Turkey (travel/cultural blog)",
+        "citation_verification": "NOT_VERIFIED",
+        "recommendation": "Use for cultural reception data only; not primary scholarship"
+      },
+      {
+        "rank": 32,
+        "source_id": "SRC-0001",
+        "title": "Book of Dede Korkut Background (GradeSaver)",
+        "reliability": "MEDIUM",
+        "reasoning": "Student study guide platform; designed for accessibility not depth; may oversimplify nuanced topics; editorial bias toward easily-understandable summaries",
+        "bias_indicators": ["Pedagogical simplification", "Student audience"],
+        "authority": "GradeSaver (EdTech platform)",
+        "citation_verification": "MEDIUM",
+        "recommendation": "Useful for understanding popular interpretations; not scholarly synthesis"
+      },
+      {
+        "rank": 33,
+        "source_id": "SRC-0029",
+        "title": "Dede Korkut (1988 Film) - IMDB",
+        "reliability": "MEDIUM",
+        "reasoning": "Entertainment database; documents film existence but not scholarly content; no analysis of film's accuracy or interpretation methodology",
+        "bias_indicators": ["Entertainment focus"],
+        "authority": "IMDB (entertainment database)",
+        "citation_verification": "VERIFIED (film exists)",
+        "recommendation": "Useful for documenting modern adaptations; not scholarly analysis"
+      },
+      {
+        "rank": 34,
+        "source_id": "SRC-0015",
+        "title": "Rare Bursa Manuscript of Dede Korkut (Türkiye Today news)",
+        "reliability": "MEDIUM-LOW",
+        "reasoning": "News media source; likely editorial bias toward 'discovery excitement'; may lack manuscript expertise; Turkish nationalist perspective possible",
+        "bias_indicators": ["Nationalist framing", "Sensationalism ('rarest epics')"],
+        "authority": "Türkiye Today (Turkish news media)",
+        "citation_verification": "MEDIUM",
+        "recommendation": "Useful for documenting recent manuscript discovery; verify claims against archival sources"
+      },
+      {
+        "rank": 35,
+        "source_id": "SRC-0003",
+        "title": "An Indo-Persian Guide to Sufi Shrine Pilgrimage (World Pilgrimage Guide)",
+        "reliability": "MEDIUM-LOW",
+        "reasoning": "General reference work; not specifically about Dede Korkut; used for broader Central Asian Sufi context only; no direct documentation of Dede Korkut veneration",
+        "bias_indicators": ["Broad religious survey (not focused)"],
+        "authority": "World Pilgrimage Guide (general reference)",
+        "citation_verification": "PARTIAL (Sufi shrine tradition confirmed; Dede Korkut specific shrine not documented)",
+        "recommendation": "Use for context only; direct evidence of Dede Korkut shrine cult not found"
+      }
+    ],
+    "source_independence_audit": {
+      "high_independence": {
+        "count": 18,
+        "source_examples": [
+          "UNESCO (international authority)",
+          "SLUB Dresden (European archive)",
+          "Turkish academic journals (domestic scholarship)",
+          "Western academic databases (independent scholarly network)"
+        ],
+        "risk": "LOW"
+      },
+      "moderate_independence": {
+        "count": 10,
+        "source_examples": [
+          "News media (partial dependence on press releases)",
+          "Encyclopedia.com (aggregation of existing scholarship)",
+          "GradeSaver (educational adaptation of scholarship)"
+        ],
+        "risk": "MEDIUM"
+      },
+      "low_independence": {
+        "count": 5,
+        "source_examples": [
+          "Turkish cultural media (potential nationalist bias)",
+          "IMDB (entertainment focus)"
+        ],
+        "risk": "MEDIUM-HIGH",
+        "mitigation": "Cross-reference claims with high-independence sources"
+      },
+      "independence_group_analysis": {
+        "group_1_unesco": {
+          "members": 3,
+          "overlap": "None — UNESCO documents stand alone"
+        },
+        "group_2_manuscript_archives": {
+          "members": 3,
+          "overlap": "All reference same four manuscripts (Dresden, Vatican, Gonbad, Bursa); no circular dependency"
+        },
+        "group_3_turkish_scholarship": {
+          "members": 8,
+          "overlap": "MODERATE — Turkish academics cite each other; Faruk Sümer foundational; later scholars cite Sümer",
+          "independence_concern": "Circular citation of Sümer without examining original argumentation in several sources"
+        },
+        "group_4_western_academic": {
+          "members": 7,
+          "overlap": "LOW — Western scholars cite Turkish sources but independently analyze materials",
+          "independence_confidence": "HIGH"
+        }
+      }
+    }
+  },
+  "unknowns_and_anomalies": {
+    "unknowns_from_phaseb": 10,
+    "unknowns_refined": [
+      {
+        "unknown_id": "U-0001",
+        "original_question": "Exact original oral transmission date?",
+        "phase_c_update": "UNREFINEABLE — No contemporary records exist; dating relies on narrative content analysis; 9th-10th century estimate is most probable but not certain",
+        "researchability": "LOW",
+        "recommendation": "Accept chronological range (9th-11th century) as scholarly consensus; seek archaeological evidence of Oghuz settlements for independent dating"
+      },
+      {
+        "unknown_id": "U-0002",
+        "original_question": "Did historical Dede Korkut actually exist?",
+        "phase_c_update": "CONTESTED — No contemporary evidence; pseudepigraphic status most likely; possible semi-historical figure underlying legend but unrecoverable",
+        "historiographical_debate": "D-002",
+        "competing_hypotheses": [
+          "Entirely legendary (skepticist position)",
+          "Semi-historical figure (compromise position)",
+          "Historical statesman per Rashid al-Din (romanticist position)"
+        ],
+        "researchability": "MEDIUM",
+        "recommendation": "Search for DNA evidence from claimed burial site if exists; examine Rashid al-Din source base in detail (consult original Persian text)"
+      },
+      {
+        "unknown_id": "U-0003",
+        "original_question": "Genetic relationship between manuscript variants?",
+        "phase_c_update": "UNRESOLVED — Four manuscripts exist (Dresden, Vatican, Gonbad, Bursa); textual relationships undetermined; possible Gonbad/Turkmen variant is independent redaction vs. derivative expansion",
+        "researchability": "HIGH",
+        "recommendation": "Commission comparative textual analysis (stemmatology) to build manuscript text-tree; involves detailed collation and linguistic analysis"
+      },
+      {
+        "unknown_id": "U-0004",
+        "original_question": "Provenance chain for Dresden manuscript?",
+        "phase_c_update": "SOURCE_GAP — First documented in Dresden 1754 catalog; acquisition date/channel unknown; likely German collector chain but untraced",
+        "researchability": "MEDIUM",
+        "recommendation": "Search Dresden library archives for pre-1754 acquisition records; contact European manuscript collector associations for historical leads"
+      },
+      {
+        "unknown_id": "U-0005",
+        "original_question": "Authenticity of contemporary performance traditions?",
+        "phase_c_update": "OPEN_QUESTION — Contemporary minstrels (Âşık Yavuz) perform Dede Korkut; but degree of continuity vs. modern innovation unknown; UNESCO recognizes living tradition but doesn't specify community size/vitality",
+        "researchability": "HIGH",
+        "recommendation": "Ethnographic documentation of contemporary performances; comparative analysis with medieval manuscript to measure textual fidelity"
+      },
+      {
+        "unknown_id": "U-0006",
+        "original_question": "Linguistic/cultural distinctions of Turkmen, Azerbaijani, Kazakh, Kyrgyz variants?",
+        "phase_c_update": "OPEN_QUESTION — Turkmen variant has 13-16 tales (vs 12 in Dresden); other language variants referenced by UNESCO but specific content differences not documented in accessible sources",
+        "researchability": "HIGH",
+        "priority": "HIGH",
+        "recommendation": "Commission multilingual comparative analysis of manuscripts in Turkmen, Azerbaijani, Kazakh, Kyrgyz; requires native-speaker scholars"
+      },
+      {
+        "unknown_id": "U-0007",
+        "original_question": "Tepegöz/Cyclops parallel causality?",
+        "phase_c_update": "CONTESTED — Narrative parallelism documented; causality (Homer → Turkic, Turkic → Homer, or common substrate) unresolved; likely common mythic pattern",
+        "historiographical_debate": "D-003",
+        "researchability": "MEDIUM",
+        "recommendation": "Linguistic phylogenetics comparing etymologies in Greek, Turkic, Indo-European families"
+      },
+      {
+        "unknown_id": "U-0008",
+        "original_question": "Tale-by-tale breakdown of female character types?",
+        "phase_c_update": "OPEN_QUESTION — General sources cite passive maternal and active warrior female roles; specific tale-by-tale analysis not yet published (at least not in English-accessible sources)",
+        "researchability": "HIGH",
+        "priority": "MEDIUM",
+        "recommendation": "Close literary reading of all 12 tales with gender role coding; can be completed via detailed manuscript analysis"
+      },
+      {
+        "unknown_id": "U-0009",
+        "original_question": "Percentage of historical claims corroborated by independent evidence?",
+        "phase_c_update": "OPEN_QUESTION — Oghuz tribal structures documented; individual battle narratives less certain; no quantified verification rate exists",
+        "researchability": "MEDIUM",
+        "priority": "HIGH",
+        "recommendation": "Systematic comparison of epic claims with Islamic historiography (al-Masudi, Ibn al-Athir), archaeological evidence for Oghuz settlements, toponymic analysis"
+      },
+      {
+        "unknown_id": "U-0010",
+        "original_question": "Dede Korkut saint veneration (mazar/dargah) sites and history?",
+        "phase_c_update": "SOURCE_GAP — Sufi saint veneration tradition documented in Central Asia; no specific Dede Korkut shrine documentation found in Phase B searches; requires Central Asian archival research",
+        "researchability": "MEDIUM",
+        "priority": "MEDIUM",
+        "recommendation": "Contact Central Asian museums, awqaf archives (Islamic endowment records), Turkish/Azerbaijani cultural ministries for shrine records; visit reported pilgrimage sites if any identified"
+      }
+    ]
+  },
+  "critical_findings": [
+    {
+      "finding_id": "F-001",
+      "category": "FACTUAL_ERROR_IN_PHASEA",
+      "severity": "HIGH",
+      "finding": "Phase A document (faz-a-concept-discovery.json) states UNESCO recognition occurred in 2001. CORRECTION: UNESCO inscription date is 2018 (13.COM 10.B.3 decision, November 2018)",
+      "impact": "Project historical record contains factual error requiring correction",
+      "recommendation": "Update Phase A document with corrected UNESCO recognition date (2018, not 2001)"
+    },
+    {
+      "finding_id": "F-002",
+      "category": "HISTORIOGRAPHICAL_DEBATE",
+      "severity": "MEDIUM",
+      "finding": "Claim C-0002 ('Authentic traditions preserved') undergoes confidence reduction: STRONGLY_SUPPORTED → PROBABLE. Authenticity claims lack quantification methodology; 'authentic kernel' overstated in Phase B; scholarly consensus is 'authentic framework with legendary elaboration' not 'authentic preservation'",
+      "impact": "Affects project narrative framing of Dede Korkut as reliable historical source",
+      "recommendation": "Qualify historical claims in project outputs; emphasize legendary embellishment alongside historical elements"
+    },
+    {
+      "finding_id": "F-003",
+      "category": "EVIDENCE_INFLATION",
+      "severity": "MEDIUM",
+      "finding": "Claim C-0008 (comparative epics) shows evidence inflation: Phase B lists broad structural parallels; red team identifies only Tepegöz/Cyclops as compelling parallel; other resemblances are generic epic features",
+      "impact": "Comparative analysis weaker than Phase B phrasing suggests",
+      "recommendation": "Reframe as specific Tepegöz/Cyclops parallel; note causality unresolved; avoid overgeneralizing to 'shares structural patterns with all major epics'"
+    },
+    {
+      "finding_id": "F-004",
+      "category": "RESEARCH_GAP",
+      "severity": "MEDIUM",
+      "finding": "Phase B cannot verify Dede Korkut shrine veneration tradition; all references to saint cult are indirect. Direct documentation of mazar/dargah, pilgrimage records, or shrine locations not located",
+      "impact": "Islamic syncretism claim (C-0001) lacks material/archeological evidence",
+      "recommendation": "Flag as research gap; focus future work on Central Asian archival investigation"
+    },
+    {
+      "finding_id": "F-005",
+      "category": "SOURCE_BIAS",
+      "severity": "LOW-MEDIUM",
+      "finding": "Turkish nationalist perspective evident across multiple sources (news media, cultural authorities, some academic sources). Western academic sources emphasize literary analysis over national identity construction; perspective diversity mixed but recognizable bias patterns",
+      "impact": "Claims about 'Turkish national epic' and 'cultural identity' may reflect modern nationalist projects as much as medieval reality",
+      "recommendation": "Note ideological framing in sources; distinguish between scholarly claims and nationalist instrumentalization"
+    },
+    {
+      "finding_id": "F-006",
+      "category": "UNVERIFIED_CLAIM",
+      "severity": "MEDIUM",
+      "finding": "Claim C-0005 (Rashid al-Din as historical source) relies on secondary summaries. Original Persian text of Jāmiʿ al-Tawārīkh not consulted; actual content/context of Dede Korkut reference not directly verified",
+      "impact": "Historical reliability of Rashid al-Din's account uncertain",
+      "recommendation": "Consult original Persian historical text or recent scholarly translations (if available); verify exact Dede Korkut reference wording"
+    }
+  ],
+  "phase_c_verdict_summary": {
+    "overall_status": "VERIFICATION_COMPLETE_WITH_CAVEATS",
+    "readiness_for_phasedm": "CONDITIONAL",
+    "conditions": [
+      "Critical Finding F-001 (Phase A date error) must be corrected in project record",
+      "Confidence reductions (Claims C-0002, C-0005, C-0008) must be reflected in updated claim confidence_history",
+      "Research gaps (U-0001 through U-0010) acknowledged but acceptable for audiobook production purposes; gaps do not invalidate core historical framework"
+    ],
+    "core_findings_summary": {
+      "established_facts": [
+        "UNESCO ICH recognition confirmed (2018, not 2001)",
+        "Four manuscript traditions documented (Dresden, Vatican, Gonbad, Bursa)",
+        "Contemporary performances and film adaptations exist",
+        "Scholarly consensus recognizes historical framework (Oghuz confederation) with legendary elaboration"
+      ],
+      "debated_claims": [
+        "Degree of historical authenticity in individual narratives (DEBATE)",
+        "Whether historical Dede Korkut existed (DEBATE)",
+        "Causality of Tepegöz/Cyclops parallel (DEBATE)"
+      ],
+      "unresolved_unknowns": [
+        "Exact date of oral tradition origins",
+        "Manuscript family relationships (stemma)",
+        "Extent of contemporary oral transmission vs. entertainment adaptation",
+        "Tale-by-tale historical corroboration rates"
+      ]
+    }
+  },
+  "archive_metadata": {
+    "phase": "C",
+    "phase_name": "Doğrulama & Analiz",
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T22:30:00Z",
+    "prompt_version": "historical-research-pipeline v1.0",
+    "input_file": "faz-b-dossier-dede-korkut-evreni.json",
+    "quality_assurance": "Red team verification + historiographical debate mapping + source quality ranking + unknown refinement completed",
+    "next_phase": "Faz D (Synthesis & Quality Gate) — pending user review of Phase C findings"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "shot_id": "SH-002-01",
+  "scene_id": "SC-002",
+  "variant": "image",
+  "prompt_ref": "PV-0044",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.wide.establishing",
+  "variables_resolved": {
+    "environment_subject": "A vast Central Asian steppe landscape with the silhouette of a fortified khaganate camp on one horizon and a walled city on the other, implying two empires now sharing a border",
+    "figure_for_scale": "a lone rider on the open steppe between the two silhouettes",
+    "air_and_weather": "clear cold sky, wide open horizon",
+    "lighting": "overcast_soft, flat even daylight",
+    "camera": "wide static, deep horizon line",
+    "ambient_element": "windblown steppe grass"
+  },
+  "resolved_text": "A vast Central Asian steppe landscape with the silhouette of a fortified khaganate camp on one horizon and a walled city on the other, implying two empires now sharing a border. a lone rider on the open steppe between the two silhouettes. clear cold sky, wide open horizon. overcast_soft, flat even daylight. wide static, deep horizon line. 28mm equivalent, deep focus. Motion: environmental only — windblown steppe grass. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "reference_set": [
+    "REF-ENV-STEPPE-BORDER",
+    "REF-PAL-STEPPE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow",
+  "seed": null,
+  "status": "completed",
+  "created_at": "2026-08-08T22:43:33.448399+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-002-01.jpeg",
+  "sha256": "3cf4847f7c6c5f35d28bcc7ce835d7323267282ac29ca0cdf7815b5e202b3228",
+  "bytes": 822933,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
+}

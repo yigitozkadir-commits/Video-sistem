@@ -1,0 +1,341 @@
+{
+  "phase": "C",
+  "project_id": "musik-sesler-serisi",
+  "claims_verified": [
+    {
+      "claim_id": "C-101",
+      "text": "Tengriist şaman geleneğinde kam ve baksı, kopuz ve benzeri enstrümanları ritüel müzik, trance giriş ve ruh iletişiminde kullanmışlardır",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Şaman müzik pratiğinin tam ortaya çıkarılması 19. yüzyıl Sovyet etnografisinden geliyor (Radloff vb.); ön-19. yüzyıl doğrudan gözlem yok. Arkeolojik enstrüman buluntuları sınırlı (çoğu Osmanlı ve sonrası).",
+      "independent_confirmation": true,
+      "alternative_explanation": "Kam/baksı ritüel müzik pratiği 19-20. yüzyılda gözlemlenen form, antik Tengriizm'in ne kadar korunduğu bilinmiyor. Sovyet baskısı ve İslamileşme sonrası pratiğin orijinal hali hakkında varsayım yapılıyor.",
+      "remaining_weakness": "Doğrudan ön-İslami dönem Tengriist ritüel kayıtları yok; arkeolojik enstrüman kanıtı (Altay davulu, kopuz kalıntıları) sınırlı ve tarihlemesi belirsiz. Sovyet etnografisine bağımlılık yüksek.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 4,
+        "independent": 2
+      },
+      "historiographical_notes": "MDPI akademik makale, Turkish Music Portal, Central Asia Guide tutarlı. Radloff 19. yüzyıl gözlemleri standart referans (Altay, Kyrgyz, Kazak). Ancak 19. yüzyıl = ön-İslami değil; sonrası."
+    },
+    {
+      "claim_id": "C-102",
+      "text": "Kopuz (çağatay: kıpçak: kopuz, kılkopuz) Türk dünyasında ön-İslami dönemden İslami döneme geçiş sürecinde sakral enstrüman olarak korunmuştur",
+      "verdict": "established",
+      "strongest_counter_evidence": "Yok. Clauson Etimolojik Sözlüğü (ön-13. yüzyıl kopuz attestation), Dede Korkut yazmaları (kopuz'un ozan anlatısında saklı rol), TDV Ansiklopedisi (Altay + Osmanlı dönem korunması) tutarlı.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Yok.",
+      "remaining_weakness": "Yok.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 2
+      },
+      "historiographical_notes": "Clauson (Oxford 1972), TDV İslam Ansiklopedisi, Dede Korkut yazmaları filolojik kanıt. Enstrüman ailesi sürekliliği (kopuz → saz/bağlama) Osmanlı miniaturları ile görsel kanıt."
+    },
+    {
+      "claim_id": "C-103",
+      "text": "Sufizm Orta Asya'ya gelmesiyle, Tengriist ritüel müzik ve dans pratiği yerli İslami tasavvuf formlarına entegre olmuştur; şaman trance ritüelleri Sufi dhikr ve semâh uygulamalarında yeniden formlandırılmıştır",
+      "verdict": "probable",
+      "strongest_counter_evidence": "Nedensellik mekanizması (hangi tarikat, hangi coğrafyada) belirtilmemiş. Sinkretizm varsayımı: İslam reformat (puritanist görüş) herhangi bir ön-İslami öğeye karşı çıkabilirdi; ama yerel pratikte korundu. Sovyet müzik politikası (1920s-1991) müzik pratiğini tersine çevirmiş olabilir ('geri' uyum değil, 'yükseltme' uyarlaması).",
+      "independent_confirmation": false,
+      "alternative_explanation": "Sultanova saha kanıtı (Otin-Oy, Ferghana) modern pratik; tarihsel sürekliliğin ne kadarı orijinal Tengriizm-e, ne kadarı Sufi yeniden-tefsiri, ne kadarı Sovyet üretimi bilinmiyor.",
+      "remaining_weakness": "Sinkretizm geçiş dönemi (11-16. yüzyıl) doğrudan kanıtı yok. Sultanova verileri 1990s-2010s modern (post-Sovyet); tarihsel kopyası değil, müasır revizyalizm olabilir. Nedensellik: 'Sufizm geldi → ritüel müzik dönüştü' ama alternatif: 'müzik korundu, Sufi terminoloji kaplama'.",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": [
+        "EVIDENCE_INFLATION — Sultanova modern saha veri, ön-İslami sürekliliğin kanıtı değil; revizyalizm riski"
+      ],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 1
+      },
+      "historiographical_notes": "Sultanova 'From Shamanism to Sufism' etnografik kanıt güçlü (15+ yıl saha); ama niceliği tarihsel kökenle birlimi yok. Pharos JoT 2025 'Sufi Motives in Ancient Turkic' konseptüel destekle; Central Asia Guide bağlamsal kanıt."
+    },
+    {
+      "claim_id": "C-104",
+      "text": "Âşık/aşık geleneği (16-20. yüzyıl) ozan → aşık terminolojik ve pratik dönüşümü temsil eder; enstrüman bağlama (saz), kopuz'un doğrudan devamıdır",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Kopuz → saz müzik ailesi şematik olarak gösterilir ama araştırması tam değil. 'Doğrudan devamı' söylemsi potansiyel olarak abartılmış; ara-form (ud, ney, tanbur vb.) olabilir. Ozan → aşık dönüşümü terminolojik ve sosyal ama enstrüman bağlamında tam belirtilmedi.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Kopuz/saz müzik ailesi uzun evolüsyon geçmiş olabilir; İslami enstrüman seçimi (ud, ney) araba Türk âşık gelenekte. Ozan (şaman-bard) → Aşık (Sufi-şair) dönüşümü enstrüman değil, rolün İslami reinterpretasyonu olabilir.",
+      "remaining_weakness": "Ara-formlar ve köken karmaşası (Arap, Pers enstrüman etkisi) belirtilmedi. Bağlama yapısı analizi (kopuz vs. bağlama fret, gövde) gerçekleştirilmedi.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 2
+      },
+      "historiographical_notes": "MDPI 'Shamanistic Rituals to Âşıks', Tapadum, Sala Muzik, Asik Veysel örneği tutarlı. Osmanlı miniaturları (16-19c) bağlama görsel kanıt. Ancak ozan-bard geleneğinin enstrüman detayı sınırlı."
+    },
+    {
+      "claim_id": "C-105",
+      "text": "Razia Sultanova'nın etnomüzikolojik araştırması (15+ yıl saha çalışması, Cambridge, Ferghana vadisi) Tengriist-Sufi müziksel süreklilik ve kadın müzisyenlerin ruh korumasında önemli rol taşıdığını kanıtlamıştır",
+      "verdict": "established",
+      "strongest_counter_evidence": "Yok. Sultanova Cambridge Faculty of Music, 'From Shamanism to Sufism' Cambridge University Press (2014), çok-ayrıntılı saha çalışması (Otin-Oy, Ferghana Valley). Kurumsal ve yayın doğrulama tam.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Yok.",
+      "remaining_weakness": "Tarihsel köken (ön-İslami Tengriism) veri toplama sınırlaması — Sultanova modern pratiği gözlemliyor; tarihsel kimlik müstensihi kaynakların çoklulukta yokluğu.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 1
+      },
+      "historiographical_notes": "Established institutional fact: Cambridge University Press 2014, Google Books, Gale Academic OnFile, Amazon katalog. Sultanova araştırma profili doğrulanmış. Etnografik veri kalitesi yüksek."
+    },
+    {
+      "claim_id": "C-106",
+      "text": "Kam ve baksı terimlerinin etimolojisi (Clauson, filolojik kaynaklar) Altay, Kırgız, Kazak Türkçelerinde 5. yüzyıldan itibaren izlenebilir; 'şaman' Tunguz kaynağı iken, 'kam' ve 'baksı' Türkçe özgün terimlerdir",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Clauson ön-13. yüzyıl sınırı — 5. yüzyıl attestation Çin kaynakları (Radloff referansı, 'gan' → 'kam') üzerinden dolaylı. Baksı'nın etimolojik kökeninde farklı görüşler (Arap 'bahş' vs. Türkçe özgün) olabilir.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Baksı potansiyel olarak Arap 'bahş' (bahşedici) veya Pers 'bakhşāyeš' kaynaklı olabilir; Türkçe özgünlüğü tam kuşkulu. 'Şaman' Tunguz kaynağı diğer dillerden borçlanmış olan ilk terminolojik seçim.",
+      "remaining_weakness": "Kam'ın 5. yüzyıl tarihlemesi (Çin kaynaklarında 'gan') ile Baksı'nın özgünlüğü tam kanıtlanmadı; terminoloji evreleri (hangi dönem hangi terim tercih edip geçmiş?) belirsiz.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "historiographical_notes": "Clauson Oxford 1972, TDV İslam Ansiklopedisi, Evrim Ağacı, Radloff 19. yüzyıl referansları tutarlı. Kam 5. yüzyıl Çin kayıtları (Kyrgyz 'gan') dolaylı ama akademik standar."
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "C-103-CAUSAL",
+      "text": "Sufizm'in Orta Asya'ya gelişi, Tengriist ritüel müzik ve dans pratiğinin İslami tasavvuf formlarına entegre olmasına neden oldu",
+      "causal_reasoning": {
+        "temporal_relationship": "Tengriizm dominant: 7-10c., Sufizm geldi: 10-11c., pratik dönüşümü: 11-16c.; zaman ilişkisi uygun (Sufizm sonra) ama hangi Sufi tarikatları (Yasavi, Naksibendi vb.) ne zaman gelmiş belirsiz",
+        "correlation": "Bölgesel: Sufizm yoğun olan bölgeler (Ferghana, Doğu Türkistan, Kuzey Kafkasya) da Tengriist ritüel müzik korunmuş; korelasyon ORTA düzey (ancak alternatif: müzik hafızası kültürel bağnazlıktan kaynaklanabilir)",
+        "mechanism": "Sufizm müzik-odaklı (qawwali, mevlevi semâh, dhikr) Tengriist trance ritüeli formlarını (kabul edilebilir seviyede) yutmus; yerel müzisyenler (kam → baksı → aşık) rol devam ettirmiş",
+        "causal_evidence": "Dolaylı: Sultanova Otin-Oy sisterhood ritüeli (Sufi çerceveli, müzik merkezi), tarihsel bağlantı varsayılmış"
+      },
+      "counterfactual_test": "LOW — Sufizm gelmeseydi, Tengriist müzik tamamen kaybolmuş olur muydu? Yüksek olasılıkla evet, gelenekler Sufi forma kabullenmiş değil muhtemelen İslami reformda silinmiş olmuş. Ama hafızası (gizli pratik) mümkün.",
+      "evidence_for_causation": "Potansiyel, mekanizm makul ama doğrudan kanıt yok",
+      "confidence": "PLAUSIBLE",
+      "note": "Bilgi Kısıtı İlkesi: Sufizm öncüleri Tengriist müzik ritüelinin ne olduğunu tam bilmiyor, onları 'kurtarıcı' rolü atmamalar lazım; çoğu durumda İslami normatif kültür tarafından silinmiş olmuş, hafızası yerel müsisyenler tarafından (gizli) korunmuş."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Tengriist-Sufi Müziksel Sentez Mekanizması",
+      "interpretations": [
+        {
+          "scholar_or_school": "Razia Sultanova (Etnomüzikoloji)",
+          "position": "Tengriist müzik pratiği Sufi ritüeline entegre oldu; kadın müzisyenler (Otin-Oy) tarihsel hafıza taşıdı; Sovyet döneminde baskı altında kültürel direniş",
+          "based_on": "15+ yıl saha çalışması, etnografik kayıt, Ferghana Valley ritüel müzik gözlemi",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR — kadın müzisyenlerin tarihi kültür koruma rolü, tarih yazımında göz ardı edildi"
+        },
+        {
+          "scholar_or_school": "Central Asia Guide / Indiana University (Dinler Tarihi)",
+          "position": "Sufizm + Tengrism sinkretizmi; müzik ve dans gizli pratik olarak korundu",
+          "based_on": "Orta Asya dini tarihçesi, Tengriism-Islam karşılaştırması",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE — sinkretizm mekanizması açıklanmaya başladı"
+        },
+        {
+          "scholar_or_school": "Pharos Journal (Teoloji 2025)",
+          "position": "Sufi motifler antik Türk bozkır kültürüne demiş; mistik Sufizm Tengriist animizmin yeniden formlandırması",
+          "based_on": "Karşılaştırmalı mistisizm, teoloji analizi",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_FRINGE",
+          "revision_impact": "MINOR — teolojik reinterpretasyon, tarihsel kanıt sınırlı"
+        },
+        {
+          "scholar_or_school": "Muhafazakar İslami görüş (Referans yok, ancak kaynaklar bahseder)",
+          "position": "Sufizm tam İslami, Tengriist öğeler silinmiş; müzik pratiği İslami-tarafı değil, sapkın (bid'a) uyarlaması",
+          "based_on": "Normative Islam (Sunni ortodoksi)",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR (if validated) — sinkretizm yerine seçicilik: 'uyarlanma' değil, 'sapkınlık'"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Batı (Cambridge, Indiana) etnomüzikoloji, din tarihçiliği hakim; Orta Asya-merkezli Kazak/Kırgız perspektifi sınırlı. Sovyet dönem müzikolog (Davydova, Oralova) kaynakları sınırlı erişim. İslami ortodoks görüş (büyük muhtemelen eleştirici) akademik yayında sınırlı temsiş.",
+      "bias_types": [
+        "institutional",
+        "language",
+        "source_availability",
+        "postcolonial"
+      ],
+      "coverage_log": "Tarama: İngilizce (Cambridge, Indiana, MDPI), Türkçe (TDV, portal); Rusça (Sovyet müzikolog) sınırlı; Kazak, Kırgız, Uyghur akademik yayınları sınırlı erişim. Orta Asya yerel tarihçiliği eksik."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-101",
+      "question": "Tengriist şaman müzik ritüeli (kam, baksı trance pratiği) ne kadarı ön-İslami dönemde orijinal form taşıyor, ne kadarı İslami reformda yeniden kurgulanmış?",
+      "known": "19. yüzyıl Sovyet etnografisi (Radloff) Altay, Kyrgyz, Kazak kam/baksı ritüelini kaydetti; modern Sultanova gözlemi (1990s-2010s) Otin-Oy pratiğini belgeledi",
+      "unknown": "11-16. yüzyıl geçiş dönemi müzik pratiği; ön-İslami Tengriizm ritüel müzik tam formu",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Ritüel formu neredeyse tam korundu (Sultanova tezi destekleyen)",
+        "Ritüel form %80 İslami adapte edildi; hafızası kültürel kimlik oldu",
+        "Müzik öğeleri korundu ama dini bağlamı tamamen değişti (semantik-dini dönüşüm)"
+      ],
+      "researchability": "low",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-102",
+      "question": "Hangi Sufi tarikatları (Yasavi, Naksibendi, Qadiri, vb.) Orta Asya'ya hangi dönemde geldiler ve lokal müzik ritüelini nasıl yönetdiler?",
+      "known": "Sufizm genel olarak 10-11c. yayıldı; Yasavi Türkistan'da 12. yüzyıl; Naksibendi 15. yüzyıl sonrası hakim",
+      "unknown": "Her tarikat müzik politikası (qawwali Qadiri, dhikr Naksibendi, semâh Yasavi kültürü ne kadar tolerant?)",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Her tarikat müzik tolerantsı, lokal ritüel uyarladı",
+        "Bazı tarikatlar katı (Naksibendi), müzik baskısı gerçekleşti; dirençler gizli pratik yaptı",
+        "Müzik politikası coğrafi değişken (Ferghana vs. Doğu Türkistan) — eşit değil"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-103",
+      "question": "Kam/baksı → âşık terminolojik ve sosyal dönüşümü ne zaman gerçekleşti (15-16 mi, yoksa 18-19. yüzyıl mı)?",
+      "known": "Ozan (eski) → Aşık (yeni) teriminin dönüşümü; Aşık Veysel (1894-1973) örneği var; bağlama (saz) enstrümanı 16. yüzyıldan itibaren görsel kanıt",
+      "unknown": "Dönüşüm hızlı mı (15-16c birebir) yoksa kademeli mi (15-19c evreleme)?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "15-16. yüzyıl Osmanlı sonrasında Anadolu'da hızlı dönüşüm",
+        "Kademeli dönüşüm (15-19c), bölgesel farklılık (Osmanlı vs. Kazan vs. Kazak)",
+        "20. yüzyıl (Sovyet) dönemde terminoloji 'yükseltme' (Aşık = millî şair)"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-104",
+      "question": "Beissembayev etnomüzikolog araştırması nerede, hangi dilde, hangi bulguları içeriyor?",
+      "known": "Web araştırmasında Beissembayev ismine doğru kaynak bulunamadı",
+      "unknown": "Beissembayev'in kaynağı (varsa), araştırma konusu, yayın detayı",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Beissembayev Kazak/Rusça yayım yapan bir etnomüzikolog (erişim sınırlı)",
+        "İsim hatalı yazılmış; başka isim olabilir (Daukeyeva, Oralova gibi)",
+        "Referans kaynak bulundu ancak web-erişilir değil"
+      ],
+      "researchability": "low",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-105",
+      "question": "Sovyet müzik politikası (1920s-1991) Tengriist ritüel müzik pratiğini ne kadarı suppressed vs. adapte etti?",
+      "known": "Sultanova: Sovyet döneminde din yasaklandı ama müzik (gizli) korundu; kadın sistaerhood (Otin-Oy) ritüeli devam etti",
+      "unknown": "Resmi Sovyet dönem müzikolog (Davydova, Oralova) tarafından Tengriist ritüel müzik ne kadar belgelendi / bastırıldı?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Sovyet müzikolog-lar Tengriist elemanları kullanarak 'milli müzik' (Kazak, Kyrgyz) tasarladı; ritüel yönü basılmış ama form korundu",
+        "Sovyet bastırması tam; post-Sovyet dönemde 'nostalji revizyalizmi' gerçekleşti",
+        "Gizli pratiş tam — müzikolog kaydı yok, akademik yazısı yok"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-103 (Tengriist-Sufi sentez) — nedensellik mekanizması belirtilmemiş; Sultanova verisi modern, tarihsel köken kanıtı dolaylı",
+      "C-106 (kam/baksı etimoloji) — 5. yüzyıl tarihlemesi (Çin 'gan' referansı) dolaylı; baksı kökeni tartışmalı"
+    ],
+    "unresolved_contradictions": [
+      "Sovyet döneminde dinin yasaklanmasına rağmen Sufi ritüel müzik nasıl korundu? Gizlilik vs. Sovyet toleranstı açık değil.",
+      "Kam/baksı şaman pratiği 19c. Sovyet kaydı vs. Sultanova modern gözlemi — 100+ yıllık ara; devam mı, revizyalizm mi?"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-101",
+      "reliability": "medium",
+      "notes": "Central Asia Guide — web-based cultural resource, good for overview but editorial bias possible"
+    },
+    {
+      "source_id": "SRC-102",
+      "reliability": "high",
+      "notes": "MDPI peer-reviewed journal, strong academic authority, reliable for scholarly claims"
+    },
+    {
+      "source_id": "SRC-103",
+      "reliability": "medium",
+      "notes": "Turkish Music Portal — institutional resource but possible nationalist bias; good for cultural heritage but needs verification"
+    },
+    {
+      "source_id": "SRC-104",
+      "reliability": "high",
+      "notes": "Dede Korkut primary manuscripts — archival source, reliable"
+    },
+    {
+      "source_id": "SRC-105",
+      "reliability": "high",
+      "notes": "TDV İslam Ansiklopedisi — institutional Turkish Islamic encyclopedia, reliable for religious/cultural terms"
+    },
+    {
+      "source_id": "SRC-106",
+      "reliability": "medium",
+      "notes": "Sala Muzik / Lark in the Morning — musician/retailer cultural sources, reliable for practical instrument information but possible commercial bias"
+    },
+    {
+      "source_id": "SRC-107",
+      "reliability": "high",
+      "notes": "Pharos Journal of Theology (2025) — peer-reviewed academic journal, reliable"
+    },
+    {
+      "source_id": "SRC-108",
+      "reliability": "high",
+      "notes": "Indiana University Libraries — institutional academic resource, reliable"
+    },
+    {
+      "source_id": "SRC-109",
+      "reliability": "high",
+      "notes": "Matheson Trust — academic institutional resource on Islamic studies, reliable"
+    },
+    {
+      "source_id": "SRC-110",
+      "reliability": "medium",
+      "notes": "TravelAtelier — cultural tourism source, reliable for biographical examples but limited scholarly depth"
+    },
+    {
+      "source_id": "SRC-111",
+      "reliability": "medium",
+      "notes": "Tapadum / Sala Muzik — musician cultural sources, reliable for practical information but limited scholarly detail"
+    },
+    {
+      "source_id": "SRC-112",
+      "reliability": "high",
+      "notes": "Sultanova 'From Shamanism to Sufism' (Cambridge University Press 2014) — high-quality academic ethnomusicology, reliable"
+    },
+    {
+      "source_id": "SRC-113",
+      "reliability": "high",
+      "notes": "Sultanova extended sources (Google Books, Gale) — verified academic source, reliable"
+    },
+    {
+      "source_id": "SRC-114",
+      "reliability": "high",
+      "notes": "Razia Sultanova institutional profile (Cambridge) — verified academic authority, reliable"
+    },
+    {
+      "source_id": "SRC-115",
+      "reliability": "high",
+      "notes": "Clauson Etymological Dictionary (Oxford 1972) — academic classic, lexical authority, reliable"
+    },
+    {
+      "source_id": "SRC-116",
+      "reliability": "medium",
+      "notes": "Turkish-Wikipedia / Evrim Ağacı — cultural web synthesis, good for overview but editorial fluctuation possible"
+    }
+  ],
+  "red_team_summary": {
+    "citation_hallucination_checks": "Completed; Sultanova 'From Shamanism to Sufism' (2014 Cambridge University Press) verified via Google Books, Amazon, Gale Academic, institutional website. Clauson (1972 Oxford) verified. MDPI Religions 2024 verified.",
+    "false_precision_detection": "C-103 'Sufi ritüeli → Tengriist trance ritüeli yeniden formlandırma' — sürecin %ne kadarında belirsiz; 'entegre' çok kesin; 'muhtemelen adapte' daha doğru",
+    "anachronism_checks": "Sovyet dönem (20c.) Sufi ritüel pratiği — ön-İslami ritüel 'korunması' olarak sahlişlendirme, anachronism riski orta düzey",
+    "cherry_picking_detection": "Sultanova saha verisi güçlü (Otin-Oy örneği) ama tek demiografiğe bağlı; Altay, Doğu Türkistan, Kuzey Kafkasya ritüel pratiği taranmadı",
+    "circular_evidence_detection": "Apparent: Kam/baksı → Türkçe terminoloji, çoğu kaynak Clauson → Radloff → 19c Sovyet referansı → sadece 2 bağımsız modern kaynak (MDPI, TDV)",
+    "claim_mutation_detection": "C-103 'kanıtladığını kanıtlamıştır' — Sultanova etnografik saha kanıtı güçlü ama tarihsel 'kanıt' değil; 'göstermiştir' daha doğru"
+  }
+}

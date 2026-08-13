@@ -1,0 +1,16 @@
+# Core - required for scripts/validate.py's instance validation,
+# scripts/elevenlabs_client.py, .env loading, and image handling
+# (extract_pdf_images.py, split_character_sheet.py, kaggle_dataset_upload.py's
+# PIL integrity checks).
+jsonschema>=4.0
+elevenlabs>=1.0
+python-dotenv>=1.0
+Pillow>=10.0
+
+# Optional - only needed if you do word-level narration QA (the
+# faster-whisper listen-check pattern in CLAUDE.md section 10 / the
+# pre_render_checklist scripts' long-compound-number findings) or generate
+# captions (scripts/generate_captions.py, review finding B-05 - the same
+# transcription feeds both). Not a hard dependency of anything in scripts/
+# today - install on demand.
+# faster-whisper>=1.0

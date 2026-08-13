@@ -1,0 +1,375 @@
+{
+  "phase": "C",
+  "section_id": 1,
+  "section_name": "KÜLTÜREL ŞOKLAR",
+  "items_range": "551-600",
+  "research_question": "How do states and dominant cultures suppress minority identities through linguistic erasure, alphabet changes, and memory control?",
+  "claims_verified": [
+    {
+      "claim_id": "C-0001",
+      "text": "Ottoman Turkish alphabet shift from Arabic to Latin script (1928) created a memory gap in younger generations",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Literacy rate increased from 2.5% to 30%+ by 1930s, suggesting alphabet change was functionally beneficial",
+      "independent_confirmation": true,
+      "alternative_explanation": "Alphabet change was modernization decision, not suppression; literacy improvements were genuine societal benefit",
+      "remaining_weakness": "Dual impact: functional literacy improvement AND intergenerational knowledge rupture of pre-1928 texts can both be true simultaneously",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Soviet Union systematically suppressed Turkic languages through Cyrillic enforcement (1930s-1940s)",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "No counter-evidence found; all sources align on systematic suppression mechanism",
+      "independent_confirmation": true,
+      "alternative_explanation": "None identified; Stalinist Russification is well-documented historical fact",
+      "remaining_weakness": "Individual agency of Soviet language planners could be over-determined; some officials may have believed Cyrillic practical rather than ideological",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 3}
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "UNESCO documents 400+ languages at critical endangerment, with Turkic patterns showing rapid attrition",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Tatar is classified as 'Vulnerable' not 'Critically Endangered'; Kazakh is thriving lingua franca in Xinjiang",
+      "independent_confirmation": true,
+      "alternative_explanation": "Language endangerment is spectrum, not binary; Turkic languages show mixed outcomes (some thriving, some critically endangered)",
+      "remaining_weakness": "SOURCE_GAP: '400+ languages' figure not independently verified in this research; only specific Turkic classifications confirmed",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["UNVERIFIED_STATISTIC"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Script change (not language suppression alone) creates archival rupture disrupting intergenerational knowledge",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Digital archival efforts (Kazakhstan 2017 Latin adoption, Turkmenistan 1990s) partially mitigate script change rupture",
+      "independent_confirmation": true,
+      "alternative_explanation": "Modern digitization solutions can address archival continuity; script change impact diminishes with digital accessibility",
+      "remaining_weakness": "Digital solutions require institutional investment; not all communities have access to digitization resources",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Diaspora communities preserve endangered languages more effectively than homelands under suppression",
+      "verdict": "contested",
+      "strongest_counter_evidence": "Younger diaspora generations also experience language shift; diaspora does NOT guarantee transmission",
+      "independent_confirmation": false,
+      "alternative_explanation": "Language preservation in diaspora depends on institutional support, education access, economic incentives (same factors as homeland)",
+      "remaining_weakness": "No systematic quantitative comparison between diaspora/homeland preservation rates; anecdotal evidence only",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["UNSUPPORTED_COMPARISON", "SURVIVORSHIP_BIAS"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1}
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Psychological impact of language loss correlates with depression, anxiety, substance abuse",
+      "verdict": "weak",
+      "strongest_counter_evidence": "Research links language to wellbeing but causation remains unclear; correlation ≠ causation",
+      "independent_confirmation": false,
+      "alternative_explanation": "Depression/anxiety may be caused by poverty/marginalization (which also drives language shift) rather than language loss itself",
+      "remaining_weakness": "Single source; no longitudinal studies controlling for confounding variables; reverse causality possible",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["CORRELATION_CAUSATION", "SINGLE_SOURCE"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Digital age creates new preservation pathways for endangered languages",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Digital initiatives require continuous infrastructure/funding; Wikipedia can be deleted or vandalized; platform dependence creates new vulnerability",
+      "independent_confirmation": true,
+      "alternative_explanation": "Digital tools are enablers, not guarantors; effectiveness depends on community adoption and institutional support",
+      "remaining_weakness": "Long-term sustainability of digital archives unclear; centralized platforms (Wikipedia) controlled by majority rules",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Education systems function as deliberate tools of memory control through curriculum revision and language-of-instruction policy",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Educational curriculum can serve benign purposes (literacy promotion, modernization); not all curriculum change is suppression",
+      "independent_confirmation": true,
+      "alternative_explanation": "Curriculum change can be functionally justified AND politically motivated simultaneously (dual causation)",
+      "remaining_weakness": "Requires evidence of intent; benign and suppressive motivations can overlap (distinguishing requires analysis of decision-makers' stated goals)",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 2}
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Religious identity (Islamic texts in Arabic) preserved Turkic communities' cultural connection despite linguistic suppression",
+      "verdict": "unresolved",
+      "strongest_counter_evidence": "No dedicated research found on this mechanism; inference based on general Islamic history",
+      "independent_confirmation": false,
+      "alternative_explanation": "Religion could have exacerbated identity crisis (conversion to Islam associated with Arabization); Islamic texts in Arabic may not preserve Turkic identity specifically",
+      "remaining_weakness": "SOURCE_GAP: Primary evidence of Islamic knowledge transmission preserving Turkic identity under suppression not located",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["SOURCE_GAP", "UNSUPPORTED_INFERENCE"],
+      "apparent_vs_independent_evidence_count": {"apparent": 0, "independent": 0}
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Language shift can be economically/socially incentivized rather than purely state-coerced",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None; coercion/incentive distinction is real and important",
+      "independent_confirmation": true,
+      "alternative_explanation": "Coercion and incentive often operate simultaneously (mixed causation); distinguishing them requires careful historical framing",
+      "remaining_weakness": "May oversimplify; state policies often combine both coercion AND incentive structures",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1}
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "C-0004",
+      "causal_reasoning": {
+        "temporal_relationship": "Script change occurs before archival rupture; temporal precedence established",
+        "correlation": "Script changes correlate with knowledge access difficulties documented in archival studies",
+        "mechanism": "Communities lose literacy in old script; pre-change texts become unreadable without specialized training; younger generations lack script knowledge",
+        "causal_evidence": "Ottoman Turkish print archive transcription challenges; Kazakhstan/Turkmenistan digitization projects show persistent archival access problems"
+      },
+      "counterfactual_test": "HIGH — Without script change, archival continuity would be maintained (archival rupture is direct consequence of script change)"
+    },
+    {
+      "claim_id": "C-0008",
+      "causal_reasoning": {
+        "temporal_relationship": "Curriculum changes precede memory control effects; temporal precedence established in China Uyghur case (December 2025 law change)",
+        "correlation": "Curriculum change correlates with reduced minority language instruction; correlation documented",
+        "mechanism": "State controls textbook content; language-of-instruction policy determines literacy skills in specific languages; younger generations lose literacy in non-dominant languages",
+        "causal_evidence": "Chinese policy explicitly prohibits minority-language-medium instruction; Xinjiang schools banned Uyghur language instruction; mechanism documented"
+      },
+      "counterfactual_test": "MEDIUM — Educational curriculum is one mechanism among many; market/family incentives also drive language shift independently"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Ottoman Turkish alphabet reform (1928)",
+      "interpretations": [
+        {
+          "scholar_or_school": "Turkish official narrative",
+          "position": "Alphabet reform was modernization necessity; improved literacy from 2.5% to 30%+; aligned Turkey with Western world",
+          "based_on": "Functional literacy improvements; state proclamations; economic/cultural integration rationale",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        },
+        {
+          "scholar_or_school": "Cultural memory studies",
+          "position": "Alphabet reform created intergenerational knowledge rupture; younger Turks lost direct access to pre-1928 Ottoman texts; identity discontinuity",
+          "based_on": "Archival access difficulties; generational surveys of literacy; Ottoman Turkish print archive transcription challenges",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Turkish national narrative emphasizes modernization benefits; international scholarship acknowledges dual impact (literacy gain + knowledge rupture)",
+      "bias_types": ["national", "institutional"],
+      "coverage_log": "Turkish scholarship not directly accessed (language barrier); Western academic sources balanced"
+    },
+    {
+      "topic": "Soviet Russification policies in Central Asia",
+      "interpretations": [
+        {
+          "scholar_or_school": "Soviet official narrative (historical)",
+          "position": "Language policies promoted scientific communication and socialist unity; Cyrillic adoption was technical improvement for Turkic phonology",
+          "based_on": "Soviet government publications; pedagogical rationales for script adoption",
+          "status": "rejected",
+          "fringe_scale": "PSEUDO_HISTORICAL_CLAIM",
+          "revision_impact": "PARADIGM_SHIFTING"
+        },
+        {
+          "scholar_or_school": "Western post-Soviet scholarship",
+          "position": "Soviet policies deliberately suppressed Turkic linguistic/cultural autonomy; Cyrillic adoption severed connection to Islamic/Persian heritage",
+          "based_on": "Declassified documents; demographic data on language shift; ethnic minority testimony",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR"
+        }
+      ],
+      "perspective_diversity": "single_perspective_only",
+      "perspective_diversity_notes": "Russian scholarship not accessed (geopolitical sensitivity); Central Asian regional historians could provide alternative framing of Soviet policies",
+      "bias_types": ["national", "postcolonial", "political"],
+      "coverage_log": "Russian-language sources not searched; Central Asian archives not consulted; Western Cold War historiography dominates sources"
+    },
+    {
+      "topic": "Intergenerational language loss as psychological phenomenon",
+      "interpretations": [
+        {
+          "scholar_or_school": "Psychology/psycholinguistics",
+          "position": "Language loss correlates with psychological distress; L1 maintenance linked to emotional wellbeing",
+          "based_on": "Psychological research; qualitative interviews with language loss communities",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MINOR"
+        },
+        {
+          "scholar_or_school": "Anthropology/sociolinguistics",
+          "position": "Language shift is economically rational response to opportunity structures; psychological impacts are secondary to economic/social marginalization",
+          "based_on": "Migration studies; economic motivation research; language choice studies",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Psychology-focused research emphasizes psychological impacts; economics/sociology emphasizes rational choice; mixed-discipline synthesis missing",
+      "bias_types": ["disciplinary", "source_availability"],
+      "coverage_log": "Psychological literature accessed; economic motivation literature limited; no indigenous psychological frameworks consulted"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0001",
+      "question": "How do Islamic texts in Arabic specifically preserve Turkic cultural identity under linguistic suppression?",
+      "known": "Islamic faith practiced among Turkic communities; Arabic texts exist; cultural identity claims made",
+      "unknown": "Specific mechanism by which Islamic texts preserve Turkic (not Islamic) identity when original language suppressed",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Islamic texts preserve religious identity, which overlaps with cultural identity",
+        "Islamic education creates alternative knowledge system independent of native language",
+        "Arabic texts may accelerate Arabization, not preserve Turkic identity"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0002",
+      "question": "What is the quantitative difference in language preservation rates between diaspora and homeland communities?",
+      "known": "Diaspora communities maintain cultural/educational organizations; younger diaspora generations also experience language shift",
+      "unknown": "Systematic comparison of intergenerational transmission rates (diaspora vs. homeland)",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Diaspora preserves language better (institutional commitment)",
+        "Diaspora and homeland face same pressures (no advantage)",
+        "Diaspora initially preserves; third generation shows shift (delayed attrition)"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-0003",
+      "question": "Is the psychological impact of language loss a direct causal effect or correlated proxy for marginalization?",
+      "known": "Language loss correlates with depression/anxiety; marginalized communities experience both",
+      "unknown": "Causal direction: does language loss cause psychological distress, or does marginalization cause both?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Language loss → identity crisis → psychological distress (direct causation)",
+        "Marginalization → language shift AND psychological distress (common cause)",
+        "Language loss → identity continuity maintained through religion/family (no psychological effect)"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-0004",
+      "question": "How sustainable are digital preservation pathways for endangered languages long-term?",
+      "known": "Wikipedia editions in endangered languages exist; social media platforms enable grassroots preservation",
+      "unknown": "Infrastructure/funding sustainability; platform dependence risks; long-term preservation success rates",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Digital platforms provide permanent preservation (optimistic scenario)",
+        "Digital platforms require continuous funding; server/platform failures risk data loss (pessimistic scenario)",
+        "Hybrid approach: digital complements community-based oral transmission (realistic scenario)"
+      ],
+      "researchability": "medium",
+      "priority": "low"
+    },
+    {
+      "unknown_id": "U-0005",
+      "question": "Do educational curriculum changes represent intentional suppression or unintended consequences of policy?",
+      "known": "Curricula change; minority language instruction decreases; states make education policy",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Deliberate suppression: state intentionally excludes minority languages (intent-based)",
+        "Unintended consequence: states prioritize national language for economic mobility; suppression is byproduct (consequence-based)",
+        "Mixed: some officials intentional, some unintentional; institutional logic drives decision regardless of individual motivations"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": ["C-0009"],
+    "weak_links": [
+      "C-0005 — Diaspora language preservation claim lacks quantitative comparison; single independent source",
+      "C-0006 — Psychological impact claim based on single source; causation unclear; reverse causality possible",
+      "C-0007 — Digital preservation effectiveness untested long-term; infrastructure sustainability unknown"
+    ],
+    "unresolved_contradictions": [
+      "C-0001 vs. C-0004: Alphabet reform improved literacy functionally BUT created knowledge rupture simultaneously (both true)",
+      "C-0005 vs. C-0010: Diaspora preservation (C-0005) conflicts with evidence that language shift driven by economic incentives (C-0010); both can be true if diaspora lacks economic incentive advantage"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-0001",
+      "reliability": "high",
+      "notes": "Wikipedia article on Turkish alphabet reform; well-sourced; primary facts (law date, literacy rates) verified across multiple sources"
+    },
+    {
+      "source_id": "SRC-0003",
+      "reliability": "high",
+      "notes": "Academic journal article; peer-reviewed; multi-author Central Asian research center"
+    },
+    {
+      "source_id": "SRC-0006",
+      "reliability": "high",
+      "notes": "Academic databases (UNESCO, linguistics journals); consensus position on endangered language classification"
+    },
+    {
+      "source_id": "SRC-0011",
+      "reliability": "medium",
+      "notes": "Single-author research article; psychological claims based on limited empirical evidence; requires triangulation with other sources"
+    },
+    {
+      "source_id": "SRC-0012",
+      "reliability": "low",
+      "notes": "Educational blog/resource site; anecdotal evidence of digital preservation; not peer-reviewed; sustainability claims unverified"
+    },
+    {
+      "source_id": "SRC-0013",
+      "reliability": "high",
+      "notes": "Current news source (The Diplomat); reporting on documented policy change (China December 2025 law); corroborated by other news outlets"
+    },
+    {
+      "source_id": "SRC-0014",
+      "reliability": "high",
+      "notes": "Oxford University Press; peer-reviewed encyclopedia; authoritative on education policy and censorship"
+    },
+    {
+      "source_id": "SRC-0015",
+      "reliability": "unverified",
+      "notes": "SOURCE_GAP: Islamic texts' role in Turkic language preservation — no source located; requires dedicated research"
+    }
+  ],
+  "red_team_summary": {
+    "high_confidence_claims": ["C-0001", "C-0002", "C-0004", "C-0008"],
+    "contested_claims": ["C-0003", "C-0005", "C-0006", "C-0007"],
+    "unsupported_claims": ["C-0009"],
+    "overall_verdict": "Core claims on state suppression mechanisms (alphabet reform, Russification, curriculum control) are well-supported. Peripheral claims on diaspora preservation and psychological impacts lack quantitative evidence. One major source gap (Islamic texts' role)."
+  },
+  "historiographical_debate_status": "C-0001 (alphabet reform) remains in interpretive debate: modernization vs. suppression framing (both impacts can be true). C-0002 (Russification) near-consensus among post-Soviet scholars but Russian perspective underrepresented. C-0003 (language endangerment) mixed outcomes across Turkic language family.",
+  "geopolitical_sensitivity_assessment": {
+    "high_sensitivity_claims": ["C-0002 (Soviet policies)", "C-0008 (China Uyghur policy)"],
+    "recommendation": "Source perspectives verified; counter-narratives noted; geopolitical bias flagged in historiography section"
+  },
+  "archive_metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T18:30:00Z",
+    "phase": "C",
+    "phase_version": "faz-c-dogrulama-analiz",
+    "total_claims_verified": 10,
+    "red_team_flags_identified": 6,
+    "source_gaps_identified": 2,
+    "unknowns_catalogued": 5,
+    "content_validation": "complete"
+  }
+}

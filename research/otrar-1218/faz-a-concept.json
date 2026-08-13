@@ -1,0 +1,83 @@
+{
+  "phase": "A",
+  "input_summary": "Sistem konuyu kendisi seçsin - Avrasya bozkır kuşağı / Türk-moğol tarihi temasında, mevcut projelerle çakışmayan, ~8 dakikalık video için.",
+  "candidates": [
+    {
+      "candidate_id": "CAND-01",
+      "title": "Otrar Faciası (1218) — Bir Kervanı Öldürmenin Bedeli",
+      "central_question": "Otrar'da bir ticaret kervanının katledilmesi, gerçekten Moğol istilasının nedeni miydi, yoksa Cengiz Han'ın zaten planladığı bir seferin bahanesi miydi?",
+      "subject_type": "event",
+      "period": "1218-1219",
+      "geography": "Otrar, Seyhun (Sirderya) kıyısı, bugünkü Kazakistan - Harezmşahlar Devleti sınırı",
+      "opportunity_class": "attribution_problem",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "medium",
+        "research_gap": "medium",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "https://en.wikipedia.org/wiki/Otrar_Catastrophe",
+        "https://en.wikipedia.org/wiki/Inalchuq",
+        "https://www.academia.edu/44855580/The_City_of_Otrar_Kazakhstan_Using_Archaeology_to_Better_Understand_the_Impact_of_the_Mongol_Conquest_of_Central_Asia",
+        "https://www.repository.cam.ac.uk/items/50b2cb0f-bc41-4543-8c44-ab971e305b44"
+      ],
+      "research_risk": "low - çoklu 13. yüzyıl birincil kaynağı var (Juvaini, Reşidüddin, İbnü'l-Esir, en-Nesevi, Cüzcani, Moğolların Gizli Tarihi), gerçek bir Cambridge arkeoloji makalesi de bulundu",
+      "recommended": true
+    },
+    {
+      "candidate_id": "CAND-02",
+      "title": "Tomiris ve Kyros'un Ölümü — Kaynaklar Gerçekte Ne Diyor?",
+      "central_question": "Pers İmparatoru Büyük Kyros'u gerçekten Masagetler Kraliçesi Tomiris mi öldürdü, yoksa bu Herodot'un kurguladığı bir 'kibir-nemesis' anlatısı mı?",
+      "subject_type": "event",
+      "period": "MÖ 530",
+      "geography": "Orta Asya bozkırları, Ceyhun/Amuderya - Seyhun/Sirderya havzası (bugünkü Kazakistan/Özbekistan/Türkmenistan sınır bölgesi)",
+      "opportunity_class": "myth_correction",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "https://en.wikipedia.org/wiki/Tomyris",
+        "https://www.iranicaonline.org/articles/massagetae/",
+        "https://www.academia.edu/23056463/CYRUS_AGAINST_TOMYRIS_EOS_102_2_2015_pp_215_224"
+      ],
+      "research_risk": "medium - Tomiris SADECE Herodot'ta geçiyor, bağımsız doğrulama yok; Ksenophon ve Berossos çelişen versiyonlar veriyor",
+      "recommended": false,
+      "rejection_reason": "Akademik konsensüs Masagetleri Doğu İranî (Saka) bir halk olarak sınıflandırıyor, Türk-Moğol değil (bkz. Encyclopaedia Iranica, aDNA kanıtı). Kullanıcının açıkça belirttiği 'Türk-moğol tarihi' temasına konuyu zorlamak, kanıtı istenen anlatıya uydurmak olurdu - bu pipeline'ın kendi C1 Red Team disiplinine (EVIDENCE_INFLATION, kanıtı istenen sonuca göre bükmeme) aykırı düşerdi. Konu kendi başına araştırmaya değer (güçlü myth_correction potansiyeli) ama BU proje için, BU tema talebiyle uyuşmuyor."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "Kimek-Kıpçak Konfederasyonu — Unutulmuş Bozkır Devleti",
+      "central_question": "Kimek-Kıpçak konfederasyonu nasıl 7 kabileden bir bozkır devletine dönüştü ve neden bu kadar az biliniyor?",
+      "subject_type": "institution",
+      "period": "9-11. yüzyıl",
+      "geography": "İrtiş nehri havzası, Altay dağları kuzeyi (bugünkü Kazakistan/Rusya sınırı)",
+      "opportunity_class": "forgotten_history",
+      "scores": {
+        "evidence_density": "low",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "low",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "https://en.wikipedia.org/wiki/Kimek%E2%80%93Kipchak_confederation",
+        "https://e-history.kz/en/history-of-kazakhstan/show/9507"
+      ],
+      "research_risk": "medium - kaynaklar çoğunlukla ansiklopedik/ikincil düzeyde, güçlü bir anlatı gerilimi (çatışma/gizem) eksik - kurumsal/idari tarih, insan dramı zayıf",
+      "recommended": false,
+      "rejection_reason": "Gerçek bir 'unutulmuş tarih' adayı ama zayıf anlatı gerilimi ve düşük kanıt yoğunluğu 8 dakikalık bir video için riskli - ayrıca PRJ-avrasya-bozkir-kusagi'nin zaten kapsadığı geniş 'bozkır imparatorlukları' temasıyla fazla örtüşüyor (spesifik proje kapsamı doğrulanamadı, bu depoda mevcut değil, ama başlıktan çıkarım)."
+    }
+  ],
+  "scope_gate_a1b": "Her üç aday da tek bir merkezi soru + makul alt-soru ağacıyla kapsanabilir genişlikte (şemsiye konu değil) - A1b kapsam kapısı geçildi, bölme gerekmedi.",
+  "winning_candidate_id": "CAND-01",
+  "selection_reasoning": "Otrar Faciası seçildi: (1) kullanıcının açıkça istediği Türk-Moğol/bozkır temasına GERÇEKTEN uyuyor (Tomiris gibi zorlanmış bir uyum değil), (2) çoklu bağımsız 13. yüzyıl kaynağı var (kervan sayısı 450 vs 500 gibi somut bir sayısal tutarsızlık bile içeriyor - Faz C'nin False Precision Detector'ı için mükemmel bir test vakası), (3) gerçek akademik/arkeolojik literatür var (Cambridge deposit), (4) gerçek bir tarihyazımı tartışması var (samimi kışkırtma mı, bahane mi), (5) güçlü kanca değeri (tek bir kervan katliamı, tarihin en yıkıcı fetihlerinden birini tetikledi) - 8 dakikalık bir video için ideal kapsam (tek olay, net başlangıç/orta/son yapısı)."
+}

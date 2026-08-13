@@ -1,0 +1,24 @@
+{
+  "scene_id": "SC-001",
+  "act": 1,
+  "title": "Kervan Otrar'a Varıyor",
+  "scene_type": "opening",
+  "summary": "1218 kışında Moğollara bağlı 450 kişilik bir ticaret kervanı Otrar surlarına yaklaşır - izleyici, bu sıradan görünen anın tarihi nasıl değiştireceğini henüz bilmez.",
+  "source_text": "1218 kışı. Seyhun kıyısındaki Otrar şehrinin surlarına, yüzlerce deve yükünde altın, gümüş ve ipekle yaklaşan bir kervan görünür. Dört yüz elli tüccar, Cengiz Han'ın kendi adamlarına bağlı. Kimse henüz bilmiyor ki bu kervanın kaderi, birkaç ay içinde bir imparatorluğu yerle bir edecek.",
+  "duration_estimate_s": 35,
+  "emotion": "tense anticipation",
+  "importance": 0.9,
+  "location": "Otrar, Seyhun (Sirderya) kıyısı",
+  "time_of_day": "dusk",
+  "weather": "cold, clear",
+  "characters": [
+    "Moğol tüccarları"
+  ],
+  "continuity_from": null,
+  "qa_status": "pending",
+  "shots": [
+    "SH-001-01",
+    "SH-001-02",
+    "SH-001-03"
+  ]
+}

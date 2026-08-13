@@ -1,0 +1,25 @@
+{
+  "scene_id": "SC-006",
+  "act": 2,
+  "title": "Elçilerin Küçük Düşürülmesi",
+  "scene_type": "conflict",
+  "summary": "Cengiz Han adalet talep eden bir elçilik heyeti gönderir; Muhammed reddeder, bir elçiyi idam ettirir, diğerlerinin sakallarını kestirir - bozkır diplomasisinin en ağır ihlali.",
+  "source_text": "Cengiz Han önce savaşı seçmedi. Bir elçilik heyeti gönderdi, tek bir talebi vardı: İnalcık cezalandırılsın. Muhammed'in cevabı kesin oldu. Elçilerden birini idam ettirdi, geri kalanların sakallarını kestirerek onları küçük düşürüp gönderdi. Bozkır geleneğinde bir elçiye zarar vermek, savaş ilanıyla eşdeğerdi.",
+  "duration_estimate_s": 40,
+  "emotion": "cold fury",
+  "importance": 0.95,
+  "location": "Harezmşahlar sarayı",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [
+    "II. Muhammed",
+    "Moğol elçileri"
+  ],
+  "continuity_from": "SC-013",
+  "qa_status": "pending",
+  "shots": [
+    "SH-006-01",
+    "SH-006-02",
+    "SH-006-03"
+  ]
+}

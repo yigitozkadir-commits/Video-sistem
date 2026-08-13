@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/production_calendar_entry.schema.json",
+  "title": "Production Calendar Entry",
+  "description": "One day's real production log against the 2 uzun video + 3 short/gün target (2026-08-09 content-roadmap plan). Exists so the plan's Faz 2/Faz 3 calendar estimates can be recalibrated from actual data instead of the original guesses - CLAUDE.md law #8 (studio why): 'what shipped today and against which backlog items' must be answerable from this file alone.",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "shorts_delivered": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "backlog_id": {"type": "string", "pattern": "^CB-\\d{4}$"},
+          "tier": {"type": "string", "enum": ["short_new", "short_repurpose"]},
+          "output_path": {"type": "string"},
+          "duration_s": {"type": "number"}
+        },
+        "required": ["backlog_id", "tier"]
+      }
+    },
+    "long_videos_delivered": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "consolidation_group": {"type": "string"},
+          "project_ref": {"type": ["string", "null"]},
+          "stage": {
+            "type": "string",
+            "enum": ["research_started", "scenes_planned", "assets_generated", "narration_generated", "rendered", "delivered"]
+          }
+        },
+        "required": ["consolidation_group", "stage"]
+      }
+    },
+    "target_shorts_per_day": {"type": "integer"},
+    "target_long_per_day": {"type": "integer"},
+    "notes": {"type": "string"}
+  },
+  "required": ["date", "shorts_delivered", "long_videos_delivered", "target_shorts_per_day", "target_long_per_day"],
+  "additionalProperties": false
+}

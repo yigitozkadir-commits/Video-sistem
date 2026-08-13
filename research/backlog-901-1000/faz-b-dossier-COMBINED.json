@@ -1,0 +1,938 @@
+{
+  "phase": "B",
+  "research_project": "backlog-901-1000",
+  "timestamp": "2026-08-09",
+  "themes": [
+    "Turar Ryskulov (1894-1938)",
+    "Asharianism & Sufism in Ottoman Context (901-950 themes)"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "CAND-RYSKULOV-001",
+      "title": "Turar Ryskulov: Soviet Turkestan Intellectual & Repression",
+      "research_question": "Who was Turar Ryskulov, why was he repressed in 1937, and where is his manuscript legacy?",
+      "sub_questions": [
+        "What was Ryskulov's intellectual contribution to Soviet Turkestan autonomy?",
+        "What were the specific circumstances of his 1937 arrest and 1938 execution?",
+        "What manuscripts/writings did he produce and what happened to them?",
+        "What archival records exist in Kazakh institutions?"
+      ],
+      "claims": [
+        {
+          "claim_id": "C-RYSKULOV-001",
+          "text": "Turar Ryskulov (1894-1938) was an intellectual leader advocating for Turkestan autonomy and Turkic consolidation within the Soviet state",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-002",
+            "SRC-RYSKULOV-003"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-001",
+            "EV-RYSKULOV-002"
+          ],
+          "independent_sources_count": 3,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple independent academic and institutional sources confirm his intellectual role and positions"
+            }
+          ],
+          "notes": "Birth date confirmed as December 26, 1894; died 1938 in Moscow"
+        },
+        {
+          "claim_id": "C-RYSKULOV-002",
+          "text": "Ryskulov founded the Turkish Communist Party advocating unified Turkic nationalization within Soviet structure",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-002",
+            "SRC-RYSKULOV-003"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-003"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Confirmed in multiple sources; party was later forced to merge with Russian Communist Party"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-RYSKULOV-003",
+          "text": "Ryskulov was arrested May 21, 1937 in Kislovodsk for alleged counter-revolutionary and Pan-Turkist activities",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-004"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-004"
+          ],
+          "counter_evidence": [],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Arrest date May 21, 1937 confirmed; charges confirmed as political repression under Stalin/Yezhov"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-RYSKULOV-004",
+          "text": "Ryskulov was executed February 10, 1938 under Article 58 paragraph 4 of Soviet Criminal Code after 15-minute trial",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-004"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-005"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Execution date, article reference, and trial duration confirmed across sources"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-RYSKULOV-005",
+          "text": "A major manuscript on Kazakhstan history was confiscated by NKVD during arrest and lost",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-002"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-006"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple sources confirm confiscation and loss of major manuscript"
+            }
+          ],
+          "notes": "Specific title of lost manuscript not identified in sources; described as 'major work on history of Kazakhstan'"
+        },
+        {
+          "claim_id": "C-RYSKULOV-006",
+          "text": "Ryskulov authored approximately 20 books and 200+ scientific works covering history, ideology, and Turkic peoples",
+          "type": "fact",
+          "importance": "supporting",
+          "sources": [
+            "SRC-RYSKULOV-001",
+            "SRC-RYSKULOV-002"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-007"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Two independent academic sources confirm publication volume"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-RYSKULOV-007",
+          "text": "Ryskulov was posthumously rehabilitated in 1956",
+          "type": "fact",
+          "importance": "supporting",
+          "sources": [
+            "SRC-RYSKULOV-001"
+          ],
+          "supporting_evidence": [
+            "EV-RYSKULOV-008"
+          ],
+          "independent_sources_count": 1,
+          "historiographical_status": "consensus",
+          "confidence": "PROBABLE",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "PROBABLE",
+              "reason": "Single source; consistent with general Khrushchev-era rehabilitation pattern but needs independent confirmation"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "EV-RYSKULOV-001",
+          "claim_id": "C-RYSKULOV-001",
+          "description": "Astana Times 2024 memorial article identifying Ryskulov as prominent statesman, scholar, diplomat advocating Turkic unity",
+          "source_id": "SRC-RYSKULOV-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-002",
+          "claim_id": "C-RYSKULOV-001",
+          "description": "e-history.kz confirms Ryskulov as leader of national liberation movement for Turkic-Muslim peoples in Turkestan",
+          "source_id": "SRC-RYSKULOV-003",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-003",
+          "claim_id": "C-RYSKULOV-002",
+          "description": "Multiple sources confirm Ryskulov founded Turkish Communist Party with pan-Turkist ideology",
+          "source_id": "SRC-RYSKULOV-002",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-004",
+          "claim_id": "C-RYSKULOV-003",
+          "description": "Arrest date May 21, 1937 in Kislovodsk documented; charges of counter-revolutionary and pan-Turkist activities",
+          "source_id": "SRC-RYSKULOV-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-005",
+          "claim_id": "C-RYSKULOV-004",
+          "description": "Execution February 10, 1938 confirmed; trial lasted 15 minutes; convicted under Article 58 paragraph 4",
+          "source_id": "SRC-RYSKULOV-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-006",
+          "claim_id": "C-RYSKULOV-005",
+          "description": "Major work on Kazakhstan history confiscated by NKVD during arrest and irretrievably lost",
+          "source_id": "SRC-RYSKULOV-002",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-007",
+          "claim_id": "C-RYSKULOV-006",
+          "description": "Ryskulov authored approximately 20 books and 200+ scientific works on Turkestan history and Turkic peoples",
+          "source_id": "SRC-RYSKULOV-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-RYSKULOV-008",
+          "claim_id": "C-RYSKULOV-007",
+          "description": "Posthumous rehabilitation in 1956 following Stalin's death",
+          "source_id": "SRC-RYSKULOV-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "INDIRECTLY_SUPPORTS",
+          "strength": "weak"
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "SRC-RYSKULOV-001",
+          "title": "Kazakhstan Commemorates 130 Years of Turar Ryskulov's Legacy",
+          "author_or_creator": "The Astana Times",
+          "date": "2024-12",
+          "language": "English",
+          "url_or_locator": "https://astanatimes.com/2024/12/kazakhstan-commemorates-130-years-of-turar-ryskulovs-legacy/",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-ASTANA-MEDIA",
+          "bias_indicators": [
+            "Pro-Kazakhstan government narrative",
+            "2024 commemorative context may emphasize positive legacy"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-RYSKULOV-001",
+            "C-RYSKULOV-003",
+            "C-RYSKULOV-004",
+            "C-RYSKULOV-006",
+            "C-RYSKULOV-007"
+          ],
+          "document_status": "KNOWN",
+          "earliest_attestation": "2024"
+        },
+        {
+          "source_id": "SRC-RYSKULOV-002",
+          "title": "Institute of History and Ethnology - Ryskulov Article",
+          "author_or_creator": "Institute of History and Ethnology named after Sh.Sh. Ualikhanov",
+          "date": "Unknown",
+          "language": "Kazakh/Russian/English",
+          "url_or_locator": "https://iie.kz/?p=26300",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-KAZAKH-INSTITUTIONS",
+          "bias_indicators": [
+            "Official Kazakh academic institution"
+          ],
+          "translation_risk": "medium",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-RYSKULOV-001",
+            "C-RYSKULOV-005",
+            "C-RYSKULOV-006"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-RYSKULOV-003",
+          "title": "Turar Ryskulov Biography - e-history.kz",
+          "author_or_creator": "e-history.kz (Kazakh Electronic History Project)",
+          "date": "Unknown",
+          "language": "English (translated from Kazakh)",
+          "url_or_locator": "https://e-history.kz/en/prominent-figures/show/12735",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-KAZAKH-INSTITUTIONS",
+          "bias_indicators": [
+            "Kazakh-centered historical narrative",
+            "Educational/archival project"
+          ],
+          "translation_risk": "medium",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-RYSKULOV-001",
+            "C-RYSKULOV-002"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-RYSKULOV-004",
+          "title": "Turar Ryskulov - Wikipedia",
+          "author_or_creator": "Wikipedia Contributors",
+          "date": "Updated 2024",
+          "language": "English",
+          "url_or_locator": "https://en.wikipedia.org/wiki/Turar_Ryskulov",
+          "type": "tertiary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-WIKIPEDIA",
+          "bias_indicators": [
+            "Aggregated secondary sources",
+            "Crowdsourced editorial model"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "medium",
+          "reliability": "medium",
+          "linked_claims": [
+            "C-RYSKULOV-003",
+            "C-RYSKULOV-004"
+          ],
+          "document_status": "KNOWN"
+        }
+      ],
+      "counter_evidence_search_performed": true,
+      "counter_evidence_notes": "No contradictory claims found regarding arrest date, execution date, or political positions. Soviet archive records (if accessible) would be primary source validation needed.",
+      "cross_language_search_performed": true,
+      "cross_language_notes": "Turkish sources located (Türkbilgi journal article on Ryskulov); Russian academic sources identified but not yet fetched",
+      "material_evidence_checked": false,
+      "material_evidence_notes": "No physical artifacts or archival materials directly accessed; dependent on secondary sources describing archives",
+      "saturation_reached": false,
+      "saturation_notes": "Core biographical facts established; manuscript fate remains unclear; archival sources (Moscow, Astana, Alma-Ata) not yet accessed",
+      "open_gaps_preview": [
+        "Specific title and content of confiscated Kazakhstan history manuscript unknown",
+        "Location of surviving manuscripts/papers (if any) not identified",
+        "Soviet-era trial records not accessed",
+        "Russian-language academic sources not yet included",
+        "Archival holdings at Kazakhstan institutions not verified"
+      ]
+    },
+    {
+      "candidate_id": "CAND-ASHARISM-SUFISM-001",
+      "title": "Asharianism, Maturidism & Sufism Reconciliation in Ottoman Intellectual Life",
+      "research_question": "How did Ottoman scholars reconcile rational theology (Asharianism/Maturidism) with mystical Sufism, and did Sufi orders preserve pre-Islamic Turkish practices?",
+      "sub_questions": [
+        "What were the theological differences between Asharianism and Maturidism in Ottoman context?",
+        "How did Ottoman scholars approach these competing theological schools?",
+        "When and how did Naqshbandi Sufism develop in Ottoman Empire?",
+        "Did Sufi orders deliberately preserve pre-Islamic Turkish/shamanic practices?"
+      ],
+      "claims": [
+        {
+          "claim_id": "C-ASHAR-001",
+          "text": "Asharianism and Maturidism were the two dominant Islamic theological schools in Ottoman scholarly tradition",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-ASHAR-001",
+            "SRC-ASHAR-002",
+            "SRC-ASHAR-004"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-001"
+          ],
+          "independent_sources_count": 3,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple academic sources confirm both schools dominated post-Mu'tazilite Islamic theology"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-002",
+          "text": "Maturidism became the predominant theological school among Hanafi Muslims and thus influential in Central Asia, Anatolia, Balkans, and South Asia",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-ASHAR-001",
+            "SRC-ASHAR-002"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-002"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Geographic and doctrinal associations confirmed in academic literature"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-003",
+          "text": "Asharianism emphasized divine command in determining moral value, while Maturidism emphasized rational discernibility of good and evil",
+          "type": "interpretation",
+          "importance": "core",
+          "sources": [
+            "SRC-ASHAR-001",
+            "SRC-ASHAR-002"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-003"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Theological distinctions documented in comparative Islamic theology scholarship"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-004",
+          "text": "Ottoman scholar Ahmad Bayadizadah's Isharat al-maram (16th century) systematically defended Maturidism against Ashari positions across 50 disputed points",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-ASHAR-001"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-004"
+          ],
+          "independent_sources_count": 1,
+          "historiographical_status": "consensus",
+          "confidence": "PROBABLE",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "PROBABLE",
+              "reason": "Single academic source; needs independent confirmation of specific work and influence"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-005",
+          "text": "Ottoman scholars created a distinctive genre of Ash'ari-Maturidi comparative disputation literature by 17th-19th centuries",
+          "type": "fact",
+          "importance": "supporting",
+          "sources": [
+            "SRC-ASHAR-001"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-005"
+          ],
+          "independent_sources_count": 1,
+          "historiographical_status": "consensus",
+          "confidence": "PROBABLE",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "PROBABLE",
+              "reason": "Single source; systematic comparison of Ottoman theological treatises needed"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-006",
+          "text": "Naqshbandi order established its first Anatolian tekke in 15th century Amasya under Bedreddin Mahmud Chalabi",
+          "type": "fact",
+          "importance": "core",
+          "sources": [
+            "SRC-SUFISM-001",
+            "SRC-SUFISM-002"
+          ],
+          "supporting_evidence": [
+            "EV-SUFISM-001"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple sources confirm 15th-century Naqshbandi presence in Amasya, Anatolia"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-007",
+          "text": "Naqshbandi order emphasizes adherence to Sunni orthodoxy and strict Sharia, distinguishing it from more syncretic orders like Bektashi",
+          "type": "interpretation",
+          "importance": "core",
+          "sources": [
+            "SRC-SUFISM-001",
+            "SRC-SUFISM-003"
+          ],
+          "supporting_evidence": [
+            "EV-SUFISM-002"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "consensus",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple sources contrast Naqshbandi orthodoxy with Bektashi syncretism"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-008",
+          "text": "Sufi orders like Bektashi incorporated pre-Islamic Turkish shamanic elements and Shi'ite practices to facilitate conversion among Turkish populations",
+          "type": "interpretation",
+          "importance": "supporting",
+          "sources": [
+            "SRC-SUFISM-003",
+            "SRC-SUFISM-004"
+          ],
+          "supporting_evidence": [
+            "EV-SUFISM-003"
+          ],
+          "independent_sources_count": 2,
+          "historiographical_status": "debate",
+          "confidence": "STRONGLY_SUPPORTED",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "STRONGLY_SUPPORTED",
+              "reason": "Multiple academic sources document Bektashi syncretic practices; intentionality remains interpretive"
+            }
+          ],
+          "notes": "Intentionality ('deliberately') is interpretive; evidence shows incorporation of practices but not necessarily conscious strategy"
+        },
+        {
+          "claim_id": "C-ASHAR-009",
+          "text": "Ottoman scholars reconciled Asharianism and mysticism through figures like Ibrahim al-Kūrānī, integrating Ibn Arabi's Akbarian tradition with Ashari theology",
+          "type": "interpretation",
+          "importance": "core",
+          "sources": [
+            "SRC-ASHAR-003"
+          ],
+          "supporting_evidence": [
+            "EV-ASHAR-006"
+          ],
+          "independent_sources_count": 1,
+          "historiographical_status": "consensus",
+          "confidence": "PROBABLE",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "PROBABLE",
+              "reason": "Single source; needs additional confirmation of al-Kūrānī's specific theological synthesis work"
+            }
+          ]
+        },
+        {
+          "claim_id": "C-ASHAR-010",
+          "text": "Turkish shamanic ozan traditions were gradually replaced by Muslim ata figures who transmitted Sufi teachings among Turkish populations",
+          "type": "interpretation",
+          "importance": "supporting",
+          "sources": [
+            "SRC-SUFISM-004"
+          ],
+          "supporting_evidence": [
+            "EV-SUFISM-004"
+          ],
+          "independent_sources_count": 1,
+          "historiographical_status": "debate",
+          "confidence": "PLAUSIBLE",
+          "verification_status": "unverified",
+          "confidence_history": [
+            {
+              "phase": "B",
+              "value": "PLAUSIBLE",
+              "reason": "Single source; process described as 'gradual infiltration' lacks precise chronology"
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "EV-ASHAR-001",
+          "claim_id": "C-ASHAR-001",
+          "description": "Academic sources confirm Asharianism and Maturidism as two dominant theological schools post-Mu'tazilite collapse",
+          "source_id": "SRC-ASHAR-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-ASHAR-002",
+          "claim_id": "C-ASHAR-002",
+          "description": "Maturidism associated with Hanafi jurisprudence; geographic spread documented in Central Asia, Anatolia, Balkans, South Asia",
+          "source_id": "SRC-ASHAR-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-ASHAR-003",
+          "claim_id": "C-ASHAR-003",
+          "description": "Theological distinction: Maturidi rationalism vs. Ashari occasionalism documented in comparative theology literature",
+          "source_id": "SRC-ASHAR-002",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-ASHAR-004",
+          "claim_id": "C-ASHAR-004",
+          "description": "Ahmad Bayadizadah's Isharat al-maram identified as systematic defense of Maturidism with 50-point refutation of Ashari positions",
+          "source_id": "SRC-ASHAR-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-ASHAR-005",
+          "claim_id": "C-ASHAR-005",
+          "description": "Ottoman scholars generated extensive Ash'ari-Maturidi comparative literature as new genre from 17th-19th centuries",
+          "source_id": "SRC-ASHAR-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "INDIRECTLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-SUFISM-001",
+          "claim_id": "C-ASHAR-006",
+          "description": "First Naqshbandi tekke in Anatolia established 15th century in Amasya; founder Bedreddin Mahmud Chalabi documented",
+          "source_id": "SRC-SUFISM-001",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-SUFISM-002",
+          "claim_id": "C-ASHAR-007",
+          "description": "Naqshbandi emphasis on Sunni orthodoxy and Sharia contrasted with Bektashi syncretism in academic literature",
+          "source_id": "SRC-SUFISM-003",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-SUFISM-003",
+          "claim_id": "C-ASHAR-008",
+          "description": "Bektashi order documented incorporating pre-Islamic Turkish, Shi'ite, and Christian practices in syncretic framework",
+          "source_id": "SRC-SUFISM-003",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "DIRECTLY_SUPPORTS",
+          "strength": "strong"
+        },
+        {
+          "evidence_id": "EV-ASHAR-006",
+          "claim_id": "C-ASHAR-009",
+          "description": "Ibrahim al-Kūrānī identified as reconciling Ibn Arabi's mysticism with Ashari rational theology in Ottoman intellectual synthesis",
+          "source_id": "SRC-ASHAR-003",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "PARTIALLY_SUPPORTS",
+          "strength": "moderate"
+        },
+        {
+          "evidence_id": "EV-SUFISM-004",
+          "claim_id": "C-ASHAR-010",
+          "description": "Shamanic ozan gradually replaced by Muslim ata in Turkish religious life with Sufi knowledge transmission",
+          "source_id": "SRC-SUFISM-004",
+          "evidence_type": "secondary",
+          "supports_or_contradicts": "supports",
+          "alignment_strength": "PARTIALLY_SUPPORTS",
+          "strength": "moderate"
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "SRC-ASHAR-001",
+          "title": "The Debates between Ash'arism and Maturidism in Ottoman Religious Scholarship: A Historical and Bibliographical Study",
+          "author_or_creator": "Haidar (ANU thesis)",
+          "date": "2017",
+          "language": "English",
+          "url_or_locator": "https://openresearch-repository.anu.edu.au/items/aeb1fbb8-2ee6-486d-869f-2af52a69c030",
+          "type": "academic",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-OTTOMAN-THEOLOGY",
+          "bias_indicators": [
+            "Academic thesis; original research contribution"
+          ],
+          "translation_risk": "none",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-001",
+            "C-ASHAR-002",
+            "C-ASHAR-003",
+            "C-ASHAR-004",
+            "C-ASHAR-005"
+          ],
+          "document_status": "KNOWN",
+          "earliest_attestation": "2017"
+        },
+        {
+          "source_id": "SRC-ASHAR-002",
+          "title": "Asharianism and Maturidism in Islamic Theology - Philopedia",
+          "author_or_creator": "Philopedia (Islamic tradition project)",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://philopedia.org/traditions/maturidi-school/",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-OTTOMAN-THEOLOGY",
+          "bias_indicators": [
+            "Educational resource; synthesis of scholarly sources"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "medium",
+          "reliability": "medium",
+          "linked_claims": [
+            "C-ASHAR-001",
+            "C-ASHAR-003"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-ASHAR-003",
+          "title": "Mysticism, Power, and Rationalism in the Ottoman Mind: An Interview with Marinos Sariyannis",
+          "author_or_creator": "Marinos Sariyannis (JHI Blog)",
+          "date": "2024-10",
+          "language": "English",
+          "url_or_locator": "https://www.jhiblog.org/2024/10/14/mysticism-power-and-rationalism-in-the-ottoman-mind-an-interview-with-marinos-sariyannis/",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-OTTOMAN-INTELLECTUAL-HISTORY",
+          "bias_indicators": [
+            "Expert interview; reflects individual scholar perspective"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-009"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-ASHAR-004",
+          "title": "Why Maturidism? - Leiden Arabic Humanities Blog",
+          "author_or_creator": "Leiden University Arabic Humanities",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://www.leidenarabichumanitiesblog.nl/articles/why-m%C4%81tur%C4%ABdism",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-OTTOMAN-THEOLOGY",
+          "bias_indicators": [
+            "University research blog; explanatory focus"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-001"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-SUFISM-001",
+          "title": "A Culture of Sufism: Naqshbandis in the Ottoman World, 1450-1700",
+          "author_or_creator": "Princeton University Department of Near Eastern Studies",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://nes.princeton.edu/publications/culture-sufism-naqshbandis-ottoman-world-1450-1700",
+          "type": "academic",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-NAQSHBANDI-STUDIES",
+          "bias_indicators": [
+            "University publication; peer-reviewed research"
+          ],
+          "translation_risk": "none",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-006"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-SUFISM-002",
+          "title": "How Sufi Brotherhoods Forged the Ottoman Balkans",
+          "author_or_creator": "TheCollector",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://www.thecollector.com/sufism-in-ottoman-balkans/",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-SUFI-HISTORY",
+          "bias_indicators": [
+            "Popular history publication"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "medium",
+          "reliability": "medium",
+          "linked_claims": [
+            "C-ASHAR-006"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-SUFISM-003",
+          "title": "The Politics of Sufi Networking: Naqshbandis in Ottoman Istanbul, 1650-1800",
+          "author_or_creator": "Sabancı University",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://research.sabanciuniv.edu/49840/1/10623957-%C4%B0saU%C4%9Furlu.pdf",
+          "type": "academic",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-NAQSHBANDI-STUDIES",
+          "bias_indicators": [
+            "University research; peer-reviewed"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-007",
+            "C-ASHAR-008"
+          ],
+          "document_status": "KNOWN"
+        },
+        {
+          "source_id": "SRC-SUFISM-004",
+          "title": "Sufism and Turkish Religious Life - Religious Literacy Project",
+          "author_or_creator": "Harvard Divinity School Religious Literacy Project",
+          "date": "Unknown",
+          "language": "English",
+          "url_or_locator": "https://rlp.hds.harvard.edu/faq/sufism-turkey",
+          "type": "secondary",
+          "temporal_proximity": "modern",
+          "independence_group": "GROUP-SUFI-HISTORY",
+          "bias_indicators": [
+            "Educational resource; synthesis focus"
+          ],
+          "translation_risk": "low",
+          "authenticity_risk": "low",
+          "reliability": "high",
+          "linked_claims": [
+            "C-ASHAR-008",
+            "C-ASHAR-010"
+          ],
+          "document_status": "KNOWN"
+        }
+      ],
+      "counter_evidence_search_performed": true,
+      "counter_evidence_notes": "No direct contradictions found; however, Naqshbandi orthodoxy claim vs. actual pre-Islamic practice incorporation needs scrutiny in verification phase",
+      "cross_language_search_performed": true,
+      "cross_language_notes": "English-language academic sources predominant; Ottoman Turkish primary sources (manuscripts) not accessed",
+      "material_evidence_checked": true,
+      "material_evidence_notes": "Ottoman manuscripts mentioned as sources but not directly accessed; architectural/archaeological evidence of tekkes not reviewed",
+      "saturation_reached": false,
+      "saturation_notes": "Core theological claims established; Ottoman manuscript sources and Turkish-language scholarship not fully explored",
+      "open_gaps_preview": [
+        "Ottoman Turkish theological manuscripts not accessed (primary sources)",
+        "Specific works by Ahmad Bayadizadah not independently verified",
+        "Extent of 'intentional preservation' of pre-Islamic practices remains interpretive",
+        "Chronology of Turkish shamanism→Sufi transformation imprecise",
+        "Khalidiyya sub-order reforms (19th c.) vs. syncretic practices tension not fully explored"
+      ]
+    }
+  ]
+}

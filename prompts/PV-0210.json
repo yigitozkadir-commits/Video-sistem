@@ -1,0 +1,24 @@
+{
+  "prompt_id": "PV-0210",
+  "family": "claude.classify.book_image",
+  "tool": "claude",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "page_context",
+    "caption",
+    "rights_basis"
+  ],
+  "template": "You are cataloguing an image extracted from a book for a production pipeline.\nGiven the image, its page context and nearby caption, output ONLY JSON matching image_catalog.schema.json.\nScore narrative_relevance, visual_quality, resolution_adequacy, reuse_potential and reference_value 0-100. Every score must be accompanied by one concrete observation.\nChoose exactly one disposition from: REFERENCE_ONLY, HERO_ASSET, UPSCALE_CANDIDATE, REGENERATE_FROM_REFERENCE, ARCHIVE, HOLD_LEGAL.\nIf the rights basis is unknown, disposition MUST be HOLD_LEGAL.\nDo not describe the image poetically. Do not guess the story.",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

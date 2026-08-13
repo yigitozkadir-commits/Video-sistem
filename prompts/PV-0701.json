@@ -1,0 +1,23 @@
+{
+  "prompt_id": "PV-0701",
+  "family": "ffmpeg.normalize.master",
+  "tool": "ffmpeg",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "input_path",
+    "output_path"
+  ],
+  "template": "Two-pass loudness normalisation to integrated -16 LUFS, true peak -1.0 dBTP, LRA target 11. Do not resample; preserve 48 kHz. Report measured values before and after. Fail if post-measurement deviates more than 0.5 LU from target.",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

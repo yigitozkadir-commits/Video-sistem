@@ -1,0 +1,154 @@
+{
+  "phase": "D",
+  "section": "MİT",
+  "items": "111-140",
+  "faz_d_summary": {
+    "core_claims": 11,
+    "confidence_breakdown": {
+      "ESTABLISHED": 3,
+      "STRONGLY_SUPPORTED": 2,
+      "PROBABLE": 2,
+      "PLAUSIBLE": 2,
+      "CONTESTED": 2
+    },
+    "key_findings": [
+      "Kayra/Tengri as sky deity confirmed in Orkhon inscriptions (primary source, 8th century)",
+      "Umay goddess documented in Orkhon + Altai epics + Mongolian shamanism (linguistic/theological continuity across Altaic peoples)",
+      "Dualistic cosmology (Ülgen good/sky vs. Erlik evil/underworld) attested across Altaic traditions",
+      "Orkhon inscriptions depict minimalist Tengri worship (distant deity, no elaborate ritual detail)",
+      "Modern Tengriism reconstruction incorporates elements ABSENT from Orkhon sources (elaborate rituals, doctrinal hierarchies)",
+      "MAJOR HISTORIOGRAPHIC ISSUE: Gap between primary sources (Orkhon, minimalist) and modern reconstruction (elaborate) creates authenticity debate — 'invention of tradition' or legitimate recovery?"
+    ]
+  },
+  "historiographic_central_debate": {
+    "question": "Is modern Tengriism a legitimate recovery of pre-Islamic Turkish religion or an 'invention of tradition' serving nationalist agendas?",
+    "competing_schools": [
+      {
+        "school": "Soviet/Russian orientalist tradition",
+        "position": "Tengri worship was central to pre-Islamic Turkic religion; Orkhon inscriptions accurately represent core beliefs",
+        "status": "consensus (historical, pre-2015)",
+        "modern_status": "foundational but superseded by critical analysis"
+      },
+      {
+        "school": "Critical anthropology",
+        "position": "Orkhon represents elite ideology, not popular belief; shamanism coexisted with Tengri worship",
+        "status": "consensus (modern, 2010s+)",
+        "impact": "Complicated monolithic 'pre-Islamic Turkish religion' narrative"
+      },
+      {
+        "school": "Victor Shnirelman (2010s+)",
+        "position": "Modern Tengriism reconstructs fragmented sources into false monolith; serves contemporary nationalist agendas; 'authentic recovery' claim is dubious",
+        "status": "debate",
+        "influence": "Major challenge to authenticity claims"
+      },
+      {
+        "school": "Modern Tengriism movement",
+        "position": "Tengriism represents legitimate recovery and continuation of authentic pre-Islamic Turkish tradition",
+        "status": "debate",
+        "fringe_scale": "NON_ACADEMIC_CLAIM (valid religious perspective, outside academic consensus)"
+      }
+    ]
+  },
+  "claims_consolidated": [
+    {
+      "claim_id": "C-MIT-001",
+      "text": "Kayra (Tengri) functions as the supreme creator deity in Turkish pre-Islamic cosmology, identified with the sky and governing sovereignty and victory",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Orkhon primary source unambiguous; scope caveat (limited geographic/temporal coverage) noted but does not invalidate core claim"}
+      ],
+      "d2_qualification": "READY - primary source evidence solid; scope caveat noted"
+    },
+    {
+      "claim_id": "C-MIT-004",
+      "text": "Umay (Umai) is the goddess of fertility, childbirth, and protection, with name derived from Old Turkic 'umāy' meaning placenta/afterbirth, with evidence in Orkhon inscriptions",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED", "reason": "Multiple independent attestations (Orkhon, Altai epics, Mongolian shamanism); linguistic continuity confirmed but ritual/belief continuity not guaranteed by name persistence"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Name and existence well-documented; full mythological role requires broader source base"}
+      ],
+      "d2_qualification": "READY - linguistic etymology + literary attestation solid; continuity caveat noted"
+    },
+    {
+      "claim_id": "C-MIT-008",
+      "text": "Orkhon inscriptions (8th century) depict Tengri as a distant sky deity invoked for sovereignty without elaborate ritual systems or doctrinal hierarchies",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Primary source reading is transparent; baseline for evaluating modern reconstructions"}
+      ],
+      "d2_qualification": "READY - primary source reading solid; critical for authenticity debate"
+    },
+    {
+      "claim_id": "C-MIT-009",
+      "text": "Modern Tengriism reconstructions incorporate elements (elaborate ritual systems, doctrinal hierarchies) not substantiated by primary Orkhon inscription sources",
+      "type": "inference",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Gap between sources is real; causation (addition vs. preservation of unrecorded earlier traditions) is interpretively unclear"}
+      ],
+      "d2_qualification": "READY - source gap documented; causation remains open (addition OR preservation of earlier unrecorded traditions)"
+    },
+    {
+      "claim_id": "C-MIT-010",
+      "text": "Critic Victor Shnirelman characterizes modern Tengriism as 'invention of tradition' serving contemporary ethno-nationalist agendas rather than reflecting unbroken spiritual transmission",
+      "type": "interpretation",
+      "importance": "core",
+      "confidence": "CONTESTED",
+      "confidence_history": [
+        {"phase": "B", "value": "CONTESTED"},
+        {"phase": "C", "value": "CONTESTED", "reason": "Red-team flag HISTORIOGRAPHY_DEBATE: 'Invention of tradition' is analytical category, not empirical fact; motivations complex"},
+        {"phase": "D", "value": "CONTESTED", "reason": "Valid scholarly concern about source limitations; political motivation debate is ongoing. Modern Tengriists argue reconstruction is valid recovery, not invention."}
+      ],
+      "d2_qualification": "CONDITIONAL - Frame as scholarly debate: 'Shnirelman critique highlights source gap (Orkhon minimalism vs. modern ritual elaboration); whether this represents 'invented tradition' or legitimate religious interpretation remains contested between scholars and modern Tengrist practitioners'"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-MIT-001",
+      "question": "What was the relationship between Tengri worship (elite ideology, documented in Orkhon) and shamanism (likely popular practice) in pre-Islamic Turkic society?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Stratified religion: elite Tengri, popular shamanism",
+        "Integrated system: complementary",
+        "Historical sequence: shamanism replaced by Tengri",
+        "Regional variation"
+      ],
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-MIT-003",
+      "question": "Is modern Tengriism a legitimate recovery of pre-Islamic Turkish religion or an 'invention of tradition' serving nationalist agendas?",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Legitimate recovery: reconstruction from fragmented sources",
+        "Partial invention: selective reading + modern additions",
+        "Hybrid: historical inspiration + creative innovation",
+        "Religious freedom: authenticity less important than meaningful practice"
+      ],
+      "priority": "high"
+    }
+  ],
+  "authenticity_debate_summary": {
+    "core_issue": "Source gap between Orkhon (primary, 8th century, minimalist) and modern Tengriism (elaborate ritual, doctrinal hierarchy)",
+    "interpretation_problems": [
+      "Gap could reflect: (a) later written sources omitted oral traditions, (b) rituals developed after Orkhon period, (c) Islamic influence added complexity, (d) modern inventions",
+      "No way to adjudicate between these without new primary sources",
+      "Methodological debate: how to reconstruct unattested religious systems?"
+    ],
+    "scholarly_consensus": "Modern Tengriism is contemporary religious movement (21st century) inspired by pre-Islamic traditions but not simple continuation of unbroken transmission"
+  }
+}

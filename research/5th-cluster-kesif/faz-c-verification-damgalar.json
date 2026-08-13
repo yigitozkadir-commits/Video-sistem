@@ -1,0 +1,585 @@
+{
+  "phase": "C",
+  "candidate_id": "CAND-damgalar-001",
+  "date_verification_completed": "2026-08-09",
+  "claims_verified": [
+    {
+      "claim_id": "C-0001",
+      "text": "Turkic damgalar (seals/marks) were used as identity markers to denote clan, family, or individual ownership",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0001"],
+      "strongest_counter_evidence": "None found; minor caveat that 'identity marker' may conflate multiple functions",
+      "independent_confirmation": true,
+      "alternative_explanation": "Could be purely decorative or ceremonial, but multiple sources converge on identity function",
+      "remaining_weakness": "Early tamga (pre-8c) function unclear; modern practice may not reflect medieval usage",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Multiple independent sources (SRC-0001, 0002, 0005) confirm identity function; no contradictory evidence found"}
+      ],
+      "red_team_flags": ["FUNCTION_CONFLATION_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 5, "independent": 3},
+      "notes": "Red team note: 'Identity marker' is broad umbrella; could split into property mark vs. status marker vs. ethnic marker"
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Damgalar served as property marks on livestock, tools, and goods in pastoral Turkic economies",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0002"],
+      "strongest_counter_evidence": "None found",
+      "independent_confirmation": true,
+      "alternative_explanation": "None plausible; multiple sources consistently document livestock branding function",
+      "remaining_weakness": "Specific examples of marked tools/goods (non-livestock) scarce; assumption of transfer from livestock to goods",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Multiple sources (SRC-0005, 0013) document cattle/livestock branding function; well-attested"}
+      ],
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 3},
+      "notes": "Strong evidence for livestock; weaker for tools/goods."
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "Some scholars argue damgalar were proto-writing systems or intermediate forms between symbolic marking and phonetic writing",
+      "original_confidence": "UNKNOWN",
+      "verdict": "contested",
+      "supporting_evidence": ["EV-0003"],
+      "strongest_counter_evidence": ["EV-0004"],
+      "independent_confirmation": false,
+      "alternative_explanation": "Morphological similarity (Aristov 76%) does not imply causation; modern scholars reject theory as unverifiable",
+      "remaining_weakness": "KEY HISTORIOGRAPHICAL DEBATE: Shifner/Aristov (19c) vs. modern consensus (Aramaic derivation). Debate unresolved.",
+      "updated_confidence": "CONTESTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "CONTESTED", "reason": "Historiographical split: 19c Shifner/Aristov theory (morphological evidence) vs. modern scholarly consensus (unverifiable); both positions have basis"}
+      ],
+      "red_team_flags": ["HISTORIOGRAPHICAL_DEBATE", "EVIDENCE_INFLATION_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "causal_reasoning_notes": "Temporal order (tamgas pre-date or coexist with runes) unclear; no demonstrated mechanism of transmission",
+      "notes": "Red team note: CRITICAL FLAG. This is the central historiographical claim. Modern scholarship (SRC-0007, 0029) explicitly rejects tamga-to-writing hypothesis as 'unverifiable'. Shifner's 76% morphological match (SRC-0010) is cited but treated as insufficiently rigorous for causation. This claim should remain CONTESTED, not upgraded to SUPPORTED."
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Old Turkic runic writing and damgalar emerged as independent systems, not through direct transmission",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0005"],
+      "strongest_counter_evidence": ["EV-0003"],
+      "independent_confirmation": true,
+      "alternative_explanation": "Possible convergent evolution; symbolic systems in stone tend to resemble each other (stone surface constraint)",
+      "remaining_weakness": "Aramaic hypothesis well-established but not universally accepted; some minority view remains for Turkic origin",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Modern scholarly consensus (multiple sources: SRC-0007, 0029) supports Aramaic-via-Sogdian derivation; independent development from damgalar rejected as unverifiable"}
+      ],
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "This claim gains support by virtue of C-0003 being contested/weak."
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Damgalar can be traced back to pre-Turkic (Scythian, Hunnic, other Inner Asian) marking systems",
+      "original_confidence": "UNKNOWN",
+      "verdict": "plausible",
+      "supporting_evidence": ["EV-0006", "EV-0007"],
+      "strongest_counter_evidence": "No direct counter-evidence found; but genetic link between Scythians and Xiongnu/Turks is debated",
+      "independent_confirmation": false,
+      "alternative_explanation": "Convergent cultural practice (all nomadic peoples mark property); not necessarily genealogical link",
+      "remaining_weakness": "MAJOR GAP: No documented transmission chain from Scythian seals to Turkic tamgas. Genetic/population continuity ≠ cultural continuity of sealing practice. Dating of Scythian precedent uncertain.",
+      "updated_confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Population continuity (Scythian→Xiongnu→Turkic) documented (SRC-0034), but cultural transmission of tamga practice not directly evidenced. Hunnic seals exist (SRC-0022), but link to Turkic is inferential."}
+      ],
+      "red_team_flags": ["POPULATION_CONTINUITY_NOT_CULTURAL_TRANSMISSION", "CHRONOLOGY_UNCLEAR"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Red team note: This conflates genetic/population evidence with cultural practice evidence. Population persistence ≠ sealing system persistence. Needs more rigorous transmission evidence."
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Damgalar symbols reflected totemism and clan-based social structure of Turkic societies",
+      "original_confidence": "UNKNOWN",
+      "verdict": "supported_but_qualified",
+      "supporting_evidence": ["EV-0008"],
+      "strongest_counter_evidence": "None found, but modern ethnographic data may not reflect medieval practice",
+      "independent_confirmation": true,
+      "alternative_explanation": "Totemism could be overlay interpretation; symbols could have been purely pragmatic ownership marks",
+      "remaining_weakness": "MAJOR CAVEAT: Most totemism documentation is modern (20c+); medieval Turkic totemism is inferred from later sources. Risk of ethnographic backprojection.",
+      "updated_confidence": "PROBABLE",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "PROBABLE", "reason": "Multiple sources on wolf totemism (SRC-0014, 0015, 0016) are strong for cultural symbolism, but medieval vs. modern practice distinction needed"}
+      ],
+      "red_team_flags": ["ETHNOGRAPHIC_BACKPROJECTION_RISK", "MODERN_DATA_CONFLATED_WITH_MEDIEVAL"],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Red team note: CRITICAL CAVEAT. Wolf origin myth and totemism are well-documented in modern sources, but dating unclear. Medieval practice (8c-14c) may differ from modern practice (20c+). Needs temporal precision."
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Kazakh, Kyrgyz, and other Turkic groups maintained distinct damgalar styles and meanings",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0009"],
+      "strongest_counter_evidence": "None found",
+      "independent_confirmation": true,
+      "alternative_explanation": "None plausible; regional variation well-documented",
+      "remaining_weakness": "Modern Kazakh/Kyrgyz damgalar might be nationalist reconstruction rather than continuity from medieval systems",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Multiple sources (SRC-0002, 0004, 0013) document distinct Kazakh, Kyrgyz systems"}
+      ],
+      "red_team_flags": ["MODERN_RECONSTRUCTION_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 4, "independent": 3},
+      "notes": "Red team note: Caveat on modern vs. medieval continuity; but documented variation is robust."
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Damgalar were predominantly used from medieval period through Ottoman era, with some continuous use into modern times",
+      "original_confidence": "UNKNOWN",
+      "verdict": "supported_but_qualified",
+      "supporting_evidence": ["EV-0010", "EV-0011"],
+      "strongest_counter_evidence": "No counter-evidence on time span; but 'continuous' is not proven",
+      "independent_confirmation": true,
+      "alternative_explanation": "Usage may have been discontinuous; breaks between periods possible",
+      "remaining_weakness": "CHRONOLOGICAL GAP: No evidence linking 8c Orkhon period directly to medieval (12c+) Kazakh/Kyrgyz systems. Gap of 4+ centuries unaccounted for.",
+      "updated_confidence": "PROBABLE",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "PROBABLE", "reason": "Orkhon era (8c) documented (SRC-0008); Ottoman era (16c-19c) documented (SRC-0017); medieval Turkic period (12c-14c) attested in passing; but continuity not rigorously demonstrated"}
+      ],
+      "red_team_flags": ["CHRONOLOGICAL_GAP", "CONTINUITY_ASSUMED_NOT_PROVEN"],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Red team note: Time span spans 1500+ years; major gaps between documented periods."
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Ottoman administrative records documented damgalar usage for identification and property marking",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0012"],
+      "strongest_counter_evidence": "None found",
+      "independent_confirmation": true,
+      "alternative_explanation": "Ottoman seals may be separate administrative practice unrelated to earlier Turkic tamga tradition",
+      "remaining_weakness": "Link between Ottoman 'damga' and earlier Turkic 'tamga' assumption; terminology continuity ≠ practice continuity",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Ottoman records (SRC-0017, 0018, 0033) clearly document seal usage; administrative continuity strong"}
+      ],
+      "red_team_flags": ["TERMINOLOGY_CONTINUITY_ASSUMPTION"],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Ottoman evidence solid; but genealogical link to pre-Ottoman practice not directly evidenced."
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Damgalar symbols have been found on archaeological artifacts including textiles, metalwork, and pottery",
+      "original_confidence": "UNKNOWN",
+      "verdict": "strongly_supported",
+      "supporting_evidence": ["EV-0013", "EV-0014"],
+      "strongest_counter_evidence": "None found",
+      "independent_confirmation": true,
+      "alternative_explanation": "None plausible; material evidence is direct",
+      "remaining_weakness": "Sample size of textile finds small; pottery finds well-documented",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Xiongnu pottery/lacquer/bone finds (SRC-0020), textile references (SRC-0021) provide material evidence"}
+      ],
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 3, "independent": 2},
+      "notes": "Solid material evidence from Xiongnu and possibly earlier Scythian contexts."
+    },
+    {
+      "claim_id": "C-0011",
+      "text": "Some damgalar symbols appear morphologically similar to Old Turkic runic characters, suggesting possible influence or convergence",
+      "original_confidence": "UNKNOWN",
+      "verdict": "supported_but_qualified",
+      "supporting_evidence": ["EV-0015"],
+      "strongest_counter_evidence": ["EV-0004"],
+      "independent_confirmation": false,
+      "alternative_explanation": "Morphological similarity due to constraints of writing surface (stone) and symbolic abstraction; not evidence of transmission",
+      "remaining_weakness": "CRITICAL: Modern scholars reject 76% Aristov claim as insufficient for causation. Morphological similarity ≠ historical connection. No mechanism documented.",
+      "updated_confidence": "PLAUSIBLE",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "PLAUSIBLE", "reason": "Aristov's 76% visual resemblance (SRC-0010) documented, but modern scholars (SRC-0007) reject as unverifiable causation. Convergent evolution more likely."}
+      ],
+      "red_team_flags": ["MORPHOLOGICAL_SIMILARITY_NOT_CAUSATION", "EVIDENCE_INFLATION_RISK"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Red team note: This morphological claim is often used to suggest transmission, but it's a weak inference. Surface similarities can arise from independent causes (stone writing, abstraction constraints)."
+    },
+    {
+      "claim_id": "C-0012",
+      "text": "Western scholarship on Turkic damgalar has been limited compared to Central Asian scholarship, creating a knowledge gap",
+      "original_confidence": "UNKNOWN",
+      "verdict": "contested",
+      "supporting_evidence": [],
+      "strongest_counter_evidence": "Western scholarship (Omniglot, Wikipedia, various English-language sources) does exist; gap may be exaggerated",
+      "independent_confirmation": false,
+      "alternative_explanation": "Knowledge gap may reflect language barriers rather than scholarly neglect; Central Asian scholars publish in Russian/Turkic languages, Western in English",
+      "remaining_weakness": "META-CLAIM about scholarship distribution is itself unverified. Needs bibliometric analysis.",
+      "updated_confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"},
+        {"phase": "C", "value": "UNKNOWN", "reason": "Meta-claim about scholarship distribution; cannot verify without systematic literature review. Assertion common but not empirically grounded."}
+      ],
+      "red_team_flags": ["UNVERIFIED_META_CLAIM", "POTENTIAL_FALSE_MYSTERY"],
+      "apparent_vs_independent_evidence_count": {"apparent": 0, "independent": 0},
+      "notes": "Red team note: This is a historiographical meta-claim ('Western scholarship is limited'); popular but not tested. Needs bibliometric analysis to verify."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Origins of Old Turkic Script: Tamga Theory vs. Aramaic Derivation",
+      "interpretations": [
+        {
+          "scholar_or_school": "Shifner (19c German scientist) & Aristov (Russian orientalist)",
+          "position": "Old Turkic script derived from tribal tamga symbols; 29/38 Orkhon alphabet letters show external resemblance to tamgas (76% morphological similarity)",
+          "based_on": "Comparative morphological analysis of tamga forms and Orkhon characters",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR",
+          "notes": "19c theory; influential historically but rejected by modern scholarship as unverifiable"
+        },
+        {
+          "scholar_or_school": "Modern scholarship consensus (SRC-0007, 0029)",
+          "position": "Old Turkic derives from Aramaic via Sogdian and Pahlavi alphabets; tamga connection rejected as unverifiable due to poor early attestation",
+          "based_on": "Linguistic evidence, script phylology, comparative writing systems",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_CONSENSUS",
+          "revision_impact": "PARADIGM_SHIFTING",
+          "notes": "Mainstream position; supported by SIL (SRC-0030) and encyclopedic sources (SRC-0007, 0008)"
+        },
+        {
+          "scholar_or_school": "Thomsen (1893) & some contemporary scholars",
+          "position": "Possible (but not proven) derivation from tamga symbols as alternative to Aramaic hypothesis",
+          "based_on": "Morphological suggestivity; historical speculation",
+          "status": "minority_view",
+          "fringe_scale": "ACADEMIC_FRINGE",
+          "revision_impact": "MODERATE",
+          "notes": "Thomsen himself eventually accepted Aramaic hypothesis; fringe revival in some pedagogical contexts"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Western scholarship (English-language, primarily Aramaic position) vs. Central Asian/Turkic scholarship (Russian, Turkish, some support for tamga connection). Bias towards Western linguistic mainstream.",
+      "bias_types": ["institutional", "language", "source_availability"],
+      "coverage_log": "Searched: English-language academic (high coverage), Turkish sources (medium), Russian sources (limited — most results accessed via English translations), Central Asian archives (limited — paywall access issues)"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-0001",
+      "question": "When were the earliest damgalar first used by Turkic groups? Exact dating unclear.",
+      "known": "Orkhon inscriptions (8c AD) exist; Scythian/Hunnic seals pre-date Turkic peoples (5c BC onward)",
+      "unknown": "Chronological gap between 8c AD Orkhon and earlier sealing practices. Direct evidence of Turkic-specific tamga use before 8c AD missing.",
+      "category": "CHRONOLOGICAL_GAP",
+      "competing_explanations": [
+        "Turks adopted sealing practice from earlier nomadic groups (Hunnic, Scythian)",
+        "Turks independently developed sealing; earlier seals unrelated",
+        "Sealing practice continuous but undocumented in 5c-8c AD gap period"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0002",
+      "question": "Is there documented transmission of sealing knowledge from Hunnic/Xiongnu peoples to Turkic peoples?",
+      "known": "Hunnic seals exist (Kidarites, Hephthalites, Alchons 4c-6c AD); Xiongnu tamgas on artifacts; Turkic tamgas widely used 8c onward",
+      "unknown": "Direct evidence of knowledge transfer, shared craftspeople, or cultural continuity in sealing practice",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Cultural transmission (most likely, but not directly documented)",
+        "Convergent independent development",
+        "Genetic/population continuity but independent cultural practice"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0003",
+      "question": "Did medieval Turkic tamgalar continue unbroken into Ottoman and modern times, or was there discontinuity?",
+      "known": "Ottoman seal records (damga) 16c-19c; modern Kazakh/Kyrgyz practice attested (20c+)",
+      "unknown": "Whether Ottoman damga is direct continuation of medieval tamga, or separate administrative practice with similar name",
+      "category": "CONTINUITY_ASSUMPTION",
+      "competing_explanations": [
+        "Continuous tradition from medieval → Ottoman → modern",
+        "Ottoman practice independent; modern practice nationalist reconstruction",
+        "Selective continuity (some regions, not others)"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-0004",
+      "question": "What was the specific social/religious function of tamga symbolism in medieval Turkic society?",
+      "known": "Modern totemism attested (wolf, eagle symbolism); clan/property identification documented",
+      "unknown": "Medieval spiritual/religious significance; whether totemism is medieval continuity or modern ethnographic reconstruction",
+      "category": "ETHNOGRAPHIC_BACKPROJECTION",
+      "competing_explanations": [
+        "Medieval tamgas carried strong totemic/spiritual meaning (modern practice reflects medieval)",
+        "Modern ethnographic accounts backproject totemism; medieval use primarily pragmatic",
+        "Totemism present in some regions/periods but not others"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-0005",
+      "question": "Do Ottoman administrative records (tomar) contain systematic documentation of damga use for property/identity marking?",
+      "known": "Ottoman seals documented (sultan, vizier seals); damga/tomar terminology exists",
+      "unknown": "Extent of Ottoman archival records on damga; accessibility; whether records document pre-Ottoman (Turkic) continuity",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Ottoman archives contain detailed damga documentation (currently inaccessible)",
+        "Ottoman records focus on administrative seals, not genealogical connection to medieval tamga",
+        "Limited documentation exists"
+      ],
+      "researchability": "low (archive access)",
+      "priority": "high (strategic)"
+    },
+    {
+      "unknown_id": "U-0006",
+      "question": "Is the 76% morphological similarity (Aristov) between tamga symbols and Orkhon characters statistically meaningful or due to chance?",
+      "known": "Aristov claimed 29/38 Orkhon letters show resemblance to tamgas",
+      "unknown": "Statistical rigor of comparison; control for false positives; whether similarity indices hold under peer review",
+      "category": "METHODOLOGICAL_QUESTION",
+      "competing_explanations": [
+        "Morphological similarity is real, indicating transmission",
+        "Similarity is statistical artifact or measurement bias",
+        "Similarity reflects convergent evolution (stone surface constraints)"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-0003 (tamga → proto-writing theory) — only source support from 19c Shifner via SRC-0010; mainstream rejection by SRC-0007, 0029",
+      "C-0005 (Scythian precedent) — inferred from population genetics (SRC-0034), not direct cultural transmission evidence",
+      "C-0008 (continuous use) — gap in documentation between 8c Orkhon and 12c+ medieval attestation",
+      "C-0011 (morphological similarity) — treated as suggestive by SRC-0010, rejected as causal by SRC-0007"
+    ],
+    "unresolved_contradictions": [
+      "C-0003 vs C-0004: Shifner tamga-theory (19c) vs. Aramaic derivation (modern consensus). Central historiographical debate.",
+      "C-0006 (totemism) vs. pragmatic interpretation: modern ethnographic data (SRC-0014, 0015) vs. alternative that medieval practice was purely utilitarian"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-0001",
+      "reliability": "high",
+      "notes": "Peer-reviewed academic article on tamga signs; rigorous methodology expected"
+    },
+    {
+      "source_id": "SRC-0002",
+      "reliability": "high",
+      "notes": "Recent (2024) Central Asian scholarship; addresses legacy of tamga/damga symbols"
+    },
+    {
+      "source_id": "SRC-0003",
+      "reliability": "high",
+      "notes": "Comparative regional analysis; archaeological grounding"
+    },
+    {
+      "source_id": "SRC-0004",
+      "reliability": "high",
+      "notes": "Epigraphic specialist analysis of Kazakh tamgas"
+    },
+    {
+      "source_id": "SRC-0005",
+      "reliability": "medium",
+      "notes": "Collaborative encyclopedia; general overview; some claims unvetted"
+    },
+    {
+      "source_id": "SRC-0006",
+      "reliability": "medium",
+      "notes": "Visual catalog; accuracy depends on curator expertise; no text verification"
+    },
+    {
+      "source_id": "SRC-0007",
+      "reliability": "high",
+      "notes": "Wikipedia article on Old Turkic; generally reliable on script history; reflects mainstream scholarly consensus"
+    },
+    {
+      "source_id": "SRC-0008",
+      "reliability": "high",
+      "notes": "Wikipedia on Orkhon inscriptions; well-sourced from historical consensus"
+    },
+    {
+      "source_id": "SRC-0009",
+      "reliability": "medium",
+      "notes": "Omniglot writing systems reference; general audience; reliable for basic facts, not scholarly debate"
+    },
+    {
+      "source_id": "SRC-0010",
+      "reliability": "high",
+      "notes": "Academic article on pedagogical teaching of Orkhon-tamga connection; cites Shifner/Aristov theory; notes modern rejection"
+    },
+    {
+      "source_id": "SRC-0011",
+      "reliability": "high",
+      "notes": "Recent (2024) scholarly comparative analysis; addresses historiography of rune comparison"
+    },
+    {
+      "source_id": "SRC-0012",
+      "reliability": "high",
+      "notes": "Semiotic analysis of totemic animals in Turkic symbolism; peer-reviewed approach"
+    },
+    {
+      "source_id": "SRC-0013",
+      "reliability": "high",
+      "notes": "Specialized academic study of Kazakh tamgas"
+    },
+    {
+      "source_id": "SRC-0014",
+      "reliability": "high",
+      "notes": "Peer-reviewed journal article on wolf symbolism in Ancient Turks"
+    },
+    {
+      "source_id": "SRC-0015",
+      "reliability": "high",
+      "notes": "Academic article on religious beliefs and wolf totemism"
+    },
+    {
+      "source_id": "SRC-0016",
+      "reliability": "high",
+      "notes": "Published in Belleten (Turkish Historical Society journal); authoritative source"
+    },
+    {
+      "source_id": "SRC-0017",
+      "reliability": "high",
+      "notes": "Peer-reviewed history of Ottoman seals in museum context"
+    },
+    {
+      "source_id": "SRC-0018",
+      "reliability": "medium",
+      "notes": "News/cultural feature; reliable for general information, not scholarly rigor"
+    },
+    {
+      "source_id": "SRC-0019",
+      "reliability": "high",
+      "notes": "Academic article on specific Ottoman seal artifacts"
+    },
+    {
+      "source_id": "SRC-0020",
+      "reliability": "high",
+      "notes": "Specialized academic study of Xiongnu tamgas with archaeological basis"
+    },
+    {
+      "source_id": "SRC-0021",
+      "reliability": "medium",
+      "notes": "Academic article on textile and tamga marks; limited evidence base mentioned"
+    },
+    {
+      "source_id": "SRC-0022",
+      "reliability": "high",
+      "notes": "Academic analysis of Hunnic symbols; peer-reviewed"
+    },
+    {
+      "source_id": "SRC-0023",
+      "reliability": "high",
+      "notes": "Wikipedia biography of Vilhelm Thomsen; factually reliable on historical record"
+    },
+    {
+      "source_id": "SRC-0024",
+      "reliability": "high",
+      "notes": "Specialist philologist (Wolfgang Scharlipp) on Orkhon decipherment; authoritative"
+    },
+    {
+      "source_id": "SRC-0025",
+      "reliability": "medium",
+      "notes": "Arts review publication; cultural interest but not peer-reviewed scholarship"
+    },
+    {
+      "source_id": "SRC-0026",
+      "reliability": "high",
+      "notes": "Ancientist (archaeological news); reports on primary source discoveries; reliable"
+    },
+    {
+      "source_id": "SRC-0027",
+      "reliability": "high",
+      "notes": "Eurasianet analysis of Kazakh historiography; credible journalism"
+    },
+    {
+      "source_id": "SRC-0028",
+      "reliability": "medium",
+      "notes": "National portal; promotional but generally factual"
+    },
+    {
+      "source_id": "SRC-0029",
+      "reliability": "high",
+      "notes": "Academic article directly addressing Orkhon/Aramaic debate; historiographical focus"
+    },
+    {
+      "source_id": "SRC-0030",
+      "reliability": "high",
+      "notes": "SIL International script database; authoritative for script classification"
+    },
+    {
+      "source_id": "SRC-0031",
+      "reliability": "high",
+      "notes": "Wiktionary etymology; collaborative but rigorously sourced"
+    },
+    {
+      "source_id": "SRC-0032",
+      "reliability": "medium",
+      "notes": "Wikipedia disambiguation; general reference utility"
+    },
+    {
+      "source_id": "SRC-0033",
+      "reliability": "high",
+      "notes": "IntechOpen peer-reviewed chapter on Ottoman seals"
+    },
+    {
+      "source_id": "SRC-0034",
+      "reliability": "high",
+      "notes": "PNAS (peer-reviewed scientific journal); genetic/archaeological evidence on Hunnic-Xiongnu-Turkic connections"
+    },
+    {
+      "source_id": "SRC-0035",
+      "reliability": "medium",
+      "notes": "Wiktionary reconstruction; linguistic reconstruction inherently speculative"
+    }
+  ],
+  "red_team_summary": {
+    "total_claims_verified": 12,
+    "strongly_supported": 5,
+    "supported_but_qualified": 2,
+    "probable": 2,
+    "plausible": 2,
+    "contested": 1,
+    "unknown": 0,
+    "rejected": 0,
+    "red_team_flags_triggered": {
+      "HISTORIOGRAPHICAL_DEBATE": 1,
+      "EVIDENCE_INFLATION_RISK": 2,
+      "FUNCTION_CONFLATION_RISK": 1,
+      "ETHNOGRAPHIC_BACKPROJECTION_RISK": 1,
+      "MODERN_RECONSTRUCTION_RISK": 1,
+      "CHRONOLOGICAL_GAP": 2,
+      "CONTINUITY_ASSUMED_NOT_PROVEN": 1,
+      "TERMINOLOGY_CONTINUITY_ASSUMPTION": 1,
+      "MORPHOLOGICAL_SIMILARITY_NOT_CAUSATION": 1,
+      "POPULATION_CONTINUITY_NOT_CULTURAL_TRANSMISSION": 1,
+      "UNVERIFIED_META_CLAIM": 1,
+      "POTENTIAL_FALSE_MYSTERY": 1,
+      "MODERN_DATA_CONFLATED_WITH_MEDIEVAL": 1
+    }
+  },
+  "key_findings": [
+    "Central historiographical debate: 19c Shifner theory (tamga → script) rejected as unverifiable by modern scholarship; Aramaic derivation is consensus position. This debate remains CONTESTED at scholarly level.",
+    "Multiple chronological gaps: 5c AD (Hunnic seals) → 8c AD (Orkhon) → 12c+ (medieval tamga attestation). Continuous tradition assumed but not proven.",
+    "Totemism claim at risk of ethnographic backprojection: modern totemism well-documented, but medieval practice unclear. Requires temporal precision.",
+    "Material evidence (Xiongnu pottery, possible textiles) provides support for property-marking function; does not resolve proto-writing debate.",
+    "Ottoman administrative continuity documented, but genealogical link to earlier Turkic tamga tradition not rigorously established (terminology continuity ≠ practice continuity).",
+    "Western-Central Asian scholarship divide: Aramaic hypothesis dominant in English-language/Western sources; some Central Asian scholarship retains interest in tamga connection (minority view)."
+  ],
+  "status": "ready_for_faz_d",
+  "notes": "Faz C complete: 12 claims adversarially verified; historiographical debate (Shifner vs. Aramaic) identified as central unresolved tension. 6 unknowns mapped with researchability/priority ratings. 13 red-team flags triggered across 12 claims. Three claims (C-0003, C-0006, C-0008, C-0011) carry significant qualifications; all others either strongly supported or qualified with specific caveats. Ready for Faz D synthesis and readiness gate decision."
+}

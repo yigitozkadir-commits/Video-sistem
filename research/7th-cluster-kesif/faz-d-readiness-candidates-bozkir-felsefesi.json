@@ -1,0 +1,143 @@
+{
+  "phase": "D",
+  "phase_name": "Readiness Verdict Candidates — Quality Gate Decision",
+  "project_title": "Bozkır Felsefesi: Türk Düşüncesinin Tarihî ve Felsefi Temelleri",
+  "cluster": "7TH_CLUSTER",
+  "items_range": "601-700",
+  "timestamp": "2026-08-09T19:30:00Z",
+  "decision_scope": "Faz D Completeness Audit (0.76 score) ve Historiographic Synthesis sonucu, prodüksiyona geçiş kararı",
+  "decision_authority": "NOT_THIS_AGENT",
+  "decision_authority_note": "This document presents three options; final verdict requires human review of caveats and normative implications",
+
+  "readiness_candidates": [
+    {
+      "option_id": "OPTION_1",
+      "title": "READY (Full Proceeding)",
+      "description": "Prodüksiyona hiç uyarı olmadan ilerle; Bozkır Felsefesi söylemi tarihsel gerçeklik olarak sunulabilir",
+      "conditions_required": "Yok",
+      "approval_criteria": "Tüm 15 claim'in tasdiki yeterli",
+      "production_approach": "Standart anlatım: Tengricilik → kabile yapısı → modern kullanım doğrusal ilerleme",
+      "risks": [
+        "Romantisizm yüksek: 'Bozkır Felsefesi' söylemi tarihsel gerçeklik olarak yaygınlaşabilir",
+        "Özellikle ekoloji-egalitarizm mekanizması basitleşebilir (Mongol despotizmi gözardı)",
+        "Oğuz Kağan mitosu tarihî olarak sunulma riski",
+        "Sufizm-Tengrici sentez 'korunma' yerine tam dönüşüm gibi gösterilme riski",
+        "Modern milliyetçiliğin söylem yapısı tarihselleştirilme riski yüksek"
+      ],
+      "likely_audience_misunderstanding": "VERY_HIGH",
+      "recommendation": "REJECT",
+      "rationale": "Romantisizm riski kontrol edilmeden prodüksiyona geçilirse, söylem tarihî gerçeklik olarak halk tarafından içselleştirilebilir. Bu, CLAUDE.md Law #4 (No silent degradation) ihlalidir."
+    },
+    {
+      "option_id": "OPTION_2",
+      "title": "CONDITIONAL (RECOMMENDED)",
+      "description": "Prodüksiyona geç; ancak açık uyarılar, metodolojik ayırımlar ve çoklu perspektif dahil et",
+      "conditions_required": [
+        "Video/script'te 'tarihsel çekirdek vs. modern söylem' ayrımı NET VE AÇIK yapılacak",
+        "Tengricilik (8.yy) vs. Modern Türk milliyetçiliği (20.yy) zamansal fark vurgulanacak (1200 yıl!)",
+        "Romantisizm riskleri açık flag edilecek: 'Bu anlatı ne ölçüde tarihî, ne ölçüde nosyonel?'",
+        "Ekoloji-egalitarizm mekanizması 'belirsiz' olarak sunulacak; Mongol despotizmi karşı-örneği dahil edilecek",
+        "Çoklu perspektif: Turkish nationalist + Western academic + Chinese historiography + Islamic + post-colonial",
+        "Oğuz Kağan: Mit statüsü açık; tarihî çekirdek doğrulanmamış olarak sunulacak",
+        "Sufizm-Tengrici sentez: 'Korunma' değil 'dönüşüm' olarak reframed (Tengri → Allah)",
+        "Modern milliyetçiliğin 'bozkır kökleri' söylemi: Söylemin varlığı doğru; normatifliliği tartışmalı"
+      ],
+      "script_framework": {
+        "segment_1": "Tarihsel katmanlar: 8.yy Orkhon → 11.yy Dede Korkut → 20.yy romantisizm",
+        "segment_2": "Her claim'in 'strength' göstergesi: CONFIRMED vs. CONTESTED vs. PROBABLE",
+        "segment_3": "Perspektif farklılıkları: Türk vs. Batılı vs. Çinli tarihçiler nasıl okuyor?",
+        "segment_4": "Romantisizm risk 'meta-anlatı': 'Neden 20. yüzyılda bozkır felsefesi 'yeniden keşfedildi'?'",
+        "segment_5": "Sonuç: Bozkır Felsefesi'nin tarihselliği vardır, ancak modern inşası kontrol edilmeli"
+      },
+      "caveats_in_production": [
+        "All mechanistic claims (ecology → egalitarianism) qualified with 'plausible but not proven'",
+        "Oğuz Kağan mythological status clearly marked",
+        "Sufi synthesis presented as 'transformation' not 'preservation'",
+        "Modern nationalism's discourse grounded as 20th century intellectual project, not historical recovery"
+      ],
+      "quality_control": "REQUIRED",
+      "qa_checklist": [
+        "Script pre-render review: Romantisizm risk aşırı yükselmedi mi?",
+        "Fact-check: Tüm claim'ler Faz D dossier'e referans verdi mi?",
+        "Perspective balance: Türk > Batı oranı 50:50'ye yakın mı?",
+        "Visual framing: Harita/zaman çizgisi 1200 yıllık aralığı gösteriyor mu?"
+      ],
+      "approval_path": "D6_CONDITIONAL_VERDICT_HUMAN_GATED",
+      "production_readiness": true,
+      "confidence_level": "MODERATE_WITH_STRUCTURAL_SAFEGUARDS",
+      "recommendation": "STRONG_ACCEPT",
+      "rationale": "Bozkır Felsefesi'nin tarihselliği sağlamdır (Tengricilik, Dede Korkut, Orkhon). Ancak romantisizm riski yüksek. Yapısal uyarılar ve metodolojik ayırımlarla, söylem-tarih karışması önlenebilir. Bu, CLAUDE.md Law #4 (No silent degradation) ve Law #7 (Human gates explicit) uyumludur."
+    },
+    {
+      "option_id": "OPTION_3",
+      "title": "BLOCKED",
+      "description": "Tarihsel çekirdek radikal sorgulanırsa, prodüksiyona geçme engelle",
+      "conditions_for_blocking": [
+        "Tengricilik tarihselliğine ciddi akademik şüphe (Orkhon yazıtları doğrulanmaz hale gelirse)",
+        "Dede Korkut'un yazılı hafıza statüsü geçersiz kılınırsa",
+        "24-boy sistem Al-Kashgari kaydı tartışmalı kabul edilirse"
+      ],
+      "blocking_likelihood": "VERY_LOW (0.05)",
+      "rationale": "Tengricilik konsensüsü çok güçlü. Orkhon yazıtları 1893'ten itibaren tutarlı. Akademik rethinking mümkün ama improbable",
+      "recovery_path": "If blocking occurs, return to Faz B revisions and restart Faz C red team",
+      "recommendation": "NOT_APPLICABLE",
+      "status": "CONTINGENCY_ONLY"
+    }
+  ],
+
+  "recommended_verdict": {
+    "selected_option": "OPTION_2_CONDITIONAL",
+    "confidence": "HIGH",
+    "implementation_priority": [
+      {
+        "priority": 1,
+        "task": "Script writing: Tarihsel çekirdek (8.yy Tengricilik) açık muhasebesi",
+        "responsible": "Media production team",
+        "deadline": "Script review before render"
+      },
+      {
+        "priority": 2,
+        "task": "Romantisizm risk assessment: Ekoloji-egalitarizm mekanizması belirsiz framing",
+        "responsible": "QA/historiographer",
+        "deadline": "Pre-render checklist"
+      },
+      {
+        "priority": 3,
+        "task": "Perspective balancing: Turkish + Western + Chinese + Islamic + post-colonial views",
+        "responsible": "Subject matter expert (SME) review",
+        "deadline": "Script finalization"
+      },
+      {
+        "priority": 4,
+        "task": "Visual timeline: 8.yy → 20.yy fark gösterimi (1200 yıl)",
+        "responsible": "Visual design",
+        "deadline": "Storyboard design"
+      },
+      {
+        "priority": 5,
+        "task": "QA validation: CLAUDE.md Law #4 (No silent degradation) çekalama",
+        "responsible": "QA checklist",
+        "deadline": "Final pre-render"
+      }
+    ],
+    "decision_summary": "Bozkır Felsefesi prodüksiyona hazır; ancak metodolojik uyarılarla. Romanticized framing veya determinist mekanizm basitleştirmesi yasaklı. Human gate sonrası prodüksiyona başla.",
+    "next_steps": "Faz D sonuç dossier'ler (faz-d-master-dossier-bozkir-felsefesi.json + faz-d-readiness-candidates-bozkir-felsefesi.json) human decision maker'a sunulacak. Production başlama kararı HUMAN_VERDICT bekleniyor."
+  },
+
+  "historiographical_memo": {
+    "title": "Faz D Tamamlanma Metni",
+    "content": "Bozkır Felsefesi araştırması Faz A (Tasvir), Faz B (Derin Araştırma), Faz C (Kırmızı Tim), ve Faz D (Sentez & Kalite Kapısı) tamamlandı. Toplam 15 claim, 37 kanıt, 38 kaynak, 47 karşı-argüman sistemli olarak incelendi.\n\nTarihsellik: Tengricilik (8.yy Orkhon yazıtları), Gök Umay (doğurganlık tanrısası), 24-boy sistem (Al-Kashgari 11.yy), Dede Korkut (UNESCO 2001), şamanlık ritüelleri — tüm bu unsurlar tarihî olarak doğrulanmıştır. Bozkır Felsefesi'nin çekirdeği katıdır.\n\nRomantisizm Riski: Bununla birlikte, ekoloji-egalitarizm nedenselliği spekulatif, Oğuz Kağan mit-tarih karışmıştır, Sufizm-Tengrici sentez 'korunma' yerine 'dönüşüm' daha doğru, ve modern milliyetçiliğin 'göçebe kökleri' söylemi 20. yüzyıl nosyonel inşasıdır. Romantisizm kontrol edilmeli.\n\nSonuç: Prodüksiyona hazır. Uyarılar uygulanırsa, söylem tarihî gerçekliğe karışmayacak. Söylem-tarih ayrımı tutulacak.",
+    "author_note": "Bu dossier, Faz D (Synthesis & Quality Gate) tamamlanmasının resmi kaydıdır. Prodüksiyonun ilerleme yetkisi, human decision maker tarafından CONDITIONAL OPTION 2'nin kabulüne bağlıdır."
+  },
+
+  "metadata": {
+    "model": "claude-haiku-4-5-20251001",
+    "timestamp": "2026-08-09T19:30:00Z",
+    "phase": "D_READINESS_VERDICT",
+    "total_candidates": 3,
+    "recommended": "OPTION_2_CONDITIONAL",
+    "decision_type": "HUMAN_GATE_REQUIRED",
+    "decision_scope": "Production Go/No-Go with conditions",
+    "validation_status": "SCHEMA_COMPLIANT"
+  }
+}

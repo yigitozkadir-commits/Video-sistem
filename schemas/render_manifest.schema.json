@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/render_manifest.schema.json",
+  "title": "Render Manifest",
+  "description": "Render provenance. Font/LUT versions pinned per node (M13 §19.2).",
+  "type": "object",
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "scene",
+        "master"
+      ]
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "composition": {
+      "type": "string"
+    },
+    "fps": {
+      "type": "integer"
+    },
+    "resolution": {
+      "type": "string"
+    },
+    "codec": {
+      "type": "string"
+    },
+    "bitrate": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "lufs_i": {
+          "type": "number"
+        },
+        "peak_dbtp": {
+          "type": "number"
+        },
+        "channels": {
+          "type": "integer"
+        }
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "bytes": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "node": {
+      "type": "string"
+    },
+    "font_pack_version": {
+      "type": "string"
+    },
+    "lut_version": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "result": {
+      "type": "string",
+      "enum": [
+        "success",
+        "failed",
+        "partial"
+      ]
+    }
+  },
+  "required": [
+    "run_id",
+    "scope",
+    "target_id",
+    "fps",
+    "resolution",
+    "outputs",
+    "result"
+  ],
+  "additionalProperties": true
+}

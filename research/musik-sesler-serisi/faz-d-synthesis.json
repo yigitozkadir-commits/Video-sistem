@@ -1,0 +1,387 @@
+{
+  "phase": "D",
+  "series_id": "musik-sesler-serisi",
+  "title": "Müzik-Sesler Serisi (Items 851-900) - Faz D: Sentez & Historiografik Denetim",
+  "candidate_id": "CAND-02",
+  "research_date": "2026-08-09",
+  "synthesis_approach": "Claim consolidation, causal linking, evidence graph, historiographic audit, completeness check",
+
+  "claim_consolidation": {
+    "summary": "Şaman-Sufi müziksel sürekliliği altı iddia (ritüel müzik, enstrüman korunması, Sufizm entegrasyonu, ozan-aşık dönüşümü, Sultanova araştırması, etimoloji) tarafından desteklenmişti; PHASE C gösterdi: Enstrüman ve etimoloji ESTABLISHED; ama **nedensellik mekanizması (Sufizm → ritüel müzik yeniden-formlandırılması) PLAUSIBLE ama UNPROVEN; Sultanova modern verisi tarihsel kökenin kanıtı değil.**",
+
+    "consolidated_claims": [
+      {
+        "claim_id": "C-101-CONSOLIDATED",
+        "original_claim": "Tengriist şaman geleneğinde kam ve baksı, kopuz ve benzeri enstrümanları ritüel müzik, trance giriş ve ruh iletişiminde kullanmışlardır",
+        "phase_c_verdict": "Strongly supported (but with methodological constraint)",
+        "consolidation_status": "SUPPORTED_WITH_CAVEAT",
+        "qualified_statement": "Kam (Altay şaman) ve baksı (Kazak/Kırgız tedavi-müzisyen) ritüel müzik enstrümanlarını (kopuz, davul, ney-benzeri) trance ve ruh iletişimi için kullanmışlardı. Multiple akademik kaynaklar tutarlı. AMA: 19. yüzyıl Sovyet etnografisi (Radloff) = earliest direct observation; ön-İslami dönem doğrudan kanıt yok.",
+        "evidence_chain": "Çağdaş etnografik gözlem (19c Radloff, 20c Sultanova) ← Arkeolojik enstrüman kanıtı (sınırlı, çoğu Osmanlı ve sonrası) ← Etimolojik kaynaklar (Clauson: kam 5c attestation, dolaylı)",
+        "methodological_concern": "Doğrudan ön-İslami Tengriist ritüel kayıtları yok; 19. yüzyıl gözlem Sovyet dönem sonrası (İslami ve Sovyet katmanlı). Antik form ne kadarı korundu? Bilinmiyor."
+      },
+      {
+        "claim_id": "C-102-CONSOLIDATED",
+        "original_claim": "Kopuz (çağatay: kıpçak: kopuz, kılkopuz) Türk dünyasında ön-İslami dönemden İslami döneme geçiş sürecinde sakral enstrüman olarak korunmuştur",
+        "phase_c_verdict": "Established",
+        "consolidation_status": "ESTABLISHED",
+        "qualified_statement": "Kopuz, ön-13. yüzyıl Clauson etimolojisine göre Türkçe kökenlidir; Dede Korkut yazmaları (16-18c) kopuz'un ozan anlatısındaki saklı rolünü belgelemiştir; TDV İslam Ansiklopedisi kopuz'un Altay ve Osmanlı dönem korunmasını onaylamıştır. Enstrüman ailesi (kopuz → saz/bağlama) yapısal sürekliliğini gösterir.",
+        "evidence_chain": "Dede Korkut primary manuscripts → Clauson Etimolojik Sözlüğü (Oxford 1972) → TDV İslam Ansiklopedisi → Osmanlı miniature görsel kanıt (16-19c bağlama) → Sala Muzik müzik tarihi",
+        "strength_assessment": "Hiçbir counter-evidence yok; filoloik, arkeolojik, etnografik kanıt tutarlı."
+      },
+      {
+        "claim_id": "C-103-CONSOLIDATED",
+        "original_claim": "Sufizm Orta Asya'ya gelmesiyle, Tengriist ritüel müzik ve dans pratiği yerli İslami tasavvuf formlarına entegre olmuştur; şaman trance ritüelleri Sufi dhikr ve semâh uygulamalarında yeniden formlandırılmıştır",
+        "phase_c_verdict": "Probable (not independent confirmation; causation mechanism unclear)",
+        "consolidation_status": "PLAUSIBLE_BUT_UNPROVEN",
+        "qualified_statement": "Sufizm 10-11c. Orta Asya'ya geldi; Tengriist ritüel müzik (trance, rhythmic practice) Sufi müziksel formlar (qawwali, dhikr, semâh) ile yapısal benzerlikler taşır. Razia Sultanova etnografik saha verisi (Otin-Oy kadın sistaerhood, Ferghana 1990s-2010s) Tengriist-Sufi kültürel sürekliliğini gösterir. ANCAK: (1) Sultanova modern pratiğini gözlemliyor; tarihsel köken kanıtı değil. (2) Nedensellik mekanizması (Sufizm geldi → ritüel müzik yeniden-formlandırıldı) dolaylı; direkt belge yok. (3) Alternatif: müzik korundu, Sufi terminoloji kaplama; veya tam yeniden-yapılandırılma.",
+        "evidence_chain": "Sultanova saha verisi (modern) ← Sufizm tarihçiliği (10-11c gelişi) ← Tengriism-Sufism sinkretizm teori (plausible) — hiçbir aşamada 11-16c geçiş dönemi doğrudan kanıt yok",
+        "methodological_concern": "CRITICAL WEAKNESS: Sultanova 1990s-2010s saha verisi, post-Sovyet müzik revizyalizminin kanıtı olabilir, antik Tengriizm-Sufizm sentezinin kanıtı değil. Tarihsel sürekliliği iddia etmek için, 11-16c dönemi müzik kayıtları gerekli (eksik)."
+      },
+      {
+        "claim_id": "C-104-CONSOLIDATED",
+        "original_claim": "Âşık/aşık geleneği (16-20. yüzyıl) ozan → aşık terminolojik ve pratik dönüşümü temsil eder; enstrüman bağlama (saz), kopuz'un doğrudan devamıdır",
+        "phase_c_verdict": "Strongly supported",
+        "consolidation_status": "SUPPORTED_WITH_QUALIFICATION",
+        "qualified_statement": "Ozan (eski: şaman-bard, destanı anlatıcı) → Aşık (yeni: Sufi-şair, sevgi/dinî şiir) terminolojik dönüşümü 15-20c arası belgelenmiştir. Bağlama (saz) kopuz'un doğrudan devamı ülkede görsel kanıt (Osmanlı miniaturları 16-19c) ve yapısal analoji yoluyla desteklenmişti. ANCAK: (1) Ara-formlar (ud, ney, tanbur gibi Arap/Pers enstrümanların etkisi) belirtilmedi. (2) 'Doğrudan devamı' söylemi potansiyel olarak abartılmış; evolüsyon daha kompleks olabilir.",
+        "evidence_chain": "MDPI Shamanistic Rituals → Tapadum/Sala Muzik → Asik Veysel örneği → Osmanlı miniature görsel kanıt",
+        "strength_assessment": "Terminoloji dönüşümü tutarlı; enstrüman seçimi (kopuz → bağlama) makul ama tam olmamış."
+      },
+      {
+        "claim_id": "C-105-CONSOLIDATED",
+        "original_claim": "Razia Sultanova'nın etnomüzikolojik araştırması (15+ yıl saha çalışması, Cambridge, Ferghana vadisi) Tengriist-Sufi müziksel süreklilik ve kadın müzisyenlerin ruh korumasında önemli rol taşıdığını kanıtlamıştır",
+        "phase_c_verdict": "Established (as institutional fact; not as historical proof)",
+        "consolidation_status": "ESTABLISHED_INSTITUTIONAL",
+        "qualified_statement": "Razia Sultanova, Cambridge Faculty of Music, 'From Shamanism to Sufism: Women, Islam and Culture in Central Asia' (Cambridge University Press 2014). 15+ yıl saha çalışması (Ferghana Otin-Oy sistaerhood) etnografik kanıtı güçlüdür; kurumsal doğrulama (Cambridge yayını, Google Books, Gale Academic katalog) tam. Sultanova'nın bulguları: Tengriist-Sufi sürekliliğin pratiğini gösterir, tarihsel kökeni değil. Kurumsal olarak ESTABLISHED; historikal olarak PLAUSIBLE.",
+        "evidence_chain": "Sultanova Cambridge affiliation → Published book (Cambridge University Press 2014) → Multiple katalog doğrulaması → Saha verisi (Otin-Oy etnografik gözlem)",
+        "key_distinction": "Kurumsal statü (HIGH) ≠ Tarihsel kanıt (MEDIUM). Sultanova modern ritüel pratiğini 'kanıtlamıştır'; antik Tengriizm'i değil."
+      },
+      {
+        "claim_id": "C-106-CONSOLIDATED",
+        "original_claim": "Kam ve baksı terimlerinin etimolojisi (Clauson, filolojik kaynaklar) Altay, Kırgız, Kazak Türkçelerinde 5. yüzyıldan itibaren izlenebilir; 'şaman' Tunguz kaynağı iken, 'kam' ve 'baksı' Türkçe özgün terimlerdir",
+        "phase_c_verdict": "Strongly supported (with etymologic caveats)",
+        "consolidation_status": "SUPPORTED_WITH_CAVEAT",
+        "qualified_statement": "Kam Altay şaman pratiğinde, Clauson (1972) ve Radloff (19c) referanslarında ön-13c attestation göstermiştir. Kyrgyz 'gan' (Çin kaynakları, 5c) dolaylı kanıt. ANCAK: (1) Kam'ın 5c tarihlemesi Çin kayıtlarında dolaylı (Kyrgyz 'gan'). (2) Baksı etimolojisi tartışmalı: Türkçe özgün vs. Arap 'bahş' (bahşedici) vs. Pers kaynağı. (3) Terminoloji evresi (hangi dönem hangi terim tercih?) belirsiz.",
+        "evidence_chain": "Clauson Oxford 1972 → TDV İslam Ansiklopedisi → Çin kaynakları (Radloff referans) 5c 'gan' → Kazak/Kırgız modern kullanımı",
+        "methodological_concern": "Dolaylı tarihlemesi (Çin yazılı → Radloff yorumu); baksı kökeni tam kuşkulu."
+      }
+    ]
+  },
+
+  "causal_linking": {
+    "narrative": "Türk müzik geleneği, **Tengriist ritüel (antik) → İslami Sufizm (10-11c entegrasyon) → Osmanlı Aşık (16-20c) → Modern Kazak/Kırgız müzik (20-21c)** zincirini takip eder. Her aşama, öncekinin öğelerini **adapte etmiş, terminolojiyi değiştirmiş, ama enstrüman ve ritüel mekanizmaları kısmen korumuş**.",
+
+    "causal_chain": [
+      {
+        "phase": "Tengriist Ritual Foundation (Pre-7c — 10c)",
+        "mechanism": "Altay, Kyrgyz, Kazak bozkır halklarının şamanlık pratiği (kam, baksı) ritüel müzik ve trance işlevi tanımlı. Enstrümanlar: kopuz, davul, ney-benzeri nefesli.",
+        "evidence": "Etimolojik (kam 5c attestation), 19c Sovyet etnografik gözlem (Radloff), modern Sultanova gözlem (parallelism)",
+        "implication": "Antik Tengriist ritüel müzik mekanizması (trance, ruh çağırması, heal) belgelenmiş; form bilinmiyor."
+      },
+      {
+        "phase": "Sufizm Entegrasyonu (10-11c → 16-17c)",
+        "mechanism": "Sufizm Orta Asya'ya geldi; Yasavi, Naksibendi, Qadiri tarikatları lokal müzik ritüelini yönetmişti. Tengriist trance ritüeli, İslami formlar (dhikr, semâh, qawwali) altında **yeniden-formlandırılmış**, ama enstrüman ve ritüel mekanizması (müzik = ruh ulaşmak) korunmuş.",
+        "evidence": "Sultanova Otin-Oy sistaerhood (modern pratik); Central Asia Guide (sinkretizm teori); Pharos JoT (teolojik analiz)",
+        "implication": "Mekanizm plausible, ama 11-16c geçiş dönemi doğrudan kanıt yok. Sufizm türü (Yasavi vs. Naksibendi) ve coğrafya (Ferghana vs. Doğu Türkistan) lokal müzik politikasını etkilemiş olabilir."
+      },
+      {
+        "phase": "Osmanlı Aşık Geleneği (15-20c)",
+        "mechanism": "Ozan (eski: bozkır şaman-bard) → Aşık (yeni: Sufi-şair) adlandırması, Osmanlı İmparatorluğu'nda hızlı dönüşümü yandı. Bağlama (saz) kopuz'un modern devamı olarak enstrüman standardı. İslamîleşme ama müziksel gelenek korundu.",
+        "evidence": "Dede Korkut yazmaları (kopuz ozan), Aşık Veysel örneği (1894-1973), Osmanlı miniature görsel kanıt (16-19c bağlama)",
+        "implication": "Enstrüman sürekliliğine yüksek kanıt; sosyal rol dönüşümü (bard → Sufi şair) kesin."
+      },
+      {
+        "phase": "Soviet Suppression & Post-Soviet Revival (1920s-2026)",
+        "mechanism": "Sovyet döneminde din yasaklandı (ama gizli pratiş devam), müzik 'milli kültür' kategorisi altında arşivlenmiş. Post-Sovyet (1991+) Kazak/Kırgız müzik revizyalizmi: antik Tengriist öğeleri 'kurtarma' veya 20c artefaktı?",
+        "evidence": "Sultanova (gizli pratiş korundu); Soviet müzikolog kaydı (sınırlı erişim); Beissembayev referansı (bilinmemiş)",
+        "implication": "Gizli pratiş vs. Sovyet yeniden-yapılandırılması, fark belirsiz. Post-Sovyet müzik identitesi, tarihsel kopya mı yoksa modern revizyalizm mi?"
+      }
+    ]
+  },
+
+  "historiographic_audit": {
+    "theme": "Shaman-Sufi Synthesis: Mechanism, Evidence Gap, Authenticity",
+
+    "mechanism_gap": {
+      "title": "Tengriist Ritüel Müzik → Sufi Müzik: Dönüşüm Nasıl Gerçekleşti?",
+      "description": "Sufizm Orta Asya'ya geldiğinde, Tengriist şaman ritüelinin ne olduğu tam bilinmemişti (yazılı kayıt yok). Sufi müzik formları (dhikr, semâh) nasıl Tengriist trance ritüelini yuttu veya adapte etti?",
+      "hypotheses": [
+        {
+          "hypothesis": "Sentez (Syncretic Blending)",
+          "claim": "Lokal Sufi müzisyenler (kam→baksı→aşık dönüşümü) Sufizm'in müziksel forlarını Tengriist rituele uyarladı. Müziksel mekanizma (trance, ruh çağırması) korundu; dini bağlam (Tengriist → İslami) değişti.",
+          "supporting": "Sultanova Otin-Oy pratiği; Central Asia Guide sinkretizm teori",
+          "critique": "Modern pratiğin tarihsel kopya olduğu kanıtlanmadı; 11-16c dokumenter boşluğu."
+        },
+        {
+          "hypothesis": "Seçicilik (Selective Preservation)",
+          "claim": "Tengriist ritüel müzik %80-90 silinmiş; hafızası sadece müziksel formlar (ritm, melodi, enstrüman) kültürel özdeşlik olarak korundu. İslami reformat ama, yerel müzisyenler 'geçmiş' hatırıyor.",
+          "supporting": "Sovyet bastırılması altında gizli pratiş (Sultanova bulgularına göre)",
+          "critique": "Varsayım; tarihsel oran bilinmiyor."
+        },
+        {
+          "hypothesis": "Reilâyân (Complete Replacement)",
+          "claim": "Sufizm geldiğinde, Tengriist ritüel tamamen silinmiş; modern müzik Sufizm'e dayalı yeni gelişme. 'Sürekliliğin' kanıtı, 20c akademik karakgüdeşilemenin bir artefaktı.",
+          "supporting": "Muhafazakar İslami görüş (normative Islam); Sovyet baskısı belgelenmişti",
+          "critique": "Enstrüman ve terminoloji sürekliliği bu görüşü çelişkili kılar."
+        }
+      ],
+      "current_evidence": "Plausible ama Unproven. Sultanova modern pratiğin sürekliliğini gösteriyor; ama tarihsel mekanizması (11-16c) belirtilmemiş. Beissembayev kaynak eksik.",
+      "research_gap": "CRITICAL: 11-16c Orta Asya müzik pratik belgesi gerekli. Hangi Sufi tarikatları müzik politikası? Lokal müzisyen yanıtı belgelendi mi?"
+    },
+
+    "authenticity_spectrum": {
+      "title": "Sovyet Bastırılması → Post-Sovyet Revizyalizm: Antik Form vs. Modern Kurgu",
+      "description": "Tengriist şaman müzik pratiği Sovyet döneminde bastırılmış (1920s-1991); 1991+ Kazak/Kırgız müzik 'kurtarılması' hareketleri. Bu müzik, antik formu mı yoksa 20c yeniden-yapılandırma mı?",
+      "frameworks": [
+        {
+          "position": "Continuity Preservation (Optimist)",
+          "claim": "Şaman müzik, Sovyet döneminde gizli olarak yaşamaya devam etti (özellikle rural ve female sisterhood'lar); 1991+ 'kurtarılması', eski formu public restitutionu.",
+          "evidence": "Sultanova (gizli pratiş devam); female sistaerhood (Otin-Oy) ritüel korunması",
+          "critique": "Sovyet baskısı tam; ama gizli pratişin orijinal formu mı yoksa İslami-adapte formu mu? Bilinmiyor."
+        },
+        {
+          "position": "Disruptive Recovery (Skeptic)",
+          "claim": "Sovyet bastırılışı, Tengriist müzik pratiğini esasen kırdı; 1991+ müzik 'kurtarma' = nostalji revizyalizmi — arkeolojik rekonstrüksiyon değil.",
+          "evidence": "Sovyet döneminde din yasaklanmış; manasch'lar ve müzisyenler bastırılmış; müzik 'milli kültür' kategorisi altında depolama",
+          "critique": "Gizli pratiş kanıtı (Sultanova) revizyalizm tezini zayıflatır."
+        },
+        {
+          "position": "Partial Survival with Adaptive Layering (Nuanced)",
+          "claim": "Tengriist müzik ritüel kısmen korundu (enstrüman, ritm, amaç = trance/healing); Sufi-İslami katman (dini bağlam) eklendi. Sovyet döneminde adaptif denetim; 1991+ selektif aktivasyon (feminist/national) projesi.",
+          "evidence": "Sultanova (kadın sistaerhood, müzik-merkezli ritüel); enstrüman etimoloji (kopuz → saz sürekliliği); terminoloji dönüşümü (kam → baksı → aşık)",
+          "critique": "En uygun; ama 'ne kadarı otantik, ne kadarı adapte' kesinleştirilmemiş."
+        }
+      ],
+      "historiographical_finding": "**Tengriist-Sufi müzik sürekliliği, enstrüman ve ritüel mekanizması seviyesinde plausible; dini ve sosyal katmanlar (Sufizm, Osmanlı, Sovyet) tarafından yeniden-kontekstüalize.**"
+    },
+
+    "soviet_layer": {
+      "title": "Sovyet Müzik Politikası: Bastırılış vs. Reformulasyon",
+      "description": "1920s-1991 Sovyet döneminde, Tengriist müzik pratiği nasıl ele alındı? Tam bastırılış mı, yoksa 'milli kültür' kategorisi altında yeniden-yapılandırılma mı?",
+      "findings": [
+        {
+          "factor": "Religious Suppression",
+          "detail": "Din yasaklandı (1920s-1991); Sufi ve Tengriist ritüel ibadetleri resmi olarak yasaklı. Müzik bağlamında, mistik amaç (trance, ruh çağırması) bastırılmış.",
+          "evidence": "Sultanova: gizli pratiş (under religious persecution); müzik ibadet amaçlı devam etti",
+          "implication": "Açık pratişin bastırılması, gizli versiyonunun varlığını ima eder."
+        },
+        {
+          "factor": "National Culture Archivization",
+          "detail": "Sovyet, 'milli kültürleri' arşivlenmiş (kaydet, denetle, ilan et). Kazak, Kyrgyz, Altay müzik kaydedildi; ama dini katmanı remove edilmiş, 'etnografik müzik' olarak depolama.",
+          "evidence": "Akademik arşivleme (Beissembayev, Davydova, Oralova); müzik notasyonu (post-Sovyet tarama ile sınırlı erişim)",
+          "implication": "Müzik formu korunmuş ama din-merkezli bağlam silinmiş. Modern müzik, Sovyet kaydı + post-Sovyet dini reinterpretasyonunun kombinasyonu."
+        },
+        {
+          "factor": "Post-Soviet Reactivation",
+          "detail": "1991+ Kazak/Kırgız 'ulusal kimlik' kurtarma: Tengriizm ve müzik 'ulus-öncesi' sembol olarak yükseltildi. Sovyet arşivi kullanıldı; ama yeni bağlam (milliyetçilik, feminizm) uygulandı.",
+          "evidence": "UNESCO ICH (2009+); Sultanova feminist perspektif (kadın müzisyenlerin ruh koruma rolü)",
+          "implication": "Post-Sovyet müzik 'kurtarılması', tarihsel kopya olmayabilir; kurgulanmış 'kimlik proje'si olabilir."
+        }
+      ],
+      "open_question": "Sovyet dönem müzikolog (Beissembayev, Davydova, Oralova) arşivleri nerede? Tengriist ritüel müzik ne kadar belgelediler? Erişim mümkün mü?"
+    }
+  },
+
+  "completeness_check": {
+    "variant_traditions": {
+      "question": "Tengriist-Sufi müzik sentezi, tüm Türk halklarında mı yoksa coğrafı-sınırlanmış mı?",
+      "findings": [
+        {
+          "category": "Geographic Variation",
+          "items": [
+            "Ferghana Vadisi (Sultanova focus): Otin-Oy sistaerhood, Sufi-müzik entegrasyonu yüksek",
+            "Doğu Türkistan (Uyghur): Şamanlık ± Sufi müzik pratişi? Bilinmiyor.",
+            "Kuzey Kafkasya: Şamanlık + Sufi müzik? Bilinmiyor.",
+            "Altay bölgesi: Kam pratiği modern hala var; Sufi entegrasyonu ne kadar?"
+          ],
+          "completeness": "INCOMPLETE — Sultanova Ferghana-merkez; diğer bölgeler unreseached"
+        },
+        {
+          "category": "Tarikat Variation",
+          "items": [
+            "Yasavi (Türkistan, 12c): müzik-tolerant (qawwali tarz)",
+            "Naksibendi (15c+, strict): müzik konservatif; diğer tarikatlardan farklı mı?",
+            "Qadiri: müzik politikası?",
+            "Alevi-Bektaşi (Anadolu): saz/ney müzik Tengriist öğeler taşır mı?"
+          ],
+          "completeness": "UNRESEARCHED — Tarikat-merkezli müzik politik analiz eksik"
+        },
+        {
+          "category": "Instrument Families",
+          "items": [
+            "Kopuz → saz/bağlama: belgelenmiş",
+            "Ud, ney, tanbur (Arap-Pers enstrüman): lokal müzik entegrasyonu ne kadar?",
+            "Davul (Tengriist), dram (İslami): sürekliliği? Değişimi?"
+          ],
+          "completeness": "PARTIAL — Kopuz sürekliliği ama ara-formlar eksik"
+        }
+      ],
+      "bias_detected": "FERGHANA-CENTRIC BIAS: Sultanova araştırması Ferghana Vadisi'ne odaklanmış. Doğu Türkistan, Altay, Kuzey Kafkasya, Anadolu Alevi-Bektaşi müzik karşılaştırması eksik. Türk dünyasının tümünde Tengriist-Sufi müzik sentezi mı yoksa bölgesel variasyon mu? Bilinmiyor."
+    },
+
+    "source_gaps": {
+      "question": "Hangi kaynaklar eksik, erişilemez?",
+      "findings": [
+        {
+          "gap": "Beissembayev ethnomusicologist research",
+          "status": "UNLOCATED",
+          "description": "Web araştırmasında Beissembayev ismine doğru kaynak bulunamadı. Kazak-merkezli etnomüzikolog olabilir, erişim sınırlı.",
+          "impact": "Kazak müzik geleneğinin tarihçesi eksik"
+        },
+        {
+          "gap": "Soviet-era musicologist archives (Davydova, Oralova, diğerleri)",
+          "status": "LIMITED_ACCESS",
+          "description": "Sovyet dönem müzikolog, Tengriist ritüel müzik belgeledi ama yayınlar Rusça, erişim sınırlı",
+          "impact": "Sovyet dönem müzik pratişinin belgelenmesi belirsiz; post-Soviet revizyalizm vs. antik form ayrımı imkansız"
+        },
+        {
+          "gap": "11-16c Orta Asya müzik pratiği belgesi",
+          "status": "MISSING",
+          "description": "Sufizm entegrasyonu dönemi (10-11c → 16c) doğrudan müzik pratiği kayıtları yok",
+          "impact": "Tengriist-Sufi sentez mekanizması kronolojisi bilinmiyor"
+        },
+        {
+          "gap": "Sayakbay ve diğer Kyrgyz manasch'ları ile paralel müzik geleneği",
+          "status": "PARTIAL",
+          "description": "Sayakbay Karalaev (Manas) ve paralel müzisyenler; Kyrgyz müzik geleneğinin paralel çeşmeler? Bilinmiyor.",
+          "impact": "Tek kaynak (Sultanova) bağımlılığı yüksek; Kyrgyz-spesifik vs. Türk-geniş pattern ayrımı eksik"
+        }
+      ]
+    }
+  },
+
+  "evidence_graph_consolidated": {
+    "description": "Bipartite mapping: Tüm claims → supporting/challenging evidence",
+    "graph": [
+      {
+        "claim": "C-101: Kam/baksı ritüel müzik kullanımı",
+        "supporting_evidence": [
+          "19c Sovyet etnografisi (Radloff)",
+          "20c modern gözlem (Sultanova)",
+          "Turkish Music Portal & MDPI akademik kaynakları"
+        ],
+        "challenging_evidence": [
+          "Arkeolojik enstrüman buluntuları sınırlı (çoğu Osmanlı sonrası)",
+          "Ön-İslami dönem doğrudan kayıt yok",
+          "Sovyet baskısı altında pratiş, antik form ne kadar korumuş? Bilinmiyor."
+        ],
+        "verdict": "STRONGLY_SUPPORTED (modern observable) but UNPROVEN (historical origin)"
+      },
+      {
+        "claim": "C-102: Kopuz ön-İslami → İslami döneme geçişte korunmuş",
+        "supporting_evidence": [
+          "Clauson Etimolojik Sözlüğü (ön-13c attestation)",
+          "Dede Korkut yazmaları (ozan kopuz referansı)",
+          "TDV İslam Ansiklopedisi",
+          "Osmanlı miniature görsel kanıt (16-19c bağlama)"
+        ],
+        "challenging_evidence": "YOK",
+        "verdict": "ESTABLISHED — no contradictions"
+      },
+      {
+        "claim": "C-103: Sufizm → Tengriist ritüel müzik yeniden-formlandırılması",
+        "supporting_evidence": [
+          "Sultanova Otin-Oy etnografik saha verisi (modern)",
+          "Sufizm-Tengrism sinkretizm teori (plausible)",
+          "Central Asia Guide, Pharos JoT teolojik analiz"
+        ],
+        "challenging_evidence": [
+          "Sultanova modern pratiğin gözlem; tarihsel kanıt değil",
+          "11-16c geçiş dönemi doğrudan belgesi yok",
+          "Nedensellik mekanizması (Sufizm geldi → ritüel yeniden-formlandırıldı) dolaylı",
+          "Alternatif: müzik korundu, terminoloji değişti; vs. tam yeniden-yapılandırılma"
+        ],
+        "verdict": "PLAUSIBLE but UNPROVEN — high evidence inflation risk"
+      },
+      {
+        "claim": "C-104: Ozan → Aşık dönüşümü; bağlama kopuz devamı",
+        "supporting_evidence": [
+          "Terminoloji dönüşümü (ozan eski, aşık yeni) tutarlı",
+          "Asik Veysel tarihi örneği (1894-1973)",
+          "Osmanlı miniature bağlama görsel kanıt",
+          "MDPI Shamanistic Rituals → Âşıks"
+        ],
+        "challenging_evidence": [
+          "Ara-formlar (ud, ney) enstrüman seçiminde unspecified",
+          "'Doğrudan devamı' abartılmış olabilir"
+        ],
+        "verdict": "STRONGLY_SUPPORTED — terminoloji + visual proof strong"
+      },
+      {
+        "claim": "C-105: Sultanova 15+ yıl saha araştırması kanıtladığını",
+        "supporting_evidence": [
+          "Cambridge Faculty of Music affiliation (verified)",
+          "Published book (Cambridge University Press 2014)",
+          "Saha verisi (Otin-Oy etnografik gözlem)",
+          "Multiple katalog doğrulaması"
+        ],
+        "challenging_evidence": [
+          "Modern pratiğin gözlem; antik form tarihçesi değil",
+          "Tarihsel sürekliliğin kanıtı INDIRECT"
+        ],
+        "verdict": "ESTABLISHED (institutional fact) NOT HISTORICAL_PROOF"
+      },
+      {
+        "claim": "C-106: Kam/baksı etymoloji 5c izlenebilir, Türkçe özgün",
+        "supporting_evidence": [
+          "Clauson Oxford 1972",
+          "Kyrgyz 'gan' 5c Çin kaynakları (Radloff referans)",
+          "TDV İslam Ansiklopedisi"
+        ],
+        "challenging_evidence": [
+          "5c tarihlemesi dolaylı (Çin referansı)",
+          "Baksı etimoloji tartışmalı (Türkçe vs. Arap vs. Pers)",
+          "Terminoloji evresi (hangi dönem hangi terim tercih?) belirsiz"
+        ],
+        "verdict": "STRONGLY_SUPPORTED (kam) — CAVEAT (baksı etymology uncertain)"
+      }
+    ]
+  },
+
+  "red_team_findings": [
+    {
+      "finding_id": "MUSIK-RT-001",
+      "category": "Evidence Inflation",
+      "issue": "Sultanova modern saha verisi (1990s-2010s), antik Tengriist-Sufi müzik sentezinin 'kanıtı' olarak sunuluyor. Tarihsel proof değil, modern observable.",
+      "severity": "HIGH",
+      "correction": "Sultanova, kontempor müzik pratiğinin sürekliliğini gösterir; Tengriist-Sufi mekanizmasının tarihsel tüm belgeleme gerekli (eksik)."
+    },
+    {
+      "finding_id": "MUSIK-RT-002",
+      "category": "Causation Gap",
+      "issue": "Sufizm geldi (10-11c) → Tengriist ritüel müzik yeniden-formlandırıldı, ama mekanizm belirtilmemiş. Hangi Sufi tarikatları? Hangi coğrafyada? Lokal müzisyen yanıtı?",
+      "severity": "HIGH",
+      "correction": "Tarikat-merkezli müzik politik analiz gerekli; bölgesel varyasyon (Ferghana vs. Doğu Türkistan) belirtilmeli."
+    },
+    {
+      "finding_id": "MUSIK-RT-003",
+      "category": "Methodological Anachronism",
+      "issue": "Sovyet bastırılması (1920s-1991) altında müzik, antik Tengriist form nasıl 'korundu'? Gizli pratiş ≠ orijinal form. Post-Sovyet 'kurtarma' = revizyalizm riski yüksek.",
+      "severity": "HIGH",
+      "correction": "Sovyet arşiv (Davydova, Oralova) ve post-Sovyet müzik pratişi kronolojisi belirtilmeli; hangi kadarı antik vs. modern kurgu?"
+    },
+    {
+      "finding_id": "MUSIK-RT-004",
+      "category": "Source Availability",
+      "issue": "Beissembayev etnomüzikolog araştırması bulunmadı; Sovyet müzikolog arşivleri (Kazak/Rusça) sınırlı erişim. Temel kaynakları erişilmez.",
+      "severity": "MEDIUM",
+      "correction": "Kazak ve Sovyet-dönem müzik arşivleri açılmalı; Beissembayev kaynağı lokalize edilmeli."
+    },
+    {
+      "finding_id": "MUSIK-RT-005",
+      "category": "Geographic Bias",
+      "issue": "Sultanova Ferghana-merkez; Doğu Türkistan, Altay, Kuzey Kafkasya, Anadolu Alevi-Bektaşi karşılaştırması yok. Ferghana model, tüm Türk halklarına genellenmiş olabilir.",
+      "severity": "MEDIUM",
+      "correction": "Multi-region etnomüzikoloji karşılaştırması gerekli; Türk müzik geleneklerinin Tengriist-Sufi varyasyonları belirtilmeli."
+    }
+  ],
+
+  "final_synthesis": {
+    "core_finding": "**Tengriist-Sufi müzik sürekliliği, enstrüman etimolojisi ve modern pratik seviyesinde STRONG; ama tarihsel mekanizması (11-16c dönemi) PLAUSIBLE ama UNPROVEN. Sultanova etnografik kanıtı kurumsal olarak ESTABLISHED; tarihsel anlamda INDIRECT.**",
+
+    "historiographic_insight": "Müzik geleneği, çok-katmanlı: (1) Tengriist ritüel (antik, form bilinmiyor), (2) Sufi entegrasyon (Sufizm forması örtüyor ama enstrüman korundu), (3) Osmanlı Aşık (terminoloji değişti, bağlama modern form), (4) Sovyet kontrol (din bastırılmış, müzik 'milli kültür' arşivlenmiş), (5) Post-Sovyet revizyalizm (feminist-ulus-merkezli reinterpretasyon). Her katman, 'orijinal formu' gizler.",
+
+    "source_gap_implications": "Orkhon yazıtları (8c) minimal Tengriism → Modern Otin-Oy sistaerhood (20c). Bu gap'in müzik pratişi kronolojisi bilinmiyor. Gizli pratiş (plausible) vs. Sovyet yeniden-yapılandırılması (de plausible).",
+
+    "recommendation_for_video": "CAND-02 video, **'kurucu authenticity' (founding authenticity) yerine 'layered contestation' (çok-katmanlı tartışma)** perspektifi kullanmalı. Tengriist ritüel müzik ile Sufi bağlantısı PLAUSIBLE ve görsel kanıt (enstrüman sürekliliği) güçlü; ama 'kanıt' kelimesi caveat edilmeli. Sultanova saha verisi değerli ama modern; tarihsel kökenin Sovyet bastırılması-sonrası yeniden-yapılandırılması derinliği gösterilmeli. **Enstrüman etimoloji (kopuz → saz) ve terminoloji dönüşümü (ozan → aşık) daha güçlü evidential dallı; bunları video merkezine almalı.**"
+  }
+}

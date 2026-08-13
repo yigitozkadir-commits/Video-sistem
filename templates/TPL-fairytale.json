@@ -1,0 +1,71 @@
+{
+  "template_id": "TPL-fairytale",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 5.5,
+      "range": [
+        4.5,
+        7
+      ]
+    },
+    "still_video_ratio": 0.6,
+    "motion_ceiling": 2,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pan.right",
+      "tilt.up"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/fairytale_illustrated.json",
+    "palette": {
+      "dominant": [
+        "gold",
+        "forest green",
+        "soft edge"
+      ],
+      "forbidden": [
+        "photoreal grit"
+      ]
+    },
+    "lens_set": [
+      "wide",
+      "normal"
+    ],
+    "lighting": [
+      "golden_hour",
+      "single_window_soft",
+      "candlelight_intimate"
+    ],
+    "forbidden": [
+      "horror imagery",
+      "modern objects"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.55,
+      "style": 0.35,
+      "speed": 1.0,
+      "wpm": 130
+    },
+    "music": {
+      "density": "high",
+      "instruments": "harp, flute, music box",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "forest, hearth, birdsong",
+    "silence_max_s": 1.8
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "framing_repetition_allowed": 3
+  },
+  "budget_profile": {
+    "credits_per_minute": 210
+  }
+}

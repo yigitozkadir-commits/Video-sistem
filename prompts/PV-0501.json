@@ -1,0 +1,24 @@
+{
+  "prompt_id": "PV-0501",
+  "family": "review.visual_qa.shot",
+  "tool": "review",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "shot_spec",
+    "character_sheet",
+    "anchor_frame"
+  ],
+  "template": "You are reviewing a generated shot against its intent. You did not create it.\nInputs: the video, the shot spec, the character sheet, the scene anchor frame.\nScore NAR, VIS, TEC, CMP, EMO, MOT, IDN as integers 0-100. Each score requires at least one observation citing a frame number or timecode.\nReport findings only about conformance to the spec. Never propose creative changes.\nIf confidence on a blocking finding is below 0.6, downgrade to major and set needs_human true.\nOutput JSON only, matching qa_report.schema.json.",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

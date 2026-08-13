@@ -1,0 +1,25 @@
+{
+  "prompt_id": "PV-0401",
+  "family": "director.shot_design",
+  "tool": "director",
+  "version": 1,
+  "supersedes": null,
+  "language": "en-US",
+  "variables": [
+    "beat_map",
+    "timing_map",
+    "camera_vocabulary",
+    "motion_ceiling"
+  ],
+  "template": "Design shots for these beats using Module 17 sections 6 and 7 decision trees.\nFor every shot output: camera, lens, framing, motion_level, duration_s, kind, and a one-sentence reason.\nIf your reason contains 'to make it more interesting', set camera to static.\nQuery decision memory for the same question in this project and cite precedent ids you followed or deliberately broke.\nRespect template camera_vocabulary {camera_vocabulary} and motion_ceiling {motion_ceiling}.\nOutput JSON only, matching shot_plan / shot.schema.json.\n\nBEATS:\n{beat_map}\nNARRATION TIMING:\n{timing_map}",
+  "constraints": {},
+  "negative_base": "",
+  "stats": {
+    "uses": 0,
+    "avg_score": 0,
+    "first_pass_yield": 0,
+    "avg_cost": 0
+  },
+  "status": "active",
+  "notes": ""
+}

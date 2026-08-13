@@ -1,0 +1,113 @@
+{
+  "phase": "D",
+  "section": "KURG",
+  "items": "61-80",
+  "faz_d_summary": {
+    "core_claims": 5,
+    "confidence_breakdown": {
+      "ESTABLISHED": 3,
+      "STRONGLY_SUPPORTED": 2,
+      "CONTESTED": 1
+    },
+    "key_findings": [
+      "Pazyryk kurgans: exceptional textile preservation through permafrost (uncontested archaeological fact)",
+      "Issyk kurgan: 4,000+ gold ornaments indicating elite Scythian-Saka status (established but gender classification contested)",
+      "Scythian elite hereditary dynasties: Max Planck ancient DNA study documents hereditary power transmission (2026, robust)",
+      "Gimbutas kurgan hypothesis: historically influential but superseded by modern genetic models as dominant explanatory framework for Proto-Indo-European origins"
+    ]
+  },
+  "historiography_key_debate": {
+    "question": "Does kurgan hypothesis (Gimbutas 1956) or steppe migration model (ancient DNA 2015+) better explain Proto-Indo-European origins?",
+    "status": "MAJOR PARADIGM SHIFT",
+    "timeline": [
+      "1956-2000: Gimbutas kurgan hypothesis dominant (archaeology + linguistics unified)",
+      "2015+: Ancient DNA models emerged (Haak et al., Mathierson et al.) — genetic evidence challenges single kurgan-culture model",
+      "Current (2026): Multiple-wave steppe herder migration models now consensus in genetics; kurgan hypothesis remains influential but secondary"
+    ]
+  },
+  "claims_consolidated": [
+    {
+      "claim_id": "C-KURG-001",
+      "text": "Pazyryk kurgans preserved extraordinary textiles and mummies through permafrost ice formation, dating to 6th-3rd centuries BCE",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "ESTABLISHED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "ESTABLISHED"},
+        {"phase": "D", "value": "ESTABLISHED", "reason": "Physical preservation mechanism uncontested; direct archaeological evidence from Ukok Plateau excavations; Penn Museum documentation"}
+      ],
+      "d2_qualification": "READY - uncontested fact; no revision needed"
+    },
+    {
+      "claim_id": "C-KURG-002",
+      "text": "Issyk kurgan contained over 4,000 gold ornaments with animal motifs, indicating elite Scythian-Saka status around 5th century BCE",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "ESTABLISHED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag: Gender of 'Golden Man' skeleton contested (initial classification male, recent analysis suggests possible female); wealth interpretation depends on chronology assumptions"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Elite status undisputed; gender and specific cultural interpretation less certain. Production should reference 'elite burial' rather than gender-specific terminology given ongoing classification debate"}
+      ],
+      "d2_qualification": "CONDITIONAL - use gender-neutral language: 'Elite burial with 4,000+ gold ornaments' rather than 'Golden Man' (gender contested)"
+    },
+    {
+      "claim_id": "C-KURG-003",
+      "text": "Gimbutas' kurgan hypothesis (1956) links kurgan archaeology with linguistics to locate Proto-Indo-European origins in Pontic-Caspian steppe",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "CONTESTED",
+      "confidence_history": [
+        {"phase": "B", "value": "CONTESTED"},
+        {"phase": "C", "value": "CONTESTED", "reason": "Historiography revision: Haak et al. (2015), Mathienson et al. (2015) genetic models differ significantly from kurgan hypothesis; DNA evidence shows multiple waves; timing disputes unresolved"},
+        {"phase": "D", "value": "CONTESTED", "reason": "Paradigm shift documented: kurgan hypothesis was revolutionary (1950s-2000s) but has been superseded/supplemented by genetic models since 2015. Current scholarly consensus: multiple-wave steppe migration models, not single kurgan expansion"}
+      ],
+      "d2_qualification": "CONDITIONAL - requires major historiographic qualification: 'Gimbutas' kurgan hypothesis (1956) was influential in Indo-European studies but has been significantly revised by modern ancient DNA evidence (2015+), which proposes multiple waves of steppe herder migration rather than single kurgan-culture expansion'"
+    },
+    {
+      "claim_id": "C-KURG-004",
+      "text": "Recent ancient DNA analysis shows Scythian elites inherited high social status and formed hereditary dynasties, with family ties across 60+ mile distances",
+      "type": "fact",
+      "importance": "core",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Max Planck study solid; female elite burial suggests matrilineality may compete with patrilineality; succession rules vary"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Ancient DNA evidence solid; social organization details still emerging. Note: 2026 study reveals nearly 50% of elite burials were female (suggesting complex succession rules)"}
+      ],
+      "d2_qualification": "READY - ancient DNA evidence is high-quality; no revision needed; note about female elites enriches understanding of social complexity"
+    },
+    {
+      "claim_id": "C-KURG-005",
+      "text": "Scythian kurgan burials reveal social hierarchy through grave goods disparity: elite graves contain gold/weapons/imported vessels, common graves simple or empty",
+      "type": "fact",
+      "importance": "supporting",
+      "confidence": "STRONGLY_SUPPORTED",
+      "confidence_history": [
+        {"phase": "B", "value": "STRONGLY_SUPPORTED"},
+        {"phase": "C", "value": "STRONGLY_SUPPORTED", "reason": "Red-team flag: Hierarchy evident in grave goods, but living status ≠ burial wealth assumption questioned in modern archaeology; need parallel settlement/isotope data"},
+        {"phase": "D", "value": "STRONGLY_SUPPORTED", "reason": "Hierarchy pattern confirmed; assumption that burial goods reflect living status is now more nuanced (some societies undo inequality in death). Claim directionally sound"}
+      ],
+      "d2_qualification": "READY - hierarchy evident; no major revision needed; note about living/post-mortem status linkage if needed"
+    }
+  ],
+  "competing_schools_detailed": [
+    {
+      "school": "Marija Gimbutas (1956-1991) — Kurgan hypothesis",
+      "position": "Proto-Indo-European speakers originated in Pontic-Caspian steppe kurgan cultures; three waves of migration (~4400, 3400, 3000 BCE) conquered Europe",
+      "based_on": "Kurgan archaeology + linguistic reconstruction",
+      "status": "debate",
+      "fringe_scale": "ACADEMIC_MINORITY — historically dominant, now competing",
+      "revision_impact": "PARADIGM_SHIFTING — unified archaeology + linguistics for Indo-European origins"
+    },
+    {
+      "school": "Ancient DNA school (Haak et al. 2015, Mathieson et al. 2015) — Multiple waves model",
+      "position": "Proto-Indo-European expansion involved multiple waves of steppe herder migration; genetics shows admixture but challenges single kurgan-culture model",
+      "based_on": "Genome-wide association studies; ancient DNA paleogenomics",
+      "status": "consensus",
+      "fringe_scale": "NOT_APPLICABLE — current scientific consensus (2015+)",
+      "revision_impact": "PARADIGM_SHIFTING — replaced kurgan hypothesis as dominant explanatory framework"
+    }
+  ]
+}

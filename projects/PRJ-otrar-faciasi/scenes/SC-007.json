@@ -1,0 +1,24 @@
+{
+  "scene_id": "SC-007",
+  "act": 2,
+  "title": "Kışkırtma mı, Bahane mi?",
+  "scene_type": "discovery",
+  "summary": "Videonun merkezi sorusu: Otrar olayı gerçek bir kışkırtma mıydı, yoksa Cengiz Han'ın zaten planladığı bir seferin uygun bir bahanesi miydi? Tarihçi Peter Jackson dahi kesin cevap veremiyor.",
+  "source_text": "İşte burada tarih bir bilmeceye dönüşüyor. Bazı tarihçiler, Otrar'ın gerçek bir kışkırtma olduğunu, Moğolları aksi halde istemeyecekleri bir savaşa sürüklediğini düşünüyor. Bazıları ise tam tersini savunuyor: sınır zaten oluşmuştu, Cengiz Han zaten batıya bakıyordu - Otrar sadece uygun bir bahaneydi. Tarihçi Peter Jackson, kaynakların olayın kendisini güvenilir şekilde belgelediğini ama Harezm tarafının neden güçlü Moğollara meydan okuduğunu hiçbir zaman açıklamadığını yazıyor. Belki de cevap, ikisinin ortasında bir yerde.",
+  "duration_estimate_s": 50,
+  "emotion": "intellectual tension",
+  "importance": 1.0,
+  "location": "",
+  "time_of_day": "",
+  "weather": "",
+  "characters": [],
+  "continuity_from": "SC-006",
+  "qa_status": "pending",
+  "shots": [
+    "SH-007-01",
+    "SH-007-02",
+    "SH-007-03",
+    "SH-007-04",
+    "SH-007-05"
+  ]
+}

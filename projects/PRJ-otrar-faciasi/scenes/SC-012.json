@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-012",
+  "act": 3,
+  "title": "Bir Kervanın Gölgesi",
+  "scene_type": "ending",
+  "summary": "Kapanış: soruya geri dönüş - tarih tek bir kervanın kaderiyle mi değişti, yoksa bu zaten kaçınılmaz mıydı? İzleyiciye düşünme alanı bırakılır.",
+  "source_text": "Bugün hâlâ soruyoruz: dört yüz elli tüccarın kaderi mi tarihi değiştirdi, yoksa tarih zaten o yöne mi gidiyordu? Belki de gerçek şu: bazen tarihin en büyük dönüm noktaları, en küçük kararlarda saklıdır. Ya da belki, o kararlar sadece zaten yazılmış bir sonun bahanesiydi. Karar sizin.",
+  "duration_estimate_s": 35,
+  "emotion": "reflective, open-ended",
+  "importance": 0.9,
+  "location": "",
+  "time_of_day": "",
+  "weather": "",
+  "characters": [],
+  "continuity_from": "SC-015",
+  "qa_status": "pending",
+  "shots": [
+    "SH-012-01",
+    "SH-012-02",
+    "SH-012-03"
+  ]
+}

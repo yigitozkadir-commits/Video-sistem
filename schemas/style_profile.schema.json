@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/style_profile.schema.json",
+  "title": "Style Profile",
+  "description": "Visual constitution of a project. M15 §8.",
+  "type": "object",
+  "properties": {
+    "style_id": {
+      "type": "string"
+    },
+    "palette": {
+      "type": "object",
+      "properties": {
+        "dominant": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "forbidden": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "grade": {
+      "type": "string"
+    },
+    "grain": {
+      "type": "string"
+    },
+    "lens_set": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "motion_ceiling": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "lighting_vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "texture_language": {
+      "type": "string"
+    },
+    "forbidden": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "style_id",
+    "palette",
+    "motion_ceiling"
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,30 @@
+{
+  "style_id": "fairytale_illustrated",
+  "palette": {
+    "dominant": [
+      "#D4AF37",
+      "#2F5D3A",
+      "#F4E6C8"
+    ],
+    "forbidden": [
+      "photoreal grit"
+    ]
+  },
+  "grade": "illustrated storybook, soft edges, gold accents",
+  "grain": "paper texture",
+  "lens_set": [
+    "wide",
+    "normal"
+  ],
+  "motion_ceiling": 2,
+  "lighting_vocabulary": [
+    "golden_hour",
+    "single_window_soft",
+    "candlelight_intimate"
+  ],
+  "texture_language": "painted foliage, embroidered cloth, carved wood",
+  "forbidden": [
+    "horror imagery",
+    "modern objects"
+  ]
+}

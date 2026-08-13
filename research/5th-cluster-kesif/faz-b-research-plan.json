@@ -1,0 +1,78 @@
+{
+  "phase": "B",
+  "phase_step": "B1",
+  "candidate_id": "CAND-damgalar-001",
+  "research_plan": {
+    "central_question": "Were Turkic clan seals and identity marks (damgalar) precursors to or parallel developments with Old Turkic runic writing?",
+    "sub_questions": [
+      {
+        "sub_q_id": "SQ-01",
+        "question": "What materials, forms, and contexts are damgalar found in?",
+        "claim_types": ["factual_characterization"],
+        "evidence_needed": ["archaeological_artifact", "textual_description", "museum_catalog"],
+        "source_routes": ["web/general_discovery", "archival/museum_catalogs", "material_evidence"]
+      },
+      {
+        "sub_q_id": "SQ-02",
+        "question": "What is the chronological range of damgalar usage across Turkic groups?",
+        "claim_types": ["temporal_establishment"],
+        "evidence_needed": ["dating_evidence", "primary_sources", "archaeological_context"],
+        "source_routes": ["academic_literature", "archival_records", "primary_sources"]
+      },
+      {
+        "sub_q_id": "SQ-03",
+        "question": "Did damgalar function as identity markers, property marks, proto-writing, or some combination?",
+        "claim_types": ["functional_interpretation"],
+        "evidence_needed": ["historical_records", "usage_context", "expert_interpretation"],
+        "source_routes": ["academic_literature", "multilingual_sources", "archival_records"]
+      },
+      {
+        "sub_q_id": "SQ-04",
+        "question": "Is there evidence of direct evolution or transmission from seals to runic writing?",
+        "claim_types": ["causal_claim"],
+        "evidence_needed": ["comparative_analysis", "transmission_chain", "counter_evidence"],
+        "source_routes": ["academic_literature", "primary_sources", "expert_debate"]
+      },
+      {
+        "sub_q_id": "SQ-05",
+        "question": "How did damgalar vary regionally and what do regional patterns suggest?",
+        "claim_types": ["factual_variation", "interpretive"],
+        "evidence_needed": ["regional_examples", "comparative_analysis", "multilingual_sources"],
+        "source_routes": ["web/general", "academic_literature", "multilingual_sources"]
+      }
+    ],
+    "search_strategies": [
+      {
+        "query_type": "EXACT_CLAIM",
+        "keywords": ["Turkic seals", "damgalar", "clan marks", "Turkic identity marks"],
+        "languages": ["english", "turkish"]
+      },
+      {
+        "query_type": "EARLIEST_ATTESTATION",
+        "keywords": ["oldest Turkic seal", "earliest damgalar evidence", "proto-Turkic marks"],
+        "languages": ["english", "turkish"]
+      },
+      {
+        "query_type": "PRIMARY_SOURCE",
+        "keywords": ["Orkhon inscriptions", "Old Turkic texts seal marks", "Turkic runes origin"],
+        "languages": ["english", "turkish"]
+      },
+      {
+        "query_type": "COUNTER_EVIDENCE",
+        "keywords": ["Turkic seals not writing", "damgalar not proto-script", "independent development"],
+        "languages": ["english", "turkish"]
+      },
+      {
+        "query_type": "LANGUAGE_SPECIFIC",
+        "keywords": ["Kazakh damga", "Kyrgyz tamga", "Tatar tamga", "Turkic tamga history"],
+        "languages": ["turkish", "english"]
+      },
+      {
+        "query_type": "ARCHIVAL_TRACE",
+        "keywords": ["Ottoman seal records", "Turkic seal museum collection", "archaeological excavation seals"],
+        "languages": ["english", "turkish"]
+      }
+    ]
+  },
+  "status": "plan_ready_for_b2"
+}

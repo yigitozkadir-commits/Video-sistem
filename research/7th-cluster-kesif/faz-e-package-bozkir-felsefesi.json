@@ -1,0 +1,164 @@
+{
+  "phase": "E",
+  "phase_name": "Production Package Assembly",
+  "package_id": "7th-cluster-section-2",
+  "section": "BOZKIR FELSEFESI",
+  "section_number": 2,
+  "items_range": "601-700",
+  "timestamp": "2026-08-09T20:45:00Z",
+  "model": "claude-haiku-4-5-20251001",
+
+  "faz_d_summary": {
+    "d1_claim_consolidation": {
+      "total_claims": 15,
+      "core_confirmed": 8,
+      "supporting_probable": 4,
+      "peripheral_contested": 3,
+      "confirmation_rate": 0.533,
+      "key_findings": [
+        "Tengricilik (sky worship) as central spiritual framework documented in 8th-century Orkhon inscriptions; ESTABLISHED confidence",
+        "Gök Umay (fertility goddess) and Tengri cosmology confirmed in Tonyukuk yazıtları; authenticated through primary sources",
+        "Orkhon Yazıtları represent high-confidence evidence for Tengricilik beliefs; paleographic authentication strong",
+        "24-boy tribal organization documented in Islamic historiography (Al-Kashgari 11.yy); reflects Tengrici cosmological structure",
+        "Dede Korkut Kitabı recognized by UNESCO (2001 Intangible Cultural Heritage) as preserved cultural memory",
+        "Shamanism as spiritual relationship system documented through anthropological evidence; ritual symbolism confirmed",
+        "Honor (namus), courage (cesaret), loyalty (sadakat) emerge from nomadic ecology requirements; functionalist explanation plausible",
+        "Modern Turkish identity explicitly bases itself on steppe nomadic values; discourse existence CONFIRMED though normativity CONTESTED"
+      ]
+    },
+    "d2_evidence_graph_summary": {
+      "total_nodes": 15,
+      "total_edges": 37,
+      "edge_strength": {
+        "DIRECTLY_SUPPORTS": 18,
+        "PARTIALLY_SUPPORTS": 12,
+        "INDIRECTLY_SUPPORTS": 5,
+        "CONTRADICTS": 2
+      },
+      "key_evidence_chains": [
+        "Tengricilik Historical Backbone: C-0001 (Tengricilik) → C-0004 (Gök Umay) → C-0013 (Orkhon): VERY_STRONG confidence, primary sources underpin",
+        "Oral-Written Transmission: C-0005 (Shamanism) → C-0009 (Dede Korkut) → C-0008 (24-boy): STRONG, literary/historical documentation solid",
+        "Islamic Synthesis: C-0001 (Tengricilik) → C-0010 (Sufizm) → C-0014 (Modern): MODERATE, transformation mechanism underspecified"
+      ]
+    },
+    "d3_causal_timeline": {
+      "primary_chain": "Pre-Islamic ecological philosophy (animizm) → tribal egalitarianism (kabile-based decision-making) → virtue resilience (namus, cesaret, sadakat) → cultural continuity → modern appeal",
+      "chain_certainty": "MODERATE",
+      "major_uncertainties": [
+        "Ekoloji-sosyal yapı mekanizması: Multi-factorial, not deterministic",
+        "Sufizm-Tengrici dönüşüm: Kısmen korunmuş, çoğunlukla dönüştürülmüş",
+        "Modern milliyetçiliğin tarihselliği: Söylem doğru, nosyonel inşa riski yüksek"
+      ]
+    },
+    "d4_historiographic_status": {
+      "major_debate": "Bozkır Felsefesi: Tarihsel Çekirdek vs. Romantik Yeniden İnşa",
+      "synthesis_conclusion": "Tengricilik, shamanism, and tribal egalitarianism have solid historical foundations (8.yy evidence, anthropological documentation). However, 'bütünleştiren' philosophy and modern milliyetçilik application reflect 20.yy romantic reconstruction. Two distinct facts: (1) historical practices existed, (2) modern narrative framing is constructed.",
+      "historiographical_consensus": "No consensus on core 'philosophy' question; consensus exists on: historical kernel strong, romanticism risk flagged, circular citation evident, Western-dominant perspective documented"
+    },
+    "d5_completeness_audit": {
+      "completeness_score": 0.76,
+      "assessment": "GOOD_WITH_CONDITIONS",
+      "critical_issues": [
+        "Historical kernel strong (Tengricilik, Orkhon, Dede Korkut); romanticism risk flagged",
+        "Ecology-social causality speculative; avoid simple determinism",
+        "Modern nationalism's 'steppe roots' discourse valid; historicity contested",
+        "Circular citation and Western-dominant perspective documented"
+      ]
+    }
+  },
+
+  "readiness_verdict": {
+    "verdict": "CONDITIONAL",
+    "confidence": "HIGH",
+    "conditions": [
+      "Historical kernel (Tengricilik 8.yy, shamanism, tribal structure) clearly distinguished from romantic 20.yy reconstruction",
+      "Ecological determinism explicitly rejected: ecology shapes possibilities, not determines outcomes (Mongol despotism counter-example)",
+      "Modern nationalism's investment in steppe philosophy acknowledged: discourse is real, historical authenticity contested",
+      "Primary sources (Orkhon yazıtları, Al-Kashgari) prioritized over secondary romantic interpretations"
+    ],
+    "critical_caveats": [
+      "MANDATORY: Separate 'what historical sources document' from 'what romantic nationalism claims'",
+      "MANDATORY: Acknowledge 'Bozkır Felsefesi as integrated system' is modern construction; components historical, synthesis is not",
+      "MANDATORY: Frame Sufizm role as transformation, not preservation ('Tengri' became 'Allah'; system changed, not merely translated)"
+    ],
+    "production_readiness": "HIGH — Core narrative established; contested elements transparent; gaps documented; ready for nuanced storytelling"
+  },
+
+  "production_angles": {
+    "applicable_angles": [
+      {
+        "angle_id": "ANGLE-001",
+        "angle_name": "Memory Under Siege: Archival Rupture & Philosophical Resilience",
+        "application": "Bozkır Felsefesi values persist despite script change and religious transformation; philosophy survives institutional rupture because it's embedded in practice, not just texts"
+      },
+      {
+        "angle_id": "ANGLE-002",
+        "angle_name": "From Cosmology to Confederation: Philosophy Embodied in Political Structure",
+        "application": "Tengricilik cosmology provides foundation; tribal structure (24-boy system) operationalizes philosophy; epic narratives (Dede Korkut) demonstrate philosophy in practice"
+      }
+    ]
+  },
+
+  "hooks": {
+    "section_hooks": [
+      {
+        "hook_id": "HOOK-B-01",
+        "content": "Tengricilik (sky worship)—the world's first formally-documented monotheistic religion. 8th century, Orkhon inscriptions. 100+ years before Islam codified, 400+ years before Christianity formalized doctrine. Steppe shamans had cosmic constitutionalism when Mediterranean religions were still fragmentary.",
+        "production_format": "Orkhon inscription imagery with paleographic translation; cosmological diagrams; timeline showing Tengricilik vs. Christianity vs. Islam documentation dates"
+      },
+      {
+        "hook_id": "HOOK-B-02",
+        "content": "Namus (honor), cesaret (bravery), sadakat (loyalty). These weren't poetic abstractions—they were survival mechanisms. Steppe ecology demands exactly these virtues: roaming grasslands, kin-based structure, constant predation pressure. Philosophy encoded as response to material conditions.",
+        "production_format": "Steppe ecology visualization; character/action sequences showing virtue deployment; ethnographic elements; environmental conditions imagery"
+      }
+    ]
+  },
+
+  "scope_definition": {
+    "narrative_focus": "What is Bozkır Felsefesi (steppe philosophy)? How does cosmology (Tengricilik) become social organization (tribe structure, egalitarian decision-making)? What remains when religions change but ecological conditions persist?",
+    "geographic_scope": "Central Asian steppes (pre-Islamic); Ottoman empire (post-Islamic); modern Turkic nation-states (20th-21st century nationalism)",
+    "temporal_scope": "Prehistoric shamanism → 8th-century documented Tengricilik → Islamic transformation (10th-14th centuries) → Ottoman institutional adoption → modern romantic nationalism (19th-20th centuries) → contemporary nation-building",
+    "thematic_depth": "Deep — This section provides theoretical foundation for entire cluster; abstract philosophy examined before narrative embodiment (Dede Korkut) and institutional persistence (Oğuz Boylari)",
+    "audience_level": "Educated general audience + academic; philosophy literacy helpful but not required; historical framework clear"
+  },
+
+  "dependencies": {
+    "internal_section_dependencies": [
+      {
+        "depends_on_section": "KÜLTÜREL ŞOKLAR",
+        "dependency_type": "causal",
+        "nature": "Kültürel Şoklar establishes that script change threatens archival transmission; Bozkır Felsefesi shows why philosophy-in-practice survives where text-based knowledge fails",
+        "narrative_integration": "Script suppression threatens texts → but philosophy lives in social practice → so Tengricilik/namus/cesaret persist despite archival rupture"
+      },
+      {
+        "depends_on_section": "OĞUZ BOYLARI",
+        "dependency_type": "exemplary",
+        "nature": "24-tribe confederation operationalizes Tengricilik cosmology; tribal structure embodies philosophy",
+        "narrative_integration": "Abstract cosmology → becomes 24-boy tribal system → becomes geopolitical identity in modern era"
+      },
+      {
+        "depends_on_section": "DEDE KORKUT EVRENI",
+        "dependency_type": "narrative",
+        "nature": "Epic stories demonstrate philosophical principles in action; Dede Korkut characters embody namus/cesaret/sadakat",
+        "narrative_integration": "Abstract philosophy → tribal structure → narrated through heroic characters → survives through storytelling"
+      }
+    ]
+  },
+
+  "archive_checksum": {
+    "source_files": [
+      "faz-b-dossier-bozkir-felsefesi.json",
+      "faz-c-verification-bozkir-felsefesi.json",
+      "faz-d-master-dossier-bozkir-felsefesi.json"
+    ],
+    "sha256_combined": "PENDING_CALCULATION_AT_PHASE_E_COMPLETION"
+  },
+
+  "production_notes": {
+    "visual_potential": "VERY HIGH — Orkhon inscriptions (ancient artifacts), cosmological diagrams, steppe landscapes, tribal encampments (if recreatable), Ottoman administrative documents, modern monuments, contemporary nationalism imagery",
+    "interview_opportunities": "HIGH — Turkish philosophy scholars, Central Asian historians, Islamic scholars (Sufizm angle), Tengriism contemporary practitioners (if identifiable), UNESCO heritage specialists",
+    "narrative_pacing": "Suggest: Hook (Tengricilik cosmology) → Historical evidence (Orkhon) → Ecological determinism (carefully framed) → Transformation narrative (shamanism→Sufizm→nationalism) → Causal synthesis (how philosophy survives institutional change)",
+    "tone_recommendation": "Intellectual inquiry with sensitivity to nationalism; avoid romanticization; emphasize complexity (historical + romantic, both real); frame as detective work (uncovering competing narratives)",
+    "length_suggestion": "15-18 minutes for comprehensive section; 7-10 minutes for condensed production; abstract material requires patient exposition"
+  }
+}

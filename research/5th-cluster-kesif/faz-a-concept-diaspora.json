@@ -1,0 +1,43 @@
+{
+  "phase": "A",
+  "candidate_id": "CAND-diaspora-001",
+  "title": "Language as Identity: PRC & Russian Language Policy in Turkic Diaspora",
+  "research_question": "How do PRC and Russian state language policies reshape Turkic ethnic identity and linguistic practice in diaspora communities (Uyghurs, Kazakhs, Kyrgyz, Uzbeks, Tatars)?",
+  "sub_questions": [
+    "What are the mechanisms of Mandarin imposition in Xinjiang and its impact on Uyghur linguistic identity?",
+    "How does Russian Cyrillic retention policy affect linguistic and ethnic identity in post-Soviet Central Asian Turkic nations?",
+    "What measurable shifts in language use (intergenerational transmission, code-switching) occur under these policies?",
+    "How do diaspora communities perceive and resist or adapt to state language policies?",
+    "What is the relationship between educational policy, language rights, and identity mutation across Turkic groups?"
+  ],
+  "story_candidates": [
+    {
+      "angle_id": "A-001",
+      "title": "The Mandarin Mandate: Language Policy as Identity Erasure in Xinjiang",
+      "core_tension": "Official Chinese policy frames Mandarin promotion as 'integration and development,' but Uyghur scholars document systematic suppression of Uyghur language in education and public life, creating generational linguistic loss.",
+      "originality": "medium",
+      "scholarly_strength": "high"
+    },
+    {
+      "angle_id": "A-002",
+      "title": "Cyrillic & Sovereignty: How Russian Language Policy Reinforces Post-Soviet Control",
+      "core_tension": "After Soviet collapse, Russia maintains linguistic influence through Cyrillic script retention in Kazakhstan, Kyrgyzstan, and elsewhere, even as these nations nominally reclaim indigenous languages—a soft-power mechanism rarely analyzed in English.",
+      "originality": "high",
+      "scholarly_strength": "high"
+    },
+    {
+      "angle_id": "A-003",
+      "title": "Divided Tongues: Diaspora Youth Identity Under Competing Language Regimes",
+      "core_tension": "Young Uyghurs, Kazakhs, and Kyrgyz navigate contradictory pressures: state policies promoting 'unifying' languages vs. family/cultural preservation of Turkic identities, creating hybrid, contested identities.",
+      "originality": "high",
+      "scholarly_strength": "medium"
+    }
+  ],
+  "winning_candidate_id": "A-002",
+  "scope_note": "Items 351-400 (50 items); focus on verifiable policy documents, demographic/linguistic data, academic sociolinguistics, diaspora testimonies, HRW/OSCE reports, and historiography of language policy debates across PRC, Russia, Kazakhstan, Kyrgyzstan, Uzbekistan.",
+  "research_depth_level": "Archival + Academic + Multilingual (geopolitically sensitive—require neutral academic sources, HRW/UN documentation, not propaganda)",
+  "estimated_sources_needed": 25,
+  "estimated_claims": "15-18 unique claims",
+  "created_at": "2026-08-09",
+  "status": "ready_for_phase_b_c"
+}

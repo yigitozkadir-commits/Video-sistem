@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-011",
+  "act": 3,
+  "title": "Toprağın Söyledikleri",
+  "scene_type": "explanation",
+  "summary": "2017'de Otrar'da yapılan arkeolojik saha çalışması, yüzyıllar önceki kroniklerin anlattığı yıkım tablosunun gerçek maddi kanıtla ne kadar örtüştüğünü temkinli bir yaklaşımla incelemeye çalışır.",
+  "source_text": "Sekiz asır sonra, 2017'de arkeologlar Otrar'a geri döndü. Amaçları, kroniklerin anlattığı bu dramatik yıkım tablosunun toprakta gerçekten iz bırakıp bırakmadığını görmekti. Kesin cevaplar hâlâ eksik - ama araştırma sürüyor, çünkü bazen tarihin gerçeğini, yazılı kelimeden çok toprağın kendisi söyler.",
+  "duration_estimate_s": 35,
+  "emotion": "quiet curiosity",
+  "importance": 0.5,
+  "location": "Otrar arkeolojik alanı",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-010",
+  "qa_status": "pending",
+  "shots": [
+    "SH-011-01",
+    "SH-011-02",
+    "SH-011-03"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "phase": "E",
+  "cluster": "OTTOMAN",
+  "section": "AŞARIŞILIK",
+  "items_range": "701-800",
+  "items_count": 100,
+  "angle": {
+    "text": "Osmanlı tanrı teorisi: Yunan felsefesi mi, İslam özü mü?",
+    "rationale": "E1: AŞARIŞILIK bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Osmanlı Alimler Tanrı'yı Yunanlar Gibi Tartıştı - Neden Batı'da Unutuldu?",
+    "most_dramatic_claim": "Asharianism & Maturidism: Osmanlı scholarly tradition dominant. Naqshbandi order: Orthodox Sharia vs. Bektashi syncretic (pre-Islamic elements). İbrahim al-Kūrānī: Ibn Arabi mysticism + Ashari theology reconciliation (PLAUSIBLE_UNVERIFIED).",
+    "why_compelling": "Teoloji tarihçeliği: İslam klasik felsefesi neden Batı akademisinde yok?"
+  },
+  "claims_summary": {
+    "total_count": 6,
+    "confidence_levels": [
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "SUPPORTED_BUT_IDEOLOGICAL",
+      "SUPPORTED_BUT_MOTIVATION_INTERPRETIVE",
+      "PLAUSIBLE_UNVERIFIED"
+    ],
+    "cautions": "Naqshbandi vs. Bektashi ideolojik vs. pratik ayrım muğlak; pre-Islamic syncretic intentionality unproven"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Naqshbandi vs. Bektashi ideolojik vs. pratik ayrım muğlak; pre-Islamic syncretic intentionality unproven"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "AŞARIŞILIK: Osmanlı Alimler Tanrı'yı Yunanlar Gibi Tartıştı - Neden Batı'da Unutuldu? — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

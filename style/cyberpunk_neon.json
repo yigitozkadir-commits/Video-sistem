@@ -1,0 +1,33 @@
+{
+  "style_id": "cyberpunk_neon",
+  "palette": {
+    "dominant": [
+      "#0FF0FC",
+      "#FF2E88",
+      "#F2B441"
+    ],
+    "forbidden": [
+      "natural daylight"
+    ]
+  },
+  "grade": "high contrast, neon practicals, wet reflections",
+  "grain": "digital noise",
+  "lens_set": [
+    "ultrawide",
+    "wide",
+    "normal",
+    "tele"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "practical_only",
+    "backlit_silhouette",
+    "blue_hour",
+    "volumetric_shafts"
+  ],
+  "texture_language": "wet asphalt, plastic, cheap signage, steam",
+  "forbidden": [
+    "pastoral nature",
+    "historical costume"
+  ]
+}

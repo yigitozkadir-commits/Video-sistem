@@ -1,0 +1,185 @@
+{
+  "phase": "A",
+  "input_summary": "Büyük Devletler serisinin ilk videosu için 8 bozkır imparatorluğu (Hunlar, Göktürkler, Ashina Hanedanı, Uygurlar, Karluklar, Hazarlar, Kumanlar, Kıpçaklar - content_backlog.json consolidation_group 'buyuk-devletler') arasından en yüksek tanınırlık + en güçlü kanıt tabanına sahip adayın seçilmesi.",
+  "candidates": [
+    {
+      "candidate_id": "CAND-01",
+      "title": "Göktürk Kağanlığı — Bir İsmin Doğuşu",
+      "central_question": "Aşina hanedanının kökeni gerçekten neydi - Hun/Xiongnu devamı mı, Tiele konfederasyonunun bir parçası mı, yoksa Hint-Avrupa (Sakalar/Wusunlar) kökenli mi? Ve bu kökensel belirsizlik, 'Türk' adının tarihte ilk kez kendini adlandıran bir devlet olarak ortaya çıkışını nasıl etkiliyor?",
+      "subject_type": "institution",
+      "period": "552-744 CE",
+      "geography": "İç Asya / Moğolistan-Orta Asya bozkırı",
+      "opportunity_class": "academic_controversy",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "medium",
+        "research_gap": "low",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "https://en.wikipedia.org/wiki/Ashina_Funian",
+        "https://www.academia.edu/136867427/The_G%C3%B6kt%C3%BCrks_A_Basic_Overview_of_the_First_Turkic_Khaganate",
+        "https://prateekdg.substack.com/p/wolf-born-the-origins-of-the-gokturks"
+      ],
+      "research_risk": "low - Orkhon Yazıtları (Orkhon inscriptions) birincil kaynak olarak mevcut; kökenler tartışmalı olsa da devletin varlığı/kronolojisi sağlam belgelenmiş",
+      "recommended": true,
+      "note": "Studio marka bağlamı: Gök Umay'ın mitolojik/kimlik çerçevesi doğrudan Göktürk-dönemi Türk kimliğine (ilk kez 'Türk' özadlandırması, Gök Tanrı inancı) bağlanıyor - tematik uyum diğer 7 adaydan belirgin şekilde daha güçlü."
+    },
+    {
+      "candidate_id": "CAND-02",
+      "title": "Hunlar — Attila'nın Gerçek Kökeni",
+      "central_question": "Attila ve Avrupa Hunları gerçekten Orta Asya'daki Xiongnu'nun devamı mıydı, yoksa bu bağlantı 18. yüzyıldan beri süregelen bir akademik varsayım mı? Yeni DNA kanıtları neyi değiştiriyor?",
+      "subject_type": "institution",
+      "period": "4.-5. yüzyıl CE (Avrupa Hunları)",
+      "geography": "Orta Asya'dan Avrupa'ya (bozkır göçü)",
+      "opportunity_class": "evidence_contradiction",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "medium",
+        "research_gap": "low",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "https://www.science.org/content/article/attila-s-huns-were-motley-crew-central-european-locals-and-east-asian-immigrants",
+        "https://www.hungarianconservative.com/articles/culture_society/attila_hun_hungarians_history_magyar_hunnish_tradition_debate/",
+        "https://en.wikipedia.org/wiki/Attila"
+      ],
+      "research_risk": "low - yüksek global tanınırlık (Attila ismi), zengin ikincil literatür, ama Türk kimliğiyle bağlantısı Göktürkler kadar doğrudan değil (Hunların Türkçe konuştuğu bile tartışmalı)",
+      "recommended": false,
+      "note": "İkinci video için güçlü aday - en yüksek Batı-izleyici tanınırlığı bu grupta, ama marka tematik uyumu CAND-01'den daha zayıf."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "Uygur Kağanlığı — 840'ta Bir İmparatorluk Nasıl Bir Gecede Çöktü?",
+      "central_question": "840'ta başkent Karabalgasun'un Kırgızlar tarafından düşürülmesiyle Uygur Kağanlığı neden bu kadar hızlı çöktü - kıtlık ve iç savaş mı, yoksa daha derin bir yapısal kırılganlık mı?",
+      "subject_type": "institution",
+      "period": "744-840 CE",
+      "geography": "Moğolistan bozkırı",
+      "opportunity_class": "unresolved_question",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "medium",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "medium",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "https://cartographer.substack.com/p/the-collapse-of-the-uyghur-khaganate",
+        "https://en.wikipedia.org/wiki/History_of_the_Uyghur_people"
+      ],
+      "research_risk": "medium - çöküş nedenleri üzerine akademik literatür ilk aramada CAND-01/02 kadar derin/doğrudan tartışmalı bulunamadı, daha fazla B-fazı taraması gerekebilir",
+      "recommended": false
+    },
+    {
+      "candidate_id": "CAND-04",
+      "title": "Hazar Kağanlığı — Yahudiliğe Geçiş Efsanesi mi, Gerçek mi?",
+      "central_question": "Hazar seçkinlerinin Yahudiliğe geçtiği iddiası ne kadar gerçek - ortaçağ Yahudi tarihçilerinin (Yahuda Halevi, İbn Davud) ve Hazar Yazışması'nın anlattığı hikaye, yoksa 2025-2026'nın güncel akademik şüpheciliğinin (Şaul Stampfer, Hebrew University) gösterdiği gibi büyük ölçüde efsane mi?",
+      "subject_type": "institution",
+      "period": "650-969 CE",
+      "geography": "Hazar Denizi/Kafkasya-Güney Rusya bozkırı",
+      "opportunity_class": "myth_correction",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "low",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "https://www.sciencedaily.com/releases/2014/06/140626095711.htm",
+        "https://israelinstitute.nz/2025/12/khazar-hypothesis-revisited-what-we-know-what-we-dont-and-why-the-debate-matters/",
+        "https://jewishstudies.washington.edu/event/lunchtime-learning-the-myth-of-the-khazar-conversion-by-shaul-stampfer-of-hebrew-university-in-jerusalem"
+      ],
+      "research_risk": "YÜKSEK HASSASİYET UYARISI - 'Hazar teorisi' tarih boyunca antisemitik sahte-tarih anlatılarında (Aşkenaz Yahudilerinin kökenini reddetmek için) kötüye kullanılmış bir konu (bkz. 'Abbas and the Khazar Claim' kaynağı, siyasi bağlamda istismar örneği). Üretilirse M12 §11 (telif/saygı) kapsamında ekstra bir hassasiyet incelemesi ve muhtemelen insan onayı gerektirir - ilk video için bu riski almamak daha güvenli.",
+      "recommended": false
+    },
+    {
+      "candidate_id": "CAND-05",
+      "title": "Ashina Hanedanı",
+      "central_question": "(CAND-01 Göktürkler ile aynı hanedan/konu - ayrı bir video olarak değil, Göktürkler videosunun bir alt-teması olarak ele alınmalı)",
+      "subject_type": "institution",
+      "period": "6.-8. yüzyıl",
+      "geography": "İç Asya",
+      "opportunity_class": "unresolved_question",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "low",
+        "research_gap": "low",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "medium",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [],
+      "research_risk": "orta - bu round'da ayrı aranmadı, CAND-01 ile büyük örtüşme nedeniyle düşük öncelikli",
+      "recommended": false
+    },
+    {
+      "candidate_id": "CAND-06",
+      "title": "Karluklar",
+      "central_question": "(bu round'da ayrı aranmadı)",
+      "subject_type": "institution",
+      "period": "8.-10. yüzyıl",
+      "geography": "Yedisu/Orta Asya",
+      "opportunity_class": "forgotten_history",
+      "scores": {
+        "evidence_density": "low",
+        "novelty": "medium",
+        "research_gap": "medium",
+        "counterintuitive_value": "low",
+        "narrative_tension": "low",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [],
+      "research_risk": "belirsiz - bu round'da araştırılmadı, düşük öncelik nedeniyle atlandı",
+      "recommended": false
+    },
+    {
+      "candidate_id": "CAND-07",
+      "title": "Kumanlar",
+      "central_question": "(bu round'da ayrı aranmadı)",
+      "subject_type": "institution",
+      "period": "11.-13. yüzyıl",
+      "geography": "Deşt-i Kıpçak",
+      "opportunity_class": "forgotten_history",
+      "scores": {
+        "evidence_density": "low",
+        "novelty": "medium",
+        "research_gap": "medium",
+        "counterintuitive_value": "low",
+        "narrative_tension": "low",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [],
+      "research_risk": "belirsiz - bu round'da araştırılmadı",
+      "recommended": false
+    },
+    {
+      "candidate_id": "CAND-08",
+      "title": "Kıpçaklar",
+      "central_question": "(bu round'da ayrı aranmadı)",
+      "subject_type": "institution",
+      "period": "11.-13. yüzyıl",
+      "geography": "Deşt-i Kıpçak",
+      "opportunity_class": "forgotten_history",
+      "scores": {
+        "evidence_density": "low",
+        "novelty": "medium",
+        "research_gap": "medium",
+        "counterintuitive_value": "low",
+        "narrative_tension": "low",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [],
+      "research_risk": "belirsiz - bu round'da araştırılmadı",
+      "recommended": false
+    }
+  ],
+  "winning_candidate_id": "CAND-01",
+  "selection_reasoning": "Göktürk Kağanlığı: (1) en güçlü birincil kaynak tabanı - Orkhon Yazıtları, Türklerin kendi yazdığı en eski runik metinler; (2) gerçek, çözülmemiş akademik köken tartışması (Xiongnu/Tiele/Hint-Avrupa teorileri arasında hâlâ süren anlaşmazlık - Peter Golden, Haussig, Klyashtorny gibi isimler); (3) stüdyonun kendi marka kimliğiyle (Gök Umay, Gök Tanrı, ilk 'Türk' özadlandırması) en doğrudan tematik bağ; (4) Hazarlar gibi hassasiyet riski taşımıyor. Hunlar (CAND-02) güçlü bir ikinci video adayı olarak notlandı - daha yüksek global tanınırlık ama Türk-kimlik bağlantısı daha zayıf/tartışmalı olduğu için ilk sıra değil."
+}

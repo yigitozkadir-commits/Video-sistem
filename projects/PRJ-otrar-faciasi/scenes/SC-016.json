@@ -1,0 +1,22 @@
+{
+  "scene_id": "SC-016",
+  "act": 1,
+  "title": "Sessiz Mola I",
+  "scene_type": "emotional_pause",
+  "summary": "Silent break (committed 2026-08-09 per explicit user approval) - a wordless 10s breathing space over the Seyhun (Syr Darya) river valley, between SC-004 and the palace intrigue of SC-005/SC-013. No narration, no ElevenLabs cost, existing visual only.",
+  "source_text": "",
+  "duration_estimate_s": 10,
+  "emotion": "quiet, contemplative",
+  "importance": 0.2,
+  "location": "Seyhun (Sirderya) vadisi",
+  "time_of_day": "day",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-004",
+  "qa_status": "pending",
+  "shots": [
+    "SH-016-01"
+  ],
+  "provenance_note": "Reused existing still (originally generated for SC-002) - see prompts_used/SH-016-01/image.json's reused_from_shot_id field. No narration segment, no new Flow/ElevenLabs generation. Wired into the primary continuity chain (SC-004 -> SC-016 -> SC-005) per user's explicit 2026-08-09 approval ('2 tane sessiz sahneyi de ekle').",
+  "is_fallback_optional": false
+}

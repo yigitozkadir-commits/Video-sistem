@@ -1,0 +1,71 @@
+{
+  "phase": "A",
+  "section": "KÜR-ARAZ VE ERKEN DÜNYA",
+  "item_range": "81-100",
+  "input_summary": "Erken medeniyetlerin (yerleşim, tarım, çobanlık, metal) doğuşu. Kafkasya kültür köprüsü. 20 soru 4 tema etrafında döner: (1) Coğrafya ve Kafkasya (81-85), (2) İlk yaşam (86-92), (3) Teknoloji: seramik, metal, damgalar (93-100).",
+  "theme": {
+    "central_question": "İlk medeniyetler nasıl doğdu? Kafkasya neden kültür köprüsü? Tarım ve besicilik nasıl birlikte yaşadı? Metal neden hayati?",
+    "studio_role": "KURGANLAR (arkeoloji kanıtı) ← KUR-ARAZ (kurganlar öncesinin kökleri). Zamanı geriye doğru uzatmak (Kür-Araz 4000 BCE, Bozkır oyunları daha sonra). Teknolojik geçişler (taş → bakır → bronz) = medeniyetin itme gücü.",
+    "narrative_engine": "Yerleşim → Tarım → Seramik → Metal → İmparatorluk. KUR-ARAZ = Bozkır'ın tarihsel öncüsü değil, paralel: medeniyetlerin iki yolu (yerleşik vs. göçebe) ilk kez burada tanımlanır."
+  },
+  "archaeological_regional_foundation": {
+    "caucasus_cultural_crossroads": {
+      "source": "Oxford Handbook of Archaeology, DNAGENICS, Eric Knaus research",
+      "claim": "Kafkasya = Steppe, Anatolia, İran arasında kültür köprüsü. Shulaveri-Shomu kültürü (5000 BCE) tarım-hayvancılık geçişini gösteren en eski arkeoloji. Van-Urmia havzası = 4. bin BCE'de boyalı seramik kültürü. Yerleşim yönetimi (teraslama, su, maden çıkarma) = güneydoğu Anadolu + İran etkisi.",
+      "relevance": "Madde 81-85: Kür-Araz kültürü, Kafkasya neden kritik, Urmiye havzası. Coğrafya = medeniyetin nedeni."
+    },
+    "kuraaraxes_culture_4000_2000_bce": {
+      "source": "Cambridge Antiquity journal, ResearchGate synthesis papers",
+      "claim": "Kür-Araxes (Kura-Araxes) kültürü 4000-2000 BCE: güney Kafkasya'da ortaya çıkar (3500 BCE'de patlama), sonra diaspora (Anatolia, Levant, Zagros'a yayılır). 3350 BCE'de ısı artışı kalıcı dağ yerleşimini sağlar (öncesi mevsimsel). Yeni mimarı, seramik, metallurji + gömü ritüelleri.",
+      "relevance": "Madde 86-92: İlk köyler, çiftçiler, çobanlar, zanaatkârlar. Yazılı kayıt yok ama arkeoloji çok açık."
+    },
+    "metallurgical_revolution_ceramic_art": {
+      "source": "Early Bronze Age Southern Caucasus research, pottery production studies",
+      "claim": "Bakır (copper) = ilk metal; bronz (copper+tin) = daha sert. Maikop kültürü (kuzey Kafkasya, 3700-3000 BCE) arsenik-bronz experimentiyle inovate. Seramik = ayrı tutam: geometrik/hayvan motifli 'damga' sembolleri = kimlik/sosyal sınıf işaretleri. Çark dönerek yapılan seramik = iş uzmanlaşması.",
+      "relevance": "Madde 93-100: Seramikler, damgalar, ilk metaller, tunç çağı devrim. Teknik = toplum bilişi."
+    },
+    "agricultural_pastoral_coexistence": {
+      "source": "Shulaveri-Shomu culture studies, settlement pattern archaeology",
+      "claim": "KUR-ARAZ = tarım+çobanlık birlikçi (mixed economy), Bozkır daha sonra seramik=çobanlık'a özelleşir. Transhumance = mevsimsel göç (yazlak/kışlak) ama kalıcı merkez var. Bunu Bozkır insanları (madde 42-43) ile karşılaştır: KUR-ARAZ yerleşi+mobile, Bozkır tamamen mobile. İki yol = iki medeniyetin başlangıcı.",
+      "relevance": "Madde 87-92: Tarım, hayvancılık, uzmanlıklar. Çiftçiler vs. çobanlar: erken sınıf bölünmesi?"
+    }
+  },
+  "content_structure": {
+    "subthemes": [
+      {
+        "title": "Coğrafya: Kafkasya Neden? (madde 81-85)",
+        "questions": "Kür-Araz kültürü nedir? Kür ve Aras neden önemli? Urmiye havzası neden kritik? Kafkasya neden kültür kavşağı? İlk büyük kültürel ağlar?",
+        "research_angle": "Jeopolitik + jeoloji: maden (altın, bakır), su, transhumance yolları. Kafkasya = Bozkır'ın batı kapısı, İran-Anatolia kapısı. Ağlar = erken ticaret."
+      },
+      {
+        "title": "Yaşam: Tarım & Hayvancılık (madde 86-92)",
+        "questions": "Beş bin yıl önce yaşam nasıldı? Kür-Araz insanı nasıl yaşıyordu? İlk köyler? İlk çiftçiler? İlk çobanlar? İlk zanaatkârlar?",
+        "research_angle": "Arkeolojik kalıntılardan sosyal yeniden yapı: ev mimarı (teraslama), iş bölümü (seramikçi, metalurj), mevsimsel hareket. Mezar ritüelleri = sosyal hiyerarşi (ama Pazırık kadar abartılı değil)."
+      },
+      {
+        "title": "Teknoloji: Seramik, Metal, Kimlik (madde 93-100)",
+        "questions": "Siyah kırmızı seramikler? Seramiklerdeki semboller? İlk damgalar olabilir mi? Damga nedir? Kimlik nasıl işaretleniyordu? Metal devrimi? Tunç çağı neden devrimdi? Ateş dünyayı nasıl değiştirdi? İlk metal ustaları? İlk ticaret ağları?",
+        "research_angle": "Seramik = yazısız metin (motifler = kimlik+inanç). Metal = güç (silah)+servet+sanat. Tunç çağı = sosyal karmaşıklaşma (madenleri denetlemek = hiyerarşi gerekli). Damgalar = erken mülkiyet/sosyal kategoriler."
+      }
+    ]
+  },
+  "candidate_scores": {
+    "evidence_density": "high",
+    "novelty": "medium-high",
+    "research_gap": "medium-high",
+    "counterintuitive_value": "medium",
+    "narrative_tension": "high",
+    "researchability": "high"
+  },
+  "scoring_rationale": {
+    "evidence_density_high": "Arkeoloji iyi: Kür-Araz kalıntıları, Maikop bulguları, seramik analizleri, metal ağırlık raporları. Tarihsel kronoloji sağlam (kalibrasyonlu radyokarbon datalar).",
+    "novelty_medium_high": "Kür-Araz 'klasik' arkeoloji, ama 'Bozkır ile paralel medeniyetler' önerisi (yerleşi vs. göçebe yolu) Türkçe vidyo formunda yeni.",
+    "research_gap_medium_high": "Batılı/Rus arkeoloji çok iyi (Oates, Rubinson). Türkçe kaynaklar daha az (özellikle Kafkasya kültür bağı). Çok az kişi 'Kür-Araz = Türk/ Türkçe-konuşan öncü' haline koyuyor.",
+    "counterintuitive_high": "Batılılar 'medeniyetin ilk adımı' = Mezopotamya/Mısır sanırken, Kafkasya arkeoloji eş zamanlı gelişmeler gösteriyor. Bozkır ≠ medeniyetsiz; Kafkasya ≠ merkezin gölgesi.",
+    "narrative_tension_high": "KUR-ARAZ = barış/karışım (tarım+çobanlık). Fakat (Madde 100 sonrası) Bozkır'da özelleşmeler, çatışmalar başlayacak. Bu gerileyiş/farklılaşma = tarihin drama motoru.",
+    "researchability_high": "Kazı raporları mevcut, müzeler (Berlin, Moscow, Tbilisi) eserler var, tarih dergilerinde makale yağmuru. Genetik antropoloji de başladı (Kür-Araz DNA ≠ steppe nomadic DNA)."
+  },
+  "research_risk": "ORTA-YÜKSEK — Kafkasya arkeolojisi jeopolitik olarak hassas (Rusya-Gürcistan-Ermenistan sınırları). Bazı siteler (Azerbaycan) savaş nedeniyle kapalı. Çözüm: Faz B'da uluslararası akademik kaynaklar (Cambridge, Oxford, Berlin) tercih etmek, Rus-sadece kaynakları teyit etmek. DNA sonuçları 'Kür-Araz kimin atası' sorusunda tartışmalı olabilir.",
+  "bridge_to_next_sections": "KUR-ARAZ (yerleşi) → BOZKIR (göçebe) → KURGANLAR (arkeoloji) → BÜYÜK DEVLETLER (kaynak: Türk/Mogol/İmparatorluklar). Zaman: KUR-ARAZ 4000-2000 BCE (Kalkolith + EBA), Bozkır-Kurgans 3500-200 BCE (Pazırık), Büyük Devletler 500 CE+ (Orkhon yazıtları). Parallel, sekansiyel değil.",
+  "note": "KUR-ARAZ = 'medeniyetin geçişi' bölümü. Bozkır insanı bu dünyadan kopmuş mı, bilinçli mi ayrılmış? Faz B'de bu Kultur-frage sordurulacak. Ama videodan: yerleşi+çobanlık ikilemesi = hâlâ var (günümüzde Kafkasya bölgesinde)."
+}

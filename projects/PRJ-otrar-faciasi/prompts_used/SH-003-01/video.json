@@ -1,0 +1,44 @@
+{
+  "shot_id": "SH-003-01",
+  "scene_id": "SC-003",
+  "variant": "video",
+  "prompt_ref": "PV-0031",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.closeup.realisation",
+  "variables_resolved": {
+    "identity_tokens": "a stern Central Asian city governor in early 13th-century Khwarezmian court dress, heavy brow, commanding presence",
+    "wardrobe": "richly embroidered robe, fur-trimmed collar, jeweled belt",
+    "micro_action": "raising one hand to give a silent, final order, jaw set",
+    "environment": "a torch-lit stone audience hall, seized merchant goods (silk bolts, coin chests) visible at the edges of frame",
+    "lighting": "firelight_warm, hard shadows",
+    "ambient_element": "torch flame flicker",
+    "duration": "5"
+  },
+  "resolved_text": "a stern Central Asian city governor in early 13th-century Khwarezmian court dress, heavy brow, commanding presence, richly embroidered robe, fur-trimmed collar, jeweled belt. raising one hand to give a silent, final order, jaw set. a torch-lit stone audience hall, seized merchant goods (silk bolts, coin chests) visible at the edges of frame. firelight_warm, hard shadows. Slow push in, eye level, subject slightly off centre. 85mm equivalent, shallow depth of field. Minimal motion: torch flame flicker only. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, 5s, stable framing.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, fast motion",
+  "constraints": {
+    "motion_level_max": 2,
+    "requires_reference": true,
+    "motion_level": 2
+  },
+  "reference_set": [
+    "REF-CHR-INALCUK",
+    "REF-ENV-OTRAR-CITADEL-HALL",
+    "REF-PAL-STEPPE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow",
+  "seed": null,
+  "status": "completed",
+  "created_at": "2026-08-08T22:43:33.448399+00:00",
+  "notes": "M17 decision: video (core dramatic/action beat). Motion level 2 (default, no director escalation needed per M06 §4). ffprobe measured: 6.016s actual (not the requested 5-6s target) - never trust expected duration (CLAUDE.md hard rule), real value recorded here.",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/video/SH-003-01.mp4",
+  "sha256": "e5961dbf14df514191c56c5ef955427855581f7d4aae0695c2cfca50a5de119a",
+  "bytes": 1536164,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "duration_actual_s": 6.016,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
+}

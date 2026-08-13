@@ -1,0 +1,25 @@
+{
+  "scene_id": "SC-010",
+  "act": 3,
+  "title": "Efsane mi, Gerçek mi: Gümüş İdamı",
+  "scene_type": "discovery",
+  "summary": "Popüler anlatılarda İnalcık'ın gözlerine eritilmiş gümüş döküldüğü söylenir - ama kaynaklar bu detayın sonradan eklenmiş bir efsane olabileceğini açıkça belirtiyor. Myth-correction anı.",
+  "source_text": "Şubat 1220'de iç kale düştü, İnalcık ele geçirildi. Anlatılara göre, gözlerine ve kulaklarına eritilmiş gümüş döküldü - ele geçirdiği gümüş dolu kervana bir karşılık gibi. Etkileyici bir hikaye. Ama kaynakların kendisi bile bu ayrıntının sonradan eklenmiş olabileceğini, gerçek bir kayıttan çok bir efsaneye benzediğini söylüyor.",
+  "duration_estimate_s": 40,
+  "emotion": "dark irony, skeptical",
+  "importance": 0.75,
+  "location": "Otrar iç kalesi",
+  "time_of_day": "day",
+  "weather": "cold",
+  "characters": [
+    "İnalcık"
+  ],
+  "continuity_from": "SC-017",
+  "qa_status": "pending",
+  "shots": [
+    "SH-010-01",
+    "SH-010-02",
+    "SH-010-03",
+    "SH-010-04"
+  ]
+}

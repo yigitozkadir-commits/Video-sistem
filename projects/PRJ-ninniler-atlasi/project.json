@@ -1,0 +1,41 @@
+{
+  "project_id": "PRJ-ninniler-atlasi",
+  "title": "Ninniler Atlası — Türk Dünyası Beşik Şarkıları",
+  "bible_version": "2.0",
+  "template_ref": "TPL-childrens-book",
+  "source": {
+    "file": "input/Ninniler_Metinler.docx",
+    "sha256": "2f963ae489f71ab9bd552fc201446a6f9a39ca4dfb7911fa97f7169508883d22",
+    "pages": 0
+  },
+  "rights": {
+    "source_basis": "owned",
+    "evidence_ref": "Ninniler_Atlasi_Faz1-5.docx + Ninniler_Metinler.docx - Gök Umay Kültürel Miras Projesi'nin kendi akademik derlemesi (kamuya açık ikincil kaynaklardan sentez); tüm görseller Flow ile üretilen orijinal illüstrasyonlar, üçüncü taraf telifli kaynağın taraması/kopyası değil. Bu bir varsayımdır - insan onayı bekliyor, bkz. decisions/0001.",
+    "likeness_clearance": []
+  },
+  "output": {
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "target_duration_s": 90,
+    "loudness_lufs": -16
+  },
+  "language": {
+    "narration": "none - instrumental lullaby, no spoken narration",
+    "captions": [],
+    "prompts": "en-US"
+  },
+  "style_profile_ref": "style/storybook_watercolour.json",
+  "audience_rating": "general",
+  "budget": {
+    "currency": "credits",
+    "total": 0,
+    "alert_at": 0.8,
+    "hard_stop_at": 1.0
+  },
+  "determinism": {
+    "global_seed": 20260808,
+    "pin_models": true
+  },
+  "notes": "10 ayrı kısa video (biri her ninni için): sabit süreli (şimdilik PLACEHOLDER 90s/ninni, 20 görsel x 4.5s) sessiz görsel slayt dizisi. Müzik henüz eklenmedi - kullanıcı müzikleri ayrı ekleyecek, o zaman gerçek süre 'müzik saatidir' (narration is the clock kuralının müzik-versiyonu) ilkesiyle yeniden hesaplanacak ve scenesData.ts regenerate edilecek. Bu turda: video kompozisyonları hazırlandı, tam kalite render henüz YAPILMADI (CLAUDE.md §10 - müzik gelmeden final render maliyeti gereksiz tekrar demek)."
+}

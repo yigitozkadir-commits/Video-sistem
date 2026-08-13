@@ -1,0 +1,24 @@
+{
+  "scene_id": "SC-014",
+  "act": 2,
+  "title": "Bu Hikâye Nereden Biliniyor?",
+  "scene_type": "explanation",
+  "summary": "Deepening insert (2026-08-09, existing visuals only, no new Flow generation): source-chain transparency - most of this account traces back to Cüveynî's chronicle and the Secret History of the Mongols, reached in this research only second-hand through later historians (CITATION_UNVERIFIED, faz-d-readiness.json audit finding). Honest about what 'we know this happened' actually rests on.",
+  "source_text": "Bu hikâyenin çoğu, olaydan yıllar sonra yazılmış Cüveynî'nin kroniğine ve Moğolların Gizli Tarihi'ne dayanıyor. Ama bu araştırma onlara doğrudan değil, onları aktaran sonraki tarihçiler üzerinden ulaştı; bilim insanları buna ikinci elden erişim diyor. Bu, hikâyeyi yalanlamaz, ama hangi ayrıntının orijinal kayıtta olduğunu, hangisinin sonradan eklendiğini bilmeyi zorlaştırır.",
+  "duration_estimate_s": 24.42449,
+  "emotion": "reflective honesty",
+  "importance": 0.5,
+  "location": "",
+  "time_of_day": "night",
+  "weather": "clear",
+  "characters": [],
+  "continuity_from": "SC-007",
+  "qa_status": "pending",
+  "shots": [
+    "SH-014-01",
+    "SH-014-02",
+    "SH-014-03"
+  ],
+  "provenance_note": "All 3 shots are reused existing stills (originally generated for SC-007) - see prompts_used/SH-014-*/image.json's reused_from_shot_id field. No new Flow generation. Narration generated 2026-08-09 after explicit user approval, same voice/settings as the other 12 scenes (voice_id JBFqnCBsd6RMkjVDRZzb / George, model eleven_multilingual_v2, stability 0.5, similarity 0.85, style 0.25, speed 1.0 - confirmed via ElevenLabs History API against the original batch, not guessed). duration_estimate_s above is real ffprobe-measured audio duration (M17 §5, narration is the clock), not a planning estimate.",
+  "source_evidence_ref": "research/otrar-1218/faz-d-readiness.json audit_findings (source-chain / CITATION_UNVERIFIED item)"
+}

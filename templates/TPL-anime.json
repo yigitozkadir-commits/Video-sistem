@@ -1,0 +1,77 @@
+{
+  "template_id": "TPL-anime",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 3.5,
+      "range": [
+        2.5,
+        5
+      ]
+    },
+    "still_video_ratio": 0.4,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down",
+      "tracking"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/anime_cel.json",
+    "palette": {
+      "dominant": [
+        "saturated",
+        "high contrast",
+        "rim light"
+      ],
+      "forbidden": [
+        "photoreal skin"
+      ]
+    },
+    "lens_set": [
+      "wide",
+      "normal",
+      "portrait",
+      "tele"
+    ],
+    "lighting": [
+      "backlit_silhouette",
+      "golden_hour",
+      "volumetric_shafts",
+      "practical_only"
+    ],
+    "forbidden": [
+      "named studio or franchise references",
+      "photoreal texture"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.45,
+      "style": 0.4,
+      "speed": 1.0,
+      "wpm": 150
+    },
+    "music": {
+      "density": "high",
+      "instruments": "melodic synth, strings, percussion",
+      "loudness_under_speech_db": -19
+    },
+    "ambience": "urban or nature bed",
+    "silence_max_s": 1.5
+  },
+  "qa_overrides": {
+    "audience_rating": "general"
+  },
+  "budget_profile": {
+    "credits_per_minute": 240
+  }
+}

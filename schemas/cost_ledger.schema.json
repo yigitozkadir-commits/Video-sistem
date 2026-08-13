@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/cost_ledger.schema.json",
+  "title": "Cost Ledger Entry",
+  "description": "Append-only. accepted:false rows compute waste_ratio (M13 §21).",
+  "type": "object",
+  "properties": {
+    "ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-\\d{8}T\\d{4}Z$"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "provider": {
+      "type": "string",
+      "enum": [
+        "flow",
+        "elevenlabs",
+        "llm",
+        "render",
+        "other"
+      ]
+    },
+    "operation": {
+      "type": "string"
+    },
+    "units": {
+      "type": "number"
+    },
+    "unit_cost": {
+      "type": "number"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "attempt": {
+      "type": "integer"
+    },
+    "accepted": {
+      "type": "boolean"
+    },
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    }
+  },
+  "required": [
+    "ts",
+    "task_id",
+    "provider",
+    "operation",
+    "cost",
+    "accepted"
+  ],
+  "additionalProperties": true
+}

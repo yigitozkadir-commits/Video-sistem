@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/error.schema.json",
+  "title": "Error",
+  "description": "M13 §16 error taxonomy.",
+  "type": "object",
+  "properties": {
+    "error_id": {
+      "type": "string",
+      "pattern": "^ERR-\\d{5}$"
+    },
+    "code": {
+      "type": "string",
+      "pattern": "^E-(INP|OCR|ANA|PLN|GEN|SYN|REN|INF|CON|SYS|BUD|LEG)-\\d{3}$"
+    },
+    "task_ref": {
+      "type": "string",
+      "pattern": "^TSK-\\d{6}$"
+    },
+    "attempt": {
+      "type": "integer"
+    },
+    "retryable": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "suggested_strategy": {
+      "type": "string"
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "worker": {
+      "type": "string"
+    },
+    "escalate_to": {
+      "type": "string",
+      "enum": [
+        "retry",
+        "director",
+        "human",
+        "halt"
+      ]
+    }
+  },
+  "required": [
+    "error_id",
+    "code",
+    "retryable",
+    "message",
+    "occurred_at"
+  ],
+  "additionalProperties": true
+}

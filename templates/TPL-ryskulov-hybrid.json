@@ -1,0 +1,73 @@
+{
+  "template_id": "TPL-ryskulov-hybrid",
+  "extends": null,
+  "benchmark_ref": ["CFP-0002"],
+  "composition_note": "Adapts TPL-mystery-discovery's (CFP-0002, 'Gerçeği Bul') hook craft, pacing energy, and music design (K1-K3, K19-K23) to a real, documented mass-death historical event (Kazakh famine / Aşarşılık, 1930-1933). Follows the precedent set by templates/TPL-baskurtlar-hybrid.json but goes further: K4 (build doubt on a proven fact) is dropped entirely - manufacturing doubt around a genocide-adjacent historical fact is not just unnecessary but ethically fraught. K9 ('hidden truth' framing) is NOT dropped outright like Başkurtlar's case, because this project's own source material documents a REAL archival suppression (the letter and famine records stayed sealed in Soviet archives until glasnost; Sarah Cameron's own finding that the secret police archives and Goloshchekin's personal files remain closed to researchers today) - K9 is instead scoped to that documented fact only, source-cited every time it's invoked, never implying an ongoing or general conspiracy. K18 ('never declare the truth, keep it an open puzzle') is also dropped: where the report gives a clear answer, the video states it plainly; where two sources genuinely disagree (SC-023's 2.1M vs 1.5M death-toll estimate), both figures are shown rather than picking one for dramatic effect.",
+  "director": {
+    "pace": {
+      "avg_shot_s": 6.0,
+      "range": [4, 9]
+    },
+    "still_video_ratio": 0.85,
+    "motion_ceiling": 1,
+    "silence_per_act": 2,
+    "beat_weight_cap": 0.8,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/archival_restrained_documentary.json",
+    "palette": {
+      "dominant": ["cool grey", "faded sepia", "carbon black"],
+      "forbidden": ["neon", "pastel", "golden-hour warmth", "horror-genre darkness"]
+    },
+    "lens_set": ["wide", "top-down flat lay", "macro"],
+    "lighting": ["overcast_diffused", "low_winter_light", "single_desk_lamp", "even_archive_lighting"],
+    "forbidden": ["human figures", "corpses", "starving/emaciated bodies", "execution scenes", "reenactment", "modern objects", "lens flare", "anime stylisation"]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.75,
+      "style": 0.15,
+      "speed": 0.95,
+      "wpm": 125
+    },
+    "music": {
+      "density": "continuous",
+      "instruments": "low-frequency drone, sub-bass, no vocals ever (K19-K20 as-is) - K21's 'suspense swell at reveal' reframed as 'gravitas swell at a factual turning point' (Goloshchekin's removal, the letter's opening line, the 1937 arrest): weight and solemnity, never a horror-genre jolt or a triumphant/celebratory swell",
+      "loudness_under_speech_db": -22
+    },
+    "ambience": "wind over open steppe, distant train, paper rustle - sparse, never used to manufacture dread",
+    "silence_max_s": 2.5
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "sensitivity_review_required": true,
+    "period_accuracy_check": true
+  },
+  "budget_profile": {
+    "credits_per_minute": 150
+  },
+  "content_rules_adopted": {
+    "source": "subset of templates/TPL-mystery-discovery.json's content_rules, adapted per user AskUserQuestion approval (2026-08-07) - K4 dropped, K9 modified-and-scoped, not adopted as-is",
+    "rules": [
+      "K1 Question-driven hook, kept: first ~30-60s poses the video's real question ('some documents surface a truth power knew but ignored...') and promises the payoff (mektubun etkisi, Ryskulov'un sonu) by the end - this is scene 2 of the uploaded 46-scene plan almost verbatim.",
+      "K2 Academic grounding, kept as-is: every statistical claim ties to a named source (Sciences Po, Wilson Center, Werth 2003, Cameron's 'The Hungry Steppe', Yale International Studies Journal, e-history.kz) - source strip shown per statistical scene (SC-018 through SC-023 and others), matching the project's own 'Kaynak şeridi' production rule.",
+      "K3 adapted as 'source transparency, not competitor-shaming': where sources disagree (death toll estimate) or a claim is uncertain, the video says so plainly rather than smoothing it into a single confident number - same principle as Başkurtlar's UNESCO correction.",
+      "K9-modified (scoped, source-bound version - see composition_note): 'hidden truth' framing used ONLY for the documented Bölüm VI facts (archival sealing until glasnost per Werth 2003; secret police archives and Goloshchekin's personal files still closed today per Cameron) - always paired with the citation card, never generalized into an implied ongoing cover-up.",
+      "K19-K20 music rules adopted as-is: no vocals ever, low-frequency drone bed.",
+      "K22-K23 adopted as-is: music synced to the narrator's breath/pauses, stepping forward to fill a strategic pause as 'a moment to think', not to build tension for its own sake."
+    ],
+    "rules_explicitly_not_adopted": [
+      "K4 (build doubt on a proven fact) - not used at all: nothing about a documented famine and a documented letter needs manufactured mystery, and doing so on genocide-adjacent subject matter is a real ethical risk, not just an editorial preference.",
+      "K9's original unscoped form ('any historical gap = suppressed truth') - not used: replaced by the modified-and-scoped version above, bound to Bölüm VI's actual documented archival-closure facts only.",
+      "K18 ('never declare the truth, keep it an open puzzle') - not used: where research gives a clear answer, the video states it plainly (Stalin was informed at least three times and did not act adequately per the Yale study; the archives remain closed per Cameron) - the ONE place the video stays open (SC-023's death-toll figure) is an honest reflection of real scholarly disagreement, not a hook device.",
+      "K21's original 'suspense swell / cinematic jolt' framing - reframed to 'gravitas swell', see audio.music above: a celebratory or horror-genre musical sting on a mass-death subject is tonally wrong regardless of engagement value."
+    ]
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "phase": "C",
+  "cluster_id": "Foundation-Cluster-Items-111-140",
+  "section": "MİT",
+  "claims_verified": [
+    {
+      "claim_id": "C-MIT-001",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — Orkhon inscriptions unambiguously reference Tengri as sky deity for sovereignty",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Orkhon inscriptions are limited corpus; may not represent full range of pre-Islamic Turkic beliefs",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Primary source evidence solid; geographic/temporal scope of Orkhon inscriptions may limit generalization"
+    },
+    {
+      "claim_id": "C-MIT-002",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Ülgen characteristics may represent later Mongolian or Tatar additions to Turkic mythology; 'son of Kayra' relationship is not universally attested",
+      "independent_confirmation": false,
+      "alternative_explanation": "Ülgen may be syncretic deity combining Turkic sky deity with Mongolian/Shamanistic traditions",
+      "remaining_weakness": "Ülgen documentation is limited to secondary sources and epics; primary source evidence weak",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": ["SOURCE_QUALITY_CONCERN: Limited primary source evidence for Ülgen; secondary sources may reflect later syncretism"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 0},
+      "notes": "Structural plausibility high; empirical documentation limited"
+    },
+    {
+      "claim_id": "C-MIT-003",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Dualistic cosmology appears across Central Asian/Siberian religions; may not be unique to Turkic traditions; Erlik-like underworld deities documented in Mongolian, Finno-Ugric traditions",
+      "independent_confirmation": true,
+      "alternative_explanation": "Dualistic sky/underworld, good/evil cosmology is pan-Siberian/Central Asian pattern, not Turkic innovation",
+      "remaining_weakness": "Claim may overstate Turkic uniqueness; dualism is shared Altaic trait",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Dualistic structure confirmed; Turkic specificity should be qualified as Altaic commonality"
+    },
+    {
+      "claim_id": "C-MIT-004",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — Orkhon inscriptions and etymological evidence converge",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Etymology confirmed but ritual function and cosmological role less documented than Kayra/Tengri",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Name and existence well-documented; full mythological role requires broader source base"
+    },
+    {
+      "claim_id": "C-MIT-005",
+      "original_confidence": "PROBABLE",
+      "verdict": "plausible",
+      "strongest_counter_evidence": "Direct archaeological evidence of sacrifice is limited; inferred from ethnographic parallel and folklore",
+      "independent_confirmation": false,
+      "alternative_explanation": "Sacrificial practice may be later Mongolian/Shamanistic addition, not pre-Islamic Turkic practice",
+      "remaining_weakness": "No primary source documentation of pre-Islamic Turkic sacrifice; ethnographic parallels are weak evidence",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["SPECULATION_RISK: Sacrifice inferred from ethnographic parallel, not directly documented"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 0},
+      "notes": "Theoretically plausible but requires archaeological corroboration"
+    },
+    {
+      "claim_id": "C-MIT-006",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — Altai epics and Mongolian shamanic traditions clearly attest Umay/Umai",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Continuity claim assumes unbroken transmission; linguistic persistence ≠ continuous practice (names survive after beliefs fade)",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Linguistic continuity established; ritual/belief continuity not guaranteed by name persistence alone"
+    },
+    {
+      "claim_id": "C-MIT-007",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None — documented contemporary phenomenon",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Modern movement is recent (21st century); relationship to historical Tengriism speculative",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Fact of modern movement confirmed; claims of continuity with pre-Islamic tradition contested"
+    },
+    {
+      "claim_id": "C-MIT-008",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None — Orkhon inscriptions are unambiguous primary source",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Orkhon corpus is limited; later sources (Turkish epics, Islamic-era texts) may reflect additions/changes",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Primary source depicts minimal ceremonial elaboration; later texts may reflect post-Islamic accretion or influence"
+    },
+    {
+      "claim_id": "C-MIT-009",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Modern Tengriists argue that Orkhon inscriptions are limited and later sources provide fuller picture",
+      "independent_confirmation": true,
+      "alternative_explanation": "Ritual elaboration may have existed in pre-Islamic tradition but was not recorded in surviving Orkhon texts",
+      "remaining_weakness": "Argument from absence: Orkhon silence ≠ absence of rituals; later texts could preserve earlier traditions or represent additions",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Gap between sources is real; causation (addition vs. preservation) unclear"
+    },
+    {
+      "claim_id": "C-MIT-010",
+      "original_confidence": "CONTESTED",
+      "verdict": "contested",
+      "strongest_counter_evidence": "Modern Tengriists argue reconstruction is valid recovery of historical traditions, not invention",
+      "independent_confirmation": false,
+      "alternative_explanation": "Reconstruction might be legitimate religious interpretation rather than 'invention'; authenticity debate is philosophical, not empirical",
+      "remaining_weakness": "Shnirelman critique is valid regarding source gap, but 'invention of tradition' implies false intentionality; debate is methodological (how to reconstruct unattested systems)",
+      "updated_confidence": "CONTESTED",
+      "red_team_flags": ["HISTORIOGRAPHY_DEBATE: 'Invention of tradition' is analytical category, not empirical fact; motivations complex"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 0},
+      "notes": "Valid scholarly concern about source limitations; political motivation debate is ongoing"
+    },
+    {
+      "claim_id": "C-MIT-011",
+      "original_confidence": "PLAUSIBLE",
+      "verdict": "plausible",
+      "strongest_counter_evidence": "Modern Tengriists argue that syncretic elements represent legitimate cultural borrowing, not false invention",
+      "independent_confirmation": false,
+      "alternative_explanation": "Borrowed elements may represent legitimate cosmological integration rather than nationalist fabrication; all religions borrow across traditions",
+      "remaining_weakness": "Claim requires specific examples of borrowed motifs; none provided; requires comparative analysis",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["REQUIRES_EVIDENCE: Claim about 'borrowed motifs' needs concrete examples for verification"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 0},
+      "notes": "Hypothesis about syncretism plausible but insufficiently documented"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "MİT: Pre-Islamic Turkish pantheon and Tengriism authenticity",
+      "interpretations": [
+        {
+          "scholar_or_school": "Soviet/Russian orientalist tradition (1920s-1990s)",
+          "position": "Tengri worship was central to pre-Islamic Turkic religion; Orkhon inscriptions accurately represent core beliefs; shamanism was peripheral",
+          "based_on": "Orkhon inscription philology; ethnographic parallel to living Mongolian and Siberian peoples",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Foundational historical view",
+          "revision_impact": "MODERATE — Established Tengri centrality but oversimplified shamanism role"
+        },
+        {
+          "scholar_or_school": "Critical anthropology school (1990s-2010s)",
+          "position": "Orkhon inscriptions represent elite religious ideology, not necessarily popular belief; shamanism likely coexisted with Tengri worship in stratified religious system",
+          "based_on": "Social archaeological critique; analysis of Orkhon text producer bias",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Current mainstream",
+          "revision_impact": "MAJOR — Complicated monolithic 'pre-Islamic Turkish religion' narrative"
+        },
+        {
+          "scholar_or_school": "Victor Shnirelman (2010s-present) — Invention of Tradition critique",
+          "position": "Modern Tengriism reconstructs fragmented historical sources into false monolith; serves contemporary nationalist agendas; 'authentic recovery' claim is dubious",
+          "based_on": "Historical comparison of Orkhon sources vs. modern Tengrist claims; analysis of political context of modern movement",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Influential but opposed by Tengriism advocates",
+          "revision_impact": "MAJOR — Challenged authenticity claims of modern movement"
+        },
+        {
+          "scholar_or_school": "Modern Tengriism movement (2000s-present)",
+          "position": "Tengriism represents legitimate recovery and continuation of authentic pre-Islamic Turkish spiritual tradition; modern reconstruction is valid religious response to Islamic dominance",
+          "based_on": "Orkhon inscriptions, Turkish epics (Dede Korkut, Manas), ethnographic evidence, theological interpretation",
+          "status": "debate",
+          "fringe_scale": "NON_ACADEMIC_CLAIM — Valid perspective but outside academic consensus",
+          "revision_impact": "MODERATE — Changed Turkish religious landscape; scholarly impact limited"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Western academic (especially Russian/Soviet) scholarship dominant; Turkish nationalist perspectives emerging; Islamic theological response limited in English literature; Mongolian/Kyrgyz traditional religion perspectives underrepresented",
+      "bias_types": ["national", "political", "ideological", "language"],
+      "coverage_log": "Russian/Soviet orientalist scholarship well-documented; English-language academic consensus reflects Russian tradition; Turkish and Islamic theological critiques limited in English; indigenous Altaic religion studies (Mongolian, Kyrgyz) minimal"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-MIT-001",
+      "question": "What was the relationship between Tengri worship (elite ideology documented in Orkhon) and shamanism (likely popular practice) in pre-Islamic Turkic society?",
+      "known": "Orkhon inscriptions emphasize Tengri; ethnographic shamanism widespread in Siberia/Central Asia; both attested",
+      "unknown": "Whether shamanism preceded, coexisted with, or postdates Tengri worship; social class distribution of beliefs",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Stratified religion: elite Tengri worship, popular shamanism",
+        "Integrated system: Tengri and shamanism complementary rather than opposed",
+        "Historical sequence: shamanism replaced by Tengri worship with Turkic expansion",
+        "Regional variation: Tengri stronger in state contexts, shamanism in pastoral margins"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-MIT-002",
+      "question": "Did pre-Islamic Turkic religion include systematic ritual practices and cosmological doctrines, or was Tengri worship minimalist as Orkhon inscriptions suggest?",
+      "known": "Orkhon inscriptions mention Tengri for sovereignty/victory with minimal ritual detail; later sources (Turkish epics, Islamic-era texts) describe elaborate systems",
+      "unknown": "Whether later sources reflect pre-Islamic practices or represent Islamic-era additions/syncretism",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Orkhon minimalism is accurate; rituals developed later under Islamic/Mongolian influence",
+        "Orkhon inscriptions are selective (state ideology focus); full ritual system existed but unrecorded",
+        "Ritual system existed but changed significantly during Islamic conversion; later sources hybrid"
+      ],
+      "researchability": "low",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-MIT-003",
+      "question": "Is modern Tengriism a legitimate recovery of pre-Islamic Turkish religion or an 'invention of tradition' serving nationalist agendas?",
+      "known": "Modern Tengrist movement began early 21st century; claims continuity with pre-Islamic tradition; includes elements beyond Orkhon attestation; Turkish nationalist context evident",
+      "unknown": "Motivations of practitioners; authenticity standards (what counts as 'legitimate' recovery); relationship of modern theology to historical sources",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Legitimate religious recovery: reconstruction of fragmented tradition using available sources",
+        "Partial invention: selective reading of sources combined with modern additions to serve contemporary needs",
+        "Hybrid: mix of historical inspiration and creative innovation, neither purely 'authentic recovery' nor purely 'invented'",
+        "Religious freedom perspective: authenticity is less important than meaningful contemporary practice"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-MIT-004",
+      "question": "How accurately can female deities (Umay) and their roles be recovered from fragmentary pre-Islamic sources?",
+      "known": "Umay attested in Orkhon inscriptions and Altai epics; associated with fertility/protection; modern interpretations vary",
+      "unknown": "Gender roles in pre-Islamic society; Umay's cosmological status vs. male deities; whether Umay worship continued or was displaced during Islamization",
+      "category": "GENUINE_MYSTERY",
+      "competing_explanations": [
+        "Umay was central goddess with significant ritual role, obscured by male-focused Orkhon inscriptions",
+        "Umay was peripheral fertility spirit, minor in cosmological hierarchy",
+        "Umay represented suppressed or marginal aspects of pre-Islamic Turkic religion",
+        "Umay veneration continued syncretized into Islamic saint veneration (mariyye, female holy figures)"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-MIT-002: Ülgen characteristics documented mainly in secondary sources; primary source evidence weak",
+      "C-MIT-005: Sacrifice inferred from ethnographic parallel; no direct archaeological evidence",
+      "C-MIT-011: Borrowed motifs asserted but not exemplified; requires concrete evidence"
+    ],
+    "unresolved_contradictions": [
+      "Orkhon inscriptions (minimalist Tengri) vs. later sources (elaborate ritual system): gap between sources remains interpretively contested",
+      "Modern Tengriism claims vs. Shnirelman critique: fundamental methodological disagreement about how to evaluate authenticity of reconstructed traditions"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-MIT-001",
+      "reliability": "medium",
+      "notes": "Secondary source on mythology; requires verification against primary Orkhon sources"
+    },
+    {
+      "source_id": "SRC-MIT-005",
+      "reliability": "medium",
+      "notes": "Linguistic etymology sound; but ritual and cosmological role less documented"
+    },
+    {
+      "source_id": "SRC-MIT-008",
+      "reliability": "high",
+      "notes": "Academic critique by established scholar; valid methodological concerns about source gaps and modern reconstruction"
+    }
+  ],
+  "cross_cluster_dependencies": [
+    {
+      "from_claim": "C-A-003 (Intergenerational transmission critical for language/cultural survival)",
+      "to_claim": "C-MIT-006 (Umay persists in Altai epics, Mongolian shamanism)",
+      "dependency_type": "SUPPORTS",
+      "notes": "Umay name survival demonstrates intergenerational transmission over centuries despite language/religion changes"
+    },
+    {
+      "from_claim": "C-MIT-008 (Orkhon inscriptions show minimalist Tengri worship)",
+      "to_claim": "C-MIT-009 (Modern Tengriism adds ritual elements absent from Orkhon)",
+      "dependency_type": "DIRECTLY_SUPPORTS",
+      "notes": "Source comparison reveals gap between primary and modern sources"
+    }
+  ],
+  "adversarial_summary": {
+    "strongest_challenges": [
+      "Authenticity of modern Tengriism (C-MIT-010/011): Source gap between Orkhon (minimalist) and modern reconstruction (elaborate) creates fundamental evidentiary problem",
+      "Ülgen and ritual documentation (C-MIT-002, C-MIT-005): Heavy reliance on secondary sources and ethnographic parallels rather than primary evidence",
+      "Shamanism vs. Tengri relationship: Unresolved historiographic issue; shamanism may dominate popular religion but is underrepresented in elite-focused Orkhon texts"
+    ],
+    "most_robust_claims": [
+      "Kayra/Tengri sky deity (C-MIT-001): Orkhon primary source unambiguous",
+      "Umay goddess (C-MIT-004, C-MIT-006): Multiple independent attestations (Orkhon, Altai epics, Mongolian shamanism)",
+      "Dualistic cosmology (C-MIT-003): Documented across Altaic traditions"
+    ],
+    "bias_risks": [
+      "Soviet/Russian orientalist tradition dominant in scholarship; created template for viewing Tengriism that modern revival both adopts and contests",
+      "Turkish nationalism embedded in modern Tengriism movement; scholarly critique (Shnirelman) risks being dismissed as Western orientalism or Turkish state bias",
+      "Female deity documentation (Umay) limited; feminist scholarship on pre-Islamic gender roles largely absent",
+      "Islamic conversion narrative oversimplifies; syncretism and continuity under Islamic framework underexplored"
+    ]
+  }
+}

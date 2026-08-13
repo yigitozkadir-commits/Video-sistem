@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/storyboard.schema.json",
+  "title": "Storyboard",
+  "description": "Approved shot sequence for one scene. Authoritative downstream (M10 §13).",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "approval_ref": {
+      "type": "string",
+      "pattern": "^APR-\\d{4}$"
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "$ref": "shot.schema.json"
+      }
+    },
+    "rhythm": {
+      "type": "object",
+      "properties": {
+        "avg_shot_s": {
+          "type": "number"
+        },
+        "moving_shot_ratio": {
+          "type": "number"
+        },
+        "still_video_ratio": {
+          "type": "number"
+        },
+        "framing_variety": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "required": [
+    "scene_id",
+    "shots"
+  ],
+  "additionalProperties": true
+}

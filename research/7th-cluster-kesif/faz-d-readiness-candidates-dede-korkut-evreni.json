@@ -1,0 +1,480 @@
+{
+  "phase": "D",
+  "phase_name": "Readiness Candidates for Phase E",
+  "project_id": "7th-cluster-dede-korkut",
+  "readiness_candidates_completion_date": "2026-08-09T23:45:00Z",
+  "document_purpose": "Operational guidance for Phase E video production; capstone synthesis notes; script foundation framework; production caveats and strengths inventory",
+  "readiness_verdict": "CONDITIONAL_READY",
+  "phase_e_progression_status": "APPROVED_WITH_CONDITIONS",
+  "capstone_synthesis_thesis": "Dede Korkut epic demonstrates how abstract Bozkır Felsefesi (steppe philosophy) manifests in concrete narrative form, survives 1,000+ years through institutional support, and achieves modern global recognition. The epic is not primarily a historical chronicle but a philosophical exemplar encoded in narrative tradition.",
+  "capstone_argument_structure": {
+    "premise_1_bozkir_felsefesi_theoretical": "7th cluster establishes abstract philosophical framework: heroism as tribal virtue, honor as binding principle, confederation unity as political ideal, ecological integration as spiritual practice, freedom as resistance to subjugation",
+    "premise_2_dede_korkut_embodiment": "Dede Korkut epic embodies these philosophical principles in 12 narrative tales. Each story demonstrates principle through character: heroism in battle (Battal Gazi), honor defended (Bamsi Beyrek), confederation unity maintained (Dede Korkut's mediation), landscape integration (steppe as moral space), freedom exercised (clever resistance to enemies)",
+    "premise_3_transmission_as_philosophy": "Stories survive through millennium via (a) oral memory transmission (culture-bearers), (b) manuscript preservation (institutional literacy), (c) performance tradition (community engagement), (d) modern recognition (UNESCO). Transmission mechanism itself embodies philosophical principle: cultural survival through combination of individual memory + institutional support + community practice",
+    "premise_4_modern_validation": "UNESCO inscription (2018) and academic scholarship transform Dede Korkut from living tradition to formally-recognized world heritage. Oghuz philosophical values achieve global intellectual legitimacy; steppe philosophy becomes international cultural asset",
+    "capstone_conclusion": "Dede Korkut proves that philosophy is not abstract speculation but lived, embodied cultural practice. The epic is philosophy-in-action: demonstrating, transmitting, institutionalizing cultural values across centuries."
+  },
+  "script_foundation_framework": {
+    "narrative_arc_recommended": [
+      {
+        "section": "OPENING: Philosophy Becomes Story",
+        "duration_estimate": "1-2 minutes",
+        "content_elements": [
+          "Define Bozkır Felsefesi as abstract steppe philosophy: heroism, honor, confederation, ecological integration",
+          "Introduce Dede Korkut as narrative embodiment: 'How does philosophy become a story? How do stories preserve philosophy across centuries?'",
+          "Establish millennial preservation narrative (9th century origins → 21st century UNESCO recognition)"
+        ],
+        "visual_references_available": [
+          "Steppe landscape imagery (ecological integration)",
+          "Heroic combat imagery from epic (heroism principle)",
+          "Medieval manuscript pages from Dresden collection (institutional preservation)"
+        ]
+      },
+      {
+        "section": "MANUSCRIPT TRADITIONS: Written Preservation",
+        "duration_estimate": "2-3 minutes",
+        "content_elements": [
+          "Introduce four manuscript traditions as 'insurance against loss': Dresden (16th c., 12 tales), Vatican (1950 discovery), Gonbad (2018 discovery, Turkmen variant), Bursa (Ottoman-era)",
+          "Explain SLUB Dresden as primary witness; show actual manuscript pages if accessible",
+          "Geographic dispersal narrative: Ottoman-to-European circulation protects against regional catastrophe",
+          "Emphasize manuscripts as institutions enabling preservation: scribal culture, archival infrastructure"
+        ],
+        "visual_references_available": [
+          "Dresden manuscript images (paleographic authority)",
+          "Map showing manuscript geographic distribution (Europe, Middle East, Central Asia)",
+          "Archive interior/vault imagery (SLUB Dresden or similar)",
+          "Ottoman scribal practice imagery (manuscript creation context)"
+        ]
+      },
+      {
+        "section": "PHILOSOPHICAL VALUES IN NARRATIVE",
+        "duration_estimate": "3-4 minutes",
+        "content_elements": [
+          "Heroism: Narrative examples of martial exploits, rescue missions, tribal defense (Bamsi Beyrek, Battal Gazi)",
+          "Honor (namus): Father-son conflict, internal strife as tragedy (narratives preventing transgression)",
+          "Tribal confederation: Dede Korkut's mediating role, maintaining unity despite factional tensions",
+          "Ecological integration: Steppe as both home and battlefield; symmetrical human-animal-landscape relationship",
+          "For each value: Show philosophical principle + narrative embodiment + cultural transmission mechanism"
+        ],
+        "visual_references_available": [
+          "Illustration or animation of specific narrative scenes (Tepegöz battle, Bamsi Beyrek rescue, etc.)",
+          "Steppe landscape as character (recurring visual motif)",
+          "Oghuz tribal structure diagrams (confederation as visual concept)",
+          "Character portraits or silhouettes (heroic exemplars)"
+        ]
+      },
+      {
+        "section": "DISPUTED HISTORY: Scholarly Debate Transparency",
+        "duration_estimate": "2-3 minutes",
+        "content_elements": [
+          "Present historical Dede Korkut existence as CONTESTED: 'Was Dede Korkut a real person, or a legendary composite?'",
+          "Rashid al-Din reference (1318) as earliest written mention; 400-year temporal gap; pseudepigraphic status likely",
+          "Three scholarly positions: historical (minority), semi-historical (mainstream), entirely legendary (minority)",
+          "Emphasize: 'The historical question is secondary to the philosophical function. Whether Dede Korkut lived, the stories embody and transmit Oghuz values.'",
+          "Build confidence through transparency: scholarly honesty = stronger authority than false certainty"
+        ],
+        "visual_references_available": [
+          "Scholarly source imagery (academic journals, manuscripts, historical texts)",
+          "Timeline showing Rashid al-Din (1318) to oldest manuscript (1460s) temporal gap",
+          "Three-position debate visualization (scholarly consensus landscape)"
+        ]
+      },
+      {
+        "section": "LIVING TRADITION: Modern Transmission",
+        "duration_estimate": "2-3 minutes",
+        "content_elements": [
+          "Film/television adaptations (1988-2020): entertainment industry engagement",
+          "Contemporary minstrels (Âşık Yavuz and others): authentic oral performance tradition",
+          "UNESCO living tradition recognition (2018): institutional validation of modern practice",
+          "Distinction: entertainment repackaging vs. authentic transmission (both real; both valuable; different functions)",
+          "Emphasize community engagement as active preservation mechanism"
+        ],
+        "visual_references_available": [
+          "Film/animation stills (1988 film, 2012-2013 animation series, 2007/2017 live-action)",
+          "Contemporary minstrel performance footage or portraits (Âşık Yavuz)",
+          "UNESCO logo/recognition imagery",
+          "Audience/community engagement imagery (contemporary performance contexts)"
+        ]
+      },
+      {
+        "section": "UNESCO RECOGNITION: Institutional Preservation",
+        "duration_estimate": "1-2 minutes",
+        "content_elements": [
+          "2018 ICH inscription (13.COM 10.B.3 decision, November 2018): corrects Phase A error",
+          "Multinational nomination: Turkey, Azerbaijan, Kazakhstan + participation of Turkmenistan, Uzbekistan, Kyrgyzstan",
+          "UNESCO as institutional validation: geopolitical + genuine cultural preservation support (both real)",
+          "Frame as capstone: Oghuz steppe philosophy achieves global intellectual legitimacy",
+          "Legal/diplomatic protection framework established for future transmission"
+        ],
+        "visual_references_available": [
+          "UNESCO ICH logo and official documentation",
+          "Map showing nominating and participating countries (geopolitical context)",
+          "UNESCO decision document (13.COM 10.B.3 official record)"
+        ]
+      },
+      {
+        "section": "CLOSING: Philosophy Preserved",
+        "duration_estimate": "1-2 minutes",
+        "content_elements": [
+          "Synthesis: Bozkır Felsefesi survives through narrative embodiment + manuscript preservation + community performance + institutional validation",
+          "Millennium-scale perspective: oral memory (9th c.) → manuscripts (14th-16th c.) → archives (17th-18th c.) → scholarship (20th c.) → UNESCO (2018) → contemporary practice (ongoing)",
+          "Philosophical principle as transmission agent: values embedded in story = values transmitted through telling = community bound by shared philosophy",
+          "Call to ongoing preservation: research gaps (variants, performance ethnography, gender analysis) identified as opportunities for future scholarship",
+          "Ultimate message: How humanity preserves culture across centuries; how philosophy becomes practice; how stories become heritage"
+        ],
+        "visual_references_available": [
+          "Timeline visualization from oral origins to contemporary",
+          "Institutional archive layering (memory → manuscript → archive → scholarship → world heritage)",
+          "Symbolic imagery: steppe landscape as continuity across centuries",
+          "Contemporary community practice imagery (future preservation in action)"
+        ]
+      }
+    ]
+  },
+  "mandatory_conditions_for_phase_e": [
+    {
+      "condition_id": "C-D6-001",
+      "condition_title": "UNESCO Date Correction",
+      "requirement": "Script development must explicitly correct Phase A error: UNESCO recognition occurred in 2018 (13.COM 10.B.3 decision, November 2018), not 2001",
+      "rationale": "Historical accuracy; acknowledges research process and Phase C verification",
+      "script_language_template": "UNESCO officially recognized the Heritage of Dede Korkut as Intangible Cultural Heritage of Humanity in 2018 (13.COM 10.B.3 decision, November 2018). This corrects an earlier reference stating 2001 — extensive verification confirms the actual date is 2018.",
+      "compliance_check": "MANDATORY — Include explicitly in script or production notes"
+    },
+    {
+      "condition_id": "C-D6-002",
+      "condition_title": "Historical Dede Korkut Existence Presented as CONTESTED",
+      "requirement": "Narrative must frame Dede Korkut's historical existence as debated among scholars; avoid false certainty",
+      "rationale": "No contemporary evidence; pseudepigraphic status most likely; scholarly honesty essential",
+      "caveats_to_include": [
+        "No 9th-10th century sources document Dede Korkut existence",
+        "Rashid al-Din 14th-century reference is 400 years after alleged events",
+        "Pseudepigraphic attribution common in medieval Islamic/Turkic literature",
+        "295-year lifespan attributed to Dede Korkut is transparently legendary"
+      ],
+      "script_language_template": "Dede Korkut is documented in 14th-century sources by Persian historian Rashid al-Din. However, contemporary records from the 9th-10th century do not confirm his existence. Whether Dede Korkut was a historical figure, a semi-legendary composite, or entirely legendary remains debated among scholars. For our purposes, the historical question is secondary to understanding the philosophical values the stories embody and transmit.",
+      "compliance_check": "MANDATORY — Present scholarly debate as strength (intellectual honesty) not weakness"
+    },
+    {
+      "condition_id": "C-D6-003",
+      "condition_title": "Authenticity Claims Must Be Qualified",
+      "requirement": "Script must not overstate narrative authenticity; phrase as 'historical framework with legendary elaboration'",
+      "rationale": "Evidence inflation risk from Phase B; scholarly consensus is nuanced position not 'authentic preservation'",
+      "problematic_phrasing_to_avoid": [
+        "'Authentic historical records'",
+        "'Preserves accurate tribal history'",
+        "'Documentary evidence of Oghuz life'"
+      ],
+      "correct_phrasing_framework": [
+        "'Preserves authentic Oghuz tribal framework (confederation, values, conflicts documented in Islamic sources)'",
+        "'Individual narrative authenticity unverifiable; legendary embellishment certain'",
+        "'Blends historical framework with philosophical elaboration'"
+      ],
+      "script_language_template": "Dede Korkut preserves an authentic historical framework: the Oghuz confederation, their tribal structure, major conflicts, and core values are documented in Islamic historical sources. However, individual narrative authenticity cannot be verified. The epic incorporates legendary embellishment and philosophical elaboration. Its strength lies not in historical documentary accuracy but in embodying and transmitting cultural philosophy through narrative form.",
+      "compliance_check": "MANDATORY — Qualify all authenticity claims"
+    },
+    {
+      "condition_id": "C-D6-004",
+      "condition_title": "Research Gaps Must Be Documented in Production Notes",
+      "requirement": "Create production_notes.json listing identified gaps (U-0001 through U-0010) with researchability assessments",
+      "rationale": "Gaps do not block production but should be recorded for Phase F follow-up; transparency improves credibility",
+      "gaps_to_document": [
+        "U-0001: Exact oral tradition dating (9th-11th century range provisional)",
+        "U-0002: Historical Dede Korkut existence (contested; unverifiable with current evidence)",
+        "U-0003: Manuscript genetic relationships/stemma (not yet published)",
+        "U-0004: Dresden manuscript provenance chain (acquisition unknown before 1754)",
+        "U-0005: Contemporary oral transmission vitality (unquantified; no census data)",
+        "U-0006: Turkmen/Azerbaijani/Kazakh variant relationships (linguistic analysis needed)",
+        "U-0007: Tepegöz/Cyclops parallel causality (undecidable; universal pattern likely)",
+        "U-0008: Female character tale-by-tale breakdown (incomplete; no quantified distribution)",
+        "U-0009: Historical claims corroboration rate (not systematically verified)",
+        "U-0010: Dede Korkut saint veneration/shrine sites (no documentation found; Central Asian archival research needed)"
+      ],
+      "production_notes_template_entry": {
+        "gap_id": "U-XXXX",
+        "gap_description": "...",
+        "current_status": "UNRESOLVED or PARTIALLY_DOCUMENTED or GAPS_IDENTIFIED",
+        "researchability": "HIGH or MEDIUM or LOW",
+        "priority_for_future_research": "HIGH or MEDIUM or LOW",
+        "impact_on_current_production": "NOT_BLOCKING or OPTIONAL_ENRICHMENT",
+        "recommendation": "..."
+      },
+      "compliance_check": "RECOMMENDED — Transparency about research frontiers enhances credibility"
+    },
+    {
+      "condition_id": "C-D6-005",
+      "condition_title": "Capstone Synthesis (Bozkır Felsefesi Manifestation) Must Be Clearly Articulated",
+      "requirement": "Script section explicitly connects: Abstract philosophy → Narrative embodiment → Institutional preservation → Contemporary practice",
+      "rationale": "Core argument linking Dede Korkut to 7th cluster theoretical framework; clarity essential for video coherence",
+      "capstone_components": [
+        {
+          "component": "BOZKIR_FELSEFESI (Abstract)",
+          "description": "Theoretical framework: heroism, honor, confederation unity, ecological integration, freedom as cultural principle",
+          "connection": "Establishes philosophical foundation that epic narratives will embody"
+        },
+        {
+          "component": "NARRATIVE_EMBODIMENT",
+          "description": "Dede Korkut stories demonstrate philosophical principles through character action: heroic exploits, honor defense, confederation mediation, landscape integration, clever resistance",
+          "connection": "Shows philosophy transformed into living narrative; abstract becomes concrete"
+        },
+        {
+          "component": "INSTITUTIONAL_PRESERVATION",
+          "description": "Manuscripts, archives, scholarly infrastructure, UNESCO recognition: systems created to preserve narrative tradition",
+          "connection": "Demonstrates philosophy surviving through institutional support; culture-making as conscious practice"
+        },
+        {
+          "component": "CONTEMPORARY_PRACTICE",
+          "description": "Living oral performance, community engagement, entertainment adaptation, scholarly research: ongoing transmission",
+          "connection": "Proves philosophy remains relevant and actively practiced in modern contexts; tradition is living, not dead"
+        }
+      ],
+      "script_language_template": "Dede Korkut epic is more than just stories — it is philosophy in action. The abstract principles of steppe culture (heroism, honor, tribal confederation, ecological awareness) become embodied in narrative form. Through storytelling, these values are transmitted from generation to generation. Institutional support (manuscripts, archives, UNESCO recognition) ensures the stories survive centuries. Contemporary performances keep the tradition alive in modern communities. This is how human culture works: philosophy → narrative → institution → practice. This is how values outlast empires.",
+      "compliance_check": "MANDATORY — This argument is the connective tissue of the entire video; clarity essential"
+    }
+  ],
+  "production_strengths_inventory": {
+    "strong_evidence_available": [
+      {
+        "strength": "UNESCO Institutional Validation",
+        "evidence_type": "PRIMARY_SOURCE",
+        "reliability": "HIGH",
+        "video_value": "STRONG — Official 2018 inscription provides authoritative endpoint for narrative arc; geopolitical context adds sophistication",
+        "visual_potential": "UNESCO logos, official documents, decision language (13.COM 10.B.3)"
+      },
+      {
+        "strength": "Manuscript Traditions Documentation",
+        "evidence_type": "PRIMARY_SOURCES + ARCHIVAL",
+        "reliability": "HIGH",
+        "video_value": "STRONG — Four independent manuscript witnesses provide redundancy narrative; geographic dispersal story compelling",
+        "visual_potential": "SLUB Dresden manuscript pages, Vatican collection imagery, Gonbad discovery documentation, Ottoman-era Bursa manuscript"
+      },
+      {
+        "strength": "Philosophical Values Literary Analysis",
+        "evidence_type": "SCHOLARLY_CONSENSUS",
+        "reliability": "HIGH",
+        "video_value": "STRONG — Five core values (heroism, honor, confederation, ecology, freedom) documented across multiple academic sources; clear narrative exemplification available",
+        "visual_potential": "Specific tale illustrations or animations (Bamsi Beyrek heroism, honor conflicts, confederation mediation scenes)"
+      },
+      {
+        "strength": "Capstone Synthesis (Bozkır Felsefesi Manifestation)",
+        "evidence_type": "INTERPRETIVE_ANALYSIS",
+        "reliability": "MODERATE-HIGH (intellectually compelling even if not absolute proof)",
+        "video_value": "STRONG — Provides overarching narrative structure linking abstract philosophy to concrete practice; coherent thesis throughout video",
+        "visual_potential": "Timeline visualization from 9th-century oral origins to 21st-century UNESCO; institutional layering diagram"
+      },
+      {
+        "strength": "Contemporary Performance Traditions",
+        "evidence_type": "DOCUMENTED_FACT + CULTURAL_RECOGNITION",
+        "reliability": "HIGH",
+        "video_value": "STRONG — Living transmission demonstrates ongoing cultural relevance; entertainment adaptation shows popular engagement",
+        "visual_potential": "Film/animation stills (1988 film, 2012-2013 series), contemporary minstrel performance footage or documentation"
+      },
+      {
+        "strength": "Historiographical Debate Transparency",
+        "evidence_type": "SCHOLARLY_ANALYSIS",
+        "reliability": "HIGH",
+        "video_value": "MODERATE-STRONG — Debate visibility builds intellectual credibility; presents complexity as evidence of rigorous scholarship",
+        "visual_potential": "Three-position debate visualization, scholarly source imagery"
+      }
+    ]
+  },
+  "production_caveats_inventory": {
+    "caveats_requiring_explicit_script_acknowledgment": [
+      {
+        "caveat": "Historical Dede Korkut unverified; pseudepigraphic status likely",
+        "severity": "MEDIUM",
+        "script_handling": "Frame as scholarly debate; emphasize legendary exemplar function; pivot to philosophical rather than biographical significance",
+        "language_guard": "Never phrase as 'Dede Korkut was historically confirmed'; use 'Dede Korkut is documented in sources; historical verification remains debated'"
+      },
+      {
+        "caveat": "Narrative authenticity unverifiable; legendary embellishment certain",
+        "severity": "MEDIUM",
+        "script_handling": "Qualify as 'historical framework with legendary elaboration'; emphasize this blend is characteristic of epic literature",
+        "language_guard": "Never phrase as 'Dede Korkut preserves accurate historical records'; use 'preserves authentic tribal framework with philosophical elaboration'"
+      },
+      {
+        "caveat": "Oral tradition dating is 9th-11th century range (LOW PRECISION estimate, not certainty)",
+        "severity": "LOW",
+        "script_handling": "Present as 'estimated dating' based on narrative analysis; emphasize uncertainty reduces confidence only marginally",
+        "language_guard": "Avoid false precision dates; use ranges and 'approximately/estimated' language"
+      },
+      {
+        "caveat": "Contemporary oral transmission vitality unquantified; practitioner census absent",
+        "severity": "LOW",
+        "script_handling": "Reference UNESCO recognition and specific performers (Âşık Yavuz); acknowledge that precise metrics not available; frame as opportunity for ethnographic research",
+        "language_guard": "Never claim 'thousands of people practice'; use 'documented contemporary performance tradition; exact community size unknown'"
+      },
+      {
+        "caveat": "Manuscript genetic relationships (stemma) remain scholarly frontier; not yet published",
+        "severity": "LOW",
+        "script_handling": "Note multiple traditions exist; detail about genetic relationships optional; frame as scholarly work-in-progress",
+        "language_guard": "Avoid claiming definitive manuscript family trees; use 'four independent witnesses to tradition' without resolving relationships"
+      },
+      {
+        "caveat": "Tepegöz/Cyclops parallel causality undecidable (borrowing vs. universal pattern; likely universal)",
+        "severity": "LOW",
+        "script_handling": "Focus on Tepegöz as specific parallel; acknowledge causality debate without resolving; frame as intellectually interesting without requiring conclusion",
+        "language_guard": "Avoid claiming Homer borrowed from Turkic or vice versa; use 'similar narrative structures found across cultures; common human patterns likely'"
+      },
+      {
+        "caveat": "Female character analysis incomplete; tale-by-tale breakdown not published (English-accessible)",
+        "severity": "LOW",
+        "script_handling": "Reference documented complexity without claiming comprehensive understanding; optional enhancement",
+        "language_guard": "Use 'literary scholarship identifies varied female roles' without quantifying distribution"
+      },
+      {
+        "caveat": "Phase A contained date error (2001 vs. 2018 UNESCO); now corrected",
+        "severity": "MEDIUM (integrity issue)",
+        "script_handling": "EXPLICITLY ACKNOWLEDGE correction in script or production notes; builds transparency and intellectual honesty",
+        "language_guard": "Use 'corrected research shows 2018 (not previously-stated 2001)' to demonstrate verification process"
+      }
+    ],
+    "caveats_acceptable_without_explicit_mention": [
+      "Manuscript acquisition provenance (Dresden pre-1754) unknown — detail unnecessary for narrative",
+      "Variants relationship unresolved (Gonbad independence uncertain) — note existence without resolving",
+      "Rashid al-Din source base not directly examined — secondary summaries sufficient for production",
+      "Archaeological corroboration of specific battles absent — framework confirmation sufficient",
+      "Central Asian scholarship (Kazakh, Kyrgyz, Turkmen languages) underrepresented — acknowledged but not blocking"
+    ]
+  },
+  "phase_e_operational_guidelines": {
+    "script_development_approach": "Start with capstone thesis (philosophy → narrative → institution → practice); build sections around narrative arc framework provided above; use mandatory conditions as guardrails on historical claims; emphasize scholarly honesty and debate transparency as strengths",
+    "research_priority_for_phase_e": [
+      {
+        "priority": "CRITICAL",
+        "task": "Verify UNESCO 2018 date and decision (13.COM 10.B.3) — ensure Phase A error correction documented"
+      },
+      {
+        "priority": "HIGH",
+        "task": "Secure access to Dresden manuscript images or reproductions for visual references"
+      },
+      {
+        "priority": "HIGH",
+        "task": "Identify specific narrative examples (tales) for philosophical values demonstration (Bamsi Beyrek for heroism/honor, etc.)"
+      },
+      {
+        "priority": "MEDIUM",
+        "task": "Locate film/animation footage from adaptations (1988 film, 2012-2013 series) for contemporary performance visualization"
+      },
+      {
+        "priority": "MEDIUM",
+        "task": "Research contemporary minstrel performance documentation or footage (Âşık Yavuz or similar performers)"
+      },
+      {
+        "priority": "LOW",
+        "task": "Explore detailed gender character analysis if video budget allows deeper thematic development"
+      }
+    ],
+    "visual_asset_priority_matrix": [
+      {
+        "visual_need": "Steppe landscape",
+        "priority": "CRITICAL",
+        "rationale": "Recurring motif showing ecological integration and environment as character; essential for establishing visual identity",
+        "source_options": "Photography, animation, historical landscape paintings, satellite imagery, Oghuz settlement archaeological visualization"
+      },
+      {
+        "visual_need": "Manuscript pages (especially Dresden)",
+        "priority": "CRITICAL",
+        "rationale": "Primary evidence; demonstrates preservation mechanism; high visual authority",
+        "source_options": "SLUB Dresden digital collections, published facsimiles, archival photography"
+      },
+      {
+        "visual_need": "Heroic combat/action scenes",
+        "priority": "HIGH",
+        "rationale": "Narrative exemplification; demonstrates philosophical principles",
+        "source_options": "Illustrations from existing Dede Korkut editions, animation, artistic recreations"
+      },
+      {
+        "visual_need": "Character portraits/figures",
+        "priority": "MEDIUM",
+        "rationale": "Identity and emotional resonance; supports philosophical exemplar concept",
+        "source_options": "Costume design, portrait illustrations, animation character design"
+      },
+      {
+        "visual_need": "Archive/institutional imagery",
+        "priority": "MEDIUM",
+        "rationale": "Demonstrates preservation infrastructure; supports capstone synthesis",
+        "source_options": "SLUB Dresden interior, UNESCO documentation, archival photography"
+      },
+      {
+        "visual_need": "Timeline visualization",
+        "priority": "MEDIUM",
+        "rationale": "Shows millennial perspective and institutional layering",
+        "source_options": "Animated timeline, infographic, institutional era markers"
+      },
+      {
+        "visual_need": "Film/animation adaptation footage",
+        "priority": "LOW",
+        "rationale": "Demonstrates contemporary engagement; not essential but enriches narrative",
+        "source_options": "IMDB licensed clips, production stills, trailers"
+      },
+      {
+        "visual_need": "Contemporary performance documentation",
+        "priority": "LOW",
+        "rationale": "Shows living tradition; visually compelling but not essential",
+        "source_options": "Performance photography, ethnographic footage, documentary clips"
+      }
+    ],
+    "production_timeline_considerations": [
+      "Phase E script development can proceed immediately with Conditional Ready verdict; no blocking dependencies",
+      "Visual asset acquisition (especially manuscript images, steppe landscape) should begin in parallel with script development",
+      "Caveats (mandatory conditions C-D6-001 through C-D6-005) must be incorporated during script editing, not post-production",
+      "Research gaps documentation (production_notes.json) should be created alongside script as living document"
+    ]
+  },
+  "transition_checklist_phasedtoe": [
+    {
+      "item": "UNESCO date correction integrated into project record",
+      "responsible_party": "Phase E script developer",
+      "deadline": "Before script finalization",
+      "verification": "Script explicitly states 2018 (13.COM 10.B.3), acknowledges Phase A error correction"
+    },
+    {
+      "item": "Mandatory conditions C-D6-001 through C-D6-005 reviewed and approved",
+      "responsible_party": "Project director",
+      "deadline": "Before Phase E initiation",
+      "verification": "Checklist signed; conditions integrated into script development guidelines"
+    },
+    {
+      "item": "Capstone synthesis thesis confirmed as central video argument",
+      "responsible_party": "Phase E script developer",
+      "deadline": "Before script outline",
+      "verification": "Script arc explicitly follows philosophy→narrative→institution→practice structure"
+    },
+    {
+      "item": "Production notes documenting research gaps (U-0001 through U-0010) created",
+      "responsible_party": "Phase E research coordinator",
+      "deadline": "Before visual asset acquisition",
+      "verification": "production_notes.json created with researchability and priority assessments"
+    },
+    {
+      "item": "Scholarly debate framework integrated into script structure",
+      "responsible_party": "Phase E script developer",
+      "deadline": "During script development",
+      "verification": "Historical existence debate, authenticity questions, comparative parallels all addressed with appropriate nuance"
+    },
+    {
+      "item": "Visual asset priority list confirmed with production team",
+      "responsible_party": "Phase E production manager",
+      "deadline": "Before asset acquisition",
+      "verification": "Assets prioritized; sources identified for critical elements (manuscript, landscape, heroic scenes)"
+    }
+  ],
+  "final_readiness_statement": "Dede Korkut universe research meets CONDITIONAL READY status for Phase E progression. Foundational facts established with high confidence. Historiographical debates mapped and acknowledged. Capstone synthesis strong and intellectually compelling. Identified gaps are in enrichment/depth areas (quantification, variant analysis, performance ethnography) that enrich scholarship but do not block video production. Mandatory conditions (UNESCO date correction, authenticity qualification, Dede Korkut existence presented as contested, research gaps documented, capstone synthesis articulated) must be implemented during Phase E script development. Recommend immediate transition to Phase E with conditions checklist integrated into production workflow.",
+  "archive_metadata": {
+    "phase": "D",
+    "document_type": "READINESS_CANDIDATES_FOR_PHASE_E",
+    "completion_date": "2026-08-09T23:45:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "readiness_verdict": "CONDITIONAL_READY",
+    "phase_e_progression": "APPROVED_WITH_CONDITIONS",
+    "next_phase": "Faz E (Prodüksiyon Hazırlığı & Video Senaryosu)",
+    "deliverables_summary": [
+      "Master dossier with UNESCO correction (faz-d-master-dossier-dede-korkut-evreni.json)",
+      "Readiness candidates with capstone synthesis and production guidance (this document)",
+      "Mandatory conditions checklist for script development",
+      "Production notes template for research gaps documentation",
+      "Visual asset priority matrix for production team",
+      "Script foundation framework with narrative arc recommendations"
+    ]
+  }
+}

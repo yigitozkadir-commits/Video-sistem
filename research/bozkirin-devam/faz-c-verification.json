@@ -1,0 +1,260 @@
+{
+  "phase": "C",
+  "cluster_id": "Foundation-Cluster-Items-101-110",
+  "section": "BOZ-02A",
+  "claims_verified": [
+    {
+      "claim_id": "C-B2-001",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Wet/dry event dating has ±200 year margins; exact timing contested between different lake core records",
+      "independent_confirmation": true,
+      "alternative_explanation": "Specific dates vary by 100-300 years between regions; pattern (five wet, five dry events) is robust even if exact timings differ",
+      "remaining_weakness": "Precise date calibration requires cross-site verification; individual lake cores have local bias",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Paleoclimate pattern solid; precise dating margins important"
+    },
+    {
+      "claim_id": "C-B2-002",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Climate optimum correlates with population expansion but causation is not directional; population growth may have enabled settlement of marginal lands during optimum, not vice versa",
+      "independent_confirmation": true,
+      "alternative_explanation": "Warm-wet conditions were permissive, not determinative; other factors (horse domestication, technological innovation) may have been primary drivers",
+      "remaining_weakness": "Claim implies climate 'promoted' expansion; more cautious phrasing needed — climate was enabling condition, not sole cause",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": ["NEDENSELLIK_4-EKSEN_UYARISI: Correlation (climate + population) not causation; mechanism unclear"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 1},
+      "notes": "Climate determinism risk — needs qualification regarding alternative causal models"
+    },
+    {
+      "claim_id": "C-B2-003",
+      "original_confidence": "STRONGLY_SUPPORTED",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Early Bronze Age pastoralism may have preceded intensive nomadism by centuries; genetic signatures of 'intensified' pastoralism difficult to date precisely",
+      "independent_confirmation": true,
+      "alternative_explanation": "Pastoralism transitioned gradually from semi-sedentary to specialized nomadic; 5000 years ago marks intensification boundary but not origin",
+      "remaining_weakness": "Intensification dating is inferred from genetic evidence, not directly observed; archaeological settlement pattern data needed for confirmation",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Genetic signature solid; archaeological precision needs improvement"
+    },
+    {
+      "claim_id": "C-B2-004",
+      "original_confidence": "PROBABLE",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "PLOS One study is single-region study (Xinjiang); seasonal movement universality not yet demonstrated across Central Asian regions",
+      "independent_confirmation": false,
+      "alternative_explanation": "Seasonal movement was common but specifics varied by region/period; Xinjiang pattern may not generalize to Altai or Tianshan",
+      "remaining_weakness": "Limited geographic scope (one region); cross-regional comparison absent; claim overstates universality",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["GEOGRAPHIC_LIMITATION: Single-site study generalized to region; requires multi-site verification"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Directionally sound but requires broader sample"
+    },
+    {
+      "claim_id": "C-B2-005",
+      "original_confidence": "PLAUSIBLE",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Hydroclimatic change documented, but causal link to trans-Eurasian exchange routes is speculative; trade routes depend on political stability, technology, demand, not just water availability",
+      "independent_confirmation": false,
+      "alternative_explanation": "Hydroclimatic change was factor among many; religious/political causes of trade route shifts may dominate",
+      "remaining_weakness": "Causal claim (climate → trade) is inference; direct historical documentation of climate-driven route shifts absent",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["NEDENSELLIK_ZAYIF: Correlation between climate and trade routes; multiple confounding variables"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Speculative connection; requires direct historical corroboration"
+    },
+    {
+      "claim_id": "C-B2-006",
+      "original_confidence": "ESTABLISHED",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "None credible — stratigraphic record is direct evidence; 11,700-year span is well-established",
+      "independent_confirmation": true,
+      "alternative_explanation": "None",
+      "remaining_weakness": "Mid-Holocene increase in human traces could reflect better preservation rather than actual population growth; taphonomic bias possible",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 1},
+      "notes": "Stratigraphic evidence solid; occupational intensity interpretation has preservation bias caveat"
+    },
+    {
+      "claim_id": "C-B2-007",
+      "original_confidence": "PLAUSIBLE",
+      "verdict": "plausible",
+      "strongest_counter_evidence": "Hierarchy resulting from seasonal resource access is one model; alternative models include warfare capture, prestige goods control, ceremonial specialization — no archaeological evidence for seasonal-access causation in Central Asia",
+      "independent_confirmation": false,
+      "alternative_explanation": "Multiple mechanisms generate hierarchy; seasonal resource access may correlate but not cause stratification",
+      "remaining_weakness": "Claim is theoretical model; direct archaeological evidence (settlement archaeology, bone stable isotope diet analysis) would be needed to confirm",
+      "updated_confidence": "PLAUSIBLE",
+      "red_team_flags": ["TEORIK_MODEL: Social hierarchy from seasonal access is hypothesis, not documented mechanism"],
+      "apparent_vs_independent_evidence_count": {"apparent": 1, "independent": 0},
+      "notes": "Testable hypothesis but currently speculation; needs archaeological corroboration"
+    },
+    {
+      "claim_id": "C-B2-008",
+      "original_confidence": "CONTESTED",
+      "verdict": "weak",
+      "strongest_counter_evidence": "Climate determinism is widely criticized in archaeology; conflict can have non-climatic causes (prestige competition, resource guarding, territorial defense) unrelated to environmental stress",
+      "independent_confirmation": false,
+      "alternative_explanation": "Climate deterioration correlates with conflict archaeologically but does not determine it; societies respond variably to same climate stress",
+      "remaining_weakness": "Temporal correlation misinterpreted as causation; archaeological evidence of conflict (weapons, defensive structures, injury patterns) does not prove climate causation",
+      "updated_confidence": "WEAK",
+      "red_team_flags": ["CLIMATE_DETERMINISM: Correlation ≠ causation; alternative social/political causes not ruled out"],
+      "apparent_vs_independent_evidence_count": {"apparent": 2, "independent": 0},
+      "notes": "Problematic determinism; requires explicit causal mechanism evidence beyond correlation"
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "BOZ-02A: Paleoclimate and pastoral social organization",
+      "interpretations": [
+        {
+          "scholar_or_school": "Environmental determinism school (1990s-2010s)",
+          "position": "Climate variations directly drive pastoral social organization; seasonal resource availability structures hierarchy and mobility patterns",
+          "based_on": "Climatic reconstructions + ethnographic parallels",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Outdated in modern processual archaeology",
+          "revision_impact": "MODERATE — Rejected as simplistic; environmental factors now seen as enabling conditions, not determinants"
+        },
+        {
+          "scholar_or_school": "Multi-causal model (2010s-present)",
+          "position": "Climate is one factor among many (technology, political competition, ideology) shaping pastoral adaptation; variable social responses to same climate stress documented",
+          "based_on": "Recent archaeological synthesis; processual complexity theory",
+          "status": "consensus",
+          "fringe_scale": "NOT_APPLICABLE — Current mainstream",
+          "revision_impact": "MAJOR — Replaced determinism with contingency frameworks"
+        },
+        {
+          "scholar_or_school": "Political ecology approach (2015-present)",
+          "position": "Pastoral societies actively shape environmental relations; 'adaptation' is negotiated, not determined; power structures mediate climate response",
+          "based_on": "Recent anthropological critique; indigenous scholarship",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY — Emerging but not yet dominant",
+          "revision_impact": "MODERATE — Challenges environmental-social interface assumptions"
+        }
+      ],
+      "perspective_diversity": "balanced",
+      "perspective_diversity_notes": "Western academic scholarship dominant; Russian/Soviet Central Asian archaeology well-represented; indigenous Mongolian/Kyrgyz pastoralist perspectives limited in scholarly literature",
+      "bias_types": ["institutional", "language", "postcolonial"],
+      "coverage_log": "English and Russian publications accessible; limited Mongolian/Kyrgyz/Kazakh-language scholarship integration; contemporary pastoralist knowledge systems underrepresented"
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-B2-001",
+      "question": "Did seasonal resource availability structurally determine pastoral social hierarchy, or is this one contingent outcome among many?",
+      "known": "Pastoral societies are hierarchical; seasonal migration was practiced; resource scarcity occurs seasonally",
+      "unknown": "Causal link between seasonality and hierarchy; alternative hierarchy-generating mechanisms (warfare, prestige goods, ceremonial specialization)",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Seasonal resource access creates differential wealth → hierarchy",
+        "Warfare/raiding competition independent of climate generates hierarchy",
+        "Prestige goods circulation (metals, textiles) central to hierarchy formation",
+        "Ceremonial specialization (shamans, aristocrats) creates authority independent of resource control"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-B2-002",
+      "question": "Did climate deterioration events (~3.9 kyr BP) directly cause conflict and migration in Eurasian steppe or simply correlate?",
+      "known": "Paleoclimate deterioration documented; conflict archaeology contemporaneous; migration patterns show stress",
+      "unknown": "Causal mechanism; whether conflict/migration occur in non-deterioration periods (testing determinism)",
+      "category": "CONTROVERSY",
+      "competing_explanations": [
+        "Climate deterioration directly caused resource stress → conflict/migration",
+        "Climate deterioration was trigger for politically-motivated conflicts already developing",
+        "Conflict occurred for non-climatic reasons; climate deterioration was coincidental",
+        "Regional variation: climate caused conflict in marginal lands, not in core pastoral areas"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-B2-003",
+      "question": "Were Bronze Age Central Asian pastoral economies fully nomadic or semi-sedentary, and when did complete nomadism emerge?",
+      "known": "Bronze Age herding occurred; settlement sites exist; full nomadism documented by Iron Age",
+      "unknown": "Transition timing and mechanism; whether 'nomadism' was gradual spectrum or abrupt shift",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Bronze Age: semi-sedentary with seasonal movement; Iron Age: specialized full nomadism",
+        "Nomadism present throughout but intensified over time",
+        "Regional variation: nomadism in marginal areas, semi-sedentary in oases simultaneously"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-B2-005: Trade route connection to hydroclimatic change is inference; direct causal evidence absent",
+      "C-B2-007: Seasonal access → hierarchy is theoretical model without direct archaeological confirmation",
+      "C-B2-008: Climate deterioration → conflict assumes causation without ruling out alternative conflict sources"
+    ],
+    "unresolved_contradictions": [
+      "Environmental determinism vs. multi-causal models: Field has shifted consensus but determinism still appeals to some scholars"
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-B2-001",
+      "reliability": "high",
+      "notes": "Paleoclimate data from peer-reviewed source; specific dates have ±200 year margins"
+    },
+    {
+      "source_id": "SRC-B2-002",
+      "reliability": "high",
+      "notes": "Nature Communications publication; high-quality paleoclimate and genetic data"
+    },
+    {
+      "source_id": "SRC-B2-003",
+      "reliability": "medium",
+      "notes": "PLOS One publication; single-region study (Xinjiang); generalizability limited"
+    },
+    {
+      "source_id": "SRC-B2-004",
+      "reliability": "high",
+      "notes": "Paleoclimate paleoclimate data; Tianshan region specific; causal links to trade routes speculative"
+    },
+    {
+      "source_id": "SRC-B2-005",
+      "reliability": "high",
+      "notes": "Frontiers in Earth Science; Lake Chatyr Kol continuous record is invaluable; stratigraphic interpretation solid"
+    }
+  ],
+  "cross_cluster_dependencies": [
+    {
+      "from_claim": "C-B2-002 (Climate optimum promoted population expansion)",
+      "to_claim": "C-B1-001 (Horse domestication Botai 3500 BCE)",
+      "dependency_type": "ENABLING_CONDITION",
+      "notes": "Climate optimum provided conditions for pastoral intensification; horse domestication is response technology"
+    },
+    {
+      "from_claim": "C-B2-003 (Intensified pastoralism 5000 years ago)",
+      "to_claim": "C-KURG-003 (Kurgan expansion Proto-Indo-European)",
+      "dependency_type": "ENABLING_CONDITION",
+      "notes": "Pastoral intensification provided military/mobility basis for steppe expansion"
+    }
+  ],
+  "adversarial_summary": {
+    "strongest_challenges": [
+      "Climate determinism (C-B2-008): Major historiographic risk; correlation misinterpreted as causation; alternative political/social causes not adequately explored",
+      "Seasonal hierarchy causation (C-B2-007): Theoretical model unsupported by direct archaeological evidence",
+      "Trade route hydroclimatic causation (C-B2-005): Speculative connection requiring direct historical documentation"
+    ],
+    "most_robust_claims": [
+      "Paleoclimate patterns (C-B2-001): Well-dated lake core records; pattern solid even if absolute dates have margins",
+      "Continuous human occupation (C-B2-006): Stratigraphic evidence uncontested"
+    ],
+    "bias_risks": [
+      "Environmental determinism embedded in 1990s-2000s scholarship; modern consensus rejects this but traces remain in literature",
+      "Western processual archaeology dominates; Russian Central Asian scholarship underrepresented in English",
+      "Indigenous pastoralist knowledge systems absent from scholarly discourse; modern Mongolian/Kyrgyz adaptations not documented"
+    ]
+  }
+}

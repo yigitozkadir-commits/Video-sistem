@@ -1,0 +1,81 @@
+{
+  "template_id": "TPL-historical-epic",
+  "extends": null,
+  "director": {
+    "pace": {
+      "avg_shot_s": 5.5,
+      "range": [
+        4,
+        7
+      ]
+    },
+    "still_video_ratio": 0.45,
+    "motion_ceiling": 3,
+    "silence_per_act": 1,
+    "beat_weight_cap": 0.85,
+    "camera_vocabulary": [
+      "static",
+      "push_in.slow",
+      "pull_out.slow",
+      "pan.left",
+      "pan.right",
+      "tilt.up",
+      "tilt.down",
+      "crane"
+    ]
+  },
+  "visual": {
+    "style_profile_ref": "style/historical_epic_steppe.json",
+    "palette": {
+      "dominant": [
+        "earth",
+        "ochre",
+        "deep red",
+        "cold grey"
+      ],
+      "forbidden": [
+        "neon",
+        "pastel"
+      ]
+    },
+    "lens_set": [
+      "wide",
+      "normal",
+      "portrait"
+    ],
+    "lighting": [
+      "golden_hour",
+      "firelight_warm",
+      "overcast_soft",
+      "single_window_soft"
+    ],
+    "forbidden": [
+      "modern objects",
+      "plastic sheen",
+      "lens flare",
+      "anime stylisation"
+    ]
+  },
+  "audio": {
+    "narrator": {
+      "stability": 0.5,
+      "style": 0.25,
+      "speed": 1.0,
+      "wpm": 140
+    },
+    "music": {
+      "density": "medium",
+      "instruments": "low drone, sparse strings, frame drum",
+      "loudness_under_speech_db": -20
+    },
+    "ambience": "wind, cloth, distant animals",
+    "silence_max_s": 2.5
+  },
+  "qa_overrides": {
+    "audience_rating": "general",
+    "period_accuracy_check": true
+  },
+  "budget_profile": {
+    "credits_per_minute": 260
+  }
+}

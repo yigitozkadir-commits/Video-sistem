@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/archival_asset.schema.json",
+  "title": "Archival Asset",
+  "description": "A sourced (not generated) still/video pulled from a real public/open archive - Wikimedia Commons, NASA Images, or Archive.org - by scripts/find_reference_images.py. Distinct from reference_asset.schema.json's REF-* generation references (M09 §8b): this is never immutable, always carries a license and a citable source_url, and is the one asset-sourcing path that can make project.json's rights.source_basis: \"public_domain\" an evidenced claim instead of an inference.",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "shot_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^SH-\\d{3}-\\d{2}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "query": {
+      "type": "string",
+      "description": "The search keywords used to find this candidate."
+    },
+    "source": {
+      "type": "string",
+      "enum": ["wikimedia_commons", "nasa", "archive_org"]
+    },
+    "source_title": {
+      "type": "string",
+      "description": "The archive's own title/identifier for the item (Commons page title, NASA nasa_id, Archive.org identifier)."
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Human-viewable page for the item at its source archive - the right citation for project.json's rights.evidence_ref."
+    },
+    "file_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Direct URL to the downloaded file, at the resolution actually retrieved."
+    },
+    "license": {
+      "type": "string",
+      "description": "Short license name as reported by the source (e.g. \"cc-by-sa-4.0\", \"public domain\"). Never empty - an asset with an unclear/missing license is rejected before this record is ever written (M09 §8b)."
+    },
+    "license_url": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string",
+      "description": "Photographer/artist/credit string, empty string if the source provides none (public domain often has none)."
+    },
+    "local_path": {
+      "type": "string",
+      "description": "Path relative to repo root where the file was downloaded."
+    },
+    "bytes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "width": {
+      "type": ["integer", "null"]
+    },
+    "height": {
+      "type": ["integer", "null"]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "scene_id", "query", "source", "source_url", "file_url",
+    "license", "local_path", "sha256", "retrieved_at"
+  ],
+  "additionalProperties": true
+}

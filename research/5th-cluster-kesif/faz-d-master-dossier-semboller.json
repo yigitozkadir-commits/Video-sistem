@@ -1,0 +1,494 @@
+{
+  "phase": "D",
+  "project_id": "5th-cluster-kesif",
+  "cluster_name": "ORTAK SEMBOLLER",
+  "item_range": "311-350",
+  "candidate_id": "CAND-SYMBOLS-01",
+  "research_question": "İslam kabulü Turk sembol sistemini nasıl dönüştürdü?",
+  "d1_claim_consolidation": {
+    "total_claims": 12,
+    "claims_by_group": {
+      "CORE_PRE_ISLAMIC_TOTEM": {
+        "description": "Pre-Islamic Turkic sembol sistemi temel kaynaklı — yarım-ay + yıldız, çift-başlı kartal, totem hayvanlart",
+        "claims": [
+          {
+            "claim_id": "C-0001",
+            "text": "Pre-Islamic Turkic toplumları totemizme dayalı sembol sistemi kullandılar; hayvan sembolleri (kurtal, kartal, geyik, koç) klan kimliği ve kosmolojik anlamlar taşıdı.",
+            "phase_b_confidence": "STRONGLY_SUPPORTED",
+            "phase_c_verdict": "supported_but_qualified",
+            "final_verdict": "PROBABLE",
+            "basis": "Orkhon yazıtları (8. yy) ve MDPI shamanism çalışmaları, ama 8. yy öncesi pre-Islamic kanıt sınırlı; Sufi saint veneration + modern nationalism tarafından retroactively idealized olma riski"
+          },
+          {
+            "claim_id": "C-0004",
+            "text": "Yarım ay + yıldız sembolü Tengrism ile bağlantılı eski Turkic totem köklerine sahipken, İslam döneminde teolojik bir anlam kazandı ve Seljuk/Ottoman boyunca formalize edildi.",
+            "phase_b_confidence": "PROBABLE",
+            "phase_c_verdict": "contested",
+            "final_verdict": "PLAUSIBLE",
+            "basis": "Medium + Wikipedia kaynakları Turkic köken iddia ediyor, fakat Mesopotamian (Sumerian moon god Sin, 3000+ BCE) alternatif orijin daha documented + Tengrism'de crescent-star referansı eksik"
+          },
+          {
+            "claim_id": "C-0005",
+            "text": "Seljuk çift-başlı kartal sembolü pre-Islamic Turkic Burkut (kartal tanrı) ile kozmolojik bağlantılı; Persia ve Byzans etkilerini entegre ederek İslami eğilim gösterdi.",
+            "phase_b_confidence": "STRONGLY_SUPPORTED",
+            "phase_c_verdict": "supported_but_qualified",
+            "final_verdict": "PROBABLE",
+            "basis": "Seljuk çift-başlı kartal 10. yy'den sonra documented, ama Byzantine + Persian ödünç alma daha kuvvetli kanıtlanmış; Turkic Burkut single-headed, double-headed ile direct lineage unclear"
+          }
+        ]
+      },
+      "SUPPORTING_EVIDENCE": {
+        "description": "Tamga, Orkhon yazıtları, Ottoman tughra, Yasawi tarikatı — sembol sisteminin tarihi kanıtları (8. yy+)",
+        "claims": [
+          {
+            "claim_id": "C-0002",
+            "text": "Tamga (mühür/marka) sembolü Turkic klansal kimlik, mülkiyet ve sosyal statü göstergesi olarak Orta Asya boyunca yaygın olmuştur; iki Turk toplumunun asla aynı tamgası olmadı.",
+            "phase_b_confidence": "ESTABLISHED",
+            "phase_c_verdict": "strongly_supported",
+            "final_verdict": "STRONGLY_SUPPORTED",
+            "basis": "Academia.edu, ResearchGate, arkeolojik malzeme (Altai/Semirechye tamga işaretleri) — sistematik catalog + herediter emblem pratiği iyi dokümente"
+          },
+          {
+            "claim_id": "C-0003",
+            "text": "Orkhon yazıtları (8. yy) Turkic pre-Islamic ve erken-Islamic dönemin sınır çizgisinde yer alır; runiform script pre-Islamic Turkic okuryazarlık ve devlet organizasyonunun kanıtıdır.",
+            "phase_b_confidence": "ESTABLISHED",
+            "phase_c_verdict": "confirmed",
+            "final_verdict": "CONFIRMED",
+            "basis": "Wikipedia, Uppsala Runiform Database, Grokipedia: 732-735 CE, Vilhelm Thomsen 1893 decipherment, binlerce akademik yayın — yazı sistemi confirmed, ama yazıt metni sembol sistemi hakkında direkt veri sınırlı"
+          },
+          {
+            "claim_id": "C-0006",
+            "text": "Tughra (Ottoman padişah mühürü) Turkic tuğ (banner/horsetail standard) kelimesinden köken alırken, tasarımı Arap-İslami kaligrafi geleneğini yansıtıyor; iki geleneğin melez formudur.",
+            "phase_b_confidence": "ESTABLISHED",
+            "phase_c_verdict": "strongly_supported",
+            "final_verdict": "STRONGLY_SUPPORTED",
+            "basis": "Metropolitan Museum, Tugra.org, dergipark: Proto-Turkic tuğ + Islamic calligraphy fusion — Suleiman 16. yy formalizasyonu, private usage (lawhas) kademeli"
+          },
+          {
+            "claim_id": "C-0009",
+            "text": "Khoja Ahmad Yasawi (1093-1166) ve Yasawi Sufi tarikatı kurtal (wolf) totemini Sufi saint veneration ve menakıpnames aracılığıyla korudu; Kurt Baba mezarlıkları Anadolu'da yaygın hale geldi.",
+            "phase_b_confidence": "STRONGLY_SUPPORTED",
+            "phase_c_verdict": "strongly_supported",
+            "final_verdict": "STRONGLY_SUPPORTED",
+            "basis": "Pharos Journal, Cambridge Core, dervish literature: Yasawi historical, menakıpname geleneği documented, kurt totem Central Asia'da + Anadolu'da Sufi saint veneration via oral tradition"
+          }
+        ]
+      },
+      "PERIPHERAL_HISTORICAL": {
+        "description": "20. yy nationalism, Ottoman Tanzimat, coğrafi varyasyon — sembol seçimi ve ideoloji ilişkisi (risk: romantik revisionism)",
+        "claims": [
+          {
+            "claim_id": "C-0010",
+            "text": "Ottoman Tanzimat dönemi (19. yy) reformcuları sembol seçiminde stratejik tutum sergilediler: modernleşme için Avrupa-tarzı üniformalar + meşruiyet için İslami unvanlar (Mahdi); bu dualite hedef demografi ve otorite kaynaklarını yansıttı.",
+            "phase_b_confidence": "PLAUSIBLE",
+            "phase_c_verdict": "supported_but_qualified",
+            "final_verdict": "PLAUSIBLE",
+            "basis": "AJIS, VFAST Tanzimat scholarshp: Mahmud II European uniforms + Mahdi title factual, ama explicit strategic planning documentation eksik — pragmatic coincidence vs. intentional design unclear"
+          },
+          {
+            "claim_id": "C-0011",
+            "text": "20. yy Türk milliyetçiliği (Atatürk ve sonrasında) pre-Islamic Turkic sembolleri (Bozkurt/she-wolf, Göktürk imparatorluğu mirasını) sistematik olarak recover etmek ve modern Turkish identity'nin temeli yapmak için kullandı.",
+            "phase_b_confidence": "ESTABLISHED",
+            "phase_c_verdict": "supported_but_qualified",
+            "final_verdict": "CONTESTED",
+            "basis": "Taylor & Francis, New Lines Magazine: Bozkurt recovery pseudo-Turkology + scientific racism documented; Britannica + Academia.edu: recovery factual; ama Bozkurt pre-Islamic attestation weak (mythology >> historical fact) — legitimate cultural continuity vs. nationalist fabrication debate unresolved"
+          },
+          {
+            "claim_id": "C-0012",
+            "text": "Geografik varyasyon: Balkanlarda Bektashi geleneği, Anatolia'da Seljuk mirası, Orta Asya'da Yasawi tarikatı fark-farklı sembol adaptasyonları oluşturdular; merkez vs. periferide İslami normalizasyon farklı hızlarda ilerledi.",
+            "phase_b_confidence": "PROBABLE",
+            "phase_c_verdict": "plausible",
+            "final_verdict": "PROBABLE",
+            "basis": "Britannica, Grokipedia: Bektashi Balkanlarda, Yasawi Central Asia'da, Seljuk Anatolia'da documented; ama symbol adaptation differences systematic study eksik, causality (religious-cultural vs. political-administrative) unclear"
+          }
+        ]
+      },
+      "ADAPTATION_MECHANISMS": {
+        "description": "Islamic aniconism etkisi, Alevi-Bektashi synkretizm — sembol dönüşüm mekanizmaları",
+        "claims": [
+          {
+            "claim_id": "C-0007",
+            "text": "Alevi-Bektashi menakıpnames'lerinde 16 hayvan sembolü mevcuttir; bunların bazıları (koç, geyik) pre-Islamic Turkic anlamlarını korurken, diğerleri (kaç) İslami yeniden yorumlandı.",
+            "phase_b_confidence": "STRONGLY_SUPPORTED",
+            "phase_c_verdict": "supported_but_qualified",
+            "final_verdict": "STRONGLY_SUPPORTED",
+            "basis": "MDPI makale 16 hayvan detaylı listelemiş + syncretism analizi — ama Christian influence de önemli (ritual practices), single-source (pre-Islamic Turkic) attribution risk"
+          },
+          {
+            "claim_id": "C-0008",
+            "text": "İslamic aniconism (tasvir yasağı) prensipine uygun olarak, Turkic toplumları totem hayvan sembollerini abstracta formlar (geometrik, flora motifler) ve teks/yazı (kaligrafi) şeklinde indirekt olarak ifade ettiler.",
+            "phase_b_confidence": "PLAUSIBLE",
+            "phase_c_verdict": "plausible",
+            "final_verdict": "PLAUSIBLE",
+            "basis": "Wikipedia Aniconism, ResearchGate embroidery: Islamic aniconism well-documented; Turkic indirect strategies speculative — causality (Islamic coercion vs. independent Turkic pragmatism) reversed olabilir"
+          }
+        ]
+      }
+    }
+  },
+  "d2_evidence_graph": {
+    "description": "12 claim × 23 source network, red team flags marked",
+    "graph_structure": {
+      "nodes_claims": 12,
+      "nodes_sources": 23,
+      "nodes_red_flags": 20,
+      "total_nodes": 55
+    },
+    "red_team_flags_by_type": {
+      "SOURCE_GAP": {
+        "count": 3,
+        "affected_claims": ["C-0001", "C-0010"],
+        "description": "8. yy öncesi pre-Islamic sembol kanıtı arşivlerde eksik; Tanzimat dönemi policy memo yok; Qarakhanid sikkeleri erişim problemi"
+      },
+      "INTERPRETIVE_LEAP": {
+        "count": 2,
+        "affected_claims": ["C-0001"],
+        "description": "Fragmentary archaeological/written evidence (Orkhon, oral tradition) → 'full totem system' claims'ına atlaması"
+      },
+      "ALTERNATIVE_INTERPRETATION": {
+        "count": 5,
+        "affected_claims": ["C-0004", "C-0005"],
+        "description": "Mesopotamian (Sumerian) origin C-0004 için daha documented; Byzantine + Persian C-0005 için primary; Turkic secondary interpretations"
+      },
+      "RETROSPECTIVE_MYTH": {
+        "count": 1,
+        "affected_claims": ["C-0001"],
+        "description": "Sufi saint veneration + 20. yy nationalism tarafından pre-Islamic totem sistem retroactively idealized olma riski"
+      },
+      "SYNCRETISM_CONFUSION": {
+        "count": 2,
+        "affected_claims": ["C-0007"],
+        "description": "Pre-Islamic Turkic + Christian + Islamic influence karışmış; single-source attribution risk"
+      },
+      "CHRONOLOGY_AMBIGUITY": {
+        "count": 1,
+        "affected_claims": ["C-0004"],
+        "description": "Seljuk adoption (12. yy) vs. Ottoman formalization (18. yy) farkı — intermediate transition unclear"
+      },
+      "PSEUDO_TURKOLOGY": {
+        "count": 1,
+        "affected_claims": ["C-0011"],
+        "description": "Bozkurt recovery pseudo-Turkology + scientific racism documented; fantastical genealogies fabricated"
+      },
+      "MODERN_BIAS": {
+        "count": 1,
+        "affected_claims": ["C-0011"],
+        "description": "Modern Grey Wolves movement racism, nationalist historians'ın irresponsible romanticization"
+      },
+      "SOURCE_PRIORITY": {
+        "count": 1,
+        "affected_claims": ["C-0005"],
+        "description": "Byzantine/Persian influence daha documented; Turkic origin claim secondary"
+      },
+      "CAUSALITY_REVERSED": {
+        "count": 1,
+        "affected_claims": ["C-0008"],
+        "description": "Islamic aniconism introduced → Turkic symbols coerce; yoksa Turkic independent response? Temporal direction unclear"
+      },
+      "WEAK_EVIDENCE": {
+        "count": 1,
+        "affected_claims": ["C-0008"],
+        "description": "Embroidery imagery interpretation speculative; direct cause-effect chain weak"
+      },
+      "UNDERSPECIFIED": {
+        "count": 1,
+        "affected_claims": ["C-0012"],
+        "description": "Geographic variation iddiası ama detail eksik; regional comparison systematic değil"
+      },
+      "INTENTIONALITY_UNPROVEN": {
+        "count": 1,
+        "affected_claims": ["C-0010"],
+        "description": "Ottoman Tanzimat sembol seçimi: strategic deliberation vs. pragmatic ad-hoc — decision memo dokumentasyonu yok"
+      },
+      "MISSING_PRIMARY_SOURCE": {
+        "count": 1,
+        "affected_claims": ["C-0004"],
+        "description": "Tengrism'de crescent-star explicit referansı bulunmamıştır — inference olabilir"
+      }
+    },
+    "source_evidence_connections": {
+      "high_confidence_clusters": {
+        "C-0002_Tamga": {
+          "sources": ["SRC-0004", "SRC-0005"],
+          "strength": "DIRECTLY_SUPPORTS",
+          "evidence_quality": "high"
+        },
+        "C-0003_Orkhon": {
+          "sources": ["SRC-0006", "SRC-0007"],
+          "strength": "DIRECTLY_SUPPORTS",
+          "evidence_quality": "high",
+          "note": "Primary source (Uppsala Runiform Database)"
+        },
+        "C-0006_Tughra": {
+          "sources": ["SRC-0012", "SRC-0013"],
+          "strength": "DIRECTLY_SUPPORTS",
+          "evidence_quality": "high",
+          "note": "Museum + specialist sources"
+        },
+        "C-0009_Yasawi": {
+          "sources": ["SRC-0016", "SRC-0017"],
+          "strength": "DIRECTLY_SUPPORTS",
+          "evidence_quality": "high"
+        }
+      },
+      "contested_clusters": {
+        "C-0001_PreIslamicTotem": {
+          "supporting_sources": ["SRC-0001", "SRC-0002", "SRC-0003"],
+          "counter_weight": "SOURCE_GAP: 8. yy öncesi kanıt sınırlı",
+          "note": "Consensus (Mainstream Turkology) vs. Critical (Peking University) historiography"
+        },
+        "C-0004_CrescentStar": {
+          "turkic_claim_sources": ["SRC-0008", "SRC-0009"],
+          "alternative_sources": "LearnReligions, Sumerian archaeology",
+          "conflict": "Mesopotamian (3000+ BCE) vs. Turkic (unattested) origin",
+          "note": "Historiographic debate: Turkic nationalism vs. Mesopotamian chronology"
+        },
+        "C-0005_SeljukEagle": {
+          "turkic_sources": ["SRC-0010", "SRC-0011"],
+          "alternative_sources": "Byzantine (primary), Persian (secondary), Mesopotamian (tertiary)",
+          "conflict": "Turkic Burkut (single-headed) vs. Double-headed eagle (Byzantine)",
+          "note": "Syncretism or separate borrowing unclear"
+        }
+      }
+    }
+  },
+  "d3_causality_chain": [
+    {
+      "period": "Pre-8th century (pre-Islamic Turkic)",
+      "primary_system": "Shamanism + Tengrism + Totemism",
+      "symbolic_expression": "Animal totems (wolf, eagle, deer, sheep) for clan identity; astronomical symbols (possibly crescent-star in Tengrism)",
+      "mechanism": "Religious/philosophical worldview → clan-based social organization → symbolic markers (totems) for identity + ritual + cosmological meaning",
+      "evidence_status": "INDIRECT: Orkhon yazıtları (8. yy) + oral tradition + reconstructed mythology; primary evidence pre-8th century very limited",
+      "confidence": "PROBABLE",
+      "red_flags": ["SOURCE_GAP", "RETROSPECTIVE_MYTH", "INTERPRETIVE_LEAP"]
+    },
+    {
+      "period": "8th century (Orkhon inscriptions & transition)",
+      "primary_system": "Orkhon Turkic statehood; pre-Islamic cosmology at periphery, Islamic awareness at center",
+      "symbolic_expression": "Runiform script (administrative literacy); totem animals in imperial seals/banners; eagle imagery (Burkut)",
+      "mechanism": "State organization requires standardized administrative symbols; pre-Islamic cosmology still dominant but Islamic pressure (Arab expansion) increasing",
+      "evidence_status": "PRIMARY: Orkhon yazıtları directly attested; runiform database (Uppsala)",
+      "confidence": "ESTABLISHED",
+      "red_flags": []
+    },
+    {
+      "period": "10th-12th centuries (Seljuk formalization)",
+      "primary_system": "Islamic Seljuk state + Persian bureaucracy + Byzantine military prestige",
+      "symbolic_expression": "Double-headed eagle (from Byzantine/Persian + Turkic Burkut synthesis unclear); tamga system formalized for administration; tughra proto-form",
+      "mechanism": "Conquest of Islamic heartland + Persian cultural adoption + Byzantine diplomatic mimicry → symbols acquire Islamic + imperial legitimacy while retaining Turkic administrative function",
+      "evidence_status": "SECONDARY: Academia.edu iconography, coins, seals; Byzantine/Persian precedent stronger than Turkic primary",
+      "confidence": "PROBABLE (eagle lineage CONTESTED)",
+      "red_flags": ["SOURCE_PRIORITY — Byzantine/Persian > Turkic", "SYNCRETISM_CONFUSION"]
+    },
+    {
+      "period": "13th-16th centuries (Ottoman early & formalization)",
+      "primary_system": "Islamic Ottoman state + Sufi Bektashi/Yasawi integration + Arabic calligraphy tradition",
+      "symbolic_expression": "Tughra (formalized under Suleiman 16th century); Alevi-Bektashi 16 animal menakıpnames (Christian + Islamic + Turkic blend); crescent-star adoption (18th century formal)",
+      "mechanism": "Sufi saint veneration channels pre-Islamic totem symbols through Islamic framework (saint as mediator); Islamic aniconism coerces indirect representation (abstract forms, calligraphy); administrative symbols (tughra) blend Turkic term + Islamic script",
+      "evidence_status": "SECONDARY + PRIMARY (menakıpnames, tughra examples, Tunisian documents)",
+      "confidence": "STRONGLY_SUPPORTED (adaptive mechanisms)",
+      "red_flags": ["SYNCRETISM_CONFUSION — Christian influence also documented", "CAUSALITY_REVERSED — Islamic aniconism effect unclear"]
+    },
+    {
+      "period": "18th-19th centuries (Ottoman formalization & Tanzimat)",
+      "primary_system": "Ottoman state prestige + Pan-Islamic propaganda + European modernity pressure",
+      "symbolic_expression": "Crescent-star formal adoption (18th century); Tanzimat European uniforms + Mahdi title; geographic variation (Balkan Bektashi liberal, Anatolia Seljuk conservative, Central Asia Yasawi normative)",
+      "mechanism": "Ottoman elite strategic choice: crescent-star becomes 'Islamic' symbol for Pan-Islam legitimacy (Sultan Abdul Hamid II 19. century); Tanzimat duality (European form + Islamic substance) for pluralist legitimacy",
+      "evidence_status": "SECONDARY: Wikipedia, AJIS, VFAST; explicit strategy documentation limited",
+      "confidence": "PLAUSIBLE (intent unproven)",
+      "red_flags": ["INTENTIONALITY_UNPROVEN", "ALTERNATIVE_INTERPRETATION — Mesopotamian origin"]
+    },
+    {
+      "period": "20th century (Turkish nationalism & modernity)",
+      "primary_system": "Turkish nationalist ideology + Atatürk modernization + pseudo-Turkology recovery",
+      "symbolic_expression": "Bozkurt (she-wolf) recovery as 'pre-Islamic Turkic mother of race'; removal of Islamic symbols in favor of pre-Islamic imagery; state-sponsored scientific racism connection",
+      "mechanism": "Nationalist historiography retrofits pre-Islamic 'authenticity' onto symbols; modern state uses symbols to construct unified national identity; critical scholarship documents pseudo-Turkology + scientific racism ideological infrastructure",
+      "evidence_status": "SECONDARY: Britannica, Taylor & Francis, New Lines Magazine; Bozkurt pre-Islamic attestation weak (mythology, not historical fact)",
+      "confidence": "CONTESTED",
+      "red_flags": ["PSEUDO_TURKOLOGY", "MODERN_BIAS", "SOURCE_INFLATION"]
+    }
+  ],
+  "d3_causality_summary": {
+    "primary_chain": "Religious/philosophical system (Shamanism/Tengrism) → Symbolic expression (totem animals) → Administrative use (tamga, tughra, seals) → National identity (modern Turkish nationalism)",
+    "key_uncertainty": "Pre-3rd century (before detailed written records) evidence scarcity; pre-Islamic totem system plausible but reconstruction relies on Orkhon-era evidence (8th century) + oral tradition + retroactive ideology",
+    "adaptation_mechanism": "Islamic aniconism + Sufi saint veneration + bureaucratic standardization → pre-Islamic symbols channeled through indirect forms (abstract, calligraphic, geometric) + Sufi mediator figures (saints) + administrative infrastructure (state symbols)",
+    "risk_factor": "20th century nationalist historiography systematically mythologized pre-Islamic symbols; Bozkurt recovery case study of legitimate historical interest conflating with pseudo-Turkology + scientific racism",
+    "periodization_confidence": {
+      "pre_8th_century": "PROBABLE (reconstructed, limited primary evidence)",
+      "8th_century_orkhon": "ESTABLISHED (primary source)",
+      "10th_12th_century_seljuk": "PROBABLE (contested lineage, Byzantine priority)",
+      "13th_16th_century_ottoman": "STRONGLY_SUPPORTED (adaptive mechanisms documented)",
+      "18th_19th_century_formalization": "PLAUSIBLE (intent documented, strategy intent less clear)",
+      "20th_century_nationalism": "CONTESTED (pseudo-Turkology risk documented, but cultural continuity kernel defensible)"
+    }
+  },
+  "d4_historiographic_summary": {
+    "synthesis": "The transformation of Turkic symbols following Islamic adoption represents a complex interplay of religious adaptation, administrative standardization, and ideological reimagining rather than simple replacement. Evidence-based narrative (8th century onward) supported by primary sources (Orkhon inscriptions, coins, seals, tughra examples) and academic consensus traces a clear trajectory: pre-Islamic totemic animal symbolism (shamanism/Tengrism framework) persisted through Islamic period via two mechanisms: (1) Sufi saint veneration, particularly the Yasawi tariqa, which channeled animal totems (wolf, deer) as spiritual metaphors within Islamic mysticism; (2) administrative continuity, where Turkic symbols (tamga, tuğ/tughra) remained functionally identical while acquiring Arabic-Islamic calligraphic or theological overlay. The crescent-star case study illustrates historiographic controversy: Turkish nationalist scholarship claims pre-Islamic Turkic roots (Tengrism astronomical symbolism), but Mesopotamian scholarship demonstrates Sumerian precedent (moon god Sin, 3000+ BCE, better documented), with Ottoman adoption in 18th century primarily reflecting Pan-Islamic prestige politics rather than historical recovery of indigenous Turkic meaning. The Seljuk double-headed eagle similarly shows Byzantine (primary) and Persian (secondary) source priority over single-headed Turkic Burkut lineage. Geographic variation—Bektashi liberalism in Balkans, Seljuk conservatism in Anatolia, Yasawi normativism in Central Asia—reflects administrative hierarchy and Sufi infrastructure rather than distinct indigenous symbol systems. Completeness audit reveals significant pre-Islamic evidence gap (8th century before, primary sources absent) and historiographic bias toward Turkish nationalist academia (Western Turkology consensus, Chinese/Russian/Iranian perspectives limited). The 20th century Turkish nationalism case (Bozkurt symbol recovery, pseudo-Turkology, scientific racism linkage) demonstrates how legitimate interest in cultural continuity can distort into ideological fabrication when scholarly rigor is abandoned. Synthesis conclusion: claims about pre-Islamic Turkic symbol system are defensible from 8th century forward with strong evidence; pre-Islamic reconstruction relies on inference, oral tradition, and archaeological hint—not direct attestation. Claims must include explicit caveats about evidence scarcity pre-8th century and acknowledged risk of retrospective nationalist idealization.",
+    "word_count": 385,
+    "perspectives_integrated": [
+      "Mainstream Turkology (Western academia): pre-Islamic totem system plausible, shamanism + Tengrism framework consensus",
+      "Peking University critical scholarship: pre-Islamic 'recovery' may be selective memory + 20th century romanticism",
+      "Turkish nationalist historiography: pre-Islamic cultural continuity legitimate, but pseudo-Turkology + scientific racism documented",
+      "Mesopotamian chronology: Sumerian crescent-star (3000+ BCE) precedent older and better attested than Turkic claims",
+      "Comparative iconography: Byzantine double-headed eagle primary source, Seljuk adoption secondary",
+      "Islamic symbol studies: crescent-star not inherently Islamic; Ottoman association is 19th century Pan-Islam propaganda"
+    ],
+    "perspective_gaps": [
+      "Chinese historiography (Han chronicles): 2nd-hand access only, Çin scholars limited representation",
+      "Russian/Kazak archival evidence: Qarakhanid, Mongol-Turkic periods underexamined",
+      "Iranian scholar perspective: Persian influence documented but Persian primary sources limited",
+      "Post-colonial historiography: nationalist bias critique underpublished, critical scholarship emerging"
+    ]
+  },
+  "d5_completeness_audit": {
+    "audit_axes": {
+      "axis_1_claim_coverage": {
+        "requirement": "All 12 claims present and verdict-clear?",
+        "status": "COMPLETE",
+        "count": 12,
+        "verdict": "YES",
+        "note": "All 12 claims from Phase B present, all have Phase C verdict + Phase D consolidation"
+      },
+      "axis_2_evidence_quality": {
+        "requirement": "23 sources, mixed confidence acceptable?",
+        "status": "ACCEPTABLE",
+        "sources_total": 23,
+        "sources_primary": 3,
+        "sources_secondary": 20,
+        "confidence_distribution": {
+          "high": 12,
+          "medium": 8,
+          "low": 3
+        },
+        "score": 0.72,
+        "note": "Peer-reviewed academic + primary + museum sources solid; popular-history + web synthesis weaker; primary source coverage limited to 8th century onward"
+      },
+      "axis_3_source_independence": {
+        "requirement": "Source diversity & bias detection?",
+        "status": "BIAS_DETECTED",
+        "independence_score": 0.65,
+        "bias_types": [
+          "Turkish academic dominance (SRC-0020, SRC-0021, C-0005, C-0011)",
+          "Postcolonial: Turkish nationalist historiography hegemonic",
+          "Institutional: Ankara, Istanbul universities dominant",
+          "Ideological: 20th century nationalism embedded"
+        ],
+        "underrepresented": [
+          "Chinese sources (Han chronicles): 2nd-hand only",
+          "Russian/Kazak arşiv materials",
+          "Iranian scholarly perspective",
+          "Post-colonial critical historiography"
+        ],
+        "note": "Western Turkology consensus present, but Turkish nationalist academia hegemonic; critical perspective minority"
+      },
+      "axis_4_primary_source_coverage": {
+        "requirement": "Primary source evidence present?",
+        "status": "PRESENT_BUT_LIMITED",
+        "primary_sources": ["SRC-0007: Orkhon inscriptions (8th century)", "SRC-0006: Orkhon yazıtları wiki", "SRC-0013: Tugra.org specialist"],
+        "coverage_periods": {
+          "pre_8th_century": "ABSENT — no primary evidence",
+          "8th_century_orkhon": "PRESENT — runiform database + coins",
+          "10th_12th_century_seljuk": "PARTIAL — coins, seals (secondary access)",
+          "13th_16th_century_ottoman": "PRESENT — tughra examples, documents",
+          "18th_19th_century": "PRESENT — Ottoman records, flags",
+          "20th_century": "PRESENT — nationalist publications, symbols"
+        },
+        "score": 0.78,
+        "note": "Strong 8th century forward; pre-8th century requires archaeological artifact analysis (absent from dossier)"
+      },
+      "axis_5_counter_argument_scope": {
+        "requirement": "Red team flags comprehensive?",
+        "status": "COMPREHENSIVE",
+        "red_team_flags_total": 20,
+        "flag_types": 13,
+        "major_flags_documented": [
+          "SOURCE_GAP — pre-3rd century evidence sparse (3 instances)",
+          "ALTERNATIVE_INTERPRETATION — Mesopotamian vs. Turkic (5 instances)",
+          "PSEUDO_TURKOLOGY — 20th century nationalist fabrication (1 major, C-0011)",
+          "SYNCRETISM_CONFUSION — multiple source attribution (2 instances)",
+          "RETROSPECTIVE_MYTH — modern nationalism retroactively idealizing (1 major)",
+          "CHRONOLOGY_AMBIGUITY — transition periods unclear (1 major)"
+        ],
+        "counter_evidence_found": [
+          "Mesopotamian crescent-star (Sumerian 3000+ BCE) stronger than Turkic",
+          "Byzantine double-headed eagle (primary) vs. Turkic Burkut (secondary)",
+          "Critical historiography: Bozkurt pseudo-Turkology + racism (Taylor & Francis, New Lines Magazine)",
+          "Peking University: pre-Islamic recovery as romantic nationalism"
+        ],
+        "score": 0.82,
+        "note": "Red team findings extensive and documented; historiographic debates identified; alternative interpretations present for 5/12 claims"
+      },
+      "axis_6_gap_documentation": {
+        "requirement": "Gaps explicitly noted & prioritized?",
+        "status": "DOCUMENTED",
+        "major_gaps": [
+          {
+            "gap": "Pre-3rd century evidence scarcity",
+            "risk_level": "HIGH",
+            "note": "8th century onward well-documented; pre-8th reconstructed from oral + mythology"
+          },
+          {
+            "gap": "Retrospective nationalist idealization risk",
+            "risk_level": "HIGH",
+            "note": "20th century pseudo-Turkology documented; pre-Islamic 'recovery' may conflate legitimate interest with fabrication"
+          },
+          {
+            "gap": "Mesopotamian alternative (crescent-star)",
+            "risk_level": "HIGH",
+            "note": "Sumerian origin (3000+ BCE) better documented than Turkic; historiographic priority unclear"
+          },
+          {
+            "gap": "Byzantine/Persian priority (Seljuk eagle)",
+            "risk_level": "MEDIUM",
+            "note": "Double-headed eagle primary source Byzantine; Turkic Burkut lineage speculative"
+          },
+          {
+            "gap": "Historiographic bias (Turkish academia dominant)",
+            "risk_level": "MEDIUM",
+            "note": "Chinese/Russian/Iranian perspectives limited; post-colonial critical scholarship emerging"
+          },
+          {
+            "gap": "Islamic aniconism causality",
+            "risk_level": "MEDIUM",
+            "note": "Unclear whether Islamic prohibition coerced Turkic adaptation or independent response"
+          }
+        ],
+        "gap_prioritization": [
+          "BLOCKING: Pre-Islamic totem evidence gap (affects C-0001, C-0004, C-0005 core claims)",
+          "HIGH: Mesopotamian crescent-star alternative (affects C-0004 historiography)",
+          "HIGH: Bozkurt pseudo-Turkology risk (affects C-0011 integrity)",
+          "MEDIUM: Regional symbol adaptation detail (affects C-0012 specificity)",
+          "MEDIUM: Historiographic bias & perspective diversity (affects overall credibility)"
+        ],
+        "score": 0.68,
+        "note": "Gaps identified and risk-ranked; evidence scarcity pre-8th century major limiter; nationalist ideology risk documented"
+      }
+    },
+    "completeness_score": 0.68,
+    "score_components": {
+      "claim_coverage": 1.0,
+      "evidence_quality": 0.72,
+      "source_independence": 0.65,
+      "primary_source_coverage": 0.78,
+      "counter_argument_scope": 0.82,
+      "gap_documentation": 0.68
+    },
+    "confidence_assessment": "MODERATE",
+    "assessment_text": "Completeness score 0.68 reflects solid evidence foundation from 8th century forward but significant pre-Islamic reconstruction gap and documented historiographic bias. 12 claims substantiated by 23 sources with acceptable mixed confidence (0.72), but source independence skewed toward Turkish academic dominance (0.65). Primary evidence strong for Orkhon/Ottoman periods but absent pre-8th century. Counter-arguments comprehensive (20 red team flags across 13 types), with major alternative interpretations documented for crescent-star (Mesopotamian priority) and Seljuk eagle (Byzantine priority). Historiographic debates identified (4 major, all documented). Unknown/unresolved contradictions: 3 (crescent-star origin, Burkut lineage, Bozkurt authenticity). Gap documentation explicit and risk-ranked. Pre-Islamic evidence scarcity is PRIMARY LIMITATION; retrospective nationalist ideology risk is SECONDARY LIMITATION. Claims 8th century forward defensible; claims before 8th century require explicit caveats about reconstruction methodology and romantic nationalism risk."
+  },
+  "d5_readiness_candidates": {
+    "note": "NOT A DECISION (human decision required). These are candidate readiness scenarios with supporting reasoning."
+  },
+  "metadata": {
+    "phase": "D",
+    "date_created": "2026-08-09",
+    "synthesis_approach": "Consolidated Phase B + C outputs; integrated red team flags; built causality chain; synthesized historiography with perspective gaps noted",
+    "claims_consolidated": 12,
+    "sources_integrated": 23,
+    "red_team_flags_analyzed": 20,
+    "historiographic_debates_identified": 4,
+    "unknowns_documented": 8,
+    "completeness_score": 0.68,
+    "next_phase": "D6 — Readiness Verdict Candidates (human decision)"
+  }
+}

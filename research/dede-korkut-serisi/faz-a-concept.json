@@ -1,0 +1,80 @@
+{
+  "phase": "A",
+  "input_summary": "İçerik backlog items 751-800 — Dede Korkut Evreni: Oghuz Türk kahramansal epik geleneği, kahraman anlatıları, kültürel kurucu mitolojiler. Orajal geleneği 9.-15. yüzyıllar, yazılı metinler 15.-16. yüzyıl, iki bilinen el yazması (Dresden, Vatikan).",
+  "candidates": [
+    {
+      "candidate_id": "CAND-01",
+      "title": "Dede Korkut — Türklerin İlk Yazılı Destanı: El Yazmasından Kimlik İnşasına",
+      "central_question": "Dede Korkut hikâyeleri, 9.-11. yüzyıllarda Orta Asya'da yaşayan Oghuz Türkleri tarafından sözlü olarak aktarılan gerçek olayları mı, yoksa 14.-15. yüzyıllarda bir bilinmeyen katip tarafından stilize edilen mitolojik inşaları mı temsil ediyor? Dresden ve Vatikan el yazmaları arasındaki fark nedir ve bu farklılıklar tarihin hangi slüvelerini gizliyor?",
+      "subject_type": "epic_literature",
+      "period": "9-15 yüzyıl (sözlü: 9-11, yazılı: 14-15)",
+      "geography": "Orta Asya → Anadolu (Oghuz göçü)",
+      "opportunity_class": "academic_controversy",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "medium",
+        "research_gap": "medium",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "Encyclopedia.com — Dede Korkut article (Oghuz periods, Dresden/Vatikan el yazmaları)",
+        "Academia.edu — 'A New Manuscript of The Book of Dede Korkut with the New Texts as Historical Source' (Babayeva, historiographical debate)",
+        "UNESCO (2018) — Dede Korkut representative list, UNESCO Intangible Cultural Heritage (Kazakhstan, Azerbaijan, Turkey joint inscription)"
+      ],
+      "research_risk": "low-medium — UNESCO resmi statüsü, erişilebilir akademik tartışmalar, ama el yazması karşılaştırmalarının derinliği Faz B'de daha fazla needing; transliteration differences (Dresden vs. Vatikan) belirlenmiş fakat philological analysis daha az accessible bulunabilir",
+      "recommended": true,
+      "note": "Studio marka uyumu: Gök Umay projesinin Türk kimliği + kahraman efsanesi çerçevesi, Dede Korkut'un Oghuz mitopoesis'i (Bamsi Beyrek, Salur Kazan karakterleri, Türk erdemler—cesaret, sadakat, akıl) ile güçlü tematik yakınsama. UNESCO statüsü, 12 hikâye yapısı video serileri için doğal modülasyon önerir."
+    },
+    {
+      "candidate_id": "CAND-02",
+      "title": "Dede Korkut Karakterleri — Bamsi Beyrek vs. Salur Kazan: Kahraman Kültürünün Arketipler Ağı",
+      "central_question": "Dede Korkut'un en ünlü kahraman karakterleri (Bamsi Beyrek, Salur Kazan) farklı Oghuz feodal dönemlerinden mi alıntılanmıştır, yoksa ortak bir mitolojik sistem içinde işlevsel olarak niçin farklılıkları vardır—biri 'güç', diğeri 'akıl'—ve bu arketipik dağılım bir 'kahraman tipologisi' sistemini ortaya koyar mı?",
+      "subject_type": "character_analysis",
+      "period": "9-15 yüzyıl",
+      "geography": "Oghuz bozkırı / Anadolu",
+      "opportunity_class": "comparative_mythology",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "UNESCO sources — Bamsi Beyrek, Salur Kazan as canonical characters in multiple Turkish-speaking oral traditions",
+        "Motley Turkey — multiple cultural contexts for Dede Korkut hero tales"
+      ],
+      "research_risk": "medium — karakter originalarının kronolojik izolasyonu zor, mitolojik parellelleri (Farsça, Arap, Maltzor) arşiv materyalleriyle doğrulamaya gerek; Faz B'de daha derinlemesine arşiv taraması gerekebilir",
+      "recommended": false,
+      "note": "CAND-01'in bir alt-segmenti olarak potansiyel, ama bağımsız bir konsept olarak zayıf (karakter analiz, mitoloji-karşılaştırması, CAND-01 'sözlü→yazılı dönüşüm' konseptinin içinde daha güçlü)."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "Dede Korkut Hikâyelerinin Tarihyazımı: Mikro-Tarih ve Efsane Çevre Sorunları",
+      "central_question": "Dede Korkut, Bizans kaleleri (Trabzon), Gürcü kaleleri (Tatyan) gibi gerçek yerler adlandırdığı halde, bu savaşlar kronolojik olarak neden iki farklı dönemde (8-11 ve 11-13. yüzyıllar) gerçekleşiyor? Bu zaman karışıklığı bir 'composite history' inşasını mı gösteriyor, yoksa anlatıcıların bilinçli mitolojik zaman alaştırması mı?",
+      "subject_type": "historiography",
+      "period": "9-15 yüzyıl (metahistorical analysis)",
+      "geography": "Anadolu / Kafkasya geografi ve savaş yerleri",
+      "opportunity_class": "chronological_anomaly",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "Encyclopedia.com — Dede Korkut zaman karışıklıkları (8-11 vs 11-13 yüzyıl), Trabzon/Tatyan kaleler referansları"
+      ],
+      "research_risk": "high — arşiv kronolojisi (Bizans/Gürcü kaynaklı savaş tarihleri, yerleşim değişimleri) gerekli; akademik çalışmalar (Tarih Bölümü yayınları, Ortaçağ Anadolusu), Faz B'de Türkçe/İngilizce akademik taraması (Halil İnalcık, etc.) zorunlu; bu level cronoloji kontrolü yüksek teknik engel taşır",
+        "recommended": false,
+        "note": "Yüksek akademik değer ama Faz B araştırma yükü çok (arşiv verisi + kronoloji doğrulaması), studio kapasitesi 'ilk video' için riskli; ikinci dalga içinde değerlidir."
+    }
+  ],
+  "winning_candidate_id": "CAND-01",
+  "selection_reasoning": "Dede Korkut — 'Sözlü geleneğin yazılı kalıcı forma dönüşümü' (CAND-01) seçildi çünkü: (1) UNESCO resmi statüsü + ortak uluslararası tanınırlık (Türkiye, Azerbaycan, Kazakistan); (2) iki bilinen el yazması (Dresden 1460-1560, Vatikan fragmenti) bir Faz B karşılaştırmalı filolojisi için doğal veri seti sağlar; (3) Gök Umay kimlik çerçevesi (Türk kahramanlığı, Gök Tanrı, erdem sistemi) Oghuz mitolojik inşasıyla direktten bağlanır; (4) 12 hikâye modüler yapısı video serileri için organik segment yapısı verir. CAND-02 (Bamsi/Salur tipolojisi) CAND-01'in alt-teması olarak Faz B characterize aşamasında geri çağrılabilir; CAND-03 yüksek akademik değere sahip ama kronohistoriografi araştırması bir sonraki layerdir."
+}

@@ -1,0 +1,52 @@
+{
+  "phase": "E",
+  "cluster": "OTTOMAN",
+  "section": "RYSKULOV",
+  "items_range": "801-900",
+  "items_count": 100,
+  "angle": {
+    "text": "Sovyet 1937: Bir el yazmasının kaderini değiştiren tarih",
+    "rationale": "E1: RYSKULOV bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Ryskulov'un Görülmemiş Yazması: 85 Yıl Gizli (Stalin'in Sildiği Tarih)",
+    "most_dramatic_claim": "Turar Ryskulov (1894-1938): Turkestan autonomy advocate, Turkish Communist Party kurucu. 5/21/1937 arrest, 2/10/1938 execution (15-dakika duruşma). Manuscript: NKVD confiscate - sonra kayboldu. Arşivde yok.",
+    "why_compelling": "Historical erasure: bir adam öldürüldü, kitabı kaybedildi, ama biz 85 yıl sonra soruyoruz neler yazılıydı?"
+  },
+  "claims_summary": {
+    "total_count": 5,
+    "confidence_levels": [
+      "STRONGLY_SUPPORTED",
+      "PROBABLE_TERMINOLOGY_UNCERTAIN",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "UNRESOLVED"
+    ],
+    "cautions": "Manuscript status unresolved - FSB archives aranan değil, alternatif: Sovyet archives'de uncatalogued kalıyor"
+  },
+  "production_readiness": {
+    "faz_d_status": "CONDITIONAL",
+    "qualifications": [
+      "Manuscript status unresolved - FSB archives aranan değil, alternatif: Sovyet archives'de uncatalogued kalıyor"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "CONDITIONAL",
+    "human_decision_required": true,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "CONDITIONAL_WITH_QUALIFICATIONS",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "RYSKULOV: Ryskulov'un Görülmemiş Yazması: 85 Yıl Gizli (Stalin'in Sildiği Tarih) — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "project_id": "PRJ-otrar-faciasi",
+  "title": "Otrar Faciası — Bir Kervanın Bedeli",
+  "bible_version": "2.0",
+  "template_ref": "TPL-historical-epic",
+  "source": {
+    "file": "input/faz-e-package.md",
+    "sha256": "8ae5eb6f9c49725d68ba68babf613e31c6712901944d569551eb51a4d04c561c",
+    "pages": 0
+  },
+  "rights": {
+    "source_basis": "owned",
+    "evidence_ref": "research/otrar-1218/faz-e-package.json - bibliography alanı (M23 §4 köprüsü: kaynak, tarihsel-araştırma-pipeline'ının kendi ürettiği, gerçek kamuya açık kaynaklara (Wikipedia, Peter Jackson 2017, Katie Campbell 2017 arkeoloji makalesi) dayanan bir sentez - bu stüdyonun kendi araştırma sentezi, PRJ-ninniler-atlasi'nin decisions/0001_rights_basis.md'de kaydettiği 'owned' kategorisiyle aynı mantık. Paket CONDITIONAL durumda teslim edildi (bkz. research/otrar-1218/faz-d-readiness.json) - bazı iddialar ikinci-elden birincil kaynağa dayanıyor, bu açıkça claim düzeyinde işaretli.",
+    "likeness_clearance": []
+  },
+  "output": {
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "target_duration_s": 480,
+    "loudness_lufs": -16
+  },
+  "language": {
+    "narration": "tr-TR",
+    "captions": ["tr-TR"],
+    "prompts": "en-US"
+  },
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "audience_rating": "general",
+  "budget": {
+    "currency": "credits",
+    "total": 0,
+    "alert_at": 0.8,
+    "hard_stop_at": 1.0
+  },
+  "determinism": {
+    "global_seed": 20260808,
+    "pin_models": true
+  },
+  "approval_policy": {
+    "first_scene": "required",
+    "master_export": "required",
+    "approval_sla_hours": 24,
+    "on_timeout": "hold"
+  },
+  "notes": "Modül 23 (historical-research-pipeline) tarafından uçtan uca araştırılıp M23 §4 köprüsüyle projeye dönüştürüldü - kullanıcı konuyu belirtmedi, sistem kendisi seçti (bkz. research/otrar-1218/faz-a-concept.json). CONDITIONAL readiness durumu (research/otrar-1218/faz-d-readiness.json) bilinçli olarak taşınıyor - narrasyon yazımında C-0007/C-0008 gibi tartışmalı/spekülatif claim'lerin çerçevesi korunmalı. Henüz hiçbir Flow/ElevenLabs üretimi yapılmadı - bu, sahne planı + promt dosyaları aşamasında (manuel API key/generation adımları kullanıcıya bırakıldı, bkz. proje teslim raporu)."
+}

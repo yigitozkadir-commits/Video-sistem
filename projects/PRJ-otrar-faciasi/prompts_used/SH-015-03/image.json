@@ -1,0 +1,20 @@
+{
+  "shot_id": "SH-015-03",
+  "scene_id": "SC-015",
+  "variant": "image",
+  "reused_from_shot_id": "SH-011-03",
+  "reuse_reason": "Deepening/interstitial scene reuses an existing Flow-generated visual - no new Flow or ElevenLabs generation for the image itself (user rule 2026-08-09: minimize unnecessary generation cost).",
+  "prompt_ref": "PV-0044",
+  "prompt_family": "flow.shot.wide.establishing",
+  "resolved_text": "A wide aerial-style view of the Otrar mound site's grid layout, string lines dividing excavation squares across the ancient citadel footprint. small distant figures at the trench edges. bright, dry. overcast_diffused. top_down wide. 28mm equivalent, deep focus. Motion: environmental only — faint dust haze. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-011-03.jpeg",
+  "sha256": "45b571b76113473c082c762e8f6256d341ca9763bf4acfb8788187a2a80c6e96",
+  "bytes": 1079479,
+  "width": 1376,
+  "height": 768,
+  "model": "google-flow",
+  "status": "reused",
+  "original_generated_at": "2026-08-09T01:14:44.610015+00:00",
+  "reused_at": "2026-08-09T01:37:04.711588+00:00"
+}

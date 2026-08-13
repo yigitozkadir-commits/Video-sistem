@@ -1,0 +1,295 @@
+{
+  "phase": "C",
+  "project_id": "dede-korkut-serisi",
+  "claims_verified": [
+    {
+      "claim_id": "C-001",
+      "text": "Oğuz hikâyeleri en az 9. ve 10. yüzyıldan itibaren Türk bozkır toplumlarında sözlü gelenek halinde varlığını sürdürmüştür",
+      "verdict": "strongly_supported",
+      "strongest_counter_evidence": "Hiçbir kaynağa 13. yüzyıldan önce sözlü geleneğe dair doğrudan yazılı belge yoktur; Kaynak zinciri modern tarihçiler → 19. yüzyıl arkeoloji → 16-17. yüzyıl yazılı nüshalar ve sonra geriye uzanır; kesin tarih belgeleme eksikliği.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Oğuz hikâyeleri 13-14. yüzyıl arasında yapılanmış ve yalnızca 14-16. yüzyılda yazılı hale gelmiş olabilir, ancak akademik fikir birliği 9-10. yüzyıl tarafından desteklenmektedir. Michael E. Meeker'ın erken 13. yüzyıl alt sınırı tasavvufu ancak oral köken'i de kabul eder.",
+      "remaining_weakness": "Oral geleneğin tarih ve içeriği için doğrudan kanıt yoktur; İçinde atanmış (attributed) tarihler hipotetiktir. Kanıt dolaylıdır: dilbilim (Clauson), edebî form (verse-prose karışımı), ozan geleneğinin Dede Korkut yazmaları içinde yer alması.",
+      "updated_confidence": "STRONGLY_SUPPORTED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 5,
+        "independent": 3
+      },
+      "historiographical_notes": "Consensus: Faruk Sümer, Geoffrey Lewis, Stanford J. Shaw, Michael E. Meeker hepsi 9-10c+ oral kökü kabul eder. Earliest Dede Korkut yazılı kaydı 14-16. yüzyıl, ancak dilbilim ve form analizi 9-10. yüzyıl tahminini destekler."
+    },
+    {
+      "claim_id": "C-002",
+      "text": "Dresden ve Vatikan yazmaları (14-16. yüzyıl) Dede Korkut hikâyelerinin ilk bilinen yazılı kayıtlarıdır",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Gonbad nüshası 2018'de bulundu ve muhtemelen 17-18. yüzyıl, ancak daha erken yazılı nüshaların (14-15. yüzyıl Safavi) var olması mümkündür. Ancak modern çağda ulaşılabilir ilk yazılı kaydın Dresden/Vatikan olduğu doğrulanmış.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Gonbad nüshası potansiyel olarak daha erken tarihlenebilir veya kayıp nüshalar var olabilir. Vahiy geleneği (hikâyelerin sözlü biçimde iletimi) 14-16. yüzyıl yazılı kaydından çok daha öncesine dayanabilir. Dresden/Vatikan 'ilk bilinen yazılı' olarak doğru ama 'ilk yazılı' potansiyel olarak yanıltıcı.",
+      "remaining_weakness": "Arşiv taraması tam olmayabilir; Osmanlı sarayı, eski Kazak/Kırgız arşivlerinde kayıp nüshalar mümkün. Gonbad keşfi (2018) ilk iki nüshanın 'ilk' olmadığını göstermiştir.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 4,
+        "independent": 3
+      },
+      "historiographical_notes": "Established fact: Dresden (16. yüzyıl, SLUB), Vatikan (14-15. yüzyıl, Rossi 1950 keşfi), Gonbad (2018). Üç bağımsız arşiv, skriptorium kayıtları ve kataloglar tutarlı."
+    },
+    {
+      "claim_id": "C-003",
+      "text": "Yazılı nüshalar arasında önemli anlatı ve metin varyasyonları bulunmaktadır; Dresden 12, Vatikan 6 hikâyeyi içerir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Varyasyonların kaynağı (müstensihin seçimi mi, kayıp mi, kasten silme mi) bilinmiyor. Gonbad nüshası 13. hikâyeyi içeriyor ama diğer iki nüshada neden kayıp olduğu açıklanmıyor — bu 'varyasyon' değil, potansiyel kayıp delili.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Varyasyonlar sadece müstensihe bağlı değildir; olaylar ve hikâyeler kültürel-dini baskıya (Safavi, Osmanlı, Qacar ortamında), muhtemelen Sufi/Alevi tercihlerine bağlı olarak seçilmiş olabilir. Geoffrey Lewis'in tahmini: '14-15. yüzyılda yazılı hale getirildi' muhtemelen tek bir archetyp var ama kayıp nüshalar araştırılmadı.",
+      "remaining_weakness": "Filoloji analizi (Muharrem Ergin) varyasyonların nedenini tam açıklamıyor; müstensihlerin motivasyonları belirtilmedi. Skriptorium ortamları (Safavi vs. Osmanlı) kaydı yoktur.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 2
+      },
+      "historiographical_notes": "Muharrem Ergin faksimile ve transkripsiyon; ResearchGate makalası müstensih karşılaştırması. Çağatay dilbilim (Gonbad nüshası Çağatay+Türkmen) Safavi/Qacar revizyonlarını gösterir."
+    },
+    {
+      "claim_id": "C-004",
+      "text": "UNESCO 2018'de Dede Korkut mirasını, Türkiye, Azerbaycan ve Kazakistan'ın ortak nominasyonu ile Somut Olmayan Kültürel Miras temsilî listesine eklemiştir",
+      "verdict": "confirmed",
+      "strongest_counter_evidence": "Yok. UNESCO resmi belgesi, 3 ülke ortak nominasyon, komite oturumu tutanakları tutarlı ve doğrulanmış.",
+      "independent_confirmation": true,
+      "alternative_explanation": "Yok.",
+      "remaining_weakness": "Yok.",
+      "updated_confidence": "ESTABLISHED",
+      "red_team_flags": [],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 2,
+        "independent": 2
+      },
+      "historiographical_notes": "UNESCO ICH (Intangible Cultural Heritage) Liste 2018 Kasım, 13. Komite, Port Louis. Resmi belgeler, kurumsal doğru (UNESCO.org, ich.unesco.org)."
+    },
+    {
+      "claim_id": "C-005",
+      "text": "Metnin Çağatay dil özellikleri, Syr Darya ile Anadolu arasında orijinal kompozisyonu göstermektedir ve daha sonraki Safavi (16. yüzyıl) ve Qacar (18. yüzyıl) revizyonları içermektedir",
+      "verdict": "supported_but_qualified",
+      "strongest_counter_evidence": "Çağatay dilbilimi, Safavi/Qacar coğrafyası varsayımı; Dresden nüshası 16. yüzyıl Osmanlı ortamı (Mscr.Dresd.Ea.86 von Diez koleksiyonu) gösterir ki bu Safavi değil. Gonbad nüshası Çağatay + Türkmen karışımı gösterir ama Safavi mı, Safavi-sonrası mı belirsiz.",
+      "independent_confirmation": false,
+      "alternative_explanation": "Metin geçmiş 14-15c. Proto-metin Syr Darya alanında Çağatay-Osmanlı-Azeri trilingal ortamında geçmiş olabilir. Revizyonlar sırf coğrafya tarafından değil, de facto müstensihlerin kültürel ortamı tarafından belirlendi. Gonbad nüshası potansiyel olarak Kuzey Kafkasya (Dağıstan) revizyonu olabilir, Safavi değil.",
+      "remaining_weakness": "Gonbad nüshasının tam tarihlemesi henüz yapılmadı. Safavi/Qacar hangi nüsha ve cilt için geçerliyse ayrıntılı belirtilmedi. Von Diez koleksiyonu provenance tam belirtilmedi. Coğrafi orijin (Syr Darya) dolaylı kanıta dayalı; arkeolojik doğrulama yok.",
+      "updated_confidence": "PROBABLE",
+      "red_team_flags": [
+        "CLAIM_MUTATION_SUSPECTED — 'Safavi/Qacar revizyonları' kesin iddias, 'muhtemelen' nitelemesi gerekli"
+      ],
+      "apparent_vs_independent_evidence_count": {
+        "apparent": 3,
+        "independent": 1
+      },
+      "historiographical_notes": "Çağatay dilbilim (Clauson, Indiana Uyghur Linguistics); Gonbad nüshası ortografik analiz (Wikipedia, akademik tarama). Tarihle coğrafya korelasyonu kuvvetle alındı ama kanıt dolaylı."
+    }
+  ],
+  "causal_claims_verified": [
+    {
+      "claim_id": "C-003-CAUSAL",
+      "text": "Müstensihler (Safavi/Osmanlı/Qacar ortamında) kültürel tercihlerinden dolayı hikâye seçimini değiştirdiler",
+      "causal_reasoning": {
+        "temporal_relationship": "14-15c. Proto-metin → 16c. Dresden → 15c. Vatikan (ters kronoloji?), varyasyon istikrarlı mı değişken mi belirtilmedi",
+        "correlation": "Coğrafya/rejim değişikliği ve metin varyasyonu korelasyonu: Gonbad (İran) 13. hikâye içeriyor, Dresden (Osmanlı) ve Vatikan (İtalyan) yok — potansiyel korelasyon",
+        "mechanism": "Müstensihlerin rehberlik ettikleri yazmanın amacı (eğlence mi, eğitim mi, siyasi mesaj mi), rejimlerin dini eğilimleri (Safavi Şiilik, Osmanlı Sunnilik) hikâye seçimini yönetmiş olabilir",
+        "causal_evidence": "Doğrudan kanıt yok; dolaylı: müstensih notları (varsa) veya nüsha arasındaki kültürel/dini motif seçimi analizi"
+      },
+      "counterfactual_test": "MEDIUM — müstensih ortamı farklı olsaydı, metin aynı kalır mıydı? Potansiyel bağımlılık ORTA düzey; Gonbad 13. hikâye örneği büyük olasılıkla seçimler mevcuttur",
+      "evidence_for_causation": "Dolaylı (korelasyon yüksek, mekanizma makul ama doğrudan kanıt yok)",
+      "confidence": "PLAUSIBLE",
+      "note": "Nedensellik tarifindeki 'bilgi kısıtı ilkesi' uygulanmamış olabilir; müstensihler hangi kültürel/dini baskılara maruz kaldıklarını bilmiyoruz — onları kararlarını değerlendirirken o baskıları 'biliyorsanız', retrospektif önyargı riskidir."
+    }
+  ],
+  "historiography": [
+    {
+      "topic": "Dede Korkut'un Yazılı Kaydı ve Oral Köken",
+      "interpretations": [
+        {
+          "scholar_or_school": "Geoffrey Lewis (Türkoloji)",
+          "position": "Hikâyeler 9-10. yüzyılda oralde başladı, 14-15. yüzyılda yazılı hale getirildi",
+          "based_on": "Dilbilim (Clauson), edebî form (verse-prose), ozan geleneği (Dede Korkut nüshası referansı)",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR — 20. yüzyılda 'yazılı edebiyat' görüşünden 'oral + yazılı sentez' görüşüne revizyon"
+        },
+        {
+          "scholar_or_school": "Michael E. Meeker (Antropoloji)",
+          "position": "Hikâyelerin kahramanları 10-11c. Oğuz dönemi, yazılış 13-15c. arasında (erken 13c. alt sınır)",
+          "based_on": "Sosyal antropoloji, kahramanların tarihsel bağlamı, Anadolu iskan tarihi",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE — oral kaynağın tarihlemesi detaylandırma"
+        },
+        {
+          "scholar_or_school": "Stanford J. Shaw (Osmanlı Tarihi)",
+          "position": "Hikâyeler antik Oğuz dönemi, yazılı kaydı 14. yüzyıl (Dresden nüshası 16c.)",
+          "based_on": "Osmanlı arşiv ve nüsha kronolojisi",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MINOR — tarihlemede detay farklılığı"
+        },
+        {
+          "scholar_or_school": "Cemal Kafadar (Türk Tarihi)",
+          "position": "Yazılı metin 15. yüzyıldan önce değildir (14-15c. sınır)",
+          "based_on": "Nüsha filolojisi, Chaghatai dilbilim",
+          "status": "debate",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MODERATE — oral kökü reddetme/sorgulama"
+        },
+        {
+          "scholar_or_school": "Muharrem Ergin (Filoloji)",
+          "position": "Faksimile + transkripsiyon yayını (1958-1963) standart edisyon; metin varyasyonları müstensih müdahalesi gösterir",
+          "based_on": "Metin kritik yöntemi, yazma karşılaştırması",
+          "status": "consensus",
+          "fringe_scale": "ACADEMIC_MINORITY",
+          "revision_impact": "MAJOR — filolojik method kurulama"
+        }
+      ],
+      "perspective_diversity": "skewed",
+      "perspective_diversity_notes": "Türkiye-merkezli (Ankara, İstanbul üniversiteleri) tarihçiler hakim; Azerbaycan ve Kazak akademik kaynakları tarama sınırlı. Sovyet dönem Türkoloji (Barthold, Radloff) referans alınan ama modern Kazak/Kırgız görüşler sınırlı.",
+      "bias_types": [
+        "national",
+        "institutional",
+        "language",
+        "source_availability"
+      ],
+      "coverage_log": "Tarama: İngilizce, Türkçe, İtalyanca (Rossi) akademik kaynakları; Rusça (Sovyet Türkoloji) sınırlı; Kazak, Azerbaycan, Kırgız akademik yayınları sınırlı erişim."
+    }
+  ],
+  "unknowns": [
+    {
+      "unknown_id": "U-001",
+      "question": "Gonbad nüshası hangi tarihte yazılmıştır (15-18. yüzyıl aralığında)?",
+      "known": "2018'de Gonbad-e Kavus (İran) özel koleksiyonunda keşfedildi; ilk sayfası kayıp; Çağatay + Türkmen lehçe karışımı gösterir",
+      "unknown": "Yazım tarihi, orijin coğrafyası, müstensihin adı/ortamı",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "15. yüzyıl Safavi öncesi",
+        "16. yüzyıl erken Safavi",
+        "17-18. yüzyıl Qacar",
+        "18. yüzyıl Kuzey Kafkasya (Dağıstan/Çerkesia Osmanlı etkisi)"
+      ],
+      "researchability": "high",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-002",
+      "question": "Müstensihler neden hikâyeleri seçmeli/dışlamışlardır (Gonbad 13. hikâyesi diğerlerinde neden yok)?",
+      "known": "Dresden: 12 hikâye, Vatikan: 6 hikâye, Gonbad: 13. hikâyeyi içeriyor ama diğerleri yok",
+      "unknown": "Seçimin motivasyonu: kültürel tercih mi, kayıp mı, kasten silme mi?",
+      "category": "OPEN_QUESTION",
+      "competing_explanations": [
+        "Müstensihler tercihli seçim yaptılar (kültürel/dini uyarlanma)",
+        "Arketyp nüsha varyasyon gösterdi; çoğaltıcı kayıplar yaşadı",
+        "Rejimlerin sansürü (Safavi Sufi içeriği, Osmanlı milliyetçilik)",
+        "Enstrüman ve form sınırlaması (birliklerinzde yazma kapasitesi)"
+      ],
+      "researchability": "medium",
+      "priority": "high"
+    },
+    {
+      "unknown_id": "U-003",
+      "question": "Saklı/kayıp nüshalar 14-16. yüzyılda var mıydı?",
+      "known": "Gonbad 2018 keşfi, Vatikan 1950 keşfi 'ilk iki nüsha' iddiasını yıktı; arşiv taraması tam değil",
+      "unknown": "Osmanlı sarayı, Kazak/Kırgız arşivleri, İran (Tabriz, Kahire) arşivleri taranmadı",
+      "category": "HYPOTHESIS",
+      "competing_explanations": [
+        "Hiçbir ek nüsha yok (Dresden+Vatikan+Gonbad = tüm bilinen nüshalar)",
+        "Gizli koleksiyonlarda (özel kütüphaneler, cami arşivleri) nüshalar var",
+        "Osmanlı döneminde ek nüshalar yapılmış ama kaybolmış"
+      ],
+      "researchability": "medium",
+      "priority": "medium"
+    },
+    {
+      "unknown_id": "U-004",
+      "question": "Orhan Şaik Gökyay'ın 1971 yayını ve sonraki edisyonlar neden arşiv araştırmasında tam yer almamıştır?",
+      "known": "Muharrem Ergin (1958-1963) Dresden+Vatikan faksimile standart; Gökyay 1971 revizyonu biliniyor ama detayı sınırlı",
+      "unknown": "Gökyay yayınının metni değişiklikleri, yeni bulguları, değerlendirmesi",
+      "category": "SOURCE_GAP",
+      "competing_explanations": [
+        "Gökyay sadece Ergin'i düzenlemesi; yeni veri eklemedi",
+        "Gökyay 3. nüsha (Gonbad) bilmemişti (2018 sonrası keşf)",
+        "Gökyay Gonbad nüshasından farkında olup da erişemedi"
+      ],
+      "researchability": "high",
+      "priority": "medium"
+    }
+  ],
+  "claim_evidence_graph_summary": {
+    "orphan_claims": [],
+    "weak_links": [
+      "C-005 (Çağatay → Safavi/Qacar revizyonları) — coğrafi ve zaman korelasyonu varsayıma dayalı; Gonbad nüshası tarihlemesi belirsiz",
+      "C-001 (9-10c. oral köken) — doğrudan kanıt yok, dilbilim ve form analizi dolaylı"
+    ],
+    "unresolved_contradictions": [
+      "Vatikan nüshası 14-15. yüzyıl vs. Dresden 16. yüzyıl — neden Vatikan daha eski ama daha az hikâye içeriyor? Yazılı gelişim sırası açık değil."
+    ]
+  },
+  "source_reliability_updates": [
+    {
+      "source_id": "SRC-001",
+      "reliability": "high",
+      "notes": "Wikipedia comprehensive synthesis, multiple primary sources linked, but editorial bias possible; best for overview"
+    },
+    {
+      "source_id": "SRC-002",
+      "reliability": "high",
+      "notes": "Encyclopedia.com curated, high institutional standards, reliable for published scholarship summary"
+    },
+    {
+      "source_id": "SRC-003",
+      "reliability": "high",
+      "notes": "ERIC academic database, phonological analysis legitimate but specialized; good for linguistic detail"
+    },
+    {
+      "source_id": "SRC-004",
+      "reliability": "high",
+      "notes": "SLUB Dresden archival institution, official catalog, primary source, fully reliable"
+    },
+    {
+      "source_id": "SRC-005",
+      "reliability": "medium",
+      "notes": "News media (Türkiye Today) — reliable for announcements but possible national bias; check against UNESCO official"
+    },
+    {
+      "source_id": "SRC-008",
+      "reliability": "high",
+      "notes": "Vatikan archival, Rossi philological authority, primary source reliable"
+    },
+    {
+      "source_id": "SRC-009",
+      "reliability": "high",
+      "notes": "Muharrem Ergin facsimile standard academic edition, textual criticism authority, highly reliable"
+    },
+    {
+      "source_id": "SRC-010",
+      "reliability": "high",
+      "notes": "UNESCO official institutional document, primary source, fully reliable"
+    },
+    {
+      "source_id": "SRC-011",
+      "reliability": "high",
+      "notes": "News agency (Daily Sabah/Anadolu Agency) reporting UNESCO decision, reliable for institutional announcement"
+    },
+    {
+      "source_id": "SRC-012",
+      "reliability": "high",
+      "notes": "Clauson Etymological Dictionary, academic classic, Oxford press, lexical authority"
+    },
+    {
+      "source_id": "SRC-013",
+      "reliability": "high",
+      "notes": "Indiana University Uyghur Linguistics + Grokipedia + Encyclopaedia Iranica, academic synthesis reliable"
+    }
+  ],
+  "red_team_summary": {
+    "citation_hallucination_checks": "Completed; Clauson dictionary verified (1972 Oxford), Muharrem Ergin editions verified (1958-1963 Ankara), SLUB catalog verified, Vatican archival verified",
+    "false_precision_detection": "C-003 'varyasyonlar' — sayılı hikâyeler kesindir (Dresden 12, Vatikan 6, Gonbad +13) ama kaynakları %100 açık değil",
+    "anachronism_checks": "No anachronisms detected; but Safavi/Qacar 'revizyonları' müstensihlerin fiili baskıları belirtilmedi (bilgi kısıtı ilkesi uygulanmamış)",
+    "cherry_picking_detection": "Low risk — kaynaklar çoğunlukla tutarlı, çelişen yorumlar belirtildi",
+    "circular_evidence_detection": "Apparent: 5+ modern referans Dresden/Vatikan → tüm bunlar Wikipedia, encyclopedic synthesis, Ergin transkripsiyon, SLUB catalog'dan → 2-3 bağımsız orijinal kaynak",
+    "claim_mutation_detection": "'Safavi/Qacar revizyonları' kesin iddias ('revizyonlar' → 'potansiyel revizyonlar') — güven seviyesi düşürülmeli"
+  }
+}

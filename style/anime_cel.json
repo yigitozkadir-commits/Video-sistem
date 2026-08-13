@@ -1,0 +1,32 @@
+{
+  "style_id": "anime_cel",
+  "palette": {
+    "dominant": [
+      "#2E4A8A",
+      "#E0453C",
+      "#F5E6C8"
+    ],
+    "forbidden": [
+      "muddy earth"
+    ]
+  },
+  "grade": "cel shading, hard rim light, saturated key",
+  "grain": "none",
+  "lens_set": [
+    "wide",
+    "normal",
+    "portrait",
+    "tele"
+  ],
+  "motion_ceiling": 3,
+  "lighting_vocabulary": [
+    "backlit_silhouette",
+    "golden_hour",
+    "volumetric_shafts"
+  ],
+  "texture_language": "flat colour fields, sharp line, speed lines on impact",
+  "forbidden": [
+    "photoreal texture",
+    "named studio references"
+  ]
+}

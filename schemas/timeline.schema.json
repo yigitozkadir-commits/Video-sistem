@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/timeline.schema.json",
+  "title": "Timeline",
+  "description": "Frame-exact assembly plan. Seconds never appear downstream of this file (M14 §10).",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "scene_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^SC-\\d{3}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "fps": {
+      "type": "integer"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "duration_frames": {
+      "type": "integer"
+    },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "layer": {
+            "type": "string",
+            "enum": [
+              "video",
+              "overlay",
+              "narration",
+              "dialogue",
+              "music",
+              "ambience",
+              "sfx",
+              "captions"
+            ]
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "start_frame": {
+                  "type": "integer"
+                },
+                "end_frame": {
+                  "type": "integer"
+                },
+                "asset_id": {
+                  "type": "string",
+                  "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+                },
+                "shot_id": {
+                  "type": "string",
+                  "pattern": "^SH-\\d{3}-\\d{2}$"
+                },
+                "transform": {
+                  "type": "object"
+                },
+                "gain_db": {
+                  "type": "number"
+                },
+                "transition_in": {
+                  "type": "string"
+                },
+                "transition_out": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "start_frame",
+                "end_frame"
+              ]
+            }
+          }
+        },
+        "required": [
+          "layer",
+          "items"
+        ]
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "fps",
+    "width",
+    "height",
+    "duration_frames",
+    "tracks"
+  ],
+  "additionalProperties": true
+}

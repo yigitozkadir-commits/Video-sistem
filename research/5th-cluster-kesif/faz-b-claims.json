@@ -1,0 +1,180 @@
+{
+  "phase": "B",
+  "phase_step": "B2",
+  "candidate_id": "CAND-damgalar-001",
+  "claims_decomposed": [
+    {
+      "claim_id": "C-0001",
+      "text": "Turkic damgalar (seals/marks) were used as identity markers to denote clan, family, or individual ownership",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Basic functional claim; widely assumed but needs primary source verification"
+    },
+    {
+      "claim_id": "C-0002",
+      "text": "Damgalar served as property marks on livestock, tools, and goods in pastoral Turkic economies",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Economic function; particularly relevant to nomadic/pastoral context"
+    },
+    {
+      "claim_id": "C-0003",
+      "text": "Some scholars argue damgalar were proto-writing systems or intermediate forms between symbolic marking and phonetic writing",
+      "type": "interpretation",
+      "importance": "core",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Central historiographical claim; needs academy positioning"
+    },
+    {
+      "claim_id": "C-0004",
+      "text": "Old Turkic runic writing and damgalar emerged as independent systems, not through direct transmission",
+      "type": "interpretation",
+      "importance": "core",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Counter-claim to C-0003; historiographic debate"
+    },
+    {
+      "claim_id": "C-0005",
+      "text": "Damgalar can be traced back to pre-Turkic (Scythian, Hunnic, other Inner Asian) marking systems",
+      "type": "interpretation",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Genealogical claim; requires deep chronological evidence"
+    },
+    {
+      "claim_id": "C-0006",
+      "text": "Damgalar symbols reflected totemism and clan-based social structure of Turkic societies",
+      "type": "interpretation",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Socio-cultural interpretation; needs ethnographic/anthropological sources"
+    },
+    {
+      "claim_id": "C-0007",
+      "text": "Kazakh, Kyrgyz, and other Turkic groups maintained distinct damgalar styles and meanings",
+      "type": "fact",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Regional variation; verifiable through ethnographic/historical records"
+    },
+    {
+      "claim_id": "C-0008",
+      "text": "Damgalar were predominantly used from medieval period through Ottoman era, with some continuous use into modern times",
+      "type": "fact",
+      "importance": "core",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Chronological claim; requires dating evidence"
+    },
+    {
+      "claim_id": "C-0009",
+      "text": "Ottoman administrative records documented damgalar usage for identification and property marking",
+      "type": "fact",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Archival claim; requires Ottoman record access"
+    },
+    {
+      "claim_id": "C-0010",
+      "text": "Damgalar symbols have been found on archaeological artifacts including textiles, metalwork, and pottery",
+      "type": "fact",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Archaeological claim; requires material evidence catalog"
+    },
+    {
+      "claim_id": "C-0011",
+      "text": "Some damgalar symbols appear morphologically similar to Old Turkic runic characters, suggesting possible influence or convergence",
+      "type": "interpretation",
+      "importance": "supporting",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Comparative morphological claim; needs visual analysis + expert interpretation"
+    },
+    {
+      "claim_id": "C-0012",
+      "text": "Western scholarship on Turkic damgalar has been limited compared to Central Asian scholarship, creating a knowledge gap",
+      "type": "fact",
+      "importance": "peripheral",
+      "supporting_evidence": [],
+      "counter_evidence": [],
+      "sources": [],
+      "confidence": "UNKNOWN",
+      "confidence_history": [
+        {"phase": "B", "value": "UNKNOWN", "reason": "Initial decomposition, pre-research"}
+      ],
+      "notes": "Historiographical observation; meta-claim about scholarship distribution"
+    }
+  ],
+  "total_claims": 12,
+  "core_claims": 5,
+  "supporting_claims": 6,
+  "peripheral_claims": 1,
+  "status": "ready_for_b3_research"
+}

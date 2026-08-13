@@ -1,0 +1,121 @@
+{
+  "package_id": "5TH-DIASPORA-E",
+  "phase": "E",
+  "section": "DIASPORA",
+  "items": "351-400",
+
+  "angle": {
+    "selected_angle": "Post-Soviet Divergence: How Independent States Created Different Turkic Language Futures",
+    "rationale": "Shifts from essentialist 'Turkic identity' to geopolitical agency: After 1991 Soviet collapse, different states made *policy choices* (Kazakhstan Latin alphabet + Kazakh revitalization; Kyrgyzstan mixed approach; Tatarstan federalism; Uyghur region faced Han-Chinese pressure). Foregrounds institutional decision-making over cultural determinism."
+  },
+
+  "hook": {
+    "primary_hook": "1991: The Year Turkic Languages Split Into Five Different Futures — One Alphabet at a Time",
+    "entry_point": "Soviet collapse creates temporal boundary viewers understand. Post-1991: Kazakhstan chose Latin (policy 2023); Kyrgyzstan didn't mandate change; Tatarstan negotiated bilingual federalism; Uyghur region faced Han-Chinese displacement. Four different choices; four different outcomes.",
+    "conflict": "Not inevitable cultural drift, but institutional *choice* documented through primary sources (government policy documents, parliamentary decisions)."
+  },
+
+  "research_foundation": {
+    "faz_d_reference": "faz-d-master-dossier-diaspora.json",
+    "completeness_score": 0.65,
+    "readiness_verdict": "CONDITIONAL (with perspective limitations disclosed)",
+    "readiness_rationale": "Completeness 0.65 reflects MODERATE COMPLETENESS with SIGNIFICANT GEOPOLITICAL BIAS. 9 well-supported claims documented via PRIMARY SOURCES (Kazakhstan 2023 policy, Putin 2017 declaration, Tatarstan 2017 parliament action). However, Chinese academic perspectives on Uyghur policy not equally accessible; CCP counterarguments censored or inaccessible. D5 notes: 'CCP perspective inaccessible or censored; Chinese academic counterarguments not accessed due to language barriers and publication restrictions.' This bias is documented and managed through narrative transparency.",
+    "key_strengths": [
+      "Post-Soviet language policies well-documented via PRIMARY SOURCES (government policy documents, parliamentary decisions)",
+      "Kazakhstan Latinization project thoroughly documented (official policy concept 2023)",
+      "Kyrgyzstan and Tatarstan language policies documented via official decisions",
+      "Comparative institutional analysis strong (state-by-state policy decision comparison)",
+      "Implementation progress tracked (2017-2023 timeline)"
+    ],
+    "major_gaps": [
+      "CCP perspective inaccessible: Chinese academic counterarguments on Uyghur language policy not accessed due to language barriers and publication restrictions",
+      "Longitudinal Uyghur proficiency data: No complete metrics on Uyghur language decline in education/media (blocked access to internal Chinese statistics)",
+      "Uyghur diaspora-specific transmission loss: Turkish diaspora data doesn't generalize to Uyghur diaspora experience",
+      "Russian scholarly perspectives limited: Russian-language sources on Tatarstan/Kyrgyzstan policies underrepresented (English-language research bias)",
+      "Implementation metrics for Kazakhstan/Kyrgyzstan 2024-2026: Data lag on recent progress"
+    ],
+    "readiness_conditions": [
+      "Condition A: Disclose perspective limitations — 'This research is based primarily on Western-language and Central Asian sources. Chinese-language scholarly perspectives on Uyghur bilingual education policy are not equally accessible to this research. Geopolitical context requires transparency: multiple interpretations of the same policy exist.'",
+      "Condition B: Frame Uyghur policy as contested, not settled — 'Uyghur language policy is contested between Chinese development framing and international assimilation framing. This documentary presents documented policy changes; interpretation of their meaning and impact varies by perspective.'",
+      "Condition C: Note access barriers explicitly — 'Internal Chinese statistics on Uyghur language proficiency decline are not accessible to this research. Assessments rely on international reporting (RFA, academic sources), which have their own perspective limitations.'",
+      "Condition D: Avoid 'genocide' framing unless legally established — 'Evidence of Uyghur language displacement is well-documented; Phase C red-team analysis flags 'genocide' as advocacy framing, not legal consensus. Narration should focus on documented policy changes (education language shifts, Mandarin prioritization) without conflating with contested political terminology.'"
+    ]
+  },
+
+  "content_brief": {
+    "target_audience": "Post-Soviet history interest, language policy scholars, Central Asian studies, Uyghur heritage interest (with geopolitical awareness)",
+    "narrative_approach": "Geopolitical-institutional focus + comparative policy analysis + transparent disclosure of perspective limitations and evidence gaps",
+    "content_warnings": "HIGH geopolitical sensitivity on Uyghur language policy (contested framing; Western perspective bias documented; Chinese counterarguments not equally accessible). Frame as institutional analysis, not political advocacy.",
+    "narrative_acts": [
+      {
+        "act": 1,
+        "title": "Soviet Collapse & Language Moment (1991 turning point)",
+        "duration_estimate": "1-2 min",
+        "content": "Soviet Union dissolves; post-Soviet states inherit Cyrillic-based Turkic languages; now independent, they face choice: maintain Soviet script/policy, or pursue own language policies? Map showing post-1991 borders, institutional independence."
+      },
+      {
+        "act": 2,
+        "title": "Case Study 1: Kazakhstan Latinization (policy choice + implementation)",
+        "duration_estimate": "2-3 min",
+        "content": "Kazakhstan Language Policy Concept (2023 official document): transition to Latin alphabet for Kazakh. Why? Stated rationale: Turkic/international integration. Implementation timeline, educational materials showing transition. Success/challenges of alphabet change (language reform is complex)."
+      },
+      {
+        "act": 3,
+        "title": "Case Study 2-3: Kyrgyzstan & Tatarstan (alternative choices)",
+        "duration_estimate": "2-3 min",
+        "content": "Kyrgyzstan maintained mixed Cyrillic-Latin approach; not mandated shift. Tatarstan negotiated Russian-Tatar bilingual federalism with Russian Federation (institutional negotiation). Different institutional contexts, different policy outcomes. Comparative timeline showing divergence."
+      },
+      {
+        "act": 4,
+        "title": "Case Study 4: Uyghur Region (geopolitical constraint vs. policy choice)",
+        "duration_estimate": "2-3 min",
+        "content": "Uyghur language faces displacement by Han-Chinese in education/media/public life. Policy framing varies: Chinese perspective emphasizes bilingual education/development; international perspective emphasizes assimilation pressure. Documented policy changes: education language shift, Mandarin prioritization in schools. Acknowledge contested interpretation; present documented evidence; note perspective limitations transparently."
+      }
+    ]
+  },
+
+  "production_scope": {
+    "expected_duration": "8-12 minutes",
+    "scene_count": "25-35 scenes",
+    "visual_style": "Geopolitical-institutional focus + maps + policy documents + comparative tables + archival/contemporary footage",
+    "primary_visual_assets": [
+      "Post-1991 political map (showing newly independent states)",
+      "Kazakhstan Language Policy Concept (official document on screen)",
+      "Educational materials showing Cyrillic→Latin alphabet transition",
+      "Comparative policy timeline (state-by-state decisions, 1991-2026)",
+      "Kyrgyzstan and Tatarstan official policy documents",
+      "Uyghur language policy context (education directives, bilingual signage if available, documented changes)",
+      "Alphabet/script examples (Cyrillic vs. Latin Kazakh, etc.)",
+      "Street signage showing language variation across regions (contemporary documentation)"
+    ],
+    "interview_potential": "Medium-High — Post-Soviet language policy scholars, Central Asian studies experts, language reform practitioners, (Chinese scholarly perspective not equally accessible)",
+    "archival_material_available": "High (Central Asia/Western sources); Limited (Chinese sources)"
+  },
+
+  "production_notes": {
+    "historiographic_transparency_required": "YES — Perspective limitations must be explicitly stated. Western/Central Asian source dominance documented. CCP perspective accessibility issue flagged.",
+    "geopolitical_sensitivity": "HIGH — Uyghur language policy is politically contested. Framing as institutional analysis, not political advocacy. Multiple interpretations of same policy acknowledged.",
+    "critical_caveats_count": 7,
+    "caveats_detail": [
+      "Research perspective bias: 'This research is based primarily on Western-language and Central Asian sources. Chinese-language scholarly perspectives on Uyghur language policy are not equally accessible. Geopolitical context requires transparency: multiple interpretations of the same policy exist.'",
+      "Kazakhstan policy complexity: 'Latin alphabet transition is supported by Kazakhstan state but faces practical challenges (implementation timeline, educational transition, cultural attachment to Cyrillic). Policy statement ≠ easy implementation.'",
+      "Kyrgyzstan policy rationale: 'Why Kyrgyzstan maintained mixed Cyrillic-Latin approach remains debated. Institutional capacity, cultural preference, and Russian geopolitical influence all likely play roles; precise causality undocumented.'",
+      "Tatarstan negotiation dynamics: 'Tatarstan's bilingual federalism reflects negotiation with Russian Federation; precise leverage points and political dynamics incompletely documented.'",
+      "Uyghur policy interpretation gap: 'Uyghur language policy is contested between Chinese development framing and international assimilation framing. This documentary presents documented policy changes (education language shifts, Mandarin prioritization); interpretation of their meaning and impact varies by perspective. Avoid contested political terminology ('genocide'); focus on documented institutional changes.'",
+      "Access barriers to Chinese data: 'Internal Chinese statistics on Uyghur language proficiency decline are not accessible to this research. Assessments rely on international reporting (RFA, academic sources), which have their own perspective limitations.'",
+      "Uyghur diaspora data gap: 'Specific Uyghur diaspora language-transmission loss rates differ from Turkish diaspora patterns and remain incompletely documented.'"
+    ]
+  },
+
+  "archive_metadata": {
+    "generated_at": "2026-08-09T18:48:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "prompt_version": "historical-research-pipeline v1.1",
+    "deterministic_seed": "5th-cluster-faz-e-package-diaspora",
+    "faz_b_sources_count": "20+",
+    "faz_b_claims_count": 9,
+    "faz_c_primary_sources": "PRESENT (Kazakhstan, Putin, Tatarstan)",
+    "faz_c_geopolitical_bias": "DOCUMENTED",
+    "perspective_limitation_rating": "MODERATE-HIGH"
+  }
+}

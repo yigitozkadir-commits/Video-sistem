@@ -1,0 +1,36 @@
+{
+  "shot_id": "SH-007-01",
+  "scene_id": "SC-007",
+  "variant": "image",
+  "prompt_ref": "PV-0044",
+  "prompt_version": 1,
+  "prompt_family": "flow.shot.wide.establishing",
+  "variables_resolved": {
+    "environment_subject": "An abstract, painterly composition of two paths diverging across a map-like steppe landscape rendered as parchment and terrain, evoking a historical crossroads rather than a literal scene",
+    "figure_for_scale": "no human figures, scale implied by distant mountain ranges",
+    "air_and_weather": "still, contemplative light",
+    "lighting": "overcast_soft, diffused",
+    "camera": "top_down slow, parchment-map aesthetic",
+    "ambient_element": "faint parchment texture drift"
+  },
+  "resolved_text": "An abstract, painterly composition of two paths diverging across a map-like steppe landscape rendered as parchment and terrain, evoking a historical crossroads rather than a literal scene. no human figures, scale implied by distant mountain ranges. still, contemplative light. overcast_soft, diffused. top_down slow, parchment-map aesthetic. 28mm equivalent, deep focus. Motion: environmental only — faint parchment texture drift. desaturated warm shadows, cool highlights, film curve, fine 35mm, earth tones, ochre, deep red, cold grey (#6B4A2F/#8C1F1F/#C8B18A). 16:9, still frame.",
+  "negative": "text, watermark, extra fingers, warped face, plastic skin, modern objects, camera shake, oversaturation, distorted horizon, duplicated architecture, tilted frame",
+  "constraints": {
+    "motion_level_max": 2
+  },
+  "reference_set": [
+    "REF-PAL-STEPPE"
+  ],
+  "reference_set_status": "Reference set not yet generated (manual Flow step, see delivery report) - symbolic IDs listed below are what M15 would create before these prompts can actually be submitted.",
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "model": "google-flow",
+  "seed": null,
+  "status": "completed",
+  "created_at": "2026-08-08T22:43:33.448399+00:00",
+  "local_path": "projects/PRJ-otrar-faciasi/assets/still/SH-007-01.jpeg",
+  "sha256": "87ba2790866ab0c9c4836a1b86b7ad1e944854287129be1c9fb4ba48e09e9eec",
+  "bytes": 865823,
+  "width": 1376,
+  "height": 768,
+  "generated_at": "2026-08-09T01:14:44.610015+00:00"
+}

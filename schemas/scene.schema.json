@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/scene.schema.json",
+  "title": "Scene",
+  "description": "Production-ready scene record. M10 §4 + M17.",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3}$"
+    },
+    "act": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "source_text": {
+      "type": "string"
+    },
+    "duration_estimate_s": {
+      "type": "number"
+    },
+    "emotion": {
+      "type": "string"
+    },
+    "importance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "location": {
+      "type": "string"
+    },
+    "time_of_day": {
+      "type": "string"
+    },
+    "weather": {
+      "type": "string"
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scene_type": {
+      "type": "string",
+      "enum": [
+        "opening",
+        "establishing",
+        "dialogue",
+        "journey",
+        "action",
+        "conflict",
+        "discovery",
+        "flashback",
+        "dream",
+        "montage",
+        "explanation",
+        "emotional_pause",
+        "ending",
+        "credits"
+      ]
+    },
+    "continuity_from": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^SC-\\d{3}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^BEAT-\\d{3}-\\d{2}$"
+      }
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^SH-\\d{3}-\\d{2}$"
+      }
+    },
+    "voice_style": {
+      "type": "string"
+    },
+    "music_plan_ref": {
+      "type": "string"
+    },
+    "transition_in": {
+      "type": "string"
+    },
+    "transition_out": {
+      "type": "string"
+    },
+    "qa_status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "pass",
+        "pass_with_findings",
+        "retry",
+        "fail",
+        "halt"
+      ]
+    }
+  },
+  "required": [
+    "scene_id",
+    "title",
+    "summary"
+  ],
+  "additionalProperties": true
+}

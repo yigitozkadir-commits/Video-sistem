@@ -1,0 +1,81 @@
+{
+  "phase": "A",
+  "section": "A KATMANI — MERAK VE HAFIZA",
+  "item_range": "1-30",
+  "input_summary": "Studio'nun entelektüel temeli: kültürel bellek, ortak hafıza, kimlik, ve kültürel mirasın neden hayatta kaldığı/kaybolduğu. 30 soru, 3 ana tema etrafında döner: (1) bellek ve kimlik ('neden birbirimizi tanımıyoruz?' → ortak hafıza eksikliği), (2) kültürel iletişim ('alfabe değişince ne kaybolur?' → silinme riski), (3) miras ve diriliş ('ninni neden korunmalıdır?' → intergenerasyon aktarımı).",
+  "theme": {
+    "central_question": "Bir kültür nasıl hatırlanır, nasıl unutturulur, ve neden bazı kültürler yaşadığı halde diğerleri ölüp gidiyor?",
+    "studio_role": "Bellek ve kimlik arasındaki kaybolan bağları (özellikle Türk/Türkçe-konuşan dünya içinde) araştırıp, rehimatolojik anlatı (narrative kayıtlarını) restore etmek. Gök Umay kimliği bu bağlamda simgesel: 'Gök Umay neden doğdu?' → 'Biz ne yapmaya çalışıyoruz?' sorusunun cevabı.",
+    "media_layer": "Meta-katman: tüm diğer bölümlerin (Bozkır, Kurganlar, İmparatorluklar) entelektüel temelini oluşturur. Izleyiciye 'Neden bu araştırma?' sorusunun cevabını verir."
+  },
+  "academic_grounding": {
+    "communicative_vs_cultural_memory": {
+      "source": "Jan Assmann, Maurice Halbwachs",
+      "claim": "Kültürel bellek (cultural memory) = kurumsallaştırılmış, sembolik, nesiller arası aktarılmış hatırlama (ör. yazı, ritüel, mitos). Konuşmacı bellek (communicative memory) = gündelik, yüz-yüze, 3-4 kuşak ölçeğinde kaybolabilen hatırlama.",
+      "relevance": "Türk kültürü her iki seviyede de bir travma geçirmiş: Orkhon yazıtları kesintisi (harfler değişti), sözel geleneğin şehirleşme/göçle erozyonu."
+    },
+    "intergenerational_transmission": {
+      "source": "Anthropological studies on Turkish immigrant families, cultural heritage preservation",
+      "claim": "Bellek aktarımı (özellikle ebeveyn-çocuk arasında) eğitim seviyesi, dilsel ortam, ve sosyo-politiktik bağlamdan doğrudan etkilenir. Diaspora / urbanisasyon genellikle 'tercüman' kuşağında kesilir.",
+      "relevance": "Neden 'biz ne yapmaya çalışıyoruz?' sorusu soruluyor: kayıp süreçleri tersine çevirmeye çalışıyoruz, şimdi daha hızlı."
+    },
+    "language_script_loss": {
+      "source": "Endangered Alphabets Project, National Geographic, Cambridge linguistics",
+      "claim": "Dünya yazı sistemlerinin %85'i yok olma riskinde. Bir alfabe kaybolduğunda, o dildeki 'bütün yazılı deneyim, bilgelik, ve kimlik' kaybedilir (örneğin Lulamogi'nin av teknikleri).",
+      "relevance": "'Alfabe değişince ne kaybolur?' → Somut tarihsel örnekler (Orhon harflerinden Arap harflerine geçiş, Sovyet döneminde Kiril uydurması vb.)."
+    },
+    "turkic_world_shared_heritage": {
+      "source": "TÜRKSOY, UNESCO, Orkhon Inscriptions (December 15 date)",
+      "claim": "'Türk Dünyası' = coğrafyaya dağılmış ama dil/tarih/medeniyet tarafından birleştirilmiş topluluk. Orkhon yazıtları (850 CE) ilk yazılı Türkçe kanıt = tüm Türkçe konuşan kültürlerin ortak başlangıç noktası.",
+      "relevance": "'Türk dünyası nedir?' sorusunun cevabı hem tarihsel (Orkhon) hem çağdaş (TÜRKSOY kültür başkenti programı) boyutu var."
+    },
+    "oral_traditions_continuity": {
+      "source": "Turkish proverb studies (atasözü araştırmaları), folk literature",
+      "claim": "Türk atasözleri, ninni, masalları = kültürel bellek taşıyıcıları. Sözlü hukuk, ahlaki kurallar, hayat dersleri. Dijital ortama taşınan atasözü = 'ikinci sözlü kültür ortamı' (secondary oral cultural environment).",
+      "relevance": "'Bir ninni neden korunmalıdır?' 'Bir atasözü neden kaybolmaz?' = Cevaplar pratik (iç bilgelik) + semiyotik (sembol aktarımı)."
+    }
+  },
+  "content_structure": {
+    "phase_1_foundation_30_items": {
+      "why_research": "A-LAYER 30 madde, aslında 3 iç-soruya cevap veriyor — bu studio'nun entelektüel çerçevesi:",
+      "subgroups": [
+        {
+          "title": "MERAK: Neden Araştırıyoruz? (madde 1-10)",
+          "items": "1. Neden birbirimizi tanımıyoruz? 2. Bir millet nasıl unutturulur? 3. Alfabe değişince ne kaybolur? 4-10: Dil, oyun, ninni, tarih vs. bellek ilişkisi.",
+          "central_claim": "Kolektif kimlik = işaretlenmiş bellek. İşaretler (dil, yazı, simge) kaybolunca kimlik silinir."
+        },
+        {
+          "title": "HAFIZA: Ne Biliyoruz? (madde 11-20)",
+          "items": "11. Neden aynı kelimeler farklı dillerde yaşıyor? 12. Neden aynı masallar farklı ülkelerde anlatılıyor? 13-20: Tarih-hafıza farkı, damgaların kuşaklar boyu yayılması, kültürün yaşaması/ölmesi.",
+          "central_claim": "Ortak hafıza = zaman ve mekan ötesine uzanan bağlantı. Sınırlar kültürü bölemez; medya (yazı, söz, mitos) kültürü bölüyor."
+        },
+        {
+          "title": "DIŞLEŞTİRME: Neden Derleriz? (madde 21-30)",
+          "items": "21. Bir halk kendini nasıl hatırlar/unutur? 22. Neden köklerimizi araştırıyoruz? 23. Geçmiş mi gelecek mi? 24. Hafıza neden parçalandı? 25-30: Ortak kültür, Türk dünyası, Bozkır, Gök Umay, Biz ne yapmaya çalışıyoruz?",
+          "central_claim": "Araştırma = hafızanın aktif inşası. 'Biz ne yapmaya çalışıyoruz?' = Silinen/parçalanmış belleği toparlama + 'Gök Umay' kimliğinde yeniden birleştirme."
+        }
+      ]
+    },
+    "research_opportunity": "A-LAYER haliyle 'temel' = kendisi ara-video değil, tüm uzun videoların başında (intro dizi) veya temel kavramsal çerçeve olarak yaşayacak. Bölüm 2-4 (Bozkır, Kurganlar, KÜR-ARAZ) belki de '30 soru çerçevesi' = izleyicinin her konuya bakış açısını (memory-through-evidence lens) şekillendirmek.",
+    "media_form": "Animasyon + naratasyon + dış ses: 'Kolektif hafıza nasıl çalışıyor?' sorusunun 3-5 dakikalık visual açıklaması, akademik kaynak + Türkçe-konuşan dünya örnekleri. TBD: studio intro'yu ayrı yapı mı (merkezi jingle+concept), yoksa her video başında 30 saniyelik 'Why?' interstitial mi."
+  },
+  "candidate_scores": {
+    "evidence_density": "high",
+    "novelty": "medium",
+    "research_gap": "medium",
+    "counterintuitive_value": "medium-high",
+    "narrative_tension": "high",
+    "researchability": "high"
+  },
+  "scoring_rationale": {
+    "evidence_density_high": "Akademik temeli (Assmann, Halbwachs, atasözü araştırmaları, dilbilim) çok sağlam. Her 30 soru çok belgelenmiş sorunlara denk düşüyor.",
+    "novelty_medium": "Kolektif bellek teorisi 100 yıl eski (Halbwachs 1920s). Ama Türkçe-konuşan bağlamda uygulaması + dijital-oral kültür kesişimi (secondary oral environment) daha yeni.",
+    "research_gap_medium": "Akademisyenler bunu çok iyi bilir. Populer kültürde / video formunda bu çerçeve nadiren görülüyor.",
+    "counterintuitive_high": "İnsanlar genelde 'bellek' = bireysel / karşı-direnç sanır. Sosyal çerçevesi + bellek-kimlik bağı, özellikle küçük gruplar için, şaşırtıcı bulunabilir.",
+    "narrative_tension_high": "Bellek ve unutma arasındaki 'mücadele' var — zaman geçtikçe kaybolan çerçeveler, ama diriliş çabaları (TÜRKSOY, dilbilim, arkeoloji). Bu gerilim, bütün 'Büyük Devletler' serisine enerji veriyor.",
+    "researchability_high": "Kitap, makale, arşiv, ve yaşayan toplu bellek (geriatrik danışmanlar, folklor uzmanları, atasözü araştırmaları) — hepsi erişilebilir."
+  },
+  "research_risk": "DÜŞÜK — bu akademik temel iyi örtülü. Riski: çok teorik kalma (başık olmayan görsel anlatı yok). Çözüm: Faz B'de Türkçe-konuşan dünyadan spesifik vakalar (dil kayıpları, alfabe değişimleri, kurgan bulguları) bulmak.",
+  "next_phase_recommendation": "Faz B başlamadan önce, diğer 3 bölümün Faz A'ları da tamamla → 4-section toplamsal 'why' çerçevesini gör. Sonra Faz B, bölüm-başına daha derin kaynak araştırması (Orkhon, Pazırık, Kür-Araz arkeolojisi vb.).",
+  "note": "Bu 'A-LAYER' = studyo'nun marka vizyonunun akademik justification. Her video izleyiciye 'neden bu konu önemli + belleğin hangi parçasını kurtarıyoruz' açıklamalı — metafora örnek: Kurganlar bölümü değiştikçe değeri gösterilecek (ölü = bellek kütüphanesi), KÜR-ARAZ bölümü gösterilecek (ilk yazı = bellek teknolojisi), Büyük Devletler gösterilecek ('Türk' = kendini isimlendirir = kimlik). A-LAYER = tüm bunları bağlayan tema."
+}

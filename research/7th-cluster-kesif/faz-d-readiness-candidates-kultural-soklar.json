@@ -1,0 +1,140 @@
+{
+  "phase": "D",
+  "phase_name": "Quality Gate: Production Readiness Assessment",
+  "section_id": 1,
+  "section_name": "KÜLTÜREL ŞOKLAR",
+  "items_range": "551-600",
+  "timestamp": "2026-08-09T19:05:00Z",
+  "model": "claude-haiku-4-5-20251001",
+
+  "readiness_options": [
+    {
+      "option_id": "OPTION-001",
+      "readiness_level": "READY",
+      "confidence_threshold": "production accepts modernization narrative as primary frame",
+      "description": "All core claims (C-0001, C-0002, C-0004, C-0008) strongly supported; claims C-0003, C-0007, C-0010 provide supporting context; peripheral weak claims (C-0005, C-0006, C-0009) excluded or minimized",
+      "production_approach": "Frame as: state alphabet reforms (Ottoman 1928, Soviet 1930s-1940s) driven by modernization impulse and standardization logic; literacy gains genuine; but unintended consequence = intergenerational knowledge rupture of pre-reform texts; contemporary education policy (China 2025) accelerates contemporary suppression; diaspora/psychology/religion frameworks secondary or aspirational (not yet researched)",
+      "narrative_arc": "Script change → modernization benefit + knowledge disruption (dual causation) → contemporary state policy weaponizes education → digital preservation partial mitigation",
+      "constraints": [
+        "Must acknowledge modernization narrative validity (not reduce to pure suppression story)",
+        "Must qualify diaspora preservation claim as anecdotal (no quantitative proof)",
+        "Must acknowledge psychological impacts as plausible but causally unclear",
+        "Must flag Islamic preservation pathway as speculative (source gap)"
+      ],
+      "preconditions_met": false,
+      "reason_not_recommended": "Omits critical historiographic debate; oversimplifies dual causation; diaspora/psychology/religion treated as secondary when they should be central to cultural disruption narrative"
+    },
+    {
+      "option_id": "OPTION-002",
+      "readiness_level": "CONDITIONAL",
+      "confidence_threshold": "production understands and accepts caveats",
+      "description": "RECOMMENDED — All core claims ready for video; supporting claims provisionally included with explicit qualification; peripheral weak claims (C-0005, C-0006, C-0009) presented as 'research frontiers' not established facts",
+      "production_approach": "Frame as: 'Three waves of script-driven suppression (Ottoman modernization 1928 → Soviet Russification 1930s-1940s → Contemporary education policy 2020s) created measurable institutional disruption of Turkic linguistic transmission. Dual mechanism: functional alphabet replacement + intentional knowledge severing. Diaspora communities attempt preservation (uneven success, quantitative data pending). Psychological costs hypothesized but causally unclear. Religious identity preservation through Islamic texts speculative — research gap. Video acknowledges debate, doesn't overstate evidence.'",
+      "narrative_arc": "Modernization (literacy gain) + Suppression (knowledge rupture) as simultaneous truth → institutional mechanisms (education, curriculum, language policy) weaponize state power → diaspora/digital/religious alternatives emerge but face sustainability challenges → research frontier on psychological/Islamic preservation pathways",
+      "caveats": [
+        "Geopolitical sensitivity FLAGGED: China Uyghur policy sourced from Western media only (Chinese government perspective inaccessible); framed as Western critique, not objective fact",
+        "Diaspora preservation claim qualified: anecdotal evidence; younger generations also experience language shift; quantitative comparison (diaspora vs. homeland) missing",
+        "Psychological impacts presented as plausible hypothesis, not established causation; reverse causality (marginalization → both language shift AND psychological distress) acknowledged",
+        "Islamic text preservation pathway flagged as major source gap; presented as speculative, not documented mechanism",
+        "Soviet/Central Asian regional scholarship underrepresented (language barriers); Cold War historiography dominates framing"
+      ],
+      "quality_gates_met": [
+        "Core claims (4/4) strongly supported or established",
+        "Supporting claims (3/3) probable or plausible with qualification",
+        "Peripheral claims (3/3) marked as speculative or unresolved",
+        "Causal chain established with confounding factors noted",
+        "Historiographic debate documented (modernization vs. suppression)",
+        "Red-team flags integrated (6 flags acknowledged)",
+        "Source gaps catalogued (4 gaps with priorities)",
+        "Geopolitical biases explicit"
+      ],
+      "preconditions_met": true,
+      "production_checklist": [
+        "✓ Video narrator explicitly acknowledges modernization narrative validity",
+        "✓ Each claim marked by evidence strength (strong/probable/plausible/speculative)",
+        "✓ Visual timeline shows dual causation (1928 Ottoman reform → literacy gains AND knowledge gap)",
+        "✓ Diaspora section framed as 'preservation attempts' with success caveats",
+        "✓ Psychological impacts section labeled as 'research frontier'",
+        "✓ Islamic preservation pathway flagged as source gap",
+        "✓ China Uyghur case framed as Western-sourced critique (perspective limitation noted)",
+        "✓ Soviet policies presented as consensus in post-Soviet scholarship (Russian perspective gap acknowledged)",
+        "✓ Completeness score 0.72 reported (good but not comprehensive)"
+      ],
+      "recommended": true,
+      "recommendation_rationale": "Balances evidence strength with historiographic honesty; acknowledges dual causation (modernization + suppression) rather than oversimplifying; flags all source gaps, red-team concerns, and geopolitical biases explicitly; allows production to incorporate narrative sophistication without overstating empirical proof"
+    },
+    {
+      "option_id": "OPTION-003",
+      "readiness_level": "CONTESTED",
+      "confidence_threshold": "production requires maximum epistemic caution",
+      "description": "Recommend HOLDING the Uyghur-focused segment (C-0008 contemporary case: China 2025 policy) pending additional sourcing. Ottoman alphabet reform (C-0001) and Soviet Russification (C-0002) ready. Tatar/Kazakh/Turkmen cases ready. China Uyghur case particularly contested due to inaccessibility of Chinese government perspective and reliance on Western news sources only",
+      "contested_claims": [
+        {
+          "claim_id": "C-0008-china",
+          "text": "China December 2025 language law removed minority-language-instruction provision; Xinjiang banned Uyghur language instruction in all schools",
+          "status": "contested_sourcing",
+          "current_evidence": "Western news media (The Diplomat, 2026)",
+          "gaps": "Chinese government official policy documents; Chinese-language scholarship; CCP policy rationale; alternative framing of policy as beneficial modernization (China's perspective inaccessible)",
+          "recommendation": "Include in CONDITIONAL option (geopolitical bias flagged) or HOLD for additional sourcing (contested option)"
+        }
+      ],
+      "production_approach": "If geopolitical caution prioritized: Separate video into three tiers — (1) Ottoman/Soviet cases (strong evidence base, historical distance allows objectivity) → (2) Post-Soviet republics (good evidence, some perspective gaps) → (3) China Uyghur case (hold pending Chinese sourcing OR explicitly frame as 'Western critique of Chinese policy' with perspective limitation noted)",
+      "preconditions_met": false,
+      "reason_not_recommended": "Overly restrictive; China Uyghur case can be presented within CONDITIONAL framework (Western sourcing explicitly flagged) without full hold; total documentary loss if postponed"
+    }
+  ],
+
+  "final_recommendation": {
+    "recommended_option": "OPTION-002 (CONDITIONAL)",
+    "readiness_verdict": "READY FOR PRODUCTION WITH STRUCTURED CAVEATS",
+    "confidence_level": "HIGH (for core narrative); MEDIUM (for peripheral elements); FLAGGED (for geopolitical sensitivity)",
+    "production_decision_gate": "Human gate required (per CLAUDE.md §7: 'first scene of a project' or material story deviation) — KÜLTÜREL ŞOKLAR is foundational to narrative arc; production director must approve caveat framework and evidence-strength labeling before scripting",
+    "narrative_frame_recommendation": "Dual-causation model (modernization + suppression can coexist); avoid false dichotomy (either modernization OR suppression). Ottoman/Soviet cases established; China case Western-framed (perspective gap noted). Diaspora/psychology/religion positioned as research frontiers, not settled claims.",
+    "research_continuation_priority": "HIGH for gaps C-0009 (Islamic texts), C-0005 (quantitative diaspora data), C-0006 (causal psychology), C-0004 (Russian/Central Asian scholarship access)",
+    "expected_script_length_impact": "Core narrative robust (C-0001, C-0002, C-0004, C-0008 + C-0010); allow ~30% runtime for qualifier language, caveats, uncertainty acknowledgments",
+    "qa_checklist_for_production": [
+      "Narrator reads every caveat aloud (no silent deletion of qualifier language)",
+      "Visual timeline distinguishes 'established fact' (Ottoman 1928 law date) from 'historiographic debate' (literacy gains justified modernization?)",
+      "Diaspora segment explicitly states 'anecdotal evidence, quantitative comparison pending'",
+      "Psychological impacts section labeled 'research frontier: causation unclear'",
+      "Islamic texts pathway flagged as 'major source gap' (not speculative possibility, knowledge absence)",
+      "China Uyghur policy framed as 'Western media reporting' (perspective limitation noted)",
+      "Completeness score 0.72 reported to viewer (e.g., 'Seven of ten research questions thoroughly answered; three remain open')",
+      "Red-team flags (UNVERIFIED_STATISTIC, UNSUPPORTED_COMPARISON, SURVIVORSHIP_BIAS, CORRELATION_CAUSATION, SINGLE_SOURCE, SOURCE_GAP) mapped to specific claims in video description/credits"
+    ]
+  },
+
+  "comparative_risk_assessment": {
+    "option_ready_risk": "HIGH — Risks narrative oversimplification; diaspora/psychology/religion treated as established rather than speculative; geopolitical biases hidden",
+    "option_conditional_risk": "MEDIUM-LOW — Transparent about limitations; allows production flexibility; caveats visible but could be tedious if over-emphasized",
+    "option_contested_risk": "MEDIUM — Risks deferring important contemporary case (China Uyghur) indefinitely; epistemic caution justified but may delay production"
+  },
+
+  "historiographic_tone_recommendations": {
+    "modernization_narrative_treatment": "VALIDATE and CONTEXTUALIZE — Literacy improvements from Ottoman alphabet reform (2.5% → 30%+) were genuine societal benefits AND alphabet change severed access to pre-1928 knowledge systems. Both true simultaneously. Not either/or; both/and.",
+    "suppression_narrative_treatment": "EVIDENCE-BASED — Soviet Russification policies documented; China 2025 education policy verified from Western sources (geopolitical perspective gap noted). Distinguish coercion (state mandate) from incentive (economic opportunity). Coercion established for Soviet case; China case combines both.",
+    "diaspora_narrative_treatment": "QUALIFIED and RESEARCH-FORWARD — Tatar communities in Turkey maintain institutions (fact); younger diaspora also experience language shift (counter-fact); quantitative comparison missing (research gap). Don't overstate diaspora success; acknowledge complexity.",
+    "psychological_impact_treatment": "PLAUSIBLE HYPOTHESIS — Research links language loss to psychological distress; causation direction unclear; reverse causality possible (marginalization causes both). Label as research frontier, not established fact.",
+    "islamic_preservation_treatment": "ACKNOWLEDGED ABSENCE — Islamic texts likely important to Turkic cultural identity historically; specific preservation mechanism under linguistic suppression not yet researched. Honest about not knowing; avoid speculation."
+  },
+
+  "deliverables_checklist": [
+    "✓ faz-d-master-dossier-kultural-soklar.json (claim consolidation, evidence graph, causal chain, historiography)",
+    "✓ faz-d-readiness-candidates-kultural-soklar.json (this file; three readiness options with risk assessment)",
+    "→ Next: Human production director approves CONDITIONAL framework before scripti ng begins",
+    "→ Next: Research team pursues gaps (Islamic texts, diaspora quantitative data, psychology causation, Russian scholarship access) in parallel production timeline"
+  ],
+
+  "archive_metadata": {
+    "phase": "D",
+    "phase_name": "Synthesis & Quality Gate",
+    "timestamp": "2026-08-09T19:05:00Z",
+    "model": "claude-haiku-4-5-20251001",
+    "section": "KÜLTÜREL ŞOKLAR (Items 551-600, 50 items)",
+    "status": "COMPLETE",
+    "final_verdict": "READY FOR PRODUCTION WITH CONDITIONAL CAVEATS",
+    "human_gate_required": true,
+    "decision_required_by": "Production Director (M17 role per CLAUDE.md §2.3: story meaning, shot design, prompt creative content decisions)",
+    "next_phase": "Production scripting + concurrent research gap closure"
+  }
+}

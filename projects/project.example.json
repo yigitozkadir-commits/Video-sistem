@@ -1,0 +1,48 @@
+{
+  "project_id": "PRJ-example",
+  "title": "Example Production",
+  "bible_version": "2.0",
+  "template_ref": "TPL-historical-epic",
+  "source": {
+    "file": "input/book.pdf",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "pages": 0
+  },
+  "rights": {
+    "source_basis": "unknown",
+    "evidence_ref": "",
+    "likeness_clearance": []
+  },
+  "output": {
+    "aspect_ratio": "9:16",
+    "resolution": "2160x3840",
+    "fps": 30,
+    "target_duration_s": 480,
+    "loudness_lufs": -16
+  },
+  "language": {
+    "narration": "tr-TR",
+    "captions": [
+      "tr-TR"
+    ],
+    "prompts": "en-US"
+  },
+  "style_profile_ref": "style/historical_epic_steppe.json",
+  "audience_rating": "general",
+  "budget": {
+    "currency": "credits",
+    "total": 5000,
+    "alert_at": 0.8,
+    "hard_stop_at": 1.0
+  },
+  "determinism": {
+    "global_seed": 20260805,
+    "pin_models": true
+  },
+  "approval_policy": {
+    "first_scene": "required",
+    "master_export": "required",
+    "approval_sla_hours": 24,
+    "on_timeout": "hold"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "phase": "A",
+  "input_summary": "Content backlog items 901-1000: Three sections — (1) AŞARŞILIK EVRENİ (Items 901-950): Sufism, Turkic mystical philosophy, Asharianism, spiritual knowledge transmission in Ottoman contexts; (2) RYSKULOV DOSYASI (Items 951-1000): Ottoman/Soviet-era Turkic scholar, biographical, intellectual heritage; (3) TÜRKISTAN AYDINLARI (Items 1001-1050): stub outline, research TBD",
+  "candidates": [
+    {
+      "candidate_id": "CAND-901-950-A",
+      "section_name": "AŞARŞILIK EVRENİ",
+      "backlog_range": "901-950",
+      "title": "Asharianism and Naqshbandi Sufism: Contested Theological Knowledge in the Ottoman Cosmos",
+      "central_question": "How did Ottoman scholars reconcile rational Islamic theology (Asharianism/Maturidism debate) with experiential mysticism (Sufi orders), and what did this intellectual synthesis reveal about competing visions of Islamic knowledge?",
+      "subject_type": "debate",
+      "period": "14th–19th centuries, concentration: 15th–18th Ottoman period",
+      "geography": "Central Asia, Anatolia, Ottoman domains",
+      "opportunity_class": "academic_controversy",
+      "narrative_structure": "Thesis-antithesis-synthesis: (1) Ash'ari rational theology defended Sunni doctrine via reason against Mu'tazilite excesses; (2) Ottoman Hanafis increasingly favored Maturidism to align with their legal school; (3) Naqshbandi order bridged both, offering orthopraxy (correct deed over pure doctrine) that reconciled scholars and mystics.",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "The Debates between Ash'arism and Maturidism in Ottoman Religious Scholarship (ANU Open Research)",
+        "Sufism as a Turkish Renaissance (ResearchGate)",
+        "A Culture of Sufism: Naqshbandīs in the Ottoman World, 1450–1700 (Princeton NES)",
+        "Cambridge History of Turkey — Sufism and Islamic groups",
+        "Turkish mystical philosophy — mysticism + Tengriism synthesis"
+      ],
+      "research_risk": "medium — Ottoman theological manuscripts in Turkish/Arabic require specialist translation; Sufi lodge documents (takiya records) fragmentary; academic debate sources are modern historiography, not primary",
+      "research_gaps_identified": [
+        "How did lay Ottomans (non-ulema) navigate this theological debate? Were Sufi orders populist alternatives to elite theological controversy?",
+        "Did Ryskulov or later Turkic intellectuals explicitly address Asharianism vs. Maturidism?",
+        "Role of non-Arab Turkic scholars in spreading or resisting these schools"
+      ],
+      "production_angle_candidates": [
+        "The Ottoman Theology Wars: How Scholars Chose Between Reason and Mysticism",
+        "When Mystics Questioned Reason: Naqshbandi Sufism vs. Ash'ari Theology",
+        "The Hidden Synthesis: How Ottoman Islam Balanced Logic and Spirit"
+      ],
+      "recommended": true,
+      "notes": "Strong archival potential (primary Ottoman documents exist). Addresses intellectual pluralism in Islamic civilization — directly relevant to studio's theme of Turkic intellectual heritage. High production readiness if academic sources can be located."
+    },
+    {
+      "candidate_id": "CAND-901-950-B",
+      "section_name": "AŞARŞILIK EVRENİ (alternative)",
+      "backlog_range": "901-950",
+      "title": "From Shamanism to Sufism: How Turkic Peoples Islamicized Without Losing Their Souls",
+      "central_question": "What was unique about Turkic adoption of Islam through Sufism compared to Arab or Persian routes? Did Sufi mysticism deliberately preserve pre-Islamic Turkic spiritual practices (Tengriism, shamanism)?",
+      "subject_type": "reinterpretation",
+      "period": "8th–16th centuries",
+      "geography": "Central Asia, Turko-Mongol steppes, Anatolia",
+      "opportunity_class": "historical_reinterpretation",
+      "narrative_structure": "Counter-narrative to 'Islam vs. indigenous tradition': Sufism allowed Turkic nomads to adopt Islamic universalism while maintaining cultural distinctiveness. Ahmed Yesevi, Otman Baba as bridges. Central Asian mysticism (pre-Islamic) echoed in Sufi practices (dhikr, ecstasy, saint veneration).",
+      "scores": {
+        "evidence_density": "medium",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "high",
+        "narrative_tension": "high",
+        "researchability": "medium"
+      },
+      "known_sources_seen": [
+        "Sufism in Turkey: Turkish Renaissance concept",
+        "Sufi Mystic Experiences and Spiritual Culture in Turkey",
+        "Naqshbandi Order historical origins and Central Asian roots"
+      ],
+      "research_risk": "high — Syncretism claims require careful source verification; Tengriism primary sources limited; pre-Islamic Turkic religion partially reconstructed from fragmentary sources (Byzantine, Chinese accounts); risk of projection onto historical figures",
+      "research_gaps_identified": [
+        "Primary sources on pre-Islamic Turkic spiritual practices (mostly Chinese/Byzantine secondary accounts)",
+        "Direct evidence of deliberate Sufi accommodation of Tengriist elements — or is this a modern historiographical narrative?",
+        "Ahmed Yesevi's actual writings vs. legend"
+      ],
+      "production_angle_candidates": [
+        "The Invisible Bridge: How Sufism Let Turks Stay Turks While Becoming Muslim",
+        "Shamans Became Saints: The Hidden Continuity of Turkic Spirituality"
+      ],
+      "recommended": true,
+      "notes": "High curiosity value but requires careful adversarial verification in Faz C. Risk: modern Turkic nationalism may have retroactively crafted a 'synthesis' narrative. But core claim (Sufism's flexibility enabled Islamic adoption without cultural erasure) is historiographically sound and worth investigating."
+    },
+    {
+      "candidate_id": "CAND-951-1000-A",
+      "section_name": "RYSKULOV DOSYASI",
+      "backlog_range": "951-1000",
+      "title": "Turar Ryskulov: The Soviet Turkistan Scholar Who Fought for Indigenous Intellectual Autonomy",
+      "central_question": "Who was Turar Ryskulov, and what was his vision for Turkic intellectual unity? Why was his work suppressed, and what was lost when his historical manuscripts were confiscated in 1937?",
+      "subject_type": "person",
+      "period": "1894–1938 (life); focus: 1917–1937 intellectual period",
+      "geography": "Kazakhstan, Soviet Turkestan, Central Asia",
+      "opportunity_class": "lost_source",
+      "narrative_structure": "Biography of suppressed scholarship: Ryskulov as prolific author (~20 books, 200+ scientific works) who wrote 'The Uprising of the Natives of Central Asia in 1916,' 'The Revolution and Indigenous Peoples of Turkistan,' and 'Lenin and the Peoples of the East.' His vision was Unified Turkistan and indigenous empowerment. In 1937, arrested; major historical manuscript lost. Exemplifies how Soviet repression erased Turkic intellectual voices.",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "high",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "high",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "Kazakhstan Commemorates 130 Years of Turar Ryskulov's Legacy (Astana Times, 2024)",
+        "National Struggle in Soviet Turkestan: The Role of Kazakh Leader Turar Ryskulov (Academia)",
+        "Ryskulov biographical data: 130-year commemoration suggests birth ~1894"
+      ],
+      "research_risk": "low-medium — Ryskulov is documented in Soviet archives, modern Kazakhstan commemorates him; his publications catalogued. Risk: KGB/Soviet suppression may have destroyed primary materials; some works possibly only in Russian or Kazakh, requiring translation.",
+      "research_gaps_identified": [
+        "Full bibliography of Ryskulov's works — which survive, which are truly lost?",
+        "The 1937 confiscated manuscript: title, scope, current location (KGB/FSB archives?)",
+        "His intellectual relationship to Ottoman scholarly traditions (was he influenced by or critical of Ottoman-era Turkic thought?)",
+        "Ryskulov's reception in modern Turkic/Kazakh nationalism — hagiography or fair assessment?"
+      ],
+      "production_angle_candidates": [
+        "The Erased Historian: What Stalin Burned When He Arrested Turar Ryskulov",
+        "Turkistan's Lost Voice: How One Kazakh Scholar Challenged Soviet Control",
+        "The Manuscript That Vanished: Ryskulov's Vision for Turkic Unity"
+      ],
+      "recommended": true,
+      "notes": "Excellent narrative structure (tragedy + recovery). Clear archival trail (Soviet records, Kazakh institutions, publications still exist). High production readiness. Fills gap between Ottoman-era Turkic thought and modern Turkic intellectualism. Connects to Faz E 'lost source' archetype and 'suppressed knowledge' hook."
+    },
+    {
+      "candidate_id": "CAND-1001-1050-STUB",
+      "section_name": "TÜRKISTAN AYDINLARI",
+      "backlog_range": "1001-1050 (stub outline, TBD)",
+      "title": "[STUB] Central Asian Enlightenment & Jadid Reform: The Pre-Soviet Turkic Intellectual Renaissance",
+      "central_question": "[TBD by research team] Possible framings: (1) How did Central Asian scholars (750–1250 CE, and again 19th-century Jadids) maintain intellectual leadership despite political fragmentation? (2) What was the Jadid movement, why did it emerge in late Ottoman/Russian Turkestan, and how did it connect to earlier Central Asian philosophical traditions?",
+      "subject_type": "institution",
+      "period": "Medieval: ~750–1250 CE; Modern: 1880s–1920s (Jadid movement)",
+      "geography": "Central Asia (Kazakhstan, Uzbekistan, Tajikistan, Kyrgyzstan, Xinjiang), overlap with Ottoman/Russian spheres",
+      "opportunity_class": "academic_controversy",
+      "narrative_structure": "[STUB — Research will determine] Possibility A: Intellectual continuity narrative (medieval enlightenment → Ottoman/Persian periods → Jadid reform); Possibility B: Rupture narrative (Mongol conquest fragmented intellectual networks; Jadidism was 19th-century reawakening independent of medieval legacy); Possibility C: Hybrid (elements of both, with specific turning points)",
+      "scores": {
+        "evidence_density": "high",
+        "novelty": "medium",
+        "research_gap": "high",
+        "counterintuitive_value": "medium",
+        "narrative_tension": "medium",
+        "researchability": "high"
+      },
+      "known_sources_seen": [
+        "Lost Enlightenment: Central Asia's Golden Age from the Arab Conquest to Tamerlane (S. Frederick Starr, Princeton UP)",
+        "Mahmud Kashgari references (11th-century Turkic lexicographer & philosopher)",
+        "Jadid movement: educational reform, new schools, cultural councils (late 19th–early 20th century)"
+      ],
+      "research_risk": "medium — Medieval Central Asian history well-documented but many sources in Arabic/Persian requiring specialized translation; Jadid movement is modern but fragmented across Ottoman, Russian, and Chinese archives",
+      "research_gaps_identified": [
+        "Which specific Central Asian scholars deserve detailed case studies (Kashgari, Al-Bukhari, Al-Tirmidhi, etc.)?",
+        "Jadid movement: How did it connect to Ottoman Young Turks, Russian liberalism, and Turkic nationalism?",
+        "Was there genuine intellectual continuity between medieval and modern Turkic thought, or are modern scholars retroactively constructing a narrative?"
+      ],
+      "production_angle_candidates": [
+        "[TBD] — awaiting research team decision on framing"
+      ],
+      "recommended": false,
+      "status": "STUB_OUTLINE",
+      "notes": "Placeholder for next research phase. Scope is very broad (two separate historical periods). Recommend narrowing to either medieval OR Jadid movement for depth, or finding a specific intellectual figure/text that bridges both. Awaits directive from research lead."
+    }
+  ],
+  "readiness_status": "Three candidates (901-950 A & B, 951-1000 A) ready for Faz B Deep Research. One stub (1001-1050) outlined; awaits research team decision on focus.",
+  "user_choice_required": true,
+  "choice_prompt": "Recommend proceeding with: (1) BOTH 901-950 candidates (A & B) in parallel during Faz B to explore theological vs. syncretism frames, OR (2) Select A only for focused depth, OR (3) Start with Ryskulov (951-1000 A), then parallel-process the 901-950 frame. Stub (1001-1050) will receive research plan once main three begin."
+}

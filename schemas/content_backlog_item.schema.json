@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/content_backlog_item.schema.json",
+  "title": "Content Backlog Item",
+  "description": "One numbered topic from a bulk content-idea source (e.g. input/ilk_1000_icerik.docx) - the studio's content-strategy layer above individual PRJ-* projects. Produced by scripts/build_content_backlog.py, one entry per numbered item in the source. tier decides which production path an item takes: short_new (fresh Flow/ElevenLabs generation, ~30-90s), short_repurpose (cut from an already-rendered master on Kaggle, near-zero new generation), long (30-60min single documentary, full M23 pipeline), epic (2h+, planning-only until explicitly greenlit - see 2026-08-09 content-roadmap plan).",
+  "type": "object",
+  "properties": {
+    "backlog_id": {
+      "type": "string",
+      "pattern": "^CB-\\d{4}$",
+      "description": "Stable id for this backlog entry, independent of the source document's own numbering (which is a display order, not an identity)."
+    },
+    "source_number": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The 1-1050 number as it appears in the source document (input/ilk_1000_icerik.txt) - kept for traceability back to the original list, never used as the primary key."
+    },
+    "section": {
+      "type": "string",
+      "description": "The named section/bölüm heading this item appeared under in the source (e.g. \"AŞARŞILIK EVRENİ\", \"BÜYÜK DEVLETLER\")."
+    },
+    "title": {
+      "type": "string",
+      "description": "The topic/hook title as written in the source, verbatim."
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["short_new", "short_repurpose", "long", "epic"]
+    },
+    "source": {
+      "type": "string",
+      "description": "\"new\" for short_new/long/epic items with no existing footage. For short_repurpose, \"repurpose:<kaggle-ref>:<filename>\" pointing at the already-rendered master this item's clip will be cut from (e.g. \"repurpose:mehmetkync16/ai-audiobook-studio-videos:ryskulov_mektubu_master.mp4\")."
+    },
+    "consolidation_group": {
+      "type": ["string", "null"],
+      "description": "For long/epic tier items only: several source_numbers in the same section are produced as ONE video/series rather than one-per-item (e.g. all 30 BÜYÜK DEVLETLER numbers collapse into 8 empire videos). Null for short-tier items, which are always 1 item = 1 delivered short. Group id is human-readable, e.g. \"buyuk-devletler-goktürkler\"."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["not_started", "researching", "in_production", "delivered", "skipped"]
+    },
+    "project_ref": {
+      "type": ["string", "null"],
+      "description": "PRJ-* project_id once production has actually started on this item (or its consolidation_group), null before that."
+    }
+  },
+  "required": ["backlog_id", "source_number", "section", "title", "tier", "source", "status"],
+  "additionalProperties": false
+}

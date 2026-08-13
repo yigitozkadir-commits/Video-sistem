@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/reference_asset.schema.json",
+  "title": "Reference Asset",
+  "description": "Immutable reference. Regeneration creates a NEW id; existing shots keep the old one.",
+  "type": "object",
+  "properties": {
+    "reference_id": {
+      "type": "string",
+      "pattern": "^REF-(CHR|ENV|OBJ|PAL)-\\d{3}$"
+    },
+    "asset_id": {
+      "type": "string",
+      "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "character",
+        "environment",
+        "object",
+        "palette"
+      ]
+    },
+    "path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "immutable": {
+      "const": true
+    },
+    "derived_from": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^AST-[A-Z]{3}-\\d{6}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "reference_id",
+    "asset_id",
+    "class",
+    "path",
+    "sha256"
+  ],
+  "additionalProperties": true
+}

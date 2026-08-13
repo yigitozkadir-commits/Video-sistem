@@ -1,0 +1,22 @@
+{
+  "name": "remotion_ninniler_atlasi",
+  "version": "1.0.0",
+  "description": "Studio-standard Remotion composition skeleton. Copy this whole directory to remotion_<project_id> for a new project and regenerate src/scenesData.ts from measured audio (see scripts/generate_ryskulov_scenes_data.py or scripts/generate_avrasya_scenes_data.py in scripts/ for the pattern to adapt).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "remotion start",
+    "build": "remotion build",
+    "render": "remotion render src/index.ts studio-video ../output/master.mp4 --concurrency=4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/captions": "^4.0.506",
+    "@remotion/cli": "^4.0.506",
+    "ffmpeg-static": "^5.3.0",
+    "framer-motion": "^13.0.0",
+    "remotion": "^4.0.506"
+  }
+}

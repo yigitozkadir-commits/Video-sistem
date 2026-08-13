@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://studio-os/schemas/dependency_graph.schema.json",
+  "title": "Dependency Graph",
+  "description": "Task DAG. A cycle is fatal at plan time (E-SYS-205).",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "pattern": "^PRJ-[a-z0-9\\-]+$"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "acyclic_verified": {
+      "type": "boolean"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "task_id": {
+            "type": "string",
+            "pattern": "^TSK-\\d{6}$"
+          },
+          "type": {
+            "type": "string"
+          },
+          "scene_id": {
+            "type": "string",
+            "pattern": "^SC-\\d{3}$"
+          },
+          "estimated_duration_s": {
+            "type": "number"
+          },
+          "estimated_cost": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "task_id",
+          "type"
+        ]
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "from": {
+            "type": "string",
+            "pattern": "^TSK-\\d{6}$"
+          },
+          "to": {
+            "type": "string",
+            "pattern": "^TSK-\\d{6}$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "data",
+              "order",
+              "continuity"
+            ]
+          }
+        },
+        "required": [
+          "from",
+          "to"
+        ]
+      }
+    },
+    "critical_path": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^TSK-\\d{6}$"
+      }
+    }
+  },
+  "required": [
+    "project_id",
+    "nodes",
+    "edges",
+    "acyclic_verified"
+  ],
+  "additionalProperties": true
+}

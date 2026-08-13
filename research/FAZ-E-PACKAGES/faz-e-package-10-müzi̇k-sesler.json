@@ -1,0 +1,53 @@
+{
+  "phase": "E",
+  "cluster": "CULTURE",
+  "section": "MÜZİK-SESLER",
+  "items_range": "651-700",
+  "items_count": 50,
+  "angle": {
+    "text": "Eski enstrümanlar 1000 yıl aynı kalabilir mi?",
+    "rationale": "E1: MÜZİK-SESLER bölümünün core historiographical debate'i"
+  },
+  "hook": {
+    "video_title": "Kopuz Sazı Nasıl 1000 Yıl Çekti? (Müzik Tarihinden Kayıp Bölüm)",
+    "most_dramatic_claim": "Kopuz: 9c documented (Ottoman 1525 records), shamanic → bardic evolution. Sufizm integration mekanizmi PLAUSIBLE ama UNPROVEN. Ozan → Aşık terminoloji belgelenmiş. Sultanova saha verisi (1990s-2010s) kontempor pratiğini gösterir, antik formu değil.",
+    "why_compelling": "Müzik arkeolojisi: enstrüman evolüsyon yazılı kayıt ile eşleşiyor mu?"
+  },
+  "claims_summary": {
+    "total_count": 6,
+    "confidence_levels": [
+      "STRONGLY_SUPPORTED",
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED",
+      "STRONGLY_SUPPORTED",
+      "ESTABLISHED",
+      "STRONGLY_SUPPORTED"
+    ],
+    "cautions": "Sufizm mekanizması (11-16c) doğrudan kanıt yok, indirect evidence"
+  },
+  "production_readiness": {
+    "faz_d_status": "READY",
+    "qualifications": [
+      "Sufizm mekanizması (11-16c) doğrudan kanıt yok, indirect evidence"
+    ],
+    "conditions_for_production": [
+      "C1: Dramatik claim zaman-çizelgesi doğrulanmıştır",
+      "C2: Historiographical debate ortaya konmuştur",
+      "C3: Counter-evidence veya alternative model belirtilmiştir"
+    ]
+  },
+  "readiness_verdict": {
+    "agent_recommendation": "READY",
+    "human_decision_required": false,
+    "decision_options": [
+      "ACCEPT_AND_PRODUCE",
+      "ACCEPT_AND_PRODUCE",
+      "HOLD_FOR_REVISION"
+    ],
+    "notes": "MÜZİK-SESLER: Kopuz Sazı Nasıl 1000 Yıl Çekti? (Müzik Tarihinden Kayıp Bölüm) — Hazır üretim, fakat caution'lar göz önüne alınmalıdır"
+  },
+  "metadata": {
+    "phase_completion_date": "2026-08-09",
+    "faz_e_stage": "Package Formatting (E3)"
+  }
+}

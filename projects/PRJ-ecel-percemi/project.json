@@ -1,0 +1,26 @@
+{
+  "project_id": "PRJ-ecel-percemi",
+  "title": "Ecel Perçemi: Turkish Death Lock & Serdengeçti Tradition",
+  "format": "long_form_video",
+  "duration_target_seconds": 450,
+  "episode_count": 1,
+  "created_date": "2026-08-14",
+  "source": {
+    "file": "Türklerde_Ecel_Perçemi_Araştırması.pdf",
+    "type": "research_paper",
+    "sha256": "377445b9",
+    "basis": "provided"
+  },
+  "rights": {
+    "source_basis": "licensed",
+    "usage": "documentary_educational"
+  },
+  "production_stage": "Faz A - Concept & Visual Planning",
+  "metadata": {
+    "research_clusters": ["Hunnic", "Göktürk", "Islamic Integration", "Ottoman Military", "Literary"],
+    "narrative_scope": "7-8 minutes",
+    "visual_assets_provided": 8,
+    "estimated_insert_shots": 61,
+    "color_palette": ["warm_golden", "mystical_blue", "dramatic_red", "cool_nightsky"]
+  }
+}

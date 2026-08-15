@@ -176,26 +176,39 @@ drifting slowly in the light shaft; camera very slow tilt.up. desaturated
 warm shadows, cool highlights, film curve, fine 35mm, deep blue, muted
 green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8). 9:16, 8s.
 
-[SH-R12 · 0:37-0:41 · IMAGE]
+[SH-R12 · 0:37-0:41 · IMAGE] — REVISED 2026-08-15, see notes
 A scholar's hand holding a reed pen poised above an open manuscript
-page, flowing ornamental calligraphic script and a gold-leaf border
-below, ink glistening at the nib, deliberately unreadable writing.
-suspended, about to write. warm single_window_soft light from the left.
-tight macro close-up, high angle, vertical composition, subject centred,
-generous headroom, upper third kept clear. 85mm portrait lens, very
-shallow focus. Motion: none. desaturated warm shadows, cool highlights,
-film curve, fine 35mm, deep blue, muted green, pale silver
-(#1F3A5C/#4A7C6F/#C8D4E8). 9:16, still frame.
+page written in flowing Arabic-script calligraphy with an illuminated
+gold-leaf geometric border, ink glistening at the nib, the script
+ornamental and deliberately not legible as any real word. Set inside a
+dim stone-walled chamber with no modern fixtures visible anywhere in
+frame — no window frames of any kind should appear. suspended, about
+to write. warm firelight_warm light from an unseen lamp off to the
+left, deep shadow filling the rest of the frame. tight macro close-up,
+high angle, vertical composition, subject centred, generous headroom,
+upper third kept clear. 85mm portrait lens, very shallow focus. Motion:
+none. desaturated warm shadows, cool highlights, film curve, fine 35mm,
+deep blue, muted green, pale silver (#1F3A5C/#4A7C6F/#C8D4E8). 9:16,
+still frame.
+SHOT NEGATIVE (add to the shared negative prompt for this shot only):
+Latin alphabet, Celtic knotwork, Gothic illumination, modern window,
+PVC window frame, double glazing, modern fabric, fleece, contemporary
+clothing, contemporary room
 
-[SH-R13 · 0:41-0:45 · IMAGE]
+[SH-R13 · 0:41-0:45 · IMAGE] — REVISED 2026-08-15, see notes
 A single warrior kneeling alone on a prayer mat at dawn, head bowed,
-weapons laid on the earth beside him, tall empty sky filling the upper
-half of the vertical frame. still, private, reverent. cold blue dawn
-light with a warm rim on his shoulders. medium shot, low angle, vertical
-composition, subject centred, generous headroom, upper third kept clear.
-50mm normal lens, medium focus. Motion: none. desaturated warm shadows,
-cool highlights, film curve, fine 35mm, deep blue, muted green, ochre
+hands folded. Beside him on the ground lies only a single sheathed
+curved kilij sword and one plain wooden lance laid flat — no shield of
+any kind, no axe. tall empty sky filling the upper half of the vertical
+frame. still, private, reverent. cold blue dawn light with a warm rim
+on his shoulders. medium shot, low angle, vertical composition, subject
+centred, generous headroom, upper third kept clear. 50mm normal lens,
+medium focus. Motion: none. desaturated warm shadows, cool highlights,
+film curve, fine 35mm, deep blue, muted green, ochre
 (#1F3A5C/#4A7C6F/#C8B18A). 9:16, still frame.
+SHOT NEGATIVE (add to the shared negative prompt for this shot only):
+round shield, buckler, viking shield, battle axe, axe, rune carvings,
+norse ornament, straight double-edged sword
 
 
 ================================================================================
@@ -333,16 +346,25 @@ highlights, film curve, fine 35mm, deep red, gold, near black
 KAPANIŞ / LOOP (1:20-1:30) · 2 shot
 ================================================================================
 
-[SH-R25 · 1:20-1:25 · VIDEO]
-A lone warrior silhouette standing on a ridge under a dense star field,
-single top-tuft just readable against the sky, the star field filling the
-upper two thirds of the vertical frame. still, final, solitary. starlight
-and faint horizon glow only, figure fully in silhouette. medium shot, low
-angle, vertical composition, subject centred, generous headroom, upper
-third kept clear. 50mm normal lens, deep focus. Motion: stars drifting
-very slowly, faint high cloud passing; camera static. desaturated warm
+[SH-R25 · 1:20-1:25 · VIDEO] — REVISED 2026-08-15, see notes
+A lone warrior silhouette standing on a ridge under a dense star field.
+He wears only a simple long wool or felt cloak over a plain tunic —
+no armor of any kind, no plate, no segmented banding, no shoulder
+guards or pauldrons — with a single sheathed curved sword at his hip
+as the only weapon. A single top-tuft of hair is clearly readable
+against the sky at the crown of an otherwise shaven head; the rest of
+the silhouette reads as soft cloth, not hard armor. The star field
+fills the upper two thirds of the vertical frame. still, final,
+solitary. starlight and faint horizon glow only, figure fully in
+silhouette. medium shot, low angle, vertical composition, subject
+centred, generous headroom, upper third kept clear. 50mm normal lens,
+deep focus. Motion: stars drifting very slowly, faint high cloud
+passing, cloak moving slightly in wind; camera static. desaturated warm
 shadows, cool highlights, film curve, fine 35mm, night blue, muted
 violet, pale silver (#2A3B5C/#5B4A7C/#C8D4E8). 9:16, 8s.
+SHOT NEGATIVE (add to the shared negative prompt for this shot only):
+plate armor, segmented armor, lorica segmentata, pauldrons, ornate
+shoulder guards, samurai armor, roman armor, fantasy armor, breastplate
 
 [SH-R26 · 1:25-1:30 · IMAGE]
 Extreme close-up of the back of a shaven head with a single tuft of dark
@@ -390,3 +412,39 @@ NOTLAR
    düzenlerim (ama dikeyde geniş plan sorunu geri gelir, önermem).
 
 5. Ürettikten sonra: SH-R01.jpeg, SH-R02.jpeg ... diye kaydet.
+
+================================================================================
+REVİZYON GEÇMİŞİ (2026-08-15)
+================================================================================
+İlk üretimin insan-gözü kontrolünde 3 shot'ta tarihi/kültürel tutarsızlık
+bulundu — 26 shot'ın 23'ü doğru çıktı, revize edilmesi gereken 3'ü:
+
+SH-R12 (el yazması) — Flow, Latin alfabeli/Kelt örgü tezhipli bir Avrupa
+  el yazmasını modern bir odada (PVC pencere, modern kumaş) üretti.
+  İslami sentez bölümünde Osmanlı/İslam okunması gerekiyordu. Düzeltme:
+  Arap harfli kaligrafi, taş duvarlı oda, "modern window/PVC/fleece"
+  negatife eklendi.
+
+SH-R13 (namaz kılan savaşçı) — Flow, promptta silah türü belirtilmediği
+  için yuvarlak Viking kalkanı + savaş baltası uydurdu. İslamiyet'e
+  geçiş bölümünde Norse okunuyordu. Düzeltme: silahlar açıkça kılıç
+  (kılıç) + mızrak olarak sabitlendi, kalkan/balta negatife eklendi.
+
+SH-R25 (kapanış/loop silueti) — Flow, promptta zırh belirtilmediği için
+  omuzlarda belirgin plaka/segmentli zırh (Roma lorica segmentata'ya
+  veya samuray zırhına yakın) uydurdu — kullanıcı bunu "Roma askeri"
+  olarak tanımladı, haklı. Bu, VİDEOYU KAPATAN karedir, en görünür
+  hata buradaydı. Düzeltme: kıyafet açıkça keçe/yün pelerin + düz
+  tunik olarak sabitlendi, zırh/pelerin/omuzluk negatife eklendi.
+
+Değişmeyen (kabul edilebilir, opsiyonel):
+SH-R23 (ışık figürü) — ışıklı silüet biraz düz gri çıktı, kanatsız/
+  yüzsüz olduğu için inanışı yanlış anlatmıyor, isteğe bağlı yeniden
+  üretim.
+SH-R20 (kılıç/pelerin/sarık) — kılıç kabzası Avrupa tipi düz kılıca
+  yakın (kavisli kılıç değil), küçük bir detay, blocker değil.
+
+Bu 3 revize prompt henüz Flow'da ÜRETİLMEDİ — eski (hatalı) görseller
+hâlâ assets/ altında duruyor. Yeniden üretip aynı dosya adlarının
+üzerine (SH-R12.jpeg, SH-R13.jpeg, SH-R25.mp4) kaydet, sonra
+scripts/build_short_preview.py yeniden çalıştırılacak.

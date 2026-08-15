@@ -315,8 +315,9 @@
       "shot_id": "SH-R12",
       "severity": "BLOCKER",
       "summary": "Wrong civilisation and modern objects in the manuscript shot.",
-      "detail": "Flow returned a Latin-alphabet European manuscript with Celtic interlace illumination, written in a modern room: a white PVC double-glazed window, a modern fleece/shirt collar. The shot sits in the Islamic-synthesis section and must read Ottoman/Islamic. It also breaks the sheet's own negative prompt ('modern objects') and the 'ornamental and not legible' instruction.",
-      "action": "Regenerate with the revised SH-R12 prompt before any master render. Preview ships with the defective frame in place so the cut can still be judged - not silently swapped or hidden."
+      "detail": "Flow returned a Latin-alphabet European manuscript with Celtic interlace illumination, photographed in a modern room: a white PVC double-glazed window, a modern fleece/shirt collar. The shot sits in the Islamic-synthesis section and must read Ottoman/Islamic.",
+      "status": "prompt_corrected_not_regenerated",
+      "corrected_prompt_ref": "projects/PRJ-ecel-percemi/FLOW_PROMPTS_SHORT_9x16.txt#SH-R12"
     },
     {
       "id": "F-002",
@@ -324,7 +325,44 @@
       "severity": "NOTE",
       "summary": "Luminous figure reads closer to a modern grey-alien silhouette than to light.",
       "detail": "Restrained and non-literal as intended (no wings, no face), so it does not misstate the folk belief, but the surface treatment is flat grey rather than self-lit.",
-      "action": "Acceptable as-is; regenerate only if you dislike it on viewing."
+      "status": "accepted_as_is",
+      "action": "Optional regenerate only if the user dislikes it on viewing."
+    },
+    {
+      "id": "F-003",
+      "shot_id": "SH-R25",
+      "severity": "BLOCKER",
+      "summary": "Silhouette wears generic segmented plate armor with pauldrons -- reads as Roman/samurai, not Ottoman-Turkic.",
+      "detail": "User-identified on viewing ('Roma askeri gördüm'). The original prompt never specified garment for this silhouette, so Flow invented banded shoulder armor. This is the CLOSING shot of the whole cut (the loop frame at 1:20-1:25), making it the most visible defect in the set.",
+      "status": "prompt_corrected_not_regenerated",
+      "corrected_prompt_ref": "projects/PRJ-ecel-percemi/FLOW_PROMPTS_SHORT_9x16.txt#SH-R25"
+    },
+    {
+      "id": "F-004",
+      "shot_id": "SH-R13",
+      "severity": "BLOCKER",
+      "summary": "Round Viking-style shield with rune-like marks and a battle axe next to the kneeling warrior -- reads Norse, not Turkic/Islamic.",
+      "detail": "Original prompt said only 'weapons laid on the earth beside him' without specifying type, so Flow filled the gap with Norse iconography. Sits in the Islam-adoption section where a kilij and lance were intended.",
+      "status": "prompt_corrected_not_regenerated",
+      "corrected_prompt_ref": "projects/PRJ-ecel-percemi/FLOW_PROMPTS_SHORT_9x16.txt#SH-R13"
+    },
+    {
+      "id": "F-005",
+      "shot_id": "SH-R20",
+      "severity": "NOTE",
+      "summary": "Sword hilt reads as a generic European arming-sword type (straight blade, disc pommel) rather than a curved Ottoman kilij.",
+      "detail": "Minor, not screen-dominant (still life detail shot).",
+      "status": "accepted_as_is",
+      "action": "Optional regenerate only if the user wants full consistency with SH-R13's corrected kilij."
     }
-  ]
+  ],
+  "historical_accuracy_audit": {
+    "date": "2026-08-15",
+    "reviewed_shots": 26,
+    "method": "full-frame human/vision review of all 20 stills + first frame of all 6 video clips",
+    "clean": 21,
+    "blocker": 2,
+    "note": 2,
+    "root_cause": "Both blockers share one pattern: the original prompt left costume/armament unspecified and Flow filled the gap with whatever training-data default is most common for 'warrior' -- which skews European/generic-fantasy, not Ottoman-Turkic. Prompts for any future project should specify garment and weapon explicitly on every figure, not just the ones already flagged as risky."
+  }
 }

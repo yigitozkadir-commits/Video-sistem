@@ -1,0 +1,58 @@
+{
+  "2db5ae27bc88ee1e3e852cddad92e0e5e21aabc2d7a8cbc14c82b0718ee9e3f8": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-01.wav",
+    "sha256": "243855053b6c3084fea9b63f7de4dc17737c1809ab5f8c6029be5ae03d2187d2",
+    "cached_at": "2026-08-15T04:29:20.995764+00:00",
+    "scene_id": "SHORT-SEG-01",
+    "char_count": 92
+  },
+  "7cb0f96ec798707416003932760d98c6c1ec11b93dd00f9760d648f2250133fb": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-02.wav",
+    "sha256": "5ea9a19c2575c4cea5a24217d55ac05d7c6ae9aad38126a82eb25495afb6e81a",
+    "cached_at": "2026-08-15T04:29:23.336242+00:00",
+    "scene_id": "SHORT-SEG-02",
+    "char_count": 195
+  },
+  "c0e3db541cc468e8f502d9b8fcb83a99181397305e01581f17a31630069fef56": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-03.wav",
+    "sha256": "cdbc96cf4bc23a5d281d5ba6d6d7fbb7781ef89fca5ff5f66530ceb4774c2e29",
+    "cached_at": "2026-08-15T04:29:25.838520+00:00",
+    "scene_id": "SHORT-SEG-03",
+    "char_count": 249
+  },
+  "9beed60d07d8aa9c340c58ae8101b54c6c22b7463b11009045aedd5ba06fd418": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-04.wav",
+    "sha256": "b46e1f1d17549c5fcb3de8e5c0e9631ac6f512ed54974647961ebb4dd44ffedf",
+    "cached_at": "2026-08-15T04:29:28.207111+00:00",
+    "scene_id": "SHORT-SEG-04",
+    "char_count": 202
+  },
+  "6bf724bc1395e8ca280b52d58fac77a35835d8e6602ef141411753f477e926a2": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-05.wav",
+    "sha256": "eed46ce1aaa17fa9feb8bfe74e8d8b570d94bc5c7e241eaa538d1582c7c6981a",
+    "cached_at": "2026-08-15T04:29:30.431678+00:00",
+    "scene_id": "SHORT-SEG-05",
+    "char_count": 198
+  },
+  "c84d688e692d803690ffeee23a5012b42060dd5fdba9fb68bd8b86c603aa01ab": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-06.wav",
+    "sha256": "160c2d2ed439a5b3e33e4d19dabb6bc0e26cb9988f7b29458eb84e97ac37e4fc",
+    "cached_at": "2026-08-15T04:29:32.505900+00:00",
+    "scene_id": "SHORT-SEG-06",
+    "char_count": 118
+  },
+  "9bd266966da34d0c2bee07f5f550588df2f7183700ad8b008c4e482dee953c89": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-07.wav",
+    "sha256": "067c106f3daec07f4346bf18a634cacd3f16baafe2ed0faa2ab2b3b45c8772fd",
+    "cached_at": "2026-08-15T04:29:34.638634+00:00",
+    "scene_id": "SHORT-SEG-07",
+    "char_count": 163
+  },
+  "27dd03016db29f7a2f2f8a202482d74426dd8b5093c50528e56a93292e81f31c": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-08.wav",
+    "sha256": "315b26547efa8b40fabd4a9d91acc762bc83035733548704d97ff74e525b29b2",
+    "cached_at": "2026-08-15T04:29:36.561780+00:00",
+    "scene_id": "SHORT-SEG-08",
+    "char_count": 81
+  }
+}

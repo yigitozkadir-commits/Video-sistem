@@ -52,3 +52,6 @@ complete-research-ninniler-plan.tar.gz
 
 # Preview renders are regenerable from state/short_edit.json + assets
 projects/*/output/*_short_preview*.mp4
+
+# Piper draft narration audio - regenerable from state/short_narration_draft.json + piper voice model
+projects/*/assets/audio/short_draft/*.wav

@@ -9,7 +9,7 @@
   },
   "total_duration_s": 90.0,
   "audio": null,
-  "audio_note": "No narration yet - ElevenLabs pre_generation_approval gate (studio.config.json) not passed. Timings are from the prompt sheet plan, NOT from narration. Law #3 (narration is the clock) means this cut is provisional and will be re-timed once narration exists.",
+  "audio_note": "A DRAFT-ONLY Piper narration now exists (state/short_narration_draft.json, assets/audio/short_draft/*.wav, 85.62s actual vs 90.0s planned) generated per explicit user choice 2026-08-15 after the real ElevenLabs path failed (invalid API key) and the alternate connected provider had 0 credits. This is timing/pacing reference ONLY -- quality_gate=draft_only, robotic Piper voice, never a delivered master (CLAUDE.md law #4). The visual cut in this manifest (still) reflects the prompt-sheet plan, NOT this draft audio -- retiming to real narration happens once ElevenLabs generates the actual master (law #3, narration is the clock), not from a Piper draft. Do not reflow shot timings against the Piper track.",
   "prompt_sheet": "projects/PRJ-ecel-percemi/FLOW_PROMPTS_SHORT_9x16.txt",
   "shots": [
     {

@@ -2,7 +2,7 @@
   "project_id": "PRJ-ecel-percemi",
   "cut": "short_9x16",
   "version": 1,
-  "status": "draft_not_generated",
+  "status": "draft_generated_piper_not_master",
   "gate": "M16 pre_generation_approval (studio.config.json) -- human must see character count + cost and explicitly approve before any text_to_speech() call",
   "language": "tr-TR",
   "voice_spec": {
@@ -17,76 +17,156 @@
   "total_words": 183,
   "segments": [
     {
-      "shot_range": ["SH-R01", "SH-R02"],
+      "shot_range": [
+        "SH-R01",
+        "SH-R02"
+      ],
       "window": "0:00-0:05",
       "window_s": 5,
       "text": "Bir Osmanlı askerinin kafasında sadece tek bir tutam saç kalırdı. Buna Ecel Perçemi denirdi.",
       "characters": 92,
       "words": 14,
-      "confidence": "framing/hook, not a claim"
+      "confidence": "framing/hook, not a claim",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-01.wav",
+        "actual_duration_s": 6.5,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R03", "SH-R06"],
+      "shot_range": [
+        "SH-R03",
+        "SH-R06"
+      ],
       "window": "0:05-0:18",
       "window_s": 13,
       "text": "Baş tamamen tıraş edilir, sadece tepede bir tutam bırakılırdı. Bu, savaşçının ölüme hazır olduğunun işaretiydi. Aynı anda hem miğferin altında bir yastık, hem bir onur kuralı, hem de bir inançtı.",
       "characters": 195,
       "words": 30,
-      "confidence": "HIGH (definition) + MEDIUM (three-fold function, stated as thesis to be unpacked below)"
+      "confidence": "HIGH (definition) + MEDIUM (three-fold function, stated as thesis to be unpacked below)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-02.wav",
+        "actual_duration_s": 12.74,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R07", "SH-R10"],
+      "shot_range": [
+        "SH-R07",
+        "SH-R10"
+      ],
       "window": "0:18-0:33",
       "window_s": 15,
       "text": "Kökü çok daha eskiye, bozkır kültürüne uzanıyordu. Hunlar çocuklarını kötü ruhlardan korumak için tepede aynı tutamı bırakırdı, buna aydar deniyordu. Göktürkler bunu kut dedikleri ilahi güçle özdeşleştirdi: uzun saç, göksel gücün görünen işaretiydi.",
       "characters": 249,
       "words": 33,
-      "confidence": "MEDIUM-HIGH (Hunnic Aydar, C-001/C-002 -- ethnographic continuity, archaeological gap acknowledged) + HIGH (Göktürk Kut, C-003/C-004)"
+      "confidence": "MEDIUM-HIGH (Hunnic Aydar, C-001/C-002 -- ethnographic continuity, archaeological gap acknowledged) + HIGH (Göktürk Kut, C-003/C-004)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-03.wav",
+        "actual_duration_s": 16.1,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R11", "SH-R13"],
+      "shot_range": [
+        "SH-R11",
+        "SH-R13"
+      ],
       "window": "0:33-0:45",
       "window_s": 12,
       "text": "İslamiyet geldiğinde bu gelenek yok olmadı, yeniden şekillendi. Ecel kavramıyla birleşti: ölüm artık rastgele değil, ilahi takdirin belirlediği bir andı. Bozkırın eski inancı, yeni bir dille devam etti.",
       "characters": 202,
       "words": 28,
-      "confidence": "HIGH (Ecel theology, C-006) + MEDIUM (synthesis thesis, C-005 -- pattern supports, explicit causal mechanism not documented)"
+      "confidence": "HIGH (Ecel theology, C-006) + MEDIUM (synthesis thesis, C-005 -- pattern supports, explicit causal mechanism not documented)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-04.wav",
+        "actual_duration_s": 13.61,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R14", "SH-R17"],
+      "shot_range": [
+        "SH-R14",
+        "SH-R17"
+      ],
       "window": "0:45-0:57",
       "window_s": 12,
       "text": "Osmanlı'da bu gelenek Serdengeçtilerin işareti oldu — kale kuşatmalarında en önde koşan gönüllü birlikler. Tıraşlı kafa sefer koşullarında hijyendi, tepedeki tutam ise miğferin altında bir yastıktı.",
       "characters": 198,
       "words": 26,
-      "confidence": "HIGH (Serdengeçti definition, C-007) + MEDIUM (hygiene/helmet padding, C-008/C-009 -- engineering logic, not explicitly documented)"
+      "confidence": "HIGH (Serdengeçti definition, C-007) + MEDIUM (hygiene/helmet padding, C-008/C-009 -- engineering logic, not explicitly documented)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-05.wav",
+        "actual_duration_s": 12.5,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R18", "SH-R20"],
+      "shot_range": [
+        "SH-R18",
+        "SH-R20"
+      ],
       "window": "0:57-1:07",
       "window_s": 10,
       "text": "Ama asıl anlamı onurdaydı. Düşen bir savaşçının yüzüne değil, perçemine dokunulurdu. Beden, ölümde bile saygı görürdü.",
       "characters": 118,
       "words": 16,
-      "confidence": "MEDIUM (honor ethics, C-010 -- Cherkess parallel strong, Ottoman-specific evidence thin)"
+      "confidence": "MEDIUM (honor ethics, C-010 -- Cherkess parallel strong, Ottoman-specific evidence thin)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-06.wav",
+        "actual_duration_s": 7.92,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R21", "SH-R24"],
+      "shot_range": [
+        "SH-R21",
+        "SH-R24"
+      ],
       "window": "1:07-1:20",
       "window_s": 13,
       "text": "Halk arasında inanılırdı ki melekler şehitleri o tutamdan tutup göğe kaldırırdı. Kanıtlanmış bir gerçek değil, ama yüzyıllarca savaşçıya cesaret veren bir inançtı.",
       "characters": 163,
       "words": 22,
-      "confidence": "MEDIUM (angel mysticism, C-011/C-012 -- explicitly framed as folk belief, not theological claim, per faz-c-verification.md Debate 3)"
+      "confidence": "MEDIUM (angel mysticism, C-011/C-012 -- explicitly framed as folk belief, not theological claim, per faz-c-verification.md Debate 3)",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-07.wav",
+        "actual_duration_s": 10.44,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     },
     {
-      "shot_range": ["SH-R25", "SH-R26"],
+      "shot_range": [
+        "SH-R25",
+        "SH-R26"
+      ],
       "window": "1:20-1:30",
       "window_s": 10,
       "text": "Üç bin yıllık bir felsefe, tek bir tutam saçta yaşamaya devam etti. Ecel Perçemi.",
       "characters": 81,
       "words": 14,
-      "confidence": "closing framing, not a claim"
+      "confidence": "closing framing, not a claim",
+      "draft_audio": {
+        "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft/seg-08.wav",
+        "actual_duration_s": 5.82,
+        "provider": "piper",
+        "voice": "tr_TR-dfki-medium",
+        "quality_gate": "draft_only"
+      }
     }
   ],
   "full_text_concatenated": "Bir Osmanlı askerinin kafasında sadece tek bir tutam saç kalırdı. Buna Ecel Perçemi denirdi. Baş tamamen tıraş edilir, sadece tepede bir tutam bırakılırdı. Bu, savaşçının ölüme hazır olduğunun işaretiydi. Aynı anda hem miğferin altında bir yastık, hem bir onur kuralı, hem de bir inançtı. Kökü çok daha eskiye, bozkır kültürüne uzanıyordu. Hunlar çocuklarını kötü ruhlardan korumak için tepede aynı tutamı bırakırdı, buna aydar deniyordu. Göktürkler bunu kut dedikleri ilahi güçle özdeşleştirdi: uzun saç, göksel gücün görünen işaretiydi. İslamiyet geldiğinde bu gelenek yok olmadı, yeniden şekillendi. Ecel kavramıyla birleşti: ölüm artık rastgele değil, ilahi takdirin belirlediği bir andı. Bozkırın eski inancı, yeni bir dille devam etti. Osmanlı'da bu gelenek Serdengeçtilerin işareti oldu — kale kuşatmalarında en önde koşan gönüllü birlikler. Tıraşlı kafa sefer koşullarında hijyendi, tepedeki tutam ise miğferin altında bir yastıktı. Ama asıl anlamı onurdaydı. Düşen bir savaşçının yüzüne değil, perçemine dokunulurdu. Beden, ölümde bile saygı görürdü. Halk arasında inanılırdı ki melekler şehitleri o tutamdan tutup göğe kaldırırdı. Kanıtlanmış bir gerçek değil, ama yüzyıllarca savaşçıya cesaret veren bir inançtı. Üç bin yıllık bir felsefe, tek bir tutam saçta yaşamaya devam etti. Ecel Perçemi.",
@@ -103,7 +183,10 @@
       "account_credits": 0,
       "subscription_plan": "free",
       "unlimited_free_trial_available": false,
-      "cost_preflight_for_this_script": {"credits": 4.05, "preflighted_via": "generate_audio get_cost:true, no job submitted"},
+      "cost_preflight_for_this_script": {
+        "credits": 4.05,
+        "preflighted_via": "generate_audio get_cost:true, no job submitted"
+      },
       "blocked_reason": "0 credits, no free-trial allowance currently available -- cannot generate without the user adding credits or explicitly authorizing a different provider than the studio's designated one"
     },
     "decision_needed_from_user": [
@@ -111,5 +194,8 @@
       "B) Explicitly authorize spending ~4.05 credits on the alternate connected provider (requires topping up its 0 balance first)",
       "C) Fall back to Piper (scripts/piper_client.py), local/free/no-network -- but every result comes back quality_gate=draft_only per studio.config.json, never usable as delivered master audio"
     ]
-  }
+  },
+  "draft_generation_note": "Piper (draft_only quality_gate) used per explicit user choice 2026-08-15 -- real ElevenLabs blocked (invalid key) and alternate provider had 0 credits. This audio times the cut for retiming/pacing purposes ONLY; it must never be shipped as delivered narration (CLAUDE.md law #4 -- Piper output is always draft, never master).",
+  "actual_total_duration_s": 85.62,
+  "planned_total_duration_s": 90.0
 }

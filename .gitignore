@@ -55,3 +55,7 @@ projects/*/output/*_short_preview*.mp4
 
 # Piper draft narration audio - regenerable from state/short_narration_draft.json + piper voice model
 projects/*/assets/audio/short_draft/*.wav
+
+# Piper draft narration-variant audio - regenerable from state/short_narration_variants.json + voice model
+projects/*/assets/audio/short_draft_variants/**/*.wav
+projects/*/assets/audio/short_draft_variants/*.wav

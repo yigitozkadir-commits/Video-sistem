@@ -1,0 +1,8 @@
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-01.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-02.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-03.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-04.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-05.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-06.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-07.wav'
+file '/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-08.wav'

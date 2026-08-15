@@ -1,0 +1,394 @@
+{
+  "project_id": "PRJ-ecel-percemi",
+  "cut": "short_9x16",
+  "purpose": "3 alternative narration scripts for the same 90s visual cut, drafted via Piper (draft_only) for tone/pace comparison before an ElevenLabs master is chosen",
+  "gate": "M16 pre_generation_approval -- none of these are master audio, quality_gate=draft_only on every segment",
+  "language": "tr-TR",
+  "voice": "tr_TR-dfki-medium (piper, only Turkish model available)",
+  "variants": {
+    "v1_soru_merak": {
+      "segments": [
+        {
+          "shot_range": [
+            "SH-R01",
+            "SH-R02"
+          ],
+          "window": "0:00-0:05",
+          "window_s": 5,
+          "text": "Bir Osmanlı askeri neden kafasını tıraş edip tepede tek bir tutam saç bırakırdı, hiç düşündün mü?",
+          "characters": 97,
+          "words": 16,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-01.wav",
+            "actual_duration_s": 6.21
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R03",
+            "SH-R06"
+          ],
+          "window": "0:05-0:18",
+          "window_s": 13,
+          "text": "Cevap hem pratikti hem de çok daha derin bir anlam taşıyordu. Bu tutama Ecel Perçemi deniyordu — ölüme hazır olmanın, bir onur kuralının ve bir inancın işareti.",
+          "characters": 160,
+          "words": 27,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-02.wav",
+            "actual_duration_s": 9.91
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R07",
+            "SH-R10"
+          ],
+          "window": "0:18-0:33",
+          "window_s": 15,
+          "text": "Aslında bu gelenek İslamiyet'ten çok önce, bozkırdan geliyordu. Hunlar çocuklarını korumak için aynı tutamı bırakırdı. Göktürkler ise bunu kut dedikleri ilahi güçle özdeşleştirdi.",
+          "characters": 179,
+          "words": 23,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-03.wav",
+            "actual_duration_s": 11.58
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R11",
+            "SH-R13"
+          ],
+          "window": "0:33-0:45",
+          "window_s": 12,
+          "text": "İslamiyet geldiğinde bu inanç kaybolmadı, sadece yeni bir anlam kazandı. Artık ölüm, ilahi takdirin belirlediği bir andı — ecel.",
+          "characters": 128,
+          "words": 19,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-04.wav",
+            "actual_duration_s": 8.58
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R14",
+            "SH-R17"
+          ],
+          "window": "0:45-0:57",
+          "window_s": 12,
+          "text": "Osmanlı'da bu tutam Serdengeçtilerin simgesi oldu. Kale kuşatmalarında ölümü göze alan gönüllüler. Tıraşlı kafa hijyendi, tutam ise miğferin altında bir yastıktı.",
+          "characters": 162,
+          "words": 21,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-05.wav",
+            "actual_duration_s": 10.52
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R18",
+            "SH-R20"
+          ],
+          "window": "0:57-1:07",
+          "window_s": 10,
+          "text": "Ama en çarpıcı yanı onurdaydı. Düşen bir savaşçının yüzüne değil, perçemine dokunulurdu.",
+          "characters": 88,
+          "words": 12,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-06.wav",
+            "actual_duration_s": 5.79
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R21",
+            "SH-R24"
+          ],
+          "window": "1:07-1:20",
+          "window_s": 13,
+          "text": "Halk arasında inanılırdı ki melekler şehitleri o tutamdan tutup göğe kaldırırdı. Belki de bu yüzden hiçbiri ölümden korkmadı.",
+          "characters": 125,
+          "words": 18,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-07.wav",
+            "actual_duration_s": 7.88
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R25",
+            "SH-R26"
+          ],
+          "window": "1:20-1:30",
+          "window_s": 10,
+          "text": "Şimdi anladın mı? Tek bir tutam saçta üç bin yıllık bir felsefe yaşıyordu. Ecel Perçemi.",
+          "characters": 88,
+          "words": 15,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-08.wav",
+            "actual_duration_s": 6.39
+          }
+        }
+      ],
+      "total_characters": 1027,
+      "total_words": 151,
+      "actual_total_duration_s": 66.86,
+      "combined_audio_path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak.wav"
+    },
+    "v2_dramatik": {
+      "segments": [
+        {
+          "shot_range": [
+            "SH-R01",
+            "SH-R02"
+          ],
+          "window": "0:00-0:05",
+          "window_s": 5,
+          "text": "Kafası tıraş edilir. Geriye tek bir şey kalır: bir tutam saç. Adı Ecel Perçemi.",
+          "characters": 79,
+          "words": 14,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-01.wav",
+            "actual_duration_s": 6.36
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R03",
+            "SH-R06"
+          ],
+          "window": "0:05-0:18",
+          "window_s": 13,
+          "text": "Bu, bir savaşçının ölüme hazır olduğunu gösteren sessiz bir işarettir. Hem bir yastık, hem bir onur kuralı, hem de kadere duyulan sarsılmaz bir inanç.",
+          "characters": 150,
+          "words": 24,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-02.wav",
+            "actual_duration_s": 9.76
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R07",
+            "SH-R10"
+          ],
+          "window": "0:18-0:33",
+          "window_s": 15,
+          "text": "Kökleri bozkıra uzanır. Hunlar çocuklarını kötü ruhlardan korumak için aynı tutamı bırakırdı. Göktürkler onu kut dedikleri göksel güçle birleştirdi — uzayan her tel, ilahi gücün izidir.",
+          "characters": 185,
+          "words": 26,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-03.wav",
+            "actual_duration_s": 12.1
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R11",
+            "SH-R13"
+          ],
+          "window": "0:33-0:45",
+          "window_s": 12,
+          "text": "İslamiyet geldiğinde bu inanç susmadı, dönüştü. Ölüm artık rastgele değil, ecel — ilahi takdirin belirlediği bir andı.",
+          "characters": 118,
+          "words": 17,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-04.wav",
+            "actual_duration_s": 7.93
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R14",
+            "SH-R17"
+          ],
+          "window": "0:45-0:57",
+          "window_s": 12,
+          "text": "Osmanlı'da bu tutam Serdengeçtilerin işaretidir — kaleye ilk atılan, ölümü ilk kucaklayan gönüllüler. Tıraşlı kafa serinlik, tutam ise miğferin altında sessiz bir yastıktır.",
+          "characters": 173,
+          "words": 23,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-05.wav",
+            "actual_duration_s": 10.77
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R18",
+            "SH-R20"
+          ],
+          "window": "0:57-1:07",
+          "window_s": 10,
+          "text": "Ama gerçek anlamı onurdadır. Düşen bir bedenin yüzüne değil, o tek tutama dokunulur. Ölüm bile saygıyı silemez.",
+          "characters": 111,
+          "words": 17,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-06.wav",
+            "actual_duration_s": 7.93
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R21",
+            "SH-R24"
+          ],
+          "window": "1:07-1:20",
+          "window_s": 13,
+          "text": "Halk fısıldar: melekler şehitleri o tutamdan tutup göğe taşır. Kanıtlanmamış, ama yüzyıllarca kalbe cesaret veren bir inanç.",
+          "characters": 124,
+          "words": 17,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-07.wav",
+            "actual_duration_s": 8.23
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R25",
+            "SH-R26"
+          ],
+          "window": "1:20-1:30",
+          "window_s": 10,
+          "text": "Üç bin yıl geçer. Bir tutam saç hâlâ oradadır. Ecel Perçemi.",
+          "characters": 60,
+          "words": 11,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-08.wav",
+            "actual_duration_s": 4.63
+          }
+        }
+      ],
+      "total_characters": 1000,
+      "total_words": 149,
+      "actual_total_duration_s": 67.72,
+      "combined_audio_path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik.wav"
+    },
+    "v3_hizli_liste": {
+      "segments": [
+        {
+          "shot_range": [
+            "SH-R01",
+            "SH-R02"
+          ],
+          "window": "0:00-0:05",
+          "window_s": 5,
+          "text": "Tek tutam saç. Üç bin yıllık anlam. Ecel Perçemi.",
+          "characters": 49,
+          "words": 9,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-01.wav",
+            "actual_duration_s": 4.1
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R03",
+            "SH-R06"
+          ],
+          "window": "0:05-0:18",
+          "window_s": 13,
+          "text": "Kafa tıraşlı. Tepede tek tutam. Ölüme hazır olmanın işareti. Hem yastık, hem onur, hem inanç.",
+          "characters": 93,
+          "words": 15,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-02.wav",
+            "actual_duration_s": 7.17
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R07",
+            "SH-R10"
+          ],
+          "window": "0:18-0:33",
+          "window_s": 15,
+          "text": "Kök bozkırda. Hunlar çocuğu korumak için bırakırdı. Göktürkler buna kut dedi — ilahi güç.",
+          "characters": 89,
+          "words": 14,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-03.wav",
+            "actual_duration_s": 6.15
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R11",
+            "SH-R13"
+          ],
+          "window": "0:33-0:45",
+          "window_s": 12,
+          "text": "İslamiyet geldi. Gelenek kaybolmadı, dönüştü. Ölüm artık ecel — ilahi takdir.",
+          "characters": 77,
+          "words": 11,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-04.wav",
+            "actual_duration_s": 5.62
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R14",
+            "SH-R17"
+          ],
+          "window": "0:45-0:57",
+          "window_s": 12,
+          "text": "Osmanlı'da adı Serdengeçti. En önde koşan gönüllüler. Tıraş hijyen. Tutam, miğferin altında yastık.",
+          "characters": 99,
+          "words": 13,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-05.wav",
+            "actual_duration_s": 7.11
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R18",
+            "SH-R20"
+          ],
+          "window": "0:57-1:07",
+          "window_s": 10,
+          "text": "Asıl mesele onurdu. Düşman sadece perçemden tutardı, yüzden değil.",
+          "characters": 66,
+          "words": 9,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-06.wav",
+            "actual_duration_s": 4.57
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R21",
+            "SH-R24"
+          ],
+          "window": "1:07-1:20",
+          "window_s": 13,
+          "text": "Halk inandı: melekler şehidi o tutamdan tutar. Kanıt yok. Ama cesaret var.",
+          "characters": 74,
+          "words": 12,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-07.wav",
+            "actual_duration_s": 5.38
+          }
+        },
+        {
+          "shot_range": [
+            "SH-R25",
+            "SH-R26"
+          ],
+          "window": "1:20-1:30",
+          "window_s": 10,
+          "text": "Üç bin yıl. Tek tutam. Ecel Perçemi.",
+          "characters": 36,
+          "words": 7,
+          "draft_audio": {
+            "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-08.wav",
+            "actual_duration_s": 3.48
+          }
+        }
+      ],
+      "total_characters": 583,
+      "total_words": 90,
+      "actual_total_duration_s": 43.58,
+      "combined_audio_path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste.wav"
+    }
+  }
+}

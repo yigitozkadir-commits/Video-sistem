@@ -54,5 +54,173 @@
     "cached_at": "2026-08-15T04:29:36.561780+00:00",
     "scene_id": "SHORT-SEG-08",
     "char_count": 81
+  },
+  "df48c52cf3e0162d52ef819000414469f6da7a0ed2de89caa6bdda19749f4995": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-01.wav",
+    "sha256": "02a02efc01b6f4600648a82b2d133fce1ec73b17ce3fbfe7fd82a0d01d08f5b1",
+    "cached_at": "2026-08-15T04:33:55.381507+00:00",
+    "scene_id": "v1_soru_merak-SEG-01",
+    "char_count": 97
+  },
+  "6a4d241e9c1466b4feb3a09d3923eef6ae37659bfae870336d736432fdb5ac21": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-02.wav",
+    "sha256": "bcbe819f331f7b4bab280ff4f1bc11d67c45c5974250a108ba12b67f57eb30eb",
+    "cached_at": "2026-08-15T04:33:57.692350+00:00",
+    "scene_id": "v1_soru_merak-SEG-02",
+    "char_count": 160
+  },
+  "46f1294c20a83587b2244680b771c1bd608ef5008fa8a923716f948dc1680a65": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-03.wav",
+    "sha256": "18879c2f4cad3b4e4a35fee68724383f436859d3e54523016f5263681e8df3f4",
+    "cached_at": "2026-08-15T04:33:59.933752+00:00",
+    "scene_id": "v1_soru_merak-SEG-03",
+    "char_count": 179
+  },
+  "f039e06bd5ec1e8ac9c56ad040d365c04a1bb6d41eae0d185945fa33923b4da8": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-04.wav",
+    "sha256": "3bb415616d6783fd063f7ab536352f18ed2bc329344be897bf1c9cb7651abca1",
+    "cached_at": "2026-08-15T04:34:02.062348+00:00",
+    "scene_id": "v1_soru_merak-SEG-04",
+    "char_count": 128
+  },
+  "c74402f312836e55a513b0ba5de8a1c37bcdf888fa6a403ec5ef3a59f2eb514e": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-05.wav",
+    "sha256": "2750ad3c5585a40a64fc30ddb82946932af85a25c1787dc18069a4260cf9a0a6",
+    "cached_at": "2026-08-15T04:34:04.322479+00:00",
+    "scene_id": "v1_soru_merak-SEG-05",
+    "char_count": 162
+  },
+  "dfad11fbf971c65c90439ac02b8469c9f2446ed24904578adacb18d70fa63f34": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-06.wav",
+    "sha256": "bc2f069f7432213587dcbaf65bae5e630187053932e701370b2802abd6b67778",
+    "cached_at": "2026-08-15T04:34:06.424973+00:00",
+    "scene_id": "v1_soru_merak-SEG-06",
+    "char_count": 88
+  },
+  "f9076badb9a41394c3d0f01db0a6db541de909ef237c287966d411f379b29e17": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-07.wav",
+    "sha256": "097dd4a7b3c2acbb79f2c7cc767c4b1d1d626b16b12dfb36f990cc62edc11c30",
+    "cached_at": "2026-08-15T04:34:08.569339+00:00",
+    "scene_id": "v1_soru_merak-SEG-07",
+    "char_count": 125
+  },
+  "d7e3b414c99e2b0c855568f25b86233ac94114106540b187c0460443ad8f246d": {
+    "path": "projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v1_soru_merak/seg-08.wav",
+    "sha256": "090f1c8c143635253a059a39b42d1c44b58bbd0d8fe52873a3978dae52ae8879",
+    "cached_at": "2026-08-15T04:34:10.671712+00:00",
+    "scene_id": "v1_soru_merak-SEG-08",
+    "char_count": 88
+  },
+  "5c1660eda8ca7d71c4696db41bb70ed84043b2b0e06465c02055fd864b2211b4": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-01.wav",
+    "sha256": "0de6258077982bb6d49ba71203f662d866d578fa671b96a3bccc41205fd73eab",
+    "cached_at": "2026-08-15T04:34:25.832377+00:00",
+    "scene_id": "v2_dramatik-SEG-01",
+    "char_count": 79
+  },
+  "6684de9ca6f1b6787705e0523c01599abb4eafc2cc0ce012041bc4d08736319d": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-02.wav",
+    "sha256": "ccb18a8b07403b32b06aa80705b321b3cd3541d66166e57710109e5cc358799a",
+    "cached_at": "2026-08-15T04:34:28.035483+00:00",
+    "scene_id": "v2_dramatik-SEG-02",
+    "char_count": 150
+  },
+  "d26b2f389af2f1ce91addbdc1f8884cfe8862e819d62553a2f54f3d66f336c0f": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-03.wav",
+    "sha256": "e067cbba15ccdf9f96ecbf2ccda66754c0264da61f9ac049bdf571351ac9458d",
+    "cached_at": "2026-08-15T04:34:30.411907+00:00",
+    "scene_id": "v2_dramatik-SEG-03",
+    "char_count": 185
+  },
+  "e55f8e7ff6a36b4a8c94c8be43a8e1fa3fd034a9c94608fb5b38606dc5f660fe": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-04.wav",
+    "sha256": "519c6c7f1b2182b1c5e4e8d602d7be44268d17a2eb20b466e64062fbc9f045eb",
+    "cached_at": "2026-08-15T04:34:32.602243+00:00",
+    "scene_id": "v2_dramatik-SEG-04",
+    "char_count": 118
+  },
+  "e7a04c0c4f8bc080e8cd25b4fe8de603790745166e6ca40fd709e65019ac81ad": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-05.wav",
+    "sha256": "6c407d836d39b79b6acbff1af05b6bc7d5ca0aa1f4f77435b933ae7c44fd67c7",
+    "cached_at": "2026-08-15T04:34:34.986607+00:00",
+    "scene_id": "v2_dramatik-SEG-05",
+    "char_count": 173
+  },
+  "59621100afab30947362f3e398c64c2d18416a144cadccd41a589cb2ffdfbd1f": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-06.wav",
+    "sha256": "ec467a08fddac6a4af345cf9aefad642cd6ff1830a76fb64b1f104806912b320",
+    "cached_at": "2026-08-15T04:34:37.151816+00:00",
+    "scene_id": "v2_dramatik-SEG-06",
+    "char_count": 111
+  },
+  "6aca8cd735405764d3e5f1a88d559ed7c14d78b91555ad451157dcbdfa6a569f": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-07.wav",
+    "sha256": "52d2253952475eca888c4f6f6870499a895c08a5073a5bb082c1de594f2e7fb3",
+    "cached_at": "2026-08-15T04:34:39.333453+00:00",
+    "scene_id": "v2_dramatik-SEG-07",
+    "char_count": 124
+  },
+  "e3eac28672a6e0b75eb7fa0457bbf480c93ff20efbec330542ee83b62338d5d2": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v2_dramatik/seg-08.wav",
+    "sha256": "139b3edd35c0d6def65bde2cbc481473746a6392f40fab2f449285efae211d22",
+    "cached_at": "2026-08-15T04:34:41.292885+00:00",
+    "scene_id": "v2_dramatik-SEG-08",
+    "char_count": 60
+  },
+  "eb8430d682e49fe6bceb1f61db57e5986da5409cf7d7b2449ed0847329d1f7ac": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-01.wav",
+    "sha256": "fb4dfba80f491b7653596063364f62d312a924bec2ea1cc07eb88068e3a09a07",
+    "cached_at": "2026-08-15T04:34:43.418771+00:00",
+    "scene_id": "v3_hizli_liste-SEG-01",
+    "char_count": 49
+  },
+  "30d024d42e3ed8eb3602a8c2d030819c41784493f672377e24c7949454248018": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-02.wav",
+    "sha256": "921d33818809951473e2c6bfa8723a36567b658a8a1346182c281dcca5f483b1",
+    "cached_at": "2026-08-15T04:34:45.542969+00:00",
+    "scene_id": "v3_hizli_liste-SEG-02",
+    "char_count": 93
+  },
+  "84d935b9f9c4c90cf47de1b6d8f80ba09638a4ade887c32a47aab8b6d8ab395c": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-03.wav",
+    "sha256": "1d689c73e17a346c5b63ae8cb24cb8024b0bca791aa8d87729589f1baee58208",
+    "cached_at": "2026-08-15T04:34:47.605511+00:00",
+    "scene_id": "v3_hizli_liste-SEG-03",
+    "char_count": 89
+  },
+  "81f0df40921d282062528a349a54d58d7ca04ed0c5873507e8920518cf11e632": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-04.wav",
+    "sha256": "7bfbd99df9f19cebb56903cc69bfeb85a385e5a3632eee2dc2b9c4f8a88c0c0a",
+    "cached_at": "2026-08-15T04:34:49.641963+00:00",
+    "scene_id": "v3_hizli_liste-SEG-04",
+    "char_count": 77
+  },
+  "508d06866e206ac0e20079ba3757ed4bcf66a272bf45ef978de3a74050813532": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-05.wav",
+    "sha256": "d34d6bc97414b87a47ec96c463dae9826eff72086d1d00d02dfec7c5fde18a52",
+    "cached_at": "2026-08-15T04:34:51.705405+00:00",
+    "scene_id": "v3_hizli_liste-SEG-05",
+    "char_count": 99
+  },
+  "9d13aafdd3e5c8919f8cae29134754685780d3ff92de6ad0243ccd15e1515172": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-06.wav",
+    "sha256": "dfb4ab1951e2946bc3063a417a897207dbb76dae6265ee8d2f3abf448a6fab1a",
+    "cached_at": "2026-08-15T04:34:53.686005+00:00",
+    "scene_id": "v3_hizli_liste-SEG-06",
+    "char_count": 66
+  },
+  "e0cb74873b00653558e01f3ed8d346e49d45fae4789d394664bf25976f8d1594": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-07.wav",
+    "sha256": "89398d16766b7e91ae6603947f86e0c8cbfa17c1e1773b6d7ee7c241f34c8e21",
+    "cached_at": "2026-08-15T04:34:55.729971+00:00",
+    "scene_id": "v3_hizli_liste-SEG-07",
+    "char_count": 74
+  },
+  "8be8eaa51919f3ca0bbb020343de0f344ed23558e38ee82585d9a06d5d3a2b30": {
+    "path": "/home/user/Video-sistem/projects/PRJ-ecel-percemi/assets/audio/short_draft_variants/v3_hizli_liste/seg-08.wav",
+    "sha256": "f8902df0ab57b6e0ea6cdafb58404992ceb78174b66f0d2a1ac0bb4f2e3b1ae6",
+    "cached_at": "2026-08-15T04:34:57.651348+00:00",
+    "scene_id": "v3_hizli_liste-SEG-08",
+    "char_count": 36
   }
 }

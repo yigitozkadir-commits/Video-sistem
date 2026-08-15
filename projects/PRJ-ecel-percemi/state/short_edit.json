@@ -1,0 +1,330 @@
+{
+  "project_id": "PRJ-ecel-percemi",
+  "cut": "short_9x16",
+  "version": 1,
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "total_duration_s": 90.0,
+  "audio": null,
+  "audio_note": "No narration yet - ElevenLabs pre_generation_approval gate (studio.config.json) not passed. Timings are from the prompt sheet plan, NOT from narration. Law #3 (narration is the clock) means this cut is provisional and will be re-timed once narration exists.",
+  "prompt_sheet": "projects/PRJ-ecel-percemi/FLOW_PROMPTS_SHORT_9x16.txt",
+  "shots": [
+    {
+      "shot_id": "SH-R01",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R01.jpeg",
+      "sha256": "cf93363f6fa6cebc5aaaf872c9e2899e15b0595828224564b15c99e0b306db52",
+      "bytes": 680205,
+      "start_s": 0.0,
+      "duration_s": 2.0,
+      "motion": "push_in",
+      "source_filename": "Human_head_with_single_tuft_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R02",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R02.jpeg",
+      "sha256": "b33c79151875962e83ed3994cbe79eda224ba5edf755ff3b365a30cf8bbba3df",
+      "bytes": 737791,
+      "start_s": 2.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Warrior_facing_camera_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R03",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R03.jpeg",
+      "sha256": "7bfb87b869903214d31f8d59e379ca82cc151ac910a11e70947fcb19836e396f",
+      "bytes": 675953,
+      "start_s": 5.0,
+      "duration_s": 4.0,
+      "motion": "pull_out",
+      "source_filename": "Hand_holding_straight_razor_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R04",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R04.jpeg",
+      "sha256": "c37045346e85deb6d7c57d6d49e45fd2c580f280fac29b66b68ec99d05c5a40b",
+      "bytes": 791985,
+      "start_s": 9.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Ottoman_iron_helmet_on_earth_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R05",
+      "kind": "video",
+      "path": "projects/PRJ-ecel-percemi/assets/video/SH-R05.mp4",
+      "sha256": "ea4ac71a3deb25697d0cf22cfd00be3ee3bece4ddc0535d1d2ca7e2c062f330e",
+      "bytes": 2052735,
+      "start_s": 12.0,
+      "duration_s": 3.0,
+      "motion": "native",
+      "source_filename": "Warrior_standing_on_steppe_ridge_202608150106.mp4"
+    },
+    {
+      "shot_id": "SH-R06",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R06.jpeg",
+      "sha256": "323e5748a0ca3a7ca9def199f68a1a6c861def16c541c71c532cb91059c582af",
+      "bytes": 752903,
+      "start_s": 15.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Three_Ottoman_warriors_standing_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R07",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R07.jpeg",
+      "sha256": "3db18b2c3f6cf4395e22a4698d4551e3859a20cde9eb963a4a2fca97f866be91",
+      "bytes": 752926,
+      "start_s": 18.0,
+      "duration_s": 4.0,
+      "motion": "push_in",
+      "source_filename": "Child_wearing_fur_coat_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R08",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R08.jpeg",
+      "sha256": "7c9560a4e3d2989441fe075abecc20916f37eb2c294268c9e0f2e7753b46eaf9",
+      "bytes": 783359,
+      "start_s": 22.0,
+      "duration_s": 4.0,
+      "motion": "pull_out",
+      "source_filename": "Hair_bundle_on_stone_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R09",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R09.jpeg",
+      "sha256": "39e78094a54ff7cacd3e2afe19db2dfdea5b51de2055db44c9e58dabff322def",
+      "bytes": 975705,
+      "start_s": 26.0,
+      "duration_s": 4.0,
+      "motion": "push_in",
+      "source_filename": "Braided_hair_with_leather_cords_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R10",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R10.jpeg",
+      "sha256": "02f4401314c5a5dff9d4e48495f4e38e15d1b4f7b611453c16fafd62f4bb5473",
+      "bytes": 934917,
+      "start_s": 30.0,
+      "duration_s": 3.0,
+      "motion": "tilt_up",
+      "source_filename": "Stone_stele_with_runic_marks_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R11",
+      "kind": "video",
+      "path": "projects/PRJ-ecel-percemi/assets/video/SH-R11.mp4",
+      "sha256": "a753806bb1f5d49f4f597601aea8f27c8a34305bdfad884d5297b4905c2bc369",
+      "bytes": 2010053,
+      "start_s": 33.0,
+      "duration_s": 4.0,
+      "motion": "native",
+      "source_filename": "Mosque_interior_viewed_from_below_202608150106.mp4"
+    },
+    {
+      "shot_id": "SH-R12",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R12.jpeg",
+      "sha256": "6f0162e9613672a9c419f449af9e662175b2ebb49355c84fe26ba42f8a2ef1c0",
+      "bytes": 696388,
+      "start_s": 37.0,
+      "duration_s": 4.0,
+      "motion": "push_in",
+      "source_filename": "Hand_holding_pen_writing_manuscript_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R13",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R13.jpeg",
+      "sha256": "e0119ab541af01f61da4e72c5ef36fdeb970646f1bcc56eb1aa07cee757d8181",
+      "bytes": 768075,
+      "start_s": 41.0,
+      "duration_s": 4.0,
+      "motion": "pull_out",
+      "source_filename": "Warrior_kneeling_on_prayer_mat_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R14",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R14.jpeg",
+      "sha256": "734c9072f6e30dd7774d4f5521ebc0f345ed9b873ce79f836f43c19bd8e263b5",
+      "bytes": 789271,
+      "start_s": 45.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Shaven_scalp_with_hair_tuft_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R15",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R15.jpeg",
+      "sha256": "b7860f47999ade88f86394349face6d8346533cfa09b89221f08c0b2323c99a3",
+      "bytes": 769713,
+      "start_s": 48.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Ottoman_iron_helmet_filling_frame_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R16",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R16.jpeg",
+      "sha256": "ae1c64ce972cce89576fa292e421f872b025e52faae0796e1b815af8befa2856",
+      "bytes": 718990,
+      "start_s": 51.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Warrior_lowering_iron_helmet_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R17",
+      "kind": "video",
+      "path": "projects/PRJ-ecel-percemi/assets/video/SH-R17.mp4",
+      "sha256": "47ebe207b3eb53a73c1e43bea301ff095796cc6ba5e21fb720d26ebcdb9416da",
+      "bytes": 2154138,
+      "start_s": 54.0,
+      "duration_s": 3.0,
+      "motion": "native",
+      "source_filename": "Ottoman_battle_standard_in_smoke_202608150106.mp4"
+    },
+    {
+      "shot_id": "SH-R18",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R18.jpeg",
+      "sha256": "f91b30704df7c4efb97e09d5ccb6e0035b12cee9c6f62328dcd4dd6aa0ec1b50",
+      "bytes": 645373,
+      "start_s": 57.0,
+      "duration_s": 3.0,
+      "motion": "pull_out",
+      "source_filename": "Warriors_carrying_wooden_stretcher_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R19",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R19.jpeg",
+      "sha256": "5e5a653d5423e7c9905cb031b428f6441104f5f3ee4c7755d481a80f5e7416ee",
+      "bytes": 737439,
+      "start_s": 60.0,
+      "duration_s": 4.0,
+      "motion": "push_in",
+      "source_filename": "Warrior_standing_in_mountain_pass_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R20",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R20.jpeg",
+      "sha256": "2280eb8f5d97f9e073d2ee075c230aaf5d76ea78a2ad452182ec97c1bb8382b7",
+      "bytes": 835007,
+      "start_s": 64.0,
+      "duration_s": 3.0,
+      "motion": "pull_out",
+      "source_filename": "Cloak_sword_and_turban_on_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R21",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R21.jpeg",
+      "sha256": "f6530472b18a4d1355ff3eb16d838665289e9ef2cfe24741cee56f903f8fa504",
+      "bytes": 566293,
+      "start_s": 67.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Light_falling_on_shaven_head_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R22",
+      "kind": "video",
+      "path": "projects/PRJ-ecel-percemi/assets/video/SH-R22.mp4",
+      "sha256": "dc8c0bafc518687f590a5d069d7399f49654ac74063f8cb7d2825555fe2b9fae",
+      "bytes": 2256372,
+      "start_s": 70.0,
+      "duration_s": 4.0,
+      "motion": "native",
+      "source_filename": "Light_shaft_breaking_through_clouds_202608150106.mp4"
+    },
+    {
+      "shot_id": "SH-R23",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R23.jpeg",
+      "sha256": "794cf82790ffc13314eacaa8708e8bdb0294f9cecb371fe9605c562d148c0982",
+      "bytes": 600607,
+      "start_s": 74.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Luminous_humanoid_standing_at_ba#U2026_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R24",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R24.jpeg",
+      "sha256": "a54cc942330037487655569317571478267aa0f8e408d0e8e73d0c2c769806a0",
+      "bytes": 611348,
+      "start_s": 77.0,
+      "duration_s": 3.0,
+      "motion": "push_in",
+      "source_filename": "Warrior_preparing_for_battle_202608150106.jpeg"
+    },
+    {
+      "shot_id": "SH-R25",
+      "kind": "video",
+      "path": "projects/PRJ-ecel-percemi/assets/video/SH-R25.mp4",
+      "sha256": "5ca194856463ed8a01a1a3fc8e2ba8ea9df4032582dbd6c968d31de383b61917",
+      "bytes": 2042968,
+      "start_s": 80.0,
+      "duration_s": 5.0,
+      "motion": "native",
+      "source_filename": "Warrior_standing_on_ridge_202608150108.mp4"
+    },
+    {
+      "shot_id": "SH-R26",
+      "kind": "still",
+      "path": "projects/PRJ-ecel-percemi/assets/still/SH-R26.jpeg",
+      "sha256": "a5398ddd047bbe961ef0c08758f3a86ae1252d5107adc0071f0fad36fe6d8cc1",
+      "bytes": 787182,
+      "start_s": 85.0,
+      "duration_s": 5.0,
+      "motion": "push_in",
+      "source_filename": "Shaven_head_with_hair_tuft_202608150106.jpeg"
+    }
+  ],
+  "preview_render": {
+    "path": "projects/PRJ-ecel-percemi/output/PRJ-ecel-percemi_short_preview.mp4",
+    "built_by": "scripts/build_short_preview.py",
+    "canvas": "1080x1920 @30fps",
+    "duration_s": 90.0,
+    "audio": "none (silent)",
+    "captions": "none (no narration text exists yet)",
+    "outro_appended": false,
+    "outro_note": "CLAUDE.md sec 11 outro is a master-delivery step; a preview is not a master."
+  },
+  "qa_findings": [
+    {
+      "id": "F-001",
+      "shot_id": "SH-R12",
+      "severity": "BLOCKER",
+      "summary": "Wrong civilisation and modern objects in the manuscript shot.",
+      "detail": "Flow returned a Latin-alphabet European manuscript with Celtic interlace illumination, written in a modern room: a white PVC double-glazed window, a modern fleece/shirt collar. The shot sits in the Islamic-synthesis section and must read Ottoman/Islamic. It also breaks the sheet's own negative prompt ('modern objects') and the 'ornamental and not legible' instruction.",
+      "action": "Regenerate with the revised SH-R12 prompt before any master render. Preview ships with the defective frame in place so the cut can still be judged - not silently swapped or hidden."
+    },
+    {
+      "id": "F-002",
+      "shot_id": "SH-R23",
+      "severity": "NOTE",
+      "summary": "Luminous figure reads closer to a modern grey-alien silhouette than to light.",
+      "detail": "Restrained and non-literal as intended (no wings, no face), so it does not misstate the folk belief, but the surface treatment is flat grey rather than self-lit.",
+      "action": "Acceptable as-is; regenerate only if you dislike it on viewing."
+    }
+  ]
+}

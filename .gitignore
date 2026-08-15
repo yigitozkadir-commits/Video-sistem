@@ -49,3 +49,6 @@ projects/_content_backlog/output/
 projects/_content_backlog/_scratch/
 .env.research
 complete-research-ninniler-plan.tar.gz
+
+# Preview renders are regenerable from state/short_edit.json + assets
+projects/*/output/*_short_preview.mp4
